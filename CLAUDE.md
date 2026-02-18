@@ -1,0 +1,636 @@
+# CLAUDE.md — PPL± Project Operating Instructions
+
+You are working inside the PPL± repository.
+This file is your operating context. Read it before touching anything else.
+
+---
+
+## CURRENT PROJECT PHASE
+
+**Phase: 1 — Repository Infrastructure**
+Status: Stubs being created. No workouts generated yet.
+Priority: Do not generate workout content until instructed.
+Active task: See `whiteboard.md` for current session instructions.
+
+**Do not freelance. Read `whiteboard.md` before acting.**
+
+---
+
+## WHAT THIS PROJECT IS
+
+PPL± is a semantic training language and workout generation system built by Jake Berry.
+It uses 61 emojis across 7 categories to produce 1,680 unique workout addresses called
+zip codes. Each zip code is a 4-emoji address that fully specifies a workout's loading
+protocol, muscle group, exercise character, and equipment format.
+
+The system is called SCL — Semantic Compression Language.
+
+This repository is the master source of truth for all 1,680 workouts.
+
+**Your role in this repository:**
+- Parse zip codes and generate workouts that honor every constraint
+- Write generated workouts into the correct card files
+- Rename stub files to their full semantic filenames upon generation
+- Never hallucinate parameters. If a constraint is unclear, re-read this file.
+- Never exceed Order ceilings. The Order is the law.
+
+---
+
+## DOWNSTREAM ARCHITECTURE
+
+The `.md` card files are the master blueprints for a web application.
+Each card file will be ported to an interactive HTML workout card.
+Each HTML card becomes a loggable, interactive room for users.
+User workout history writes back to their personal exercise database.
+
+A hallucinated exercise in a `.md` file propagates through:
+`.md → HTML render → user workout session → user history → preference data.`
+
+**Content accuracy is the highest priority constraint in this repository.**
+When in doubt about an exercise or parameter, do not guess. Flag it.
+
+---
+
+## REPOSITORY STRUCTURE
+
+```
+ppl-plus-ultra/
+├── README.md              — Public face. What this is and how to navigate it.
+├── CLAUDE.md              — This file. Your operating instructions.
+├── whiteboard.md          — Active decisions, current phase, open questions.
+├── scl-directory.md       — Complete SCL reference. Every rule lives here.
+├── exercise-library.md    — All valid exercises mapped to SCL types. v.0
+└── cards/
+    └── [order]/[axis]/[type]/
+        └── [zip]±.md                        — Stub. Awaiting generation.
+        └── [zip]±[op] [Title].md            — Complete. Workout generated.
+```
+
+Card files live at:
+`cards/[order-folder]/[axis-folder]/[type-folder]/[filename].md`
+
+Example:
+`cards/⛽-strength/🏛-basics/🪡-pull/⛽🏛🪡🔵±🤌 Heavy Classic Pulls.md`
+
+---
+
+## FILE NAMING CONVENTION
+
+**Stub (awaiting generation):**
+`[zip]±.md`
+Example: `⛽🏛🪡🔵±.md`
+
+**Complete (workout generated):**
+`[zip]±[operator emoji] [Workout Title].md`
+Example: `⛽🏛🪡🔵±🤌 Heavy Classic Pulls.md`
+
+The ± is the hinge point.
+- Left of ± — machine-readable zip code address
+- Right of ± — operator emoji + human-readable workout title
+
+The operator emoji bridges the address and the title.
+The full filename is the complete semantic identity of the workout.
+
+When you generate a workout, you rename the stub file to the complete filename
+as part of the same commit.
+
+---
+
+## CARD STUB TEMPLATE
+
+When creating stub files, use this exact format:
+
+```
+---
+zip: ORDERAXISTYPECOLOR
+operator: [derived operator emoji] [latin name]
+status: EMPTY
+deck: [deck number]
+order: [emoji] [Name] | [load%] | [rep range] | [rest] | CNS: [level]
+axis: [emoji] [Name] | [character description]
+type: [emoji] [Name] | [muscle groups]
+color: [emoji] [Name] | Tier [X–X] | GOLD: [Yes/No] | [format description]
+blocks: [derived block sequence using block emojis]
+---
+
+This card is unfilled. Generate workout at this address using SCL rules in scl-directory.md.
+```
+
+Example stub for ⛽🏛🪡🔵:
+
+```
+---
+zip: ⛽🏛🪡🔵
+operator: 🤌 facio
+status: EMPTY
+deck: 07
+order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min rest | CNS: High
+axis: 🏛 Basics | Bilateral, barbell-first, proven classics
+type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
+color: 🔵 Structured | Tier 2–3 | GOLD: No | Prescribed sets/reps/rest
+blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🪫 → 🚂 → 🧮
+---
+
+This card is unfilled. Generate workout at this address using SCL rules in scl-directory.md.
+```
+
+---
+
+## GENERATION SEQUENCE (per card)
+
+When instructed to generate a workout for a zip code:
+
+1. Locate the stub file at the correct path in `cards/`
+2. Read the stub frontmatter to confirm zip code and parameters
+3. Run the full validation checklist mentally before writing anything
+4. Generate the complete workout in SCL markdown format
+5. Replace stub content with generated workout
+6. Update frontmatter: `status: EMPTY` → `status: GENERATED`
+7. Rename the file from `[zip]±.md` to `[zip]±[op] [Title].md`
+8. Update `whiteboard.md`: log the zip code as generated
+9. Do not move to the next card until the current card passes validation
+
+---
+
+## THE 4-DIAL ZIP CODE
+
+Every workout is a 4-emoji address. Format: ORDER AXIS TYPE COLOR
+
+```
+Position 1: ORDER  (7)  — Load ceiling. Training phase. The law.
+Position 2: AXIS   (6)  — Exercise character. Selection bias.
+Position 3: TYPE   (5)  — Muscle groups. Movement domain.
+Position 4: COLOR  (8)  — Equipment tier. Session format.
+```
+
+Total combinations: 7 × 6 × 5 × 8 = **1,680 zip codes**.
+
+**Constraint hierarchy when dials conflict:**
+1. ORDER — Hard ceiling. Nothing exceeds it. Ever.
+2. COLOR — Hard filter. Equipment is binary.
+3. AXIS  — Soft bias. Ranks exercises, does not exclude.
+4. Equipment — Practical filter. What is actually available.
+
+---
+
+## THE 61 SCL EMOJI DICTIONARY
+
+### ORDERS (7) — The Loading Protocol
+
+| Emoji | Name | Load | Reps | Rest | Max Difficulty | CNS |
+|-------|------|------|------|------|----------------|-----|
+| 🐂 | Foundation | ≤65% | 8–15 | 60–90s | 2/5 | Low |
+| ⛽ | Strength | 75–85% | 4–6 | 3–4 min | 4/5 | High |
+| 🦋 | Hypertrophy | 65–75% | 8–12 | 60–90s | 3/5 | Moderate |
+| 🏟 | Performance | 85–100%+ | 1–3 | Full | 5/5 | High |
+| 🌾 | Full Body | ~70% | 8–10 | 30–90s | 3/5 | Moderate |
+| ⚖ | Balance | ~70% | 10–12 | 90s | 3/5 | Moderate |
+| 🖼 | Restoration | ≤55% | 12–15 | 60s | 2/5 | Low |
+
+**Order character notes:**
+
+🐂 Foundation — Pattern learning at sub-maximal load. The on-ramp for any new
+skill at any level. Not beginner-only. A 20-year lifter learning Olympic lifts
+uses 🐂. The ceiling: if load exceeds 65%, reps drop below 8, or difficulty
+exceeds 2 — it is not 🐂 regardless of what else the code says. Order is the ceiling. The ceiling does not bend.
+
+⛽ Strength — Neural adaptation. Heavy loads, low reps, full recovery. Force
+production. Not bodybuilding. The pump is irrelevant here.
+
+🦋 Hypertrophy — Muscle growth through volume and metabolic stress. Load is a
+tool for tension, not the goal. The pump matters.
+
+🏟 Performance — Testing, not training. You test, record, and leave. No junk
+volume after the test. 🏟 blocks hypertrophy-style accumulation by default.
+Scope: strength benchmarks, conditioning benchmarks, movement assessments,
+sport-specific tests.
+
+🌾 Full Body — Integration. Movements must flow into each other as one unified
+pattern. **Flow and Unity Test is mandatory:** (1) Does one movement flow into the
+next without a reset? (2) Is the result a single unified pattern? Both must be
+yes. Thrusters pass. Squat-then-row-as-separate-movements fails.
+
+⚖ Balance — Correction. Microscope on weak links and asymmetries.
+⚖🛒 = triceps, side delts, front delts. ⚖🪡 = biceps, rear delts, forearms,
+grip. ⚖🍗 = calves, adductors, tibialis. ⚖➕ = rotational stability,
+anti-rotation. ⚖➖ = energy system gaps, aerobic base.
+
+🖼 Restoration — Recovery without training debt. You leave fresher than you
+entered. Extended scope: somatic movement, TRE, pelvic floor, deep hip work,
+diaphragmatic breathing, nervous system regulation.
+🖼 + 🌹 + ⚪ = the deepest recovery lane in the system.
+
+### TYPES (5) — The Muscle Groups
+
+| Emoji | Name | Muscles | Primary Patterns |
+|-------|------|---------|-----------------|
+| 🛒 | Push | Chest, front delts, triceps | Horizontal press, vertical press |
+| 🪡 | Pull | Lats, rear delts, biceps, traps, erectors | Row, pulldown, hinge |
+| 🍗 | Legs | Quads, hamstrings, glutes, calves | Squat, lunge, hinge, isolation |
+| ➕ | Plus | Full body power, core | Olympic lifts, carries, plyometrics, anti-rot |
+| ➖ | Ultra | Cardiovascular system | Rowing, cycling, running, conditioning, flows |
+
+### AXES (6) — Exercise Character and Selection Bias
+
+**🏛 Basics (Firmitas) — Ranking axis**
+Bilateral, stable, time-tested fundamentals. Barbell classics first.
+Priority: Barbell > dumbbell. Bilateral > unilateral. Compound > isolation.
+Classic > novel. Would someone feel this axis without being told? Yes,
+if the exercises are the barbell staples that have anchored training for decades.
+
+**🔨 Functional (Utilitas) — Ranking axis**
+Unilateral, standing, athletic-transfer movements.
+Priority: Unilateral > bilateral. Standing > seated. Free weight > machine.
+Ground-based > bench-based.
+
+**🌹 Aesthetic (Venustas) — Ranking axis**
+Isolation, full ROM, mind-muscle connection. Feel over load.
+Priority: Isolation > compound. Cable/machine > barbell. Feeling > load.
+In 🖼 Restoration context: lens turns inward — pelvic floor, psoas,
+diaphragm, deep hip structures. The aesthetic lens becomes somatic.
+
+**🪐 Challenge (Gravitas) — Ranking axis**
+Hardest variation at any level. Deficit, pause, tempo, bands, chains,
+unstable surfaces, stricter execution. Scales to the individual — always
+the hardest version they can control.
+
+**⌛ Time (Temporitas) — Context axis**
+Enables: EMOM, AMRAP, density blocks, timed sets, time trials, TUT,
+steady state, zone work. The specific protocol comes from Order × Color:
+⌛🔴 = density/AMRAP. ⌛⚪ = meditative holds. ⌛🏟 = time trials.
+⌛🔵 = EMOM.
+
+**🐬 Partner (Sociatas) — Context axis**
+Enables: Spottable, alternating, synchronized, competitive, assisted,
+station rotation, scalable load, teachable. Machine work deprioritized.
+Surfaces exercises that work with another person present.
+
+### COLORS (8) — Equipment and Session Format
+
+Equipment Tiers:
+- Tier 0: Bodyweight only
+- Tier 1: Bands, sliders, rollers
+- Tier 2: Dumbbells, kettlebells, plates
+- Tier 3: Barbell, rack, bench
+- Tier 4: Machines, cables
+- Tier 5: Specialty (stones, sleds, GHD, competition equipment)
+
+**THE GOLD RULE:** Only 🔴 Intense and 🟣 Technical unlock GOLD exercises.
+GOLD = Olympic lifts, advanced plyometrics, spinal-loaded ballistics.
+All other colors block GOLD regardless of Order.
+
+| Emoji | Name | Tier | GOLD | Character |
+|-------|------|------|------|-----------|
+| ⚫ | Teaching | 2–3 | No | Extra rest, coaching cues, comprehension over exertion |
+| 🟢 | Bodyweight | 0–2 | No | No gym required. Park, hotel, living room. |
+| 🔵 | Structured | 2–3 | No | Prescribed sets/reps/rest. Trackable. Repeatable. |
+| 🟣 | Technical | 2–5 | Yes | Precision. Lower volume, extended rest, quality focus. |
+| 🔴 | Intense | 2–4 | Yes | Maximum effort. High volume. Reduced rest. Supersets OK. |
+| 🟠 | Circuit | 0–3 | No | Station-based timed rotation. No barbells. Loop logic req. |
+| 🟡 | Fun | 0–5 | No | Exploration and variety. Structured play within constraints. |
+| ⚪ | Mindful | 0–3 | No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breath. |
+
+🟠 Circuit loop logic rule: Every station must change which tissue is
+working. No two adjacent stations target the same muscle group. A circuit
+is not a list of exercises done quickly — it is a deliberate tissue-rotation
+loop where each station recovers while others work.
+
+---
+
+## THE ± OPERATOR LAYER
+
+After the zip code, the ± bridges to an operator — a Latin-derived verb
+that sets session intent. The operator is derived from Axis × Color polarity.
+
+Polarity split:
+- **Preparatory Colors (inhale):** ⚫ Teaching, 🟢 Bodyweight, ⚪ Mindful, 🟡 Fun
+- **Expressive Colors (exhale):**  🔵 Structured, 🟣 Technical, 🔴 Intense, 🟠 Circuit
+
+**Default Operator Table:**
+
+| Axis | Preparatory (⚫🟢⚪🟡) | Expressive (🔵🟣🔴🟠) |
+|------|--------------------------|--------------------------|
+| 🏛 Basics | 📍 pono (place/position) | 🤌 facio (execute/perform) |
+| 🔨 Funct. | 🧸 fero (carry/transfer) | 🥨 tendo (extend/push limits) |
+| 🌹 Aesth. | 👀 specio (inspect/observe) | 🦢 plico (fold/superset/layer) |
+| 🪐 Chall. | 🪵 teneo (hold/anchor/persist) | 🚀 mitto (dispatch/deploy/launch) |
+| ⌛ Time | 🐋 duco (orchestrate/conduct) | ✒️ grapho (write/prescribe/document) |
+| 🐬 Partner | 🧲 capio (receive/assess/intake) | 🦉 logos (reason/analyze/interpret) |
+
+The coach can override the default operator. Honor the override.
+
+---
+
+## BLOCKS (22) — Session Containers
+
+Blocks are rooms inside a workout. The name is fixed. The content is
+context-dependent based on the zip code. Same block name, completely
+different content depending on Order, Axis, Type, and Color.
+
+**Four operational functions:**
+- Orientation        — Arriving, focusing, pointing intent
+- Access/Preparation — Mobility, activation, priming
+- Transformation     — Where capacity is built or tested
+- Retention/Transfer — Locking in, cooling down, bridging forward
+
+| Emoji | Name | Role | Notes |
+|-------|------|------|-------|
+| ♨️ | Warm-Up | Orientation/Access | Always present. Always first (unless 🎯 opens). Content shifts by Order. |
+| 🎯 | Intention | Orientation | One sentence. Quoted. Active voice. Frame the work, don't hype it. |
+| 🔢 | Fundamentals | Access | Re-grounding in basics. Post-injury, post-layoff, teaching contexts. |
+| 🧈 | Bread/Butter | Transformation | The main thing. Always present. Most volume. Most stimulus. |
+| 🫀 | Circulation | Access | Blood flow, tissue prep. Early or mid-session. |
+| ▶️ | Primer | Access | CNS activation. Bridges warm-up to main work. Neural potentiation. |
+| 🎼 | Composition | Transformation | Movement arrangement. Strong in 🌾 Full Body. Composite header block. |
+| ♟️ | Gambit | Access | Deliberate sacrifice for positional advantage. Pre-fatigue with purpose. |
+| 🪜 | Progression | Access/Transform | Loading ramps. Ladders. In 🏟: the ramp to the test. |
+| 🌎 | Exposure | Transformation | Reveal weaknesses under controlled stress. Expand movement vocabulary. |
+| 🎱 | ARAM | Transformation | Station-based loops. Loop logic required. Box notation in markdown. |
+| 🌋 | Gutter | Transformation | All-out effort. Rare. Only in 🔴 and 🪐. Never in 🖼, 🐂, or ⚪. |
+| 🪞 | Vanity | Transformation | Appearance-driven. Pump work. Mirror muscles. Honest. Stigma-free. |
+| 🗿 | Sculpt | Transformation | Hypertrophy shaping. Angles, tension, volume. Carving not admiring. |
+| 🛠 | Craft | Transformation | Skill acquisition. Quality over load. Filters toward ⚫ and 🟣. |
+| 🧩 | Supplemental | Transformation | Secondary work. Supports 🧈. Must be non-redundant. Different angles. |
+| 🪫 | Release | Retention | Context-dependent: 🔴 = stress OUT. ⚪ = tension DOWN. 🖼 = return to baseline. |
+| 🏖 | Sandbox | Transformation | Constrained exploration. 🟡 = play. ⚫ = safe learning. 🟣 = skill testing. |
+| 🏗 | Reformance | Transformation | Corrective construction. Prehab, postural correction. Prominent in ⚖. |
+| 🧬 | Imprint | Retention | Locking in patterns. High rep, low load, late session. Neural memory. |
+| 🚂 | Junction | Retention | Bridge to next session. 1–3 follow-up zip codes with rationale. Logging space. |
+| 🔠 | Choice | Modifier | Bounded autonomy. Applies to other blocks. Options must be valid for the code. |
+
+**Block sequence guidelines by Order:**
+
+```
+🐂 Foundation:   4–6 blocks  ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
+⛽ Strength:     5–6 blocks  ♨️ ▶️ 🧈 🧩 🪫 🚂
+🦋 Hypertrophy:  6–7 blocks  ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
+🏟 Performance:  3–4 blocks  ♨️ 🪜 🧈 🚂  (no junk volume)
+🌾 Full Body:    5–6 blocks  ♨️ 🎼 🧈 🧩 🪫 🚂
+⚖ Balance:      5–6 blocks  ♨️ 🏗 🧈 🧩 🪫 🚂
+🖼 Restoration:  4–5 blocks  🎯 🪫 🧈 🧬 🚂
+```
+
+**Color modifiers on block structure:**
+- ⚫ Teaching:  +extended rest, +🛠 Craft emphasis
+- 🟢 Bodyweight: equipment collapses to tier 0–2
+- 🔵 Structured: +🪜 Progression prominent
+- 🟣 Technical:  fewer blocks, extended rest, quality focus
+- 🔴 Intense:    🧩 may superset, 🌋 Gutter possible
+- 🟠 Circuit:    🧈/🧩/🪞 merge into 🎱 ARAM
+- 🟡 Fun:        +🏖 Sandbox and 🌎 Exposure permitted
+- ⚪ Mindful:    extended ♨️ and 🪫, slow tempo throughout
+
+---
+
+## OPERATORS (12) — Training Action Verbs
+
+| Emoji | Name | Meaning |
+|-------|------|---------|
+| 🧲 | capio | Receive, assess, intake. The catching phase. Absorbing eccentric. |
+| 🐋 | duco | Orchestrate, lead, conduct. Session architecture and tempo flow. |
+| 🤌 | facio | Execute, perform, produce. The concentric. The doing. |
+| 🧸 | fero | Carry, transfer, channel. Loaded carries. Transfers across sessions. |
+| ✒️ | grapho | Write, program, prescribe, document. Record the set. Log the PR. |
+| 🦉 | logos | Reason, assess, analyze, interpret. Movement quality. Load calc. |
+| 🚀 | mitto | Dispatch, deploy, launch, commit. Explosive intent. Max attempt. |
+| 🦢 | plico | Fold, superset, compress, layer. Two exercises interwoven. |
+| 📍 | pono | Set, position, assign. Stance, grip, body placement. The approach. |
+| 👀 | specio | Inspect, observe, assess form, monitor. Video. Power leakage. |
+| 🥨 | tendo | Stretch, lengthen, push limits. Extend ROM. Reach lockout. |
+| 🪵 | teneo | Hold, anchor, persist. Isometrics. Sustained tension. Duration. |
+
+## SYSTEM (1)
+
+| Emoji | Name | Meaning |
+|-------|------|---------|
+| 🧮 | SAVE | Session complete. Log data. Archive. Closing ritual. Every workout ends here. |
+
+---
+
+## GENERATION RULES
+
+When given a zip code, execute these steps in order. Do not skip steps.
+
+**Step 1 — Parse the Zip Code**
+Extract all four dials. Load all parameter ceilings and constraints.
+- Order → load ceiling, rep range, rest periods, max difficulty, CNS demand
+- Axis  → exercise selection bias, paired operators, exercise character
+- Type  → muscle groups, movement patterns
+- Color → equipment tier, GOLD access, session format, structural rules
+
+**Step 2 — Derive the Default Operator**
+Read the Axis (position 2) and the Color (position 4).
+Check the polarity table above. Preparatory Colors → first operator.
+Expressive Colors → second operator.
+If the coach overrides the operator, honor the override.
+
+**Step 3 — Derive the Block Sequence**
+Use the Order × Color guidelines above.
+Select the appropriate blocks. Count must match Order guidelines.
+Apply Color modifiers on top.
+
+**Step 4 — Select Exercises**
+Every exercise must satisfy ALL FOUR dials simultaneously:
+- Within Order's load ceiling and difficulty cap
+- Matching Axis bias (rank accordingly, do not exclude)
+- Training the Type's muscle groups and movement patterns
+- Using only equipment within the Color's tier range
+- GOLD exercises only if Color is 🔴 or 🟣
+- All exercises must exist in `exercise-library.md`
+
+**Step 5 — Format the Workout**
+Use the SCL markdown format. All 15 required elements must be present.
+
+---
+
+## REQUIRED FORMAT ELEMENTS (all 15 must be present)
+
+1. Title with flanking Type emojis
+2. Subtitle: training modality, targets, honest time estimate
+3. CODE line: the 4-dial zip code
+4. 🎯 INTENTION: quoted, one sentence, active voice, direct
+5. Numbered BLOCKS with emoji names and heavy border separators (═══)
+6. At least one Operator call inline after a block header
+7. Sub-block zip codes: BLOCK+TYPE+AXIS+COLOR format with parenthetical expansion: (Block | Muscle | Bias | Equipment)
+8. Tree notation: ├─ for containment, │ for continuation
+9. Reps before exercise name: "10 🍗 Squat" not "🍗 Squat × 10"
+10. Type emoji before exercise name: "🪡 Deadlift"
+11. Cues in parentheses, 3–6 words, conversational: "(slow, feel the stretch)"
+12. Sets on individual lines with Order emoji: "Set 1: ⛽ 80% × 5 (context)"
+13. Rest specified for every block
+14. 🚂 JUNCTION with logging space and next-session bridge. Include 1–3 suggested follow-up zip codes with brief rationale. Format: `Next → [zip] — [one-line reason]`
+15. 🧮 SAVE with closing principle (1–2 sentences)
+
+---
+
+## TONAL RULES
+
+These are not suggestions. They are constraints.
+
+- Direct, not flowery
+- Technical but human
+- Conversational cues, not clinical jargon
+- No motivational filler. No "You got this!" No "Crush it today!"
+- No clinical language. No "optimize neuromuscular recruitment"
+- Yes to "Hips back, not down." Yes to "Hold the weight in the bottom."
+- 🎯 Intention: frame the work, do not hype it
+- 🧮 SAVE closing principle: transfer the work, do not praise the user
+- The workout speaks to a competent adult who does not need to be managed
+
+---
+
+## COMMON GENERATION ERRORS — READ BEFORE GENERATING
+
+**🪫 Release is not always a cool-down.** Direction depends entirely on context.
+  - 🔴 context = cathartic discharge, stress OUT
+  - ⚪ context = parasympathetic downregulation, tension DOWN
+  - 🖼 context = somatic return to baseline
+
+**🌹 Aesthetic is not always isolation work.** In 🖼 Restoration context,
+  the lens turns inward: pelvic floor, psoas, diaphragm, deep hip structures.
+  The aesthetic lens becomes somatic. Do not assign cable curls to 🖼🌹.
+
+**🧈 Bread & Butter is not always a heavy lift.**
+  - In 🏟 it is the test itself.
+  - In 🖼 it is the main mobility or somatic sequence.
+  - In ⚖ it is targeted accessory compounds addressing the specific gap.
+  The block name is fixed. The content shifts entirely by Order.
+
+**⛽🟢 Bodyweight Strength is not a rest day and not a beginner workout.**
+  It is the check valve — does your gym strength transfer outside the gym?
+  Advanced calisthenics apply: muscle-ups, pistol squats, planche progressions,
+  L-sits, archer push-ups. The Order ceiling still applies to difficulty.
+
+**🏟 Performance has 3–4 blocks only. No exceptions. No junk volume.**
+  The urge to add supplemental work after a test is wrong. Resist it.
+  Test. Record. Leave. That is the complete session.
+
+**🌾 Full Body is not a superset. It is integration.**
+  Each movement must flow into the next without a reset.
+  The result must be a single unified pattern, not a sequence of movements.
+  If you would call it a superset, it does not belong in 🌾.
+
+---
+
+## VALIDATION CHECKLIST
+
+Before writing any workout to a file, verify all of the following.
+If any check fails, revise before writing.
+
+**Order compliance:**
+- [ ] Load stays at or below Order ceiling
+- [ ] Rep ranges match Order parameters
+- [ ] Rest periods match Order parameters
+- [ ] Difficulty stays at or below Order maximum
+- [ ] Block count matches Order guidelines
+
+**Type accuracy:**
+- [ ] Exercises train the correct muscle groups
+- [ ] Movement patterns match the Type
+
+**Axis character:**
+- [ ] Exercise selection reflects the Axis bias
+- [ ] Would someone feel the Axis without being told?
+
+**Color constraints:**
+- [ ] All equipment within Color's tier range
+- [ ] No barbells in 🟢 or 🟠
+- [ ] GOLD exercises only in 🔴 or 🟣
+- [ ] Loop logic applied in 🟠 Circuit
+
+**Full Body integrity (🌾 only):**
+- [ ] Flow test: Does each movement flow into the next without a reset?
+- [ ] Unity test: Is the result a single unified pattern, not a sequence?
+- [ ] Both must pass.
+
+**Block structure:**
+- [ ] 🧈 Bread & Butter is present and carries most volume
+- [ ] Session flows Orient → Access → Transform → Retain
+- [ ] Ends with 🚂 Junction and 🧮 SAVE
+
+**Format:**
+- [ ] All 15 required elements present
+- [ ] Sub-block zip codes formatted correctly
+- [ ] Tree notation used
+- [ ] Tonal rules followed throughout
+
+---
+
+## EXERCISE LIBRARY
+
+All exercises used in generated workouts must come from `exercise-library.md`.
+
+The library contains ~2,185 exercises across 17 sections (A–Q).
+Each section declares its SCL Type mapping, Order relevance, Axis emphasis,
+Equipment Tier range, GOLD gate status, and Operator affinity.
+
+**Type routing:**
+- 🛒 Push  → Sections C (Chest), B (Shoulders anterior/lateral), E (Arms — triceps #51–95)
+- 🪡 Pull  → Sections D (Back), B (Shoulders posterior/rotator cuff), E (Arms — biceps #1–50), G (Hips — hip hinge patterns)
+- 🍗 Legs  → Sections H (Thighs), G (Hips & Glutes), I (Lower Leg & Foot)
+- ➕ Plus  → Sections F (Core), J (Olympic Lifts), K (Plyometrics), L (Kettlebell), Q (Strongman)
+- ➖ Ultra → Sections M (Cardio & Conditioning), O (Footwork & Agility), N (Sport Focused), K (Plyometrics — conditioning use)
+
+**GOLD-gated sections (require 🔴 or 🟣):**
+- Section J: All 85 Olympic lift exercises
+- Section K: All 65 plyometric exercises
+- Section Q: All 55 strongman exercises
+- Section B: #9 Push Jerk, #14 Log Press, #137–140 Barbell/Hang/Power/Muscle Snatch, #141–144 Sandbag/Keg/Atlas shoulder work
+- Section C: #121–125 Bamboo bar, earthquake bar, board press, sling shot
+- Section D: #264 Yoke Walk, #265 Zercher Carry, #270 Keg Carry, #319 Atlas Stone Lift, #320 Tire Flip
+
+---
+
+## DECK REFERENCE
+
+42 decks total (7 Orders × 6 Axes). 40 cards per deck (5 Types × 8 Colors).
+
+| | 🏛 | 🔨 | 🌹 | 🪐 | ⌛ | 🐬 |
+|----|-----|-----|-----|-----|-----|-----|
+| 🐂 | 01 | 02 | 03 | 04 | 05 | 06 |
+| ⛽ | 07 | 08 | 09 | 10 | 11 | 12 |
+| 🦋 | 13 | 14 | 15 | 16 | 17 | 18 |
+| 🏟 | 19 | 20 | 21 | 22 | 23 | 24 |
+| 🌾 | 25 | 26 | 27 | 28 | 29 | 30 |
+| ⚖ | 31 | 32 | 33 | 34 | 35 | 36 |
+| 🖼 | 37 | 38 | 39 | 40 | 41 | 42 |
+
+---
+
+## STATUS CONVENTION
+
+Card files carry a status marker in their frontmatter.
+
+```
+status: EMPTY      — Stub file. Awaiting workout generation.
+status: GENERATED  — Workout written. Pending review.
+status: CANONICAL  — Reviewed and approved. This is the master version.
+```
+
+Scan for empty rooms:
+```bash
+grep -r "status: EMPTY" cards/
+```
+
+---
+
+## WHAT YOU DO NOT DO
+
+- Do not invent exercises that are not in `exercise-library.md`
+- Do not exceed Order load ceilings under any circumstances
+- Do not use GOLD exercises in non-GOLD colors
+- Do not use barbells in 🟢 Bodyweight or 🟠 Circuit workouts
+- Do not add motivational language or praise the user
+- Do not generate junk volume in 🏟 Performance workouts
+- Do not place 🌋 Gutter in 🖼 Restoration, 🐂 Foundation, or ⚪ Mindful workouts
+- Do not treat supersets as valid in non-🔴 contexts unless specified
+- Do not generate a workout without running the full validation checklist
+- Do not freelance between sessions. Read `whiteboard.md` first.
+
+---
+
+61 emojis. Seven categories. 1,680 rooms.
+
+Read the zip code. Honor the constraints. Fill the room.
+
+🧮
