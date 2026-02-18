@@ -6,35 +6,90 @@ It is not documentation. It is a living scratchpad.
 
 Current Phase
 
-Phase 1 — Repository Scaffolding
+Phase 2 — Workout Generation
 
-Getting the house in order before anything gets built.
-All root documents created and populated.
-All 1,680 stub files generated and in place.
-No workout content yet. That comes later.
+Phase 1 complete. All infrastructure is in place.
+1,680 stub files ready. Workout generation begins now.
+Deck priority and generation order to be confirmed before first card is written.
 
-What Is Done
+What Is Done — Phase 1 (COMPLETE)
 
 - [x] Project architecture planned
 - [x] CLAUDE.md drafted and complete
 - [x] README.md drafted and complete
 - [x] whiteboard.md drafted (this file)
-- [ ] scl-directory.md populated
-- [ ] exercise-library.md populated
-- [ ] setup.py written and ready
-- [ ] GitHub repository created
-- [ ] Claude Code linked to repository
-- [ ] setup.py executed — all 1,680 stubs generated
-- [ ] All root files committed to GitHub
+- [x] scl-directory.md populated (106k chars, full SCL spec)
+- [x] exercise-library.md populated (~128k chars, ~2,800 exercises, sections A–Q)
+- [x] setup.py written, debugged, and executed
+- [x] GitHub repository created
+- [x] Claude Code linked to repository
+- [x] setup.py executed — 1,680 stubs generated across 210 folders
+- [x] All root files committed and pushed to GitHub
 
-What Is Next
+What Is Next — Phase 2
 
-1. Complete scl-directory.md
-2. Complete exercise-library.md
-3. Hand setup.py to Claude Code — run once
-4. Verify folder structure and stub count (expect 1,680 files)
-5. Commit everything to GitHub
-6. Begin Phase 2
+1. ✅ Deck confirmed: Deck 07 — ⛽🏛 Strength Basics (40 cards)
+2. ✅ Batch size confirmed: Full deck in one session
+3. Generate all 40 cards: ⛽🏛[TYPE][COLOR] × 5 Types × 8 Colors
+4. For each card: parse zip → validate → generate → rename stub → log here
+5. Status: GENERATED after write. CANONICAL after Jake's review.
+
+Session 002 — Phase 2 begins
+Date: 2026-02-18
+Target: Deck 07 — ⛽🏛 Strength Basics — 40 cards
+Generation order: 🛒 Push → 🪡 Pull → 🍗 Legs → ➕ Plus → ➖ Ultra
+
+Generated this session — Deck 07 COMPLETE (40/40):
+
+🛒 Push (8/8):
+- ⛽🏛🛒⚫±📍 Coached Press — Teaching the Bench
+- ⛽🏛🛒🟢±📍 The Transfer Test — Bodyweight Strength Push
+- ⛽🏛🛒🔵±🤌 Heavy Classic Presses — Structured Push
+- ⛽🏛🛒🟣±🤌 Bar Path Precision — Technical Press
+- ⛽🏛🛒🔴±🤌 Max Effort Push — Intense Barbell Day
+- ⛽🏛🛒🟠±🤌 Push Circuit — Rotational Strength Loop
+- ⛽🏛🛒🟡±📍 Press Variety — Exploration Push Day
+- ⛽🏛🛒⚪±📍 Heavy Slow Press — Mindful Barbell Push
+
+🪡 Pull (8/8):
+- ⛽🏛🪡⚫±📍 Coached Pull — Read the Lift
+- ⛽🏛🪡🟢±📍 Bar Strength — No Barbell Required
+- ⛽🏛🪡🔵±🤌 Heavy Classic Pulls
+- ⛽🏛🪡🟣±🤌 Precision Pull — Mechanics Under Load
+- ⛽🏛🪡🔴±🤌 Full Send Pull — Every Muscle Accounted For
+- ⛽🏛🪡🟠±🤌 Pull Circuit — Full Back, Full Loop
+- ⛽🏛🪡🟡±📍 The Pull Playground — Same Pattern, New Angles
+- ⛽🏛🪡⚪±📍 Slow Pull — Deliberate Heavy Descent
+
+🍗 Legs (8/8):
+- ⛽🏛🍗⚫±📍 The Squat Lesson
+- ⛽🏛🍗🟢±📍 The Transfer Test
+- ⛽🏛🍗🔵±🤌 Standard Leg Day
+- ⛽🏛🍗🟣±🤌 Mechanics Under Load
+- ⛽🏛🍗🔴±🤌 Heavy Leg Day
+- ⛽🏛🍗🟠±🤌 Leg Station Loop
+- ⛽🏛🍗🟡±📍 Leg Day Variations
+- ⛽🏛🍗⚪±📍 Slow Leg Day
+
+➕ Plus (8/8):
+- ⛽🏛➕⚫±📍 Classic Power Mechanics
+- ⛽🏛➕🟢±📍 Barless Power Standard
+- ⛽🏛➕🔵±🤌 The Power Ledger
+- ⛽🏛➕🟣±🤌 Clean Precision
+- ⛽🏛➕🔴±🤌 Maximum Power Output
+- ⛽🏛➕🟠±🤌 Power Station Loop
+- ⛽🏛➕🟡±📍 Complex Play
+- ⛽🏛➕⚪±📍 Weight in Space
+
+➖ Ultra (8/8):
+- ⛽🏛➖⚫±📍 The Mechanics of Hard Effort
+- ⛽🏛➖🟢±📍 Outside the Gym
+- ⛽🏛➖🔵±🤌 The 500m Prescription
+- ⛽🏛➖🟣±🤌 Precision at Output
+- ⛽🏛➖🔴±🤌 Maximum Engine
+- ⛽🏛➖🟠±🤌 The Classic Engine Loop
+- ⛽🏛➖🟡±📍 The Modality Shuffle
+- ⛽🏛➖⚪±📍 The Breath as Anchor
 
 Open Questions
 
