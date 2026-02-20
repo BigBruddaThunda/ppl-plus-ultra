@@ -1,145 +1,115 @@
 ---
 zip: ⛽🏛➕🔵
 operator: 🤌 facio
-status: GENERATED
+status: GENERATED-V2
 deck: 07
-order: ⛽ Strength | 75-85% | 4-6 reps | 3-4 min | CNS: High
-axis: 🏛 Basics | Bilateral, stable, barbell-first classics. Compound over isolation.
+order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
+axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: ➕ Plus | Full body power, core
-color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
-blocks: ♨️ ▶️ 🪜 🧈 🧩 🚂
+color: 🔵 Structured | Tier 2–3 | GOLD: No | Prescribed sets/reps/rest. Trackable. Repeatable.
+blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
 
 # ➕ The Power Ledger ➕
 
-**Structured full-body power | Barbell complexes, carries, anti-rotation core | 65–75 min**
+Structured full-body power | High Pull, Front Squat, Farmer's Carry | 65–75 min
 
 CODE: ⛽🏛➕🔵
 
-> "Every number goes in the log. That's how you know if it's working."
+> "Log every set. The ledger is how this gets better."
 
 ═══════════════════════════════════════
+
 ## 1. ♨️ WARM-UP
-🤌 facio — *Execute the prep, don't coast through it.*
-⛽🏛➕🔵♨️ (Warm-Up | Full Body Power/Core | Basics | Barbell/Bodyweight)
-═══════════════════════════════════════
 
-Rest: None. 8 minutes continuous.
+🤌 facio — prepare the CNS for the pull pattern and overhead demand
 
-├─ 2 rounds:
-│  ├─ 8 ➕ Hollow Body Rock (brace hard — ribs down before you start)
-│  ├─ 8 ➕ Dead Bug (arms and legs alternate — lower back stays on the floor)
-│  ├─ 10 ➕ Barbell Rollout (Anti-Extension) — empty bar (slow out, pull back with lats)
-│  └─ 8 ➕ RKC Plank (Hardstyle) — 10 sec each (maximum co-contraction, not duration)
+- 10 Dead Bug (lower back sealed — anterior chain online before loading)
+- 8 Hollow Body Rock (brace before you move)
+- 8 High Pull (Barbell) at empty bar (hip drive to shrug — feel the sequence)
+- 6 Front Squat (Core Bracing) at empty bar (elbows forward, depth below parallel)
 
 ═══════════════════════════════════════
+
 ## 2. ▶️ PRIMER
-🤌 facio — *Execute the neural activation set.*
-⛽🏛➕🔵▶️ (Primer | Full Body Power | Basics | Barbell)
-═══════════════════════════════════════
 
-Rest: 2 min between primer sets.
+🤌 facio — activate the power pull pattern before working load
 
-**Barbell High Pull — Hip Activation**
+Rest: 2 min between sets.
 
-├─ 3 sets × 5 reps ➕ High Pull (Barbell) — 50% of barbell clean reference weight
-│  ├─ Set 1: ⛽ 50% × 5 (hips drive, elbows lead — bar stays close)
-│  ├─ Set 2: ⛽ 52% × 5 (faster hip extension each set)
-│  └─ Set 3: ⛽ 55% × 5 (this is the power pattern behind the main work)
+**➕ High Pull (Barbell)**
 
-═══════════════════════════════════════
-## 3. 🪜 PROGRESSION
-🤌 facio — *Ramp to working weight. Every step is logged.*
-⛽🏛➕🔵🪜 (Progression | Full Body Power | Basics | Barbell)
-═══════════════════════════════════════
+- Set 1: 55% × 4 (deliberate — feel the hip-to-shrug sequence, not arm-first)
+- Set 2: 65% × 3 (add speed — hips extend first, elbows follow)
+- Set 3: 72% × 2 (approach feel — this is what the working weight will require)
 
-Rest: 2 min between ramp sets.
-
-**Front Squat Loading Ramp**
-
-├─ Ramp 1: ⛽ 50% × 3 (position check — elbows, depth, brace)
-├─ Ramp 2: ⛽ 60% × 3 (add load, maintain all positions)
-├─ Ramp 3: ⛽ 68% × 2 (approaching working weight, same positions)
-└─ Ramp 4: ⛽ 73% × 1 (opening set preview — confirm readiness)
+Rest: 3 min before 🧈.
 
 ═══════════════════════════════════════
-## 4. 🧈 BREAD & BUTTER
-🤌 facio — *The main work. Prescribe it, execute it, log it.*
-⛽🏛➕🔵🧈 (Bread & Butter | Full Body Power | Basics | Barbell)
-═══════════════════════════════════════
 
-Rest: 3–4 min between all working sets.
+## 3. 🧈 BREAD & BUTTER
 
-**A — Barbell Front Squat (Core Bracing)**
-*Primary strength expression for full-body power under axial load.*
+🤌 facio — execute. Log every number.
 
-├─ 5 sets × 5 reps ➕ Front Squat (Core Bracing) — 75–80%
-│  ├─ Set 1: ⛽ 75% × 5 (elbows high, chest up, depth to parallel or below)
-│  ├─ Set 2: ⛽ 76% × 5 (same cue — own the bottom position for 1 sec)
-│  ├─ Set 3: ⛽ 77% × 5 (brace before you unrack, not after)
-│  ├─ Set 4: ⛽ 79% × 5 (drive the floor away — hips and chest rise together)
-│  └─ Set 5: ⛽ 80% × 5 (final set — form identical to set 1)
+Rest: 3 min between all sets.
 
-*Rest 3–4 min.*
+**A. ➕ Front Squat (Core Bracing)**
 
-**B — Barbell Overhead Press (Standing)**
-*Vertical pressing expression. Full-body tension from floor to lockout.*
+- Set 1: 77% × 5 (elbows high, brace 360° before descent)
+- Set 2: 80% × 5 (knees track toes — do not let them drift in)
+- Set 3: 80% × 5 (chest leads out of the hole — hips follow the chest)
+- Set 4: 82% × 4 (same pattern, more load — if elbows drop, the weight is too heavy)
+- Set 5: 80% × 5 (back-off set — same load as Set 2, faster)
 
-├─ 4 sets × 5 reps ➕ Barbell Overhead Press (Standing) — 75–80% of OHP 1RM
-│  ├─ Set 1: ⛽ 75% × 5 (lats locked, glutes tight — the press starts at the floor)
-│  ├─ Set 2: ⛽ 76% × 5 (head through at lockout — bar directly over heels)
-│  ├─ Set 3: ⛽ 78% × 5 (no layback — if you lean, the weight is too heavy)
-│  └─ Set 4: ⛽ 80% × 5 (log this number — same weight, same form, next session)
+**B. ➕ Barbell Overhead Press (Standing)**
+
+- Set 1: 77% × 5 (lats and glutes braced before the press starts)
+- Set 2: 80% × 5 (drive bar past the face — don't drift it forward)
+- Set 3: 80% × 4 (full lockout — arms straight, head through, bar directly overhead)
+- Set 4: 77% × 5 (back-off — same load as Set 1)
+
+Rest: 3 min between A and B blocks.
 
 ═══════════════════════════════════════
-## 5. 🧩 SUPPLEMENTAL
-🤌 facio — *Carry work and core. Finishes the full-body demand.*
-⛽🏛➕🔵🧩 (Supplemental | Core/Carries | Basics | Kettlebells/Bodyweight)
-═══════════════════════════════════════
 
-Rest: 2–3 min between sets.
+## 4. 🧩 SUPPLEMENTAL
 
-**A — Farmer's Carry (Double Kettlebell)**
-*Total-system integration. The carry tests what the squat and press built.*
+🤌 facio — carries and anti-rotation to close the session
 
-├─ 4 sets × 40m ➕ Farmer's Carry (Double Kettlebell) — heavy
-│  ├─ Set 1: (grip hard, shoulders packed, short steps)
-│  ├─ Set 2: (chin level — don't look at the floor)
-│  ├─ Set 3: (don't let the bells drift forward at the turn)
-│  └─ Set 4: (log weight used and any grip failure)
+Rest: 2 min
 
-*Rest 2–3 min.*
+**➕ Farmer's Carry (Double Kettlebell)**
 
-**B — Pallof Press (Cable)**
-*Anti-rotation under tension. Pairs directly with the pressing work.*
+- Set 1: 40m (heavy KB — near grip failure by the end is the target)
+- Set 2: 40m (same weight — don't reduce)
+- Set 3: 40m
+- Set 4: 40m (log KB weight — this is the carry number for next session)
 
-├─ 3 sets × 6/side ➕ Pallof Press (Cable)
-│  ├─ Set 1: ⛽ moderate × 6/side (full extension, pause 2 sec)
-│  ├─ Set 2: ⛽ moderate × 6/side (no hip rotation — the challenge is staying still)
-│  └─ Set 3: ⛽ moderate+1 × 6/side (incremental load — log the resistance setting)
+**➕ Pallof Press (Cable)**
+
+- Set 1: 3/side × 5 (press out, hold 2 sec, return — hips still)
+- Set 2: 3/side × 5
+- Set 3: 3/side × 5
 
 ═══════════════════════════════════════
-## 6. 🚂 JUNCTION
-🤌 facio — *Log the numbers. Execute the bridge.*
-═══════════════════════════════════════
 
-**Session log:**
-├─ High Pull: warm-up weight used ___
-├─ Front Squat: sets/reps/weight — [   ] × 5 @ ___% each set
-├─ Overhead Press: sets/reps/weight — [   ] × 5 @ ___% each set
-├─ Farmer's Carry: KB weight per hand ___ / any grip failure Y/N
-├─ Pallof Press: cable resistance ___ / form held Y/N
+## 5. 🚂 JUNCTION
 
-**Progress markers:**
-The front squat and overhead press are both logged with percentages and reps. This session is designed to repeat. Same weight, same reps, same rest — that is the 🔵 Structured contract.
+```
+Date: ___________
+Front Squat: ___/___/___/___/___  ×  5/5/5/4/5
+OHP: ___/___/___/___  ×  5/5/4/5
+Farmer's Carry: KB ___kg/hand × 4 sets
+Add 2.5 kg next session: Y / N (if all sets landed)
+```
 
-**Next sessions:**
-├─ Next → ⛽🏛➕🟣 — Technical: Olympic lift entry, Power Clean replaces High Pull as anchor
-├─ Next → ⛽🏛🛒🔵 — pressing work to complement today's overhead and front squat
-└─ Next → ⛽🏛🍗🔵 — legs track follows naturally after front squat strength work
+Next →
+- ⛽🏛➕🟣 — technical track: same lifts with precision focus and extended rest
+- ⛽🏛➕🔴 — intense track: same pattern, higher volume, reduced rest
+- ⛽🏛🪡🔵 — pull day to complement the pressing volume here
 
 ═══════════════════════════════════════
+
 ## 🧮 SAVE
-═══════════════════════════════════════
 
-If the numbers are not written down, the session did not happen in any useful sense. 🔵 Structured means you can repeat this exactly. That repetition is what builds the baseline.
+The ledger only works if you write in it. Log every set. The Front Squat and the OHP are two ends of the same structural demand — if one is ahead of the other, the gap shows up here. Track both.
