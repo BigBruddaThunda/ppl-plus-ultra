@@ -413,6 +413,98 @@ Before outputting any workout, verify:
 - Block structure: count matches Order × Color guidelines. 🧈 present and carrying most volume. Logical flow. Ends with 🚂 and 🧮.
 - Format: all 15 required elements present
 
+WORKLOAD DENSITY
+
+Natural density ranges by Order. Don't pad. Don't compress. Let the zip code determine the workload.
+
+| Order | Exercises | Working Sets | Session Time |
+|-------|-----------|-------------|--------------|
+| 🐂 Foundation | 3–4 | 12–16 | 40–50 min |
+| ⛽ Strength | 2–3 | 10–15 | 50–65 min |
+| 🦋 Hypertrophy | 4–5 | 16–22 | 50–65 min |
+| 🏟 Performance | 1–2 | 3–8 | 25–40 min |
+| 🌾 Full Body | 3–4 | 12–16 | 40–55 min |
+| ⚖ Balance | 3–5 | 14–18 | 45–55 min |
+| 🖼 Restoration | 2–3 | 8–12 | 30–45 min |
+
+Color modifiers on density:
+- 🔴 Intense: +15–20% volume vs. base. More sets, reduced rest.
+- ⚪ Mindful: -15–20% sets vs. base. Fewer exercises, more spaciousness.
+- 🟣 Technical: Subtract sets, add rest. Quality over quantity. Fewer exercises done precisely.
+- 🟠 Circuit: Maintains base set count but compresses time. Loop logic redistributes the load.
+- ⚫ Teaching: Matches base volume but adds teaching time between sets.
+- 🟡 Fun: Variable. The sandbox adds exploratory sets that may sit outside standard counting.
+- 🟢 Bodyweight: Matches base volume at tier 0–2 equipment.
+- 🔵 Structured: Matches base. The structure IS the point — every set logged and repeated.
+
+JUNCTION WEB
+
+Every card exists in a relational field. Design with the surrounding days in mind.
+
+Day-of-week Order mapping and design implications:
+
+Monday = 🐂 Foundation
+← Sunday 🖼 (just rested) → Tuesday ⛽ (heavy coming)
+Body is fresh. Foundation can be a real session, not just a warmup day. Use the freshness.
+
+Tuesday = ⛽ Strength
+← Monday 🐂 (foundation, low CNS) → Wednesday 🦋 (volume coming)
+The week's heaviest day. Commit fully. Brief and intense. Volume day follows — don't drain it.
+
+Wednesday = 🦋 Hypertrophy
+← Tuesday ⛽ (heavy, high CNS) → Thursday 🏟 (testing coming)
+Body is neurally taxed. Don't go heavy — go wide. Moderate load, higher volume. Test day follows; leave the CNS intact.
+
+Thursday = 🏟 Performance
+← Wednesday 🦋 (volume, moderate) → Friday 🌾 (integration coming)
+The week's test. Wednesday volume filled the tank; today empties it into one effort. Test, record, leave.
+
+Friday = 🌾 Full Body
+← Thursday 🏟 (tested, high CNS) → Saturday ⚖ (correction coming)
+Integration, not intensity. The body is peaking on accumulated week. Flow, not force. Don't chase new PRs here.
+
+Saturday = ⚖ Balance
+← Friday 🌾 (full body, moderate) → Sunday 🖼 (rest coming)
+Correction day. Fine-tune. The weekend lets you address gaps with rest on both sides. Targeted work.
+
+Sunday = 🖼 Restoration
+← Saturday ⚖ (correction, moderate) → Monday 🐂 (new week coming)
+True recovery. The lightest day. Leave fresher than you arrived. Prepare the body for Monday.
+
+Design implication: Do not write text that says "because yesterday was heavy." Write cards that reflect it in the design. Lower volume after high-CNS days. More exploration after rest days. The calendar breathes through the cards.
+
+TYPE ROLLING CONTEXT
+
+The Type rotates on a 5-day cycle independent of the week. 5 and 7 are coprime — the same Order-Type pairing doesn't repeat for 35 days.
+
+This means: adjacent days always hit different muscle groups. A 🛒 Push day does not follow another 🛒 Push day. A card can assume yesterday's primary muscles are not today's primary muscles.
+
+Design implications:
+- Warm-up tissue prep is focused. You don't need to pre-mobilize everything when the prior day worked different muscle groups.
+- Supplemental volume in one Type can be lighter knowing it won't interfere with the next session's primary work.
+- The 🚂 Junction suggested follow-up zips should account for what muscle groups come next in the rotation, not just what's thematically related.
+
+BLOCK MINIMALISM
+
+Blocks have a minimum viable expression. The block emoji carries the meaning for someone who has used this system.
+
+Minimum viable expression by block:
+- ♨️ Warm-Up: "5 min general movement + 2 ramp sets of the main lift." That's enough for most Colors.
+- ▶️ Primer: "2–3 progressively heavier ramp sets." No need for multiple sub-sections.
+- 🪫 Release: "Stretch what you worked. 5–10 minutes." Only ⚪ and 🖼 get detailed release work.
+- 🚂 Junction: 1–3 follow-up zip codes with one-line rationale. Logging space.
+- 🧮 SAVE: 1–2 sentences. Transfer the work. Do not praise.
+
+Content inside a block scales to the Color:
+- ⚫ Teaching: Most explanation. Extra rest. Walk through each cue.
+- 🔵 Structured: Precise prescription. Every set logged.
+- ⚪ Mindful: Breathing notes, slow tempo detail, spacious pacing.
+- 🟡 Fun: Options and permission to explore.
+- 🔴 Intense: Less explanation, more density. Keep it moving.
+- Everything else: Less than ⚫. More than nothing. Proportional to need.
+
+Do not write three sub-sections inside ♨️ Warm-Up for a 🔴 Intense session. Do not write five timed stretches with breathing notes inside 🪫 for a 🔵 Structured session. The block emoji is the instruction. Write content at the level the Color demands — no more.
+
 EXAMPLE
 
 For reference, here is a canonical workout at ⛽🏛🪡🔵 ± 🤌:

@@ -1,135 +1,114 @@
 ---
 zip: ⛽🏛🍗⚪
 operator: 📍 pono
-status: GENERATED
+status: GENERATED-V2
 deck: 07
-order: ⛽ Strength | 75-85% | 4-6 reps | 3-4 min | CNS: High
-axis: 🏛 Basics | Bilateral, stable, barbell-first classics. Compound over isolation.
+order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
+axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: 🍗 Legs | Quads, hamstrings, glutes, calves
-color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
-blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🪫 → 🚂
+color: ⚪ Mindful | Tier 0–3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breath.
+blocks: ♨️ → ▶️ → 🧈 → 🪫 → 🚂 → 🧮
 ---
 
 # 🍗 Slow Leg Day 🍗
 
-**Mindful barbell strength | Quads, hamstrings, glutes | 75–90 min**
+Mindful barbell strength | Quads, hamstrings, glutes | 75–85 min
 
 CODE: ⛽🏛🍗⚪
 
 > "Four seconds down — feel every degree of the movement before you earn the drive."
 
 ═══════════════════════════════════════
+
 ## 1. ♨️ WARM-UP
-📍 pono — extended warm-up in ⚪ context; the nervous system needs longer to settle.
 
-⛽🏛🍗⚪♨️ (Warm-Up | Full Lower Body | Basics | Bodyweight)
+📍 pono — extended warm-up in ⚪ context; the nervous system needs longer to settle
 
-Rest: none between movements — breathe, do not rush
+- 5 min easy walk or bike (let the breathing slow, not speed up)
+- 10 Deep Squat Hold (ATG) (5 sec at the bottom, breathe into your hips)
+- 10/side Hip CARs (slow, feel the end range)
+- 5/side World's Greatest Stretch (hold each position 3 sec)
+- 10 Glute Bridge (3-sec hold at top, breathe out)
+- 5 Back Squat at empty bar (4-sec descent — feel every degree)
 
-├─ 5 min easy walk or bike — let the breathing slow, not speed up
-├─ 10 🍗 Deep Squat Hold (ATG) — (5 sec at the bottom, breathe into your hips)
-├─ 10/side 🍗 Hip CARs (Controlled Articular Rotations) — (slow, feel the end range)
-├─ 5/side 🍗 World's Greatest Stretch — (hold each position 3 sec)
-├─ 10 🍗 Glute Bridge (Bodyweight) — (3-sec hold at top, breathe out)
-├─ 10 🍗 Leg Swings (Forward/Back) — (deliberate, not pendulum)
-├─ 10 🍗 Leg Swings (Side-to-Side)
-└─ 5 🍗 Back Squat (High Bar) at empty bar — (4-sec descent, feel every degree)
+Rest: 60 sec between movements.
 
 ═══════════════════════════════════════
+
 ## 2. ▶️ PRIMER
-📍 pono — slow ramp; the tempo is the training here, not just the weight.
 
-⛽🏛🍗⚪▶️ (Primer | Quads / Glutes | Basics | Barbell)
+📍 pono — slow ramp; the tempo is the training, not just the weight
 
-Rest: 2 min between sets — breathe between sets, not just during
+Tempo: 4-0-1 (4 sec descent, no pause, 1 sec rise)
 
-**Tempo notation: 4-0-1** (4 sec descent, no pause, 1 sec rise)
+- Set 1: 55% × 4 (breathe in before descent, hold the brace for 4 full seconds)
+- Set 2: 65% × 3 (count silently: one, two, three, four — no shortcuts)
+- Set 3: 72% × 2 (at this load, 4 seconds is a serious discipline — honor it)
 
-├─ Set 1: ⛽ 55% × 4 🍗 Back Squat (High Bar) — 4-0-1 tempo
-│   └─ Cue: (breathe in before descent, hold the brace for 4 full seconds)
-├─ Set 2: ⛽ 65% × 3 🍗 Back Squat (High Bar) — 4-0-1 tempo
-│   └─ Cue: (count silently: one, two, three, four — no shortcuts)
-└─ Set 3: ⛽ 72% × 2 🍗 Back Squat (High Bar) — 4-0-1 tempo
-    └─ Cue: (at this load, 4 seconds is a serious discipline — honor it)
+Rest: 2 min between sets.
 
 ═══════════════════════════════════════
-## 3. 🧈 BREAD & BUTTER — Back Squat, 4-Sec Eccentric
+
+## 3. 🧈 BREAD & BUTTER
+
 📍 pono — this is not easy weight. This is slow weight.
 
-⛽🏛🍗⚪🧈 (Bread & Butter | Quads / Glutes / Hamstrings | Basics | Barbell)
+Tempo: 4-0-1 on all working sets.
+Rest: 3 min between sets. ⚪ context demands full recovery between slow efforts.
 
-**Tempo: 4-0-1 on all working sets**
-Rest: 3 min between sets — ⚪ context demands full recovery between slow efforts
+**🍗 Back Squat (High Bar) — 4-Sec Eccentric**
 
-├─ Set 1: ⛽ 77% × 5 🍗 Back Squat (High Bar)
-│   └─ Cue: (breathe in, brace, 4-sec descent — chest stays tall the whole way down)
-├─ Set 2: ⛽ 80% × 5
-│   └─ Cue: (the eccentric is the work — do not fall; lower deliberately)
-├─ Set 3: ⛽ 80% × 4
-│   └─ Cue: (feel where tension breaks — that is where your squat normally cheats)
-├─ Set 4: ⛽ 82% × 4
-│   └─ Cue: (4 seconds makes this harder than 90% without tempo — respect that)
-└─ Set 5: ⛽ 82% × 4
-    └─ Cue: (last rep same tempo as first rep — no speeding up when tired)
+Breathing cue: inhale at the top, hold the brace through the full 4-sec descent, exhale on the drive.
 
-Breathing cue for every set: inhale at the top, hold the brace through the full descent, exhale on the drive.
+- Set 1: 77% × 5 (4-sec descent — chest stays tall the whole way down)
+- Set 2: 80% × 5 (the eccentric is the work — do not fall; lower deliberately)
+- Set 3: 80% × 4 (feel where tension breaks — that is where your squat normally cheats)
+- Set 4: 82% × 4 (4 seconds makes this harder than 90% without tempo — respect that)
+- Set 5: 82% × 4 (last rep same tempo as first rep — no speeding up when tired)
 
-═══════════════════════════════════════
-## 4. 🧩 SUPPLEMENTAL — Romanian Deadlift, 4-Sec Eccentric
-📍 pono — same tempo, posterior chain.
+**🍗 Romanian Deadlift — 4-Sec Eccentric**
 
-⛽🏛🍗⚪🧩 (Supplemental | Hamstrings / Glutes / Erectors | Basics | Barbell)
-
-**Tempo: 4-0-1 on all working sets**
-Rest: 2–3 min between sets
-
-├─ Set 1: ⛽ 72% × 5 🍗 Romanian Deadlift (RDL)
-│   └─ Cue: (4 seconds to the bottom — feel the hamstring load the whole way)
-├─ Set 2: ⛽ 75% × 5
-│   └─ Cue: (breathe at the top between reps — do not rush the cycle)
-├─ Set 3: ⛽ 77% × 5
-│   └─ Cue: (lats pack down as you lower — no rounding at the bottom)
-└─ Set 4: ⛽ 77% × 4
-    └─ Cue: (stand tall, exhale fully at lockout — reset before the next rep)
-
-Rest between sets: 2–3 min, walk if needed, let the heart rate come down.
+- Set 1: 72% × 5 (4 sec to the bottom — feel the hamstring load the whole way)
+- Set 2: 75% × 5 (breathe at the top between reps — do not rush the cycle)
+- Set 3: 77% × 5 (lats pack down as you lower — no rounding at the bottom)
+- Set 4: 77% × 4 (stand tall, exhale fully at lockout — reset before next rep)
 
 ═══════════════════════════════════════
-## 5. 🪫 RELEASE
-📍 pono — ⚪ context: parasympathetic downregulation; tension down, not just stretched out.
 
-⛽🏛🍗⚪🪫 (Release | Full Lower Body | Basics | Bodyweight)
+## 4. 🪫 RELEASE
 
-Rest: breathe through each position; no clock
+📍 pono — parasympathetic downregulation, tension DOWN
 
-├─ 90 sec/side 🍗 Couch Stretch (Hip Flexor Deep) — (breathe into the hip crease, not out of it)
-├─ 90 sec/side 🍗 Pigeon Pose (Glute Stretch) — (no forcing; let gravity do the work)
-├─ 60 sec 🍗 Butterfly Stretch (Adductors) — (hands on feet, elbows on knees, breathe low)
-├─ 60 sec 🍗 Standing Calf Stretch (Gastrocnemius) — (heel on floor, soft knee)
-├─ 60 sec 🍗 Deep Squat Hold (Hip Mobility) — (settle into the bottom, last thing you do here)
-└─ 5 slow breaths standing — exhale fully before leaving
+⚪ release: not just stretching — arriving in the body.
 
-═══════════════════════════════════════
-## 6. 🚂 JUNCTION
-📍 pono — log what the slow tempo revealed.
+- 90 sec/side Couch Stretch (breathe into the hip crease)
+- 90 sec/side Pigeon Pose (no forcing; let gravity do the work)
+- 60 sec Butterfly Stretch (hands on feet, elbows on knees, breathe low)
+- 60 sec Standing Calf Stretch
+- 60 sec Deep Squat Hold (settle into the bottom — last thing you do here)
+- 5 slow standing breaths (exhale fully before leaving)
 
-⛽🏛🍗⚪🚂 (Junction | Full Session | Basics | —)
-
-**Session log:**
-- Back Squat top set: _______ kg × _____ reps (tempo maintained: Y / N)
-- Where did tempo break? (descent / bottom / drive): _____
-- RDL top set: _______ kg × _____ reps
-- Tension gaps noticed: ___________________________
-- How did this compare to your normal squat: ___________________________
-
-**Next →**
-- Next → ⛽🏛🍗🔵 — return to standard tempo: did the slow work change your feel for the free squat?
-- Next → ⛽🏛🍗🟣 — technical: add pauses to the slow eccentric pattern for full time-under-tension control
-- Next → 🖼🏛🍗⚪ — restoration color in the same axis: lighter load, same intent
+No timer on the release. Stay until the breath has steadied.
 
 ═══════════════════════════════════════
+
+## 5. 🚂 JUNCTION
+
+```
+Date: ___________
+Squat (slow): ___/___/___/___/___  ×  5/5/4/4/4 (tempo held: Y/N)
+Where did tempo break: descent / bottom / drive
+RDL (slow): ___/___/___/___  ×  5/5/5/4
+Tension gaps noticed: ___________
+```
+
+Next →
+- ⛽🏛🍗🔵 — return to standard tempo with what the slow work revealed
+- ⛽🏛🍗🟣 — technical: add pauses to the slow eccentric for full time-under-tension control
+- 🖼🏛🍗⚪ — restoration color in the same axis; lighter load, same intent
+
+═══════════════════════════════════════
+
 ## 🧮 SAVE
 
-The 4-second eccentric does not build patience — it reveals position. Every centimeter of the descent under control is a centimeter you have actually earned. Take what you learned back into full-speed work.
-
-🧮
+The 4-second eccentric doesn't build patience — it reveals position. Every centimeter of the descent under control is a centimeter you have actually earned. Take what you learned back into full-speed work.
