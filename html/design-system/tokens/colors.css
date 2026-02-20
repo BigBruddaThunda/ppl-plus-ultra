@@ -1,0 +1,44 @@
+/* =========================================
+   PPL± Design System — Color Tokens
+   The 8 SCL Colors as CSS Custom Properties
+   Each color has dual identity:
+     Tonal name (from Color Context Vernacular)
+     Operational name (from SCL workout format)
+   Status: DRAFT — values are initial proposals
+   See: scl-deep/color-context-vernacular.md
+   See: seeds/art-direction.md
+   ========================================= */
+
+:root {
+  /* ⚪ Eudaimonia / Teaching — honest, genuine, clear, vulnerable */
+  --color-eudaimonia: #F5F0E8;
+  --color-eudaimonia-accent: #D4C9B8;
+
+  /* 🟡 Play / Fun — light, curious, exploratory, optional */
+  --color-play: #F2C744;
+  --color-play-accent: #D4A830;
+
+  /* 🟠 Connection / Circuit — warm, relational, inclusive, together */
+  --color-connection: #E07A3A;
+  --color-connection-accent: #C4612A;
+
+  /* 🔴 Passion / Intense — urgent, intense, high-stakes, direct */
+  --color-passion: #C0392B;
+  --color-passion-accent: #962D22;
+
+  /* ⚫ Order / Teaching — foundational, serious, non-negotiable */
+  --color-order: #1A1A1A;
+  --color-order-accent: #3D3D3D;
+
+  /* 🟣 Magnificence / Technical — deep, significant, precise, transformative */
+  --color-magnificence: #7B4FA2;
+  --color-magnificence-accent: #5E3C7D;
+
+  /* 🔵 Planning / Structured — structured, calm, methodical, processing */
+  --color-planning: #2E6BA6;
+  --color-planning-accent: #1E4F7D;
+
+  /* 🟢 Growth / Bodyweight — steady, sustainable, consistent, showing up */
+  --color-growth: #3A7D44;
+  --color-growth-accent: #2A5C32;
+}
