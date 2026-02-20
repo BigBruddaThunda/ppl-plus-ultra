@@ -92,19 +92,31 @@ If the chest rises to meet the bar, the load is too heavy or the brace has faile
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔴
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔴   •   ⛽🏛🪡🟣   → ⛽🏛🍗🔴
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛➖⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Deadlift: ___/___/___/___  ×  5/4/3/4
-Paused DL: ___/___/___  ×  4/3/3
-Pendlay Row: ___/___/___  ×  5/4/4
-Technical finding: ___________
-Correction to carry forward: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🪡🔵 — apply what this session revealed under structured load
-- 🏟🏛🪡🟣 — when the deadlift is ready to be tested
-- ⛽🏛🛒🟣 — technical push to pair with today's pull
+- ⛽⌛➕🔴 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔴 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔴 — pair the main strength pattern with its structural complement
+- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

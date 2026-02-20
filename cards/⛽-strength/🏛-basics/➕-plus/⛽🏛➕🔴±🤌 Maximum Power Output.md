@@ -124,21 +124,31 @@ Log this weight. It is the power ceiling for this training block.
 
 ## 7. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ 🖼⌛➖⚪
+                    (restore the engine after high CNS loading)
+
+← ⛽🏛🛒⚪   •   ⛽🏛➕🔴   → ⛽🏛🪡⚪
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛🍗⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Clean Pull Primer: top weight ___
-Power Clean + Front Squat: working weight ___ / all sets completed Y/N
-OHP: top set ___  ×  4
-Farmer's Carry: KB ___kg/hand / mid-carry drop Y/N
-Gutter Clean Pull: ___ × 4 / all 4 reps completed Y/N
-Session RPE (1–10): ___
-Recovery date: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➕🟣 — rebuild precision after this intensity session
-- 🏟🏛➕🟣 — test: max Power Clean attempt when capacity is confirmed
-- ⛽🏛🪡🔴 — pull track at same intensity to balance the pressing volume
+- 🖼⌛➖⚪ — restore the engine after high CNS loading
+- ⛽🏛🛒⚪ — pair the main strength pattern with its structural complement
+- ⛽🏛🪡⚪ — pair the main strength pattern with its structural complement
+- 🖼⌛🍗⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

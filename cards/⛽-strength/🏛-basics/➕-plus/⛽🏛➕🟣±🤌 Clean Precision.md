@@ -92,19 +92,31 @@ Rest: 3 min
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ 🖼⌛➖⚪
+                    (restore the engine after high CNS loading)
+
+← ⛽🏛🛒🔴   •   ⛽🏛➕🟣   → ⛽🏛🪡🔴
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛🍗⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Power Clean top set: ___  ×  4
-Technical finding (top set): ___________
-Overhead Squat: ___  ×  4 (depth: full / partial)
-Farmer's Carry: ___kg/hand
-Shoulder mobility limitation noted: Y / N
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- 🏟🏛➕🟣 — test: max Power Clean attempt when capacity is confirmed here
-- ⛽🏛➕🔵 — structured track with same movements, logged progression
-- ⛽🏛➕⚫ — teaching path if any technical finding needs more drilling
+- 🖼⌛➖⚪ — restore the engine after high CNS loading
+- ⛽🏛🛒🔴 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔴 — pair the main strength pattern with its structural complement
+- 🖼⌛🍗⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

@@ -100,17 +100,31 @@ No timer on the release. Stay until the breath has steadied.
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔵   •   ⛽🏛🪡⚪   → ⛽🏛🍗🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+```
+
 ```
 Date: ___________
-Deadlift (slow): ___/___/___/___  ×  5/5/4/5
-Row (slow): ___/___/___/___  ×  5/5/4/5
-Tightness or restriction noted: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🪡🔵 — return to standard tempo with what the slow work revealed
-- ⛽🏛🛒⚪ — mindful push to pair with today's pull
-- 🖼🏛🪡⚪ — if today surfaces something worth investigating further, the restoration version deepens it
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
 
 ═══════════════════════════════════════
 

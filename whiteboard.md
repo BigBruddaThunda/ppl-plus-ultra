@@ -262,3 +262,8 @@ Output: AGENTS.md (root), cards/AGENTS.md (nested), .codex/config.toml, .codex/a
 Next: Install Codex CLI (npm i -g @openai/codex), authenticate, test with exploratory session, then begin parallel deck generation
 
 🧮
+Session 005
+Date: 2026-02-20
+Work: Deck 07 junction-system redraw and recommendation-logic rewrite across all 40 cards
+Output: Replaced all Deck 07 🚂 Junction sections with cross-layout navigation (current zip centered, 4 type-based directional suggestions with rationale) and refreshed follow-up zip routing logic to include progressive/holistic/downshift pathways across SCL context.
+Next: Validate Deck 07 junction suggestions for coaching preference tuning.

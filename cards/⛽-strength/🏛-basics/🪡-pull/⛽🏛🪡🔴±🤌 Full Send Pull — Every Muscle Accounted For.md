@@ -117,19 +117,31 @@ Rest: 5 min if you do both sets. Skip entirely if the deadlift volume already bu
 
 ## 7. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕⚪
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒⚪   •   ⛽🏛🪡🔴   → ⛽🏛🍗⚪
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛➖⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Deadlift: ___/___/___/___/___  ×  5/5/4/3/5
-Row (paired): ___/___/___/___  ×  5/5/4/5
-Pull-Up: load ___  ×  5/5/4/6
-Rack Pull (if done): ___  ×  3/2
-Recovery date: ___________  (72 hr minimum before next pull)
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🛒🔴 — match intensity on the push side
-- ⛽🏛🪡🔵 — same pull pattern but structured; use today's loads as baseline
-- 🖼🏛🪡⚪ — if the CNS is cooked, this is the recovery lane
+- ⛽⌛➕⚪ — convert force into full-body power with timed structure
+- ⛽🏛🛒⚪ — pair the main strength pattern with its structural complement
+- ⛽🏛🍗⚪ — pair the main strength pattern with its structural complement
+- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

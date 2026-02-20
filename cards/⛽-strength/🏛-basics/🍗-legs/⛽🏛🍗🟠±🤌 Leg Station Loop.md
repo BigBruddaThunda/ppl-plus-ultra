@@ -84,19 +84,31 @@ Five rounds of leg circuit leaves residual tension; address it.
 
 ## 4. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕⚪
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒⚪   •   ⛽🏛🍗🟠   → ⛽🏛🪡⚪
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛➖⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Station A (Goblet Squat): load ___ × 5 rounds
-Station B (DB RDL): load ___ × 5 rounds
-Station C (DB Hip Thrust): load ___ × 5 rounds
-Loop logic held: Y/N
-Station that fatigued first: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🍗🔵 — return to barbell; circuit revealed which tissue fatigued first
-- 🦋🏛🍗🟠 — same circuit format at hypertrophy order; longer sets, shorter rest
-- ⛽🏛🪡🟠 — pull circuit to pair for a full-body circuit week
+- ⛽⌛➕⚪ — convert force into full-body power with timed structure
+- ⛽🏛🛒⚪ — pair the main strength pattern with its structural complement
+- ⛽🏛🪡⚪ — pair the main strength pattern with its structural complement
+- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

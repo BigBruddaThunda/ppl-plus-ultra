@@ -111,18 +111,31 @@ Log the rep count.
 
 ## 7. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕⚪
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🪡⚪   •   ⛽🏛🛒🔴   → ⛽🏛🍗⚪
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛➖⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Bench (5 sets): ___/___/___/___/___  ×  5/5/4/4/5
-OHP (4 sets): ___/___/___/___  ×  5/5/4/5
-Superset rounds: ___
-Gutter: ___ reps at ___
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🪡🔴 — matched intensity pull session to balance today's press volume
-- ⛽🏛🛒🔵 — structured return after the intense day; lower volume, same loads
-- 🖼🏛🛒⚪ — full recovery press if fatigue is high after this session
+- ⛽⌛➕⚪ — convert force into full-body power with timed structure
+- ⛽🏛🪡⚪ — pair the main strength pattern with its structural complement
+- ⛽🏛🍗⚪ — pair the main strength pattern with its structural complement
+- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

@@ -98,19 +98,31 @@ Rest: 2–3 min.
 
 ## 4. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔵   •   ⛽🏛🪡🟡   → ⛽🏛🍗🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+```
+
 ```
 Date: ___________
-T-Bar Row: ___/___/___  ×  5/5/5
-Yates Row: ___/___/___  ×  5/5/5
-Snatch-Grip DL: ___/___/___  ×  4/4/4
-Sandbox 1: __________ — finding: ___________
-Sandbox 2: __________ — finding: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🪡🔵 — take any sandbox discovery back into structured sessions
-- ⛽🏛🛒🟡 — push playground to pair with today's pull exploration
-- 🦋🏛🪡🟡 — same format at hypertrophy load for volume accumulation
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
 
 ═══════════════════════════════════════
 

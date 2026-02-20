@@ -80,19 +80,31 @@ Circuit work accumulates tension across the whole shoulder girdle.
 
 ## 4. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕⚪
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🪡⚪   •   ⛽🏛🛒🟠   → ⛽🏛🍗⚪
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛➖⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Station A (Weighted Dip): +___  ×  5, 5, 5  (3 rounds)
-Station D (DB Bench): ___  ×  5, 5, 5
-Station F (DB OHP): ___  ×  5, 5, 5
-Loop logic held: Y/N
-Tissue that fatigued first: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🛒🔵 — return to barbell with push pattern sharpened from circuit volume
-- ⛽🏛🪡🟠 — pull circuit to match today's push density
-- 🦋🏛🛒🟠 — same loop at hypertrophy load for volume accumulation
+- ⛽⌛➕⚪ — convert force into full-body power with timed structure
+- ⛽🏛🪡⚪ — pair the main strength pattern with its structural complement
+- ⛽🏛🍗⚪ — pair the main strength pattern with its structural complement
+- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

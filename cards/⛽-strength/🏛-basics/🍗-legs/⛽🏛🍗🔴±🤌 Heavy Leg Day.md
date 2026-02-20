@@ -110,19 +110,31 @@ Rest: 4 min before this set. Leave nothing.
 
 ## 7. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕⚪
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒⚪   •   ⛽🏛🍗🔴   → ⛽🏛🪡⚪
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛➖⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Squat: ___/___/___/___/___/___  ×  5/5/4/4/4/5
-RDL (paired): ___/___/___/___  ×  5/5/5/4
-Gutter Hip Thrust: ___  ×  5
-Session RPE (1–10): ___
-Recovery date: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🍗🔵 — return to structured; consolidate volume into tracked progression
-- ⛽🏛🛒🔴 — intense upper to match today's leg session
-- 🖼🏛🍗⚪ — restoration legs; recover the tissue from today's volume
+- ⛽⌛➕⚪ — convert force into full-body power with timed structure
+- ⛽🏛🛒⚪ — pair the main strength pattern with its structural complement
+- ⛽🏛🪡⚪ — pair the main strength pattern with its structural complement
+- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

@@ -88,19 +88,31 @@ Hip hinge pattern, posterior chain, balance.
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔵   •   ⛽🏛🪡🟢   → ⛽🏛🍗🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+```
+
 ```
 Date: ___________
-Weighted Pull-Up: +___  ×  5/5/4/5
-Archer Pull-Up: ___ each side × 3 sets
-SLRDL: ___ each side × 3 sets
-What transferred from barbell work: ___________
-What didn't: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🪡🔵 — return to barbell; see if the pull transferred in reverse
-- ⛽🔨🪡🟢 — bodyweight pull under functional axis: unilateral, athletic transfer
-- 🐂🏛🪡🟢 — foundation load if any bodyweight pull position needs work
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
 
 ═══════════════════════════════════════
 

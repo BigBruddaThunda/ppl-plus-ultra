@@ -91,20 +91,31 @@ Rest: 3 min
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🪡🔵   •   ⛽🏛🛒⚫   → ⛽🏛🍗🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+```
+
 ```
 Date: ___________
-Craft — weakest contact point: ___________
-Bench: ___/___/___/___  ×  5/5/4/5
-OHP — where it broke: ___________
-OHP: ___/___/___  ×  5/5/4
-CGBP: ___/___/___  ×  5/5/5
-Contact point to bring forward: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🛒🔵 — take the contact points found here into a structured session with full load
-- ⛽🏛🛒🟣 — same quality, more rest, slightly heavier
-- 🐂🏛🛒⚫ — return to foundation load if any contact point is still unclear
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
 
 ═══════════════════════════════════════
 

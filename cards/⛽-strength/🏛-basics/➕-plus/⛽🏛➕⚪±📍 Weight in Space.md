@@ -125,18 +125,31 @@ No timer on the release. Stay until the breath has steadied.
 
 ## 6. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+
+← ⛽🏛🛒🔵   •   ⛽🏛➕⚪   → ⛽🏛🪡🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛🍗🔵
+                    (pair the main strength pattern with its structural complement)
+```
+
 ```
 Date: ___________
-Front Squat: working weight / tempo held each set Y/N / pause sets comfortable Y/N
-OHP: working weight / descent controlled Y/N / lockout stable Y/N
-Pallof Hold: harder side ___ / trunk rotation during exhale Y/N
-Dead Bug: lower back stayed down Y/N / breath cycle synced Y/N
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➕🔵 — take the same weights, remove the tempo, feel the speed difference
-- ⛽🏛➕⚫ — teaching session to address whatever the slow tempo revealed
-- ⛽🏛🛒⚪ — pressing track at slow tempo to complete the mindful strength cycle
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
 
 ═══════════════════════════════════════
 

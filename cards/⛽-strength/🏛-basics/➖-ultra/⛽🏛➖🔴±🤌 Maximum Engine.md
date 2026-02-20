@@ -113,20 +113,31 @@ Rest: 60 sec between sets.
 
 ## 7. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕⚪
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒⚪   •   ⛽🏛➖🔴   → ⛽🏛🪡⚪
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛🍗⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Interval splits: ___ / ___ / ___ / ___ / ___ / ___ / ___
-Split drift (1 vs 7): ___
-Gutter: 30 cal in ___ sec / skipped Y/N
-Jump rope: effort held all 3 sets Y/N
-Session RPE (1–10): ___
-Recovery date: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➖🔵 — same erg format with more rest: 5 × 500m at 3 min between
-- ⛽🏛➖🟣 — fewer intervals, full recovery, precision focus on each stroke
-- ⛽🏛➖🟢 — take the sprint format outside: track sprints with full walk recovery
+- ⛽⌛➕⚪ — convert force into full-body power with timed structure
+- ⛽🏛🛒⚪ — pair the main strength pattern with its structural complement
+- ⛽🏛🪡⚪ — pair the main strength pattern with its structural complement
+- 🖼⌛🍗⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

@@ -89,19 +89,31 @@ One arm loads, one assists. The bodyweight dumbbell press.
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🪡🔵   •   ⛽🏛🛒🟢   → ⛽🏛🍗🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+```
+
 ```
 Date: ___________
-Weighted Dip: +___  ×  5/5/4/5
-HSPU: ___ / ___ / ___  reps
-Archer Push-Up: ___ each side × 3 sets
-What transferred from barbell work: ___________
-What didn't: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🛒🔵 — return to barbell; see if the transfer ran in reverse
-- ⛽🔨🛒🟢 — bodyweight push under functional axis: unilateral, standing, athletic
-- 🐂🏛🛒🟢 — foundation load if any bodyweight position needs more drilling
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
 
 ═══════════════════════════════════════
 

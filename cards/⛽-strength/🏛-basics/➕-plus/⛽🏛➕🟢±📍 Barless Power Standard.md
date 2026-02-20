@@ -86,18 +86,31 @@ Anti-rotation and rotational control back to back with the same hang.
 
 ## 4. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+
+← ⛽🏛🛒🔵   •   ⛽🏛➕🟢   → ⛽🏛🪡🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛🍗🔵
+                    (pair the main strength pattern with its structural complement)
+```
+
 ```
 Date: ___________
-L-Sit: best hold ___sec / tuck or straight?
-Hanging Leg Raise: reps × sets completed
-RKC Plank: hold time / tension held Y/N
-Location: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➕🔵 — return to barbell; does the bodyweight standard translate?
-- ⛽🏛➕⚫ — if L-Sit exposed a mechanics gap, the teaching session addresses it
-- 🦋🏛➕🟢 — same format at hypertrophy load; more volume, same equipment
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
 
 ═══════════════════════════════════════
 

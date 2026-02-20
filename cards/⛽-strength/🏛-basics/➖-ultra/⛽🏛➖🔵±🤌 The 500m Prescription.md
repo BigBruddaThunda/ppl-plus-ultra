@@ -93,20 +93,31 @@ Rest: 3 min full recovery after each set.
 
 ## 6. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🟣
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🟣   •   ⛽🏛➖🔵   → ⛽🏛🪡🟣
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛🍗⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Damper setting: ___
-Primer 80%: ___  /  Primer 90%: ___
-Interval 1: ___   2: ___   3: ___   4: ___   5: ___
-Split drift (1 vs 5): ___
-Assault Bike: effort held all 3 sets Y/N
-Add 2 sec to target pace next session: Y / N
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➖🟣 — same erg anchor, fewer intervals, full rest, precision focus on stroke quality
-- ⛽🏛➖🔴 — more intervals, reduced rest, maximum cardiovascular demand
-- ⛽🏛➖⚫ — if mechanics felt rough on Intervals 3–5, return to the teaching session
+- ⛽⌛➕🟣 — convert force into full-body power with timed structure
+- ⛽🏛🛒🟣 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🟣 — pair the main strength pattern with its structural complement
+- 🖼⌛🍗⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

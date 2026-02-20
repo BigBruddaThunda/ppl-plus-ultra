@@ -81,19 +81,31 @@ Circuit work accumulates tension across the whole shoulder girdle.
 
 ## 4. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕⚪
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒⚪   •   ⛽🏛🪡🟠   → ⛽🏛🍗⚪
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛➖⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Station A (Pull-Up): ___ / ___ / ___ reps
-Station B (DB Shrug): load ___ × 3 rounds
-Station D (KB Deadlift): load ___ × 3 rounds
-Loop logic held: Y/N
-Tissue that fatigued first: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🪡🔵 — the straight barbell version of today's pull for comparison
-- ⛽🏛🛒🟠 — push circuit to pair with today's pull circuit
-- 🌾🏛🪡🟠 — full body circuit with these pull patterns integrated
+- ⛽⌛➕⚪ — convert force into full-body power with timed structure
+- ⛽🏛🛒⚪ — pair the main strength pattern with its structural complement
+- ⛽🏛🍗⚪ — pair the main strength pattern with its structural complement
+- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 
