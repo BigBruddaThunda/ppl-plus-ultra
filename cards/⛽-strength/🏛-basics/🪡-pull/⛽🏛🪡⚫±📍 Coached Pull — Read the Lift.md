@@ -89,20 +89,31 @@ Rest: 3 min
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔵   •   ⛽🏛🪡⚫   → ⛽🏛🍗🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+```
+
 ```
 Date: ___________
-Craft — which deadlift setup point broke: ___________
-Deadlift: ___/___/___  ×  4/4/4
-Row — hinge angle held: Y/N
-Row: ___/___/___  ×  5/5/4
-Pull-Up: +___  ×  4/4/4
-Setup point to bring forward: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🪡🔵 — run the same movements with full prescribed load after the setup is learned
-- ⛽🏛🪡🟣 — same quality, heavier load, more rest
-- 🐂🏛🪡⚫ — return to foundation load if any setup point needs more drilling
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
 
 ═══════════════════════════════════════
 

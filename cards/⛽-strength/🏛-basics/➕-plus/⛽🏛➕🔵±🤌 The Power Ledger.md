@@ -95,18 +95,31 @@ Rest: 2 min
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ 🖼⌛➖⚪
+                    (restore the engine after high CNS loading)
+
+← ⛽🏛🛒🟣   •   ⛽🏛➕🔵   → ⛽🏛🪡🟣
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛🍗⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Front Squat: ___/___/___/___/___  ×  5/5/5/4/5
-OHP: ___/___/___/___  ×  5/5/4/5
-Farmer's Carry: KB ___kg/hand × 4 sets
-Add 2.5 kg next session: Y / N (if all sets landed)
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➕🟣 — technical track: same lifts with precision focus and extended rest
-- ⛽🏛➕🔴 — intense track: same pattern, higher volume, reduced rest
-- ⛽🏛🪡🔵 — pull day to complement the pressing volume here
+- 🖼⌛➖⚪ — restore the engine after high CNS loading
+- ⛽🏛🛒🟣 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🟣 — pair the main strength pattern with its structural complement
+- 🖼⌛🍗⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

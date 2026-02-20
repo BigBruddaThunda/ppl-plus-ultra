@@ -102,18 +102,31 @@ No hurry after this session.
 
 ## 6. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔵   •   ⛽🏛➖⚪   → ⛽🏛🪡🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛🍗🔵
+                    (pair the main strength pattern with its structural complement)
+```
+
 ```
 Date: ___________
-Nasal-pace ceiling (fastest split where breath stayed clean): ___
-Interval splits: ___ / ___ / ___ / ___  (nasal held: Y/N for each)
-Tempo runs: pace ___ / nasal held both sets Y/N
-Moment that broke the breath: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➖🔵 — same erg work, mouth breathing allowed: how much faster is the split?
-- ⛽🏛➖⚫ — if mechanics degraded under breath constraint, return to the teaching session
-- ⛽🏛➖🟢 — take the nasal tempo run outside: longer duration, open surface
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
 
 ═══════════════════════════════════════
 

@@ -106,20 +106,31 @@ If no sled: substitute 3 × Rowing Sprints (250m) at max effort, 4 min rest.
 
 ## 6. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔴
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔴   •   ⛽🏛➖🟣   → ⛽🏛🪡🔴
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛🍗⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Primer 1000m split: ___  /  Primer 250m split: ___
-Interval 1 (rate control): split ___ / avg spm ___
-Interval 2 (drive power): split ___ / avg watts ___
-Interval 3 (full integration): split ___ / avg spm ___ / avg watts ___
-Sled load: ___kg / hips stayed high Y/N
-Technical degradation noted: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➖🔵 — same erg anchor, higher volume: 5 × 500m with 3 min rest
-- ⛽🏛➖🔴 — maximum volume and effort, less recovery
-- ⛽🏛➖⚫ — if stroke mechanics degraded in the final interval, return to the teaching session
+- ⛽⌛➕🔴 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔴 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔴 — pair the main strength pattern with its structural complement
+- 🖼⌛🍗⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

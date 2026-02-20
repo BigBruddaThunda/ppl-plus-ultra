@@ -88,19 +88,31 @@ Rest: 3 min
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔵   •   ⛽🏛🍗⚫   → ⛽🏛🪡🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+```
+
 ```
 Date: ___________
-Setup point that broke: ___________
-Back Squat: ___/___/___/___  ×  5/5/5/4
-RDL: ___/___/___  ×  5/5/5
-What clicked today: ___________
-What to correct next session: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🍗🔵 — same movements with full prescribed load once mechanics are solid
-- ⛽🏛🍗🟣 — same quality, box squat and pause squat to deepen the technical work
-- 🐂🏛🍗⚫ — return to foundation load if any setup point needs more drilling
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
 
 ═══════════════════════════════════════
 

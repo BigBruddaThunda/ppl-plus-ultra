@@ -85,19 +85,31 @@ Pause 1 sec at knee height on the way down. Forces you to own the mid-shin posit
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔴
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔴   •   ⛽🏛🍗🟣   → ⛽🏛🪡🔴
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛➖⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Pause Squat: ___/___/___/___  ×  5/4/4/3
-Bar path at box: forward / straight / back
-RDL (paused): ___/___/___/___  ×  5/5/4/4
-Technical finding: ___________
-Fix to carry forward: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🍗🔵 — take the pause squat mechanics back into free squats; see if the bar path held
-- ⛽🏛🍗🔴 — if technique is clean, earn the intensity
-- ⛽🏛🪡🟣 — technical pulling session to pair with today
+- ⛽⌛➕🔴 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔴 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔴 — pair the main strength pattern with its structural complement
+- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

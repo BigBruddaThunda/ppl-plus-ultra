@@ -98,19 +98,31 @@ Loop tissue audit: pull (seated) → push/pull (seated) → lower leg impact (st
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕⚪
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒⚪   •   ⛽🏛➖🟠   → ⛽🏛🪡⚪
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛🍗⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Rounds completed: ___ of 5
-Station that fatigued first: ___________
-Rowing effort held across all rounds: Y/N
-Sled load: ___
-Output consistency (held / dropped / improved): ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➖🔴 — same modalities, no circuit: straight intervals on the erg with reduced rest
-- ⛽🏛➖🟡 — circuit format with more variety and mixed modalities
-- ⛽🏛➖🔵 — take the erg work into a structured 5 × 500m with full rest
+- ⛽⌛➕⚪ — convert force into full-body power with timed structure
+- ⛽🏛🛒⚪ — pair the main strength pattern with its structural complement
+- ⛽🏛🪡⚪ — pair the main strength pattern with its structural complement
+- 🖼⌛🍗⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

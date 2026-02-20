@@ -89,21 +89,31 @@ Leave quieter than you arrived.
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🪡🔵   •   ⛽🏛🛒⚪   → ⛽🏛🍗🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+```
+
 ```
 Date: ___________
-Bench (4-sec eccentric):
-  Set 1: ___ × 4   Tempo held: Y/N
-  Set 2: ___ × 4   Tempo held: Y/N
-  Set 3: ___ × 4   Tempo held: Y/N
-  Set 4: ___ × 4   Tempo held: Y/N
-  Set 5: ___ × 4   Tempo held: Y/N
-CNS state leaving (calm / wired / neutral): ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🛒🔵 — return to standard tempo; slow work makes standard sets feel faster
-- ⛽🏛🪡⚪ — paired mindful session on the pull side
-- 🖼🏛🛒⚪ — full restoration press if CNS is elevated and a deload is needed
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
 
 ═══════════════════════════════════════
 

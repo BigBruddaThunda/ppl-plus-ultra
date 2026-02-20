@@ -97,18 +97,31 @@ Rest: 2 min
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+
+← ⛽🏛🛒🔵   •   ⛽🏛➕🟡   → ⛽🏛🪡🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛🍗🔵
+                    (pair the main strength pattern with its structural complement)
+```
+
 ```
 Date: ___________
-Complex top set: ___% — limiting movement: ___________
-Sandbox carry chosen: ___________ — weight ___
-Weakness exposed: ___________
-Turkish Get-Up: KB weight ___ / position where form broke (if any): ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➕🔵 — convert today's complex into a structured logged progression
-- ⛽🏛➕🟣 — Olympic lift entry to build on the hinge pattern in the complex
-- ⛽🏛➕🔴 — bring the complex to intensity: higher load, shorter rest
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
 
 ═══════════════════════════════════════
 

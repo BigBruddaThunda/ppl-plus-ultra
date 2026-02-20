@@ -90,18 +90,31 @@ Grip shoulder-width or slightly inside. Squeeze at the top.
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🟣
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🪡🟣   •   ⛽🏛🛒🔵   → ⛽🏛🍗🟣
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛➖⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Bench: ___/___/___/___  ×  5/5/4/4
-OHP:   ___/___/___      ×  5/5/4
-CGBP:  ___/___/___      ×  5/5/5
-Next load adjustment: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🪡🔵 — paired pull session to match today's press
-- ⛽🏛🛒🟣 — same patterns, more rest, technical focus
-- 🏟🏛🛒🔵 — test the bench after 3–4 cycles of this card
+- ⛽⌛➕🟣 — convert force into full-body power with timed structure
+- ⛽🏛🪡🟣 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🟣 — pair the main strength pattern with its structural complement
+- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

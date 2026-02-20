@@ -89,20 +89,31 @@ Rest: 3 min between sets.
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🟣
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🟣   •   ⛽🏛🍗🔵   → ⛽🏛🪡🟣
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛➖⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Squat: ___/___/___/___/___  ×  5/5/5/4/4
-RDL: ___/___/___/___  ×  5/5/5/4
-Calf Raise: ___/___/___  ×  6/6/5
-Progression target: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
-If all sets landed with reps in reserve on the back-off, add 2.5 kg next session.
-
 Next →
-- ⛽🏛🍗🔵 — run this card again; aim for +2.5 kg or one extra rep
-- ⛽🏛🛒🔵 — structured upper to pair with today's lower
-- ⛽🏛🍗🟣 — technical variation if form needs refinement at heavier loads
+- ⛽⌛➕🟣 — convert force into full-body power with timed structure
+- ⛽🏛🛒🟣 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🟣 — pair the main strength pattern with its structural complement
+- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

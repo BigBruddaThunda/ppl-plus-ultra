@@ -88,21 +88,31 @@ Note what felt different. That's the data from this session.
 
 ## 4. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🪡🔵   •   ⛽🏛🛒🟡   → ⛽🏛🍗🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+```
+
 ```
 Date: ___________
-Bench: ___/___/___  ×  5/5/4
-Sandbox option: ___________
-  Set 1: ___ × 5
-  Set 2: ___ × 4
-  Set 3: ___ × 4
-What felt different: ___________
-Worth revisiting: Y/N
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🛒🔵 — take the best-feeling angle from today into the structured session
-- ⛽🏛🛒🟣 — if you found a variation worth technical refinement, take it there
-- 🦋🏛🛒🟡 — run the same exploration at hypertrophy load, compare the pump feel
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
 
 ═══════════════════════════════════════
 

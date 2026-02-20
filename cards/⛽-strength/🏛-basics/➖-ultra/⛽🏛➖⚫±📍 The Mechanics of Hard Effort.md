@@ -100,20 +100,31 @@ Rest: 4 min full recovery between intervals.
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔵   •   ⛽🏛➖⚫   → ⛽🏛🪡🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛🍗🔵
+                    (pair the main strength pattern with its structural complement)
+```
+
 ```
 Date: ___________
-Interval 1 split (catch): ___
-Interval 2 split (drive): ___
-Interval 3 split (recovery): ___
-Interval 4 split (full): ___
-Phase that broke down: ___________
-Cue that held: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➖🔵 — take today's mechanics into a structured 5 × 500m prescription with fixed splits
-- ⛽🏛➖🟣 — fewer intervals, extended rest, technical precision under fatigue
-- ⛽🏛➖🟢 — same interval structure, no machines: sprints and bodyweight cardio
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
 
 ═══════════════════════════════════════
 

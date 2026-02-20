@@ -96,19 +96,31 @@ Loop tissue audit: posterior chain → anterior core → lateral core → hip fl
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ 🖼⌛➖⚪
+                    (restore the engine after high CNS loading)
+
+← ⛽🏛🛒⚪   •   ⛽🏛➕🟠   → ⛽🏛🪡⚪
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛🍗⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-KB Swing: weight ___ / form held all 4 rounds Y/N
-Ab Wheel: range of motion / form breakdown Y/N
-Suitcase Carry: KB weight ___ / lateral lean controlled Y/N
-Hanging Leg Raise: reps per round ___ / kipping Y/N
-Station that fatigued first: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➕🔵 — structured single-lift work after the circuit
-- ⛽🏛➕🟣 — Olympic lift entry for the hip power expressed at Station 1
-- ⛽🏛🪡🟠 — pull circuit to complement today's core and carry work
+- 🖼⌛➖⚪ — restore the engine after high CNS loading
+- ⛽🏛🛒⚪ — pair the main strength pattern with its structural complement
+- ⛽🏛🪡⚪ — pair the main strength pattern with its structural complement
+- 🖼⌛🍗⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

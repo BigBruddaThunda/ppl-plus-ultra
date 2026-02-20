@@ -91,20 +91,31 @@ Rest: 90 sec between sets.
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔵   •   ⛽🏛➖🟡   → ⛽🏛🪡🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛🍗🔵
+                    (pair the main strength pattern with its structural complement)
+```
+
 ```
 Date: ___________
-Erg splits: Interval 1 ___ / Interval 2 ___
-Bike sets: effort held Y/N
-Sprint efforts (/10): ___ / ___
-Sandbox option chosen: ___________
-Which modality felt strongest: ___________
-Which felt worst — and why: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➖🔵 — commit to one modality: structured 5 × 500m, nothing else
-- ⛽🏛➖🟢 — take the sprint block outside: no machines at all
-- ⛽🏛➖🟠 — take this variety into a circuit format with station logic
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
 
 ═══════════════════════════════════════
 

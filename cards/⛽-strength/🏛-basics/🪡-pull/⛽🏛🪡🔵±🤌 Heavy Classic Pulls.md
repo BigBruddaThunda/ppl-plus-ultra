@@ -82,20 +82,31 @@ Rest: 2–3 min
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🟣
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🟣   •   ⛽🏛🪡🔵   → ⛽🏛🍗🟣
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ 🖼⌛➖⚪
+                    (downshift and recover while keeping pattern quality)
+```
+
 ```
 Date: ___________
-Deadlift: ___/___/___/___  ×  5/5/4/5
-Row: ___/___/___/___  ×  5/5/5/6
-Shrug: ___/___/___  ×  5/5/6
-Progression target: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
-If all sets landed as prescribed with reps in reserve on the back-off, add 2.5 kg next session.
-
 Next →
-- ⛽🏛🛒🔵 — push complement to today's pull
-- ⛽🏛🪡🟣 — same pattern, technical focus, extended rest and quality emphasis
-- 🦋🏛🪡🔵 — drop the load, add volume, same movements
+- ⛽⌛➕🟣 — convert force into full-body power with timed structure
+- ⛽🏛🛒🟣 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🟣 — pair the main strength pattern with its structural complement
+- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
 
 ═══════════════════════════════════════
 

@@ -86,19 +86,31 @@ If no hill: substitute 3 × Jump Rope Sprint Intervals (30 sec max effort, 3 min
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔵   •   ⛽🏛➖🟢   → ⛽🏛🪡🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛🍗🔵
+                    (pair the main strength pattern with its structural complement)
+```
+
 ```
 Date: ___________
-Surface: ___________
-Conditions (weather, footing): ___________
-Sprint efforts (/10): ___ / ___ / ___ / ___ / ___
-Hill sprints (/10): ___ / ___ / ___
-Form note: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➖🔵 — bring the sprint format onto the erg: structured 5 × 500m with fixed splits
-- ⛽🏛➖🟡 — same bodyweight restriction with variety: jump rope, shuttles, mixed modalities
-- ⛽🏛➖⚫ — learn the rowing stroke mechanics before running more sprint blocks
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
 
 ═══════════════════════════════════════
 

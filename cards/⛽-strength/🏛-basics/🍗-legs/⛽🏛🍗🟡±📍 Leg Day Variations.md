@@ -98,19 +98,31 @@ Rest: 3 min
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔵   •   ⛽🏛🍗🟡   → ⛽🏛🪡🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+```
+
 ```
 Date: ___________
-Squat variation chosen: ___________
-Load at top set: ___ × ___
-Sandbox 1: __________ — finding: ___________
-Sandbox 2: __________ — finding: ___________
-Add to regular rotation: Y / N
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🍗🔵 — bring the strongest variation from today into the structured track
-- ⛽🏛🍗🟣 — technical version: if a variation revealed a mechanics gap, pursue it with precision
-- 🦋🏛🍗🟡 — same exploration at hypertrophy load; more volume, same variety
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
 
 ═══════════════════════════════════════
 

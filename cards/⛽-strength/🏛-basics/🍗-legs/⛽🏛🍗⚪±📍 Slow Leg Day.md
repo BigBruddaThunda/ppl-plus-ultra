@@ -94,18 +94,31 @@ No timer on the release. Stay until the breath has steadied.
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽⌛➕🔵
+                    (convert force into full-body power with timed structure)
+
+← ⛽🏛🛒🔵   •   ⛽🏛🍗⚪   → ⛽🏛🪡🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+```
+
 ```
 Date: ___________
-Squat (slow): ___/___/___/___/___  ×  5/5/4/4/4 (tempo held: Y/N)
-Where did tempo break: descent / bottom / drive
-RDL (slow): ___/___/___/___  ×  5/5/5/4
-Tension gaps noticed: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛🍗🔵 — return to standard tempo with what the slow work revealed
-- ⛽🏛🍗🟣 — technical: add pauses to the slow eccentric for full time-under-tension control
-- 🖼🏛🍗⚪ — restoration color in the same axis; lighter load, same intent
+- ⛽⌛➕🔵 — convert force into full-body power with timed structure
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
 
 ═══════════════════════════════════════
 

@@ -106,18 +106,31 @@ Rest: 2 min
 
 ## 5. 🚂 JUNCTION
 
+Cross-Junction map (current zip at center):
+
+```text
+               ↑ ⛽🏛➖🔵
+                    (build repeatable engine capacity under strength intent)
+
+← ⛽🏛🛒🔵   •   ⛽🏛➕⚫   → ⛽🏛🪡🔵
+  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
+
+               ↓ ⛽🏛🍗🔵
+                    (pair the main strength pattern with its structural complement)
+```
+
 ```
 Date: ___________
-Complex top set: ___% — segment that broke: ___________
-Front Squat top set: ___  ×  ___
-Cue that clicked today: ___________
-Correct next session: ___________
+Load notes: ___________________________
+Rep quality: __________________________
+Readiness next session (1–5): _________
 ```
 
 Next →
-- ⛽🏛➕🔵 — same complex with structured loading once mechanics are clean
-- ⛽🏛➕🟣 — technical path: Olympic lift entry after the hinge is sound
-- 🐂🏛➕⚫ — return to foundation load if any segment needs more drilling time
+- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
+- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
+- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
 
 ═══════════════════════════════════════
 
