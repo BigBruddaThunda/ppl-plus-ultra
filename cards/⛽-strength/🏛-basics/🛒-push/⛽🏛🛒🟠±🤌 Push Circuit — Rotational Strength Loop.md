@@ -1,18 +1,18 @@
 ---
 zip: ⛽🏛🛒🟠
 operator: 🤌 facio
-status: GENERATED
+status: GENERATED-V2
 deck: 07
-order: ⛽ Strength | 75-85% | 4-6 reps | 3-4 min | CNS: High
-axis: 🏛 Basics | Bilateral, stable, barbell-first classics. Compound over isolation.
+order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
+axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: 🛒 Push | Chest, front delts, triceps
-color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
-blocks: ♨️ → ▶️ → 🎱 → 🪫 → 🚂
+color: 🟠 Circuit | Tier 0–3 | GOLD: No | Station rotation. No barbells. Loop logic required.
+blocks: ♨️ → 🎱 → 🪫 → 🚂 → 🧮
 ---
 
 # 🛒 Push Circuit — Rotational Strength Loop 🛒
 
-**Station-based push strength | Chest, front delts, triceps | 55–65 min**
+Station-based push strength | Chest, front delts, triceps | 50–60 min
 
 CODE: ⛽🏛🛒🟠
 
@@ -22,204 +22,80 @@ CODE: ⛽🏛🛒🟠
 
 ## 1. ♨️ WARM-UP
 
-🤌 facio — prepare all push tissue before the circuit begins
+🤌 facio — prepare all push tissue
 
-⛽🏛🛒🟠♨️ (Warm-Up | Chest/Delts/Triceps | Basics | Tier 0–2)
-
-Rest: Move continuously.
-
-├─ Shoulder mobility:
-│  ├─ 10 Shoulder Dislocations (Band/PVC) (slow, full arc)
-│  ├─ 15 Band Pull-Apart (retract hard at end range)
-│  └─ 10 Wall Angel (back against wall the entire rep)
-│
-└─ Movement prep:
-   ├─ 15 🛒 Standard Push-Up (blood flow — easy pace)
-   ├─ 10 🛒 Diamond Push-Up (Close-Grip) (elbows track back)
-   └─ 10 🛒 Chest Dip (Lean Forward) (lean forward, feel the chest)
+- 10 Shoulder Dislocations
+- 15 Band Pull-Apart
+- 15 🛒 Standard Push-Up
+- Preview each station once at 50% effort before the loop starts
 
 ═══════════════════════════════════════
 
-## 2. ▶️ PRIMER
+## 2. 🎱 ARAM
 
-🤌 facio — CNS activation, rehearse each station movement before the circuit clock starts
+🤌 facio — tissue rotation loop, 3 rounds
 
-⛽🏛🛒🟠▶️ (Primer | Chest/Front Delts/Triceps | Basics | Tier 1–2)
+Loop logic: each station changes what tissue is working. No two adjacent stations hit the same primary muscle.
 
-Rest: 60 sec between stations
-
-Rehearse each station once at reduced load/effort before the full loop:
-
-├─ Station preview — Weighted Chest Dip:
-│  └─ 4 reps (lean, feel the chest, confirm the load is appropriate)
-├─ Station preview — Dumbbell Overhead Press (Standing):
-│  └─ 4 reps (full lockout, confirm dumbbell weight)
-├─ Station preview — Diamond Push-Up (Close-Grip):
-│  └─ 5 reps (elbows back, feel the tricep)
-├─ Station preview — Dumbbell Bench Press:
-│  └─ 4 reps (confirm dumbbell weight, groove the press)
-└─ Station preview — Dumbbell Lateral Raise:
-   └─ 8 reps (light — this is the recovery station, it should feel easy)
-
-═══════════════════════════════════════
-
-## 3. 🎱 ARAM
-
-🤌 facio — the circuit loop, tissue rotation, strength density
-
-⛽🏛🛒🟠🎱 (ARAM | Chest/Front Delts/Triceps | Basics | Tier 0–3)
-
-**Loop structure:**
-
-The loop rotates: Chest-dominant → Tricep-dominant → Delt-dominant → Chest (repeat).
-Each station recovers the tissue from the previous. No two adjacent stations target the same primary muscle.
+Rest between stations: 45–60 sec (rotate and set up, don't fully recover)
+Rest between rounds: 3 min (⛽ Order demands full round recovery)
 
 ```
-┌──────────────────────────────────────────────────────────┐
-│  PUSH CIRCUIT — TISSUE ROTATION LOOP                    │
-│                                                          │
-│  A: CHEST           B: TRICEPS          C: DELTS         │
-│  Weighted           Diamond             Dumbbell          │
-│  Chest Dip          Push-Up             Lateral Raise    │
-│  4–5 reps           5–6 reps            8–10 reps        │
-│  (lean forward)     (elbows back)       (light band/DB)  │
-│       ↓                  ↓                    ↓          │
-│  D: CHEST (angle)   E: TRICEPS (angle)   F: DELTS (angle)│
-│  Dumbbell           Close-Grip DB        Dumbbell OHP     │
-│  Bench Press        Press                (Standing)       │
-│  4–5 reps           5 reps               4–5 reps        │
-│  (arch, full ROM)   (inside grip)        (strict, lock)  │
-└──────────────────────────────────────────────────────────┘
+Station A — Chest          Station B — Triceps
+Weighted Chest Dip         Diamond Push-Up
+× 5 reps                   × 6 reps
+(lean forward, chest)      (elbows back)
+
+Station C — Delts          Station D — Chest (angle)
+Dumbbell Lateral Raise     Dumbbell Bench Press
+× 10 reps                  × 5 reps
+(light, recovery)          (arch, full ROM)
+
+Station E — Triceps        Station F — Delts (vertical)
+Close-Grip DB Press        Dumbbell OHP (Standing)
+× 5 reps                   × 5 reps
+(inside grip)              (strict, full lock)
+
+→ return to Station A for next round
 ```
 
-**Station-by-station prescriptions:**
+**Load guideline for strength stations (A, D, E, F):**
+Dumbbells at ⛽ working load — challenging 5s, not easy 5s.
 
-Rest between stations: 45–60 sec (enough to rotate and set up, not enough to fully recover)
-Rest between rounds: 3 min (full recovery between loops — ⛽ Order demands this)
+**Station C** is the recovery station — light dumbbells, actively recovering the chest between station clusters.
 
----
-
-**Station A — Weighted Chest Dip (Chest, Sternal Head)**
-
-├─ Tier 2 (weight vest or dipping belt with plate)
-├─ Round 1: ⛽ working weight × 5 (lean forward 20–30°, elbows wide, drive through the chest)
-├─ Round 2: ⛽ same × 5 (same position — if the lean disappears, the chest drops out)
-└─ Round 3: ⛽ same × 4 (match quality — station is done when reps clean up)
-
-Move to Station B immediately after each set.
-
----
-
-**Station B — Diamond Push-Up (Close-Grip) (Triceps)**
-
-├─ Tier 0 (bodyweight)
-├─ Round 1: 6 reps (hands form a diamond, elbows track straight back — not flared)
-├─ Round 2: 6 reps (pause 1 sec at the bottom — remove the bounce)
-└─ Round 3: 5 reps (if 6 broke form, 5 clean beats 6 sloppy)
-
-Move to Station C immediately after each set.
-
----
-
-**Station C — Dumbbell Lateral Raise (Lateral Deltoid)**
-
-├─ Tier 2 (light dumbbells — this is the tissue recovery station, not the strength station)
-├─ Round 1: 10 reps (arms stay nearly straight, raise to shoulder height only)
-├─ Round 2: 10 reps (control the descent — 2 sec down)
-└─ Round 3: 8 reps (same — the shoulder is recovering the chest from Station A here)
-
-Move to Station D immediately after each set.
-
----
-
-**Station D — Dumbbell Bench Press (Chest, varied angle)**
-
-├─ Tier 2 (moderate dumbbells — ⛽ load range, manageable without a spotter)
-├─ Round 1: ⛽ working × 5 (arch, feet flat, press in arc, meet at the top)
-├─ Round 2: ⛽ same × 5 (same groove — the dumbbell path is more individual than the bar)
-└─ Round 3: ⛽ same × 4 (match — add nothing today)
-
-Move to Station E immediately after each set.
-
----
-
-**Station E — Close-Grip Dumbbell Press (Triceps, compound)**
-
-├─ Tier 2 (moderate dumbbells, lighter than Station D)
-├─ Round 1: 5 reps (dumbbells touching at the top and bottom, elbows track back)
-├─ Round 2: 5 reps (same — feel the triceps at the top, not the chest)
-└─ Round 3: 5 reps (steady — no bouncing off the chest)
-
-Move to Station F immediately after each set.
-
----
-
-**Station F — Dumbbell Overhead Press (Standing) (Front Delt, vertical)**
-
-├─ Tier 2 (working weight dumbbells for strict OHP)
-├─ Round 1: ⛽ working × 5 (brace before the press, full lockout, ribs down)
-├─ Round 2: ⛽ same × 5 (head through at the top — ear forward)
-└─ Round 3: ⛽ same × 4 (if the last rep broke, stop at 4)
-
-Return to Station A after Station F. Rest 3 min, then repeat.
-
----
-
-**Total rounds: 3**
+Run 3 complete rounds.
 
 ═══════════════════════════════════════
 
-## 4. 🪫 RELEASE
+## 3. 🪫 RELEASE
 
-⛽🏛🛒🟠🪫 (Release | Chest/Shoulders/Triceps | Basics | Tier 0)
+Circuit work accumulates tension across the whole shoulder girdle.
 
-Circuit work accumulates tension across the whole shoulder girdle. Address it.
-
-├─ Doorway Chest Stretch — 60 sec each side (full arm width in the doorway)
-├─ Cross-Body Shoulder Stretch — 45 sec each side
-├─ Child's Pose (Shoulder Stretch) — 60 sec (arms forward, thoracic drops)
-└─ Band Pull-Apart — 2 × 12 (light, slow — rear delts open after all that pressing)
+- Doorway Chest Stretch: 60 sec each side
+- Child's Pose (arms extended): 60 sec
+- Cross-Body Shoulder Stretch: 45 sec each side
 
 ═══════════════════════════════════════
 
-## 5. 🚂 JUNCTION
-
-⛽🏛🛒🟠🚂 (Junction | Logging & Next Session)
-
-**Log this session:**
+## 4. 🚂 JUNCTION
 
 ```
 Date: ___________
-Circuit — 3 rounds:
-  Station A (Weighted Dip):
-    Round 1: +___ kg/lbs × ___
-    Round 2: +___ kg/lbs × ___
-    Round 3: +___ kg/lbs × ___
-  Station B (Diamond Push-Up):
-    Round 1: ___  Round 2: ___  Round 3: ___
-  Station C (Lateral Raise):
-    Round 1: ___  Round 2: ___  Round 3: ___
-  Station D (DB Bench Press):
-    Round 1: ___ kg/lbs × ___
-    Round 2: ___ kg/lbs × ___
-    Round 3: ___ kg/lbs × ___
-  Station E (CG DB Press):
-    Round 1: ___  Round 2: ___  Round 3: ___
-  Station F (DB OHP):
-    Round 1: ___ kg/lbs × ___
-    Round 2: ___ kg/lbs × ___
-    Round 3: ___ kg/lbs × ___
-Loop logic held? Y/N
+Station A (Weighted Dip): +___  ×  5, 5, 5  (3 rounds)
+Station D (DB Bench): ___  ×  5, 5, 5
+Station F (DB OHP): ___  ×  5, 5, 5
+Loop logic held: Y/N
 Tissue that fatigued first: ___________
 ```
 
-**Next sessions:**
-- Next → ⛽🏛🛒🔵 — return to barbell with the push pattern sharpened from circuit volume
-- Next → ⛽🏛🪡🟠 — pull circuit to match today's push density; horizontal pulls and vertical pulls in rotation
-- Next → 🦋🏛🛒🟠 — run the same loop at hypertrophy load for volume accumulation
+Next →
+- ⛽🏛🛒🔵 — return to barbell with push pattern sharpened from circuit volume
+- ⛽🏛🪡🟠 — pull circuit to match today's push density
+- 🦋🏛🛒🟠 — same loop at hypertrophy load for volume accumulation
 
 ═══════════════════════════════════════
 
 ## 🧮 SAVE
 
-The loop is not a workout shortcut. It is a deliberate tissue-rotation tool. The session only works if each station actually changes what is working. If two adjacent stations felt like the same muscle, the loop broke — note it and adjust before the next run.
+The loop only works if each station actually changes what's working. If two adjacent stations felt like the same muscle, the logic broke. Note it and adjust before the next run.
