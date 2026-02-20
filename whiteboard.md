@@ -203,6 +203,12 @@ Work: Architecture planning, all root documents drafted in planning chat
 Output: CLAUDE.md, README.md, whiteboard.md, setup.py — ready to deploy
 Next: scl-directory.md, exercise-library.md, then Claude Code execution
 
+Session 003
+Date: 2026-02-20
+Work: Documentation sync, 7 seeds planted, HTML scaffold created, Claude Code skills installed
+Output: CLAUDE.md updated to Phase 2, README.md status updated, 7 new seeds in seeds/, html/ scaffold with design-system + floors + components + assets, 5 skills in .claude/skills/
+Next: Continue deck generation — next deck TBD by Jake
+
 Notes and Fragments
 
 Parking lot for ideas that don't have a home yet.
