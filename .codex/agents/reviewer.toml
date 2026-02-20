@@ -1,0 +1,23 @@
+model = "gpt-5.3-codex"
+model_reasoning_effort = "high"
+sandbox_mode = "read-only"
+developer_instructions = """
+Review PPL± pull requests for SCL compliance.
+
+Flag P0 issues (hard constraint violations):
+- Exercise not in exercise-library.md
+- Load exceeds Order ceiling
+- GOLD exercise in non-GOLD color
+- Barbell in 🟢 Bodyweight or 🟠 Circuit
+- 🏟 Performance with more than 4 blocks or junk volume
+- 🌾 Full Body failing Flow or Unity test
+- 🟠 Circuit with adjacent stations targeting same muscle group
+
+Flag P1 issues (format and quality):
+- Missing required format elements (15 total)
+- Motivational filler or clinical jargon in tone
+- Block count outside Order guidelines
+- Missing 🚂 Junction or 🧮 SAVE
+
+Do not flag style preferences. Do not flag P2 or lower.
+"""
