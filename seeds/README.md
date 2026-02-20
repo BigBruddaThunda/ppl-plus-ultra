@@ -16,6 +16,13 @@ Seeds live here rather than in whiteboard.md because they have cleared the ideat
 | almanac-macro-operators.md | 12 Operators as 12 months with full agricultural rationale and polarity rhythm | 2026-02-20 | SEED |
 | axis-as-app-floors.md | 6 Axes as app-level content spaces (dual-layer architecture) | 2026-02-20 | SEED |
 | color-context-vernacular.md | Color system vernacular and contextual character notes | 2026-02-20 | SEED |
+| junction-community.md | 🚂 Junction evolves into living community recommendation surface + Almanac queue | 2026-02-20 | SEED |
+| almanac-room-bloom.md | Zip code rooms grow richer with user history over time (Room Bloom) | 2026-02-20 | SEED |
+| zip-dial-navigation.md | 4-dial combination lock as primary app navigation | 2026-02-20 | SEED |
+| superposed-order-ui.md | Bottom-up block expansion mimicking architectural superposition | 2026-02-20 | SEED |
+| exercise-superscript.md | ± superscript/subscript system on each exercise row | 2026-02-20 | SEED |
+| art-direction.md | Beaux-arts + 90s UI + classical architecture + trace paper aesthetic | 2026-02-20 | SEED |
+| exercise-attribute-tagging.md | Tagging ~2,800 exercises with D/C/A/G/SI/Ss/Sc/RD scores | 2026-02-20 | SEED |
 
 ---
 
@@ -32,9 +39,10 @@ Seeds live here rather than in whiteboard.md because they have cleared the ideat
 | Phase | What Gets Built | Seeds That Become Active |
 |-------|----------------|--------------------------|
 | 2–3 | Workout card generation | (none — all seeds are later phases) |
-| 4 | Design system + HTML scaffold | axis-as-app-floors.md, color-context-vernacular.md |
-| 5 | Interactive HTML cards | axis-as-app-floors.md |
-| 6 | User accounts + Almanac | default-rotation-engine.md, almanac-macro-operators.md |
-| 7+ | Community + social layer | axis-as-app-floors.md (Sociatas floor) |
+| 3+ | Validation layer | exercise-attribute-tagging.md |
+| 4 | Design system + HTML scaffold | axis-as-app-floors.md, color-context-vernacular.md, art-direction.md, superposed-order-ui.md |
+| 5 | Interactive HTML cards | axis-as-app-floors.md, zip-dial-navigation.md, exercise-superscript.md, superposed-order-ui.md, almanac-room-bloom.md |
+| 6 | User accounts + Almanac | default-rotation-engine.md, almanac-macro-operators.md, junction-community.md, almanac-room-bloom.md |
+| 7+ | Community + social layer | axis-as-app-floors.md (Sociatas floor), junction-community.md |
 
 🧮

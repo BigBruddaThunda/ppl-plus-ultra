@@ -148,6 +148,10 @@ ppl-plus-ultra/
 ├── scl-directory.md       — Complete SCL language reference
 ├── exercise-library.md    — All valid exercises mapped to SCL (v.0)
 │
+├── scl-deep/              — Full uncompressed SCL specifications (source layer)
+├── seeds/                 — Architectural ideas for future phases (planted, not active)
+├── html/                  — HTML experience layer scaffold (Phase 4/5)
+│
 └── cards/
     └── [order]/
         └── [axis]/
@@ -254,13 +258,13 @@ different histories.
 
 | Phase | Description | Status |
 |-------|-------------|--------|
-| 1 | Repository scaffolding and root documents | 🔄 In Progress |
-| 2 | SCL directory and exercise library populated | ⬜ Pending |
-| 3 | Workout generation — all 1,680 cards | ⬜ Pending |
-| 4 | Design standards and UI system | ⬜ Pending |
-| 5 | HTML rendering layer | ⬜ Pending |
-| 6 | User account and logging system | ⬜ Pending |
-| 7 | Launch | ⬜ Pending |
+| 1 | Repository scaffolding and root documents | **Complete** |
+| 2 | Workout generation — all 1,680 cards | **In Progress** — Deck 07 complete (40/1,680) |
+| 3 | Validation and review | Pending |
+| 4 | Design standards and UI system | Pending |
+| 5 | HTML rendering layer | Pending |
+| 6 | User account and logging system | Pending |
+| 7 | Launch | Pending |
 
 ---
 
