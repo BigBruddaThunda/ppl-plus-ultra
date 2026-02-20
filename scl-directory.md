@@ -1912,6 +1912,145 @@ Build something that belongs at its address.
 🧮
 
 
+---
+
+PART 7: SEASONAL DENSITY MODIFIERS
+
+The 12-month Operator calendar sets tone, not rules. But tone carries density implications. The season biases which Colors, Orders, and block structures are seasonally resonant — and the system should know this when generating default recommendations, Almanac content, and Workout of the Day selections.
+
+The year breathes. Every workout you generate exists somewhere on that breath.
+
+---
+
+THE ANNUAL BREATH — FOUR PHASES
+
+Phase 1 — Preparatory Inhale: January–April (4 months)
+
+📍 pono → 🧲 capio → 🧸 fero → 👀 specio
+
+The slow deep breath in. Setting positions. Receiving information. Carrying plans into first action. Observing what emerges. Nothing explosive. Everything building.
+
+Density character: Lower overall volume. Rest periods toward the top of Order ranges. Movement quality takes priority over load progression. The learning phase, not the testing phase.
+
+Color bias: Preparatory Colors are in season — ⚫ Teaching, 🟢 Bodyweight, ⚪ Mindful, 🟡 Fun.
+
+In practice:
+- ⚫ Teaching and ⚪ Mindful are the dominant Colors January through March.
+- 🐂 Foundation and 🖼 Restoration sessions surface frequently in default recommendations.
+- ⛽ Strength sessions favor ⚫ and ⚪ Colors over 🔴 Intense.
+- January: position everything. February: audit and absorb. March: carry plans into motion. April: inspect what's emerging before pushing harder.
+
+---
+
+Phase 2 — Expressive Exhale: May–August (4 months)
+
+🥨 tendo → 🤌 facio → 🚀 mitto → 🦢 plico
+
+The full sustained breath out. Extending, executing, launching, layering. Maximum output. Peak expression.
+
+Density character: Higher volume. Rest periods toward the lower end of Order ranges. Load progression is appropriate here. This is the period for applying what was built January through April.
+
+Color bias: Expressive Colors are in season — 🔵 Structured, 🟣 Technical, 🔴 Intense, 🟠 Circuit.
+
+In practice:
+- 🔴 Intense and 🟣 Technical are the dominant Colors June through August.
+- ⛽ Strength and 🏟 Performance sessions surface frequently.
+- GOLD exercises (Olympic lifts, advanced plyometrics) are most seasonally appropriate May through August. Use the window.
+- May: start pushing. June: execute at full capacity. July: maximum intensity. August: compound and layer what's working — volume peaks, rest shortens, the surplus gets folded in.
+
+---
+
+Phase 3 — Catch-Breath: September–October (2 months)
+
+🪵 teneo → 🐋 duco
+
+The brief inhale between summer's exhale and winter's close. Hold position. Conduct the transition. Don't lose what was built. Don't push new limits.
+
+Density character: Maintenance volume. Intensity starts pulling back. Transition from expressive toward preparatory. Two months of structured discipline before the season closes.
+
+Color bias: Mixed — 50/50 with a lean toward structured, not intense.
+
+In practice:
+- September: ⚫ Teaching returns. Run form audits on every major pattern. What degraded during the summer's high-output months?
+- October: 🟠 Circuit and 🔵 Structured for movement variety during the transition.
+- 🌾 Full Body sessions are seasonally appropriate — integration before the close.
+- 🪡 Pull and 🍗 Legs deserve structural attention. CNS-heavy ⛽ and 🏟 work starts stepping down.
+
+---
+
+Phase 4 — Closing: November–December (2 months)
+
+✒️ grapho → 🦉 logos
+
+The final exhale before the cycle resets. Recording. Reasoning. Making sense of the full year.
+
+Density character: Low intensity. High reflection. Restoration lane opens wide. Session duration shortens. CNS demand stays low.
+
+Color bias: Preparatory Colors dominate — ⚫ Teaching, ⚪ Mindful.
+
+In practice:
+- 🖼 Restoration is the appropriate primary Order November through December.
+- ⚪ Mindful and ⚫ Teaching are the dominant Colors.
+- GOLD exercises pull back. High-CNS work pulls back.
+- December is the appropriate month for a full movement audit across every Type: What held? What broke? What needs rebuilding in January?
+- The 🚂 Junction logging fields are more important this month than any other. Log everything.
+
+---
+
+COLOR SEASONAL AFFINITY
+
+These are resonance peaks, not restrictions. Go against them deliberately.
+
+| Color | Peak Season | Trough Season |
+|-------|------------|----------------|
+| ⚫ Teaching | Jan–Apr, Nov–Dec | Jul–Aug |
+| 🟢 Bodyweight | Mar–May | Dec–Jan |
+| 🔵 Structured | May–Sep | Dec–Feb |
+| 🟣 Technical | May–Aug | Nov–Feb |
+| 🔴 Intense | Jun–Aug | Nov–Mar |
+| 🟠 Circuit | Apr–Oct | Dec–Feb |
+| 🟡 Fun | Mar–May, Sep–Oct | Jan–Feb |
+| ⚪ Mindful | Jan–Apr, Nov–Dec | Jul–Aug |
+
+---
+
+ORDER SEASONAL AFFINITY
+
+| Order | Peak Months | Seasonal Logic |
+|-------|------------|----------------|
+| 🐂 Foundation | Jan–Mar | Pattern-setting season. Inhale phase. New patterns need slow introduction. |
+| ⛽ Strength | Apr–Aug | Load progression through the full expressive window. |
+| 🦋 Hypertrophy | May–Aug | Volume accumulation peaks in the expressive phase. |
+| 🏟 Performance | Jun–Aug | Peak output belongs only in peak season. |
+| 🌾 Full Body | Mar, Sep | Transition months call for integration. |
+| ⚖ Balance | Sep–Oct, Jan–Feb | Audit gaps during catch-breath and the opening inhale. |
+| 🖼 Restoration | Nov–Feb | The full quiet arc: the close and the setting-in. |
+
+---
+
+APPLYING SEASONAL DENSITY
+
+These modifiers are ambient — they influence the default, not the required. A user running 🔴 Intense in January is not doing anything wrong. The system provides seasonal context. The user provides intent.
+
+For automated content (Almanac, Workout of the Day, default rotation):
+- Preparatory months: favor preparatory Colors 60/40
+- Expressive months: favor expressive Colors 60/40
+- Catch-breath months: 50/50, lean structured not intense
+- Closing months: preparatory Colors dominate, restoration-lane sessions surface prominently
+
+For generation decisions when the operator is monthly-derived (rather than workout-specific):
+- Match the Color polarity to the month's operator polarity where possible
+- Let the season weight the block selection — more 🛠 Craft in January, more 🌋 Gutter in July
+- The catch-breath months are when ⚖ Balance workouts earn their position: what asymmetries developed under the summer's load?
+
+The year is a training cycle. The inhale builds the capacity. The exhale spends it. The catch-breath holds the position. The close reasons through what happened.
+
+Read the zip code. Honor the season. Build something that fits where it falls.
+
+🧮
+
+---
+
 
 Here are all 1,680 zip codes, organized by deck.
 

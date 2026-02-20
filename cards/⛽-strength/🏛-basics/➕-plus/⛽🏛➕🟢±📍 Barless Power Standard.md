@@ -1,144 +1,106 @@
 ---
 zip: ⛽🏛➕🟢
 operator: 📍 pono
-status: GENERATED
+status: GENERATED-V2
 deck: 07
-order: ⛽ Strength | 75-85% | 4-6 reps | 3-4 min | CNS: High
-axis: 🏛 Basics | Bilateral, stable, barbell-first classics. Compound over isolation.
+order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
+axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: ➕ Plus | Full body power, core
-color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
-blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
+color: 🟢 Bodyweight | Tier 0–2 | GOLD: No | No gym required. Park, hotel, living room.
+blocks: ♨️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
 
 # ➕ Barless Power Standard ➕
 
-**Bodyweight full-body power | Core, explosive hip extension, anti-rotation | 55–65 min**
+Bodyweight full-body power | Core, hip power, upper body carry | 55–65 min
 
 CODE: ⛽🏛➕🟢
 
-> "Find out how much strength you built — without the bar to lean on."
+> "The bar is gone. The strength standard isn't."
 
 ═══════════════════════════════════════
+
 ## 1. ♨️ WARM-UP
-📍 pono — *Position the body before you ask anything of it.*
-⛽🏛➕🟢♨️ (Warm-Up | Full Body/Core | Basics | Bodyweight)
-═══════════════════════════════════════
 
-Rest: None. 6–8 minutes continuous.
+📍 pono — set the positions without equipment
 
-├─ 2 rounds:
-│  ├─ 10 ➕ Cat-Cow (Core Mobility) (slow, full range, breathe into each direction)
-│  ├─ 10 ➕ Hollow Body Rock (brace first, ribs down, lower back imprinted)
-│  ├─ 8 ➕ Bird Dog Hold — 3 sec hold each (keep the spine absolutely still)
-│  └─ 10 ➕ Inchworm (hands to floor, walk out to plank, walk back — controlled)
+- 10 Hollow Body Rock (full brace — the anti-extension demand runs through this whole session)
+- 10/side Bird Dog Hold (5 sec hold — spine still, no hip rotation)
+- 10 Dead Bug (lower back sealed throughout — breathe short, brace constant)
+- 30 sec Dead Hang (if bar available — breathe into the stretch, not through it)
 
 ═══════════════════════════════════════
-## 2. ▶️ PRIMER
-📍 pono — *CNS activation. Wake the power system up.*
-⛽🏛➕🟢▶️ (Primer | Full Body Power | Basics | Bodyweight)
-═══════════════════════════════════════
 
-Rest: 90 sec between sets.
+## 2. 🧈 BREAD & BUTTER
 
-**Explosive Hip Extension Pattern — Bodyweight**
+📍 pono — the bar is absent; the difficulty standard isn't
 
-*Before the strength sets, rehearse the hip extension that drives all power.*
+Rest: 3 min between sets. ⛽ Strength rest holds even without the bar.
 
-├─ 3 sets × 5 reps ➕ Kneeling Jump to Stand (Explosive Hip Extension)
-│  ├─ Set 1: (from kneeling, drive hips forward, land soft)
-│  ├─ Set 2: (violent hip snap — this is the same movement as a hip hinge extension)
-│  └─ Set 3: (minimal ground contact time — up and through)
+**➕ L-Sit (Parallel Bars or Floor)**
 
-**Coaching note:** This is GOLD-gated in most contexts. Here it is the primer — bodyweight only, pattern focus. If the hip drive is absent, the strength sets will confirm it.
+The closest bodyweight equivalent to loaded core compression.
 
-═══════════════════════════════════════
-## 3. 🧈 BREAD & BUTTER
-📍 pono — *The main work. Bodyweight strength is real strength.*
-⛽🏛➕🟢🧈 (Bread & Butter | Full Body Power | Basics | Bodyweight/Rings/Bar)
-═══════════════════════════════════════
+- Set 1: max hold (legs straight or tucked — full hip flexion if possible)
+- Set 2: max hold (same position — a tuck that holds 20 sec beats a straight-leg that collapses at 5)
+- Set 3: max hold
+- Set 4: max hold
+- Set 5: max hold (log each time — this is a trackable number)
 
-Rest: 3–4 min between all working sets. Full rest. This is ⛽ Strength at bodyweight — the CNS cost is identical to loaded work.
+**➕ Hanging Leg Raise (Straight)**
 
-**A — L-Sit Hold (Parallel Bars or Floor)**
-*Total-system tension. Hip flexors, core, triceps, lats — everything braced simultaneously.*
+- Set 1: 5 reps (dead hang start — no kip, controlled lowering)
+- Set 2: 5 reps (pause 1 sec at top — full hip flexion expressed)
+- Set 3: 5 reps
+- Set 4: 5 reps
+- Set 5: 5 reps (if straight-leg breaks down, bent-knee is the honest progression)
 
-├─ 5 sets × max time hold ➕ L-Sit (V-Sit Hold as regression)
-│  ├─ Set 1: ⛽ BW — hold until form breaks (legs parallel to floor, no sag)
-│  ├─ Set 2: ⛽ BW — same (depress the shoulders into the bars hard)
-│  ├─ Set 3: ⛽ BW — same (tuck knees is the regression only if legs drop)
-│  ├─ Set 4: ⛽ BW — same (breathe short and controlled — no rib flare)
-│  └─ Set 5: ⛽ BW — final effort (log total seconds held this session)
-
-*Rest 3 min after each hold.*
-
-**B — Hanging Leg Raise (Straight)**
-*Hang from bar. Lower body carried by the upper body and core.*
-
-├─ 5 sets × 4–6 reps ➕ Hanging Leg Raise (Straight)
-│  ├─ Set 1: ⛽ BW × 5 (dead hang start, no kipping, no swing)
-│  ├─ Set 2: ⛽ BW × 5 (lower slow — 3 sec on the way down)
-│  ├─ Set 3: ⛽ BW × 5 (pause 1 sec at top — hips stay level)
-│  ├─ Set 4: ⛽ BW × 5 (this is the same hip flexion that initiates a clean pull)
-│  └─ Set 5: ⛽ BW × 4 (quality beats reps — stop when form breaks)
-
-*Rest 3 min between sets.*
+Rest: 3 min between all sets.
 
 ═══════════════════════════════════════
-## 4. 🧩 SUPPLEMENTAL
-📍 pono — *Support the main work. Different planes, same system.*
-⛽🏛➕🟢🧩 (Supplemental | Core/Anti-Rotation | Basics | Bodyweight)
-═══════════════════════════════════════
 
-Rest: 2–3 min between sets.
+## 3. 🧩 SUPPLEMENTAL
 
-**A — RKC Plank (Hardstyle)**
-*Isometric full-body bracing. The hardstyle plank is not a rest.*
+📍 pono — anti-extension and anti-rotation to close
 
-├─ 4 sets × 20–30 sec ➕ RKC Plank (Hardstyle)
-│  ├─ Set 1: (squeeze fists, quads, glutes — everything simultaneously)
-│  ├─ Set 2: (pull elbows toward toes and toes toward elbows — don't move, just intend)
-│  ├─ Set 3: (breathe through the nose — shallow and controlled)
-│  └─ Set 4: (20 seconds of maximal co-contraction beats 60 seconds of sag)
+Rest: 2 min
 
-**B — Windshield Wiper (Lying)**
-*Rotational strength. The counterpart to Pallof press anti-rotation.*
+**➕ RKC Plank (Hardstyle)**
 
-├─ 3 sets × 5/side ➕ Windshield Wiper (Lying)
-│  ├─ Set 1: (knees bent regression — both feet to the side)
-│  ├─ Set 2: (straight leg if bent-knee is controlled — pause at bottom 2 sec)
-│  └─ Set 3: (slow and deliberate — not a momentum exercise)
+Not a normal plank. Squeeze everything — glutes, abs, quads — until the floor shakes.
 
-═══════════════════════════════════════
-## 5. 🪫 RELEASE
-📍 pono — *Discharge the tension that accumulated.*
-⛽🏛➕🟢🪫 (Release | Core/Hip Flexors | Basics | Bodyweight)
-═══════════════════════════════════════
+- Set 1: 20 sec (max-tension isometric — it should be uncomfortable)
+- Set 2: 20 sec
+- Set 3: 20 sec
+- Set 4: 20 sec (log if tension drops before time — that is the real measure)
 
-Rest: Passive. Move through at your own pace.
+**➕ Windshield Wiper (Hanging)**
 
-├─ 60 sec/side ➕ Kneeling Hip Flexor Stretch (the L-sit and leg raises contracted these hard)
-├─ 60 sec ➕ Child's Pose (Core Release) (arms extended overhead, let the lats go)
-├─ 60 sec ➕ Supine Spinal Twist (30 sec/side — let it settle, don't force it)
-└─ 5 breaths ➕ Diaphragmatic Breathing (final nervous system reset — exhale longer than inhale)
+Anti-rotation and rotational control back to back with the same hang.
+
+- Set 1: 4/side (controlled arc — hips drive the rotation, not momentum)
+- Set 2: 4/side
+- Set 3: 4/side
 
 ═══════════════════════════════════════
-## 6. 🚂 JUNCTION
-📍 pono — *Log it. Bridge forward.*
+
+## 4. 🚂 JUNCTION
+
+```
+Date: ___________
+L-Sit: best hold ___sec / tuck or straight?
+Hanging Leg Raise: reps × sets completed
+RKC Plank: hold time / tension held Y/N
+Location: ___________
+```
+
+Next →
+- ⛽🏛➕🔵 — return to barbell; does the bodyweight standard translate?
+- ⛽🏛➕⚫ — if L-Sit exposed a mechanics gap, the teaching session addresses it
+- 🦋🏛➕🟢 — same format at hypertrophy load; more volume, same equipment
+
 ═══════════════════════════════════════
 
-**Session log:**
-├─ L-Sit: seconds held per set / L-sit or tuck?
-├─ Hanging Leg Raise: reps completed per set / any kipping?
-├─ RKC Plank: seconds held per set / form held throughout Y/N
-├─ Windshield Wiper: knee bent or straight?
-
-**Next sessions:**
-├─ Next → ⛽🏛➕🔵 — add barbell to these same patterns, structured loading
-├─ Next → ⛽🏛🪡🟢 — pull patterns at bodyweight to pair with today's core
-└─ Next → ⛽🏛➕🟣 — GOLD unlocked, Olympic lift mechanics as the next power expression
-
-═══════════════════════════════════════
 ## 🧮 SAVE
-═══════════════════════════════════════
 
-An L-sit held for 20 seconds at bodyweight demands more from the core than most barbell work does. The bar is a tool, not a prerequisite for strength.
+The L-Sit is a loaded core hold without load. Every second is work. The number you log today is the number to beat next time. That is what the barless standard means — same accountability, different tools.
