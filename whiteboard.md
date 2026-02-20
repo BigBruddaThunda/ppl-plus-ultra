@@ -255,4 +255,10 @@ Parking lot for ideas that don't have a home yet.
 Update this file whenever the project state changes.
 The whiteboard is always the current truth of where things stand.
 
+Session 004
+Date: 2026-02-20
+Work: Codex integration — built complete Codex agent infrastructure
+Output: AGENTS.md (root), cards/AGENTS.md (nested), .codex/config.toml, .codex/agents/generator.toml, .codex/agents/validator.toml, .codex/agents/explorer.toml, .codex/agents/reviewer.toml
+Next: Install Codex CLI (npm i -g @openai/codex), authenticate, test with exploratory session, then begin parallel deck generation
+
 🧮

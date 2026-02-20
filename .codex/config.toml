@@ -1,0 +1,44 @@
+# PPL± Project — Codex Configuration
+# This file configures OpenAI Codex CLI and Cloud for this repository.
+
+model = "gpt-5.3-codex"
+model_reasoning_effort = "high"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+personality = "pragmatic"
+
+# Raise instruction cap to accommodate AGENTS.md + cards/AGENTS.md
+project_doc_max_bytes = 65536
+
+# Also read CLAUDE.md as fallback instructions
+project_doc_fallback_filenames = ["CLAUDE.md"]
+
+[sandbox_workspace_write]
+writable_roots = []
+network_access = false
+
+[features]
+multi_agent = true
+collaboration_modes = true
+shell_snapshot = true
+undo = true
+
+# Agent role definitions for multi-agent workflows
+[agents]
+max_threads = 5
+
+[agents.generator]
+description = "Generates SCL workout cards from zip code stubs. Honors all 4-dial constraints. Reads scl-directory.md and exercise-library.md."
+config_file = "agents/generator.toml"
+
+[agents.validator]
+description = "Validates generated cards against SCL rules. Read-only. Reports constraint violations without fixing them."
+config_file = "agents/validator.toml"
+
+[agents.explorer]
+description = "Fast read-only codebase exploration. Answers questions about SCL rules, deck status, exercise library contents."
+config_file = "agents/explorer.toml"
+
+[agents.reviewer]
+description = "Reviews PRs for SCL compliance, exercise accuracy, tonal rules, and format completeness."
+config_file = "agents/reviewer.toml"
