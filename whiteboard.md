@@ -91,6 +91,47 @@ Generated this session — Deck 07 COMPLETE (40/40):
 - ⛽🏛➖🟡±📍 The Modality Shuffle
 - ⛽🏛➖⚪±📍 The Breath as Anchor
 
+Architectural Seeds — Decisions Logged 2026-02-20
+
+## Rotation Engine & Calendar Architecture — Decided 2026-02-20
+
+Three major architectural patterns crystallized from ideation session:
+
+### The Default Rotation Engine (seeds/default-rotation-engine.md)
+Three interlocking cycles produce a daily zip code with zero user input:
+- ORDER pinned to day of week (7-day cycle, fixed, never moves)
+  Monday=🐂, Tuesday=⛽, Wednesday=🦋, Thursday=🏟, Friday=🌾, Saturday=⚖, Sunday=🖼
+- TYPE rolls forward from Jan 1 (5-day cycle, never resets for week)
+  Jan 1=🛒, Jan 2=🪡, Jan 3=🍗, Jan 4=➕, Jan 5=➖, Jan 6=🛒...
+- AXIS derives from monthly Operator's parent Axis (12 shifts/year)
+- COLOR is the user's choice layer (8 options per day)
+
+5 and 7 are coprime → same Order-Type pairing doesn't repeat for 35 days.
+365 days = ~10.4 super-cycles. Year 2 starts on different combination than Year 1.
+
+This is the clock mechanism underneath the Almanac, the daily content stream, the Workout of the Day, and the RAG recommendation layer.
+
+### The 12-Month Operator Calendar (seeds/almanac-macro-operators.md — UPDATED)
+Finalized monthly mapping with full agricultural rationale:
+Jan=📍pono, Feb=🧲capio, Mar=🧸fero, Apr=👀specio, May=🥨tendo, Jun=🤌facio, Jul=🚀mitto, Aug=🦢plico, Sep=🪵teneo, Oct=🐋duco, Nov=✒️grapho, Dec=🦉logos
+
+Annual breath: 4-month inhale (Jan-Apr) → 4-month exhale (May-Aug) → 2-month catch-breath (Sep-Oct) → 2-month close (Nov-Dec).
+
+### Axis-as-App-Floors (seeds/axis-as-app-floors.md — NEW)
+The 6 Axes serve dual function — in-workout exercise bias AND app-level content spaces:
+- 🏛 Firmitas = Front page, navigation hub, system map
+- 🔨 Utilitas = Tools, calculators, settings, utility
+- 🌹 Venustas = Personal library, trophy case, private space
+- 🪐 Gravitas = Challenge board, benchmarks, competition
+- ⌛ Temporitas = Almanac, calendar, seasonal content
+- 🐬 Sociatas = Community, social layer, discussion
+
+Same workout card, six different presentations depending on which floor you're on. This is the app's primary navigation architecture.
+
+scl-deep/axis-specifications.md updated from stub to dual-layer working draft.
+
+None of these block Phase 2-3 card generation work.
+
 Open Questions
 
 - Deck priority order for workout generation — which decks get filled first?
@@ -185,6 +226,25 @@ Parking lot for ideas that don't have a home yet.
 - Considered and set aside: moon phases, astrological elements,
   seasonal eating, Trivium and Quadrivium mapped to the 7 Orders,
   8-week program decks. All viable future layers. Not Phase 1–3 concerns.
+
+- The day-of-week Order mapping is both the simplest possible user on-ramp
+  (what day is it? here's your workout) AND the deepest automation infrastructure
+  decision (temporal patterning as a first-class RAG data dimension).
+
+- The rolling Type cycle (5-day, never resets for the week) means Monday isn't
+  always Push. The coprime relationship between 5 and 7 guarantees variety
+  without any programming logic beyond counting days from Jan 1.
+
+- The 8 Colors are the depth layer on any given day. Each day has one Order-Type
+  pairing with 8 Color expressions. The daily content stream is 8 deep.
+
+- The Axes are not just exercise selectors — they are the six floors of the app.
+  This is the most significant architectural insight since the zip code system itself.
+  The in-workout behavior and the app-level behavior are the same principle at
+  different zoom levels.
+
+- Firmitas is always the ground floor. The elevator starts there. The 4-dial lock
+  lives on Firmitas. Spinning the Axis dial takes you to a different floor.
 
 Update this file whenever the project state changes.
 The whiteboard is always the current truth of where things stand.
