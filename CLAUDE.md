@@ -7,9 +7,9 @@ This file is your operating context. Read it before touching anything else.
 
 ## CURRENT PROJECT PHASE
 
-**Phase: 1 — Repository Infrastructure**
-Status: Stubs being created. No workouts generated yet.
-Priority: Do not generate workout content until instructed.
+**Phase: 2 — Workout Generation**
+Status: Deck 07 (⛽🏛 Strength Basics) complete — 40/40 cards generated. 1,640 cards remaining across 41 decks.
+Priority: Continue deck generation when instructed.
 Active task: See `whiteboard.md` for current session instructions.
 
 **Do not freelance. Read `whiteboard.md` before acting.**
@@ -60,6 +60,9 @@ ppl-plus-ultra/
 ├── whiteboard.md          — Active decisions, current phase, open questions.
 ├── scl-directory.md       — Complete SCL reference. Every rule lives here.
 ├── exercise-library.md    — All valid exercises mapped to SCL types. v.0
+├── scl-deep/              — Full uncompressed SCL specifications (source layer).
+├── seeds/                 — Architectural ideas for future phases (planted, not active).
+├── html/                  — HTML experience layer scaffold (Phase 4/5).
 └── cards/
     └── [order]/[axis]/[type]/
         └── [zip]±.md                        — Stub. Awaiting generation.
@@ -71,6 +74,39 @@ Card files live at:
 
 Example:
 `cards/⛽-strength/🏛-basics/🪡-pull/⛽🏛🪡🔵±🤌 Heavy Classic Pulls.md`
+
+---
+
+## ADDITIONAL DIRECTORIES
+
+### scl-deep/ — Deep Specification Layer
+
+This directory holds the full uncompressed specifications behind the SCL. `scl-directory.md` (root) is the compiled operational reference you use during generation. `scl-deep/` holds the source specifications that `scl-directory.md` compresses.
+
+You do not need to read scl-deep/ for card generation. It is reference material for design system work, validation logic, and future features.
+
+Contents:
+- `color-context-vernacular.md` — 8 Colors as tonal communication system (beyond equipment/format). Imported from v1.0, needs vocabulary update from 25 to 61 emoji system.
+- `order-parameters.md` — Full periodization science, exercise attributes, conflict rules, volume landmarks, pairing matrices, micro-periodization, contraindication logic. Imported from v2.0, needs vocabulary update.
+- `axis-specifications.md` — Dual-layer Axis framework: Layer 1 (in-workout exercise character) + Layer 2 (app-level content floors). Working draft.
+- Stub files for blocks, operators, types — to be written.
+
+### seeds/ — Architectural Seeds
+
+Planted ideas for future phases. Seeds don't block current work. See `seeds/README.md` for the full index.
+
+Do not build from seeds unless whiteboard.md promotes a seed to active work.
+
+Key architectural decisions planted:
+- **Default Rotation Engine** — 3-gear daily zip system (Order by weekday, Type by rolling 5-day calendar, Axis by monthly operator). The automation clock underneath the entire user experience.
+- **Axis-as-App-Floors** — The 6 Axes serve dual function: in-workout exercise bias AND app-level content spaces (6 floors of the building). The most significant architectural insight since the zip code system.
+- **Macro Almanac** — 12 operators mapped to 12 months with agricultural rationale and annual breath rhythm (4-month inhale → 4-month exhale → 2-month catch-breath → 2-month close).
+
+### html/ — Experience Layer Scaffold
+
+Directory skeleton for the HTML rendering layer (Phase 4/5). Currently scaffold only — no functional HTML.
+
+Do not generate HTML content unless whiteboard.md indicates Phase 4/5 is active.
 
 ---
 
