@@ -1,0 +1,638 @@
+{
+  "projectName": "zip-web-pod-population",
+  "branchName": "zip-web/populate",
+  "description": "Populate zip-web pods for all 42 decks. One story per deck. Each story populates 40 pods (5 Types × 8 Colors). Deck 07 is already complete as the prototype.",
+  "userStories": [
+    {
+      "id": "ZW-07",
+      "title": "Populate pods for Deck 07 — ⛽🏛 Strength × Basics",
+      "priority": 1,
+      "passes": true,
+      "note": "Completed as hand-built prototype. Quality bar for all other decks.",
+      "acceptanceCriteria": [
+        "All 40 pods in deck-07-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings (40 pods × 4 directions)",
+        "Directional character honored: N=Progression, E=Balance, S=Recovery, W=Exploration"
+      ]
+    },
+    {
+      "id": "ZW-01",
+      "title": "Populate pods for Deck 01 — 🐂🏛 Foundation × Basics",
+      "priority": 2,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-01-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings (40 pods × 4 directions)",
+        "Directional character honored: N=Progression, E=Balance, S=Recovery, W=Exploration"
+      ]
+    },
+    {
+      "id": "ZW-02",
+      "title": "Populate pods for Deck 02 — 🐂🔨 Foundation × Functional",
+      "priority": 2,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-02-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-03",
+      "title": "Populate pods for Deck 03 — 🐂🌹 Foundation × Aesthetic",
+      "priority": 2,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-03-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-04",
+      "title": "Populate pods for Deck 04 — 🐂🪐 Foundation × Challenge",
+      "priority": 2,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-04-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-05",
+      "title": "Populate pods for Deck 05 — 🐂⌛ Foundation × Time",
+      "priority": 2,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-05-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-06",
+      "title": "Populate pods for Deck 06 — 🐂🐬 Foundation × Partner",
+      "priority": 2,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-06-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-08",
+      "title": "Populate pods for Deck 08 — ⛽🔨 Strength × Functional",
+      "priority": 3,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-08-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-09",
+      "title": "Populate pods for Deck 09 — ⛽🌹 Strength × Aesthetic",
+      "priority": 3,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-09-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-10",
+      "title": "Populate pods for Deck 10 — ⛽🪐 Strength × Challenge",
+      "priority": 3,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-10-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-11",
+      "title": "Populate pods for Deck 11 — ⛽⌛ Strength × Time",
+      "priority": 3,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-11-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-12",
+      "title": "Populate pods for Deck 12 — ⛽🐬 Strength × Partner",
+      "priority": 3,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-12-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-13",
+      "title": "Populate pods for Deck 13 — 🦋🏛 Hypertrophy × Basics",
+      "priority": 4,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-13-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-14",
+      "title": "Populate pods for Deck 14 — 🦋🔨 Hypertrophy × Functional",
+      "priority": 4,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-14-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-15",
+      "title": "Populate pods for Deck 15 — 🦋🌹 Hypertrophy × Aesthetic",
+      "priority": 4,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-15-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-16",
+      "title": "Populate pods for Deck 16 — 🦋🪐 Hypertrophy × Challenge",
+      "priority": 4,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-16-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-17",
+      "title": "Populate pods for Deck 17 — 🦋⌛ Hypertrophy × Time",
+      "priority": 4,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-17-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-18",
+      "title": "Populate pods for Deck 18 — 🦋🐬 Hypertrophy × Partner",
+      "priority": 4,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-18-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-19",
+      "title": "Populate pods for Deck 19 — 🏟🏛 Performance × Basics",
+      "priority": 5,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-19-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored — S must be recovery-oriented (🖼 or 🐂) for 🏟 hubs"
+      ]
+    },
+    {
+      "id": "ZW-20",
+      "title": "Populate pods for Deck 20 — 🏟🔨 Performance × Functional",
+      "priority": 5,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-20-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-21",
+      "title": "Populate pods for Deck 21 — 🏟🌹 Performance × Aesthetic",
+      "priority": 5,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-21-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-22",
+      "title": "Populate pods for Deck 22 — 🏟🪐 Performance × Challenge",
+      "priority": 5,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-22-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-23",
+      "title": "Populate pods for Deck 23 — 🏟⌛ Performance × Time",
+      "priority": 5,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-23-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-24",
+      "title": "Populate pods for Deck 24 — 🏟🐬 Performance × Partner",
+      "priority": 5,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-24-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-25",
+      "title": "Populate pods for Deck 25 — 🌾🏛 Full Body × Basics",
+      "priority": 6,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-25-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-26",
+      "title": "Populate pods for Deck 26 — 🌾🔨 Full Body × Functional",
+      "priority": 6,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-26-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-27",
+      "title": "Populate pods for Deck 27 — 🌾🌹 Full Body × Aesthetic",
+      "priority": 6,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-27-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-28",
+      "title": "Populate pods for Deck 28 — 🌾🪐 Full Body × Challenge",
+      "priority": 6,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-28-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-29",
+      "title": "Populate pods for Deck 29 — 🌾⌛ Full Body × Time",
+      "priority": 6,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-29-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-30",
+      "title": "Populate pods for Deck 30 — 🌾🐬 Full Body × Partner",
+      "priority": 6,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-30-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-31",
+      "title": "Populate pods for Deck 31 — ⚖🏛 Balance × Basics",
+      "priority": 7,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-31-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored — N should capitalize on corrections with compound work"
+      ]
+    },
+    {
+      "id": "ZW-32",
+      "title": "Populate pods for Deck 32 — ⚖🔨 Balance × Functional",
+      "priority": 7,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-32-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-33",
+      "title": "Populate pods for Deck 33 — ⚖🌹 Balance × Aesthetic",
+      "priority": 7,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-33-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-34",
+      "title": "Populate pods for Deck 34 — ⚖🪐 Balance × Challenge",
+      "priority": 7,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-34-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-35",
+      "title": "Populate pods for Deck 35 — ⚖⌛ Balance × Time",
+      "priority": 7,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-35-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-36",
+      "title": "Populate pods for Deck 36 — ⚖🐬 Balance × Partner",
+      "priority": 7,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-36-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-37",
+      "title": "Populate pods for Deck 37 — 🖼🏛 Restoration × Basics",
+      "priority": 8,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-37-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored — N can be ambitious after 🖼 (body is fresh)"
+      ]
+    },
+    {
+      "id": "ZW-38",
+      "title": "Populate pods for Deck 38 — 🖼🔨 Restoration × Functional",
+      "priority": 8,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-38-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-39",
+      "title": "Populate pods for Deck 39 — 🖼🌹 Restoration × Aesthetic",
+      "priority": 8,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-39-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-40",
+      "title": "Populate pods for Deck 40 — 🖼🪐 Restoration × Challenge",
+      "priority": 8,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-40-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-41",
+      "title": "Populate pods for Deck 41 — 🖼⌛ Restoration × Time",
+      "priority": 8,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-41-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    },
+    {
+      "id": "ZW-42",
+      "title": "Populate pods for Deck 42 — 🖼🐬 Restoration × Partner",
+      "priority": 8,
+      "passes": false,
+      "acceptanceCriteria": [
+        "All 40 pods in deck-42-pods.md have N/E/S/W populated",
+        "Every neighbor is a valid zip from zip-web-registry.md",
+        "No pod has Type repetition across N/E/S/W",
+        "Hub Type does not appear in any N/E/S/W slot",
+        "All 5 Types represented in every pod",
+        "Coaching rationale present for all 160 pairings",
+        "Directional character honored"
+      ]
+    }
+  ]
+}

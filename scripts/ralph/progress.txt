@@ -1,0 +1,11 @@
+PPL± Zip-Web Ralph Loop — Progress Log
+
+================================================================================
+Codebase Patterns
+================================================================================
+(Populated by Ralph as patterns are discovered and validated across decks)
+
+================================================================================
+Session Log
+================================================================================
+(Appended by Ralph each iteration — one entry per completed story)

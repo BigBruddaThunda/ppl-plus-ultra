@@ -1,3 +1,5 @@
+> **Note:** The canonical zip-web specification and all pod files now live in `zip-web/`. This file is retained as a flat reference scaffold but is no longer the primary source. See `zip-web/README.md` for the current system and `zip-web/zip-web-pods/` for all pod content.
+
 # Zip Web Template
 
 This file is the canonical scaffold for all 1,680 zip centers. Each entry represents one zip and reserves four directional neighbor slots (N/W/S/E) for later population.

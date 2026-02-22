@@ -267,3 +267,20 @@ Date: 2026-02-20
 Work: Deck 07 junction-system redraw and recommendation-logic rewrite across all 40 cards
 Output: Replaced all Deck 07 🚂 Junction sections with cross-layout navigation (current zip centered, 4 type-based directional suggestions with rationale) and refreshed follow-up zip routing logic to include progressive/holistic/downshift pathways across SCL context.
 Next: Validate Deck 07 junction suggestions for coaching preference tuning.
+
+Session 006
+Date: 2026-02-22
+Work: Zip-web architecture — complete build-out of navigation graph infrastructure
+Output:
+  - zip-web/README.md — concept, pod format, directional characters, Almanac relationship, file index
+  - zip-web/zip-web-rules.md — complete spec (Type exclusion rule, fatigue tables, neighbor selection logic, 5 factors, training principles, overlap rules, coverage goals)
+  - zip-web/zip-web-signatures.md — fatigue profiles for all 1,680 zip codes (42 decks × 40 cards, mechanically derived)
+  - zip-web/zip-web-registry.md — index of all 1,680 zips with operator, deck, order, axis, type, color, status metadata
+  - zip-web/zip-web-pods/deck-07-pods.md — 40 fully populated prototype pods for ⛽🏛 Strength × Basics with coaching rationale (160 directional pairings)
+  - zip-web/zip-web-pods/deck-01-pods.md through deck-42-pods.md (41 stubs) — pre-filled with zip codes and fatigue signatures, N/E/S/W awaiting Ralph Loop
+  - scripts/ralph/ralph.sh — autonomous loop script for sequential pod population (executable)
+  - scripts/ralph/RALPH-PROMPT.md — fresh-context agent instruction prompt for each Ralph iteration
+  - scripts/ralph/prd.json — 42 user stories (ZW-01 through ZW-42), Deck 07 marked passes: true
+  - scripts/ralph/progress.txt — append-only learnings log (empty, ready for Ralph)
+  - .claude/skills/ralph-loop.md — /ralph Claude Code skill for single-story manual iteration
+Next: Review Deck 07 prototype pods. If approved, begin Ralph Loop population of remaining 41 decks. Run /ralph iteratively or execute scripts/ralph/ralph.sh for autonomous batch.
