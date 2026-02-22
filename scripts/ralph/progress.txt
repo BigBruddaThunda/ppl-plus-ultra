@@ -8,4 +8,21 @@ Codebase Patterns
 ================================================================================
 Session Log
 ================================================================================
-(Appended by Ralph each iteration — one entry per completed story)
+
+--- 2026-02-22 ---
+Story: ZW-01 - Populate pods for Deck 01 — 🐂🏛 Foundation × Basics
+Deck: 01 — Foundation × Basics (CNS: 1 Low, bilateral/barbell, ≤65%, 8-15 reps)
+Type direction pattern used: 🛒→N:🪡,E:🍗,S:➖,W:➕ | 🪡→N:🛒,E:🍗,S:➖,W:➕ | 🍗→N:➕,E:🪡,S:➖,W:🛒 | ➕→N:🛒,E:🪡,S:➖,W:🍗 | ➖→N:🍗,E:🪡,S:🛒,W:➕
+Patterns discovered:
+  - Same Type direction mapping as Deck 07 works consistently across Orders
+  - N for 🐂 hubs reliably steps up to ⛽🏛 (same Axis, higher Order) — pattern grooved, now load it
+  - E for 🐂🏛 consistently uses 🐂🔨 (same Foundation Order, Functional Axis) for unilateral balance
+  - S for 🐂🏛 uses 🖼🌹➖⚪ (restoration) for high-density colors and 🐂🏛➖⚫ for low-density colors
+  - W rotates across: 🦋⌛➕🟣, 🌾🌹➕🟡, 🦋🌹➕🟣, 🌾⌛➕🟣, 🦋🪐➕🟣 for variety
+  - For ➖ Ultra hubs, S=🛒 tends toward 🐂🌹🛒⚫ (foundation aesthetic push — gentle recovery)
+  - High-density colors (🔴🟠) always warrant 🖼🌹➖⚪ at S regardless of hub Order
+  - Bodyweight color (🟢) keeps neighbors in no-equipment space where possible
+Neighbor selection notes:
+  - 🐂🏛 is already the lowest-CNS hub in the system, so S flexibility is highest here
+  - W intentionally varies across colors to prevent the exploration direction from being predictable
+  - All 40 pods validated: 5 Types per pod, no Type repetition, all neighbor zips valid SCL combinations
