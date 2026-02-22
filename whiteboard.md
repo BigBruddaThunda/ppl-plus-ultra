@@ -284,3 +284,73 @@ Output:
   - scripts/ralph/progress.txt — append-only learnings log (empty, ready for Ralph)
   - .claude/skills/ralph-loop.md — /ralph Claude Code skill for single-story manual iteration
 Next: Review Deck 07 prototype pods. If approved, begin Ralph Loop population of remaining 41 decks. Run /ralph iteratively or execute scripts/ralph/ralph.sh for autonomous batch.
+
+Session 007
+Date: 2026-02-22
+Work: Deck 08 — ⛽🔨 Strength Functional — 🛒 Push type, all 8 colors (8/40 cards)
+Output: Generated all 8 Push cards for Deck 08. Stub files deleted. New files written.
+
+🛒 Push (8/8):
+- ⛽🔨🛒⚫±🧸 Read the Press — Unilateral Mechanics
+- ⛽🔨🛒🟢±🧸 The Transfer Test — Bodyweight Push
+- ⛽🔨🛒🔵±🥨 Single-Arm Press Protocol
+- ⛽🔨🛒🟣±🥨 Dial It In — Technical Unilateral Press
+- ⛽🔨🛒🔴±🥨 Drive From One Arm — Intense Push
+- ⛽🔨🛒🟠±🥨 Push Circuit — Functional Station Loop
+- ⛽🔨🛒🟡±🧸 Press Variety — Functional Exploration
+- ⛽🔨🛒⚪±🧸 The Slow Press — Mindful Unilateral Push
+
+Next: Continue Deck 08 — remaining 4 Types: 🪡 Pull, 🍗 Legs, ➕ Plus, ➖ Ultra (32 cards remaining in deck)
+
+Session 008
+Date: 2026-02-22
+Work: Deck 08 — ⛽🔨 Strength Functional — 🪡 Pull type, all 8 Color variants generated
+Output: Generated all 8 Pull cards for Deck 08. Stub files deleted. New files written.
+
+🪡 Pull (8/8):
+- ⛽🔨🪡⚫±🧸 Read the Row — Unilateral Pull Mechanics
+- ⛽🔨🪡🟢±🧸 Bar Strength — Bodyweight Pull Standard
+- ⛽🔨🪡🔵±🥨 Single-Arm Pull Protocol
+- ⛽🔨🪡🟣±🥨 Precision Pull — Technical Unilateral Row
+- ⛽🔨🪡🔴±🥨 Full Send Pull — One Arm at a Time
+- ⛽🔨🪡🟠±🥨 Pull Circuit — Functional Back Loop
+- ⛽🔨🪡🟡±🧸 The Pull Playground — Functional Variations
+- ⛽🔨🪡⚪±🧸 Slow Pull — Deliberate Unilateral Descent
+
+Session 009
+Date: 2026-02-22
+Work: Deck 08 — ⛽🔨 Strength Functional — 🍗 Legs, ➕ Plus, ➖ Ultra (24 cards, completing deck)
+Output: Generated all remaining 24 cards. All 40 Deck 08 stubs deleted. Full deck complete.
+
+🍗 Legs (8/8):
+- ⛽🔨🍗⚫±🧸 Read the Split — Teaching Unilateral Legs
+- ⛽🔨🍗🟢±🧸 The Transfer Test — Bodyweight Leg Strength
+- ⛽🔨🍗🔵±🥨 Unilateral Leg Protocol
+- ⛽🔨🍗🟣±🥨 One Leg at a Time — Technical Split Squat
+- ⛽🔨🍗🔴±🥨 Heavy Unilateral Legs — Intense Split Day
+- ⛽🔨🍗🟠±🥨 Leg Circuit — Functional Station Loop
+- ⛽🔨🍗🟡±🧸 Leg Day Variations — Functional Exploration
+- ⛽🔨🍗⚪±🧸 Slow Legs — Mindful Unilateral Descent
+
+➕ Plus (8/8):
+- ⛽🔨➕⚫±🧸 Read the Carry — Teaching Functional Power
+- ⛽🔨➕🟢±🧸 Barless Power — Bodyweight Carry and Core
+- ⛽🔨➕🔵±🥨 The Carry Protocol — Structured Functional Power
+- ⛽🔨➕🟣±🥨 Clean Mechanics — Technical Single-Arm Power
+- ⛽🔨➕🔴±🥨 Maximum Carry — Intense Functional Output
+- ⛽🔨➕🟠±🥨 Power Circuit — Functional Station Loop
+- ⛽🔨➕🟡±🧸 Complex Play — Functional Power Exploration
+- ⛽🔨➕⚪±🧸 Weight in Space — Mindful Loaded Carry
+
+➖ Ultra (8/8):
+- ⛽🔨➖⚫±🧸 Read the Interval — Teaching Hard Effort
+- ⛽🔨➖🟢±🧸 Outside the Gym — Bodyweight Conditioning
+- ⛽🔨➖🔵±🥨 The Interval Prescription — Structured Conditioning
+- ⛽🔨➖🟣±🥨 Precision at Output — Technical Interval Work
+- ⛽🔨➖🔴±🥨 Maximum Engine — Intense Conditioning
+- ⛽🔨➖🟠±🥨 The Engine Loop — Conditioning Circuit
+- ⛽🔨➖🟡±🧸 The Modality Shuffle — Conditioning Exploration
+- ⛽🔨➖⚪±🧸 The Breath as Anchor — Mindful Conditioning
+
+Deck 08 COMPLETE — 40/40 cards generated. 1,600 cards remaining across 40 decks.
+Next: Deck 09 (⛽🌹 Strength Aesthetic) or Jake's direction.

@@ -8,7 +8,7 @@ This file is your operating context. Read it before touching anything else.
 ## CURRENT PROJECT PHASE
 
 **Phase: 2 — Workout Generation**
-Status: Deck 07 (⛽🏛 Strength Basics) complete — 40/40 cards generated. 1,640 cards remaining across 41 decks.
+Status: Deck 08 (⛽🔨 Strength Functional) complete — 80/80 cards generated across 2 decks. 1,600 cards remaining across 40 decks.
 Priority: Continue deck generation when instructed.
 Active task: See `whiteboard.md` for current session instructions.
 
