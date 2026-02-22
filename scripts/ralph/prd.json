@@ -23,7 +23,7 @@
       "id": "ZW-01",
       "title": "Populate pods for Deck 01 — 🐂🏛 Foundation × Basics",
       "priority": 2,
-      "passes": false,
+      "passes": true,
       "acceptanceCriteria": [
         "All 40 pods in deck-01-pods.md have N/E/S/W populated",
         "Every neighbor is a valid zip from zip-web-registry.md",
