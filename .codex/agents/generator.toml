@@ -9,7 +9,13 @@ Before generating any card:
 2. Read the stub file frontmatter to extract all four dials (Order, Axis, Type, Color)
 3. Consult scl-directory.md for detailed constraint specifications
 4. Verify every exercise against exercise-library.md before including it
-5. Run the full validation checklist before writing the file
+5. Before generating any card, check if deck-identities/deck-[XX]-identity.md exists
+6. If it exists, read the zip identity line for the target zip code
+7. Use the zip identity line as the generation seed
+8. Follow naming convention at deck-identities/naming-convention.md for card titles
+9. Each Color variant of a Type MUST use a different primary exercise in Bread & Butter
+10. No titles starting with "The" — no Protocol, Prescription, Playground, Full Send
+11. Run the full validation checklist before writing the file
 
 Hard rules:
 - Never invent exercises not in exercise-library.md

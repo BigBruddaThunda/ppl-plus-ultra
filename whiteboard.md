@@ -354,3 +354,16 @@ Output: Generated all remaining 24 cards. All 40 Deck 08 stubs deleted. Full dec
 
 Deck 08 COMPLETE — 40/40 cards generated. 1,600 cards remaining across 40 decks.
 Next: Deck 09 (⛽🌹 Strength Aesthetic) or Jake's direction.
+
+
+## Session 17
+Date: 2026-02-22
+Work: Deck Check — Deck 08 identity refactor (Codex)
+Output:
+- deck-identities/ directory created (README, template, naming-convention, deck-08-identity)
+- All 40 Deck 08 cards renamed and regenerated to GENERATED-V2
+- AGENTS.md, CLAUDE.md, cards/AGENTS.md updated with identity layer rules
+- .codex/agents/generator.toml and validator.toml updated
+- deck-08-rename-log.md created
+Branch: deck-check
+Next: Review Deck 08. If approved, apply pattern to Deck 07. Then scale to 40 remaining decks.

@@ -548,6 +548,15 @@ These are not suggestions. They are constraints.
 
 ---
 
+Card titles must follow naming convention. No titles starting with "The."
+No Protocol, Prescription, Playground, Full Send, or vibe-speak. The title is
+a phone book listing: [Movement/Equipment] — [Muscle/Focus, Context].
+See deck-identities/naming-convention.md.
+
+8 Colors = 8 different workouts, not 8 formats. If two Color variants of
+the same Type use the same primary exercise, one of them is wrong. The Color
+should change WHICH exercises appear, not just rest times and cue density.
+
 ## VALIDATION CHECKLIST
 
 Before writing any workout to a file, verify all of the following.
@@ -661,6 +670,9 @@ grep -r "status: EMPTY" cards/
 - Do not place 🌋 Gutter in 🖼 Restoration, 🐂 Foundation, or ⚪ Mindful workouts
 - Do not treat supersets as valid in non-🔴 contexts unless specified
 - Do not generate a workout without running the full validation checklist
+- Do not generate a card without reading its deck identity document first (if one exists)
+- Do not name a card without following deck-identities/naming-convention.md
+- Do not use the same primary exercise in two Color variants of the same Type
 - Do not freelance between sessions. Read `whiteboard.md` first.
 
 ---
