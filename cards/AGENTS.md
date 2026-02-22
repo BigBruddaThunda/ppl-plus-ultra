@@ -22,6 +22,10 @@ This file adds generation-specific reminders.
 - 🟠 Circuit requires loop logic: no two adjacent stations target the same muscle group.
 - 🏟 Performance: 3–4 blocks. Test, record, leave. No supplemental work.
 - 🌾 Full Body: every movement must flow into the next. Apply Flow and Unity test.
+- Before generating, check for a deck identity document at deck-identities/deck-[XX]-identity.md
+- If it exists, read the zip identity line for this specific zip code as the generation seed
+- Card titles must follow deck-identities/naming-convention.md — no vibe names, no "Protocol"
+- Each Color variant of a Type must use a different primary exercise in 🧈 Bread & Butter
 
 ---
 

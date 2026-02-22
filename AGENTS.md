@@ -251,6 +251,20 @@ System block:
 
 ## Generation Rules
 
+### Deck Identity Layer — Required Pre-Generation Context
+
+Before generating any card, check if a deck identity document exists at `deck-identities/deck-[XX]-identity.md`. If it exists:
+
+1. Read the full deck identity document before generating
+2. Read the specific zip identity line for the zip code being generated
+3. Use the zip identity line as the generation seed — it replaces guessing with direction
+4. Follow the naming convention at `deck-identities/naming-convention.md` for the card title
+5. Honor the coverage map — each card's primary exercise must match what the map specifies
+6. Each Color variant of a Type MUST use a different primary exercise in 🧈 Bread & Butter
+
+If no deck identity document exists for the target deck, generate using SCL rules alone (current behavior). The identity layer is additive, not blocking.
+
+
 Execute these steps in order. Do not skip steps.
 
 **Step 1 — Parse the Zip Code**
@@ -353,6 +367,16 @@ If you would call it a superset, it does not belong in 🌾.
 
 ---
 
+
+Card titles must follow naming convention. No titles starting with "The."
+No Protocol, Prescription, Playground, Full Send, or vibe-speak. The title is
+a phone book listing: [Movement/Equipment] — [Muscle/Focus, Context].
+See deck-identities/naming-convention.md.
+
+8 Colors = 8 different workouts, not 8 formats. If two Color variants of
+the same Type use the same primary exercise, one of them is wrong. The Color
+should change WHICH exercises appear, not just rest times and cue density.
+
 ## Validation Checklist
 
 Before writing any workout to a file, verify all of the following.
@@ -432,6 +456,9 @@ Update frontmatter: `status: EMPTY` → `status: GENERATED`.
 - Do not place 🌋 Gutter in 🖼 Restoration, 🐂 Foundation, or ⚪ Mindful workouts
 - Do not treat supersets as valid in non-🔴 contexts unless specified
 - Do not generate a workout without running the full validation checklist
+- Do not generate a card without reading its deck identity document first (if one exists)
+- Do not name a card without following deck-identities/naming-convention.md
+- Do not use the same primary exercise in two Color variants of the same Type
 - Do not modify files outside the scope of the current task
 - Do not freelance between sessions. Read `whiteboard.md` first.
 

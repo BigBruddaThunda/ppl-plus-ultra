@@ -1,0 +1,42 @@
+# Deck 08 Rename Log
+
+- `⛽🔨➕⚪±🧸 Weight in Space — Mindful Loaded Carry.md` → `⛽🔨➕⚪±🧸 Slow March Suitcase Hold — Core Stability, Breath-Paced.md`
+- `⛽🔨➕⚫±🧸 Read the Carry — Teaching Functional Power.md` → `⛽🔨➕⚫±🧸 Suitcase Carry Basics — Core and Grip Coaching Session.md`
+- `⛽🔨➕🔴±🥨 Maximum Carry — Intense Functional Output.md` → `⛽🔨➕🔴±🥨 Single-Arm Dumbbell Clean and Carry — Power Superset, High Volume.md`
+- `⛽🔨➕🔵±🥨 The Carry Protocol — Structured Functional Power.md` → `⛽🔨➕🔵±🥨 Heavy Suitcase Carry — Functional Power Strength Log.md`
+- `⛽🔨➕🟠±🥨 Power Circuit — Functional Station Loop.md` → `⛽🔨➕🟠±🥨 Farmer Carry and Slam Rotation — Power and Core Stations.md`
+- `⛽🔨➕🟡±🧸 Complex Play — Functional Power Exploration.md` → `⛽🔨➕🟡±🧸 Offset Carry and Core Complex — Functional Variety Day.md`
+- `⛽🔨➕🟢±🧸 Barless Power — Bodyweight Carry and Core.md` → `⛽🔨➕🟢±🧸 Bear Crawl and Single-Leg Bridge — Core and Hip Drive, No Equipment.md`
+- `⛽🔨➕🟣±🥨 Clean Mechanics — Technical Single-Arm Power.md` → `⛽🔨➕🟣±🥨 Turkish Get-Up Mechanics — Shoulder and Core Control.md`
+- `⛽🔨➖⚪±🧸 The Breath as Anchor — Mindful Conditioning.md` → `⛽🔨➖⚪±🧸 Breath-Paced Incline Walk Intervals — Slow Eccentric Engine.md`
+- `⛽🔨➖⚫±🧸 Read the Interval — Teaching Hard Effort.md` → `⛽🔨➖⚫±🧸 Coached Sprint Intervals — Conditioning Coaching Session.md`
+- `⛽🔨➖🔴±🥨 Maximum Engine — Intense Conditioning.md` → `⛽🔨➖🔴±🥨 Sled Push Intervals — High Volume Conditioning.md`
+- `⛽🔨➖🔵±🥨 The Interval Prescription — Structured Conditioning.md` → `⛽🔨➖🔵±🥨 Rower Power Intervals — Conditioning Strength Log.md`
+- `⛽🔨➖🟠±🥨 The Engine Loop — Conditioning Circuit.md` → `⛽🔨➖🟠±🥨 Bike, Rope, and Run Rotation — Engine Station Circuit.md`
+- `⛽🔨➖🟡±🧸 The Modality Shuffle — Conditioning Exploration.md` → `⛽🔨➖🟡±🧸 Mixed Modal Conditioning Ladder — Variety Day.md`
+- `⛽🔨➖🟢±🧸 Outside the Gym — Bodyweight Conditioning.md` → `⛽🔨➖🟢±🧸 Shuttle Run and Crawl Intervals — Conditioning, No Equipment.md`
+- `⛽🔨➖🟣±🥨 Precision at Output — Technical Interval Work.md` → `⛽🔨➖🟣±🥨 Assault Bike Cadence Intervals — Mechanics Focus.md`
+- `⛽🔨🍗⚪±🧸 Slow Legs — Mindful Unilateral Descent.md` → `⛽🔨🍗⚪±🧸 Slow Eccentric Split Squat — Quad Stability, 4-Second Descent.md`
+- `⛽🔨🍗⚫±🧸 Read the Split — Teaching Unilateral Legs.md` → `⛽🔨🍗⚫±🧸 Rear Foot Elevated Split Squat — Leg Coaching Session.md`
+- `⛽🔨🍗🔴±🥨 Heavy Unilateral Legs — Intense Split Day.md` → `⛽🔨🍗🔴±🥨 Walking Dumbbell Lunge — Leg Superset, High Volume.md`
+- `⛽🔨🍗🔵±🥨 Unilateral Leg Protocol.md` → `⛽🔨🍗🔵±🥨 Front Foot Elevated Split Squat — Leg Strength Log.md`
+- `⛽🔨🍗🟠±🥨 Leg Circuit — Functional Station Loop.md` → `⛽🔨🍗🟠±🥨 Step-Up and Lunge Rotation — Quad and Glute Stations.md`
+- `⛽🔨🍗🟡±🧸 Leg Day Variations — Functional Exploration.md` → `⛽🔨🍗🟡±🧸 Lateral and Reverse Lunge Mix — Leg Variety Day.md`
+- `⛽🔨🍗🟢±🧸 The Transfer Test — Bodyweight Leg Strength.md` → `⛽🔨🍗🟢±🧸 Pistol Squat Progression — Quad and Glute Strength, No Equipment.md`
+- `⛽🔨🍗🟣±🥨 One Leg at a Time — Technical Split Squat.md` → `⛽🔨🍗🟣±🥨 Single-Leg Romanian Deadlift Mechanics — Hamstring and Hip Control.md`
+- `⛽🔨🛒⚪±🧸 The Slow Press — Mindful Unilateral Push.md` → `⛽🔨🛒⚪±🧸 Slow Eccentric Overhead Press — Shoulder Stability, 4-Second Descent.md`
+- `⛽🔨🛒⚫±🧸 Read the Press — Unilateral Mechanics.md` → `⛽🔨🛒⚫±🧸 Standing Dumbbell Press — Shoulder Coaching Session.md`
+- `⛽🔨🛒🔴±🥨 Drive From One Arm — Intense Push.md` → `⛽🔨🛒🔴±🥨 Single-Arm Dumbbell Floor Press — Chest Superset, High Volume.md`
+- `⛽🔨🛒🔵±🥨 Single-Arm Press Protocol.md` → `⛽🔨🛒🔵±🥨 Standing Single-Arm Dumbbell Press — Shoulder Strength Log.md`
+- `⛽🔨🛒🟠±🥨 Push Circuit — Functional Station Loop.md` → `⛽🔨🛒🟠±🥨 Kettlebell Press and Push-Up Rotation — Shoulder and Chest Stations.md`
+- `⛽🔨🛒🟡±🧸 Press Variety — Functional Exploration.md` → `⛽🔨🛒🟡±🧸 Mixed Grip and Angle Press — Chest and Shoulder Variety Day.md`
+- `⛽🔨🛒🟢±🧸 The Transfer Test — Bodyweight Push.md` → `⛽🔨🛒🟢±🧸 Single-Arm Push-Up Progression — Chest and Triceps, No Equipment.md`
+- `⛽🔨🛒🟣±🥨 Dial It In — Technical Unilateral Press.md` → `⛽🔨🛒🟣±🥨 Landmine Press Mechanics — Front Delt and Scapular Control.md`
+- `⛽🔨🪡⚪±🧸 Slow Pull — Deliberate Unilateral Descent.md` → `⛽🔨🪡⚪±🧸 Slow Eccentric Chin-Up — Lat Control, 4-Second Descent.md`
+- `⛽🔨🪡⚫±🧸 Read the Row — Unilateral Pull Mechanics.md` → `⛽🔨🪡⚫±🧸 Single-Arm Dumbbell Row — Back Coaching Session.md`
+- `⛽🔨🪡🔴±🥨 Full Send Pull — One Arm at a Time.md` → `⛽🔨🪡🔴±🥨 Single-Arm Kettlebell Row — Back Superset, High Volume.md`
+- `⛽🔨🪡🔵±🥨 Single-Arm Pull Protocol.md` → `⛽🔨🪡🔵±🥨 Chest-Supported Single-Arm Row — Lat Strength Log.md`
+- `⛽🔨🪡🟠±🥨 Pull Circuit — Functional Back Loop.md` → `⛽🔨🪡🟠±🥨 Ring Row and Hinge Rotation — Back and Posterior Chain Stations.md`
+- `⛽🔨🪡🟡±🧸 The Pull Playground — Functional Variations.md` → `⛽🔨🪡🟡±🧸 Offset Grip Pull Mix — Lat and Rear Delt Variety Day.md`
+- `⛽🔨🪡🟢±🧸 Bar Strength — Bodyweight Pull Standard.md` → `⛽🔨🪡🟢±🧸 Towel Inverted Row Progression — Upper Back and Biceps, No Equipment.md`
+- `⛽🔨🪡🟣±🥨 Precision Pull — Technical Unilateral Row.md` → `⛽🔨🪡🟣±🥨 Half-Kneeling Single-Arm Cable Row — Lat Mechanics Focus.md`

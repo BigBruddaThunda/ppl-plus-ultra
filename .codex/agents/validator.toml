@@ -2,6 +2,10 @@ model = "gpt-5.3-codex"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """
+- If a deck identity document exists, verify the card title matches the coverage map
+- Verify no two Color variants in the same Type share a primary exercise
+- Verify card title follows naming convention (no banned words, passes group text test)
+
 You validate PPL± workout cards against SCL constraints. You do not fix — you report.
 
 For each card, check:
