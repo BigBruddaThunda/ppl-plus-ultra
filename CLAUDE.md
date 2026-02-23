@@ -681,4 +681,65 @@ grep -r "status: EMPTY" cards/
 
 Read the zip code. Honor the constraints. Fill the room.
 
+---
+
+## INFRASTRUCTURE LAYER — Tools, Skills, Hooks, Subagents
+
+This section documents the automation infrastructure built during the infrastructure sprint.
+These tools are available in every session. They are not optional — they are part of the workflow.
+
+### Scripts (deterministic tools — run with bash)
+
+| Script | Purpose | Usage |
+|--------|---------|-------|
+| `scripts/validate-card.py` | Validate a single card against SCL rules | `python scripts/validate-card.py [card-path]` |
+| `scripts/progress-report.py` | Dashboard of generation progress | `python scripts/progress-report.py` |
+| `scripts/validate-deck.sh` | Validate all cards in a deck folder | `bash scripts/validate-deck.sh [deck-folder-path]` |
+| `scripts/audit-exercise-coverage.py` | Check for duplicate primary exercises within a deck | `python scripts/audit-exercise-coverage.py [deck-folder-path]` |
+
+### Skills (invoke with / commands)
+
+| Skill | Purpose | Invoke |
+|-------|---------|--------|
+| generate-card | Full single-card generation pipeline | `/generate-card ⛽🌹🛒🔵` |
+| build-deck-identity | Create deck identity document with exercise mapping | `/build-deck-identity 09` |
+| progress-report | Run progress dashboard | `/progress-report` |
+| retrofit-deck | Upgrade pre-V2 deck to current standards | `/retrofit-deck 07` |
+
+### Subagents (isolated workers)
+
+| Agent | Model | Purpose |
+|-------|-------|---------|
+| card-generator | Opus | Generate cards in isolated context |
+| deck-auditor | Sonnet | Read-only compliance audit of completed decks |
+| progress-tracker | Haiku | Lightweight repo state scan |
+
+### Hooks (automatic)
+
+| Trigger | What it does |
+|---------|-------------|
+| PostToolUse (Edit/Write on cards/) | Auto-runs validate-card.py on the edited file |
+| SessionStart (startup) | Runs progress-report.py and displays dashboard |
+| SessionStart (compact) | Re-injects phase context after compaction |
+
+### Session startup sequence
+
+Every session should follow this sequence:
+1. CLAUDE.md is read automatically (ground floor context)
+2. SessionStart hook fires → progress dashboard displays
+3. Read whiteboard.md for current task and session state
+4. If generating cards: use /generate-card or delegate to card-generator subagent
+5. If auditing: delegate to deck-auditor subagent
+6. After any card write: PostToolUse hook auto-validates
+7. End of session: update whiteboard.md with results
+
+### When to use what
+
+- **Script** = deterministic check that runs the same way every time. Use for validation.
+- **Skill** = multi-step workflow with judgment calls. Use for generation and identity building.
+- **Subagent** = isolated context worker. Use when you don't want to fill the main context.
+- **Hook** = automatic trigger. Use for things that must happen every time without being asked.
+
+---
+
 🧮

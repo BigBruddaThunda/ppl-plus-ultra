@@ -367,3 +367,27 @@ Output:
 - deck-08-rename-log.md created
 Branch: deck-check
 Next: Review Deck 08. If approved, apply pattern to Deck 07. Then scale to 40 remaining decks.
+
+## Session 18
+Date: 2026-02-23
+Work: Infrastructure Sprint — automation layer build-out
+Branch: claude/ppl-automation-infrastructure-Wf5Wr
+Output:
+  - scripts/validate-card.py — single-card SCL validation (zip parse, block count, 🧈/🚂/🧮 presence, GOLD gate, barbell constraints, exercise library fuzzy match)
+  - scripts/progress-report.py — generation progress dashboard by status/order/axis/deck
+  - scripts/validate-deck.sh — batch deck validation runner with pass/fail/stub summary
+  - scripts/audit-exercise-coverage.py — duplicate primary exercise detector across Color variants within a Type
+  - .claude/skills/generate-card/SKILL.md — full card generation pipeline skill
+  - .claude/skills/build-deck-identity/SKILL.md — deck identity document builder skill
+  - .claude/skills/progress-report/SKILL.md — progress dashboard skill
+  - .claude/skills/retrofit-deck/SKILL.md — V2 upgrade skill
+  - .claude/agents/card-generator.md — isolated card generation subagent (Opus)
+  - .claude/agents/deck-auditor.md — read-only compliance audit subagent (Sonnet)
+  - .claude/agents/progress-tracker.md — lightweight state reporter (Haiku)
+  - .claude/settings.json — hooks for auto-validation (PostToolUse), session init (SessionStart startup), compaction recovery (SessionStart compact)
+  - CLAUDE.md — appended infrastructure layer documentation section
+Validation test results:
+  - Deck 07 (⛽🏛): 39/40 passed, 1 legitimate content issue (Barless Power Standard — missing ▶️ Primer, fix in /retrofit-deck 07)
+  - Deck 08 (⛽🔨): validated via progress-report.py — 40/40 generated confirmed
+  - Audit found duplicate primary exercises in Deck 07 Push/Pull/Legs types (pre-identity-layer, expected — fix via /retrofit-deck 07)
+Next: Retrofit Deck 07 to V2 standards (/retrofit-deck 07), then build Deck 09 identity (/build-deck-identity 09), then begin Deck 09 generation.
