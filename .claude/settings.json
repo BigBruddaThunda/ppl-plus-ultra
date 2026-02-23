@@ -1,0 +1,35 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "FILE=$(echo \"$CLAUDE_TOOL_INPUT\" | python3 -c \"import sys, json; d=json.load(sys.stdin); print(d.get('file_path') or d.get('path') or '')\" 2>/dev/null); if echo \"$FILE\" | grep -q 'cards/'; then echo \"--- Auto-validating: $FILE ---\"; python scripts/validate-card.py \"$FILE\" 2>&1 || true; fi"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '📊 PPL± Session Init'; python scripts/progress-report.py 2>/dev/null || echo 'Progress report script not found — run infrastructure sprint first.'"
+          }
+        ]
+      },
+      {
+        "matcher": "compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '⚠️  Context compacted. Re-read CLAUDE.md and whiteboard.md before continuing. Current phase: Phase 2 — Workout Generation. 80/1680 cards complete. Active deck and task are in whiteboard.md.'"
+          }
+        ]
+      }
+    ]
+  }
+}
