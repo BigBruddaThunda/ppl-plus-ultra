@@ -151,13 +151,19 @@ ppl-plus-ultra/
 ├── scl-deep/              — Full uncompressed SCL specifications (source layer)
 ├── seeds/                 — Architectural ideas for future phases (planted, not active)
 ├── html/                  — HTML experience layer scaffold (Phase 4/5)
+├── deck-identities/       — Pre-generation exercise mapping per deck
+├── deck-cosmograms/       — Deep research identity documents per deck (planned)
+├── zip-web/               — Navigation graph: fatigue signatures, routing pods
+│
+├── scripts/               — Validation, progress, automation tools
+├── .claude/               — Skills, agents, hooks, settings
+├── .codex/                — Codex agent infrastructure
+├── .github/               — CI pipeline configs (planned)
 │
 └── cards/
-    └── [order]/
-        └── [axis]/
-            └── [type]/
-                └── [zip]±.md                        — Stub. Awaiting generation.
-                └── [zip]±[operator] [Title].md      — Complete. Workout generated.
+    └── [order]/[axis]/[type]/
+        └── [zip]±.md                        — Stub. Awaiting generation.
+        └── [zip]±[operator] [Title].md      — Complete. Workout generated.
 ```
 
 ### Card File Status
@@ -259,7 +265,8 @@ different histories.
 | Phase | Description | Status |
 |-------|-------------|--------|
 | 1 | Repository scaffolding and root documents | **Complete** |
-| 2 | Workout generation — all 1,680 cards | **In Progress** — Deck 07 complete (40/1,680) |
+| 2 | Workout generation — all 1,680 cards | **In Progress** — 80/1,680 (Decks 07, 08) |
+| 2.5 | Architecture expansion (cosmograms, linters, zip-web) | **Framed** — directories planted, seeds written |
 | 3 | Validation and review | Pending |
 | 4 | Design standards and UI system | Pending |
 | 5 | HTML rendering layer | Pending |

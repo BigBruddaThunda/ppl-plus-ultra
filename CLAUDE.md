@@ -742,4 +742,126 @@ Every session should follow this sequence:
 
 ---
 
+## TEMP PPL± ARCHITECT PATTERN
+
+PPL± uses external AI environments (Genspark, Claude.ai web) as
+read-only architect workspaces. These sessions cannot write to the
+repo. They produce blueprint documents that Claude Code executes.
+
+**How It Works**
+
+1. Jake opens a Genspark or Claude.ai chat with task context
+2. Pastes relevant sections from CLAUDE.md, whiteboard.md, and task
+3. External AI does research, planning, drafting (unlimited usage)
+4. Output: a Claude Code handoff document — the blueprint
+5. Jake pastes blueprint into Claude Code session for execution
+6. Claude Code reads whiteboard.md, executes, logs results
+
+**Key Principle**
+
+The temp architect READS and DRAFTS. It never touches the repo.
+Claude Code READS and EXECUTES. It never freelances.
+The handoff document is the contract between them.
+
+**When You Receive a Handoff**
+
+If a session starts with "Source: Genspark temp architect session"
+or similar, the task list in that handoff is pre-researched and
+pre-planned. Execute in order. Flag conflicts with whiteboard.md
+state if found — the handoff may reference outdated state.
+
+---
+
+## DECK COSMOGRAM LAYER
+
+Deck cosmograms live at `deck-cosmograms/deck-[NUMBER]-cosmogram.md`.
+They are deep research identity documents — NOT workout cards.
+
+**When generating cards for a deck:**
+1. Read CLAUDE.md (this file) — ground floor
+2. Read scl-directory.md — full SCL spec
+3. Read the deck's cosmogram (if populated) — deep context
+4. Read the deck identity doc (if exists) — exercise mapping
+5. Generate the card
+
+If a cosmogram's status is STUB or the file doesn't exist yet,
+generate cards using scl-directory.md and deck identity alone.
+The cosmogram is supplemental context, not a generation blocker.
+
+Status: Directory planted. No cosmograms populated yet.
+See `deck-cosmograms/README.md` for the full plan.
+
+---
+
+## LINTING LAYER
+
+Status: PLANNED — directory structure planted, no tools built yet.
+
+Three-tier validation pipeline (planned):
+1. markdownlint-cli2 — structural markdown compliance
+2. Frontmatter schema validator — YAML shape validation
+3. SCL validator — PPL±-specific rules (`scripts/validate-card.py`)
+
+The existing PostToolUse hook (validate-card.py) is Tier 3's
+foundation. GitHub Actions CI will be the gate before merge.
+
+Config directory: `.github/linters/`
+Workflow directory: `.github/workflows/`
+Seed document: `seeds/linters-architecture.md`
+
+Do not build linting infrastructure unless whiteboard.md promotes it
+to active work. The seed has the full architecture.
+
+---
+
+## PROJECT ARCHITECTURE — WORK STREAMS
+
+The project has grown beyond the original 7-phase plan. Multiple
+parallel work streams now exist. They are tracked here so nothing
+gets lost. Each stream has a current status and a blocking/non-blocking
+relationship to card generation.
+
+**Active Streams**
+
+| Stream | Status | Blocks Generation? |
+|--------|--------|--------------------|
+| Card Generation (Phase 2) | ACTIVE — 80/1,680 done | N/A — this IS the work |
+| Deck Identities | ACTIVE — Deck 08 done, Deck 07 pending retrofit | Yes for new decks |
+| Zip-Web Pods | BUILT — Deck 07 populated, 41 stubs ready | No |
+| Infrastructure (scripts/skills/hooks) | BUILT — Session 18 | No |
+| Deck Cosmograms | PLANNED — directory planted | No |
+| Linters Pipeline | PLANNED — seed planted | No |
+| SCL Emoji Macros | DRAFTED — in external notes | No |
+| Cosmogram Research Prompt | DRAFTED — in external notes | No |
+| Git-Worktree Pattern | PLANNED — seed planted | No |
+| HTML Experience Layer | Phase 4/5 — scaffold only | No |
+| Codex Agent Infrastructure | BUILT — Session 4 | No |
+
+**Blocked Queue (waiting on dependencies)**
+
+| Task | Blocked By | Unblocks |
+|------|-----------|----------|
+| Retrofit Deck 07 to V2 | Jake review of Deck 08 V2 pattern | Deck 07 → CANONICAL |
+| Build Deck 09 identity | Deck 07 retrofit (confirms V2 pattern) | Deck 09 generation |
+| Ralph Loop (41 remaining pod decks) | Deck 07 pod review | Full zip-web navigation |
+| First cosmogram population | Research prompt committed + session time | Deep content layer |
+| Linters CI pipeline | Seed promoted to active + configs written | Merge-to-main policy |
+
+---
+
+## SCL-61 EMOJI MACROS
+
+A deep reference document covering cultural, historical, symbolic,
+and cross-domain macro meanings for all 61 SCL emojis is drafted.
+
+Target location: `scl-deep/emoji-macros.md`
+Current status: DRAFT in `seeds/scl-emoji-macros-draft.md`
+Relationship: Tier 0 reference alongside `color-context-vernacular.md`,
+`order-parameters.md`, `axis-specifications.md` in `scl-deep/`
+
+This does not change generation rules. It deepens understanding of
+the design intent — why each emoji was chosen for its role.
+
+---
+
 🧮
