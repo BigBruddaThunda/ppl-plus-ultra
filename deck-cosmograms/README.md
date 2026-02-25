@@ -16,8 +16,9 @@ zip code rooms these documents shape.
 **Status: PLANNED**
 
 Directory structure planted. No cosmograms populated yet.
-Template and research prompt need to be written before population
-begins. See `seeds/cosmogram-research-prompt.md` (when written).
+Research prompt committed: `seeds/cosmogram-research-prompt.md`
+Publication standard committed: `scl-deep/publication-standard.md`
+Both documents are required reading before generating any deck cosmogram.
 
 ---
 

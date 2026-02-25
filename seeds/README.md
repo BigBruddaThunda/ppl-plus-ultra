@@ -23,6 +23,7 @@ Seeds live here rather than in whiteboard.md because they have cleared the ideat
 | exercise-superscript.md | ± superscript/subscript system on each exercise row | 2026-02-20 | SEED |
 | art-direction.md | Beaux-arts + 90s UI + classical architecture + trace paper aesthetic | 2026-02-20 | SEED |
 | exercise-attribute-tagging.md | Tagging ~2,800 exercises with D/C/A/G/SI/Ss/Sc/RD scores | 2026-02-20 | SEED |
+| cosmogram-research-prompt.md | Deck cosmogram research protocol — full prompt with SCL context | 2026-02-25 | HARVESTED |
 
 ---
 
