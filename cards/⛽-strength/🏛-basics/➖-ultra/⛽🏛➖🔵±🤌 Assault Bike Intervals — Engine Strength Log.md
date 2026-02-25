@@ -1,7 +1,7 @@
 ---
 zip: ⛽🏛➖🔵
 operator: 🤌 facio
-status: GENERATED-V2
+status: GENERATED-V2-REGEN-NEEDED
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -10,7 +10,7 @@ color: 🔵 Structured | Tier 2–3 | GOLD: No | Prescribed sets/reps/rest. Trac
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🪫 → 🚂 → 🧮
 ---
 
-# ➖ The 500m Prescription ➖
+# ➖ Assault Bike Intervals — Engine Strength Log ➖
 
 Prescribed rowing intervals | 5 × 500m + bike supplemental | 50–60 min
 

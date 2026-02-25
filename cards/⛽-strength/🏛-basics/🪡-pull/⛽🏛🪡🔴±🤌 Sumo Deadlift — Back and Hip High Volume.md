@@ -1,7 +1,7 @@
 ---
 zip: ⛽🏛🪡🔴
 operator: 🤌 facio
-status: GENERATED-V2
+status: GENERATED-V2-REGEN-NEEDED
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -10,7 +10,7 @@ color: 🔴 Intense | Tier 2–4 | GOLD: Yes | Maximum effort. High volume. Redu
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🌋 → 🪫 → 🚂 → 🧮
 ---
 
-# 🪡 Full Send Pull — Every Muscle Accounted For 🪡
+# 🪡 Sumo Deadlift — Back and Hip High Volume 🪡
 
 Heavy barbell pull, high volume, max effort | Lats, traps, erectors, biceps, rear delts | 75–90 min
 

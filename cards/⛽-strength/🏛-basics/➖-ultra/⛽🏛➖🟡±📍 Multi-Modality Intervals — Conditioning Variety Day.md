@@ -10,7 +10,7 @@ color: 🟡 Fun | Tier 0–5 | GOLD: No | Exploration and variety. Structured pl
 blocks: ♨️ → 🧈 → 🏖 → 🧩 → 🚂 → 🧮
 ---
 
-# ➖ The Modality Shuffle ➖
+# ➖ Multi-Modality Intervals — Conditioning Variety Day ➖
 
 Varied conditioning | Erg, bike, sprint — then one you haven't tried seriously | 55–65 min
 

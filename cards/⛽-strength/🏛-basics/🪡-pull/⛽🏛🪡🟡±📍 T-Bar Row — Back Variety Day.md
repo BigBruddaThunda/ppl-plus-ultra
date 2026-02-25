@@ -10,7 +10,7 @@ color: 🟡 Fun | Tier 0–5 | GOLD: No | Exploration and variety. Structured pl
 blocks: ♨️ → 🧈 → 🏖 → 🚂 → 🧮
 ---
 
-# 🪡 The Pull Playground — Same Pattern, New Angles 🪡
+# 🪡 T-Bar Row — Back Variety Day 🪡
 
 Strength pull with variation and exploration | Lats, traps, erectors, biceps, rear delts | 60–70 min
 

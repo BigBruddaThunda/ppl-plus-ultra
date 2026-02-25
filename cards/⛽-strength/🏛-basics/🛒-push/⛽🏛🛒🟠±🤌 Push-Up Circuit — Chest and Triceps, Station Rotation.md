@@ -1,7 +1,7 @@
 ---
 zip: ⛽🏛🛒🟠
 operator: 🤌 facio
-status: GENERATED-V2
+status: GENERATED-V2-REGEN-NEEDED
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -10,7 +10,7 @@ color: 🟠 Circuit | Tier 0–3 | GOLD: No | Station rotation. No barbells. Loo
 blocks: ♨️ → 🎱 → 🪫 → 🚂 → 🧮
 ---
 
-# 🛒 Push Circuit — Rotational Strength Loop 🛒
+# 🛒 Push-Up Circuit — Chest and Triceps, Station Rotation 🛒
 
 Station-based push strength | Chest, front delts, triceps | 50–60 min
 

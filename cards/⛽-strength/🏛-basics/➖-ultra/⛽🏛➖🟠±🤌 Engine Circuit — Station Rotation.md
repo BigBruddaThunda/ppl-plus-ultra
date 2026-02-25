@@ -10,7 +10,7 @@ color: 🟠 Circuit | Tier 0–3 | GOLD: No | Station rotation. No barbells. Loo
 blocks: ♨️ → ▶️ → 🎱 → 🪫 → 🚂 → 🧮
 ---
 
-# ➖ The Classic Engine Loop ➖
+# ➖ Engine Circuit — Station Rotation ➖
 
 Station-based conditioning | Rowing, bike, jump rope, sled | 50–60 min
 

@@ -1,7 +1,7 @@
 ---
 zip: ⛽🏛🛒⚪
 operator: 📍 pono
-status: GENERATED-V2
+status: GENERATED-V2-REGEN-NEEDED
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -10,7 +10,7 @@ color: ⚪ Mindful | Tier 0–3 | GOLD: No | 4-second eccentrics. Extended rest.
 blocks: ♨️ → ▶️ → 🧈 → 🪫 → 🚂 → 🧮
 ---
 
-# 🛒 Heavy Slow Press — Mindful Barbell Push 🛒
+# 🛒 Floor Press — Chest, Slow Eccentric 🛒
 
 4-second eccentric barbell strength | Chest, front delts, triceps | 70–80 min
 

@@ -7,7 +7,7 @@ order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: ➕ Plus | Full body power, core
 color: 🟢 Bodyweight | Tier 0–2 | GOLD: No | No gym required. Park, hotel, living room.
-blocks: ♨️ → 🧈 → 🧩 → 🚂 → 🧮
+blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
 
 # ➕ Barless Power Standard ➕
@@ -31,7 +31,25 @@ CODE: ⛽🏛➕🟢
 
 ═══════════════════════════════════════
 
-## 2. 🧈 BREAD & BUTTER
+## 2. ▶️ PRIMER
+
+📍 pono — fire the hip flexors and shoulder girdle before you ask them to hold
+
+Rest: 90 sec
+
+**➕ Explosive Tuck Jump**
+
+- 3 × 5 (full triple extension — hips, knees, ankles — tight landing each rep)
+
+**➕ Hanging Scapular Pull**
+
+- 3 × 8 (dead hang start — packed shoulders → 1-sec hold — no elbow bend, just scapular depression)
+
+Rest: 90 sec between pairs. These prime the exact structures the L-Sit and Hanging Leg Raise will demand.
+
+═══════════════════════════════════════
+
+## 3. 🧈 BREAD & BUTTER
 
 📍 pono — the bar is absent; the difficulty standard isn't
 
@@ -59,7 +77,7 @@ Rest: 3 min between all sets.
 
 ═══════════════════════════════════════
 
-## 3. 🧩 SUPPLEMENTAL
+## 4. 🧩 SUPPLEMENTAL
 
 📍 pono — anti-extension and anti-rotation to close
 
@@ -84,7 +102,7 @@ Anti-rotation and rotational control back to back with the same hang.
 
 ═══════════════════════════════════════
 
-## 4. 🚂 JUNCTION
+## 5. 🚂 JUNCTION
 
 Cross-Junction map (current zip at center):
 

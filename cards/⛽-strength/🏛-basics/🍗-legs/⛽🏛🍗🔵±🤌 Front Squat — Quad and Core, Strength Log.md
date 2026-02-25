@@ -1,7 +1,7 @@
 ---
 zip: ⛽🏛🍗🔵
 operator: 🤌 facio
-status: GENERATED-V2
+status: GENERATED-V2-REGEN-NEEDED
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -10,7 +10,7 @@ color: 🔵 Structured | Tier 2–3 | GOLD: No | Prescribed sets/reps/rest. Trac
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
 
-# 🍗 Standard Leg Day 🍗
+# 🍗 Front Squat — Quad and Core, Strength Log 🍗
 
 Barbell strength, prescribed and tracked | Quads, hamstrings, glutes, calves | 65–75 min
 
