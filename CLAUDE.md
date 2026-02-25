@@ -788,7 +788,11 @@ If a cosmogram's status is STUB or the file doesn't exist yet,
 generate cards using scl-directory.md and deck identity alone.
 The cosmogram is supplemental context, not a generation blocker.
 
-Status: Directory planted. No cosmograms populated yet.
+Status: Research prompt and publication standard committed.
+No cosmograms populated yet. Generation can begin.
+- Research prompt: `seeds/cosmogram-research-prompt.md`
+- Publication standard: `scl-deep/publication-standard.md`
+- Output target: `deck-cosmograms/deck-[NUMBER]-cosmogram.md`
 See `deck-cosmograms/README.md` for the full plan.
 
 ---
@@ -829,7 +833,7 @@ relationship to card generation.
 | Deck Identities | ACTIVE — Deck 08 done, Deck 07 pending retrofit | Yes for new decks |
 | Zip-Web Pods | BUILT — Deck 07 populated, 41 stubs ready | No |
 | Infrastructure (scripts/skills/hooks) | BUILT — Session 18 | No |
-| Deck Cosmograms | PLANNED — directory planted | No |
+| Deck Cosmograms | READY — prompt + standard committed, awaiting first generation | No |
 | Linters Pipeline | PLANNED — seed planted | No |
 | SCL Emoji Macros | DRAFTED — in external notes | No |
 | Cosmogram Research Prompt | DRAFTED — in external notes | No |
@@ -844,7 +848,7 @@ relationship to card generation.
 | Retrofit Deck 07 to V2 | Jake review of Deck 08 V2 pattern | Deck 07 → CANONICAL |
 | Build Deck 09 identity | Deck 07 retrofit (confirms V2 pattern) | Deck 09 generation |
 | Ralph Loop (41 remaining pod decks) | Deck 07 pod review | Full zip-web navigation |
-| First cosmogram population | Research prompt committed + session time | Deep content layer |
+| First cosmogram population | Session time (prompt + standard committed) | Deep content layer |
 | Linters CI pipeline | Seed promoted to active + configs written | Merge-to-main policy |
 
 ---
@@ -855,7 +859,7 @@ A deep reference document covering cultural, historical, symbolic,
 and cross-domain macro meanings for all 61 SCL emojis is drafted.
 
 Target location: `scl-deep/emoji-macros.md`
-Current status: DRAFT in `seeds/scl-emoji-macros-draft.md`
+Current status: STUB in `seeds/scl-emoji-macros-draft.md` (awaiting full document paste)
 Relationship: Tier 0 reference alongside `color-context-vernacular.md`,
 `order-parameters.md`, `axis-specifications.md` in `scl-deep/`
 

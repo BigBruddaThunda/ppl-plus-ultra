@@ -78,17 +78,13 @@ Why: Continuing through ⛽ Order. Systematic Order-first sweep.
 Depends on: Deck 09 identity document.
 Unblocks: Progress toward ⛽ Order completion (6 decks, 240 cards).
 
-**4. Commit SCL-61 Emoji Macros — full document to `scl-deep/emoji-macros.md`**
-Why: Complete 15K char document exists in external notes. Needs to be
-written to file. Reference layer for cosmogram research.
-Depends on: Content session with the full document pasted in.
-Unblocks: Cosmogram research has its cultural substrate reference.
-
-**5. Commit Cosmogram Research Prompt — full document to `seeds/`**
-Why: Complete 30K char prompt exists in external notes. Once committed,
-any AI session can generate a deck cosmogram independently.
-Depends on: Content session with the full prompt pasted in.
-Unblocks: Parallel cosmogram research sessions.
+**4. Generate First Deck Cosmogram**
+Why: Research prompt and publication standard are committed. The system
+is ready for its first cosmogram generation via Genspark temp architect
+session. Priority candidates: Deck 07 (⛽🏛, cards exist), Deck 01
+(🐂🏛, system origin).
+Depends on: Genspark session with web access.
+Unblocks: Deep content layer for card generation context.
 
 ---
 
@@ -117,7 +113,8 @@ These are tracked and sequenced but not immediate.
 
 ### Cosmogram Population
 - Directory planted: deck-cosmograms/
-- Research prompt needs committing first (Item 5 in Immediate Queue)
+- Research prompt committed: `seeds/cosmogram-research-prompt.md`
+- Publication standard committed: `scl-deep/publication-standard.md`
 - Each cosmogram is a dedicated AI research session with web access
 - Sessions are independent — can run in parallel via Genspark
 - Priority candidates: Deck 07 (⛽🏛, cards exist), Deck 01 (🐂🏛, system origin), Deck 05 (🐂⌛, history seed drafted)
@@ -403,6 +400,19 @@ Output:
   - whiteboard.md — complete restructure (this file)
   - README.md — repo structure and phase table updated
 Next: Retrofit Deck 07 to V2 (/retrofit-deck 07)
+
+### Session 020
+Date: 2026-02-25
+Work: Publication Standard + Cosmogram Research Prompt — commit to repo
+Source: Genspark temp architect session
+Branch: claude/publication-standard-cosmogram-mSycA
+Output:
+  - scl-deep/publication-standard.md — full PPL± publication voice standard (NEW)
+  - seeds/cosmogram-research-prompt.md — full deck cosmogram research protocol (REPLACED STUB)
+  - deck-cosmograms/README.md — updated status references
+  - CLAUDE.md — updated Cosmogram Layer status, Work Streams table, Blocked Queue
+  - whiteboard.md — updated Immediate Queue, Backlog, session log
+Next: Generate first deck cosmogram via Genspark. Then continue card generation.
 
 ---
 
