@@ -24,6 +24,10 @@ Seeds live here rather than in whiteboard.md because they have cleared the ideat
 | art-direction.md | Beaux-arts + 90s UI + classical architecture + trace paper aesthetic | 2026-02-20 | SEED |
 | exercise-attribute-tagging.md | Tagging ~2,800 exercises with D/C/A/G/SI/Ss/Sc/RD scores | 2026-02-20 | SEED |
 | cosmogram-research-prompt.md | Deck cosmogram research protocol — full prompt with SCL context | 2026-02-25 | HARVESTED |
+| daily-architecture.md | The Daily: standing departments, 5 input layers, automation pathway, front page | 2026-02-25 | SEED |
+| elevator-architecture.md | 4-dial elevator, piano nobile floor stack, dual axis function, navigation model | 2026-02-25 | SEED |
+| platform-architecture-v2.md | Complete platform architecture V2 — business model, UX, tech, database, automation | 2026-02-25 | SEED |
+| platform-architecture-v1-archive.md | Archived Feb 11 "PPL± ITSELF" document — historical reference | 2026-02-25 | ARCHIVED |
 
 ---
 

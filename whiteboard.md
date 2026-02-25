@@ -140,6 +140,22 @@ These are tracked and sequenced but not immediate.
 - Adopt when parallel branch work becomes frequent enough to justify
 - Currently: one branch at a time is sufficient
 
+### Daily System Build-Out
+- Seed planted: seeds/daily-architecture.md
+- Prototype drafted externally (Feb 25 edition — Genspark session)
+- Requires: historical events database (365 files, one-time build ~180 hours research)
+- Requires: cosmogram population (provides deep substrate for featured zip descriptions)
+- Requires: HTML experience layer (Phase 4/5)
+- Automation target: fully automated daily generation from deterministic inputs
+- Does not block card generation
+
+### Platform Architecture V2
+- Seed planted: seeds/platform-architecture-v2.md
+- Supersedes: Feb 11 "PPL± ITSELF" document (archived at seeds/platform-architecture-v1-archive.md)
+- Requires: card generation progress, cosmogram population, Daily prototype refinement
+- Database schema ready for prototyping when Phase 4/5 activates
+- Does not block card generation
+
 ---
 
 ## Open Questions
@@ -446,6 +462,20 @@ Deck 07 regen queue (18 cards):
 
 Next: Build Deck 09 identity (/build-deck-identity 09), then generate Deck 09 (40 cards).
 
+### Session 022
+Date: 2026-02-25
+Work: Architecture Sprint — Daily System, Elevator Model, Platform V2
+Source: Genspark temp architect session
+Branch: claude/add-daily-architecture-seed-z1Sqp
+Output:
+  - seeds/daily-architecture.md — The Daily as content type: 9 standing departments (♨️🎯🧈🧩🏖▶️🪫🚂🧮), 5 input layers (date/historical/cosmogram/forward/publication standard), automation pathway, circulation model, onboarding role
+  - seeds/elevator-architecture.md — 4-dial elevator model (Order=building, Axis=floor, Type=wing, Color=room), piano nobile floor stack (🔨 ground → 🏛 noble → ⌛ 2nd → 🐬 3rd → 🌹 4th → 🪐 penthouse), dual axis function, horizontal/vertical navigation model, campus metaphor
+  - seeds/platform-architecture-v2.md — Complete platform architecture refactored from Feb 11 document. Tiered business model preserved ($10/$25–30). Database schema refactored to zip-code-centric (daily_editions, zip_visits, room_threads tables added; program_sequence stores zip codes instead of workout IDs). Automation reframed as deterministic pipeline + constrained AI generation. Programs as zip code sequences. Onboarding as newspaper → room → building → navigator progression.
+  - seeds/platform-architecture-v1-archive.md — Archive stub with frontmatter created. NOTE: Feb 11 "PPL± ITSELF" document body (~15,000 words) was not included in the handoff package. Frontmatter is in place; Jake needs to paste the full Feb 11 document body into this file.
+  - CLAUDE.md — Work streams updated with 3 new seeds; seeds/ directory listing updated with 3 new descriptions
+  - whiteboard.md — updated (this file)
+Next: Continue card generation pipeline (Deck 09 identity or Deck 07 regen queue). Daily and platform seeds do not block generation.
+
 ---
 
 ## Notes and Fragments
@@ -489,6 +519,24 @@ Parking lot. Ideas without a home yet.
   Jan=📍pono, Feb=🧲capio, Mar=🧸fero, Apr=👀specio, May=🥨tendo,
   Jun=🤌facio, Jul=🚀mitto, Aug=🦢plico, Sep=🪵teneo, Oct=🐋duco,
   Nov=✒️grapho, Dec=🦉logos
+
+- The 4-dial elevator model: Order=building, Axis=floor, Type=wing, Color=room.
+  1,680 rooms. One elevator. Four dials. The Daily is the morning's default destination.
+
+- Piano nobile floor stack (bottom to top on screen, ground to penthouse in building):
+  🔨 ground → 🏛 piano nobile → ⌛ 2nd → 🐬 3rd → 🌹 4th → 🪐 5th.
+  Scroll direction on phone is inverse of building direction. Progressive disclosure IS the architecture.
+
+- The Daily is the front door the system was missing. Solves cold start,
+  solves onboarding, solves room circulation, and is automatable once
+  inputs are populated (historical DB + cosmograms + calendar data + pub standard).
+
+- Programs are guided tours through the zip web — sequences of addresses,
+  not sequences of workouts. The rooms already exist. The program is the itinerary.
+
+- Publication standard constraint added: no "it's not X, it's Y" framing.
+  The publication is informational. The reader informs the opinion.
+  Independent of Party or Faction. Committed to Useful Knowledge.
 
 Update this file whenever the project state changes.
 The whiteboard is always the current truth.
