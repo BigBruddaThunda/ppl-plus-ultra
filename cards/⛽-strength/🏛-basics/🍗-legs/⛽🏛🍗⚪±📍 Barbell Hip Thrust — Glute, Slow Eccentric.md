@@ -1,7 +1,7 @@
 ---
 zip: ⛽🏛🍗⚪
 operator: 📍 pono
-status: GENERATED-V2
+status: GENERATED-V2-REGEN-NEEDED
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -10,7 +10,7 @@ color: ⚪ Mindful | Tier 0–3 | GOLD: No | Slow tempo (4s eccentrics). Extende
 blocks: ♨️ → ▶️ → 🧈 → 🪫 → 🚂 → 🧮
 ---
 
-# 🍗 Slow Leg Day 🍗
+# 🍗 Barbell Hip Thrust — Glute, Slow Eccentric 🍗
 
 Mindful barbell strength | Quads, hamstrings, glutes | 75–85 min
 

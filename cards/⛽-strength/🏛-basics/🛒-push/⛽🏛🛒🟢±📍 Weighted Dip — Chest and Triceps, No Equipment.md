@@ -10,7 +10,7 @@ color: 🟢 Bodyweight | Tier 0–2 | GOLD: No | No gym required. Advanced calis
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
 
-# 🛒 The Transfer Test — Bodyweight Strength Push 🛒
+# 🛒 Weighted Dip — Chest and Triceps, No Equipment 🛒
 
 Advanced calisthenics | Chest, front delts, triceps | 55–65 min
 

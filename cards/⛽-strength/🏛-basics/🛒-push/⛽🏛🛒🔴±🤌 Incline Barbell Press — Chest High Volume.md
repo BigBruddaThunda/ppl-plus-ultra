@@ -1,7 +1,7 @@
 ---
 zip: ⛽🏛🛒🔴
 operator: 🤌 facio
-status: GENERATED-V2
+status: GENERATED-V2-REGEN-NEEDED
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -10,7 +10,7 @@ color: 🔴 Intense | Tier 2–4 | GOLD: Yes | Maximum effort. High volume. Redu
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🌋 → 🪫 → 🚂 → 🧮
 ---
 
-# 🛒 Max Effort Push — Intense Barbell Day 🛒
+# 🛒 Incline Barbell Press — Chest High Volume 🛒
 
 High-volume barbell strength | Chest, front delts, triceps | 70–80 min
 

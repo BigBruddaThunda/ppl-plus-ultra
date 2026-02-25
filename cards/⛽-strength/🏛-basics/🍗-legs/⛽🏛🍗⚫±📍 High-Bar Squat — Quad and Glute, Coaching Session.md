@@ -10,7 +10,7 @@ color: ⚫ Teaching | Tier 2–3 | GOLD: No | Extra rest. Coaching cues. Compreh
 blocks: ♨️ → 🛠 → 🧈 → 🧩 → 🚂 → 🧮
 ---
 
-# 🍗 The Squat Lesson 🍗
+# 🍗 High-Bar Squat — Quad and Glute, Coaching Session 🍗
 
 Coached barbell legs | Quads, glutes, hamstrings | 70–80 min
 

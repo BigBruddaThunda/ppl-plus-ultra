@@ -1,7 +1,7 @@
 ---
 zip: ⛽🏛🍗🔴
 operator: 🤌 facio
-status: GENERATED-V2
+status: GENERATED-V2-REGEN-NEEDED
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -10,7 +10,7 @@ color: 🔴 Intense | Tier 2–4 | GOLD: Yes | Maximum effort. High volume. Redu
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🌋 → 🪫 → 🚂 → 🧮
 ---
 
-# 🍗 Heavy Leg Day 🍗
+# 🍗 Romanian Deadlift — Hamstring High Volume 🍗
 
 High-volume barbell strength | Quads, hamstrings, glutes, calves | 80–90 min
 

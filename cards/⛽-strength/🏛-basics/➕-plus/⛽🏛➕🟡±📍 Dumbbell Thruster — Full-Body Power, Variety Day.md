@@ -1,7 +1,7 @@
 ---
 zip: ⛽🏛➕🟡
 operator: 📍 pono
-status: GENERATED-V2
+status: GENERATED-V2-REGEN-NEEDED
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -10,7 +10,7 @@ color: 🟡 Fun | Tier 0–5 | GOLD: No | Exploration and variety. Structured pl
 blocks: ♨️ → 🧈 → 🏖 → 🧩 → 🚂 → 🧮
 ---
 
-# ➕ Complex Play ➕
+# ➕ Dumbbell Thruster — Full-Body Power, Variety Day ➕
 
 Full-body power exploration | Barbell complex, carry sandbox, Turkish Get-Up | 60–70 min
 

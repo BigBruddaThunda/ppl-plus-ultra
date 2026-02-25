@@ -27,7 +27,7 @@ Ground truth: 80 cards generated (Decks 07 + 08). 1,600 remaining.
 - [x] setup.py executed — 210 folders, 1,680 stub files
 
 ### Card Generation (IN PROGRESS — 80/1,680)
-- [x] Deck 07 (⛽🏛 Strength × Basics) — 40/40 GENERATED
+- [x] Deck 07 (⛽🏛 Strength × Basics) — 40/40 GENERATED-V2 ✅ Retrofitted Session 021 (18 cards flagged REGEN-NEEDED; identity doc built)
 - [x] Deck 08 (⛽🔨 Strength × Functional) — 40/40 GENERATED-V2
 
 ### Infrastructure (BUILT)
@@ -56,29 +56,39 @@ Ground truth: 80 cards generated (Decks 07 + 08). 1,600 remaining.
 
 ---
 
+## Deck Campaign Table
+
+Each deck is a 5-lane campaign. See `seeds/deck-campaign-workflow.md` for full spec.
+
+| Deck | Order × Axis | Cosmogram | Identity | Cards | Audit | CANONICAL |
+|------|-------------|-----------|----------|-------|-------|-----------|
+| 07   | ⛽🏛         | —         | ✅ V2 (Session 021) | ⚠️ 40 (18 REGEN-NEEDED) | ⬜ | ⬜ |
+| 08   | ⛽🔨         | —         | ✅ V2 (Session 017) | ✅ 40 (Session 009) | ⬜ | ⬜ |
+| 09   | ⛽🌹         | ⬜         | ⬜        | ⬜    | ⬜    | ⬜        |
+| 10   | ⛽🪐         | ⬜         | ⬜        | ⬜    | ⬜    | ⬜        |
+| 11   | ⛽⌛         | ⬜         | ⬜        | ⬜    | ⬜    | ⬜        |
+| 12   | ⛽🐬         | ⬜         | ⬜        | ⬜    | ⬜    | ⬜        |
+
+Status: ⬜ Not started | 🔄 In progress | ✅ Complete | ⚠️ Issues (regen queue active) | — Not applicable
+
+---
+
 ## Immediate Queue — Next Sessions
 
 Priority order. Top item is next unless Jake redirects.
 
-**1. Retrofit Deck 07 to V2 — `/retrofit-deck 07`**
-Why: Deck 07 was generated pre-identity-layer. Has duplicate primary
-exercises and naming convention issues. Needs V2 upgrade to match
-Deck 08 standard. Confirms the retrofit pattern for all future decks.
-Depends on: Nothing. Ready now.
-Unblocks: Deck 07 → CANONICAL review pipeline.
-
-**2. Build Deck 09 Identity — `/build-deck-identity 09`**
+**1. Build Deck 09 Identity — `/build-deck-identity 09`**
 Why: ⛽🌹 Strength × Aesthetic is next in the generation queue.
 Identity doc maps exercises to zip codes before generation starts.
-Depends on: Deck 07 retrofit confirms V2 pattern is stable.
+Depends on: Nothing — Deck 07 retrofit done, V2 pattern confirmed.
 Unblocks: Deck 09 generation (40 cards).
 
-**3. Generate Deck 09 — 40 cards, ⛽🌹 Strength × Aesthetic**
+**2. Generate Deck 09 — 40 cards, ⛽🌹 Strength × Aesthetic**
 Why: Continuing through ⛽ Order. Systematic Order-first sweep.
 Depends on: Deck 09 identity document.
 Unblocks: Progress toward ⛽ Order completion (6 decks, 240 cards).
 
-**4. Generate First Deck Cosmogram**
+**3. Generate First Deck Cosmogram**
 Why: Research prompt and publication standard are committed. The system
 is ready for its first cosmogram generation via Genspark temp architect
 session. Priority candidates: Deck 07 (⛽🏛, cards exist), Deck 01
@@ -413,6 +423,28 @@ Output:
   - CLAUDE.md — updated Cosmogram Layer status, Work Streams table, Blocked Queue
   - whiteboard.md — updated Immediate Queue, Backlog, session log
 Next: Generate first deck cosmogram via Genspark. Then continue card generation.
+
+### Session 021
+Date: 2026-02-25
+Work: Deck 07 Retrofit to V2 — naming, identity, content fix, campaign architecture
+Source: Session 020 branch merged to main ✅. Jake handoff with wave/campaign direction.
+Branch: claude/compile-handoff-docs-lzeeO
+Output:
+  - deck-identities/deck-07-identity.md — V2 identity doc for ⛽🏛 Strength × Basics (40 zips mapped, primary exercise conflicts resolved, regen queue defined)
+  - 25 card renames via git mv — all naming violations corrected across Push, Pull, Legs, Plus, Ultra types
+  - 18 cards flagged GENERATED-V2-REGEN-NEEDED in frontmatter — duplicate primary exercises identified; content regeneration deferred to future session
+  - ⛽🏛➕🟢 Barless Power Standard — missing ▶️ Primer block added (Explosive Tuck Jump + Hanging Scapular Pull)
+  - seeds/deck-campaign-workflow.md — 5-lane campaign model planted (Cosmogram → Identity → Generation → Audit → CANONICAL)
+  - whiteboard.md — Deck Campaign Table added, Immediate Queue updated, Session 021 logged
+
+Deck 07 regen queue (18 cards):
+  🛒: OHP (🔵), Incline Press (🔴), Push-Up Circuit (🟠), Decline Press (🟡), Floor Press (⚪)
+  🪡: Bent-Over Row (🔵), Rack Pull (🟣), Sumo DL (🔴), Romanian DL (⚪)
+  🍗: Front Squat (🔵), Romanian DL (🔴), Bulgarian Split Squat (🟡), Hip Thrust (⚪)
+  ➕: Push Press (🔵), Dumbbell Thruster (🟡), Front Squat Slow (⚪)
+  ➖: Assault Bike (🔵), Jump Rope (⚪)
+
+Next: Build Deck 09 identity (/build-deck-identity 09), then generate Deck 09 (40 cards).
 
 ---
 

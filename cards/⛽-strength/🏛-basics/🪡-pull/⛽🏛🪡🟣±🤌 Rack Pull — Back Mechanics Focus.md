@@ -1,7 +1,7 @@
 ---
 zip: ⛽🏛🪡🟣
 operator: 🤌 facio
-status: GENERATED-V2
+status: GENERATED-V2-REGEN-NEEDED
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -10,7 +10,7 @@ color: 🟣 Technical | Tier 2–5 | GOLD: Yes | Precision. Fewer blocks. Extend
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
 
-# 🪡 Precision Pull — Mechanics Under Load 🪡
+# 🪡 Rack Pull — Back Mechanics Focus 🪡
 
 Technical barbell pull, low volume, extended rest | Lats, erectors, traps | 70–80 min
 

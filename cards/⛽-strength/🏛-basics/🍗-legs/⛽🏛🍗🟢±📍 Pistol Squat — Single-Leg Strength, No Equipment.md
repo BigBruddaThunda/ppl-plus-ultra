@@ -10,7 +10,7 @@ color: 🟢 Bodyweight | Tier 0–2 | GOLD: No | No gym required. Advanced calis
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
 
-# 🍗 The Transfer Test 🍗
+# 🍗 Pistol Squat — Single-Leg Strength, No Equipment 🍗
 
 Advanced calisthenics | Quads, hamstrings, glutes | 60–70 min
 

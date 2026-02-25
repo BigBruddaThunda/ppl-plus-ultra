@@ -10,7 +10,7 @@ color: ⚫ Teaching | Tier 2–3 | GOLD: No | Extra rest. Coaching cues. Compreh
 blocks: ♨️ → 🛠 → 🧈 → 🪫 → 🚂 → 🧮
 ---
 
-# ➖ The Mechanics of Hard Effort ➖
+# ➖ Rowing Intervals — Engine Coaching Session ➖
 
 Taught interval structure | Rowing stroke breakdown, 4 × 500m | 55–65 min
 
