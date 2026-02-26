@@ -157,6 +157,23 @@ These are tracked and sequenced but not immediate.
 - Database schema ready for prototyping when Phase 4/5 activates
 - Does not block card generation
 
+### Middle-Math Engine
+- Directory planted: `middle-math/`
+- Weight declarations: Order weights in DRAFT, 5 remaining categories STUB
+- Exercise engine: selection algorithm spec written, family trees DRAFT (major patterns only)
+- User context: ledger, profile, toggle, translation specs written
+- Rotation: engine spec formalized from seed, junction algorithm written, fatigue model DRAFT
+- Rendering: UI and Operis weight derivation at SEED level, progressive disclosure at SEED level
+- Roots: Almanac math primitives preserved and mapped (octave-logic, order-notation, four-layers, almanac-archive)
+- Schemas: 6 database table definitions (exercise library enhanced, families, ledger, profile, toggles, zip weight cache)
+
+Next steps for middle-math:
+1. Complete weight declarations for remaining 5 emoji categories (Axes, Types, Colors, Blocks, Operators)
+2. Populate exercise family trees for all major movement patterns (currently covers 8 most critical families)
+3. Prototype the selection algorithm as executable code (`scripts/middle-math/`)
+4. Build transfer ratio table from exercise science reference data
+5. Prototype weight vector computation for sample zip codes
+
 ---
 
 ## Open Questions
@@ -476,6 +493,26 @@ Output:
   - CLAUDE.md — Work streams updated with 3 new seeds; seeds/ directory listing updated with 3 new descriptions
   - whiteboard.md — updated (this file)
 Next: Continue card generation pipeline (Deck 09 identity or Deck 07 regen queue). Daily and platform seeds do not block generation.
+
+### Session 024
+Date: 2026-02-26
+Work: Middle-Math Architecture — weight system, exercise engine, user context, rendering, Almanac roots
+Source: Claude.ai temp architect session
+Branch: claude/ppl-middle-math-architecture-RqfAa
+Output:
+  - middle-math/ directory created with complete 7-subdirectory structure (42 new files)
+  - middle-math/ARCHITECTURE.md — 7-section system overview
+  - middle-math/weights/ — octave scale spec, Order weight declarations (DRAFT), 5 category stubs, interaction rules
+  - middle-math/exercise-engine/ — selection algorithm (pseudocode), family trees (DRAFT, 8 families), transfer ratios, substitution rules, template spec
+  - middle-math/user-context/ — ledger spec, profile computation, toggle system, cross-context translation
+  - middle-math/rotation/ — engine spec (formalized from seed), junction algorithm, fatigue model (DRAFT)
+  - middle-math/rendering/ — UI weight derivation (SEED), Operis weight derivation (SEED), progressive disclosure (SEED)
+  - middle-math/roots/ — Almanac math primitives: octave logic, order notation, four-layers, almanac archive pointer
+  - middle-math/schemas/ — 6 database schema definitions + README
+  - CLAUDE.md — MIDDLE-MATH LAYER section added, work streams table updated
+  - whiteboard.md — backlog and session log updated
+  - README.md — middle-math/ added to repo structure
+Next: Continue card generation pipeline (Deck 09 identity → Deck 09 generation). Middle-math does not block generation.
 
 ### Session 023
 Date: 2026-02-26
