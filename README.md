@@ -151,6 +151,7 @@ ppl-plus-ultra/
 ├── scl-deep/              — Full uncompressed SCL specifications (source layer)
 ├── seeds/                 — Architectural ideas for future phases (planted, not active)
 ├── html/                  — HTML experience layer scaffold (Phase 4/5)
+├── middle-math/           — Computation engine: weights, exercise selection, user context, rendering
 ├── deck-identities/       — Pre-generation exercise mapping per deck
 ├── deck-cosmograms/       — Deep research identity documents per deck (planned)
 ├── zip-web/               — Navigation graph: fatigue signatures, routing pods

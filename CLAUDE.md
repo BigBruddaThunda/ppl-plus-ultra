@@ -849,6 +849,7 @@ relationship to card generation.
 | PPL± Operis Build-Out | SEED — planted Session 023 | No |
 | Elevator/Floor Model | SEED — planted Session 022 | No |
 | Platform Architecture V2 | SEED — planted Session 022 | No |
+| Middle-Math Engine | PLANTED — architecture seeded Session 024 | No |
 
 **Blocked Queue (waiting on dependencies)**
 
@@ -859,6 +860,29 @@ relationship to card generation.
 | Ralph Loop (41 remaining pod decks) | Deck 07 pod review | Full zip-web navigation |
 | First cosmogram population | Session time (prompt + standard committed) | Deep content layer |
 | Linters CI pipeline | Seed promoted to active + configs written | Merge-to-main policy |
+
+---
+
+## MIDDLE-MATH LAYER
+
+The `middle-math/` directory is the computation engine between the SCL
+specification and the rendered user experience. It contains weight system
+declarations, exercise selection algorithms, user context specifications,
+rotation engine formalization, rendering derivation logic, and the preserved
+math primitives from the Hero's Almanac system.
+
+Status: Architecture planted. Weight declarations in first-draft for Orders.
+Remaining categories (Axes, Types, Colors, Blocks, Operators) are stubbed.
+
+The middle-math layer does not block card generation. It is infrastructure
+for the procedural workout engine that will eventually render workouts
+from templates + user context instead of static card content.
+
+Current card generation (fully-specified workout cards) continues. The
+template-based format is an evolution, not a replacement. Both formats
+will coexist — existing cards remain valid, new cards can use either format.
+
+See `middle-math/ARCHITECTURE.md` for the complete system overview.
 
 ---
 
