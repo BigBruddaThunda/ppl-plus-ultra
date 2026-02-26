@@ -101,7 +101,10 @@ Key architectural decisions planted:
 - **Default Rotation Engine** — 3-gear daily zip system (Order by weekday, Type by rolling 5-day calendar, Axis by monthly operator). The automation clock underneath the entire user experience.
 - **Axis-as-App-Floors** — The 6 Axes serve dual function: in-workout exercise bias AND app-level content spaces (6 floors of the building). The most significant architectural insight since the zip code system.
 - **Macro Almanac** — 12 operators mapped to 12 months with agricultural rationale and annual breath rhythm (4-month inhale → 4-month exhale → 2-month catch-breath → 2-month close).
-- `daily-architecture.md` — The Daily as content type: standing departments (♨️🎯🧈🧩🏖▶️🪫🚂🧮), five input layers (date/historical/cosmogram/forward/publication standard), automation pathway, circulation model, onboarding role. The platform's front page on the 🏛 piano nobile.
+- `daily-architecture.md` — SUPERSEDED by operis-architecture.md (Feb 26, 2026). Historical record: The Daily as content type, standing departments, five input layers, automation pathway.
+- `operis-architecture.md` — PPL± Operis: complete specification. Weekly editorial cadence (7 Orders × Trivium/Quadrivium), 17 standing departments with activation-by-Order matrix, Operis↔Cosmogram feedback loop, construction vehicle pipeline (8–12 zip codes forced per edition). Supersedes daily-architecture.md.
+- `content-types-architecture.md` — 109 content types mapped to 6 Axes with cross-floor appearance rule, 12-operator engagement model, and Order-as-curriculum (Trivium/Quadrivium depth levels).
+- `operis-naming-rationale.md` — "Operis" etymology: Latin genitive ("of the work"). Phonetically approximates "off the press." Associative field: opera, opus, operate. PPL± brand name readings documented.
 - `elevator-architecture.md` — The 4-dial elevator model: Order=building, Axis=floor, Type=wing, Color=room. Piano nobile floor stack (🔨 ground → 🏛 noble → ⌛ 2nd → 🐬 3rd → 🌹 4th → 🪐 5th). Dual axis function. Horizontal (zip web) and vertical (floor stack) navigation.
 - `platform-architecture-v2.md` — Complete platform architecture refactored from Feb 11 "PPL± ITSELF." Business model (Tier 1 $10, Tier 2 $25–30), UX flows (card/deck/room metaphor, onboarding sequence), tech stack (Next.js/Supabase/Vercel/Stripe), zip-code-centric database schema, automation as deterministic pipeline. Supersedes platform-architecture-v1-archive.md.
 
@@ -843,7 +846,7 @@ relationship to card generation.
 | Git-Worktree Pattern | PLANNED — seed planted | No |
 | HTML Experience Layer | Phase 4/5 — scaffold only | No |
 | Codex Agent Infrastructure | BUILT — Session 4 | No |
-| Daily Architecture | SEED — planted Session 022 | No |
+| PPL± Operis Build-Out | SEED — planted Session 023 | No |
 | Elevator/Floor Model | SEED — planted Session 022 | No |
 | Platform Architecture V2 | SEED — planted Session 022 | No |
 

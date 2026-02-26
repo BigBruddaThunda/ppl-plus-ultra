@@ -371,6 +371,8 @@ Every piece of PPL± content belongs to a named department. Each department has 
 
 🔨 The Whiteboard. Scratchpad. 🔵 register. The wire.
 
+♨️ The Operis. Daily publication. The platform's front door and circulation engine. Department architecture borrowed from the 1830s gazette — standing departments fixed, content rotating through them. The Order of the day activates 4–7 departments per edition. The masthead declares the day's address before a word of content appears. The 🏖 Sandbox features 8–12 curated zip codes — each a portal into a room. The Wilson Note is the most human element. ⚫🟢 masthead register. 🔵🟣 historical desk. 🟡🟠 Sandbox. ⚪🟢 Wilson Note.
+
 🤌 facio — EXECUTING THE PRESENTATION LAYER
 
 The Mobile Broadsheet

@@ -1,6 +1,8 @@
 ---
 planted: 2026-02-25
-status: SEED
+status: SUPERSEDED — see seeds/operis-architecture.md
+superseded-by: seeds/operis-architecture.md
+superseded-date: 2026-02-26
 phase-relevance: Phase 4/5 (Design System + HTML), Phase 6 (User Accounts + Almanac)
 blocks: nothing in Phase 2-3
 depends-on: seeds/default-rotation-engine.md, seeds/elevator-architecture.md, scl-deep/publication-standard.md
