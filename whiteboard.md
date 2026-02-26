@@ -140,13 +140,14 @@ These are tracked and sequenced but not immediate.
 - Adopt when parallel branch work becomes frequent enough to justify
 - Currently: one branch at a time is sufficient
 
-### Daily System Build-Out
-- Seed planted: seeds/daily-architecture.md
-- Prototype drafted externally (Feb 25 edition — Genspark session)
+### PPL± Operis Build-Out
+- Seed planted: seeds/operis-architecture.md (supersedes seeds/daily-architecture.md)
+- Architecture complete: weekly editorial cadence, 109 content types, generation pipeline spec
+- Operis-as-generation-pipeline: each edition forces 8–12 zip code card generations
 - Requires: historical events database (365 files, one-time build ~180 hours research)
 - Requires: cosmogram population (provides deep substrate for featured zip descriptions)
 - Requires: HTML experience layer (Phase 4/5)
-- Automation target: fully automated daily generation from deterministic inputs
+- Automation target: fully automated Operis generation from deterministic inputs
 - Does not block card generation
 
 ### Platform Architecture V2
@@ -476,6 +477,24 @@ Output:
   - whiteboard.md — updated (this file)
 Next: Continue card generation pipeline (Deck 09 identity or Deck 07 regen queue). Daily and platform seeds do not block generation.
 
+### Session 023
+Date: 2026-02-26
+Work: PPL± Operis Architecture — naming, weekly cadence, 109 content types, generation pipeline
+Source: Claude.ai temp architect session
+Branch: claude/architecture-blueprint-handoff-k4lBH
+Output:
+  - seeds/operis-architecture.md — Complete Operis specification (supersedes daily-architecture.md). Weekly editorial cadence (7 Orders × Trivium/Quadrivium), 17 standing departments with activation-by-Order matrix, Operis↔Cosmogram feedback loop, construction vehicle pipeline (8–12 zips forced per edition)
+  - seeds/content-types-architecture.md — 109 content types mapped to 6 Axes with cross-floor appearance rule, 12-operator engagement model, Order-as-curriculum (Trivium/Quadrivium depth levels)
+  - seeds/operis-naming-rationale.md — "Operis" etymology and naming decision. Latin genitive ("of the work"), phonetic approximation "off the press," associative field (opera/opus/operate), PPL± brand name readings documented
+  - seeds/daily-architecture.md — frontmatter updated: SUPERSEDED (body unchanged as historical record)
+  - CLAUDE.md — updated: seeds listing (4 new lines), work streams table (Daily Architecture → PPL± Operis Build-Out)
+  - whiteboard.md — updated: backlog section renamed, session log appended, naming note added
+  - scl-deep/publication-standard.md — Operis content type added to tendo section
+  - seeds/elevator-architecture.md — "the Daily" → "the Operis" throughout (8 replacements), frontmatter connects-to updated
+  - seeds/platform-architecture-v2.md — "the Daily" → "the Operis" throughout (14 replacements), frontmatter depends-on updated
+  - operis-editions/ — directory scaffold created with README.md and 2026/02/ path
+Next: Generate first formal Operis edition (prototype). Then continue card generation pipeline (Deck 09 identity → Deck 09 generation).
+
 ---
 
 ## Notes and Fragments
@@ -521,15 +540,19 @@ Parking lot. Ideas without a home yet.
   Nov=✒️grapho, Dec=🦉logos
 
 - The 4-dial elevator model: Order=building, Axis=floor, Type=wing, Color=room.
-  1,680 rooms. One elevator. Four dials. The Daily is the morning's default destination.
+  1,680 rooms. One elevator. Four dials. The Operis is the morning's default destination.
 
 - Piano nobile floor stack (bottom to top on screen, ground to penthouse in building):
   🔨 ground → 🏛 piano nobile → ⌛ 2nd → 🐬 3rd → 🌹 4th → 🪐 5th.
   Scroll direction on phone is inverse of building direction. Progressive disclosure IS the architecture.
 
-- The Daily is the front door the system was missing. Solves cold start,
+- The Operis is the front door the system was missing. Solves cold start,
   solves onboarding, solves room circulation, and is automatable once
   inputs are populated (historical DB + cosmograms + calendar data + pub standard).
+
+- PPL± Operis is the official name for the platform's daily publication. Latin genitive "of
+  the work." Phonetically approximates "off the press." Supersedes the working title "The
+  Daily." Full architecture in seeds/operis-architecture.md. Named Session 023.
 
 - Programs are guided tours through the zip web — sequences of addresses,
   not sequences of workouts. The rooms already exist. The program is the itinerary.

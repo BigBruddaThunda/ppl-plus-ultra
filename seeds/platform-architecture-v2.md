@@ -3,7 +3,7 @@ planted: 2026-02-25
 status: SEED
 phase-relevance: Phase 4/5/6/7
 blocks: nothing in Phase 2-3
-depends-on: seeds/daily-architecture.md, seeds/elevator-architecture.md, seeds/default-rotation-engine.md
+depends-on: seeds/operis-architecture.md, seeds/elevator-architecture.md, seeds/default-rotation-engine.md
 connects-to: seeds/axis-as-app-floors.md, seeds/zip-dial-navigation.md, seeds/almanac-room-bloom.md, seeds/junction-community.md
 supersedes: seeds/platform-architecture-v1-archive.md (February 11, 2026)
 ---
@@ -23,7 +23,7 @@ Register: 🔵🟢 — structured + steady
 
 ### What PPL± Is
 
-PPL± is a 4-dial elevator serving 1,680 rooms across a 7-building campus, with a daily newspaper on the piano nobile, six floors of progressive depth per room, and an automation pipeline that runs the press.
+PPL± is a 4-dial elevator serving 1,680 rooms across a 7-building campus, with the Operis on the piano nobile, six floors of progressive depth per room, and an automation pipeline that runs the press.
 
 The four dials — Order (building), Axis (floor), Type (wing), Color (room) — produce a zip code. The zip code is the product. Each zip code addresses a room containing a workout, a community thread, a personal history layer, an almanac entry, and a deep-context cosmogram. The room exists at an address. The user visits the address. The system tracks the visit. Over time, the room and the user grow richer together.
 
@@ -37,7 +37,7 @@ For Jake: one-on-one training does not scale beyond hourly availability. Remote 
 
 The zip code IS the product. Each of the 1,680 addresses contains a workout that honors all four dials — the Order's load ceiling, the Axis's exercise character, the Type's muscle groups, the Color's equipment and temperament. Users live at addresses. They visit rooms. They build history. The system remembers.
 
-The Daily newspaper delivers users to rooms each morning without requiring them to understand the addressing system. Tap a zip code on the front page. You're inside. The 61 emojis teach themselves through repeated exposure — the same way a gazette's standing departments teach themselves through daily reading.
+The Operis delivers users to rooms each morning without requiring them to understand the addressing system. Tap a zip code on the front page. You're inside. The 61 emojis teach themselves through repeated exposure — the same way a gazette's standing departments teach themselves through daily reading.
 
 Programs are guided tours through the zip web — sequences of addresses, with the rooms already furnished. The program is the itinerary. The rooms are the destination. The card collection (🧮 SAVE) is the user's personal library of favorite rooms.
 
@@ -59,7 +59,7 @@ Dial 4 — COLOR: Which room (8). The equipment tier, the session format, the te
 ### The Floor Stack
 
 🔨 Utilitas — Ground floor. Tools, settings, navigation, zip directory, calculators, account.
-🏛 Firmitas — Piano nobile. The Daily, the workout, the arrival experience.
+🏛 Firmitas — Piano nobile. The Operis, the workout, the arrival experience.
 ⌛ Temporitas — 2nd floor. Calendar, season, training history at this address.
 🐬 Sociatas — 3rd floor. Community threads, shared training, who else is here.
 🌹 Venustas — 4th floor. Personal history, progress, trophies, private notes.
@@ -67,17 +67,17 @@ Dial 4 — COLOR: Which room (8). The equipment tier, the session format, the te
 
 On a phone, scrolling down moves you up through the building. Progressive disclosure IS the architecture.
 
-### The Daily as Front Page
+### The Operis as Front Page
 
-See seeds/daily-architecture.md for the complete specification. Summary:
+See seeds/operis-architecture.md for the complete specification. Summary:
 
-The Daily lives on the 🏛 piano nobile. It is the platform's landing surface — what users see when they open PPL±. It weaves date-specific history, seasonal context, astronomical data, and 8–12 curated zip codes into a front-page experience. Tapping a zip code in the Daily takes the user into that room.
+The Operis lives on the 🏛 piano nobile. It is the platform's landing surface — what users see when they open PPL±. It weaves date-specific history, seasonal context, astronomical data, and 8–12 curated zip codes into a front-page experience. Tapping a zip code in the Operis takes the user into that room.
 
-The Daily solves the cold-start problem (no learning curve), powers the circulation system (rotates which rooms get traffic), and is automatable (four of five input layers are deterministic or static).
+The Operis solves the cold-start problem (no learning curve), powers the circulation system (rotates which rooms get traffic), and is automatable (four of five input layers are deterministic or static).
 
 ### Navigation: Horizontal and Vertical
 
-Horizontal movement: room to room. Via Daily portals, Junction suggestions, zip dial, search. The zip web.
+Horizontal movement: room to room. Via Operis portals, Junction suggestions, zip dial, search. The zip web.
 Vertical movement: floor to floor within a room. Via scrolling, floor selector. The floor stack.
 
 Both axes are always available. Scroll deeper into this room, or navigate to a different room. The architecture supports both.
@@ -92,9 +92,9 @@ Target audience: general fitness users, remote clients, anyone who wants a struc
 
 What they receive:
 
-The Daily — every edition, every day. The full front-page experience with curated zip codes, historical context, seasonal framing, and the Wilson Note.
+PPL± Operis — every edition, every day. The full front-page experience with curated zip codes, historical context, seasonal framing, and the Wilson Note.
 
-All 1,680 rooms — every workout at every address. Browse by dial, by deck, by Daily portal. The full library is open.
+All 1,680 rooms — every workout at every address. Browse by dial, by deck, by Operis portal. The full library is open.
 
 🧮 SAVE collection — build a personal library of favorite rooms. Tag them, name them, annotate them.
 
@@ -188,10 +188,10 @@ After completing all exercises, the summary screen shows the session rating, not
 
 ### Onboarding Sequence
 
-Day 1: land on the Daily. Read the front page. Tap a zip code. Do the workout. The system taught itself.
+Day 1: land on the Operis. Read the front page. Tap a zip code. Do the workout. The system taught itself.
 Day 5: discover floors. Scroll past the workout. See the time context (⌛), the community (🐬). Realize the room has depth.
 Day 15: follow Junctions. The 🚂 at the end of a workout suggests three next rooms. Tap one. Start navigating the zip web horizontally.
-Day 30: use the dial. Spin the elevator dials directly. Override the Daily's defaults. Navigate the building independently.
+Day 30: use the dial. Spin the elevator dials directly. Override the Operis's defaults. Navigate the building independently.
 
 The onboarding curve: newspaper reader → room visitor → building explorer → self-directed navigator. No tutorial required. The architecture teaches through use.
 
@@ -249,7 +249,7 @@ The `workouts` table uses `zip_code` as the primary identity column, not just em
 
 The `program_sequence` table (replacing `program_workouts`) stores zip codes instead of workout IDs. Programs are address sequences. The rooms contain the content.
 
-The `daily_editions` table is new — archives every Daily edition with its featured zip codes, enabling browsable history.
+The `daily_editions` table is new — archives every Operis edition with its featured zip codes, enabling browsable history.
 
 The `zip_visits` table is new — tracks which rooms users have visited, powering the residency concept and Room Bloom.
 
@@ -261,7 +261,7 @@ Authentication via Supabase Auth (email/password signup, session management).
 
 Core query patterns:
 
-Fetch today's Daily: query `daily_editions` by date. If no pre-generated edition exists, the rotation engine derives the default zip and the system generates on the fly.
+Fetch today's Operis edition: query `daily_editions` by date. If no pre-generated edition exists, the rotation engine derives the default zip and the system generates on the fly.
 
 Fetch a room: query `workouts` by `zip_code`. Single room at a known address.
 
@@ -305,7 +305,7 @@ The card generation pipeline. Scripts (validate-card.py, audit-exercise-coverage
 
 Card content — the workout itself. Exercise selection within the validated library, set/rep/load prescription within Order ceilings, cue writing within tonal rules, block sequencing within Order guidelines. The AI generates; the pipeline validates; Jake approves.
 
-Daily edition assembly — weaving historical events, seasonal context, and featured zips into the front-page format. The inputs are pre-built (historical DB, cosmograms, calendar data). The assembly requires editorial judgment — which events to feature, which zips to highlight, how to frame the Wilson Note.
+Operis edition assembly — weaving historical events, seasonal context, and featured zips into the front-page format. The inputs are pre-built (historical DB, cosmograms, calendar data). The assembly requires editorial judgment — which events to feature, which zips to highlight, how to frame the Wilson Note.
 
 Program design — selecting which zip code sequence serves a user's goals. Requires coaching judgment. AI can suggest; Jake approves or modifies.
 
@@ -323,19 +323,19 @@ Tier 2 coaching — personal feedback, goal adjustment, DM responses. AI can dra
 
 Phase 1–2 (manual): Jake writes daily content, manages Tier 2 clients, moderates forum. ~7–17 hours/week.
 
-Phase 3 (assisted): AI generates daily editions and program suggestions. Jake reviews and approves. Tier 2 management time drops as AI drafts client communications. ~14 hours/week at 500 users.
+Phase 3 (assisted): AI generates Operis editions and program suggestions. Jake reviews and approves. Tier 2 management time drops as AI drafts client communications. ~14 hours/week at 500 users.
 
-Phase 4 (automated): The system runs the press. The Daily publishes from its five input layers. Cards generate from the pipeline. Programs suggest from logged user history. Jake reviews architecture, approves new content types, writes occasional Wilson Notes, and handles escalated Tier 2 coaching. ~5 hours/week at 500 users.
+Phase 4 (automated): The system runs the press. The Operis publishes from its five input layers. Cards generate from the pipeline. Programs suggest from logged user history. Jake reviews architecture, approves new content types, writes occasional Wilson Notes, and handles escalated Tier 2 coaching. ~5 hours/week at 500 users.
 
 The shift: from "approve AI-generated workouts" to "approve the architecture that generates them."
 
 ### Phase Timeline
 
-Phase 1 (Months 1–3): Manual operation. Jake writes daily editions, assigns programs, moderates forum. 50 Tier 1 + 10 Tier 2 users.
+Phase 1 (Months 1–3): Manual operation. Jake writes Operis editions, assigns programs, moderates forum. 50 Tier 1 + 10 Tier 2 users.
 
-Phase 2 (Months 4–9): AI assists. Daily editions generated from populated input layers, Jake reviews before publishing. Program suggestions from logged patterns. Forum Q&A drafted by AI, moderated by Jake. 200 Tier 1 + 30 Tier 2 users.
+Phase 2 (Months 4–9): AI assists. Operis editions generated from populated input layers, Jake reviews before publishing. Program suggestions from logged patterns. Forum Q&A drafted by AI, moderated by Jake. 200 Tier 1 + 30 Tier 2 users.
 
-Phase 3 (Year 2): Semi-automated. Daily editions auto-publish with Jake's weekly review. Programs auto-suggest with Jake's approval. Smart exercise substitutions for equipment constraints. 500 Tier 1 + 50 Tier 2 users.
+Phase 3 (Year 2): Semi-automated. Operis editions auto-publish with Jake's weekly review. Programs auto-suggest with Jake's approval. Smart exercise substitutions for equipment constraints. 500 Tier 1 + 50 Tier 2 users.
 
 Phase 4 (Year 2+): Full automation with oversight. The system publishes daily, generates programs, moderates community, and tracks progress. Jake reviews architecture weekly, handles Tier 2 escalations, writes long-form content. 500+ users with stable time commitment.
 
@@ -369,11 +369,11 @@ The reader informs the opinion: PPL± content presents information. The reader e
 
 The HTML experience layer design (Phase 4/5) now has a spatial model to build from — the floor stack, the elevator, the piano nobile, the progressive-disclosure scroll architecture.
 
-The Daily system has a named place in the platform — the 🏛 piano nobile, with standing departments, a block convention, and an automation pathway.
+The Operis has a named place in the platform — the 🏛 piano nobile, with standing departments, a block convention, and an automation pathway.
 
-The database schema can be prototyped — zip-code-centric tables, daily editions archive, room visit tracking, per-zip-code community threads, programs as address sequences.
+The database schema can be prototyped — zip-code-centric tables, Operis editions archive, room visit tracking, per-zip-code community threads, programs as address sequences.
 
-The automation pipeline has a clear dependency chain — rotation engine (math) → exercise library (pool) → SCL rules (constraints) → generation pipeline (tools) → Daily input layers (content) → publication standard (voice).
+The automation pipeline has a clear dependency chain — rotation engine (math) → exercise library (pool) → SCL rules (constraints) → generation pipeline (tools) → Operis input layers (content) → publication standard (voice).
 
 The Feb 11 "PPL± ITSELF" document is archived at seeds/platform-architecture-v1-archive.md. This document replaces it.
 
