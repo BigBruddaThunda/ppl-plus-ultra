@@ -136,9 +136,16 @@ These are tracked and sequenced but not immediate.
 - Priority candidates: Deck 07 (⛽🏛, cards exist), Deck 01 (🐂🏛, system origin), Deck 05 (🐂⌛, history seed drafted)
 
 ### SCL-Deep Expansion
-- scl-deep/ has 3 imported specs + stubs for blocks, operators, types
-- emoji-macros.md is drafted, needs committing
-- Block specifications, operator specifications, type specifications still stubs
+- scl-deep/ has full reference layer now populated
+- emoji-macros.md ✅ committed Session 026 — cultural/historical macro meanings for all 61 emojis
+- order-specifications.md ✅ committed Session 026 — deep spec for all 7 Orders (parameters, character, block sequences, interaction matrices, common errors)
+- block-specifications.md ✅ committed Session 026 — deep spec for all 22 blocks + SAVE (context-dependence matrices, content rules)
+- operator-specifications.md ✅ committed (previous session) — Latin etymology, operator logic
+- color-specifications.md ✅ committed (previous session) — equipment tiers, format rules
+- type-specifications.md ✅ committed (previous session) — muscle groups, movement patterns
+- axis-specifications.md — existing file (v1, imported from scl-deep source layer)
+- color-context-vernacular.md — existing file (v1, imported from scl-deep source layer)
+- order-parameters.md — existing file (v1, imported from scl-deep source layer)
 - These are reference docs — they deepen understanding but don't block generation
 
 ### Git-Worktree Adoption
@@ -547,6 +554,17 @@ Output:
   - seeds/platform-architecture-v2.md — "the Daily" → "the Operis" throughout (14 replacements), frontmatter depends-on updated
   - operis-editions/ — directory scaffold created with README.md and 2026/02/ path
 Next: Generate first formal Operis edition (prototype). Then continue card generation pipeline (Deck 09 identity → Deck 09 generation).
+
+### Session 026
+Date: 2026-02-27
+Work: scl-deep System Doc Population — order, block, emoji macro deep references
+Branch: claude/system-doc-population-KkS48
+Output:
+  - scl-deep/order-specifications.md — Deep spec for all 7 Orders. Full character descriptions, what each Order is NOT, block sequences with rationale, exercise selection filters, Order×Axis and Order×Color interaction matrices, common generation errors, progressive overload structures, absolute ceiling reference table, block exclusion matrix, difficulty scale
+  - scl-deep/block-specifications.md — Deep spec for all 22 blocks + SAVE. Each block: role, always-present status, content rules (what goes in / never goes in), context-dependence matrix (how content shifts by Order × Color), set/rep patterns, activation conditions
+  - scl-deep/emoji-macros.md — Cultural, historical, symbolic macro meanings for all 61 SCL emojis. Covers all 7 categories. Each entry: cultural macro, cross-domain resonance, SCL resonance. Tier 0 reference for cosmogram research and design system.
+Note: Agents timed out on these tasks (3×); all 3 files written directly.
+Next: Card generation pipeline — Deck 09 identity → Deck 09 generation.
 
 ### Session 025
 Date: 2026-02-26
