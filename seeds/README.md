@@ -28,6 +28,16 @@ Seeds live here rather than in whiteboard.md because they have cleared the ideat
 | elevator-architecture.md | 4-dial elevator, piano nobile floor stack, dual axis function, navigation model | 2026-02-25 | SEED |
 | platform-architecture-v2.md | Complete platform architecture V2 — business model, UX, tech, database, automation | 2026-02-25 | SEED |
 | platform-architecture-v1-archive.md | Archived Feb 11 "PPL± ITSELF" document — historical reference | 2026-02-25 | ARCHIVED |
+| numeric-zip-system.md | 4-digit numeric addressing: Order 1-7, Axis 1-6, Type 1-5, Color 1-8 | 2026-02-26 | SEED |
+| experience-layer-blueprint.md | Master technical architecture — tech stack, routing, rendering, weight→CSS | 2026-02-26 | SEED |
+| data-ethics-architecture.md | No tracking, full export, full deletion — architecture as ethics | 2026-02-26 | SEED |
+| mobile-ui-architecture.md | 4-dial Price-is-Right navigation, 🔨 tool drawer, pinch-zoom canvas | 2026-02-26 | SEED |
+| stripe-integration-pipeline.md | Tier 1 $10 + Tier 2 $25, Stripe Checkout + Portal + Webhooks | 2026-02-26 | SEED |
+| claude-code-build-sequence.md | 20 scoped sessions from skeleton to production + automotive | 2026-02-26 | SEED |
+| automotive-layer-architecture.md | Android Auto / CarPlay — Operis audio, voice nav, playlists, free-tier funnel | 2026-02-26 | SEED |
+| voice-parser-architecture.md | Universal building navigation — any speech → zip + floor + content type, no AI model | 2026-02-26 | SEED |
+| wilson-voice-identity.md | Wilson: the PPL± voice — TTS identity, floor-specific register, SSML formatting | 2026-02-26 | SEED |
+| regional-filter-architecture.md | Opt-in region setting — seasonal content, almanac, no GPS/no tracking | 2026-02-26 | SEED |
 
 ---
 
@@ -45,9 +55,9 @@ Seeds live here rather than in whiteboard.md because they have cleared the ideat
 |-------|----------------|--------------------------|
 | 2–3 | Workout card generation | (none — all seeds are later phases) |
 | 3+ | Validation layer | exercise-attribute-tagging.md |
-| 4 | Design system + HTML scaffold | axis-as-app-floors.md, color-context-vernacular.md, art-direction.md, superposed-order-ui.md |
-| 5 | Interactive HTML cards | axis-as-app-floors.md, zip-dial-navigation.md, exercise-superscript.md, superposed-order-ui.md, almanac-room-bloom.md |
-| 6 | User accounts + Almanac | default-rotation-engine.md, almanac-macro-operators.md, junction-community.md, almanac-room-bloom.md |
-| 7+ | Community + social layer | axis-as-app-floors.md (Sociatas floor), junction-community.md |
+| 4 | Design system + HTML scaffold | axis-as-app-floors.md, color-context-vernacular.md, art-direction.md, superposed-order-ui.md, **experience-layer-blueprint.md**, **numeric-zip-system.md**, **mobile-ui-architecture.md** |
+| 5 | Interactive HTML cards | axis-as-app-floors.md, zip-dial-navigation.md, exercise-superscript.md, superposed-order-ui.md, almanac-room-bloom.md, **experience-layer-blueprint.md**, **mobile-ui-architecture.md**, **voice-parser-architecture.md** |
+| 6 | User accounts + Almanac | default-rotation-engine.md, almanac-macro-operators.md, junction-community.md, almanac-room-bloom.md, **stripe-integration-pipeline.md**, **data-ethics-architecture.md**, **claude-code-build-sequence.md**, **regional-filter-architecture.md** |
+| 7+ | Launch + Automotive | axis-as-app-floors.md (Sociatas floor), junction-community.md, **automotive-layer-architecture.md**, **wilson-voice-identity.md** |
 
 🧮

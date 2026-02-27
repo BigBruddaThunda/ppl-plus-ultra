@@ -901,4 +901,58 @@ the design intent — why each emoji was chosen for its role.
 
 ---
 
+## NUMERIC ZIP NOTATION
+
+Every SCL emoji has a numeric position on its dial. The 4-digit numeric zip code is the system-layer addressing key for URLs, databases, APIs, and every context where emojis cannot operate.
+
+```
+ORDER: 🐂=1  ⛽=2  🦋=3  🏟=4  🌾=5  ⚖=6  🖼=7
+AXIS:  🏛=1  🔨=2  🌹=3  🪐=4  ⌛=5  🐬=6
+TYPE:  🛒=1  🪡=2  🍗=3  ➕=4  ➖=5
+COLOR: ⚫=1  🟢=2  🔵=3  🟣=4  🔴=5  🟠=6  🟡=7  ⚪=8
+```
+
+Example: ⛽🏛🪡🔵 = 2123. URL: /zip/2123. Database key: '2123'.
+
+The emoji is the display layer. The number is the system layer. Both always present. Conversion is a single array lookup. See `seeds/numeric-zip-system.md`.
+
+Deck derivation: `deck = (order - 1) * 6 + axis`. Zip 2123 → Deck 7. Zip 2223 → Deck 8.
+
+---
+
+## EXPERIENCE LAYER ARCHITECTURE
+
+The experience layer is specified in seed documents planted February 26, 2026. These define the complete technical architecture for rendering .md cards as interactive room experiences, handling user accounts, processing payments, and delivering the mobile UI.
+
+**Core documents:**
+- `seeds/experience-layer-blueprint.md` — Master technical architecture (tech stack, routing, rendering, weight→CSS)
+- `seeds/numeric-zip-system.md` — 4-digit numeric addressing standard
+- `seeds/mobile-ui-architecture.md` — 4-dial UI, tool drawer, pinch-zoom canvas, 4 interaction states
+- `seeds/data-ethics-architecture.md` — Data collection, privacy, export, deletion
+- `seeds/stripe-integration-pipeline.md` — Subscription products, checkout, webhooks, RLS gating
+- `seeds/claude-code-build-sequence.md` — 20-session build plan (Sessions A-N launch + V-Z automotive)
+
+**Voice and audio layer:**
+- `seeds/voice-parser-architecture.md` — Universal building navigation: natural language to zip + floor + content type. 3-layer keyword scoring. ~13,000 entries. No AI model. Handles workouts, info queries, personal data, almanac, education, community, multi-intent.
+- `seeds/wilson-voice-identity.md` — Wilson: the PPL± voice. TTS identity, floor-specific register, response patterns. Not a chatbot.
+- `seeds/automotive-layer-architecture.md` — Android Auto / CarPlay. Operis read aloud, voice zip nav, playlists, free-tier audio funnel.
+- `seeds/regional-filter-architecture.md` — Opt-in region, seasonal content, no GPS/no tracking.
+
+**Schema:**
+- `middle-math/schemas/zip-metadata-schema.md` — Revised zip_metadata table with CHAR(4) numeric primary key
+
+These documents do not block Phase 2-3 card generation. They become active when Phase 4 begins.
+
+---
+
+## DATA ETHICS POSITION
+
+PPL± collects only what the user explicitly provides through their own action. No analytics fingerprinting. No third-party tracking. No selling data. Full data export on request. Full data deletion on command. The business model is subscriptions — the user is the customer, not the product.
+
+This is a technical architecture decision, not a political statement. PPL± is not affiliated with any party or faction. Jake Berry, the creator, is not PPL± itself. The system's position on data matches the character of the system.
+
+See `seeds/data-ethics-architecture.md` for the complete specification.
+
+---
+
 🧮

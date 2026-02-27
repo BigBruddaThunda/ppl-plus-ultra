@@ -96,6 +96,12 @@ session. Priority candidates: Deck 07 (⛽🏛, cards exist), Deck 01
 Depends on: Genspark session with web access.
 Unblocks: Deep content layer for card generation context.
 
+**4. Execute Experience Layer Session A — Next.js Skeleton + Zip Routing**
+Why: Blueprint planted. Session A initializes the project and proves the numeric zip routing works.
+Depends on: Seeds planted Session 025 (all present).
+Unblocks: All subsequent build sessions (B through N).
+Does not block: Card generation. Can interleave.
+
 ---
 
 ## Backlog — Queued Work Streams
@@ -165,7 +171,7 @@ These are tracked and sequenced but not immediate.
 - Rotation: engine spec formalized from seed, junction algorithm written, fatigue model DRAFT
 - Rendering: UI and Operis weight derivation at SEED level, progressive disclosure at SEED level
 - Roots: Almanac math primitives preserved and mapped (octave-logic, order-notation, four-layers, almanac-archive)
-- Schemas: 6 database table definitions (exercise library enhanced, families, ledger, profile, toggles, zip weight cache)
+- Schemas: 7 database table definitions (exercise library enhanced, families, ledger, profile, toggles, zip weight cache, zip metadata)
 
 Next steps for middle-math:
 1. Complete weight declarations for remaining 5 emoji categories (Axes, Types, Colors, Blocks, Operators)
@@ -173,6 +179,16 @@ Next steps for middle-math:
 3. Prototype the selection algorithm as executable code (`scripts/middle-math/`)
 4. Build transfer ratio table from exercise science reference data
 5. Prototype weight vector computation for sample zip codes
+
+### Experience Layer Build-Out
+- 20 Claude Code sessions: `seeds/claude-code-build-sequence.md`
+- Sessions A-C2: skeleton, rendering, navigation, voice parser (Phase 4/5)
+- Sessions D-H: auth, profiles, Stripe, logging, saved rooms (Phase 6)
+- Sessions I-L: Operis, floors, zoom, community (Phase 5/6)
+- Sessions M-N: data export/deletion, production deployment (Phase 7)
+- Sessions V-Z: TTS, audio API, playlists, Android Auto, CarPlay (Phase 7+)
+- Each session: scoped, testable, produces working increment
+- Can interleave with card generation
 
 ---
 
@@ -531,6 +547,45 @@ Output:
   - seeds/platform-architecture-v2.md — "the Daily" → "the Operis" throughout (14 replacements), frontmatter depends-on updated
   - operis-editions/ — directory scaffold created with README.md and 2026/02/ path
 Next: Generate first formal Operis edition (prototype). Then continue card generation pipeline (Deck 09 identity → Deck 09 generation).
+
+### Session 025
+Date: 2026-02-26
+Work: Experience Layer Blueprint — complete architecture package for Phase 4-7
+Source: Claude.ai temp architect session
+Branch: claude/ppl-experience-layer-LeA4R
+Output:
+  - seeds/numeric-zip-system.md — 4-digit addressing: Order 1-7, Axis 1-6, Type 1-5, Color 1-8. URL /zip/2123. DB key CHAR(4).
+  - seeds/experience-layer-blueprint.md — Master tech architecture. Next.js 14 + Supabase + Stripe + Tailwind + Zustand + Framer Motion. Routing, rendering pipeline, weight→CSS.
+  - seeds/data-ethics-architecture.md — No tracking, no analytics SDKs, no third-party cookies. Full export. Full deletion. RLS as ethical infrastructure. Architecture IS the ethics.
+  - seeds/mobile-ui-architecture.md — 4 interaction states (Immersed → Dial Active → Drawer Open → Full Tool Floor). Price-is-Right dial metaphor. 🔨 tool drawer. Pinch-zoom canvas.
+  - seeds/stripe-integration-pipeline.md — Tier 1 Library Card $10/mo. Tier 2 Residency $25-30/mo. Checkout, webhooks, portal, RLS gating.
+  - seeds/claude-code-build-sequence.md — 15 launch sessions (A through N + C-2 voice parser) + 5 post-launch (V-Z automotive). Each scoped and testable.
+  - seeds/automotive-layer-architecture.md — Car as sixth screen. Operis read aloud. Voice zip navigation. Playlist mood system (56 Order×Color profiles). Free-tier audio funnel. TTS pipeline. Android Auto + CarPlay. Build sessions V-Z.
+  - seeds/voice-parser-architecture.md — Universal building navigation. Not just workouts — handles exercise info, personal progress, community, almanac, education, playlists, multi-intent. 3-layer scoring (zip + floor + content type). ~13,000 keyword entries. No AI model. Runs client-side in milliseconds.
+  - seeds/wilson-voice-identity.md — Wilson: PPL± voice identity. Not a chatbot. Voice of the building. TTS from publication standard. SSML formatting. Register shifts by floor. Response patterns for all content types.
+  - seeds/regional-filter-architecture.md — Opt-in manual region (no GPS, no tracking). Seasonal content, almanac, Operis framing tuned to geography. ~540 authored sentences for 15 sub-regions × 12 months. Include in Tier 1.
+  - middle-math/schemas/zip-metadata-schema.md — CHAR(4) numeric primary key. Population script (1,680 rows via cross-join). Indexed dial positions. All tables reference via CHAR(4) foreign keys.
+  - CLAUDE.md — Numeric zip notation, experience layer references, data ethics position
+  - whiteboard.md — This session log, queue update, backlog
+  - README.md — Phase table update, repo structure
+  - seeds/README.md — 10 new seeds registered
+  - html/README.md — Updated with numeric routing, expanded components, voice parser, car layer
+  - middle-math/ARCHITECTURE.md — Section 8: Numeric Zip Layer
+  - middle-math/schemas/README.md — zip-metadata-schema.md registered
+
+Key decisions:
+  - Numeric zip: every emoji = a dial position number. ⛽🏛🪡🔵 = 2123. URLs, DB keys, weight indices all numeric. Emoji is display only.
+  - Data ethics: no tracking, no analytics, full export, full deletion. Architecture IS the ethics. Not a party statement.
+  - Mobile UI: 4 states, Price-is-Right dials, 🔨 drawer, pinch-zoom canvas. Phone-first.
+  - Voice parser: universal building navigation. Any speech → zip + floor + content type. No AI model. 13k keywords. Client-side milliseconds.
+  - Wilson: the voice of the building. Not a chatbot. Publication standard as TTS. Floor-specific register.
+  - Car layer: free-tier Operis audio, voice navigation, playlists. Conversion through familiarity.
+  - Regional filter: user picks region manually. No GPS. Seasonal + almanac content adjusts.
+  - Stripe: 2 products, RLS enforces tiers, Customer Portal for self-service.
+  - Build sequence: 20 sessions total. 15 to launch, 5 post-launch for car/audio.
+  - Free tier evolves: Operis web + Operis audio + zip previews + playlists + almanac (car). Tier 1 = interactive rooms. Tier 2 = coaching.
+
+Next: Execute Session A (Claude Code) — Next.js skeleton + zip routing. Or continue Deck 09 identity → generation. Experience layer does not block card generation.
 
 ---
 

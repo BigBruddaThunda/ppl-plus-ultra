@@ -92,6 +92,20 @@ See `roots/` for the preserved primitives and the translation document.
 
 ---
 
+## Section 8 — The Numeric Zip Layer
+
+Every PPL± emoji has a numeric position on its dial: Order 1-7, Axis 1-6, Type 1-5, Color 1-8. The 4-digit numeric zip code (e.g., `2123` for `⛽🏛🪡🔵`) is the system-layer addressing key used in URLs, database primary keys, API parameters, weight vector indices, and every context where emojis cannot operate.
+
+The emoji is the display layer. The number is the computation layer. Conversion between them is a single array lookup in either direction. The numeric positions ARE the array indices for weight vector computation: `vector[order - 1] = 8` sets the Order primary weight; `vector[6 + axis] = 8` sets the Axis primary weight; and so on through all four dials.
+
+The deck number is derived arithmetically: `deck = (order - 1) * 6 + axis`. Zip 2123 → Deck 7. Zip 7658 → Deck 42.
+
+The zip_metadata table uses `CHAR(4)` as its primary key, with individual dial positions decomposed into indexed `SMALLINT` columns for filtered queries. All referencing tables (workout_logs, saved_workouts, zip_visits, room_threads, program_sequence) use `CHAR(4)` foreign keys. Referential integrity is enforced at the database level — a zip code that doesn't exist in zip_metadata cannot be referenced anywhere in the system.
+
+See `seeds/numeric-zip-system.md` for the full notation standard. See `middle-math/schemas/zip-metadata-schema.md` for the table definition and population script.
+
+---
+
 ## Relationship to Card Generation
 
 Card generation (Phase 2) continues independently. Middle-math does not block it. The 1,600 remaining cards generate as fully-specified workout cards, named exercises and all. Middle-math's template format is an evolution of that system, not a replacement. When the procedural engine is built, fully-specified cards remain valid alongside template-format cards. The engine handles both.
