@@ -150,6 +150,16 @@ ppl-plus-ultra/
 │
 ├── scl-deep/              — Full uncompressed SCL specifications (source layer)
 ├── seeds/                 — Architectural ideas for future phases (planted, not active)
+│   ├── experience-layer-blueprint.md   — Master technical architecture for Phases 4-7
+│   ├── numeric-zip-system.md           — 4-digit numeric addressing standard
+│   ├── data-ethics-architecture.md     — Data collection, privacy, export, deletion
+│   ├── mobile-ui-architecture.md       — 4-dial UI, tool drawer, pinch-zoom canvas
+│   ├── stripe-integration-pipeline.md  — Subscription products, checkout, webhooks
+│   ├── claude-code-build-sequence.md   — 20-session build plan (A-N + V-Z)
+│   ├── automotive-layer-architecture.md — Android Auto / CarPlay audio layer
+│   ├── voice-parser-architecture.md    — Universal natural language building navigation
+│   ├── wilson-voice-identity.md        — Wilson: the PPL± voice identity
+│   └── regional-filter-architecture.md — Opt-in regional content filter
 ├── html/                  — HTML experience layer scaffold (Phase 4/5)
 ├── middle-math/           — Computation engine: weights, exercise selection, user context, rendering
 ├── deck-identities/       — Pre-generation exercise mapping per deck
@@ -267,12 +277,12 @@ different histories.
 |-------|-------------|--------|
 | 1 | Repository scaffolding and root documents | **Complete** |
 | 2 | Workout generation — all 1,680 cards | **In Progress** — 80/1,680 (Decks 07, 08) |
-| 2.5 | Architecture expansion (cosmograms, linters, zip-web) | **Framed** — directories planted, seeds written |
+| 2.5 | Architecture expansion (cosmograms, linters, zip-web, middle-math) | **Framed** |
 | 3 | Validation and review | Pending |
-| 4 | Design standards and UI system | Pending |
-| 5 | HTML rendering layer | Pending |
-| 6 | User account and logging system | Pending |
-| 7 | Launch | Pending |
+| 4 | Design standards and UI system | **Blueprinted** — 11 architecture documents planted |
+| 5 | HTML rendering layer | **Blueprinted** — 20-session build sequence specified |
+| 6 | User account and logging system | **Blueprinted** — Supabase + Stripe pipeline specified |
+| 7 | Launch | **Blueprinted** — Session N deployment spec written |
 
 ---
 

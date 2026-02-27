@@ -12,6 +12,7 @@ These schemas define the data structures that make the weight system, exercise e
 - `user-profile-schema.md` — user_exercise_profile computed view (derived stats)
 - `user-toggles-schema.md` — user_exercise_toggles table
 - `zip-weight-cache-schema.md` — Optional pre-computed weight vector table (OPTIONAL)
+- `zip-metadata-schema.md` — Master room registry: CHAR(4) numeric primary key, dial position columns, CHECK constraints, indexes, 1,680-row population script, foreign key pattern for all referencing tables
 
 ## Technology Stack Note
 

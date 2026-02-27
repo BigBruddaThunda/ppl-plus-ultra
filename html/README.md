@@ -1,66 +1,63 @@
 # HTML Experience Layer
 
-This directory will contain the rendered experience layer for PPL± workouts.
+This directory will contain the PPL± interactive experience layer built with Next.js.
 
-**Status: Phase 4/5 — Scaffold Only**
+**Status: Phase 4/5 — Blueprinted, Not Built**
 
-No functional HTML exists yet. This is the directory skeleton establishing architecture for the design system, component library, and floor-based navigation.
+No functional code exists yet. Complete technical architecture specified in `seeds/experience-layer-blueprint.md`. 20-session build plan in `seeds/claude-code-build-sequence.md`.
 
-## Architecture
+## Routing — Numeric Zip System
 
-### design-system/
-CSS design tokens and theme files organized by SCL category.
+Every room URL uses the 4-digit numeric zip code: `/zip/2123` → ⛽🏛🪡🔵. The emoji is display. The number is the URL. See `seeds/numeric-zip-system.md`.
 
-- **tokens/** — Core design tokens: colors (8 SCL colors with tonal + operational names), typography, spacing, elevation
-- **orders/** — 7 CSS files, one per Order, controlling visual weight and ornament level (Tuscan = plain, Corinthian = ornate)
-- **axes/** — 6 CSS files, one per Axis, controlling exercise character accents AND floor-level visual environment
-- **types/** — 5 CSS files, one per Type, controlling muscle group visual identity
-- **blocks/** — Block emoji visual identities for the 22 session containers
-- **operators/** — 12 operator glyph accent styles
-- **theme.css** — Master composition pulling everything together
+Floor-level routes for non-room content: `/tools`, `/almanac`, `/learn`, `/community`. See `seeds/voice-parser-architecture.md` for the routing architecture.
 
-### floors/
-App-level content spaces based on the 6-Axis dual-layer architecture (see seeds/axis-as-app-floors.md).
+## Tech Stack
 
-- **firmitas/** — Front page, navigation hub, system map (the lobby)
-- **utilitas/** — Tools, calculators, settings, utility (the workshop)
-- **venustas/** — Personal library, trophy case, private space (your room)
-- **gravitas/** — Challenge board, benchmarks, competition (the arena)
-- **temporitas/** — Almanac, calendar, seasonal content (the sundial)
-- **sociatas/** — Community, social layer, discussion (the agora)
+Next.js 14 (App Router) + TypeScript + Tailwind CSS + Supabase + Stripe + Zustand + Framer Motion. Full spec: `seeds/experience-layer-blueprint.md`.
 
-### components/
-Reusable HTML component templates.
+## Mobile UI — 4 Interaction States
 
-- **card-shell.html** — Full-screen mobile card container (the building)
-- **block-column.html** — Superposed block with bottom-up expansion
-- **exercise-row.html** — Single exercise with ± superscript/subscript boxes
-- **zip-header.html** — Zip code display + title + operator (the pediment)
-- **junction-footer.html** — 🚂 bridge + 🧮 SAVE (the foundation)
-- **toolbar-right.html** — Right-thumb structural controls (expand/collapse)
-- **log-rail-left.html** — Left-thumb logging/checking (sets, weights)
-- **abacus-nav.html** — 4-dial combination lock navigator
+1. **Immersed** — Full-screen room, floating 🏠 button
+2. **Dial Active** — 4-dial Price-is-Right lock from bottom
+3. **Drawer Open** — 🔨 tool drawer with timers, nav, settings
+4. **Full Tool Floor** — Axis dial on 🔨 + drawer open → full settings
 
-### assets/
-Static assets: fonts, SVG icons from SCL emojis, textures (trace paper, watercolor, grid).
+Full spec: `seeds/mobile-ui-architecture.md`.
 
-## Design Philosophy
+## Voice Navigation
 
-See `seeds/art-direction.md` for the full aesthetic thesis.
-See `seeds/superposed-order-ui.md` for the bottom-up interaction model.
-See `seeds/exercise-superscript.md` for the ± row system.
-See `seeds/axis-as-app-floors.md` for the 6-floor navigation architecture.
+Universal natural language parser: any speech → zip + floor + content type. Handles workouts, info queries, personal data, almanac, education, community, playlists. ~13,000 keywords, no AI model, client-side milliseconds. Wilson is the voice identity. Full spec: `seeds/voice-parser-architecture.md`, `seeds/wilson-voice-identity.md`.
+
+## Automotive Layer
+
+Android Auto + Apple CarPlay: Operis read aloud, voice zip navigation, curated playlists, free-tier audio funnel. Full spec: `seeds/automotive-layer-architecture.md`.
+
+## design-system/
+
+CSS design tokens by SCL category: 8 Color palettes, 7 Order densities, 6 Axis typographies, 5 Type identities, 22 Block visual identities, 12 Operator styles.
+
+## floors/
+
+6 app-level content spaces: firmitas (🏛 arrival), utilitas (🔨 tools), venustas (🌹 personal), gravitas (🪐 deep), temporitas (⌛ calendar), sociatas (🐬 community).
+
+## components/
+
+ZipDial, DialPanel, HomeButton, ToolDrawer, ZoomCanvas, WorkoutBlock, RoomView, ExerciseLogger, PaywallGate, OperisEdition, ZipPortal, FloorSelector, RandomGenerator, SessionSummary, ThreadList, VoiceInput, ParseResults.
+
+## assets/
+
+Fonts, SVG icons from SCL emojis, textures.
+
+## Build Sequence
+
+20 sessions in `seeds/claude-code-build-sequence.md`: A (skeleton) → B (rendering) → C (dials) → C-2 (voice parser) → D (auth) → E (onboarding) → F (Stripe) → G (logging) → H (saved rooms) → I (Operis) → J (floors) → K (zoom) → L (community) → M (data export) → N (deploy) → V-Z (automotive).
 
 ## Rendering Pipeline
 
 ```
-.md card (master blueprint in cards/)
-    ↓
-HTML workout card (rendered here)
-    ↓
-User interactive session (log, check, track)
-    ↓
-User history written back to account
-    ↓
-Personal exercise database grows with use
+.md card → MDX → Frontmatter → zip_metadata
+→ Block decomposition → Weight vector → CSS tokens
+→ React components → Interactive overlay → User context
+→ Rendered room
 ```
