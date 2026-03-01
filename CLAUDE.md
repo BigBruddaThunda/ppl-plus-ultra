@@ -89,6 +89,7 @@ Contents:
 - `color-context-vernacular.md` — 8 Colors as tonal communication system (beyond equipment/format). Imported from v1.0, needs vocabulary update from 25 to 61 emoji system.
 - `order-parameters.md` — Full periodization science, exercise attributes, conflict rules, volume landmarks, pairing matrices, micro-periodization, contraindication logic. Imported from v2.0, needs vocabulary update.
 - `axis-specifications.md` — Dual-layer Axis framework: Layer 1 (in-workout exercise character) + Layer 2 (app-level content floors). Working draft.
+- `vocabulary-standard.md` — Language standard. Banned/approved word lists. ExRx factual register. Operator verb preference. Companion to publication-standard.md.
 - Stub files for blocks, operators, types — to be written.
 
 ### seeds/ — Architectural Seeds
@@ -898,6 +899,16 @@ Relationship: Tier 0 reference alongside `color-context-vernacular.md`,
 
 This does not change generation rules. It deepens understanding of
 the design intent — why each emoji was chosen for its role.
+
+---
+
+## SCL-DEEP EXPANSION — SESSION 027
+
+Two new documents added to the SCL-deep and middle-math layers:
+
+- `scl-deep/vocabulary-standard.md` — Language standard. Banned/approved word lists. ExRx factual register. Operator verb preference. Covers all PPL± content surfaces: cards, Operis, README, cosmograms, whiteboard prose. Companion to publication-standard.md.
+
+- `middle-math/rotation/reverse-weight-resolution.md` — Temporal zip-code resolution algorithm. Yesterday→today→tomorrow triangulation. Adjusts the rotation engine's default zip by looking backward at yesterday's fatigue signature and forward at tomorrow's stimulus requirements. Operis editorial implication: featured Sandbox room is the reverse-weight resolution room.
 
 ---
 

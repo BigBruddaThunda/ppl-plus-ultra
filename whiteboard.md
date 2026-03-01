@@ -77,6 +77,16 @@ Status: ⬜ Not started | 🔄 In progress | ✅ Complete | ⚠️ Issues (regen
 
 Priority order. Top item is next unless Jake redirects.
 
+**0. Commit Session 027 Architecture Documents**
+Why: Architecture documents from this session need to be committed and pushed on branch claude/integrate-pr25-reverse-weight-engYD, then merged to main.
+Depends on: Session 027 work complete (done).
+Unblocks: Clean main branch for card generation sessions.
+
+**0b. Test Operis V3 Prompt — Temp Architect Session**
+Why: Operis V3 prompt (Part 6 of handoff) is ready for testing. Load it in a Genspark or Claude.ai session with web access. Run a sample date. Verify front page card, almanac box, Historical Desk articles, and room descriptions hit the format and depth targets.
+Depends on: Nothing — prompt is self-contained.
+Unblocks: Confident Operis production pipeline.
+
 **1. Build Deck 09 Identity — `/build-deck-identity 09`**
 Why: ⛽🌹 Strength × Aesthetic is next in the generation queue.
 Identity doc maps exercises to zip codes before generation starts.
@@ -155,12 +165,16 @@ These are tracked and sequenced but not immediate.
 
 ### PPL± Operis Build-Out
 - Seed planted: seeds/operis-architecture.md (supersedes seeds/daily-architecture.md)
-- Architecture complete: weekly editorial cadence, 109 content types, generation pipeline spec
+- Architecture complete: weekly editorial cadence, 109 content types, generation pipeline spec, front page card layout, depth standard, age-neutral register (Session 027)
+- Operis V3 prompt delivered — ready for temp architect testing (Session 027)
+- Reverse-weight resolution seeded: middle-math/rotation/reverse-weight-resolution.md — triangulates today's featured room between yesterday's fatigue and tomorrow's stimulus
+- Vocabulary standard seeded: scl-deep/vocabulary-standard.md — governs all PPL± content generation going forward
 - Operis-as-generation-pipeline: each edition forces 8–12 zip code card generations
 - Requires: historical events database (365 files, one-time build ~180 hours research)
 - Requires: cosmogram population (provides deep substrate for featured zip descriptions)
 - Requires: HTML experience layer (Phase 4/5)
 - Automation target: fully automated Operis generation from deterministic inputs
+- Backlog items: (1) reverse-weight resolution implementation in production engine, (2) vocabulary standard enforcement pass on existing generated content, (3) Operis V3 prompt testing across multiple dates to validate format + depth
 - Does not block card generation
 
 ### Platform Architecture V2
@@ -554,6 +568,23 @@ Output:
   - seeds/platform-architecture-v2.md — "the Daily" → "the Operis" throughout (14 replacements), frontmatter depends-on updated
   - operis-editions/ — directory scaffold created with README.md and 2026/02/ path
 Next: Generate first formal Operis edition (prototype). Then continue card generation pipeline (Deck 09 identity → Deck 09 generation).
+
+### Session 027
+Date: 2026-03-01
+Work: PR #25 Integration + Reverse-Weight Architecture + Operis V3 Prompt Infrastructure
+Source: Claude.ai temp architect session (February 27–28, 2026)
+Branch: claude/integrate-pr25-reverse-weight-engYD
+Output:
+  - middle-math/rotation/reverse-weight-resolution.md — Temporal zip-code resolution algorithm. Yesterday→today→tomorrow triangulation. Three phases: read yesterday's fatigue signature, derive tomorrow's stimulus requirements, compute today's adjusted zip. Operis editorial implication: featured Sandbox room = resolution room.
+  - scl-deep/vocabulary-standard.md — Language standard. Banned/approved word lists (optimize, unlock, level up, crush it, etc. with replacements). Preferred operator verb set. Factual register standard — all claims traceable to exercise science. Tonal prohibitions. Newspaper test. Application scope.
+  - seeds/operis-architecture.md — Four new sections added after "Five Input Layers": Temporal Context (reverse-weight editorial application), Front Page Card (masthead-left/almanac-right broadsheet layout spec), Depth Standard (2,500–4,500 words, newspaper test, 30–40% Historical Desk), Age-Neutral Register (literate teenager + retired architect, no dopamine design, no generational signaling).
+  - scl-deep/publication-standard.md — Almanac Aesthetic section added after Three Historical Registers: French Catholic almanac (feast days, agricultural rhythms, civic pulse as factual theater) + American civic almanac (Poor Richard's, Old Farmer's). Vocabulary standard cross-reference.
+  - CLAUDE.md — scl-deep/ directory listing updated (vocabulary-standard.md added). SCL-Deep Expansion section added (vocabulary-standard + reverse-weight-resolution references).
+  - README.md — scl-deep/ listing updated to note vocabulary-standard.md. middle-math/ listing updated to note rotation/ includes reverse-weight resolution.
+  - whiteboard.md — this session logged; Immediate Queue and Backlog updated.
+Architecture verified post-PR-25 merge (10 commits from Session 026 confirmed present).
+Operis V3 prompt delivered — front page card, almanac-right layout, age-neutral register, no polarity language on reader-facing surfaces.
+Next: Test Operis V3 Prompt in temp architect session with full prompt. Then continue Deck 09 identity → Deck 09 generation.
 
 ### Session 026
 Date: 2026-02-27

@@ -242,6 +242,83 @@ Four of five layers are deterministic or static. The Operis is designed to gener
 
 ---
 
+## Temporal Context — Reverse-Weight Resolution
+
+The rotation engine produces a default zip code for any given date. That default is the starting point, not the final answer.
+
+The Intention department frames today as the resolution between yesterday's session and tomorrow's highest-weighted candidate. The reader does not see this framing as system logic — they see it as editorial coherence: Thursday is the day you find out what Wednesday built; today is the hinge between what was done and what is coming.
+
+The featured Sandbox room is the reverse-weight resolution room — the zip code that maximizes preparation for tomorrow's session while minimizing conflict with yesterday's load. The selection logic runs before the edition is composed. It shapes the Sandbox from behind. It never appears in the edition text.
+
+The algorithm is specified in `middle-math/rotation/reverse-weight-resolution.md`. Its editorial implication: the Operis is not a flat daily list of rooms. It is a triangulated response to the week's arc. Every featured room is in a specific position relative to yesterday and tomorrow. The reader feels this without being told why.
+
+---
+
+## Front Page Card — Broadsheet Layout
+
+The edition opens with the Front Page Card — a screenshottable top-of-page surface containing the masthead, the almanac, and the table of contents. A screenshot of this card is a complete daily summary, self-contained and legible without prior knowledge of the system.
+
+**Layout**: Masthead on the left. Almanac box on the right. Contents below both. Symbol map at the bottom of the card.
+
+**Masthead (left)**:
+
+```
+PPL± Operis
+[4-emoji daily zip code]
+± [Day of week], [Full date]
+Deck [number] · [operator emoji] [latin name] · [liberal art]
+```
+
+The liberal art maps from the weekday: Mon=Grammar, Tue=Logic, Wed=Rhetoric, Thu=Arithmetic, Fri=Geometry, Sat=Music, Sun=Astronomy.
+
+**Almanac Box (right)**:
+
+A dense, code-block-sized rectangle containing three bands of information separated by horizontal rules:
+
+Band 1 — Sky: Sunrise, sunset, moon phase name, moon illumination percentage, total daylight hours, daily daylight gain or loss.
+
+Band 2 — Season: Days to next equinox or solstice, seasonal position (e.g., "Last day of meteorological winter"), 2–3 short agricultural observations appropriate to the date and Northern Hemisphere growing cycle.
+
+Band 3 — Navigation: Yesterday's zip code with day name. Tomorrow's zip code with day name.
+
+Every symbol in the almanac box is tappable in the experience layer — each pops a plain-language definition on tap. The symbol map at the bottom of the card makes the screenshot self-contained: a reader who receives the image can decode every symbol without prior knowledge.
+
+**Contents (below masthead and almanac)**:
+
+The table of contents as navigation. Every line is a tap target in the experience layer. Format: department emoji followed by department name. For the Historical Desk, article headlines appear indented below. For the Rooms section, all zip codes are listed with their human-readable room titles, the featured room marked ★.
+
+**Symbol Map (bottom of card)**:
+
+A compact legend decoding every symbol used on the front page card. Two to three columns, plain language. The symbol map makes the card fully self-contained — a person who receives a screenshot can read it without prior knowledge of SCL, Orders, Axes, Types, or Colors.
+
+---
+
+## Depth Standard
+
+Target length: 2,500–4,500 words per edition.
+
+The Historical Desk carries 30–40% of total word count. It is the heart of the edition — 2–4 full articles, each 200–500 words, written as newspaper feature pieces. Each article has a headline, a lede, a body with specific dates and names and measurements, and a pivot that connects the historical material to the body's reality without announcing the connection.
+
+Sandbox room descriptions run 80–150 words of lived-space prose. The featured room receives 150–250 words. The description must pass the lived-space test: could someone who has never heard of PPL± read this and understand what workout they would get? If not, it contains system-speak and must be rewritten.
+
+The Wilson Note references one concrete element from the current edition — a room, a historical fact, a seasonal observation. It is never generic. If the Wilson Note could be published in any edition on any date, it fails.
+
+Every sentence passes the newspaper test: would a copy editor at a serious publication let this through? If a sentence would require a footnote explaining the system, it fails. If a claim about exercise or anatomy cannot be traced to exercise science, it fails. If a sentence could be deleted without the reader losing information, delete it.
+
+---
+
+## Age-Neutral Register
+
+The Operis is readable by a literate teenager and a retired architect in the same edition. Both must find it worth reading. Neither must feel spoken down to or excluded.
+
+No youth-culture signaling: no platform-native idiom, no meme register, no generational reference. No boomer nostalgia: no "back in the day," no culture-war framing, no condescension toward new practices. The register is the register of competence — factual, specific, warm, and respectful of the reader's intelligence regardless of age.
+
+No dopamine-design cadence: no exclamation-heavy headers, no emoji-stuffed sentences, no hype rhythm. The edition reads like a broadsheet, not a push notification. An adult reading on their phone at 6am with coffee should feel like they picked up a well-edited newspaper. A teenager reading it at lunch should feel like they are being treated as intelligent.
+
+The polarity framework (Preparatory/Expressive) is valid system architecture in the repo. It belongs in scl-deep files and weight tables. It does not belong on the Operis front page or in edition text, where it reads as infrastructure leaking onto the newspaper's front page. The reader sees rooms, days, exercises, and weather — not system metadata.
+
+---
+
 ## Constraints
 
 ⚫ The Operis does not perform enthusiasm. The editorial voice follows the publication standard: direct, honest, economical. No motivational language. No "you've got this." The Operis is a gazette, not a hype machine.

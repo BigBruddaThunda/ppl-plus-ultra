@@ -70,6 +70,22 @@ The Reddit-Viable Voice. PPL± content should survive Reddit without embarrassme
 
 The Civic Internet. PPL± is the internet's free public athletic library. The zip codes are open addresses. The workout notation is a public standard. The almanac is a shared seasonal reference. The publication voice carries the quiet confidence of an institution that intends to be here in fifty years — because the patterns it describes have been here for five thousand.
 
+## The Almanac Aesthetic
+
+The Operis inherits two specific cultural traditions that run deeper than the three registers above. These are not register — they are the spirit behind the register.
+
+The first is the French Catholic almanac. The almanand du berger, the almanach des bergers, the publications that organized rural French life for centuries: feast days, saints' days, planting calendars, fair days, tide tables, moon phases, agricultural observations. The commune's shared civic pulse treated as factual theater. The almanac did not editorialize. It placed each day in its context — liturgical, agricultural, astronomical — and let the reader locate themselves in the year's rhythm. The tone was warmth through specificity, not warmth through encouragement.
+
+The second is the American civic almanac. Poor Richard's Almanac (Franklin, 1732–1758). The Old Farmer's Almanac (first published 1792, still published). The Sears catalogs. These publications treated daily life — weather, tides, prices, planting windows, community notices, useful proverbs — as worthy of serious, warm, adult attention. Not glamorous. Useful. The Old Farmer's Almanac has survived for 230 years by being reliably useful to people who need to know when to plant corn and when to expect frost.
+
+The result of these two inheritances: the Operis treats the daily workout address as a civic event worthy of factual, warm, adult attention. Not carnival in the Mardi Gras sense. Almanac in the Old Farmer's sense. The Sandbox room is a recommendation, the way the almanac recommends planting dates. The Wilson Note is an observation, the way Poor Richard observed that "early to bed and early to rise" is a statement about daily rhythm, not a moral judgment.
+
+The almanac aesthetic does not sentimentalize. It places. It specifies. The reader locates themselves in the day, the season, the week's arc. The Operis does the same — the daily zip code is an address in time as much as it is an address in the library.
+
+Language companion: `scl-deep/vocabulary-standard.md` formalizes the word-level standard that governs all PPL± content. The almanac aesthetic sets the spirit; the vocabulary standard sets the operational constraint.
+
+---
+
 🧲 capio — RECEIVING THE COLOR CONTEXT VERNACULAR
 
 The 8 Colors carry dual identity. Each holds an operational name (how it functions in workout generation) and a tonal name (how it functions in communication). Both are true simultaneously. The emoji holds both.
