@@ -148,7 +148,7 @@ ppl-plus-ultra/
 ├── scl-directory.md       — Complete SCL language reference
 ├── exercise-library.md    — All valid exercises mapped to SCL (v.0)
 │
-├── scl-deep/              — Full uncompressed SCL specifications (source layer)
+├── scl-deep/              — Full uncompressed SCL specifications (source layer; includes vocabulary-standard.md)
 ├── seeds/                 — Architectural ideas for future phases (planted, not active)
 │   ├── experience-layer-blueprint.md   — Master technical architecture for Phases 4-7
 │   ├── numeric-zip-system.md           — 4-digit numeric addressing standard
@@ -161,7 +161,7 @@ ppl-plus-ultra/
 │   ├── wilson-voice-identity.md        — Wilson: the PPL± voice identity
 │   └── regional-filter-architecture.md — Opt-in regional content filter
 ├── html/                  — HTML experience layer scaffold (Phase 4/5)
-├── middle-math/           — Computation engine: weights, exercise selection, user context, rendering
+├── middle-math/           — Computation engine: weights, exercise selection, user context, rendering (rotation/ includes reverse-weight resolution)
 ├── deck-identities/       — Pre-generation exercise mapping per deck
 ├── deck-cosmograms/       — Deep research identity documents per deck (planned)
 ├── zip-web/               — Navigation graph: fatigue signatures, routing pods
