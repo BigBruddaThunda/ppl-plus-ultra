@@ -143,6 +143,16 @@ Color Pairing as Content Tone
 
 ⚪🟢 — honest + sustainable: long-form almanac entries
 
+Color as Cognitive Posture — The Operis Extension
+
+The Color Context Vernacular defines the 8 Colors as tonal communication registers — how content speaks. The Operis extends this into a reader-facing cognitive posture system. Each Color carries not only a tonal register for the writer but a cognitive tuning instruction for the reader.
+
+The posture sentences — "Think like a student" (⚫), "Think like a gardener" (🟢), "Think like an architect" (🔵), "Think like a watchmaker" (🟣), "Think like a first responder" (🔴), "Think like a neighbor" (🟠), "Think like an explorer" (🟡), "Think like a monk" (⚪) — are the reader-facing surface of the Color system. They inherit the tonal register and translate it into an actionable mental frame.
+
+The full specification is at `seeds/operis-color-posture.md`. The educational content lanes that inherit each Color's tonal character are at `seeds/operis-educational-layer.md`.
+
+This extension does not modify the Color Context Vernacular. It builds on top of it. The tonal registers remain the foundational layer. The cognitive postures are the reader-facing expression.
+
 🧸 fero — CARRYING THE 12 OPERATORS AS ORGANIZATIONAL ARCHITECTURE
 
 The 12 Latin operators are not only workout action verbs. They are polysemic organizing principles. They can structure a document the way they structure a session — each operator names a phase of thought, a mode of engagement, a way of handling knowledge.

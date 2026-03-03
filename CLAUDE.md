@@ -108,6 +108,15 @@ Key architectural decisions planted:
 - `operis-naming-rationale.md` — "Operis" etymology: Latin genitive ("of the work"). Phonetically approximates "off the press." Associative field: opera, opus, operate. PPL± brand name readings documented.
 - `elevator-architecture.md` — The 4-dial elevator model: Order=building, Axis=floor, Type=wing, Color=room. Piano nobile floor stack (🔨 ground → 🏛 noble → ⌛ 2nd → 🐬 3rd → 🌹 4th → 🪐 5th). Dual axis function. Horizontal (zip web) and vertical (floor stack) navigation.
 - `platform-architecture-v2.md` — Complete platform architecture refactored from Feb 11 "PPL± ITSELF." Business model (Tier 1 $10, Tier 2 $25–30), UX flows (card/deck/room metaphor, onboarding sequence), tech stack (Next.js/Supabase/Vercel/Stripe), zip-code-centric database schema, automation as deterministic pipeline. Supersedes platform-architecture-v1-archive.md.
+- `seeds/operis-prompt-pipeline.md` — 4-prompt Operis generation pipeline: handoff contracts, Color flow (3 Color identities), department activation matrix, rotation engine V1.0 reference, automation pathway.
+- `seeds/operis-educational-layer.md` — 8-lane educational content system mapped to Color Context Vernacular tonal registers, seasonal content architecture, SCL emoji content lattice.
+- `seeds/operis-color-posture.md` — Color of the Day as cognitive posture: three Color identities (workout/publication/Operis), eight postures, determination inputs, automation scoring pathway.
+- `seeds/operis-sandbox-structure.md` — 13-room Sandbox: 8 deterministic Color siblings + 5 editorially-derived Content Rooms, content-to-zip mapping, ExRx naming convention, generation implications.
+
+### operis-editions/ — Operis Editorial Record
+
+Daily Operis editions filed by date (YYYY/MM/YYYY-MM-DD.md). Subdirectories:
+- `operis-editions/historical-events/` — Date-indexed historical events database (366 files planned, MM-DD.md format, currently empty). Prompt 1 checks this path before web research.
 
 ### html/ — Experience Layer Scaffold
 
@@ -847,7 +856,7 @@ relationship to card generation.
 | Git-Worktree Pattern | PLANNED — seed planted | No |
 | HTML Experience Layer | Phase 4/5 — scaffold only | No |
 | Codex Agent Infrastructure | BUILT — Session 4 | No |
-| PPL± Operis Build-Out | SEED — planted Session 023 | No |
+| PPL± Operis Build-Out | ACTIVE — pipeline architecture planted Session 028 | No |
 | Elevator/Floor Model | SEED — planted Session 022 | No |
 | Platform Architecture V2 | SEED — planted Session 022 | No |
 | Middle-Math Engine | PLANTED — architecture seeded Session 024 | No |
@@ -963,6 +972,28 @@ PPL± collects only what the user explicitly provides through their own action. 
 This is a technical architecture decision, not a political statement. PPL± is not affiliated with any party or faction. Jake Berry, the creator, is not PPL± itself. The system's position on data matches the character of the system.
 
 See `seeds/data-ethics-architecture.md` for the complete specification.
+
+---
+
+## PPL± OPERIS BUILD-OUT — SESSION 028
+
+- Seed planted: `seeds/operis-architecture.md` (supersedes `seeds/daily-architecture.md`)
+- Architecture complete: weekly editorial cadence, 109 content types, generation pipeline spec, front page card layout, depth standard, age-neutral register (Session 027)
+- Pipeline architecture planted: `seeds/operis-prompt-pipeline.md` — 4-prompt pipeline with handoff contracts and Color flow (Session 028)
+- Educational layer planted: `seeds/operis-educational-layer.md` — 8-lane content system mapped to Color Context Vernacular (Session 028)
+- Color of the Day architecture planted: `seeds/operis-color-posture.md` — cognitive posture system, three Color identities, automation pathway (Session 028)
+- Sandbox structure planted: `seeds/operis-sandbox-structure.md` — 13-room architecture (8 Color siblings + 5 Content Rooms), content-to-zip mapping (Session 028)
+- Historical events database directory planted: `operis-editions/historical-events/` (Session 028)
+- Reverse-weight resolution seeded: `middle-math/rotation/reverse-weight-resolution.md`
+- Vocabulary standard seeded: `scl-deep/vocabulary-standard.md`
+- Color weight derivation updated: `middle-math/rendering/operis-weight-derivation.md` — Color of the Day scoring mechanism planned (Session 028)
+- Publication standard updated: `scl-deep/publication-standard.md` — Color as Cognitive Posture extension added (Session 028)
+- Next: Store four Operis V4 prompts in repo as seeds (Researcher, Content Architect, Editor, Builder). Then test pipeline on a real date. Then continue Deck 09 identity and generation.
+- Requires: historical events database (366 files, one-time build ~180 hours research, builds incrementally)
+- Requires: cosmogram population (provides deep substrate for featured zip descriptions)
+- Requires: HTML experience layer (Phase 4/5)
+- Automation target: fully automated Operis generation from deterministic inputs + Color scoring mechanism
+- Does not block card generation
 
 ---
 
