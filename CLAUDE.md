@@ -112,6 +112,10 @@ Key architectural decisions planted:
 - `seeds/operis-educational-layer.md` — 8-lane educational content system mapped to Color Context Vernacular tonal registers, seasonal content architecture, SCL emoji content lattice.
 - `seeds/operis-color-posture.md` — Color of the Day as cognitive posture: three Color identities (workout/publication/Operis), eight postures, determination inputs, automation scoring pathway.
 - `seeds/operis-sandbox-structure.md` — 13-room Sandbox: 8 deterministic Color siblings + 5 editorially-derived Content Rooms, content-to-zip mapping, ExRx naming convention, generation implications.
+- `seeds/operis-researcher-prompt.md` — Operis Prompt 1: Researcher. Takes a date, produces Research Brief (Contract A). V4.0.
+- `seeds/operis-content-architect-prompt.md` — Operis Prompt 2: Content Architect. Takes Research Brief, produces Enriched Content Brief (Contract B) including Color of the Day. V4.0.
+- `seeds/operis-editor-prompt.md` — Operis Prompt 3: Editor. Takes both briefs, writes the full Operis edition (Contract C) with 13-room sandbox (8 siblings + 5 Content Rooms). V4.0.
+- `seeds/operis-builder-prompt.md` — Operis Prompt 4: Builder. Proofs edition, generates cards for empty zip codes, commits to repository. V4.0.
 
 ### operis-editions/ — Operis Editorial Record
 
@@ -988,7 +992,8 @@ See `seeds/data-ethics-architecture.md` for the complete specification.
 - Vocabulary standard seeded: `scl-deep/vocabulary-standard.md`
 - Color weight derivation updated: `middle-math/rendering/operis-weight-derivation.md` — Color of the Day scoring mechanism planned (Session 028)
 - Publication standard updated: `scl-deep/publication-standard.md` — Color as Cognitive Posture extension added (Session 028)
-- Next: Store four Operis V4 prompts in repo as seeds (Researcher, Content Architect, Editor, Builder). Then test pipeline on a real date. Then continue Deck 09 identity and generation.
+- ✅ COMPLETE (Session 029): Stored four Operis V4 prompts as seeds (seeds/operis-researcher-prompt.md, seeds/operis-content-architect-prompt.md, seeds/operis-editor-prompt.md, seeds/operis-builder-prompt.md). Pipeline updated with version tags, department alignment, prompt file reference. Sandbox and architecture docs updated.
+- NEXT: Test full Operis V4 pipeline on a real date (run P1→P2→P3→P4 in sequence). Then continue Deck 09 identity and generation.
 - Requires: historical events database (366 files, one-time build ~180 hours research, builds incrementally)
 - Requires: cosmogram population (provides deep substrate for featured zip descriptions)
 - Requires: HTML experience layer (Phase 4/5)

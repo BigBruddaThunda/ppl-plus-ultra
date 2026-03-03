@@ -13,6 +13,10 @@ connects-to:
   - scl-deep/vocabulary-standard.md
   - middle-math/rendering/operis-weight-derivation.md
   - middle-math/rotation/reverse-weight-resolution.md
+  - seeds/operis-researcher-prompt.md
+  - seeds/operis-content-architect-prompt.md
+  - seeds/operis-editor-prompt.md
+  - seeds/operis-builder-prompt.md
 ---
 
 # PPL± Operis — Four-Prompt Generation Pipeline
@@ -169,8 +173,9 @@ liberal-art: [name]
 word-of-day: "[word]"
 featured-lane: [emoji] [Lane name]
 sandbox-zips:
-  color-siblings: [list of 8 zip codes]
-  content-rooms: [list of 5 zip codes with source content tags]
+  color-siblings: [list of 8 zip codes — deterministic from rotation engine]
+  content-rooms: [list of 5 zip codes with source content tags — editorial selection]
+sandbox-total: 13  # 8 Color sibling rooms + 5 Content Rooms = 13 rooms total
 word-count: [approximate]
 reading-time: "[X] minutes"
 status: DRAFT
@@ -208,26 +213,31 @@ This is the authoritative operational department list for the Operis. Department
 
 | Department | Emoji | 🐂 Mon | ⛽ Tue | 🦋 Wed | 🏟 Thu | 🌾 Fri | ⚖ Sat | 🖼 Sun |
 |---|---|---|---|---|---|---|---|---|
-| Front Page Card | — | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Masthead | ♨️ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Intention | 🎯 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Fundamentals | 🔢 | ✓ | — | — | — | — | — | — |
+| Primer | ▶️ | — | ✓ | ✓ | — | — | — | — |
+| Composition | 🎼 | — | — | — | — | ✓ | — | — |
+| Reformance | 🏗 | — | — | — | — | — | ✓ | — |
 | Historical Desk | 📰 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Educational Feature | 📖 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Seasonal Desk | 🌾 | fold | fold | fold | fold | ✓ | ✓ | ✓ |
-| Rooms of the Day | 🏛 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Composition | 🎼 | — | — | — | — | ✓ | — | — |
 | Tool Floor | 🔨 | — | ✓ | ✓ | — | — | ✓ | — |
+| Rooms of the Day | 🏛 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Sandbox Notice | 🏖 | ✓ | — | — | — | — | — | — |
-| Word of the Day | 📖 | call | call | call | call | call | call | call |
 | Wilson Note | 🌡️ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Junction | 🚂 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| SAVE | 🧮 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Junction Bridge | 🚂 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Cosmogram Reference | 🌌 | fold | fold | fold | fold | fold | fold | fold |
+| Reader's Almanac | 📅 | — | — | — | — | — | — | ✓ |
+| Letters | ✉️ | — | — | — | — | — | — | — |
 
-"fold" = Seasonal Desk content folds into the Almanac Box on the Front Page Card.
-"call" = Word of the Day appears on the front page always; earns a standalone body paragraph at the editor's discretion when the etymology is particularly rich.
+"fold" = content folds into another active department (Seasonal Desk → Masthead Almanac Box; Cosmogram Reference → Rooms of the Day when cosmogram is populated, skipped otherwise).
+"—" = department not active this day.
+Letters = future department, not yet active.
 
 ---
 
-## Rotation Engine Reference — V1.0
+## Rotation Engine V1.0
 
 Version tag: **Rotation Engine V1.0** — per `seeds/default-rotation-engine.md`
 
@@ -258,17 +268,32 @@ Read Axis (position 2) and Color (position 4). Preparatory Colors (⚫🟢⚪�
 
 ---
 
+## Prompt File Reference
+
+The four generation prompts are stored as seeds in this repository. Each prompt is a complete, self-contained specification for one pipeline role.
+
+| Prompt | Role | File | Version |
+|--------|------|------|---------|
+| P1 | Researcher | seeds/operis-researcher-prompt.md | V4.0 |
+| P2 | Content Architect | seeds/operis-content-architect-prompt.md | V4.0 |
+| P3 | Editor | seeds/operis-editor-prompt.md | V4.0 |
+| P4 | Builder | seeds/operis-builder-prompt.md | V4.0 |
+
+Each prompt file contains its own depends-on list, handoff-input/output declarations, and a "What You Do Not Do" section that enforces pipeline boundaries. Version V4.0 is the first release of the formalized prompt set (Session 029, 2026-03-03).
+
+---
+
 ## Future State — Automation
 
 The pipeline is designed for eventual automation as a daily cron job:
 
-**Phase A:** Prompt 1 runs automatically for the current date. Checks the historical events database first, supplements with web research as needed. Outputs the research brief.
+**Phase A:** `seeds/operis-researcher-prompt.md` runs automatically for the current date. Checks the historical events database at `operis-editions/historical-events/[MM-DD].md` first, supplements with web research as needed. Outputs the research brief (Contract A).
 
-**Phase B:** Prompt 2 runs automatically, consuming the research brief. The Color of the Day determination uses a scoring mechanism (see `middle-math/rendering/operis-weight-derivation.md`) to produce a recommendation. Outputs the enriched content brief.
+**Phase B:** `seeds/operis-content-architect-prompt.md` runs automatically, consuming the research brief. The Color of the Day determination uses a scoring mechanism (see `middle-math/rendering/operis-weight-derivation.md`) to produce a recommendation. Outputs the enriched content brief (Contract B).
 
-**Phase C:** Prompt 3 runs in Claude Code, consuming both briefs. Writes the edition. The 8 Color siblings are fully deterministic. The 5 Content Rooms require editorial mapping (content → zip code) — this is the step that may retain human oversight longest.
+**Phase C:** `seeds/operis-editor-prompt.md` runs in Claude Code, consuming both briefs. Writes the edition. The 8 Color siblings are fully deterministic. The 5 Content Rooms require editorial mapping (content → zip code) — this is the step that may retain human oversight longest. Outputs the complete Operis edition (Contract C) with all 13 rooms: 8 Color siblings + 5 Content Rooms.
 
-**Phase D:** Prompt 4 runs in Claude Code, consuming the edition. Proofs, generates cards, files, commits.
+**Phase D:** `seeds/operis-builder-prompt.md` runs in Claude Code, consuming the edition. Proofs, generates cards, files, commits.
 
 Jake reviews the build report each morning and promotes cards to CANONICAL on a weekly review cycle.
 
