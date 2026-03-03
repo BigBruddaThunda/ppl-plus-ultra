@@ -7,6 +7,7 @@ depends-on:
   - seeds/default-rotation-engine.md
   - seeds/operis-architecture.md
   - middle-math/rotation/reverse-weight-resolution.md
+  - deck-identities/naming-convention.md
 connects-to:
   - seeds/operis-educational-layer.md
   - seeds/operis-color-posture.md
@@ -186,6 +187,64 @@ For the 8 Color siblings, the reverse-weight logic operates per-Color-track. Yes
 For the 5 Content Rooms, the reverse-weight logic is secondary to the content mapping. The Content Room's zip code is determined by its source content, not by the temporal thread. However, the editor can use the reverse-weight resolution as a tiebreaker when two zip codes equally serve the content — prefer the one that better prepares tomorrow while respecting yesterday.
 
 The featured room is always the reverse-weight resolution of the Color of the Day track. It is simultaneously the best room for today's cognitive posture AND the best room for the week's progressive arc. This dual purpose is why it gets the most real estate.
+
+---
+
+## Content Room Constraint Summary
+
+All constraints in one place for Prompt 3 (the Editor):
+
+1. All 5 Content Rooms share today's Order (fixed by day of week via Gear 1).
+2. Each Content Room has a unique Type — all 5 Types appear exactly once across the 5 rooms (🛒🪡🍗➕➖ one each).
+3. Each Content Room has a unique Axis, drawn from the 5 Axes NOT used by the 8 Color siblings. Since there are 6 Axes and the siblings claim one, the 5 Content Rooms use the remaining 5 — one each.
+4. Color is editorial. Choose the Color that fits the content's character using the Color Context Vernacular. No full-zip duplication with any Color sibling.
+5. Every Content Room title follows `deck-identities/naming-convention.md`. No editorial content in titles. The zip-code title describes the workout. The editorial connection lives in the Operis prose and front-matter, not in the title.
+6. Every Content Room's source is recorded in the edition front-matter `source` and `source-beat` fields. These fields are for archival traceability, not for display.
+
+---
+
+## Content-to-Zip Mapping Chain
+
+The mapping moves from content toward workout, not the other way:
+
+```
+Operis content
+    → physical domain (what kind of movement or exertion does this content connect to?)
+    → Type (which muscle group / movement domain? 🛒🪡🍗➕➖)
+    → Axis (what is the exercise character? 🏛🔨🌹🪐⌛🐬 — must differ from sibling Axis)
+    → Color (what is the session format / editorial tone? ⚫🟢🔵🟣🔴🟠🟡⚪)
+    → Order (fixed by today's day of week — already determined by Gear 1)
+    = 4-emoji zip code
+```
+
+Content decides Type and Axis. The Editor chooses Color. Order is fixed. The mapping moves from content toward workout, not the other way.
+
+Example chain: A historical event about a 19th-century laborer carrying iron across a bridge site → physical domain: load-bearing, carrying, grip endurance → Type: ➕ Plus (loaded carries, strongman patterns) → Axis: 🔨 Functional (unilateral, standing, athletic transfer) → Color: 🔵 Structured (trackable, prescriptive) → Order: from today's day of week (e.g., ⛽ on Tuesday) → zip: ⛽🔨➕🔵.
+
+The Axis must not duplicate the 8 Color siblings' Axis. If today's Gear 3 Axis is 🔨 Functional, then no Content Room may use 🔨 — their Axes must be drawn from 🏛🌹🪐⌛🐬.
+
+---
+
+## Naming Convention
+
+All Content Room titles follow `deck-identities/naming-convention.md` exactly. The ExRx naming standard:
+
+**Format:** [Primary Movement or Equipment+Exercise] — [Target Muscle/Focus, Context Modifier]
+
+**Correct:** "Dumbbell Romanian Deadlift — Hamstring Strength Log"
+**Incorrect:** "Bridge Builder's Hip Hinge" (editorial reference in title)
+**Incorrect:** "The Carrier's Walk" (narrative, no ExRx content)
+
+A user finding this zip code six months from now via search, community recommendation, or their own Almanac queue will see a workout title. They will not have today's editorial context. The zip-code title must be self-sufficient as a workout description.
+
+The editorial connection between a Content Room and its source content lives in three places:
+1. The Operis edition front-matter (`source` and `source-beat` fields)
+2. The Operis edition prose (the Historical Desk or Educational Feature article that inspired the room, juxtaposed with the room listing through prose proximity)
+3. The editor's contextual description of the room within the edition (which can allude through proximity without announcing)
+
+It lives nowhere in the card file title. The card file title is a phone book listing.
+
+Cross-reference: `seeds/operis-sandbox-structure.md` (this file) → `deck-identities/naming-convention.md` → `scl-deep/vocabulary-standard.md`.
 
 ---
 

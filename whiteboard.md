@@ -79,16 +79,12 @@ Priority order. Top item is next unless Jake redirects.
 
 Priority order. Top item is next unless Jake redirects.
 
-**0. Merge Session 028 Infrastructure Patch**
-Why: Operis infrastructure documents need to be on main before prompts can reference them.
-Depends on: Session 028 work complete.
-Unblocks: Prompt storage, pipeline testing.
+**0. ✅ Merge Session 028 Infrastructure Patch** — COMPLETE
+Merged to main before Session 029.
 
-**1. Store Operis V4 Prompts in Repo — Session 029**
-Why: Four prompts (Researcher, Content Architect, Editor, Builder) are drafted and reviewed in external architect sessions. They need to be committed as seeds so Claude Code sessions can reference them and the pipeline can be tested.
-Files: seeds/operis-researcher-prompt.md, seeds/operis-content-architect-prompt.md, seeds/operis-editor-prompt.md, seeds/operis-builder-prompt.md
-Depends on: Session 028 merged to main.
-Unblocks: Pipeline testing.
+**1. ✅ Store Operis V4 Prompts in Repo — Session 029** — COMPLETE
+Files committed: seeds/operis-researcher-prompt.md, seeds/operis-content-architect-prompt.md, seeds/operis-editor-prompt.md, seeds/operis-builder-prompt.md (all V4.0).
+Also updated: seeds/operis-prompt-pipeline.md (version tags, 17-dept matrix, Prompt File Reference), seeds/operis-sandbox-structure.md (Constraint Summary, Mapping Chain, Naming Convention), seeds/operis-architecture.md (pipeline file refs, dept alignment, engine version note), CLAUDE.md (seed listings, backlog status).
 
 **2. Test Operis V4 Pipeline — Full Date Test**
 Why: Run P1→P2→P3 for a real date (suggest current date or a historically rich date). Verify handoff contracts work, Color determination feels editorially sound, 13-room Sandbox structure produces valid rooms, Content Room mapping works, educational content weaves naturally, department activation matrix activates correctly for the day-of-week.
@@ -572,6 +568,23 @@ Output:
   - seeds/platform-architecture-v2.md — "the Daily" → "the Operis" throughout (14 replacements), frontmatter depends-on updated
   - operis-editions/ — directory scaffold created with README.md and 2026/02/ path
 Next: Generate first formal Operis edition (prototype). Then continue card generation pipeline (Deck 09 identity → Deck 09 generation).
+
+### Session 029
+Date: 2026-03-03
+Work: Operis V4 Prompt Architecture — four generation prompts stored as seeds, pipeline aligned
+Source: Claude.ai temp architect session (March 3, 2026)
+Branch: claude/operis-v4-prompts-aIxIr
+Output:
+  - seeds/operis-researcher-prompt.md — Prompt 1: Researcher. Takes date → Research Brief (Contract A). Role definition, 5 research beats, historical events DB check, output format, V4.0 (NEW)
+  - seeds/operis-content-architect-prompt.md — Prompt 2: Content Architect. Takes Research Brief → Enriched Content Brief (Contract B). Color of the Day determination (7 inputs), 8-lane assessment, Word of the Day, Content Room candidates, V4.0 (NEW)
+  - seeds/operis-editor-prompt.md — Prompt 3: Editor. Takes both briefs → Operis Edition (Contract C). 8 Color siblings, 5 Content Rooms, Standing Departments, YAML front-matter spec, V4.0 (NEW)
+  - seeds/operis-builder-prompt.md — Prompt 4: Builder. Takes edition → committed files. Proofing checklist (8 items), card generation procedure, repo commit, V4.0 (NEW)
+  - seeds/operis-prompt-pipeline.md — Section header renamed to "Rotation Engine V1.0", Department Activation Matrix expanded to 17 departments (aligned with architecture), Prompt File Reference table added, Contract C updated with 13-room total, Automation Pathway references prompt seed paths, connects-to updated (UPDATED)
+  - seeds/operis-sandbox-structure.md — Content Room Constraint Summary, Content-to-Zip Mapping Chain, and Naming Convention sections added. depends-on updated to include deck-identities/naming-convention.md (UPDATED)
+  - seeds/operis-architecture.md — Generation Pipeline section updated with prompt file paths and 13-room confirmation, Standing Departments table aligned to 17 pipeline-matching department names, Rotation Engine V1.0 version note added, connects-to updated (UPDATED)
+  - CLAUDE.md — 4 new prompt seed entries added to seeds/ listing, Operis Build-Out backlog updated (UPDATED)
+  - whiteboard.md — Session 029 logged, Immediate Queue updated (UPDATED)
+Next: Test full Operis V4 pipeline on a real date (run P1→P2→P3→P4 in sequence). Then Build Deck 09 identity. Then Generate Deck 09.
 
 ### Session 028
 Date: 2026-03-03
