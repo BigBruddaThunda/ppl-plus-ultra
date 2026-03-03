@@ -87,6 +87,11 @@ Files committed: seeds/operis-researcher-prompt.md, seeds/operis-content-archite
 Also updated: seeds/operis-prompt-pipeline.md (version tags, 17-dept matrix, Prompt File Reference), seeds/operis-sandbox-structure.md (Constraint Summary, Mapping Chain, Naming Convention), seeds/operis-architecture.md (pipeline file refs, dept alignment, engine version note), CLAUDE.md (seed listings, backlog status).
 
 **2. Test Operis V4 Pipeline — Full Date Test**
+**2A. Codex Audit — Agents-Friendly Expansion (Non-Operis Core)**
+Why: Define non-web tasks that strengthen Daily Operis substrate: deck throughput, validation automation, inventory truth tables, and agent handoff contracts.
+Depends on: None.
+Unblocks: Safer scale-up while web-dependent research is deferred.
+
 Why: Run P1→P2→P3 for a real date (suggest current date or a historically rich date). Verify handoff contracts work, Color determination feels editorially sound, 13-room Sandbox structure produces valid rooms, Content Room mapping works, educational content weaves naturally, department activation matrix activates correctly for the day-of-week.
 Depends on: Prompts stored in repo.
 Unblocks: Confident production pipeline. P4 testing.
