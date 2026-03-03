@@ -159,11 +159,17 @@ ppl-plus-ultra/
 │   ├── automotive-layer-architecture.md — Android Auto / CarPlay audio layer
 │   ├── voice-parser-architecture.md    — Universal natural language building navigation
 │   ├── wilson-voice-identity.md        — Wilson: the PPL± voice identity
-│   └── regional-filter-architecture.md — Opt-in regional content filter
+│   ├── regional-filter-architecture.md — Opt-in regional content filter
+│   ├── operis-prompt-pipeline.md       — 4-prompt Operis generation pipeline with handoff contracts
+│   ├── operis-educational-layer.md     — 8-lane educational content system mapped to Color registers
+│   ├── operis-color-posture.md         — Color of the Day as cognitive posture (3 Color identities)
+│   └── operis-sandbox-structure.md     — 13-room Sandbox: 8 Color siblings + 5 Content Rooms
 ├── html/                  — HTML experience layer scaffold (Phase 4/5)
 ├── middle-math/           — Computation engine: weights, exercise selection, user context, rendering (rotation/ includes reverse-weight resolution)
 ├── deck-identities/       — Pre-generation exercise mapping per deck
 ├── deck-cosmograms/       — Deep research identity documents per deck (planned)
+├── operis-editions/       — Daily Operis editions (YYYY/MM/YYYY-MM-DD.md)
+│   └── historical-events/ — Date-indexed historical events database (MM-DD.md, 366 files planned)
 ├── zip-web/               — Navigation graph: fatigue signatures, routing pods
 │
 ├── scripts/               — Validation, progress, automation tools

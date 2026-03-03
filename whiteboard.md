@@ -77,40 +77,39 @@ Status: ⬜ Not started | 🔄 In progress | ✅ Complete | ⚠️ Issues (regen
 
 Priority order. Top item is next unless Jake redirects.
 
-**0. Commit Session 027 Architecture Documents**
-Why: Architecture documents from this session need to be committed and pushed on branch claude/integrate-pr25-reverse-weight-engYD, then merged to main.
-Depends on: Session 027 work complete (done).
-Unblocks: Clean main branch for card generation sessions.
+Priority order. Top item is next unless Jake redirects.
 
-**0b. Test Operis V3 Prompt — Temp Architect Session**
-Why: Operis V3 prompt (Part 6 of handoff) is ready for testing. Load it in a Genspark or Claude.ai session with web access. Run a sample date. Verify front page card, almanac box, Historical Desk articles, and room descriptions hit the format and depth targets.
-Depends on: Nothing — prompt is self-contained.
-Unblocks: Confident Operis production pipeline.
+**0. Merge Session 028 Infrastructure Patch**
+Why: Operis infrastructure documents need to be on main before prompts can reference them.
+Depends on: Session 028 work complete.
+Unblocks: Prompt storage, pipeline testing.
 
-**1. Build Deck 09 Identity — `/build-deck-identity 09`**
+**1. Store Operis V4 Prompts in Repo — Session 029**
+Why: Four prompts (Researcher, Content Architect, Editor, Builder) are drafted and reviewed in external architect sessions. They need to be committed as seeds so Claude Code sessions can reference them and the pipeline can be tested.
+Files: seeds/operis-researcher-prompt.md, seeds/operis-content-architect-prompt.md, seeds/operis-editor-prompt.md, seeds/operis-builder-prompt.md
+Depends on: Session 028 merged to main.
+Unblocks: Pipeline testing.
+
+**2. Test Operis V4 Pipeline — Full Date Test**
+Why: Run P1→P2→P3 for a real date (suggest current date or a historically rich date). Verify handoff contracts work, Color determination feels editorially sound, 13-room Sandbox structure produces valid rooms, Content Room mapping works, educational content weaves naturally, department activation matrix activates correctly for the day-of-week.
+Depends on: Prompts stored in repo.
+Unblocks: Confident production pipeline. P4 testing.
+
+**3. Build Deck 09 Identity — `/build-deck-identity 09`**
 Why: ⛽🌹 Strength × Aesthetic is next in the generation queue.
 Identity doc maps exercises to zip codes before generation starts.
-Depends on: Nothing — Deck 07 retrofit done, V2 pattern confirmed.
+Depends on: Nothing — can run in parallel with Operis pipeline testing.
 Unblocks: Deck 09 generation (40 cards).
 
-**2. Generate Deck 09 — 40 cards, ⛽🌹 Strength × Aesthetic**
+**4. Generate Deck 09 — 40 cards, ⛽🌹 Strength × Aesthetic**
 Why: Continuing through ⛽ Order. Systematic Order-first sweep.
 Depends on: Deck 09 identity document.
-Unblocks: Progress toward ⛽ Order completion (6 decks, 240 cards).
+Unblocks: Progress toward ⛽ Order completion.
 
-**3. Generate First Deck Cosmogram**
-Why: Research prompt and publication standard are committed. The system
-is ready for its first cosmogram generation via Genspark temp architect
-session. Priority candidates: Deck 07 (⛽🏛, cards exist), Deck 01
-(🐂🏛, system origin).
+**5. Generate First Deck Cosmogram**
+Why: Research prompt and publication standard are committed. Ready for first cosmogram via Genspark temp architect session.
 Depends on: Genspark session with web access.
-Unblocks: Deep content layer for card generation context.
-
-**4. Execute Experience Layer Session A — Next.js Skeleton + Zip Routing**
-Why: Blueprint planted. Session A initializes the project and proves the numeric zip routing works.
-Depends on: Seeds planted Session 025 (all present).
-Unblocks: All subsequent build sessions (B through N).
-Does not block: Card generation. Can interleave.
+Unblocks: Deep content layer for card generation and Operis depth.
 
 ---
 
@@ -166,15 +165,20 @@ These are tracked and sequenced but not immediate.
 ### PPL± Operis Build-Out
 - Seed planted: seeds/operis-architecture.md (supersedes seeds/daily-architecture.md)
 - Architecture complete: weekly editorial cadence, 109 content types, generation pipeline spec, front page card layout, depth standard, age-neutral register (Session 027)
-- Operis V3 prompt delivered — ready for temp architect testing (Session 027)
+- Pipeline architecture planted: seeds/operis-prompt-pipeline.md — 4-prompt pipeline with handoff contracts and Color flow (Session 028)
+- Educational layer planted: seeds/operis-educational-layer.md — 8-lane content system mapped to Color Context Vernacular (Session 028)
+- Color of the Day architecture planted: seeds/operis-color-posture.md — cognitive posture system, three Color identities, automation pathway (Session 028)
+- Sandbox structure planted: seeds/operis-sandbox-structure.md — 13-room architecture (8 Color siblings + 5 Content Rooms), content-to-zip mapping (Session 028)
+- Historical events database directory planted: operis-editions/historical-events/ (Session 028)
 - Reverse-weight resolution seeded: middle-math/rotation/reverse-weight-resolution.md — triangulates today's featured room between yesterday's fatigue and tomorrow's stimulus
 - Vocabulary standard seeded: scl-deep/vocabulary-standard.md — governs all PPL± content generation going forward
-- Operis-as-generation-pipeline: each edition forces 8–12 zip code card generations
-- Requires: historical events database (365 files, one-time build ~180 hours research)
+- Color weight derivation updated: middle-math/rendering/operis-weight-derivation.md — Color of the Day scoring mechanism planned (Session 028)
+- Publication standard updated: scl-deep/publication-standard.md — Color as Cognitive Posture extension added (Session 028)
+- Next: Store four Operis V4 prompts in repo as seeds (Researcher, Content Architect, Editor, Builder). Then test pipeline on a real date. Then continue Deck 09 identity and generation.
+- Requires: historical events database (366 files, one-time build ~180 hours research, builds incrementally)
 - Requires: cosmogram population (provides deep substrate for featured zip descriptions)
 - Requires: HTML experience layer (Phase 4/5)
-- Automation target: fully automated Operis generation from deterministic inputs
-- Backlog items: (1) reverse-weight resolution implementation in production engine, (2) vocabulary standard enforcement pass on existing generated content, (3) Operis V3 prompt testing across multiple dates to validate format + depth
+- Automation target: fully automated Operis generation from deterministic inputs + Color scoring mechanism
 - Does not block card generation
 
 ### Platform Architecture V2
@@ -568,6 +572,32 @@ Output:
   - seeds/platform-architecture-v2.md — "the Daily" → "the Operis" throughout (14 replacements), frontmatter depends-on updated
   - operis-editions/ — directory scaffold created with README.md and 2026/02/ path
 Next: Generate first formal Operis edition (prototype). Then continue card generation pipeline (Deck 09 identity → Deck 09 generation).
+
+### Session 028
+Date: 2026-03-03
+Work: Operis Infrastructure Patch — pipeline architecture, educational layer, Color posture, Sandbox structure, filing system
+Source: Genspark temp architect session (March 3, 2026)
+Branch: claude/operis-infrastructure-patch-jvIQA
+Output:
+  - seeds/operis-prompt-pipeline.md — 4-prompt pipeline spec with handoff contracts, Color flow (3 identities), department activation matrix, rotation engine V1.0 reference, automation pathway (NEW)
+  - seeds/operis-educational-layer.md — 8-lane educational content architecture unified with Color Context Vernacular tonal registers, seasonal content logic, SCL emoji content lattice (NEW)
+  - seeds/operis-color-posture.md — Color of the Day as cognitive posture: 8 postures, determination inputs, prose tinting guidelines, automation scoring pathway (NEW)
+  - seeds/operis-sandbox-structure.md — 13-room Sandbox: 8 deterministic Color siblings + 5 Content Rooms from editorial content, content-to-zip mapping chain, ExRx naming convention, generation implications (NEW)
+  - operis-editions/historical-events/README.md — historical events database directory planted, 366-file spec, quality standards (NEW)
+  - seeds/operis-architecture.md — 4 sections appended: pipeline reference, Layer 6 educational content, Color of the Day, 13-room Sandbox. Open questions updated. (UPDATED)
+  - middle-math/rendering/operis-weight-derivation.md — Color of the Day scoring mechanism architecture: 7 input signals, resolution algorithm, confidence levels (UPDATED)
+  - scl-deep/publication-standard.md — Color as Cognitive Posture Operis extension section added after Color Context Vernacular (UPDATED)
+  - CLAUDE.md — seeds listing updated (4 new), operis-editions/ structure added, Operis Build-Out backlog section added, work streams table updated (UPDATED)
+  - whiteboard.md — this session logged, Immediate Queue updated, Operis Build-Out backlog updated (UPDATED)
+  - README.md — directory structure updated if needed (UPDATED)
+Architecture notes:
+  - 13-room Sandbox replaces variable 8–12 room selection. 8 Color siblings are deterministic. 5 Content Rooms are editorial.
+  - Content Rooms translate Operis editorial content into physical practice (embodied cognitive learning). Content-to-zip mapping is the editor's craft.
+  - Content Room titles follow ExRx naming convention — no editorial/narrative titles. Editorial connection lives in Operis prose, not card titles.
+  - Color of the Day has three distinct identities documented: workout Color, publication Color, Operis cognitive posture.
+  - Educational content lanes unified with Color Context Vernacular — each lane inherits its Color's tonal register.
+  - Pipeline handoff contracts formalized: research brief, enriched content brief, Operis edition. Each is a defined markdown structure.
+Next: Store four Operis V4 prompts in repo as seeds (Session 029). Then test P1→P2→P3 on a real date. Then continue Deck 09.
 
 ### Session 027
 Date: 2026-03-01

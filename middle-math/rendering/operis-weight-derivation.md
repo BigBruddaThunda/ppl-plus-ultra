@@ -172,4 +172,40 @@ The Operis editor (human or algorithm) uses this configuration to build the edit
 
 ---
 
+## Color of the Day — Weight Derivation (PLANNED)
+
+The Color of the Day is the Operis editorial system's primary rendering decision. It is currently determined by human editorial judgment in Prompt 2 (the Content Architect). When the pipeline transitions to automated execution, the Color determination will need a scoring mechanism.
+
+### Input Signals
+
+Each input maps to one or more of the 8 Colors with a signal weight:
+
+**Research brief character analysis.** Classify the dominant character of the day's historical events. Events clustering around teaching/foundations → ⚫. Events clustering around construction/engineering → 🔵. Events clustering around athletic achievement → 🔴. Events clustering around cultural production → 🟡. Events clustering around community/civic life → 🟠. Events clustering around precision/scientific discovery → 🟣. Events clustering around agriculture/organic growth → 🟢. Events with no dominant cluster or reflective character → ⚪.
+
+**Seasonal position weights.** Derived from the annual breath rhythm in `seeds/almanac-macro-operators.md`. January–April inhale favors ⚫🟢🔵⚪. May–August exhale favors 🔴🟠🟡🟢. September–October catch-breath favors ⚪🟣⚫. November–December close favors 🟣🔵.
+
+**Monthly operator tonal signature.** Each operator has a natural Color affinity based on its Latin semantic field. 📍 pono → ⚫ (placing, positioning). 🧲 capio → 🟠 (receiving, taking in). 🧸 fero → 🟢 (carrying, transferring organically). 👀 specio → 🟣 (inspecting, observing closely). 🥨 tendo → 🔴 (extending, pushing limits). 🤌 facio → 🔵 (executing, performing). 🚀 mitto → 🔴 (launching, maximum commitment). 🦢 plico → 🟣 (folding, layering). 🪵 teneo → ⚪ (holding, persisting). 🐋 duco → 🔵 (orchestrating). ✒️ grapho → 🔵 (documenting). 🦉 logos → 🟣 (reasoning).
+
+**Liberal Art of the day.** Grammar → ⚫. Logic → 🟣. Rhetoric → 🟠. Arithmetic → 🔵. Geometry → 🟢. Music → 🟡. Astronomy → ⚪.
+
+**Current events urgency level.** Scale of 0–3. 0 = no urgent events (no override). 1 = notable event (mild signal toward 🔴). 2 = significant event (strong signal toward 🔴). 3 = emergency (🔴 override, supersedes all other signals).
+
+**Content lane strength profile.** Which lanes produced the strongest material? Each lane's strength (rated 0–3 by Prompt 2) contributes a signal toward its own Color.
+
+**Temporal arc.** Yesterday's Color receives a negative weight (avoid repetition). The Color two days ago receives a mild negative weight. This ensures the week breathes.
+
+### Resolution
+
+Sum the signal weights for each of the 8 Colors. The Color with the highest aggregate weight is the recommendation. The margin between first and second place determines the confidence level:
+
+- Margin > 3: High confidence. Color is clear.
+- Margin 1–3: Moderate confidence. Color is the recommendation but the runner-up is defensible.
+- Margin < 1: Close call. Either Color works. Note the close call in the editorial reasoning.
+
+### Status
+
+PLANNED. This scoring mechanism will be built after 30–60 manually-determined Colors provide calibration data for the signal weights. The manual determination (human editorial judgment in Prompt 2) is the v1 implementation. The scoring mechanism is the v2 implementation. Both produce the same output — a Color and an editorial reasoning paragraph.
+
+---
+
 🧮
