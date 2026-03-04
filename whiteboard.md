@@ -108,10 +108,16 @@ Artifacts:
 - `operis-editions/test-results/2024-07-26/pipeline-validation-report.md`
 
 Follow-up actions:
-1) Add strict URL + sky-field enforcement to P1 template/checklist.
-2) Add per-lane URL enforcement to P2 template/checklist.
-3) Add Contract C frontmatter schema preflight (`sandbox-zips`, `sandbox-total`) to P3.
-4) Re-run same date test after prompt/schema patching.
+Open follow-ups:
+1) Add strict URL + sky-field enforcement to P1 template/checklist (Contract A gap still open).
+2) Add per-lane URL enforcement to P2 template/checklist (Contract B gap still open).
+3) Re-run same date test after URL/schema patching.
+
+Completed since Session 030:
+- ✅ Contract C frontmatter schema preflight (`sandbox-zips`, `sandbox-total`) and parser hardening landed (team refs: `8d730f9`; parser commit: `c024c37`).
+- ✅ status allow-list alignment between schema + inventory docs/scripts landed (team refs: `b47b269`; alignment commit: `8f48ad5`).
+- ✅ full-audit strict/baseline success-message clarification landed (`5369fff`).
+- ✅ tree-notation validation hardening landed (`53f85f3`, `0fbf244`) and integrated with Contract C parsing (`c024c37`).
 
 **2A. Codex Audit — Agents-Friendly Expansion (Non-Operis Core)**
 Why: Define non-web tasks that strengthen Daily Operis substrate: deck throughput, validation automation, inventory truth tables, and agent handoff contracts.
@@ -197,7 +203,7 @@ These are tracked and sequenced but not immediate.
 - Vocabulary standard seeded: scl-deep/vocabulary-standard.md — governs all PPL± content generation going forward
 - Color weight derivation updated: middle-math/rendering/operis-weight-derivation.md — Color of the Day scoring mechanism planned (Session 028)
 - Publication standard updated: scl-deep/publication-standard.md — Color as Cognitive Posture extension added (Session 028)
-- Next: Store four Operis V4 prompts in repo as seeds (Researcher, Content Architect, Editor, Builder). Then test pipeline on a real date. Then continue Deck 09 identity and generation.
+- Next: Merge URL/sky-field enforcement in P1 + per-lane URL enforcement in P2, then re-run the same-date Operis V4 pipeline test. After contract pass, continue Deck 09 identity and generation.
 - Requires: historical events database (366 files, one-time build ~180 hours research, builds incrementally)
 - Requires: cosmogram population (provides deep substrate for featured zip descriptions)
 - Requires: HTML experience layer (Phase 4/5)
@@ -611,7 +617,7 @@ Output:
   - seeds/operis-architecture.md — Generation Pipeline section updated with prompt file paths and 13-room confirmation, Standing Departments table aligned to 17 pipeline-matching department names, Rotation Engine V1.0 version note added, connects-to updated (UPDATED)
   - CLAUDE.md — 4 new prompt seed entries added to seeds/ listing, Operis Build-Out backlog updated (UPDATED)
   - whiteboard.md — Session 029 logged, Immediate Queue updated (UPDATED)
-Next: Test full Operis V4 pipeline on a real date (run P1→P2→P3→P4 in sequence). Then Build Deck 09 identity. Then Generate Deck 09.
+Next: Close remaining Contract A/B enforcement gaps (P1 URL+sky fields, P2 per-lane URLs), then re-run P1→P2→P3→P4 on 2024-07-26. After contract pass, continue Deck 09 identity → generation.
 
 ### Session 028
 Date: 2026-03-03
@@ -637,7 +643,7 @@ Architecture notes:
   - Color of the Day has three distinct identities documented: workout Color, publication Color, Operis cognitive posture.
   - Educational content lanes unified with Color Context Vernacular — each lane inherits its Color's tonal register.
   - Pipeline handoff contracts formalized: research brief, enriched content brief, Operis edition. Each is a defined markdown structure.
-Next: Store four Operis V4 prompts in repo as seeds (Session 029). Then test P1→P2→P3 on a real date. Then continue Deck 09.
+Next: Superseded by Sessions 029–030 and post-030 follow-up commits. Remaining work is Contract A/B URL enforcement + same-date re-test before returning to Deck 09.
 
 ### Session 027
 Date: 2026-03-01
