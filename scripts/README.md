@@ -37,6 +37,8 @@ In `--require-all-checks` mode, it additionally invokes contract scripts with
 
 Because each contract stub exits non-zero under `--require-implementation`, strict mode will fail until those implementations are complete.
 
+Success output text differs by mode: baseline prints `✅ Full audit sequence passed`, while strict mode prints `✅ Full audit sequence passed (strict mode)`.
+
 Artifacts are written to `scripts/.artifacts/`.
 
 Baseline sequence count: **6 explicit hard-fail steps**.
