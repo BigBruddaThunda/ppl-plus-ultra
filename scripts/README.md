@@ -4,17 +4,38 @@ This folder contains card validation and audit automation for the Codex expansio
 
 ## One-command full audit
 
+### Baseline mode (implemented checks only)
+
 ```bash
 bash scripts/run-full-audit.sh cards/⛽-strength/🏛-basics
 ```
 
-The orchestrator runs:
+### Strict mode (baseline + require all contract checks)
+
+```bash
+bash scripts/run-full-audit.sh --require-all-checks cards/⛽-strength/🏛-basics
+```
+
+The orchestrator always runs baseline checks:
 1. `scripts/lint-scl-rules.py`
 2. `scripts/validate-deck.sh`
 3. `scripts/audit-exercise-coverage.py`
 4. `scripts/check-card-schema.py`
 5. `scripts/validate-junction-bridges.py`
 6. `scripts/index-card-inventory.py`
+
+In `--require-all-checks` mode, it additionally invokes contract scripts with
+`--require-implementation`:
+1. `scripts/check-weight-declarations.py --require-implementation`
+2. `scripts/check-exercise-family-tree.py --require-implementation`
+3. `scripts/run-selector-prototype.py --require-implementation`
+4. `scripts/check-fatigue-model.py --require-implementation`
+5. `scripts/build-canonicalization-pack.py --require-implementation`
+6. `scripts/validate-agent-handoffs.py --require-implementation`
+7. `scripts/run-agent-fixtures.py --require-implementation`
+8. `scripts/validate-session-templates.py --require-implementation`
+
+Because each contract stub exits non-zero under `--require-implementation`, strict mode will fail until those implementations are complete.
 
 Artifacts are written to `scripts/.artifacts/`.
 

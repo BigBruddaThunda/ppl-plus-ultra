@@ -1,18 +1,55 @@
 #!/usr/bin/env bash
 # run-full-audit.sh
 # Input contract:
-#   bash scripts/run-full-audit.sh <deck-path>
+#   bash scripts/run-full-audit.sh [--require-all-checks] <deck-path>
 # Output contract:
 #   Runs baseline full audit sequence and exits non-zero on any hard failure.
+#   Optional strict mode additionally enforces contract-stub implementation checks.
 
 set -euo pipefail
 
-if [ $# -lt 1 ]; then
-  echo "Usage: bash scripts/run-full-audit.sh <deck-folder-path>"
+STRICT_MODE=false
+DECK_PATH=""
+
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --require-all-checks)
+      STRICT_MODE=true
+      shift
+      ;;
+    -h|--help)
+      cat <<'USAGE'
+Usage:
+  bash scripts/run-full-audit.sh <deck-folder-path>
+  bash scripts/run-full-audit.sh --require-all-checks <deck-folder-path>
+
+Modes:
+  default                Run baseline implemented audit checks.
+  --require-all-checks   Run baseline checks, then require all contract checks
+                         to be implemented (passes --require-implementation).
+USAGE
+      exit 0
+      ;;
+    --*)
+      echo "Unknown flag: $1"
+      exit 1
+      ;;
+    *)
+      if [ -n "$DECK_PATH" ]; then
+        echo "Error: multiple deck paths provided ('$DECK_PATH' and '$1')."
+        exit 1
+      fi
+      DECK_PATH="$1"
+      shift
+      ;;
+  esac
+done
+
+if [ -z "$DECK_PATH" ]; then
+  echo "Usage: bash scripts/run-full-audit.sh [--require-all-checks] <deck-folder-path>"
   exit 1
 fi
 
-DECK_PATH="$1"
 ARTIFACT_DIR="scripts/.artifacts"
 mkdir -p "$ARTIFACT_DIR"
 
@@ -38,4 +75,16 @@ python scripts/index-card-inventory.py \
   --out-json "$ARTIFACT_DIR/card-inventory.json" \
   --out-csv "$ARTIFACT_DIR/card-inventory.csv"
 
-echo "✅ Full audit sequence passed"
+if [ "$STRICT_MODE" = true ]; then
+  echo "[strict] Require contract-stub implementations"
+  python scripts/check-weight-declarations.py --require-implementation
+  python scripts/check-exercise-family-tree.py --require-implementation
+  python scripts/run-selector-prototype.py --require-implementation
+  python scripts/check-fatigue-model.py --require-implementation
+  python scripts/build-canonicalization-pack.py --require-implementation
+  python scripts/validate-agent-handoffs.py --require-implementation
+  python scripts/run-agent-fixtures.py --require-implementation
+  python scripts/validate-session-templates.py --require-implementation
+fi
+
+echo "✅ Full audit sequence passed${STRICT_MODE:+ (strict mode)}"
