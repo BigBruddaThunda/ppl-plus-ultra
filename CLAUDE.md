@@ -742,6 +742,20 @@ These tools are available in every session. They are not optional — they are p
 | SessionStart (startup) | Runs progress-report.py and displays dashboard |
 | SessionStart (compact) | Re-injects phase context after compaction |
 
+### Context firewall (CLAUDE.md)
+
+- CLAUDE.md edits are allowed only when a container explicitly lists `CLAUDE.md` in **Writes**.
+- No edits outside sections named by the active container.
+- If `CLAUDE.md` is not in the active container's **Writes** list, treat it as read-only.
+
+Containers with explicit `CLAUDE.md` write scope:
+
+| Container | Writes | CLAUDE.md insertion point | Permitted CLAUDE.md section names |
+|---|---|---|---|
+| CX-19 — Session Log Append | `whiteboard.md`, `CLAUDE.md` | Append-only at file end, after final `---` separator | `## PPL± OPERIS BUILD-OUT — SESSION 028` |
+| CX-24 — Numeric Zip Layer | `middle-math/**`, `README.md`, `html/README.md`, `CLAUDE.md`, `whiteboard.md` | Insert only under existing architecture sections; no new top-level section creation | `## NUMERIC ZIP NOTATION`, `## EXPERIENCE LAYER ARCHITECTURE`, `## DATA ETHICS POSITION` |
+| CX-29 — Operis Prompt Pipeline | `seeds/operis-*.md`, `CLAUDE.md`, `whiteboard.md` | Update bullets inside existing Operis status section only | `## PPL± OPERIS BUILD-OUT — SESSION 028` |
+
 ### Session startup sequence
 
 Every session should follow this sequence:
