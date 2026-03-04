@@ -53,22 +53,22 @@ fi
 ARTIFACT_DIR="scripts/.artifacts"
 mkdir -p "$ARTIFACT_DIR"
 
-echo "[1/5] Lint SCL rules"
+echo "[1/6] Lint SCL rules"
 python scripts/lint-scl-rules.py --deck "$DECK_PATH"
 
-echo "[2/5] Validate deck"
+echo "[2/6] Validate deck"
 bash scripts/validate-deck.sh "$DECK_PATH"
 
-echo "[3/5] Audit primary exercise coverage"
+echo "[3/6] Audit primary exercise coverage"
 python scripts/audit-exercise-coverage.py "$DECK_PATH"
 
-echo "[4/5] Check card schema"
+echo "[4/6] Check card schema"
 python scripts/check-card-schema.py --deck "$DECK_PATH"
 
-echo "[5/5] Validate junction bridges"
+echo "[5/6] Validate junction bridges"
 python scripts/validate-junction-bridges.py --deck "$DECK_PATH"
 
-echo "[inventory] Build truth table outputs"
+echo "[6/6] Build card inventory artifacts"
 python scripts/index-card-inventory.py \
   --cards-root cards \
   --strict-status \
