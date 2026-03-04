@@ -762,6 +762,33 @@ Every session should follow this sequence:
 
 ---
 
+## SYSTEMS LANGUAGE
+
+PPL± uses two controlled vocabularies:
+
+1. **SCL** (`scl-directory.md`) — the workout language. 61 emojis, 7 categories, 1,680 addresses.
+2. **Systems Glossary** (`scl-deep/systems-glossary.md`) — the architecture language. How the project describes its own operations.
+
+When describing system operations (pipelines, data flow, validation, state management, feedback loops), use the glossary term. When you encounter a systems concept without a glossary term, flag it — the glossary may need expansion, or the concept may need clearer design.
+
+**Key terms you will encounter in this file and across the repo:**
+
+- **Main bus** — `CLAUDE.md` + `scl-directory.md`. The central resource. Tap it. Don't duplicate it.
+- **Authoritative source** — The origin document that wins all conflicts.
+- **Scan cycle** — The full validation pass that runs on every card edit (via PostToolUse inserter).
+- **Inserter** — An automatic hook that moves data between systems without human invocation.
+- **Cache hit / miss** — Whether a zip code has generated content (hit) or is an EMPTY stub (miss).
+- **Emit** — Produce the final output artifact. The Builder emits. The Editor writes IR.
+- **Rung** — A single validation rule in the scan cycle.
+- **Interlock** — A hard safety prevention (structural, not detected-after-the-fact).
+- **Event** — An immutable logged set. **Projection** — A read model derived from replaying events.
+- **Resolution** — Converting a zip code into a rendered workout.
+- **Spaghetti** — Ad-hoc naming that bypasses the bus. The cure: route it through the glossary.
+
+Full glossary: `scl-deep/systems-glossary.md`
+
+---
+
 ## TEMP PPL± ARCHITECT PATTERN
 
 PPL± uses external AI environments (Genspark, Claude.ai web) as
