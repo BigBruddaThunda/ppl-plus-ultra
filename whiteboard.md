@@ -35,6 +35,7 @@ Ground truth: 80 cards generated (Decks 07 + 08). 1,600 remaining.
 - [x] Zip-web architecture — zip-web/ with rules, signatures, registry, 42 pod files (Deck 07 populated, 41 stubs)
 - [x] Ralph Loop — scripts/ralph/ with ralph.sh, RALPH-PROMPT.md, prd.json, progress.txt
 - [x] Automation — scripts/ (validate-card.py, progress-report.py, validate-deck.sh, audit-exercise-coverage.py)
+- [x] Audit workflow docs — scripts/README.md (full audit orchestrator + checklist matrix link)
 - [x] Skills — .claude/skills/ (generate-card, build-deck-identity, progress-report, retrofit-deck, ralph-loop)
 - [x] Subagents — .claude/agents/ (card-generator, deck-auditor, progress-tracker)
 - [x] Hooks — .claude/settings.json (PostToolUse validation, SessionStart dashboard, compaction recovery)
