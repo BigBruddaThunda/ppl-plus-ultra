@@ -10,7 +10,7 @@ Output contract:
 - Optional JSON/CSV artifacts.
 - Exit 1 on hard failures:
   - unreadable markdown file
-  - unknown status when `--strict-status` is enabled
+  - missing or unknown status when `--strict-status` is enabled
 """
 
 from __future__ import annotations
@@ -74,9 +74,13 @@ def main():
             hard_fail = True
             continue
 
-        if args.strict_status and row['status'] and row['status'] not in VALID_STATUSES:
-            print(f"❌ Unknown status '{row['status']}' in {row['file']}")
-            hard_fail = True
+        if args.strict_status:
+            if not row['status']:
+                print(f"❌ missing status in {row['file']}")
+                hard_fail = True
+            elif row['status'] not in VALID_STATUSES:
+                print(f"❌ unknown status '{row['status']}' in {row['file']}")
+                hard_fail = True
 
         rows.append(row)
 

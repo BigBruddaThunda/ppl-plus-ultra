@@ -63,7 +63,7 @@ Implemented baseline:
 - `scripts/lint-scl-rules.py`
 - `scripts/check-card-schema.py`
 - `scripts/validate-junction-bridges.py`
-- `scripts/index-card-inventory.py`
+- `scripts/index-card-inventory.py` (`--strict-status` enforces both status presence and allowed values)
 - `scripts/run-full-audit.sh`
 
 Contract stubs (CLI locked for future implementation):
