@@ -87,4 +87,8 @@ if [ "$STRICT_MODE" = true ]; then
   python scripts/validate-session-templates.py --require-implementation
 fi
 
-echo "✅ Full audit sequence passed${STRICT_MODE:+ (strict mode)}"
+if [ "$STRICT_MODE" = true ]; then
+  echo "✅ Full audit sequence passed (strict mode)"
+else
+  echo "✅ Full audit sequence passed"
+fi
