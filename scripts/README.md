@@ -77,3 +77,26 @@ Contract stubs (CLI locked for future implementation):
 - `scripts/validate-session-templates.py`
 
 Each stub supports `--require-implementation` and exits non-zero when invoked with it.
+
+## Operis pipeline contract validator
+
+Validate all three Operis pipeline artifacts in one pass:
+
+```bash
+python3 scripts/validate-operis-contracts.py operis-editions/test-results/2024-07-26/
+```
+
+What it enforces:
+1. `contract-a-research-brief.md`
+   - Every historical event has at least one explicit source URL.
+   - Required sky-time fields (`Sunrise`, `Sunset`, `Moonrise`, `Moonset`) exist and include exact times.
+2. `contract-b-content-brief.md`
+   - Every content lane includes an explicit source URL list with at least one URL.
+3. `contract-c-operis-edition.md` frontmatter
+   - `sandbox-zips` exists and is structurally valid.
+   - `sandbox-total` exists and equals `13`.
+   - Legacy key `rooms` is rejected.
+
+Behavior:
+- Exits non-zero on the first contract violation.
+- Prints a human-readable `ERROR:` line for the failing contract rule.
