@@ -99,8 +99,8 @@ def validate_card(path: Path):
             failures.append('missing sub-block zip marker (BLOCK+TYPE+AXIS+COLOR)')
 
     notes = []
-    if status != 'EMPTY' and '├─' not in body and '│' not in body:
-        failures.append('tree notation not detected')
+    if status != 'EMPTY' and ('├─' not in body or '│' not in body):
+        failures.append('tree notation incomplete: requires both ├─ and │ markers')
     return failures, notes
 
 
