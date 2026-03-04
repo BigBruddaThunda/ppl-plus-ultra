@@ -18,6 +18,14 @@ The orchestrator runs:
 
 Artifacts are written to `scripts/.artifacts/`.
 
+Baseline sequence count: **6 explicit hard-fail steps**.
+
+## Contract-first optional phase (stubbed entry points)
+
+The baseline hard-fail audit is only the six steps listed above and executed by `run-full-audit.sh`.
+
+The stubbed scripts below are **not** part of baseline execution order. They are optional contract checks reserved for future implementation and can be run independently when needed.
+
 ## Checklist matrix and coverage map
 
 See `scripts/audit-checklist-matrix.md` for the extracted check matrix from:
