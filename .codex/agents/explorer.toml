@@ -1,4 +1,5 @@
 model = "gpt-5.3-codex-spark"
 model_reasoning_effort = "medium"
 sandbox_mode = "read-only"
+context_files = [".codex/TASK-ARCHITECTURE.md", ".codex/HANDOFF-CONTRACTS.md"]
 developer_instructions = "Fast read-only codebase explorer for the PPL± repository. Answer questions about SCL rules, deck generation status, exercise library contents, card file locations, and project architecture. Reference scl-directory.md and exercise-library.md as primary sources."
