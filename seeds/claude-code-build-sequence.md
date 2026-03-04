@@ -171,7 +171,7 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 **Goal:** New user gets equipment profile and region set during onboarding.
 
-**Depends on:** Session D.
+**Depends on:** Sessions A, D.
 
 **Build this session:**
 1. Build `user_exercise_toggles` table per `middle-math/schemas/user-toggles-schema.md`
@@ -199,7 +199,7 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 **Goal:** Subscriptions work. Free → Tier 1 → Tier 2 flow is complete.
 
-**Depends on:** Session D.
+**Depends on:** Sessions A, D.
 
 **Build this session:**
 1. Create two Stripe products per `seeds/stripe-integration-pipeline.md`
@@ -226,7 +226,7 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 **Goal:** Users can log sets during a workout session.
 
-**Depends on:** Sessions B, D, F.
+**Depends on:** Sessions A, B, D, F.
 
 **Build this session:**
 1. Create `workout_logs` table per `middle-math/schemas/user-ledger-schema.md`
@@ -252,7 +252,7 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 **Goal:** Users can save rooms and build a personal library.
 
-**Depends on:** Sessions B, D, F.
+**Depends on:** Sessions A, B, D, F.
 
 **Build this session:**
 1. Create `saved_workouts` table (user_id, zip_code, saved_at, notes)
@@ -325,7 +325,7 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 **Goal:** The room content area is a zoomable canvas with deck map at full zoom-out.
 
-**Depends on:** Sessions B, C.
+**Depends on:** Sessions A, B, C.
 
 **Build this session:**
 1. Wrap room content in a zoomable container using @use-gesture/react
@@ -351,7 +351,7 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 **Goal:** The 🐬 Sociatas floor is live for Tier 2 users.
 
-**Depends on:** Sessions D, F.
+**Depends on:** Sessions A, D, F.
 
 **Build this session:**
 1. Create `community_posts` and `community_replies` tables
@@ -377,7 +377,7 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 **Goal:** Full GDPR-style data control is implemented.
 
-**Depends on:** Sessions D, G, H.
+**Depends on:** Sessions A, B, D, F, G, H.
 
 **Build this session:**
 1. Build `GET /api/user/export` per `seeds/data-ethics-architecture.md`
@@ -402,7 +402,7 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 **Goal:** The app is live at its production domain.
 
-**Depends on:** All previous sessions.
+**Depends on:** Sessions A, B, C, C-2, D, E, F, G, H, I, J, K, L, M.
 
 **Build this session:**
 1. Configure Vercel project, connect GitHub repo, set all environment variables
@@ -433,7 +433,7 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 **Goal:** Workout content and Operis can be read aloud with Wilson's voice identity.
 
-**Depends on:** Sessions A, I (Operis). `seeds/wilson-voice-identity.md`.
+**Depends on:** Sessions A, B, D, I (Operis). `seeds/wilson-voice-identity.md`.
 
 **Build this session:**
 1. Select TTS provider (ElevenLabs preferred — voice cloning from Jake's recording)
@@ -447,7 +447,7 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 **Goal:** Curated workout playlists based on Order × Color mood.
 
-**Depends on:** Session V. `seeds/automotive-layer-architecture.md`.
+**Depends on:** Sessions A, B, D, I, V. `seeds/automotive-layer-architecture.md`.
 
 **Build this session:**
 1. Derive 56 mood profiles (7 Orders × 8 Colors)
@@ -460,7 +460,7 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 **Goal:** Android Auto integration for Operis audio and zip navigation.
 
-**Depends on:** Sessions V, W. Android Auto developer program enrollment required.
+**Depends on:** Sessions A, B, D, I, V, W. Android Auto developer program enrollment required.
 
 **Build this session:**
 1. Build Android Auto Media app (Kotlin/Android) using Media3 library
@@ -473,7 +473,7 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 **Goal:** CarPlay integration mirrors Android Auto functionality.
 
-**Depends on:** Session X (shared audio API). CarPlay entitlement from Apple required.
+**Depends on:** Sessions A, B, D, I, V, W, X (shared audio API). CarPlay entitlement from Apple required.
 
 **Build this session:**
 1. Build CarPlay app (Swift/iOS) using CPListTemplate
@@ -484,7 +484,7 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 **Goal:** Free tier users experience the daily Operis audio in car without subscription.
 
-**Depends on:** Sessions V, X, Y.
+**Depends on:** Sessions A, B, D, I, V, W, X, Y.
 
 **Build this session:**
 1. Make Operis audio accessible without authentication in both Auto and CarPlay apps
@@ -494,30 +494,39 @@ Sessions do not have to be executed in strict sequence, but the dependency chain
 
 ---
 
-## Session Summary Table
+## Phase Summary (Container Blocks)
 
-| Session | What It Builds | Key Dependency |
-|---------|---------------|----------------|
-| A | Skeleton + zip routing | None |
-| B | Card rendering (MDX) | A |
-| C | 4-dial navigation | A |
-| C-2 | Voice parser | A, C |
-| D | Auth + profiles | A |
-| E | Onboarding | D |
-| F | Stripe + payments | D |
-| G | Workout logging | B, D, F |
-| H | Saved rooms | B, D, F |
-| I | Operis | A, B, D |
-| J | Six floors | A, B |
-| K | Pinch-zoom canvas | B, C |
-| L | Community floor | D, F |
-| M | Data export + deletion | D, G, H |
-| N | Production deployment | All |
-| V | TTS + Wilson | A, I |
-| W | Playlists | V |
-| X | Android Auto | V, W |
-| Y | Apple CarPlay | X |
-| Z | Free audio funnel | V, X, Y |
+| Phase | Sessions | Notes |
+|-------|----------|-------|
+| Launch | A, B, C, C-2, D, E, F, G, H, I, J, K, L, M, N | Core web app from skeleton to production deployment. |
+| Post-Launch (Automotive) | V, W, X, Y, Z | Voice + in-car expansion layers. |
+
+## Dependency Map
+
+Container block `Depends on` is the canonical source; summary tables must mirror it.
+
+| Container | Full explicit `Depends on` list |
+|-----------|---------------------------------|
+| A | None |
+| B | A |
+| C | A |
+| C-2 | A, C |
+| D | A |
+| E | A, D |
+| F | A, D |
+| G (CX-07) | A, B, D, F |
+| H | A, B, D, F |
+| I | A, B, D |
+| J | A, B |
+| K | A, B, C |
+| L | A, D, F |
+| M | A, B, D, F, G, H |
+| N | A, B, C, C-2, D, E, F, G, H, I, J, K, L, M |
+| V | A, B, D, I |
+| W | A, B, D, I, V |
+| X | A, B, D, I, V, W |
+| Y | A, B, D, I, V, W, X |
+| Z | A, B, D, I, V, W, X, Y |
 
 ---
 
