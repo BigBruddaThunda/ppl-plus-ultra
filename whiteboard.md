@@ -782,3 +782,14 @@ Update this file whenever the project state changes.
 The whiteboard is always the current truth.
 
 🧮
+
+### Session 031
+Date: 2026-03-04
+Work: Codex next-round handoff planner authored for container/job continuity
+Branch: current active branch
+Output:
+  - .codex/NEXT-ROUND-HANDOFF.md — copy/paste brief capturing assumed-merged fixes, next task pack (A–D), definition of done, and kickoff prompt for next Codex run.
+Notes:
+  - Purpose is session-to-session continuity: prevent reopening closed loops and shift focus to container completion ledger + handoff closure evidence.
+Next:
+  - Execute Task A/B/C from `.codex/NEXT-ROUND-HANDOFF.md` in next active session.
