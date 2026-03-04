@@ -8,6 +8,11 @@ import re
 import sys
 from pathlib import Path
 
+try:
+    import yaml  # type: ignore
+except ImportError:  # pragma: no cover - fallback parser handles this case
+    yaml = None
+
 URL_RE = re.compile(r"https?://[^\s)>\]]+")
 TIME_RE = re.compile(r"\b\d{1,2}:\d{2}(?:\s?[APap][Mm])?\b")
 
@@ -102,93 +107,204 @@ def extract_frontmatter(path: Path) -> str:
     return text[4:end]
 
 
-def validate_contract_c(path: Path) -> None:
-    fm = extract_frontmatter(path)
+def _parse_contract_c_frontmatter_constrained(fm: str, path: Path) -> dict[str, object]:
+    """Parse only the Contract C frontmatter subset needed for validation.
+
+    Supported shape:
+    - root scalars
+    - sandbox-zips.siblings[] (strings)
+    - sandbox-zips.content-rooms[] (maps with scalar fields)
+    """
+
+    data: dict[str, object] = {}
     lines = fm.splitlines()
+    i = 0
 
-    root_keys: dict[str, str] = {}
-    for raw in lines:
-        if raw.startswith(" ") or raw.startswith("\t"):
+    while i < len(lines):
+        raw = lines[i]
+        if not raw.strip():
+            i += 1
             continue
-        m = re.match(r"^([A-Za-z0-9_-]+)\s*:\s*(.*)$", raw)
-        if m:
-            root_keys[m.group(1)] = m.group(2).strip()
 
-    if "rooms" in root_keys:
+        root_match = re.match(r"^([A-Za-z0-9_-]+):\s*(.*)$", raw)
+        if not root_match:
+            fail(f"{path}: Malformed frontmatter line: '{raw}'")
+
+        key = root_match.group(1)
+        value = root_match.group(2).strip()
+
+        if key != "sandbox-zips":
+            data[key] = value.strip('"\'')
+            i += 1
+            if value == "":
+                while i < len(lines):
+                    nested_raw = lines[i]
+                    if not nested_raw.strip():
+                        i += 1
+                        continue
+                    if not nested_raw.startswith("  "):
+                        break
+                    i += 1
+            continue
+
+        if value:
+            fail(f"{path}: 'sandbox-zips' must be a nested mapping")
+
+        i += 1
+        sandbox: dict[str, object] = {}
+        while i < len(lines):
+            child_raw = lines[i]
+            if not child_raw.strip():
+                i += 1
+                continue
+
+            if not child_raw.startswith("  "):
+                break
+
+            child = child_raw[2:]
+            child_match = re.match(r"^([A-Za-z0-9_-]+):\s*(.*)$", child)
+            if not child_match:
+                fail(f"{path}: Malformed sandbox-zips entry: '{child_raw}'")
+
+            child_key = child_match.group(1)
+            child_value = child_match.group(2).strip()
+            if child_value:
+                fail(f"{path}: 'sandbox-zips.{child_key}' must be a list")
+
+            if child_key == "siblings":
+                siblings: list[str] = []
+                i += 1
+                while i < len(lines):
+                    item_raw = lines[i]
+                    if not item_raw.strip():
+                        i += 1
+                        continue
+                    if not item_raw.startswith("    - "):
+                        break
+                    item_value = item_raw[6:].strip().strip('"\'')
+                    if not item_value:
+                        fail(f"{path}: Empty item found in sandbox-zips.siblings")
+                    siblings.append(item_value)
+                    i += 1
+                sandbox[child_key] = siblings
+                continue
+
+            if child_key == "content-rooms":
+                content_rooms: list[dict[str, str]] = []
+                i += 1
+                while i < len(lines):
+                    item_raw = lines[i]
+                    if not item_raw.strip():
+                        i += 1
+                        continue
+                    if not item_raw.startswith("    - "):
+                        break
+
+                    rest = item_raw[6:].strip()
+                    room: dict[str, str] = {}
+                    if rest:
+                        inline_match = re.match(r"^([A-Za-z0-9_-]+):\s*(.*)$", rest)
+                        if not inline_match:
+                            fail(
+                                f"{path}: Malformed content-room list item: '{item_raw.strip()}'"
+                            )
+                        room[inline_match.group(1)] = inline_match.group(2).strip().strip('"\'')
+
+                    i += 1
+                    while i < len(lines):
+                        field_raw = lines[i]
+                        if not field_raw.strip():
+                            i += 1
+                            continue
+                        if field_raw.startswith("    - ") or not field_raw.startswith("      "):
+                            break
+
+                        field = field_raw[6:]
+                        if ":" not in field:
+                            fail(
+                                f"{path}: Malformed content-room field: '{field_raw.strip()}'"
+                            )
+                        field_key, field_value = field.split(":", 1)
+                        room[field_key.strip()] = field_value.strip().strip('"\'')
+                        i += 1
+
+                    content_rooms.append(room)
+
+                sandbox[child_key] = content_rooms
+                continue
+
+            fail(f"{path}: Unsupported key under sandbox-zips: '{child_key}'")
+
+        data[key] = sandbox
+
+    return data
+
+
+def parse_frontmatter(path: Path) -> dict[str, object]:
+    fm = extract_frontmatter(path)
+
+    if yaml is not None:
+        try:
+            parsed = yaml.safe_load(fm)
+        except yaml.YAMLError as exc:
+            fail(f"{path}: Invalid YAML frontmatter ({exc})")
+        if not isinstance(parsed, dict):
+            fail(f"{path}: Frontmatter must parse to a mapping")
+        return parsed
+
+    return _parse_contract_c_frontmatter_constrained(fm, path)
+
+
+def validate_contract_c(path: Path) -> None:
+    frontmatter = parse_frontmatter(path)
+
+    if "rooms" in frontmatter:
         fail(f"{path}: Legacy key 'rooms' is not allowed; use 'sandbox-zips'")
 
-    if "sandbox-zips" not in root_keys:
+    if "sandbox-zips" not in frontmatter:
         fail(f"{path}: Missing required frontmatter key 'sandbox-zips'")
 
-    if "sandbox-total" not in root_keys:
+    if "sandbox-total" not in frontmatter:
         fail(f"{path}: Missing required frontmatter key 'sandbox-total'")
-    total_str = root_keys["sandbox-total"].strip('"\'')
+
+    total_str = str(frontmatter["sandbox-total"]).strip('"\'')
     if total_str != "13":
-        fail(f"{path}: 'sandbox-total' must equal 13 (found: {root_keys['sandbox-total']})")
+        fail(f"{path}: 'sandbox-total' must equal 13 (found: {frontmatter['sandbox-total']})")
 
-    sibling_count = 0
-    content_items: list[dict[str, str]] = []
-    in_sandbox = False
-    mode = None
+    sandbox = frontmatter["sandbox-zips"]
+    if not isinstance(sandbox, dict):
+        fail(f"{path}: 'sandbox-zips' must be a mapping")
 
-    for raw in lines:
-        indent = len(raw) - len(raw.lstrip(" "))
-        stripped = raw.strip()
+    siblings = sandbox.get("siblings")
+    if not isinstance(siblings, list):
+        fail(f"{path}: sandbox-zips.siblings must be a list")
+    if len(siblings) != 8:
+        fail(f"{path}: sandbox-zips.siblings must contain exactly 8 zips (found: {len(siblings)})")
+    for i, item in enumerate(siblings, start=1):
+        if not str(item).strip():
+            fail(f"{path}: sandbox-zips.siblings item {i} is empty")
 
-        if indent == 0 and stripped.startswith("sandbox-zips:"):
-            in_sandbox = True
-            mode = None
-            continue
-
-        if indent == 0 and in_sandbox:
-            break
-
-        if not in_sandbox or not stripped:
-            continue
-
-        if indent == 2 and stripped.startswith("siblings:"):
-            mode = "siblings"
-            continue
-
-        if indent == 2 and stripped.startswith("content-rooms:"):
-            mode = "content"
-            continue
-
-        if mode == "siblings" and indent >= 4 and stripped.startswith("- "):
-            item = stripped[2:].strip().strip('"\'')
-            if not item:
-                fail(f"{path}: Empty item found in sandbox-zips.siblings")
-            sibling_count += 1
-            continue
-
-        if mode == "content" and indent >= 4 and stripped.startswith("- "):
-            item: dict[str, str] = {}
-            rest = stripped[2:].strip()
-            if rest:
-                inline = re.match(r"([A-Za-z0-9_-]+)\s*:\s*(.*)$", rest)
-                if inline:
-                    item[inline.group(1)] = inline.group(2).strip().strip('"\'')
-            content_items.append(item)
-            continue
-
-        if mode == "content" and indent >= 6 and ":" in stripped and content_items:
-            key, value = stripped.split(":", 1)
-            content_items[-1][key.strip()] = value.strip().strip('"\'')
-
-    if sibling_count == 0:
-        fail(f"{path}: sandbox-zips.siblings must contain at least one zip")
-
-    if not content_items:
-        fail(f"{path}: sandbox-zips.content-rooms must contain at least one room")
-
-    for i, item in enumerate(content_items, start=1):
-        zip_value = item.get("zip", "").strip()
-        if not zip_value:
-            fail(f"{path}: sandbox-zips.content-rooms item {i} is missing required 'zip'")
-
-    if sibling_count + len(content_items) != 13:
+    content_items = sandbox.get("content-rooms")
+    if not isinstance(content_items, list):
+        fail(f"{path}: sandbox-zips.content-rooms must be a list")
+    if len(content_items) != 5:
         fail(
-            f"{path}: sandbox-zips contains {sibling_count + len(content_items)} entries; expected 13"
+            f"{path}: sandbox-zips.content-rooms must contain exactly 5 rooms (found: {len(content_items)})"
+        )
+
+    required_fields = ("zip", "source", "source-beat")
+    for i, item in enumerate(content_items, start=1):
+        if not isinstance(item, dict):
+            fail(f"{path}: sandbox-zips.content-rooms item {i} must be a mapping")
+        for field in required_fields:
+            if not str(item.get(field, "")).strip():
+                fail(
+                    f"{path}: sandbox-zips.content-rooms item {i} is missing required '{field}'"
+                )
+
+    if len(siblings) + len(content_items) != 13:
+        fail(
+            f"{path}: sandbox-zips contains {len(siblings) + len(content_items)} entries; expected 13"
         )
 
 
