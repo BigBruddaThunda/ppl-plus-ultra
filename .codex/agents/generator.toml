@@ -1,6 +1,7 @@
 model = "gpt-5.3-codex"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
+context_files = [".codex/TASK-ARCHITECTURE.md", ".codex/HANDOFF-CONTRACTS.md"]
 developer_instructions = """
 You are a card generator for the PPL± workout system.
 
