@@ -45,6 +45,10 @@ Use this structure for every agent-to-agent transfer:
 - Scope Read: [paths]
 - Scope Write: [paths]
 - Artifacts Produced: [files]
+- Completion Status: COMPLETE|INCOMPLETE
+- Commit: [full commit hash or NONE]
+- Evidence Paths: [artifact/report paths proving checks]
+- Merged To Main: yes|no
 - Validation Run: [commands + status]
 - Open Interlocks: [none or list]
 - Next Agent: generator|validator|explorer|reviewer
@@ -56,6 +60,7 @@ Use this structure for every agent-to-agent transfer:
 - Do not create new SCL rules or emoji systems.
 - Do not bypass dependency order defined in `.codex/TASK-ARCHITECTURE.md`.
 - Do not mark work complete without validation evidence.
+- Do not mark a container complete without both a commit hash and artifact evidence paths.
 
 ## Routing Rules
 
@@ -63,3 +68,4 @@ Use this structure for every agent-to-agent transfer:
 - **generator → validator** after emit.
 - **validator → reviewer** when changes are ready for PR review.
 - **reviewer → generator** only when blocking issues require rework.
+- **reviewer → closure step** after pass: record container completion in `.codex/TASK-ARCHITECTURE.md` (status, commit, evidence paths, merged-to-main flag).
