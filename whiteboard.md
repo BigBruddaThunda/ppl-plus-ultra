@@ -86,15 +86,36 @@ Merged to main before Session 029.
 Files committed: seeds/operis-researcher-prompt.md, seeds/operis-content-architect-prompt.md, seeds/operis-editor-prompt.md, seeds/operis-builder-prompt.md (all V4.0).
 Also updated: seeds/operis-prompt-pipeline.md (version tags, 17-dept matrix, Prompt File Reference), seeds/operis-sandbox-structure.md (Constraint Summary, Mapping Chain, Naming Convention), seeds/operis-architecture.md (pipeline file refs, dept alignment, engine version note), CLAUDE.md (seed listings, backlog status).
 
-**2. Test Operis V4 Pipeline — Full Date Test**
+**2. ⚠️ Test Operis V4 Pipeline — Full Date Test (Session 030)**
+Status: Executed for 2024-07-26 (Friday), Northeastern US deterministic frame.
+Result: PARTIAL PASS / CONTRACT FAIL.
+
+Passes:
+- Color posture coherence (🔵 Structured) held across P2→P3.
+- 13-room Sandbox mapping fidelity passed (8 siblings + 5 content rooms; Order lock + unique Type/Axis constraints satisfied).
+- Department activation matrix behavior passed for Friday (🌾) active departments.
+
+Failures:
+- Contract A missing explicit source URLs per historical event and exact sky time fields.
+- Contract B missing explicit source URLs per content lane.
+- Contract C frontmatter key mismatch (`rooms` used instead of `sandbox-zips`) and missing `sandbox-total: 13`.
+
+Artifacts:
+- `operis-editions/test-results/2024-07-26/contract-a-research-brief.md`
+- `operis-editions/test-results/2024-07-26/contract-b-content-brief.md`
+- `operis-editions/test-results/2024-07-26/contract-c-operis-edition.md`
+- `operis-editions/test-results/2024-07-26/pipeline-validation-report.md`
+
+Follow-up actions:
+1) Add strict URL + sky-field enforcement to P1 template/checklist.
+2) Add per-lane URL enforcement to P2 template/checklist.
+3) Add Contract C frontmatter schema preflight (`sandbox-zips`, `sandbox-total`) to P3.
+4) Re-run same date test after prompt/schema patching.
+
 **2A. Codex Audit — Agents-Friendly Expansion (Non-Operis Core)**
 Why: Define non-web tasks that strengthen Daily Operis substrate: deck throughput, validation automation, inventory truth tables, and agent handoff contracts.
 Depends on: None.
 Unblocks: Safer scale-up while web-dependent research is deferred.
-
-Why: Run P1→P2→P3 for a real date (suggest current date or a historically rich date). Verify handoff contracts work, Color determination feels editorially sound, 13-room Sandbox structure produces valid rooms, Content Room mapping works, educational content weaves naturally, department activation matrix activates correctly for the day-of-week.
-Depends on: Prompts stored in repo.
-Unblocks: Confident production pipeline. P4 testing.
 
 **3. Build Deck 09 Identity — `/build-deck-identity 09`**
 Why: ⛽🌹 Strength × Aesthetic is next in the generation queue.
