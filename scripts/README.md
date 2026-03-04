@@ -62,8 +62,10 @@ The matrix maps each proposed check to:
 Implemented baseline:
 - `scripts/lint-scl-rules.py`
 - `scripts/check-card-schema.py`
+  - Uses the same canonical status allow-list: `EMPTY`, `GENERATED`, `GENERATED-V2`, `CANONICAL`, `REGEN-NEEDED`, `GENERATED-V2-REGEN-NEEDED`
 - `scripts/validate-junction-bridges.py`
 - `scripts/index-card-inventory.py` (`--strict-status` enforces both status presence and allowed values)
+  - Allowed values: `EMPTY`, `GENERATED`, `GENERATED-V2`, `CANONICAL`, `REGEN-NEEDED`, `GENERATED-V2-REGEN-NEEDED`
 - `scripts/run-full-audit.sh`
 
 Contract stubs (CLI locked for future implementation):

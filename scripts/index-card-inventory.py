@@ -11,6 +11,14 @@ Output contract:
 - Exit 1 on hard failures:
   - unreadable markdown file
   - missing or unknown status when `--strict-status` is enabled
+
+Canonical status allow-list (enforced by `--strict-status`):
+- EMPTY
+- GENERATED
+- GENERATED-V2
+- CANONICAL
+- REGEN-NEEDED
+- GENERATED-V2-REGEN-NEEDED
 """
 
 from __future__ import annotations
