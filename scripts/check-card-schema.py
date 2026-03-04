@@ -11,6 +11,14 @@ Output contract:
 - Exit 0 if all checked cards satisfy schema guardrails.
 - Exit 1 on hard failures (missing frontmatter, missing zip, malformed zip,
   missing required blocks for generated cards, missing/invalid sub-block zip markers).
+
+Canonical status allow-list:
+- EMPTY
+- GENERATED
+- GENERATED-V2
+- CANONICAL
+- REGEN-NEEDED
+- GENERATED-V2-REGEN-NEEDED
 """
 
 from __future__ import annotations
@@ -24,7 +32,7 @@ ORDERS = ['🐂', '⛽', '🦋', '🏟', '🌾', '⚖', '🖼']
 AXES = ['🏛', '🔨', '🌹', '🪐', '⌛', '🐬']
 TYPES = ['🛒', '🪡', '🍗', '➕', '➖']
 COLORS = ['⚫', '🟢', '🔵', '🟣', '🔴', '🟠', '🟡', '⚪']
-VALID_STATUSES = {'EMPTY', 'GENERATED', 'GENERATED-V2', 'CANONICAL'}
+VALID_STATUSES = {'EMPTY', 'GENERATED', 'GENERATED-V2', 'CANONICAL', 'REGEN-NEEDED', 'GENERATED-V2-REGEN-NEEDED'}
 
 SUB_BLOCK_PATTERN = re.compile(r'(?:^|\s)([♨️🎯🔢🧈🫀▶️🎼♟️🪜🌎🎱🌋🪞🗿🛠🧩🪫🏖🏗🧬🚂🔠][🛒🪡🍗➕➖][🏛🔨🌹🪐⌛🐬][⚫🟢🔵🟣🔴🟠🟡⚪])(?:\s|$)')
 
