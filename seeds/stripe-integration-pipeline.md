@@ -130,17 +130,24 @@ export async function POST(req: Request) {
       const email = session.customer_details?.email;
       const tier = session.metadata?.tier === '2' ? 2 : 1;
 
-      // Find user by email
-      const { data: { users } } = await supabaseAdmin.auth.admin.listUsers();
-      const user = users.find(u => u.email === email);
-      if (!user) break;
+      // Update profile directly by email; avoids missing users due to auth list pagination.
+      if (!email) break;
 
-      await supabaseAdmin.from('profiles').update({
+      const { error } = await supabaseAdmin.from('profiles').update({
         stripe_customer_id: customerId,
         stripe_subscription_id: subscriptionId,
         subscription_status: 'active',
         tier,
-      }).eq('id', user.id);
+      }).eq('email', email);
+
+      if (error) {
+        console.error('Profile tier upgrade failed for checkout.session.completed', {
+          email,
+          customerId,
+          subscriptionId,
+          error,
+        });
+      }
       break;
     }
 
