@@ -60,6 +60,11 @@ Extract constraint parameters from the four dials:
 def get_zip_constraints(zip_code):
     order, axis, type_, color = parse_zip(zip_code)
     return {
+        "zip":               zip_code,
+        "order":             order,
+        "axis":              axis,
+        "type":              type_,
+        "color":             color,
         "load_ceiling":      ORDER_PARAMS[order]["load_ceiling"],
         "rep_range":         ORDER_PARAMS[order]["rep_range"],
         "rest_range":        ORDER_PARAMS[order]["rest_range"],
@@ -158,24 +163,24 @@ def select_exercise(ranked_candidates, role):
 ## Step 5 — Check User Ledger for Prescription
 
 ```python
-def get_prescription(user_id, exercise_id, zip_code):
+def get_prescription(user_id, exercise_id, zip_constraints, role):
     profile = get_exercise_profile(user_id, exercise_id)
 
     if profile is None:
         # No history: return default prescription from Order parameters
-        return get_default_prescription(zip_code)
+        return get_default_prescription(zip_constraints, role)
 
     # Translate profile's known performance to this zip code's parameters
     translation_factor = compute_translation_factor(
         profile["source_zip"],   # the zip code with most logged data
-        zip_code                  # the target zip code
+        zip_constraints["zip"]   # the target zip code
     )
 
     return {
-        "prescribed_load":  profile["estimated_1rm"] * zip_code["load_ceiling"] * translation_factor,
-        "rep_range":        zip_code["rep_range"],
-        "set_range":        derive_set_range(zip_code["order"], role["block_position"]),
-        "rest":             zip_code["rest_range"],
+        "prescribed_load":  profile["estimated_1rm"] * zip_constraints["load_ceiling"] * translation_factor,
+        "rep_range":        zip_constraints["rep_range"],
+        "set_range":        derive_set_range(zip_constraints["order"], role["block_position"]),
+        "rest":             zip_constraints["rest_range"],
     }
 ```
 
@@ -196,7 +201,7 @@ def resolve_role(role, zip_code, user_id):
 
     ranked     = rank_candidates(candidates, zip_constraints, user_id)
     exercise   = select_exercise(ranked, role)
-    prescription = get_prescription(user_id, exercise.exercise_id, zip_code)
+    prescription = get_prescription(user_id, exercise.exercise_id, zip_constraints, role)
 
     return {
         "exercise":       exercise,
