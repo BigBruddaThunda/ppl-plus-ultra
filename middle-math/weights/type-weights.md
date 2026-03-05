@@ -1,6 +1,6 @@
 # Type Weight Declarations
 
-Status: WORKING DRAFT — First-pass derivation from scl-directory.md rules. Weights will be refined as the system matures.
+Status: DRAFT — Type weight declarations derived from scl-directory.md, type-specifications.md, and interaction-rules.md.
 
 Each Type declares: self-weight (+8 when primary), affinities (emojis it pulls positive), and suppressions (emojis it pushes negative). Source rules are cited to scl-directory.md. All 5 Types covered.
 
