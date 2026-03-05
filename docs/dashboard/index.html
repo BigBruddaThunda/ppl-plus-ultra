@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PPL± Progress Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="dashboard">
+      <header>
+        <h1>PPL± Progress Dashboard</h1>
+      </header>
+
+      <section class="panel">
+        <h2>Cards</h2>
+        <div id="card-progress-text" class="mono"></div>
+        <div class="bar-shell" aria-hidden="true">
+          <div id="card-progress-fill" class="bar-fill"></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Deck Grid (Order × Axis)</h2>
+        <div class="grid-headings" id="axis-headings"></div>
+        <div id="deck-grid" class="deck-grid"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Negotiosum Color Sections</h2>
+        <div id="color-summary" class="color-summary"></div>
+      </section>
+
+      <section class="panel">
+        <h2>CX Containers</h2>
+        <p id="cx-counter" class="mono"></p>
+      </section>
+
+      <footer class="footer mono" id="last-updated"></footer>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
