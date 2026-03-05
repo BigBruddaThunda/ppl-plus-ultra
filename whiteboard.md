@@ -4,7 +4,7 @@ Last updated: 2026-03-05
 Phase: 2 — Workout Generation + Architecture Expansion
 Cards: 102 / 1,680 (Deck 07: 22/40 ⚠️, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅)
 Seeds: 49 | Scripts: 28
-CX Containers: 32 defined, 10 complete, 22 open
+CX Containers: 32 defined, 13 complete, 19 open
 
 For development history, see `session-log.md`.
 
@@ -49,7 +49,7 @@ Systematic, templated, institutional. Follow the pattern.
 | DONE | CX-04 | Inventory + progress truth tables | — | inventory.py, deck-readiness.py, exercise-usage-report.py |
 | DONE | CX-07 | CI lint workflow | — | .github/workflows/lint.yml |
 | DONE | CX-08 | SQL schema materialization (7 migrations) | — | sql/001-007 + README — Session 033 |
-| OPEN | CX-16 | Deck identity scaffolds (Decks 10–12) | CX-03 ✓ | deck-identity-scaffold.py + 3 identity docs |
+| DONE | CX-16 | Deck identity scaffolds (Decks 10–12) | CX-03 ✓ | PR #67 — deck-identity-scaffold.py + 3 identity docs |
 | OPEN | — | Deck 07 retrofit regen queue (18 cards) | — | 18 REGEN-NEEDED cards from Session 021 |
 | OPEN | — | Operis Contract A/B URL enforcement | — | P1 missing source URLs, P2 missing per-lane URLs |
 | OPEN | — | Re-run Operis V4 pipeline test (2024-07-26) | Contract A/B fix | After URL/schema patching |
@@ -62,8 +62,8 @@ Precision, multi-file reasoning, cascading consequences.
 
 | Status | ID | Task | Blocker | Note |
 |--------|----|------|---------|------|
-| OPEN | CX-09 | Axis weight declarations (6 Axes) | CX-00A ✓ | middle-math/weights/axis-weights.md |
-| OPEN | CX-10 | Type + Color weight declarations (5+8) | CX-00A ✓ | type-weights.md + color-weights.md |
+| DONE | CX-09 | Axis weight declarations (6 Axes) | CX-00A ✓ | DRAFT — all 6 axes populated, PR #64 |
+| DONE | CX-10 | Type + Color weight declarations (5+8) | CX-00A ✓ | DRAFT — type-weights.md + color-weights.md, PR #65 |
 | OPEN | CX-11 | Block weight declarations (22+SAVE) | CX-09, CX-10 | block-weights.md |
 | OPEN | CX-12 | Operator weight declarations (12) | CX-09, CX-10 | operator-weights.md |
 | OPEN | CX-14 | Weight vector computation engine | CX-09–12, CX-03 ✓ | weight_vector.py — the 61-value vector |
@@ -90,6 +90,7 @@ Maximum output, full capacity. Measure throughput.
 
 | Status | ID | Task | Blocker | Note |
 |--------|----|------|---------|------|
+| DONE | — | First Operis edition (2026-03-02) | — | PR #27 — operis-editions/2026/03/2026-03-02.md |
 | DONE | — | Deck 07 generation (40 cards) | — | 18 flagged REGEN-NEEDED |
 | DONE | — | Deck 08 generation (40 cards) | — | GENERATED-V2 complete |
 | DONE | — | Deck 09 generation (40 cards) | — | 102/1,680 total |
@@ -165,6 +166,9 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 - **Programs are guided tours** — sequences of zip code addresses, not sequences of workouts. The rooms already exist. The program is the itinerary.
 - **Publication standard constraint:** No "it's not X, it's Y" framing. The publication is informational. Independent of Party or Faction. Committed to Useful Knowledge.
 - **The Negotiosum structure is new** (planted 2026-03-05). First pruning pass should evaluate whether Color assignments feel right after 2 weeks of use.
+- **Reconciliation session (2026-03-05):** ~25 PRs (#27–#84) merged to main between Sessions 030–033 with no session log entries. This session reconciled all container statuses, backfilled evidence in TASK-ARCHITECTURE.md, and updated the Negotiosum. Deck 09 (40 cards) was generated entirely across unlogged Codex runs.
+- **Wave 3 unlock (2026-03-05):** CX-09 and CX-10 completion unlocks CX-11 (Block weights) and CX-12 (Operator weights) — both now unblocked. These feed CX-14 (Weight Vector Engine), which is the critical path to CX-15 (Exercise Selection Prototype).
+- **Stale seed audit (2026-03-05):** 8 files flagged with stale card counts or status references. Update opportunistically when each file is next touched: seeds/claude-code-build-sequence.md, seeds/platform-architecture-v2.md, seeds/operis-architecture.md, seeds/operis-prompt-pipeline.md, .codex/NEXT-ROUND-HANDOFF.md, AGENTS.md, cards/AGENTS.md, middle-math/ARCHITECTURE.md. Jake-blocked items (require Jake's input): platform-v1-archive body paste, color-context-vernacular vocabulary update, order-parameters vocabulary update, Deck 07 regen decision.
 - **Graph Parti note:** Needs scl-macro-reference.md at root — condensed emoji macros for Graph Parti context. Not blocking.
 - **Color-tagging overhead:** Justified when it aids routing. Break-even at second human on project. The tags cost little now; they pay when the team grows.
 - **SCL-Deep expansion complete:** emoji-macros.md, order-specifications.md, block-specifications.md, vocabulary-standard.md, publication-standard.md all committed. These are reference docs — they deepen generation quality but don't block it.

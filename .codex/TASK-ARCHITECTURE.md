@@ -8,23 +8,23 @@ Use glossary terms from `scl-deep/systems-glossary.md` as the authoritative sour
 
 | Container | Name | Dependency | Wave | Status | Completed In | Evidence |
 |---|---|---|---|---|---|---|
-| CX-00A / CX-00B | Systems Glossary + Systems Language Audit | None / CX-00A | 1 | PENDING | — | — |
+| CX-00A / CX-00B | Systems Glossary + Systems Language Audit | None / CX-00A | 1 | DONE | PR #63 area · c3f6ec7 | `scl-deep/systems-glossary.md`, `scl-deep/systems-language-audit.md` |
 | CX-01 | Codex Agent Configuration & Task Architecture | CX-00A | 1 | PENDING | — | — |
 | CX-02 | Historical Events Scaffold | CX-00A | 1 | DONE | Session 028 · `047113c` | `operis-editions/historical-events/README.md` |
-| CX-03 | Zip Converter Utilities | CX-00A | 1 | PENDING | — | — |
+| CX-03 | Zip Converter Utilities | CX-00A | 1 | DONE | PR #58 · 83868b9 | `scripts/middle-math/zip_converter.py`, `scripts/middle-math/zip_registry.py`, `middle-math/zip-registry.json` |
 | CX-04 | Inventory & Progress Truth Tables | CX-00A | 1 | DONE | Session 018 · `3b75660` | `scripts/progress-report.py`, `scripts/index-card-inventory.py` |
-| CX-05 | Markdownlint Configuration | CX-00A | 1 | PENDING | — | — |
+| CX-05 | Markdownlint Configuration | CX-00A | 1 | DONE | Codex run · evidence on disk | `.github/linters/.markdownlint-cli2.jsonc` |
 | CX-06 | Frontmatter Schema & Validator | CX-00A | 1 | DONE | Session 030 · `0fbf244` | `scripts/check-card-schema.py`, `scripts/fixtures/schema/generated-compliant-tree.md` |
-| CX-07 | CI Lint Workflow | CX-05, CX-06 | 2 | PENDING | — | — |
+| CX-07 | CI Lint Workflow | CX-05, CX-06 | 2 | DONE | Codex run · evidence on disk | `.github/workflows/lint.yml`, `.github/workflows/pylint.yml` |
 | CX-08 | SQL Schema Materialization | CX-00A | 1 | DONE | Session 025 · `b36cfff` | `middle-math/schemas/zip-metadata-schema.md` |
-| CX-09 | Axis Weight Declarations | CX-00A | 2 | PENDING | — | — |
-| CX-10 | Type & Color Weight Declarations | CX-00A | 2 | PENDING | — | — |
+| CX-09 | Axis Weight Declarations | CX-00A | 2 | DONE | PR #64 · 41cc4fa | `middle-math/weights/axis-weights.md` — all 6 axes populated |
+| CX-10 | Type & Color Weight Declarations | CX-00A | 2 | DONE | PR #65 · e6be726 | `middle-math/weights/type-weights.md`, `middle-math/weights/color-weights.md` |
 | CX-11 | Block Weight Declarations | CX-09, CX-10 | 3 | PENDING | — | — |
 | CX-12 | Operator Weight Declarations | CX-09, CX-10 | 3 | PENDING | — | — |
-| CX-13 | Exercise Library Parser | CX-00A | 2 | PENDING | — | — |
+| CX-13 | Exercise Library Parser | CX-00A | 2 | DONE | PR #61 · db7b202 | `scripts/middle-math/parse_exercise_library.py`, `middle-math/exercise-library.json` |
 | CX-14 | Weight Vector Computation Engine | CX-09, CX-10, CX-11, CX-12, CX-03 | 3 | PENDING | — | — |
 | CX-15 | Exercise Selection Prototype | CX-13, CX-14 | 4 | PENDING | — | — |
-| CX-16 | Deck Identity Scaffold Generator | CX-03, CX-04 | 2 | PENDING | — | — |
+| CX-16 | Deck Identity Scaffold Generator | CX-03, CX-04 | 2 | DONE | PR #67 · 862de8d | `scripts/deck-identity-scaffold.py`, deck identity docs for Decks 10–12 |
 | CX-17 | Ralph Loop Validation & Batch | CX-03 | 2 | PENDING | — | — |
 | CX-18 | Design Tokens & WeightCSS Spec | CX-00A | 2 | PENDING | — | — |
 | CX-19 | Agent Boundaries Document | CX-00A, CX-01 | 2 | PENDING | — | — |
@@ -85,6 +85,52 @@ When a container row is marked `DONE`, the row must include all of the following
 - `exercise-library.md`
 - Any file requiring live web research to populate
 - SCL rule or emoji creation/modification artifacts
+
+## Dependency Readiness (as of reconciliation session 2026-03-05)
+
+After marking CX-00A/00B, CX-03, CX-05, CX-07, CX-09, CX-10, CX-13, CX-16 as DONE,
+the dependency graph shifts. Updated readiness by wave:
+
+### Wave 2 — Remaining OPEN containers
+
+| Container | Blockers | Blocker Status | Ready? |
+|-----------|----------|----------------|--------|
+| CX-01 | CX-00A | ✓ | YES — unblocked |
+| CX-17 | CX-03 | ✓ | YES — unblocked |
+| CX-18 | CX-00A | ✓ | YES — unblocked |
+| CX-19 | CX-00A, CX-01 | CX-01 still OPEN | BLOCKED on CX-01 |
+| CX-20 | CX-08 | ✓ | YES — unblocked |
+| CX-21 | CX-00A | ✓ | YES — unblocked |
+| CX-23 | CX-03, CX-04, CX-08 | all ✓ | YES — all dependencies met |
+| CX-26 | CX-03, CX-04 | all ✓ | YES — unblocked |
+| CX-28 | CX-04 | ✓ | YES — unblocked |
+
+### Wave 3 — Readiness after this session
+
+| Container | Blockers | Blocker Status | Ready? |
+|-----------|----------|----------------|--------|
+| CX-11 | CX-09, CX-10 | both ✓ | YES — newly unblocked |
+| CX-12 | CX-09, CX-10 | both ✓ | YES — newly unblocked |
+| CX-14 | CX-09–12, CX-03 | CX-11, CX-12 still OPEN | BLOCKED on CX-11, CX-12 |
+| CX-22 | CX-03, CX-20, CX-21 | CX-20, CX-21 still OPEN | BLOCKED |
+| CX-24 | CX-20, CX-03 | CX-20 still OPEN | BLOCKED on CX-20 |
+| CX-27 | CX-20, CX-08 | CX-20 still OPEN | BLOCKED on CX-20 |
+
+### Critical path
+
+CX-11 → CX-12 → CX-14 → CX-15
+
+CX-11 and CX-12 are now the highest-priority unblocked containers.
+Their completion unblocks CX-14 (Weight Vector Engine), which unblocks CX-15
+(Exercise Selection Prototype) — the engine that automates card generation.
+
+### Downstream cascade from CX-08 DONE
+
+- CX-20 (Room Schema Extension) — unblocked
+- CX-23 (Navigation Graph Builder) — all dependencies met (CX-03 ✓, CX-04 ✓, CX-08 ✓)
+- CX-27 (Superscript/Subscript Data Model) — partially unblocked; needs CX-20
+
+---
 
 ## Execution Notes
 

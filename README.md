@@ -143,7 +143,11 @@ ppl-plus-ultra/
 │
 ├── README.md              — This file
 ├── CLAUDE.md              — Agent operating instructions
+├── AGENTS.md              — Agent permissions and context
 ├── whiteboard.md          — Active decisions and current phase
+├── session-log.md         — Archived development session history
+├── LICENSE-CONTENT.md     — Content license
+├── LICENSE-LANGUAGE.md    — Language license
 │
 ├── scl-directory.md       — Complete SCL language reference
 ├── exercise-library.md    — All valid exercises mapped to SCL (v.0)
@@ -175,7 +179,8 @@ ppl-plus-ultra/
 ├── scripts/               — Validation, progress, automation tools
 ├── .claude/               — Skills, agents, hooks, settings
 ├── .codex/                — Codex agent infrastructure
-├── .github/               — CI pipeline configs (planned)
+├── .github/               — CI pipeline (lint + pylint workflows, markdownlint config)
+├── sql/                   — PostgreSQL migration files (migrations 001–007)
 │
 └── cards/
     └── [order]/[axis]/[type]/
@@ -282,7 +287,7 @@ different histories.
 | Phase | Description | Status |
 |-------|-------------|--------|
 | 1 | Repository scaffolding and root documents | **Complete** |
-| 2 | Workout generation — all 1,680 cards | **In Progress** — 80/1,680 (Decks 07, 08) |
+| 2 | Workout generation — all 1,680 cards | **In Progress** — 102/1,680 (Decks 07, 08, 09) |
 | 2.5 | Architecture expansion (cosmograms, linters, zip-web, middle-math) | **Framed** |
 | 3 | Validation and review | Pending |
 | 4 | Design standards and UI system | **Blueprinted** — 11 architecture documents planted |

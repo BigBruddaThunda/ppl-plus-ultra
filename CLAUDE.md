@@ -8,7 +8,7 @@ This file is your operating context. Read it before touching anything else.
 ## CURRENT PROJECT PHASE
 
 **Phase: 2 — Workout Generation**
-Status: Deck 08 (⛽🔨 Strength Functional) complete — 80/80 cards generated across 2 decks. 1,600 cards remaining across 40 decks.
+Status: Decks 07, 08, 09 complete (⛽🏛 Strength Basics, ⛽🔨 Strength Functional, ⛽🌹 Strength Aesthetic) — 102 cards generated across 3 decks. Deck 07 has 18 REGEN-NEEDED cards from pre-identity era. 1,578 cards remaining across 39 decks.
 Priority: Continue deck generation when instructed.
 Active task: See `whiteboard.md` for current session instructions.
 
@@ -716,6 +716,14 @@ These tools are available in every session. They are not optional — they are p
 | `scripts/progress-report.py` | Dashboard of generation progress | `python scripts/progress-report.py` |
 | `scripts/validate-deck.sh` | Validate all cards in a deck folder | `bash scripts/validate-deck.sh [deck-folder-path]` |
 | `scripts/audit-exercise-coverage.py` | Check for duplicate primary exercises within a deck | `python scripts/audit-exercise-coverage.py [deck-folder-path]` |
+| `scripts/inventory.py` | Deck and card inventory sweep | `python scripts/inventory.py` |
+| `scripts/deck-readiness.py` | Deck generation readiness check | `python scripts/deck-readiness.py` |
+| `scripts/exercise-usage-report.py` | Exercise coverage across generated cards | `python scripts/exercise-usage-report.py` |
+| `scripts/middle-math/zip_converter.py` | Emoji↔numeric zip conversion | `python scripts/middle-math/zip_converter.py [zip]` |
+| `scripts/middle-math/zip_registry.py` | 1,680-entry zip registry builder | `python scripts/middle-math/zip_registry.py` |
+| `scripts/middle-math/parse_exercise_library.py` | Exercise library → JSON parser | `python scripts/middle-math/parse_exercise_library.py` |
+| `scripts/operis/scaffold_historical_events.py` | 366 date stub scaffolder | `python scripts/operis/scaffold_historical_events.py` |
+| `scripts/deck-identity-scaffold.py` | Deck identity document generator | `python scripts/deck-identity-scaffold.py [deck-number]` |
 
 ### Skills (invoke with / commands)
 
