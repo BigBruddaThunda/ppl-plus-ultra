@@ -76,6 +76,21 @@ CREATE TABLE workout_sessions (
   session_rpe           NUMERIC(3,1),               -- Overall session RPE (optional)
   notes                 TEXT
 );
+
+ALTER TABLE workout_sessions ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Users can only read their own sessions"
+  ON workout_sessions FOR SELECT
+  USING (auth.uid() = user_id);
+
+CREATE POLICY "Users can only insert their own sessions"
+  ON workout_sessions FOR INSERT
+  WITH CHECK (auth.uid() = user_id);
+
+CREATE POLICY "Users can only update their own sessions"
+  ON workout_sessions FOR UPDATE
+  USING (auth.uid() = user_id)
+  WITH CHECK (auth.uid() = user_id);
 ```
 
 ---
