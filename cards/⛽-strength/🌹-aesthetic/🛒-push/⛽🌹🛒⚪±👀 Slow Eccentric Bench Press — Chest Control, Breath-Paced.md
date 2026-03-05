@@ -1,0 +1,106 @@
+---
+zip: ⛽🌹🛒⚪
+operator: 👀 specio
+status: GENERATED
+deck: 09
+order: ⛽ Strength | 75-85% | 4-6 reps | 3-4 min | CNS: High
+axis: 🌹 Aesthetic | Isolation, full ROM, mind-muscle connection. Feel over load.
+type: 🛒 Push | Chest, front delts, triceps
+color: ⚪ Mindful
+blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
+---
+
+# 🛒 Slow Eccentric Bench Press — Chest Control, Breath-Paced 🛒
+
+Strength aesthetic session | Chest, front delts, triceps | 58-70 min
+
+CODE: ⛽🌹🛒⚪
+
+> "Keep the line honest and let the target muscle own every heavy rep."
+
+═══════════════════════════════════════
+
+## 1. ♨️ WARM-UP — 👀 specio
+
+Sub-block: ♨️🛒🌹⚪ (Warm-Up | Push | Aesthetic | Mindful)
+
+├─ 8 🛒 Scapular Push-Up (push floor away)
+├─ 8 🛒 Incline Push-Up (long chest range)
+└─ 6 🛒 Band-Resisted Push-Up (brace and press)
+
+Rest: 90 sec between passes.
+
+═══════════════════════════════════════
+
+## 2. ▶️ PRIMER
+
+Sub-block: ▶️🛒🌹⚪ (Primer | Push | Aesthetic | Mindful)
+
+├─ Set 1: ⛽ 55% × 6 on Slow Eccentric Push-Up (5-second lower) (control setup)
+├─ Set 2: ⛽ 65% × 5 on Slow Eccentric Push-Up (5-second lower) (smooth descent)
+└─ Set 3: ⛽ 72% × 4 on Slow Eccentric Push-Up (5-second lower) (clean drive)
+
+Rest: 2 min 30 sec between sets.
+
+═══════════════════════════════════════
+
+## 3. 🧈 BREAD & BUTTER — 👀 specio
+
+Sub-block: 🧈🛒🌹⚪ (Bread & Butter | Push | Aesthetic | Mindful)
+
+├─ 5 🛒 Slow Eccentric Push-Up (5-second lower) (5-second lower, calm exhale)
+│  ├─ Set 1: ⛽ 75% × 5
+│  ├─ Set 2: ⛽ 78% × 5
+│  ├─ Set 3: ⛽ 82% × 4
+│  └─ Set 4: ⛽ 85% × 4
+└─ 4 🛒 Slow Eccentric Dumbbell Fly (keep shoulder quiet)
+   ├─ Set 1: ⛽ 76% × 4
+   ├─ Set 2: ⛽ 78% × 4
+   └─ Set 3: ⛽ 80% × 4
+
+Rest: 3 min between sets.
+
+═══════════════════════════════════════
+
+## 4. 🧩 SUPPLEMENTAL
+
+Sub-block: 🧩🛒🌹⚪ (Supplemental | Push | Aesthetic | Mindful)
+
+├─ 5 🛒 Paused Push-Up (2-second floor pause) (full ROM, smooth tempo)
+│  ├─ Set 1: ⛽ 75% × 5
+│  ├─ Set 2: ⛽ 78% × 4
+│  └─ Set 3: ⛽ 80% × 4
+└─ 5 🛒 Push-Up Isometric Hold (Bottom Position) (own the bottom)
+   ├─ Set 1: ⛽ 74% × 5
+   ├─ Set 2: ⛽ 76% × 5
+   └─ Set 3: ⛽ 78% × 4
+
+Rest: 2 min 30 sec between sets.
+
+═══════════════════════════════════════
+
+## 5. 🪫 RELEASE
+
+Sub-block: 🪫🛒🌹⚪ (Release | Push | Aesthetic | Mindful)
+
+- 60 sec breathing in tall kneel, long exhale each round.
+
+Rest: none.
+
+═══════════════════════════════════════
+
+## 6. 🚂 JUNCTION
+
+Sub-block: 🚂🛒🌹⚪ (Junction | Push | Aesthetic | Mindful)
+
+Next → ⛽🌹🪡⚪ — pair heavy pull to restore shoulder balance.
+Next → ⛽🌹🍗⚪ — lower-body output keeps total strength climbing.
+Next → ⛽🌹➕⚪ — trunk and power work reinforce pressing transfer.
+
+Log: top load ______ | clean reps ______ | note ______
+
+═══════════════════════════════════════
+
+## 🧮 SAVE
+
+The quality marker is repeatability: same path, same control, same output at heavy loads. Keep the rep standard fixed before adding load.
