@@ -255,7 +255,7 @@ In PPL: the emoji zip (⛽🏛🪡🔵) and the numeric zip (2123) are aliases. 
 
 **Priority**
 The resolution order when multiple authorities conflict. Higher-priority authorities resolve first. Lower-priority authorities cannot override higher-priority resolutions.
-In PPL: Order > Color > Axis > Type. The constraint hierarchy is a priority stack. Order is the hard ceiling. Nothing overrides it. Color is the hard filter. Axis ranks within the remaining space.
+In PPL: Order > Color > Axis > Equipment. The constraint hierarchy is a priority stack. Order is the hard ceiling. Nothing overrides it. Color is the hard filter. Axis ranks within the remaining space, then practical equipment availability resolves what can actually be run.
 
 ---
 
@@ -491,7 +491,7 @@ Complete lookup: PPL concept → systems term → definition source.
 | CLAUDE.md / scl-directory.md / this file | Authoritative source | §4 Resolution |
 | Deck identity document | Recursive resolver | §4 Resolution |
 | Emoji zip + numeric zip for same address | Alias | §4 Resolution |
-| Order > Color > Axis > Type | Priority | §4 Resolution |
+| Order > Color > Axis > Equipment | Priority | §4 Resolution |
 | Weight vector cascade (Layers 1–7) | Layer system | §4 Resolution |
 | validate-card.py full run | Scan cycle | §5 Validation |
 | Single validation rule in validate-card.py | Rung | §5 Validation |
@@ -571,7 +571,7 @@ Reverse lookup: systems term → PPL implementation.
 | Pipe | YAML frontmatter struct between pipeline stages |
 | Poka-yoke | Stub template, GOLD gate, file naming convention |
 | Population | GENERATED + CANONICAL card count (current: 80 / 1,680) |
-| Priority | Order > Color > Axis > Type constraint hierarchy |
+| Priority | Order > Color > Axis > Equipment constraint hierarchy |
 | Projection | Exercise profile (1RM estimates, trend, history distribution) |
 | Rebase | Resuming rotation from today, ignoring the gap from missed sessions |
 | Recursive resolver | Deck identity document (checks exercise mappings before hitting scl-directory.md) |
