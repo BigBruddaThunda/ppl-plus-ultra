@@ -132,13 +132,13 @@ monthly-operator: [emoji] [latin]
 liberal-art: [Name]
 season: [season]
 breath-cycle: [position]
-default-zip: Order[Type]
-featured-zip: OrderType
+default-zip: [4-emoji zip]
+featured-zip: [4-emoji zip]
 deck: [deck number]
 word-of-day: [word]
 rotation-engine-version: V1.0
-rooms:
-  siblings:
+sandbox-zips:
+  color-siblings:
     - [zip1]
     - [zip2]
     - [zip3]
