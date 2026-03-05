@@ -793,3 +793,16 @@ Notes:
   - Purpose is session-to-session continuity: prevent reopening closed loops and shift focus to container completion ledger + handoff closure evidence.
 Next:
   - Execute Task A/B/C from `.codex/NEXT-ROUND-HANDOFF.md` in next active session.
+
+### Session 032
+Date: 2026-03-05
+Work: Planted systems-eudaimonics seed and wired design-constraint references
+Branch: current active branch
+Output:
+  - seeds/systems-eudaimonics.md — new economic philosophy seed (Eudaimonic alignment, EHI metric, longevity constraints, phase cost constraints, architecture mappings, open questions)
+  - CLAUDE.md — DATA ETHICS POSITION section updated to reference systems-eudaimonics alongside data-ethics architecture
+  - whiteboard.md — this session log entry
+Notes:
+  - Treated as constraint-layer architecture (no deliverable artifacts), aligned with requested Codex task instructions.
+Next:
+  - Use `seeds/systems-eudaimonics.md` as a required read when implementing Stripe/tier gates, bloom/vote/superscript context systems, notification UX, and Operis economics decisions.
