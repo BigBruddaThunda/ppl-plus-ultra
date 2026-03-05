@@ -5,7 +5,7 @@ status: SEED
 planted: 2026-02-28
 phase-relevance: Phase 2.5 (architecture) + Phase 4/5 (Operis)
 depends-on:
-  - middle-math/rotation/engine-spec.md
+  - middle-math/rotation/rotation-engine-spec.md
   - middle-math/weights/
   - zip-web/zip-web-signatures.md
   - middle-math/rotation/fatigue-model.md
@@ -16,7 +16,7 @@ connects-to:
 
 # Reverse-Weight Resolution Algorithm
 
-The rotation engine produces a default zip code for any given date using three deterministic gears: Order by weekday, Type by rolling 5-day calendar, Axis by month. The Color is user-chosen.
+The rotation engine produces a default zip code for any given date using three deterministic gears: Order by weekday, Type by rolling 5-day calendar, Axis by month. For user flows, Color is user-chosen and treated as fixed input.
 
 The default zip code is the starting point, not the final answer.
 
@@ -39,7 +39,7 @@ TODAY'S ADJUSTED ZIP  ←────  Tomorrow's zip
 
 Yesterday tells you what tissue is loaded and what CNS demand was placed. Tomorrow tells you what the week is building toward. Today's resolution maximizes preparation for tomorrow while minimizing conflict with yesterday.
 
-The resolution never overrides the Order. The weekday Order is fixed. The resolution operates within the Type, Axis, and Color space — the three dials that can flex.
+The resolution never overrides the Order. The weekday Order is fixed. For user flows, the resolver flexes only Type and Axis while preserving the chosen Color. Color reassignment is allowed only for editorial Operis room curation where no user color has been selected.
 
 ---
 
@@ -99,7 +99,7 @@ Tomorrow: 🏟🏛🛒🟣 (Performance, Basics, Push, Technical)
 
 3. Apply the preparation vector from Phase 2. Any zip that primes tomorrow's primary stimulus without compressing it receives a bonus.
 
-4. Among all valid zips sharing today's Order, rank by net score (bonuses minus penalties). Select the highest-ranked zip that does not violate any hard constraint (GOLD gate, barbell exclusion, equipment tier).
+4. Among all valid zips sharing today's Order, rank by net score (bonuses minus penalties). For user flows, candidate zips must also preserve today's user-selected Color. Select the highest-ranked zip that does not violate any hard constraint (GOLD gate, barbell exclusion, equipment tier).
 
 5. The adjusted zip is the today's room.
 
@@ -161,7 +161,7 @@ When the Operis is built (Phase 4/5), this algorithm should be implemented as a 
 
 ```
 resolve(date) → zip_code
-  inputs: date, yesterday's zip, tomorrow's default zip
+  inputs: date, yesterday's zip, tomorrow's default zip, optional user-selected color
   outputs: today's adjusted zip
   side effects: none
   deterministic: yes (same inputs → same output, always)
