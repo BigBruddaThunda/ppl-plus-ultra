@@ -319,9 +319,11 @@ Indexes: GIN or IVFFLAT index on envelope_vector for similarity search (if using
 
 New table: content_pins. Columns: id (UUID PK), user_id (UUID FK → auth.users), envelope_id (UUID FK → content_envelopes), latitude (NUMERIC(10,7)), longitude (NUMERIC(10,7)), annotation (TEXT), media_urls (TEXT[]), visibility (TEXT CHECK IN ('public','members','private') DEFAULT 'public'). RLS: public pins readable by all authenticated users; members pins readable by subscribers; private pins readable by owner only. Writes restricted to owner.
 
-Extension to existing tables. Any table that holds content (workout_logs, community_posts, room_threads, etc.) gains an envelope_id (UUID FK → content_envelopes, nullable). Existing rows without envelopes are valid — the envelope is optional until Phase A is deployed, at which point all new rows receive one automatically.
+Linking pattern (enforceable, no polymorphic FK). Parent content rows keep their native UUID primary keys in their own tables. At creation time, the writer inserts into `content_items` using (`source_table`, `source_id`) and then inserts the envelope with `content_item_id` pointing to that canonical row. Downstream joins always go through `content_items.id`; no table stores "content_table + content_id" as a pseudo-foreign key. Existing rows can be backfilled into `content_items`/`content_envelopes` in batches during Phase A rollout.
 
-pgvector consideration. If Supabase supports the pgvector extension (it does as of 2025), the envelope_vector column should use the VECTOR(61) type for native similarity search via `<=>` (cosine distance) or `<->` (L2 distance) operators. If pgvector is not available, the vector is stored as JSONB and similarity is computed application-side. The schema should be written to support both paths.
+pgvector consideration. If Supabase supports the pgvector extension (it does as of 2025), the envelope_vector column should use the VECTOR(61) type for native similarity search via explicit pgvector operators: `<=>` for cosine distance and `<->` for L2 distance. If pgvector is not available, the vector is stored as JSONB and similarity is computed application-side. The schema should be written to support both paths.
+
+Example retrieval ordering (pgvector path): `ORDER BY envelope_vector <=> $1::vector` for cosine or `ORDER BY envelope_vector <-> $1::vector` for L2.
 
 Constraints
 
