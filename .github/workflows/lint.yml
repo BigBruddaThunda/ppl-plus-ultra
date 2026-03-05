@@ -1,0 +1,146 @@
+name: Lint
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+# Cancel superseded runs for the same ref to avoid duplicate CI work on rapid pushes.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  baseline-audit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Full history is required so PR jobs can diff against origin/main reliably.
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install pyyaml
+
+      - name: Identify deck folders with generated cards
+        id: generated-decks
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mapfile -t deck_paths < <(
+            find cards -type f -name '*.md' -print0 \
+              | xargs -0 rg -l '^status:\s*(GENERATED|GENERATED-V2|CANONICAL)\s*$' \
+              | xargs -r -n1 dirname \
+              | xargs -r -n1 dirname \
+              | sort -u
+          )
+
+          if [ "${#deck_paths[@]}" -eq 0 ]; then
+            echo "No generated deck folders found."
+            echo "deck_list=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          printf 'Generated deck folders:\n'
+          printf ' - %s\n' "${deck_paths[@]}"
+
+          {
+            echo "deck_list<<EOF"
+            printf '%s\n' "${deck_paths[@]}"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Run baseline audit on each generated deck
+        # Tier 1 in CI: full-deck baseline audit gives broad context, including pre-existing issues.
+        # This is informational on both push and PR; merge gating is handled by pr-changed-cards below.
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ -z "${{ steps.generated-decks.outputs.deck_list }}" ]; then
+            echo "Skipping deck audit: no generated deck folders detected."
+            exit 0
+          fi
+
+          while IFS= read -r deck; do
+            [ -z "$deck" ] && continue
+            echo "Running baseline audit for: $deck"
+            bash scripts/run-full-audit.sh "$deck"
+          done <<< "${{ steps.generated-decks.outputs.deck_list }}"
+
+      - name: Build strict inventory artifacts
+        run: |
+          python scripts/index-card-inventory.py \
+            --cards-root cards \
+            --strict-status \
+            --out-json scripts/.artifacts/card-inventory.json \
+            --out-csv scripts/.artifacts/card-inventory.csv
+
+      - name: Upload audit artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-artifacts
+          path: scripts/.artifacts/
+          retention-days: 30
+
+  pr-changed-cards:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+
+    # Tier 2 in CI: targeted hard-gate checks on only card files changed by the PR.
+    # continue-on-error remains false so schema/lint failures block merge.
+    continue-on-error: false
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Full history ensures origin/main...HEAD diff works in PR validation.
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install pyyaml
+
+      - name: Validate changed cards (schema + SCL rules)
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git fetch origin main
+          mapfile -t changed_cards < <(git diff --name-only origin/main...HEAD -- 'cards/' | rg '\.md$' || true)
+
+          if [ "${#changed_cards[@]}" -eq 0 ]; then
+            echo "No changed card files detected in this PR."
+            exit 0
+          fi
+
+          printf 'Changed card files:\n'
+          printf ' - %s\n' "${changed_cards[@]}"
+
+          for card in "${changed_cards[@]}"; do
+            python scripts/check-card-schema.py --card "$card"
+          done
+
+          for card in "${changed_cards[@]}"; do
+            python scripts/lint-scl-rules.py --card "$card"
+          done
