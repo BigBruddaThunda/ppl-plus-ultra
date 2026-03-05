@@ -17,6 +17,7 @@ This directory holds the full uncompressed specification layer of the Semantic C
 | intercolumniation.md | Rest architecture across all scales — the spacing between sets | Working draft — 2026-02-20 |
 | junction-web.md | 🚂 Junction connection graph — valid transitions between zip codes | Working draft — 2026-02-20 |
 | seasonal-density.md | Seasonal training density arc — the year as a periodization model | Working draft — 2026-02-20 |
+| systems-glossary.md | Authoritative systems-language vocabulary for architecture terms | Published — Active authoritative source |
 | block-specifications.md | 22 Blocks behavioral specs | To be written |
 | operator-specifications.md | 12 Operators semantic + monthly calendar mapping | To be written |
 | type-specifications.md | 5 Types deep routing specs | To be written |
