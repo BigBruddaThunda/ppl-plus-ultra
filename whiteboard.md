@@ -565,3 +565,9 @@ Update this file whenever the project state changes.
 The whiteboard is always the current truth.
 
 🧮
+
+### Session 024
+Date: 2026-03-05
+Work: PR #22 follow-up fixes from Codex review (P1 consistency issues)
+Output: Resolved content-type ID duplication by keeping Publication Standard canonical at Type 39 and redefining Type 76 as cross-floor metadata; aligned Operis Thursday/Sunday Sandbox counts with 8–12 rule; clarified Wilson Note activation as standalone when Release is inactive.
+Next: Continue active queue (Deck 09 identity then Deck 09 generation) unless redirected.
