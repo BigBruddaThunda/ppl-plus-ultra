@@ -80,7 +80,7 @@ Operis Research Brief — [Full Date]
 
 Edition Metadata
 - Day of week
-- Day of year (1–365)
+- Day of year (1–366, leap year aware)
 - Season and seasonal position
 - Days to next equinox/solstice
 - Calendar notes (thresholds, observances)
