@@ -806,3 +806,23 @@ Notes:
   - Treated as constraint-layer architecture (no deliverable artifacts), aligned with requested Codex task instructions.
 Next:
   - Use `seeds/systems-eudaimonics.md` as a required read when implementing Stripe/tier gates, bloom/vote/superscript context systems, notification UX, and Operis economics decisions.
+
+### Session 033
+Date: 2026-03-05
+Work: CX-08 SQL schema materialization
+Branch: current active branch
+Output:
+  - sql/001-create-exercise-library.sql
+  - sql/002-create-exercise-families.sql
+  - sql/003-create-user-ledger.sql
+  - sql/004-create-user-profile.sql
+  - sql/005-create-user-toggles.sql
+  - sql/006-create-zip-metadata.sql
+  - sql/007-populate-zip-metadata.sql
+  - sql/README.md
+Notes:
+  - Materialized schema docs from middle-math/schemas into PostgreSQL 15+ migration files.
+  - Included RLS policies with auth.uid(), triggers/functions, indexes, and zip_to_emoji().
+  - Zip population script uses cross-join generate_series(1..7,1..6,1..5,1..8) for 1,680 rows.
+Next:
+  - Apply in Supabase in numeric order and validate against a live Postgres instance.
