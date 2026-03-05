@@ -214,7 +214,7 @@ The 🔵 Structured Color makes this explicit. Other Colors vary the format whil
 | 🔵 Structured | The classic Strength format. 5×5, 4×4, 3×3. Progressive overload tracked precisely. |
 | 🟣 Technical | Precision Strength: fewer sets, longer rest, perfect execution at 80–85%. |
 | 🔴 Intense | High-volume Strength: more sets, abbreviated rest (still 2+ min), higher fatigue. |
-| 🟠 | Invalid for pure Strength (barbells excluded from Circuit) |
+| 🟠 Circuit | Valid with circuit constraints: no barbells, station loop logic, and heavy non-barbell Strength patterns (e.g., weighted pull-ups, dumbbell front squats, heavy carries). |
 | 🟡 Fun | Variety in Strength: new movements at working loads, unconventional implements. |
 | ⚪ Mindful | Slow-tempo Strength: 5-count eccentric at 75%, extended rest. Tension awareness at high load. |
 
