@@ -1,4 +1,4 @@
-# SQL Migrations — CX-08 Schema Materialization
+# SQL Migrations — CX-08 + CX-20 Schema Materialization
 
 Executable PostgreSQL 15+ migrations derived from `middle-math/schemas/*.md`.
 
@@ -11,6 +11,7 @@ Executable PostgreSQL 15+ migrations derived from `middle-math/schemas/*.md`.
 5. `005-create-user-toggles.sql`
 6. `006-create-zip-metadata.sql`
 7. `007-populate-zip-metadata.sql`
+8. `008-room-schema-extension.sql`
 
 > Run in numeric order. Foreign keys are arranged so references target tables created in earlier files.
 
@@ -23,6 +24,7 @@ Executable PostgreSQL 15+ migrations derived from `middle-math/schemas/*.md`.
 - `005-create-user-toggles.sql` ← `middle-math/schemas/user-toggles-schema.md`
 - `006-create-zip-metadata.sql` ← `middle-math/schemas/zip-metadata-schema.md`
 - `007-populate-zip-metadata.sql` ← `middle-math/schemas/zip-metadata-schema.md` (population section)
+- `008-room-schema-extension.sql` ← `seeds/experience-layer-blueprint.md`, `seeds/systems-eudaimonics.md` (CX-20)
 
 `middle-math/schemas/zip-weight-cache-schema.md` remains optional and is intentionally not materialized in this numbered set.
 
@@ -31,6 +33,7 @@ Executable PostgreSQL 15+ migrations derived from `middle-math/schemas/*.md`.
 - RLS policies use `auth.uid()` for user-scoped tables.
 - `zip_metadata` includes `zip_to_emoji(zip CHAR(4))` as a PostgreSQL helper.
 - `007` inserts all valid numeric zip combinations using a 4-way cross join: 7 × 6 × 5 × 8 = 1,680.
+- `008` adds 4 tables for room-level tracking: `rooms` (one row per zip, 1,680 rows), `room_visits` (append-only log), `room_votes` (user quality signals), `bloom_history` (depth transition log). Navigation edges (nav_north/east/south/west) are populated by `scripts/build-navigation-graph.py`.
 
 ## Run Against Supabase
 
@@ -50,11 +53,12 @@ psql "$SUPABASE_DB_URL" -f sql/004-create-user-profile.sql
 psql "$SUPABASE_DB_URL" -f sql/005-create-user-toggles.sql
 psql "$SUPABASE_DB_URL" -f sql/006-create-zip-metadata.sql
 psql "$SUPABASE_DB_URL" -f sql/007-populate-zip-metadata.sql
+psql "$SUPABASE_DB_URL" -f sql/008-room-schema-extension.sql
 ```
 
-Verify zip row count:
+Verify row counts:
 
 ```sql
-SELECT COUNT(*) FROM zip_metadata;
--- expected: 1680
+SELECT COUNT(*) FROM zip_metadata;  -- expected: 1680
+SELECT COUNT(*) FROM rooms;         -- expected: 1680
 ```

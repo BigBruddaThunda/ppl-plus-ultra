@@ -4,7 +4,7 @@ Last updated: 2026-03-05
 Phase: 2 — Workout Generation + Architecture Expansion
 Cards: 102 / 1,680 (Deck 07: 22/40 ⚠️, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅)
 Seeds: 49 | Scripts: 28
-CX Containers: 32 defined, 13 complete, 19 open
+CX Containers: 36 defined, 16 complete, 20 open
 
 For development history, see `session-log.md`.
 
@@ -22,8 +22,9 @@ Teach, scaffold, define. Output that stands alone for any reader.
 | DONE | CX-06 | Frontmatter schema + validator | — | card-frontmatter-schema.json + validator script |
 | OPEN | CX-01 | Codex agent task architecture | CX-00A ✓ | .codex/TASK-ARCHITECTURE.md + HANDOFF-CONTRACTS.md |
 | OPEN | CX-19 | Agent boundaries document | CX-00A ✓, CX-01 | .claude/AGENT-BOUNDARIES.md |
-| OPEN | — | Update README.md project status to 102/1,680 | — | |
-| OPEN | — | Update README.md repo structure (new directories, files) | — | |
+| DONE | CX-34 | Codespaces dev container | — | .devcontainer/ + docs/codespaces-quickstart.md |
+| DONE | — | Update README.md project status to 102/1,680 | — | Already updated in prior Codex runs |
+| DONE | — | Update README.md repo structure (new directories, files) | — | sql/, session-log.md, docs/ added |
 
 ---
 
@@ -50,6 +51,7 @@ Systematic, templated, institutional. Follow the pattern.
 | DONE | CX-07 | CI lint workflow | — | .github/workflows/lint.yml |
 | DONE | CX-08 | SQL schema materialization (7 migrations) | — | sql/001-007 + README — Session 033 |
 | DONE | CX-16 | Deck identity scaffolds (Decks 10–12) | CX-03 ✓ | PR #67 — deck-identity-scaffold.py + 3 identity docs |
+| OPEN | CX-33 | GitHub Pages progress dashboard | CX-03 ✓, CX-04 ✓ | docs/dashboard/ + scripts/build-dashboard-data.py |
 | OPEN | — | Deck 07 retrofit regen queue (18 cards) | — | 18 REGEN-NEEDED cards from Session 021 |
 | OPEN | — | Operis Contract A/B URL enforcement | — | P1 missing source URLs, P2 missing per-lane URLs |
 | OPEN | — | Re-run Operis V4 pipeline test (2024-07-26) | Contract A/B fix | After URL/schema patching |
@@ -64,19 +66,19 @@ Precision, multi-file reasoning, cascading consequences.
 |--------|----|------|---------|------|
 | DONE | CX-09 | Axis weight declarations (6 Axes) | CX-00A ✓ | DRAFT — all 6 axes populated, PR #64 |
 | DONE | CX-10 | Type + Color weight declarations (5+8) | CX-00A ✓ | DRAFT — type-weights.md + color-weights.md, PR #65 |
-| OPEN | CX-11 | Block weight declarations (22+SAVE) | CX-09, CX-10 | block-weights.md |
-| OPEN | CX-12 | Operator weight declarations (12) | CX-09, CX-10 | operator-weights.md |
-| OPEN | CX-14 | Weight vector computation engine | CX-09–12, CX-03 ✓ | weight_vector.py — the 61-value vector |
+| DONE | CX-11 | Block weight declarations (22+SAVE) | CX-09 ✓, CX-10 ✓ | DRAFT — 790-line working draft confirmed on disk |
+| DONE | CX-12 | Operator weight declarations (12) | CX-09 ✓, CX-10 ✓ | DRAFT — 502-line working draft confirmed on disk |
+| OPEN | CX-14 | Weight vector computation engine | CX-09–12 all ✓, CX-03 ✓ | weight_vector.py — newly unblocked · CRITICAL PATH |
 | OPEN | CX-15 | Exercise selection prototype | CX-13 ✓, CX-14 | exercise_selector.py |
 | OPEN | CX-18 | Design tokens + WeightCSS spec | CX-00A ✓ | tokens.json + weight-css-spec.md |
-| OPEN | CX-20 | Room schema extension | CX-08 ✓ | sql/008 — floors, bloom, votes, nav edges |
+| DONE | CX-20 | Room schema extension | CX-08 ✓ | sql/008-room-schema-extension.sql — 4 tables + RLS |
 | OPEN | CX-21 | Content type registry (109 types JSON) | CX-00A ✓ | content-type-registry.json |
 | OPEN | CX-22 | Floor routing spec | CX-03 ✓, CX-20, CX-21 | floor-routing-spec.md |
-| OPEN | CX-23 | Navigation graph builder (1,680 × 4 edges) | CX-03 ✓, CX-04 ✓, CX-08 ✓ | navigation-graph.json |
-| OPEN | CX-24 | Bloom state engine | CX-20, CX-03 ✓ | bloom_engine.py |
+| DONE | CX-23 | Navigation graph builder (1,680 × 4 edges) | CX-03 ✓, CX-04 ✓, CX-08 ✓ | middle-math/navigation-graph.json — 6,720 edges |
+| OPEN | CX-24 | Bloom state engine | CX-20 ✓, CX-03 ✓ | bloom_engine.py — newly unblocked |
 | OPEN | CX-25 | Vote weight integration | CX-20, CX-14 | vote_weight_adjuster.py |
 | OPEN | CX-26 | Operis room manifest generator | CX-03 ✓, CX-04 ✓ | generate_room_manifest.py |
-| OPEN | CX-27 | Superscript/subscript data model | CX-20, CX-08 ✓ | compute_superscript.py |
+| OPEN | CX-27 | Superscript/subscript data model | CX-20 ✓, CX-08 ✓ | compute_superscript.py — newly unblocked |
 | OPEN | CX-28 | Cosmogram content scaffold (42 stubs) | CX-04 ✓ | scaffold_cosmograms.py |
 | OPEN | CX-29 | Wilson audio route specification | CX-22 | wilson-audio-spec.md — 3-layer keyword scoring |
 | OPEN | CX-30 | Envelope schema + stamping prototype | CX-08 ✓, CX-14, CX-03 ✓ | envelope_stamper.py |
@@ -110,6 +112,7 @@ Sweep, audit, report, deliver. Touch everything, miss nothing.
 | Status | ID | Task | Blocker | Note |
 |--------|----|------|---------|------|
 | DONE | CX-00B | Systems language audit | CX-00A ✓ | scl-deep/systems-language-audit.md |
+| DONE | CX-35 | Whiteboard Negotiosum validator | CX-03 ✓, CX-04 ✓ | scripts/validate-negotiosum.py |
 | OPEN | — | Run deck-readiness.py and commit output | — | First live readiness snapshot |
 | OPEN | — | Run exercise-usage-report.py on 102 cards | — | First exercise coverage snapshot |
 | OPEN | — | Ralph Loop batch: populate 41 remaining deck pods | Deck 07 pod review | Blocked on Jake approval of prototype |
@@ -124,6 +127,7 @@ Creative exploration, discovery. Surprising AND useful.
 
 | Status | ID | Task | Blocker | Note |
 |--------|----|------|---------|------|
+| DONE | CX-32 | Mermaid CX dependency graph | — | docs/cx-dependency-graph.md |
 | DONE | — | Systems eudaimonics seed | — | seeds/systems-eudaimonics.md |
 | DONE | — | Color pipeline posture seed | — | seeds/color-pipeline-posture.md |
 | DONE | — | SCL envelope architecture | — | seeds/scl-envelope-architecture.md |
@@ -167,13 +171,15 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 - **Publication standard constraint:** No "it's not X, it's Y" framing. The publication is informational. Independent of Party or Faction. Committed to Useful Knowledge.
 - **The Negotiosum structure is new** (planted 2026-03-05). First pruning pass should evaluate whether Color assignments feel right after 2 weeks of use.
 - **Reconciliation session (2026-03-05):** ~25 PRs (#27–#84) merged to main between Sessions 030–033 with no session log entries. This session reconciled all container statuses, backfilled evidence in TASK-ARCHITECTURE.md, and updated the Negotiosum. Deck 09 (40 cards) was generated entirely across unlogged Codex runs.
-- **Wave 3 unlock (2026-03-05):** CX-09 and CX-10 completion unlocks CX-11 (Block weights) and CX-12 (Operator weights) — both now unblocked. These feed CX-14 (Weight Vector Engine), which is the critical path to CX-15 (Exercise Selection Prototype).
+- **Wave 3 unlock (2026-03-05):** CX-09 and CX-10 completion unlocked CX-11 (Block weights) and CX-12 (Operator weights). Both were already populated as working drafts in prior unlogged Codex runs. Engine coupling session confirmed on disk and registered as DONE. CX-14 (Weight Vector Engine) is now fully unblocked — all 5 dependencies met.
 - **Stale seed audit (2026-03-05):** 8 files flagged with stale card counts or status references. Update opportunistically when each file is next touched: seeds/claude-code-build-sequence.md, seeds/platform-architecture-v2.md, seeds/operis-architecture.md, seeds/operis-prompt-pipeline.md, .codex/NEXT-ROUND-HANDOFF.md, AGENTS.md, cards/AGENTS.md, middle-math/ARCHITECTURE.md. Jake-blocked items (require Jake's input): platform-v1-archive body paste, color-context-vernacular vocabulary update, order-parameters vocabulary update, Deck 07 regen decision.
 - **Graph Parti note:** Needs scl-macro-reference.md at root — condensed emoji macros for Graph Parti context. Not blocking.
 - **Color-tagging overhead:** Justified when it aids routing. Break-even at second human on project. The tags cost little now; they pay when the team grows.
 - **SCL-Deep expansion complete:** emoji-macros.md, order-specifications.md, block-specifications.md, vocabulary-standard.md, publication-standard.md all committed. These are reference docs — they deepen generation quality but don't block it.
-- **Middle-math status:** Order weights DRAFT. 5 remaining categories (Axes, Types, Colors, Blocks, Operators) STUB. Exercise family trees DRAFT (8 families). Selection algorithm spec written. CX-09 through CX-15 are the path forward.
+- **Middle-math status:** All 5 weight categories now DRAFT: Order ✓, Axis ✓, Type ✓, Color ✓, Block ✓, Operator ✓. Exercise family trees DRAFT (8 families). Selection algorithm spec written. CX-14 is the next step — weight vector computation engine.
 - **Git-worktree pattern:** Seed planted (seeds/git-worktree-pattern.md). Adopt when parallel branch work becomes frequent enough to justify. Currently one branch at a time is sufficient.
+- **Engine coupling session (2026-03-05):** CX-11 + CX-12 confirmed on disk as working drafts (790 and 502 lines) — registered as DONE. CX-20 (Room Schema Extension) written: sql/008-room-schema-extension.sql with 4 tables, RLS, indexes, 1,680-row population. CX-23 (Navigation Graph) computed: 1,680 nodes × 4 edges = 6,720 edges in middle-math/navigation-graph.json. CX-33 (Progress Dashboard) built: docs/dashboard/ with dark-theme static HTML and Python build script. 4 new containers registered (CX-32–35), 3 already done from prior Codex runs. CX-14 fully unblocked — the bus is bussing.
+- **Macro system notes (planted 2026-03-05):** Color as conversational tone modifier (Phase 7+): Colors can signal intent in digital communication. "This is a 🟣 question" = I need precision. "This is a 🟡 question" = I'm exploring. Potential community floor feature. GitHub Project Board as visual Negotiosum: Create a Project board with a Color custom field, populate from whiteboard.md. Whiteboard auto-update enforcement: CX-35 partially covers this; consider adding CI check that verifies whiteboard.md was updated in any PR marking a CX container DONE.
 
 ---
 
