@@ -218,27 +218,27 @@ def evaluate() -> dict[str, Any]:
     in_whiteboard_rows = {row['id'] for row in whiteboard['task_rows'] if CX_PATTERN.fullmatch(row['id'])}
     in_whiteboard_mentions = set(whiteboard['cx_mentions'])
 
-    present_anywhere = in_task_arch | in_whiteboard_rows | in_whiteboard_mentions
-    missing_containers = [cid for cid in expected if cid not in present_anywhere]
+    # Coverage is based on structured indices only. Free-form mention text can
+    # include speculative or historical references and should not satisfy the
+    # container presence requirement.
+    present_in_structured_sources = in_task_arch | in_whiteboard_rows
+    missing_containers = [cid for cid in expected if cid not in present_in_structured_sources]
 
     status_mismatches = []
-    for cid, arch_status in sorted(task_arch.items()):
-        if arch_status != 'DONE':
-            continue
+    ids_with_structured_status = sorted(set(task_arch) | set(whiteboard['row_status_by_id']))
+    for cid in ids_with_structured_status:
+        arch_status = task_arch.get(cid)
         wb_status = whiteboard['row_status_by_id'].get(cid)
-        if wb_status is None:
-            status_mismatches.append({
-                'id': cid,
-                'task_arch_status': arch_status,
-                'whiteboard_status': None,
-                'reason': 'missing_from_whiteboard_rows',
-            })
-        elif wb_status != 'DONE':
+
+        arch_is_done = arch_status == 'DONE'
+        wb_is_done = wb_status == 'DONE'
+
+        if arch_is_done != wb_is_done:
             status_mismatches.append({
                 'id': cid,
                 'task_arch_status': arch_status,
                 'whiteboard_status': wb_status,
-                'reason': 'status_mismatch',
+                'reason': 'done_state_mismatch',
             })
 
     header_card = whiteboard['header']['cards_generated']
