@@ -1043,4 +1043,44 @@ See `seeds/data-ethics-architecture.md` and `seeds/systems-eudaimonics.md` for t
 
 ---
 
+## WHITEBOARD PROTOCOL — THE NEGOTIOSUM
+
+The project whiteboard (`whiteboard.md`) is named the Negotiosum — the active work board. It is organized into 8 Color sections matching the PPL± Color production postures defined in `seeds/color-pipeline-posture.md`.
+
+### Structure
+
+The Negotiosum has three parts:
+
+1. **Header** — project status numbers (phase, card count, seed count, script count, CX container progress). Updated every session.
+2. **8 Color sections** — task tables with columns: Status (OPEN/ACTIVE/DONE), ID (CX number or short slug), Task (one line), Blocker (blank or dependency), Note (optional context). One row per task.
+3. **Notes** — free-text section for open questions, emergent ideas, and observations. The only section where prose is allowed.
+
+### Rules for All Agents
+
+- Every session reads the Negotiosum before starting work.
+- Every session updates its task status — change OPEN → ACTIVE at session start, ACTIVE → DONE at session end. Add completion note in Note column.
+- No prose in Color sections — only table row edits. If context is needed, add it to Notes and reference the note from the task row.
+- New tasks go into the appropriate Color section based on the dominant cognitive posture of the task (see `seeds/color-pipeline-posture.md` for classification rules).
+- Completed tasks stay as DONE rows until a ⚪ Eudaimonia pruning session archives them.
+- Notes become tasks or seeds — when a note has a clear action, move it to a Color section as an OPEN task. When a note has grown into architecture, commit it as a seed and remove from Notes.
+
+### Color Assignment Quick Reference
+
+| Color | Latin Name | Posture | Task Types |
+|-------|-----------|---------|------------|
+| ⚫ | Ordo Operis | Teach, scaffold, define | Docs, glossaries, READMEs, templates, schemas |
+| 🟢 | Natura Operis | Self-contained, zero-dependency | Local scripts, parsers, converters, utilities |
+| 🔵 | Architectura Operis | Systematic, templated | CI, migrations, batch validation, deck scaffolds |
+| 🟣 | Profundum Operis | Precision, cascading | Weight engines, selectors, complex multi-file tasks |
+| 🔴 | Fervor Operis | Maximum output | Deck generation, Operis batch runs, card production |
+| 🟠 | Nuntius Operis | Sweep, audit, report | Inventory, audits, coverage reports, batch checks |
+| 🟡 | Lusus Operis | Creative exploration | Cosmograms, new seeds, naming, experiments |
+| ⚪ | Eudaimonia Operis | Review, reflect | CANONICAL reviews, vocab audits, pruning, compliance |
+
+### Session Log
+
+Development session history is archived in `session-log.md`. The Negotiosum does not carry session history — it carries current state only.
+
+---
+
 🧮
