@@ -48,7 +48,7 @@ Phase: B (read-only scan → patch map)
 | ~infrastructure | "audit-exercise-coverage.py — Check for duplicate primary exercises" | collision detector | §5 Validation |
 | ~infrastructure | "exercise library (~2,185 exercises)" | belt | §2 Data Flow |
 | ~infrastructure | "The exercise library has gaps that prevent resolution" (implied) | belt saturation | §8 Health |
-| ~CLAUDE.md + scl-directory.md | "master source of truth" / "authoritative" | authoritative source on the main bus | §4 Resolution |
+| ~CLAUDE.md + scl-directory.md + systems glossary | "master source of truth" / "authoritative" | authoritative source on the main bus | §4 Resolution |
 | ~stub template | YAML frontmatter (described without naming it) | source map | §1 Pipeline |
 | ~junction block | "Include 1–3 suggested follow-up zip codes with brief rationale" | draft offering | §7 UX |
 | ~order section | CNS demand ceiling per Order | energy budget | §7 UX |

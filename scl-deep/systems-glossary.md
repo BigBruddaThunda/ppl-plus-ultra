@@ -81,7 +81,7 @@ Terms for describing how resources move between components.
 
 **Main bus**
 The central resource channel that all components tap from without duplicating. When the bus updates, all agents receive the update on next read.
-In PPL: `CLAUDE.md` and `scl-directory.md`. Every agent reads the bus. No agent copies bus content into its own local storage. If the bus updates, agents see the update — they don't carry stale local copies.
+In PPL: `CLAUDE.md`, `scl-directory.md`, and `scl-deep/systems-glossary.md`. Every agent reads the bus. No agent copies bus content into its own local storage. If the bus updates, agents see the update — they don't carry stale local copies.
 
 ---
 
@@ -446,7 +446,7 @@ In PPL: the deck campaign pipeline. Cosmogram → Identity → Cards → Audit �
 ---
 
 **Bus**
-See Main bus (Section 2). The architectural opposite of spaghetti. Centralized, single-source. All components tap from it. Two buses in PPL: `scl-directory.md` (workout language) and `scl-deep/systems-glossary.md` (systems language).
+See Main bus (Section 2). The architectural opposite of spaghetti. Centralized, single-source. All components tap from it: `CLAUDE.md`, `scl-directory.md`, and `scl-deep/systems-glossary.md`.
 
 ---
 
@@ -464,7 +464,7 @@ Complete lookup: PPL concept → systems term → definition source.
 | Operis-Cosmogram multi-run loop | Multi-pass | §1 Pipeline |
 | `.md` card → HTML rendering | Transpile | §1 Pipeline |
 | Card YAML frontmatter | Source map | §1 Pipeline |
-| CLAUDE.md + scl-directory.md | Main bus | §2 Data Flow |
+| CLAUDE.md + scl-directory.md + scl-deep/systems-glossary.md | Main bus | §2 Data Flow |
 | Each card generation step | Filter | §2 Data Flow |
 | YAML frontmatter struct between steps | Pipe | §2 Data Flow |
 | Operis → edition + card queue | Tee | §2 Data Flow |
@@ -538,7 +538,7 @@ Reverse lookup: systems term → PPL implementation.
 | Belt saturation | Whether the library covers all 1,680 zip code constraint combinations |
 | Bottleneck | Exercise selection + validation (highest per-card reasoning cost) |
 | Branch | User deviating from default rotation |
-| Bus | CLAUDE.md + scl-directory.md (main bus); systems-glossary.md (vocabulary bus) |
+| Bus | CLAUDE.md + scl-directory.md + scl-deep/systems-glossary.md (main bus) |
 | Cache hit | GENERATED or CANONICAL card at a given zip |
 | Cache miss | EMPTY stub — requires full resolution pipeline |
 | Cache warming | Operis construction vehicle pipeline (8–12 addresses per edition) |
@@ -563,7 +563,7 @@ Reverse lookup: systems term → PPL implementation.
 | IR | Contract C: full Operis edition, proofable before emission |
 | Layer system | Weight vector cascade: Layers 1–7 from zip primaries to clamped output |
 | Lexer | Operis Prompt 1 (Researcher): date in, tagged research brief out |
-| Main bus | CLAUDE.md + scl-directory.md |
+| Main bus | CLAUDE.md + scl-directory.md + scl-deep/systems-glossary.md |
 | Merge | Resuming default rotation with deviation history carried forward |
 | Multi-pass | Operis-Cosmogram feedback loop improving substrate across runs |
 | Oscillator | Rotation engine: Period-7 (Order) × Period-5 (Type) = Period-35 LCM |

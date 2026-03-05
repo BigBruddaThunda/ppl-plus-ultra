@@ -773,7 +773,7 @@ When describing system operations (pipelines, data flow, validation, state manag
 
 **Key terms you will encounter in this file and across the repo:**
 
-- **Main bus** — `CLAUDE.md` + `scl-directory.md`. The central resource. Tap it. Don't duplicate it.
+- **Main bus** — `CLAUDE.md` + `scl-directory.md` + `scl-deep/systems-glossary.md`. The central resource. Tap it. Don't duplicate it.
 - **Authoritative source** — The origin document that wins all conflicts.
 - **Scan cycle** — The full validation pass that runs on every card edit (via PostToolUse inserter).
 - **Inserter** — An automatic hook that moves data between systems without human invocation.
