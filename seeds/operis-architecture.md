@@ -172,7 +172,7 @@ Tonal register: ⚪🟢 — honest, slow, spacious. Sunday's editorial voice doe
 | Imprint | 🧬 | No | 🖼 Sunday |
 | Sandbox | 🏖 | Yes | All Orders (zip count varies) |
 | Release | 🪫 | No | 🦋 Wednesday, 🌾 Friday, ⚖ Saturday, 🖼 Sunday |
-| Wilson Note | 🪫 | Yes | All Orders (within Release block) |
+| Wilson Note | 🪫 | Yes | All Orders (standalone in non-Release editions; nested within 🪫 Release when Release is active) |
 | Junction | 🚂 | Yes | All Orders |
 | SAVE | 🧮 | Yes | All Orders (extended Sundays) |
 
@@ -180,10 +180,10 @@ Tonal register: ⚪🟢 — honest, slow, spacious. Sunday's editorial voice doe
 - 🐂 Monday: 8–10 zip codes
 - ⛽ Tuesday: 8 zip codes
 - 🦋 Wednesday: 10–12 zip codes (maximum density)
-- 🏟 Thursday: 6–8 zip codes (minimum — test, record, leave)
+- 🏟 Thursday: 8 zip codes (minimum architecture floor — test, record, leave)
 - 🌾 Friday: 8–10 zip codes
 - ⚖ Saturday: 8 zip codes
-- 🖼 Sunday: 6–8 zip codes (minimum — depth, not breadth)
+- 🖼 Sunday: 8 zip codes (minimum architecture floor — depth, not breadth)
 
 ---
 

@@ -117,7 +117,7 @@ Primary floor: 🪐 5th Floor. Character: deep questions, stakes, why it matters
 73. The Order Science Document — full periodization science for one Order (from scl-deep/order-parameters.md).
 74. The Axis Specification — full dual-layer specification for one Axis (from scl-deep/axis-specifications.md).
 75. The Color Context Entry — one color's tonal communication system documentation.
-76. The Publication Standard — the voice of the institution. Also listed under 🔨 (Tools) — this type lives on both floors.
+76. The Cross-Floor Presence Tag — metadata that maps one canonical content type ID to additional floor appearances without duplicating the type.
 77. The Platform Architecture Document — the V2 full system specification.
 78. The Elevator Architecture Seed — the spatial model document.
 79. The Operis Architecture Seed — the editorial publication specification. (Supersedes The Daily Architecture Seed.)
@@ -168,7 +168,7 @@ Primary floor: 🐬 3rd Floor. Character: relational, social, who else is here.
 
 Some content types appear on more than one floor. This is by design, not an error.
 
-The Publication Standard (Type 39 and Type 76) lives on both 🔨 (the operational tool) and 🪐 (the deep principle). The workout card (Type 1) lives on 🏛 (the arrival experience) and 🌹 (the personal history). The cosmogram (Type 3) lives on 🏛 (the deck reference) and 🪐 (the deep context penthouse).
+The Publication Standard (Type 39) lives on both 🔨 (the operational tool) and 🪐 (the deep principle). The workout card (Type 1) lives on 🏛 (the arrival experience) and 🌹 (the personal history). The cosmogram (Type 3) lives on 🏛 (the deck reference) and 🪐 (the deep context penthouse). Cross-floor appearances are carried by Cross-Floor Presence Tags (Type 76), not duplicate type IDs.
 
 Cross-floor content types are not duplicated — they are **polysemic**. The same document serves different functions depending on which floor you are viewing it from. The publication standard IS the operational constraint (🔨) AND the institutional principle (🪐). The workout card IS the daily offering (🏛) AND the historical record of what you did (🌹).
 
