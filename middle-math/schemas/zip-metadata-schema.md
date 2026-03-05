@@ -112,10 +112,11 @@ The emoji is derived at the application layer, not stored in the database. The c
 -- Optional: PostgreSQL helper function if emoji display needed in SQL queries
 CREATE OR REPLACE FUNCTION zip_to_emoji(zip CHAR(4)) RETURNS TEXT AS $$
 DECLARE
-  orders TEXT[] := ARRAY['','🐂','⛽','🦋','🏟','🌾','⚖','🖼'];
-  axes   TEXT[] := ARRAY['','🏛','🔨','🌹','🪐','⌛','🐬'];
-  types  TEXT[] := ARRAY['','🛒','🪡','🍗','➕','➖'];
-  colors TEXT[] := ARRAY['','⚫','🟢','🔵','🟣','🔴','🟠','🟡','⚪'];
+  -- PostgreSQL arrays are 1-based, and zip digits are 1-based positions.
+  orders TEXT[] := ARRAY['🐂','⛽','🦋','🏟','🌾','⚖','🖼'];
+  axes   TEXT[] := ARRAY['🏛','🔨','🌹','🪐','⌛','🐬'];
+  types  TEXT[] := ARRAY['🛒','🪡','🍗','➕','➖'];
+  colors TEXT[] := ARRAY['⚫','🟢','🔵','🟣','🔴','🟠','🟡','⚪'];
 BEGIN
   RETURN
     orders[SUBSTRING(zip,1,1)::int] ||
