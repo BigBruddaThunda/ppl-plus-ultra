@@ -126,7 +126,7 @@ Structural modifier: Fewer blocks, extended rest, quality focus. GOLD exercises 
 
 | Emoji | Weight | Source Rule |
 |-------|--------|-------------|
-| GOLD exercises | +7 | "Only 🔴 Intense and 🟣 Technical unlock GOLD exercises." 🟣 is one of two GOLD gates |
+| GOLD exercises | +6 | "Only 🔴 Intense and 🟣 Technical unlock GOLD exercises." 🟣 is one of two GOLD gates, so GOLD gets strong affinity here by rule. |
 | 🛠 Craft | +6 | "Skill acquisition. Quality over load. Filters toward ⚫ and 🟣." Technical is Craft's expressive counterpart |
 | Lower volume | +5 | "Lower volume, extended rest, quality focus." Structural character of Technical |
 | Extended rest | +5 | "Extended rest" — structural modifier from CLAUDE.md Color table |
@@ -163,7 +163,7 @@ Structural modifier: 🧩 may superset, 🌋 Gutter possible. High volume.
 | Emoji | Weight | Source Rule |
 |-------|--------|-------------|
 | 🌋 Gutter | +8 | "Only in 🔴 and 🪐." 🔴 is the primary Gutter color — it is the ONLY Color where Gutter is valid. Self-defining. |
-| GOLD exercises | +7 | "Only 🔴 Intense and 🟣 Technical unlock GOLD exercises." 🔴 is one of two GOLD gates |
+| GOLD exercises | +6 | "Only 🔴 Intense and 🟣 Technical unlock GOLD exercises." 🔴 is one of two GOLD gates, so GOLD gets strong affinity here by rule. |
 | High volume | +6 | "Maximum effort. High volume." Structural character of Intense |
 | 🧩 Supplemental | +5 | "🧩 may superset" in 🔴 context. Supplemental is enhanced |
 | 🦢 plico | +5 | "Fold, superset, compress, layer." Supersets are explicitly valid in 🔴 |
