@@ -514,7 +514,7 @@ Container block `Depends on` is the canonical source; summary tables must mirror
 | D | A |
 | E | A, D |
 | F | A, D |
-| G (CX-07) | A, B, D, F |
+| G | A, B, D, F |
 | H | A, B, D, F |
 | I | A, B, D |
 | J | A, B |
@@ -527,6 +527,8 @@ Container block `Depends on` is the canonical source; summary tables must mirror
 | X | A, B, D, I, V, W |
 | Y | A, B, D, I, V, W, X |
 | Z | A, B, D, I, V, W, X, Y |
+
+Note: CX-07 is the implementation ticket label associated with Container G.
 
 ---
 
