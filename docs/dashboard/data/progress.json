@@ -1,0 +1,440 @@
+{
+  "card_total": 1680,
+  "card_generated": 102,
+  "card_canonical": 0,
+  "card_empty": 1560,
+  "card_regen": 18,
+  "deck_grid": [
+    {
+      "deck": 1,
+      "order": "🐂",
+      "axis": "🏛",
+      "order_name": "Foundation",
+      "axis_name": "Basics",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 2,
+      "order": "🐂",
+      "axis": "🔨",
+      "order_name": "Foundation",
+      "axis_name": "Functional",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 3,
+      "order": "🐂",
+      "axis": "🌹",
+      "order_name": "Foundation",
+      "axis_name": "Aesthetic",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 4,
+      "order": "🐂",
+      "axis": "🪐",
+      "order_name": "Foundation",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 5,
+      "order": "🐂",
+      "axis": "⌛",
+      "order_name": "Foundation",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 6,
+      "order": "🐂",
+      "axis": "🐬",
+      "order_name": "Foundation",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 7,
+      "order": "⛽",
+      "axis": "🏛",
+      "order_name": "Strength",
+      "axis_name": "Basics",
+      "generated": 22,
+      "total": 40
+    },
+    {
+      "deck": 8,
+      "order": "⛽",
+      "axis": "🔨",
+      "order_name": "Strength",
+      "axis_name": "Functional",
+      "generated": 40,
+      "total": 40
+    },
+    {
+      "deck": 9,
+      "order": "⛽",
+      "axis": "🌹",
+      "order_name": "Strength",
+      "axis_name": "Aesthetic",
+      "generated": 40,
+      "total": 40
+    },
+    {
+      "deck": 10,
+      "order": "⛽",
+      "axis": "🪐",
+      "order_name": "Strength",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 11,
+      "order": "⛽",
+      "axis": "⌛",
+      "order_name": "Strength",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 12,
+      "order": "⛽",
+      "axis": "🐬",
+      "order_name": "Strength",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 13,
+      "order": "🦋",
+      "axis": "🏛",
+      "order_name": "Hypertrophy",
+      "axis_name": "Basics",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 14,
+      "order": "🦋",
+      "axis": "🔨",
+      "order_name": "Hypertrophy",
+      "axis_name": "Functional",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 15,
+      "order": "🦋",
+      "axis": "🌹",
+      "order_name": "Hypertrophy",
+      "axis_name": "Aesthetic",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 16,
+      "order": "🦋",
+      "axis": "🪐",
+      "order_name": "Hypertrophy",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 17,
+      "order": "🦋",
+      "axis": "⌛",
+      "order_name": "Hypertrophy",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 18,
+      "order": "🦋",
+      "axis": "🐬",
+      "order_name": "Hypertrophy",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 19,
+      "order": "🏟",
+      "axis": "🏛",
+      "order_name": "Performance",
+      "axis_name": "Basics",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 20,
+      "order": "🏟",
+      "axis": "🔨",
+      "order_name": "Performance",
+      "axis_name": "Functional",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 21,
+      "order": "🏟",
+      "axis": "🌹",
+      "order_name": "Performance",
+      "axis_name": "Aesthetic",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 22,
+      "order": "🏟",
+      "axis": "🪐",
+      "order_name": "Performance",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 23,
+      "order": "🏟",
+      "axis": "⌛",
+      "order_name": "Performance",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 24,
+      "order": "🏟",
+      "axis": "🐬",
+      "order_name": "Performance",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 25,
+      "order": "🌾",
+      "axis": "🏛",
+      "order_name": "Full Body",
+      "axis_name": "Basics",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 26,
+      "order": "🌾",
+      "axis": "🔨",
+      "order_name": "Full Body",
+      "axis_name": "Functional",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 27,
+      "order": "🌾",
+      "axis": "🌹",
+      "order_name": "Full Body",
+      "axis_name": "Aesthetic",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 28,
+      "order": "🌾",
+      "axis": "🪐",
+      "order_name": "Full Body",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 29,
+      "order": "🌾",
+      "axis": "⌛",
+      "order_name": "Full Body",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 30,
+      "order": "🌾",
+      "axis": "🐬",
+      "order_name": "Full Body",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 31,
+      "order": "⚖",
+      "axis": "🏛",
+      "order_name": "Balance",
+      "axis_name": "Basics",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 32,
+      "order": "⚖",
+      "axis": "🔨",
+      "order_name": "Balance",
+      "axis_name": "Functional",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 33,
+      "order": "⚖",
+      "axis": "🌹",
+      "order_name": "Balance",
+      "axis_name": "Aesthetic",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 34,
+      "order": "⚖",
+      "axis": "🪐",
+      "order_name": "Balance",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 35,
+      "order": "⚖",
+      "axis": "⌛",
+      "order_name": "Balance",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 36,
+      "order": "⚖",
+      "axis": "🐬",
+      "order_name": "Balance",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 37,
+      "order": "🖼",
+      "axis": "🏛",
+      "order_name": "Restoration",
+      "axis_name": "Basics",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 38,
+      "order": "🖼",
+      "axis": "🔨",
+      "order_name": "Restoration",
+      "axis_name": "Functional",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 39,
+      "order": "🖼",
+      "axis": "🌹",
+      "order_name": "Restoration",
+      "axis_name": "Aesthetic",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 40,
+      "order": "🖼",
+      "axis": "🪐",
+      "order_name": "Restoration",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 41,
+      "order": "🖼",
+      "axis": "⌛",
+      "order_name": "Restoration",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 42,
+      "order": "🖼",
+      "axis": "🐬",
+      "order_name": "Restoration",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    }
+  ],
+  "color_sections": [
+    {
+      "emoji": "⚫",
+      "name": "Ordo Operis",
+      "done": 4,
+      "open": 4
+    },
+    {
+      "emoji": "🟢",
+      "name": "Natura Operis",
+      "done": 2,
+      "open": 2
+    },
+    {
+      "emoji": "🔵",
+      "name": "Architectura Operis",
+      "done": 4,
+      "open": 3
+    },
+    {
+      "emoji": "🟣",
+      "name": "Profundum Operis",
+      "done": 2,
+      "open": 17
+    },
+    {
+      "emoji": "🔴",
+      "name": "Fervor Operis",
+      "done": 4,
+      "open": 6
+    },
+    {
+      "emoji": "🟠",
+      "name": "Nuntius Operis",
+      "done": 1,
+      "open": 5
+    },
+    {
+      "emoji": "🟡",
+      "name": "Lusus Operis",
+      "done": 3,
+      "open": 4
+    },
+    {
+      "emoji": "⚪",
+      "name": "Eudaimonia Operis",
+      "done": 0,
+      "open": 5
+    }
+  ],
+  "cx_total": 32,
+  "cx_done": 13,
+  "last_updated": "2026-03-05T20:33:53.531878+00:00"
+}
