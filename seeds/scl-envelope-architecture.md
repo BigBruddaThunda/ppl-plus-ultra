@@ -311,15 +311,17 @@ Database Schema Implications
 
 The envelope system requires additions to the database schema defined in middle-math/schemas/.
 
-New table: content_envelopes. Columns: id (UUID PK), content_id (UUID, FK to the content item's table), content_table (TEXT — which table the content lives in, since content spans multiple tables), content_type_id (INTEGER, FK to content type registry), zip_code (CHAR(4), nullable, FK to zip_metadata), envelope_vector (VECTOR(61) or JSONB — the 61-value weight vector), region (TEXT), season (TEXT), lunar_phase (TEXT), lunar_illumination (NUMERIC(3,2)), daylight_hours (NUMERIC(4,1)), solstice_distance (INTEGER), monthly_operator (TEXT), day_of_week_order (INTEGER), scl_tags (TEXT[] — optional explicit SCL emoji tags), created_at (TIMESTAMPTZ), vote_score (INTEGER DEFAULT 0).
+New canonical table: content_items. Columns: id (UUID PK), source_table (TEXT CHECK IN ('workout_cards','workout_logs','community_posts','room_threads','audio_entries','observational_pins')), source_id (UUID), content_type_id (INTEGER, FK to content type registry), created_at (TIMESTAMPTZ). Constraint: UNIQUE (source_table, source_id). Every content-bearing table registers one row here so downstream links always target a single enforceable parent.
 
-Indexes: GIN or IVFFLAT index on envelope_vector for similarity search (if using pgvector extension). Composite index on (content_type_id, region). Index on (zip_code). Index on (created_at DESC). Index on (vote_score DESC).
+New table: content_envelopes. Columns: id (UUID PK), content_item_id (UUID NOT NULL, FK → content_items.id ON DELETE CASCADE), zip_code (CHAR(4), nullable, FK to zip_metadata), envelope_vector (VECTOR(61) or JSONB — the 61-value weight vector), region (TEXT), season (TEXT), lunar_phase (TEXT), lunar_illumination (NUMERIC(3,2)), daylight_hours (NUMERIC(4,1)), solstice_distance (INTEGER), monthly_operator (TEXT), day_of_week_order (INTEGER), scl_tags (TEXT[] — optional explicit SCL emoji tags), created_at (TIMESTAMPTZ), vote_score (INTEGER DEFAULT 0). Constraint: UNIQUE (content_item_id) so each content item has at most one immutable envelope.
+
+Indexes: GIN or IVFFLAT index on envelope_vector for similarity search (if using pgvector extension). In content_items, composite index on (content_type_id, source_table). In content_envelopes, composite index on (region, season), index on (zip_code), index on (created_at DESC), and index on (vote_score DESC).
 
 New table: content_pins. Columns: id (UUID PK), user_id (UUID FK → auth.users), envelope_id (UUID FK → content_envelopes), latitude (NUMERIC(10,7)), longitude (NUMERIC(10,7)), annotation (TEXT), media_urls (TEXT[]), visibility (TEXT CHECK IN ('public','members','private') DEFAULT 'public'). RLS: public pins readable by all authenticated users; members pins readable by subscribers; private pins readable by owner only. Writes restricted to owner.
 
 Extension to existing tables. Any table that holds content (workout_logs, community_posts, room_threads, etc.) gains an envelope_id (UUID FK → content_envelopes, nullable). Existing rows without envelopes are valid — the envelope is optional until Phase A is deployed, at which point all new rows receive one automatically.
 
-pgvector consideration. If Supabase supports the pgvector extension (it does as of 2025), the envelope_vector column should use the VECTOR(61) type for native similarity search via ` (cosine distance) or ` (L2 distance) operators. If pgvector is not available, the vector is stored as JSONB and similarity is computed application-side. The schema should be written to support both paths.
+pgvector consideration. If Supabase supports the pgvector extension (it does as of 2025), the envelope_vector column should use the VECTOR(61) type for native similarity search via `<=>` (cosine distance) or `<->` (L2 distance) operators. If pgvector is not available, the vector is stored as JSONB and similarity is computed application-side. The schema should be written to support both paths.
 
 Constraints
 
