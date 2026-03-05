@@ -196,7 +196,7 @@ All constraints in one place for Prompt 3 (the Editor):
 
 1. All 5 Content Rooms share today's Order (fixed by day of week via Gear 1).
 2. Each Content Room has a unique Type — all 5 Types appear exactly once across the 5 rooms (🛒🪡🍗➕➖ one each).
-3. Each Content Room has a unique Axis, drawn from the 5 Axes NOT used by the 8 Color siblings. Since there are 6 Axes and the siblings claim one, the 5 Content Rooms use the remaining 5 — one each.
+3. Each Content Room has a unique Axis. The sibling/monthly Axis is available to Content Rooms; the sibling-axis lock applies only to the 8 Color siblings. No Axis repeats within the 5 Content Rooms.
 4. Color is editorial. Choose the Color that fits the content's character using the Color Context Vernacular. No full-zip duplication with any Color sibling.
 5. Every Content Room title follows `deck-identities/naming-convention.md`. No editorial content in titles. The zip-code title describes the workout. The editorial connection lives in the Operis prose and front-matter, not in the title.
 6. Every Content Room's source is recorded in the edition front-matter `source` and `source-beat` fields. These fields are for archival traceability, not for display.
@@ -211,7 +211,7 @@ The mapping moves from content toward workout, not the other way:
 Operis content
     → physical domain (what kind of movement or exertion does this content connect to?)
     → Type (which muscle group / movement domain? 🛒🪡🍗➕➖)
-    → Axis (what is the exercise character? 🏛🔨🌹🪐⌛🐬 — must differ from sibling Axis)
+    → Axis (what is the exercise character? 🏛🔨🌹🪐⌛🐬 — unique across the 5 Content Rooms)
     → Color (what is the session format / editorial tone? ⚫🟢🔵🟣🔴🟠🟡⚪)
     → Order (fixed by today's day of week — already determined by Gear 1)
     = 4-emoji zip code
@@ -221,7 +221,7 @@ Content decides Type and Axis. The Editor chooses Color. Order is fixed. The map
 
 Example chain: A historical event about a 19th-century laborer carrying iron across a bridge site → physical domain: load-bearing, carrying, grip endurance → Type: ➕ Plus (loaded carries, strongman patterns) → Axis: 🔨 Functional (unilateral, standing, athletic transfer) → Color: 🔵 Structured (trackable, prescriptive) → Order: from today's day of week (e.g., ⛽ on Tuesday) → zip: ⛽🔨➕🔵.
 
-The Axis must not duplicate the 8 Color siblings' Axis. If today's Gear 3 Axis is 🔨 Functional, then no Content Room may use 🔨 — their Axes must be drawn from 🏛🌹🪐⌛🐬.
+The sibling/monthly Axis is allowed for Content Rooms. The only Axis requirement is uniqueness across the 5 Content Rooms (no repeats).
 
 ---
 
