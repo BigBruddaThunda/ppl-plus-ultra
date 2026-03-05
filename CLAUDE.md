@@ -1016,7 +1016,7 @@ PPL± collects only what the user explicitly provides through their own action. 
 
 This is a technical architecture decision, not a political statement. PPL± is not affiliated with any party or faction. Jake Berry, the creator, is not PPL± itself. The system's position on data matches the character of the system.
 
-See `seeds/data-ethics-architecture.md` for the complete specification.
+See `seeds/data-ethics-architecture.md` and `seeds/systems-eudaimonics.md` for the complete design constraints and economic philosophy specification.
 
 ---
 
