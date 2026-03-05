@@ -504,4 +504,49 @@ Next:
 
 ---
 
+### Reconciliation Note — Unlogged Codex Work (2026-03-04 through 2026-03-05)
+
+The following work was executed across multiple Codex runs and Claude Code sessions
+between Sessions 030 and 033. None of these runs were assigned session numbers at
+the time. This reconciliation note serves as the historical record.
+
+**Deck 09 Generation (⛽🌹 Strength Aesthetic — 40/40 cards)**
+Executed across multiple Codex PRs culminating in PR #59 (be1d53c).
+No session numbers assigned. All 40 cards generated, stubs deleted, deck complete.
+Deck 09 identity document built during this period.
+
+**CX Container Execution Burst (PRs #58–#67)**
+The following containers were executed and merged:
+  - CX-03: Zip converter + registry (PR #58, 83868b9)
+  - CX-04: Inventory + progress truth tables (PR #60, 87b2fd8)
+  - CX-13: Exercise library parser → JSON (PR #61, db7b202)
+  - CX-02: Historical events scaffold + 366 stubs (PR #62, 99fc9ac)
+  - CX-00B: Systems language audit (PR #63, c3f6ec7)
+  - CX-09: Axis weight declarations, all 6 axes (PR #64, 41cc4fa)
+  - CX-10: Type + color weight declarations (PR #65, e6be726)
+  - CX-16: Deck identity scaffold generator, Decks 10–12 (PR #67, 862de8d)
+
+**Additional infrastructure (CX-05, CX-07)**
+Markdownlint configuration and CI lint workflow landed via Codex runs.
+Exact PRs not individually tracked. Evidence on disk:
+  - .github/linters/.markdownlint-cli2.jsonc
+  - .github/workflows/lint.yml
+  - .github/workflows/pylint.yml
+
+**First Operis Edition (PR #27, 34c8f41)**
+2026-03-02 Operis — first-ever edition. Foundation Functional Push.
+Filed at operis-editions/2026/03/2026-03-02.md.
+
+**Architecture Seeds**
+  - seeds/color-pipeline-posture.md (PR #83, 0622878)
+  - seeds/systems-eudaimonics.md (Session 032 area)
+  - seeds/scl-envelope-architecture.md (unlogged)
+
+**Code Review / Validation Hardening**
+Contract C parser hardening, tree-notation validation, status allow-list alignment,
+full-audit strict/baseline messaging — all landed via Codex PRs in the #50s–#60s range.
+Referenced in .codex/NEXT-ROUND-HANDOFF.md as "assumed done and merged."
+
+---
+
 🧮
