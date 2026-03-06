@@ -1,56 +1,37 @@
 #!/usr/bin/env python3
 """
 scripts/middle-math/exercise_selector.py
-CX-15: Exercise Selection Prototype
+CX-43: Exercise Selector V2 (registry-aware)
 
-Produces ranked exercise candidates per block for any zip code in the PPL±
-1,680-room library. This is the core of the generation automation pipeline.
+V2 default behavior:
+- Uses middle-math/exercise-registry.json
+- Uses octave-scale axis_affinity/order_affinity directly
+- Applies family diversity penalty across prior blocks (x0.3)
+- Supports optional substitution chains via --show-subs
+- Fixes catch-all movement_pattern="core-stability" using family_id overrides
 
-Algorithm:
-  1. Parse input zip (emoji or numeric) → zip-registry.json
-  2. Load zip's 61-dim weight vector from weight-vectors.json
-  3. Determine block sequence from Order (per CLAUDE.md guidelines)
-  4. For each block:
-     a. Filter exercises by Type match
-     b. Filter by Color equipment tier range
-     c. Apply GOLD gate (only 🔴 pos=5, 🟣 pos=4 allow GOLD exercises)
-     d. Apply Order relevance filter
-     e. Score candidates via dot product against zip weight vector
-     f. Rank top 3–5 candidates
-  5. Deduplicate: no exercise appears in more than one block per zip
-  6. Output JSON manifest
-
-Usage:
-    python scripts/middle-math/exercise_selector.py --zip ⛽🏛🪡🔵
-    python scripts/middle-math/exercise_selector.py --zip 2123
-    python scripts/middle-math/exercise_selector.py --deck 07
-    python scripts/middle-math/exercise_selector.py --zip 2123 --validate
-    python scripts/middle-math/exercise_selector.py --zip 2123 --stats
-    python scripts/middle-math/exercise_selector.py --deck 07 --output json
-    python scripts/middle-math/exercise_selector.py --deck 07 --output text
+Backward compatibility:
+- --v1 reverts to CX-15 behavior (exercise-library.json + binary affinity + no family penalty)
 """
 
+import argparse
+import copy
 import json
 import sys
-import argparse
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-REGISTRY_PATH    = REPO_ROOT / "middle-math" / "zip-registry.json"
-VECTORS_PATH     = REPO_ROOT / "middle-math" / "weight-vectors.json"
-EXERCISES_PATH   = REPO_ROOT / "middle-math" / "exercise-library.json"
+ZIP_REGISTRY_PATH = REPO_ROOT / "middle-math" / "zip-registry.json"
+VECTORS_PATH = REPO_ROOT / "middle-math" / "weight-vectors.json"
+EXERCISE_LIBRARY_PATH = REPO_ROOT / "middle-math" / "exercise-library.json"
+EXERCISE_REGISTRY_PATH = REPO_ROOT / "middle-math" / "exercise-registry.json"
+SUBSTITUTION_MAP_PATH = REPO_ROOT / "middle-math" / "exercise-engine" / "substitution-map.json"
 
 # ---------------------------------------------------------------------------
-# 61-emoji position map (mirrors weight_vector.py — the authoritative source)
-# Positions 0–6:   Orders
-# Positions 7–12:  Axes
-# Positions 13–17: Types
-# Positions 18–25: Colors
-# Positions 26–48: Blocks (22 blocks + 🧮 SAVE = 23 slots)
-# Positions 49–60: Operators (12 operators)
+# 61-emoji position map (weight vector dimensional index)
 # ---------------------------------------------------------------------------
 EMOJI_POSITIONS = {
     # Orders (7)
@@ -70,15 +51,10 @@ EMOJI_POSITIONS = {
     "🧲": 49, "🐋": 50, "🤌": 51, "🧸": 52, "✒️": 53, "🦉": 54,
     "🥨": 55, "🦢": 56, "📍": 57, "👀": 58, "🪵": 59, "🚀": 60,
 }
-
-POSITION_EMOJIS = {v: k for k, v in EMOJI_POSITIONS.items()}
 VECTOR_SIZE = 61
 
-# Sort emojis by length descending so longer sequences match before shorter ones
-EMOJIS_SORTED = sorted(EMOJI_POSITIONS.keys(), key=len, reverse=True)
-
 # ---------------------------------------------------------------------------
-# SCL name → emoji maps (for looking up exercise library strings)
+# Name maps
 # ---------------------------------------------------------------------------
 ORDER_NAME_TO_EMOJI = {
     "Foundation": "🐂", "Strength": "⛽", "Hypertrophy": "🦋",
@@ -92,35 +68,25 @@ TYPE_NAME_TO_EMOJI = {
     "Push": "🛒", "Pull": "🪡", "Legs": "🍗", "Plus": "➕", "Ultra": "➖",
 }
 ORDER_EMOJI_TO_NAME = {v: k for k, v in ORDER_NAME_TO_EMOJI.items()}
-AXIS_EMOJI_TO_NAME  = {v: k for k, v in AXIS_NAME_TO_EMOJI.items()}
-TYPE_EMOJI_TO_NAME  = {v: k for k, v in TYPE_NAME_TO_EMOJI.items()}
+TYPE_EMOJI_TO_NAME = {v: k for k, v in TYPE_NAME_TO_EMOJI.items()}
 
-# ---------------------------------------------------------------------------
-# Color equipment tier ranges (from CLAUDE.md / color-weights.md)
-# ⚫ Teaching: 2–3 | 🟢 Bodyweight: 0–2 | 🔵 Structured: 2–3 | 🟣 Technical: 2–5
-# 🔴 Intense: 2–4  | 🟠 Circuit: 0–3    | 🟡 Fun: 0–5        | ⚪ Mindful: 0–3
-# ---------------------------------------------------------------------------
-COLOR_TIER_RANGES = {
-    "⚫": (2, 3),
-    "🟢": (0, 2),
-    "🔵": (2, 3),
-    "🟣": (2, 5),
-    "🔴": (2, 4),
-    "🟠": (0, 3),
-    "🟡": (0, 5),
-    "⚪": (0, 3),
+# Registry affinity key maps
+ORDER_AFFINITY_KEY_TO_EMOJI = {
+    "foundation": "🐂", "strength": "⛽", "hypertrophy": "🦋",
+    "performance": "🏟", "full_body": "🌾", "balance": "⚖", "restoration": "🖼",
+}
+AXIS_AFFINITY_KEY_TO_EMOJI = {
+    "classic": "🏛", "functional": "🔨", "aesthetic": "🌹",
+    "challenge": "🪐", "time": "⌛", "partner": "🐬",
 }
 
-# Colors that unlock GOLD exercises (position 4 = 🟣, position 5 = 🔴)
+COLOR_TIER_RANGES = {
+    "⚫": (2, 3), "🟢": (0, 2), "🔵": (2, 3), "🟣": (2, 5),
+    "🔴": (2, 4), "🟠": (0, 3), "🟡": (0, 5), "⚪": (0, 3),
+}
 GOLD_ELIGIBLE_COLORS = {"🟣", "🔴"}
 
-# ---------------------------------------------------------------------------
-# Block sequences per Order (from CLAUDE.md)
-# Only blocks that need exercise candidates are included
-# (♨️ Warm-Up, 🚂 Junction, 🧮 SAVE are structural — no exercise selection needed)
-# ---------------------------------------------------------------------------
 BLOCK_SEQUENCES = {
-    # Order emoji → [blocks that need exercise candidates]
     "🐂": ["♨️", "🔢", "🧈", "🧩", "🧬", "🚂"],
     "⛽": ["♨️", "▶️", "🧈", "🧩", "🪫", "🚂"],
     "🦋": ["♨️", "▶️", "🧈", "🗿", "🪞", "🧩", "🪫", "🚂"],
@@ -129,11 +95,7 @@ BLOCK_SEQUENCES = {
     "⚖": ["♨️", "🏗", "🧈", "🧩", "🪫", "🚂"],
     "🖼": ["🎯", "🪫", "🧈", "🧬", "🚂"],
 }
-
-# Blocks that are structural / don't need direct exercise selection
 STRUCTURAL_BLOCKS = {"♨️", "🚂", "🧮", "🎯"}
-
-# Block names for display
 BLOCK_NAMES = {
     "♨️": "Warm-Up", "🎯": "Intention", "🔢": "Fundamentals", "🧈": "Bread/Butter",
     "🫀": "Circulation", "▶️": "Primer", "🎼": "Composition", "♟️": "Gambit",
@@ -143,64 +105,78 @@ BLOCK_NAMES = {
     "🚂": "Junction", "🔠": "Choice", "🧮": "SAVE",
 }
 
+MAJOR_PATTERN_FAMILIES = {
+    "hip-hinge", "squat", "horizontal-press", "vertical-press", "horizontal-pull",
+    "vertical-pull", "isolation-curl", "isolation-extension", "lunge", "carry",
+    "anti-rotation", "conditioning", "olympic", "plyometric", "leg-isolation",
+}
+
+
 # ---------------------------------------------------------------------------
-# Data loaders
+# Data
 # ---------------------------------------------------------------------------
-
-def load_registry() -> list:
-    return json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
-
-
-def load_vectors() -> dict:
-    return json.loads(VECTORS_PATH.read_text(encoding="utf-8"))
-
-
-def load_exercises() -> list:
-    return json.loads(EXERCISES_PATH.read_text(encoding="utf-8"))
+def load_json(path: Path):
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def build_registry_lookup(registry: list) -> dict:
-    """Build lookup dicts for fast zip resolution by both numeric and emoji key."""
     by_numeric = {}
-    by_emoji   = {}
+    by_emoji = {}
     for entry in registry:
         by_numeric[entry["numeric_zip"]] = entry
-        by_emoji[entry["emoji_zip"]]     = entry
+        by_emoji[entry["emoji_zip"]] = entry
     return {"numeric": by_numeric, "emoji": by_emoji}
 
 
+def preprocess_registry_exercises(exercises: list) -> tuple[list, int]:
+    """Override catch-all movement_pattern where family_id is a known major pattern."""
+    overrides = 0
+    processed = copy.deepcopy(exercises)
+    for ex in processed:
+        if ex.get("movement_pattern") == "core-stability" and ex.get("family_id") in MAJOR_PATTERN_FAMILIES:
+            ex["movement_pattern"] = ex["family_id"]
+            overrides += 1
+    return processed, overrides
+
+
 # ---------------------------------------------------------------------------
-# Exercise affinity vector
+# Affinity/scoring
 # ---------------------------------------------------------------------------
-
-def build_exercise_affinity(exercise: dict) -> list:
-    """
-    Build a 61-dim affinity vector for a single exercise.
-
-    Positions get weight +2 if the exercise's type matches that Type emoji.
-    Positions get weight +1 for each Order in order_relevance.
-    Positions get weight +1 for each Axis in axis_emphasis.
-    All other positions: 0.
-    """
-    vec = [0] * VECTOR_SIZE
-
-    # Type affinity (strong signal, weight +2)
+def build_exercise_affinity_v1(exercise: dict) -> list:
+    vec = [0.0] * VECTOR_SIZE
     for type_name in exercise.get("scl_types", []):
         type_emoji = TYPE_NAME_TO_EMOJI.get(type_name)
-        if type_emoji and type_emoji in EMOJI_POSITIONS:
-            vec[EMOJI_POSITIONS[type_emoji]] += 2
-
-    # Order relevance (weight +1 each)
+        if type_emoji:
+            vec[EMOJI_POSITIONS[type_emoji]] += 2.0
     for order_name in exercise.get("order_relevance", []):
         order_emoji = ORDER_NAME_TO_EMOJI.get(order_name)
-        if order_emoji and order_emoji in EMOJI_POSITIONS:
-            vec[EMOJI_POSITIONS[order_emoji]] += 1
-
-    # Axis emphasis (weight +1 each)
+        if order_emoji:
+            vec[EMOJI_POSITIONS[order_emoji]] += 1.0
     for axis_name in exercise.get("axis_emphasis", []):
         axis_emoji = AXIS_NAME_TO_EMOJI.get(axis_name)
-        if axis_emoji and axis_emoji in EMOJI_POSITIONS:
-            vec[EMOJI_POSITIONS[axis_emoji]] += 1
+        if axis_emoji:
+            vec[EMOJI_POSITIONS[axis_emoji]] += 1.0
+    return vec
+
+
+def build_exercise_affinity_v2(exercise: dict) -> list:
+    """Octave-scale affinity: direct axis/order weights + Type +2; all else zero."""
+    vec = [0.0] * VECTOR_SIZE
+
+    for type_name in exercise.get("scl_types", []):
+        type_emoji = TYPE_NAME_TO_EMOJI.get(type_name)
+        if type_emoji:
+            vec[EMOJI_POSITIONS[type_emoji]] += 2.0
+
+    for axis_key, weight in exercise.get("axis_affinity", {}).items():
+        axis_emoji = AXIS_AFFINITY_KEY_TO_EMOJI.get(axis_key)
+        if axis_emoji is not None:
+            vec[EMOJI_POSITIONS[axis_emoji]] = float(weight)
+
+    for order_key, weight in exercise.get("order_affinity", {}).items():
+        order_emoji = ORDER_AFFINITY_KEY_TO_EMOJI.get(order_key)
+        if order_emoji is not None:
+            vec[EMOJI_POSITIONS[order_emoji]] = float(weight)
 
     return vec
 
@@ -210,72 +186,58 @@ def dot_product(a: list, b: list) -> float:
 
 
 # ---------------------------------------------------------------------------
-# Filtering logic
+# Filters
 # ---------------------------------------------------------------------------
+def exercise_identifier(exercise: dict) -> str:
+    return exercise.get("exercise_id") or exercise.get("id") or "UNKNOWN"
+
 
 def passes_type_filter(exercise: dict, type_name: str) -> bool:
     return type_name in exercise.get("scl_types", [])
 
 
 def passes_equipment_tier_filter(exercise: dict, color_emoji: str) -> bool:
-    """Color tier range must overlap with exercise's equipment_tier [min, max]."""
     color_min, color_max = COLOR_TIER_RANGES.get(color_emoji, (0, 5))
     ex_min, ex_max = exercise.get("equipment_tier", [0, 5])
-    # Overlap check: ranges intersect if max(mins) <= min(maxes)
     return max(color_min, ex_min) <= min(color_max, ex_max)
 
 
 def passes_gold_gate(exercise: dict, color_emoji: str) -> bool:
-    """GOLD-gated exercises only permitted when Color is 🔴 or 🟣."""
-    if exercise.get("gold_gated", False):
-        return color_emoji in GOLD_ELIGIBLE_COLORS
-    return True
+    return (not exercise.get("gold_gated", False)) or (color_emoji in GOLD_ELIGIBLE_COLORS)
 
 
 def passes_order_relevance(exercise: dict, order_name: str) -> bool:
-    """Exercise must list this Order as relevant."""
     return order_name in exercise.get("order_relevance", [])
 
 
 def passes_no_barbell_constraint(exercise: dict, color_emoji: str) -> bool:
-    """🟢 Bodyweight and 🟠 Circuit: no barbell-only exercises (tier ≥ 3 minimum)."""
     if color_emoji in {"🟢", "🟠"}:
         ex_min = exercise.get("equipment_tier", [0, 5])[0]
-        # If exercise requires tier ≥ 3 minimum, it needs barbell/rack — excluded
         if ex_min >= 3:
             return False
     return True
 
 
 # ---------------------------------------------------------------------------
-# Core selection for a single block
+# Core selection
 # ---------------------------------------------------------------------------
-
 def select_for_block(
     block_emoji: str,
     zip_entry: dict,
     zip_vector: list,
     exercises: list,
     already_selected: set,
-    top_n: int = 5,
+    prior_families: set,
+    top_n: int,
+    v1_mode: bool,
+    substitution_map: dict,
+    show_subs: bool,
 ) -> dict:
-    """
-    Select top_n exercise candidates for a given block within a zip code.
-
-    Returns:
-        {
-          "block": block_emoji,
-          "block_name": str,
-          "candidates": [{"id", "name", "score", "section", "muscle_groups", "filters_passed"}],
-          "stats": {"considered", "filtered_type", "filtered_tier", "filtered_gold",
-                    "filtered_order", "filtered_barbell", "filtered_duplicate", "scored"}
-        }
-    """
     order_emoji = zip_entry["order"]["emoji"]
-    type_emoji  = zip_entry["type"]["emoji"]
+    type_emoji = zip_entry["type"]["emoji"]
     color_emoji = zip_entry["color"]["emoji"]
-    order_name  = ORDER_EMOJI_TO_NAME.get(order_emoji, "")
-    type_name   = TYPE_EMOJI_TO_NAME.get(type_emoji, "")
+    order_name = ORDER_EMOJI_TO_NAME.get(order_emoji, "")
+    type_name = TYPE_EMOJI_TO_NAME.get(type_emoji, "")
 
     stats = {
         "considered": 0,
@@ -286,61 +248,88 @@ def select_for_block(
         "filtered_barbell": 0,
         "filtered_duplicate": 0,
         "scored": 0,
+        "family_penalized": 0,
+        "filtered_same_family_block": 0,
     }
 
     scored = []
-
     for ex in exercises:
         stats["considered"] += 1
 
         if not passes_type_filter(ex, type_name):
             stats["filtered_type"] += 1
             continue
-
         if not passes_equipment_tier_filter(ex, color_emoji):
             stats["filtered_tier"] += 1
             continue
-
         if not passes_gold_gate(ex, color_emoji):
             stats["filtered_gold"] += 1
             continue
-
         if not passes_order_relevance(ex, order_name):
             stats["filtered_order"] += 1
             continue
-
         if not passes_no_barbell_constraint(ex, color_emoji):
             stats["filtered_barbell"] += 1
             continue
 
-        if ex["id"] in already_selected:
+        ex_id = exercise_identifier(ex)
+        if ex_id in already_selected:
             stats["filtered_duplicate"] += 1
             continue
 
-        # Score: dot product of zip vector × exercise affinity vector
-        affinity = build_exercise_affinity(ex)
+        affinity = build_exercise_affinity_v1(ex) if v1_mode else build_exercise_affinity_v2(ex)
         score = dot_product(zip_vector, affinity)
 
+        family_id = ex.get("family_id")
+        family_penalty_applied = False
+        if (not v1_mode) and family_id and family_id in prior_families:
+            score *= 0.3
+            family_penalty_applied = True
+            stats["family_penalized"] += 1
+
         stats["scored"] += 1
-        scored.append((score, ex))
+        scored.append((score, ex, family_penalty_applied))
 
-    # Sort descending by score
     scored.sort(key=lambda x: x[0], reverse=True)
-    top = scored[:top_n]
 
-    candidates = [
-        {
-            "id": ex["id"],
-            "name": ex["name"],
-            "score": round(score, 1),
-            "section": ex.get("section", "?"),
+    top = []
+    block_families = set()
+    for score, ex, family_penalty_applied in scored:
+        family_id = ex.get("family_id")
+        if family_id and family_id in block_families:
+            stats["filtered_same_family_block"] += 1
+            continue
+        top.append((score, ex, family_penalty_applied))
+        if family_id:
+            block_families.add(family_id)
+        if len(top) >= top_n:
+            break
+
+    candidates = []
+    for score, ex, family_penalty_applied in top:
+        ex_id = exercise_identifier(ex)
+        candidate = {
+            "id": ex_id,
+            "name": ex.get("name", ""),
+            "score": round(score, 2),
+            "section": ex.get("source_section") or ex.get("section", "?"),
             "muscle_groups": ex.get("muscle_groups", ""),
             "movement_pattern": ex.get("movement_pattern", ""),
             "equipment_tier": ex.get("equipment_tier", [0, 5]),
             "gold_gated": ex.get("gold_gated", False),
+            "family_id": ex.get("family_id"),
+            "family_penalty_applied": family_penalty_applied,
         }
-        for score, ex in top
-    ]
+
+        if show_subs:
+            subs = substitution_map.get(ex_id, {})
+            candidate["substitutions"] = {
+                "tier_down": subs.get("tier_down", []),
+                "tier_up": subs.get("tier_up", []),
+                "cross_family": subs.get("cross_family", []),
+            }
+
+        candidates.append(candidate)
 
     return {
         "block": block_emoji,
@@ -350,55 +339,57 @@ def select_for_block(
     }
 
 
-# ---------------------------------------------------------------------------
-# Full zip selection
-# ---------------------------------------------------------------------------
-
 def select_for_zip(
     zip_entry: dict,
     zip_vector: list,
     exercises: list,
-    top_n: int = 5,
+    top_n: int,
+    v1_mode: bool,
+    substitution_map: dict,
+    show_subs: bool,
 ) -> dict:
-    """
-    Run exercise selection for all blocks in a zip code.
-
-    Returns a manifest dict: {zip, emoji_zip, blocks: [...], summary}
-    """
-    numeric_zip = zip_entry["numeric_zip"]
-    emoji_zip   = zip_entry["emoji_zip"]
-    order_emoji = zip_entry["order"]["emoji"]
-    axis_emoji  = zip_entry["axis"]["emoji"]
-    type_emoji  = zip_entry["type"]["emoji"]
-    color_emoji = zip_entry["color"]["emoji"]
-
-    block_sequence = BLOCK_SEQUENCES.get(order_emoji, ["♨️", "🧈", "🚂"])
-    # Only select exercises for non-structural blocks
+    block_sequence = BLOCK_SEQUENCES.get(zip_entry["order"]["emoji"], ["♨️", "🧈", "🚂"])
     selection_blocks = [b for b in block_sequence if b not in STRUCTURAL_BLOCKS]
 
     already_selected = set()
+    prior_families = set()
     block_results = []
     total_stats = {
-        "considered": 0, "filtered_type": 0, "filtered_tier": 0,
-        "filtered_gold": 0, "filtered_order": 0, "filtered_barbell": 0,
-        "filtered_duplicate": 0, "scored": 0,
+        "considered": 0,
+        "filtered_type": 0,
+        "filtered_tier": 0,
+        "filtered_gold": 0,
+        "filtered_order": 0,
+        "filtered_barbell": 0,
+        "filtered_duplicate": 0,
+        "scored": 0,
+        "family_penalized": 0,
     }
 
     for block_emoji in selection_blocks:
         result = select_for_block(
-            block_emoji, zip_entry, zip_vector, exercises,
-            already_selected, top_n=top_n
+            block_emoji=block_emoji,
+            zip_entry=zip_entry,
+            zip_vector=zip_vector,
+            exercises=exercises,
+            already_selected=already_selected,
+            prior_families=prior_families,
+            top_n=top_n,
+            v1_mode=v1_mode,
+            substitution_map=substitution_map,
+            show_subs=show_subs,
         )
         block_results.append(result)
 
-        # Register selected exercises to prevent cross-block duplicates
         for candidate in result["candidates"]:
             already_selected.add(candidate["id"])
+            family_id = candidate.get("family_id")
+            if family_id:
+                prior_families.add(family_id)
 
         for k in total_stats:
             total_stats[k] += result["stats"].get(k, 0)
 
-    # Coverage gaps: blocks with fewer than 3 candidates
     coverage_gaps = [
         {"block": r["block"], "block_name": r["block_name"], "candidates_found": len(r["candidates"])}
         for r in block_results
@@ -406,13 +397,14 @@ def select_for_zip(
     ]
 
     return {
-        "zip": numeric_zip,
-        "emoji_zip": emoji_zip,
-        "order": {"emoji": order_emoji, "name": zip_entry["order"]["name"]},
-        "axis":  {"emoji": axis_emoji,  "name": zip_entry["axis"]["name"]},
-        "type":  {"emoji": type_emoji,  "name": zip_entry["type"]["name"]},
-        "color": {"emoji": color_emoji, "name": zip_entry["color"]["name"]},
+        "zip": zip_entry["numeric_zip"],
+        "emoji_zip": zip_entry["emoji_zip"],
+        "order": {"emoji": zip_entry["order"]["emoji"], "name": zip_entry["order"]["name"]},
+        "axis": {"emoji": zip_entry["axis"]["emoji"], "name": zip_entry["axis"]["name"]},
+        "type": {"emoji": zip_entry["type"]["emoji"], "name": zip_entry["type"]["name"]},
+        "color": {"emoji": zip_entry["color"]["emoji"], "name": zip_entry["color"]["name"]},
         "gold_eligible": zip_entry.get("gold_eligible", False),
+        "mode": "v1" if v1_mode else "v2",
         "block_sequence": block_sequence,
         "blocks": block_results,
         "summary": {
@@ -425,37 +417,31 @@ def select_for_zip(
 # ---------------------------------------------------------------------------
 # Validation
 # ---------------------------------------------------------------------------
-
 def validate_manifest(manifest: dict) -> list:
-    """
-    Validate a single zip manifest for GOLD leakage and cross-block duplicates.
-
-    Returns list of violation strings (empty = clean).
-    """
     violations = []
-    zip_code  = manifest["zip"]
+    zip_code = manifest["zip"]
     emoji_zip = manifest["emoji_zip"]
-    color_e   = manifest["color"]["emoji"]
-    is_gold   = color_e in GOLD_ELIGIBLE_COLORS
+    color_e = manifest["color"]["emoji"]
+    is_gold = color_e in GOLD_ELIGIBLE_COLORS
 
     seen_exercise_ids = {}
 
     for block_result in manifest["blocks"]:
-        block_e    = block_result["block"]
+        block_e = block_result["block"]
         block_name = block_result["block_name"]
+        seen_families_in_block = {}
 
         for cand in block_result["candidates"]:
-            ex_id   = cand["id"]
+            ex_id = cand["id"]
             ex_name = cand["name"]
+            family_id = cand.get("family_id")
 
-            # GOLD gate check
             if cand.get("gold_gated", False) and not is_gold:
                 violations.append(
-                    f"[{zip_code} {emoji_zip}] GOLD exercise in non-GOLD color "
-                    f"{color_e}: '{ex_name}' (id={ex_id}) in block {block_e} {block_name}"
+                    f"[{zip_code} {emoji_zip}] GOLD exercise in non-GOLD color {color_e}: "
+                    f"'{ex_name}' (id={ex_id}) in block {block_e} {block_name}"
                 )
 
-            # Cross-block duplicate check
             if ex_id in seen_exercise_ids:
                 prev_block = seen_exercise_ids[ex_id]
                 violations.append(
@@ -465,23 +451,34 @@ def validate_manifest(manifest: dict) -> list:
             else:
                 seen_exercise_ids[ex_id] = f"{block_e} {block_name}"
 
+            if family_id:
+                if family_id in seen_families_in_block:
+                    prev_ex = seen_families_in_block[family_id]
+                    violations.append(
+                        f"[{zip_code} {emoji_zip}] Same-family candidates in block {block_e} {block_name}: "
+                        f"{prev_ex} and {ex_name} share family_id={family_id}"
+                    )
+                else:
+                    seen_families_in_block[family_id] = ex_name
+
     return violations
 
 
 # ---------------------------------------------------------------------------
-# Output formatters
+# Output
 # ---------------------------------------------------------------------------
-
-def format_text(manifest: dict) -> str:
-    """Human-readable text output for a single zip manifest."""
+def format_text(manifest: dict, show_subs: bool = False) -> str:
     lines = []
     z = manifest
     lines.append(f"\n{'═' * 60}")
     lines.append(f"  {z['emoji_zip']}  ({z['zip']})")
-    lines.append(f"  {z['order']['emoji']} {z['order']['name']} | "
-                 f"{z['axis']['emoji']} {z['axis']['name']} | "
-                 f"{z['type']['emoji']} {z['type']['name']} | "
-                 f"{z['color']['emoji']} {z['color']['name']}")
+    lines.append(
+        f"  {z['order']['emoji']} {z['order']['name']} | "
+        f"{z['axis']['emoji']} {z['axis']['name']} | "
+        f"{z['type']['emoji']} {z['type']['name']} | "
+        f"{z['color']['emoji']} {z['color']['name']}"
+    )
+    lines.append(f"  Mode: {z['mode'].upper()}")
     lines.append(f"  GOLD eligible: {'YES' if z['gold_eligible'] else 'no'}")
     lines.append(f"{'─' * 60}")
 
@@ -492,12 +489,17 @@ def format_text(manifest: dict) -> str:
         for i, c in enumerate(block["candidates"], 1):
             tier = f"T{c['equipment_tier'][0]}-{c['equipment_tier'][1]}"
             gold = " [GOLD]" if c.get("gold_gated") else ""
-            lines.append(f"    {i}. {c['name']}{gold}")
-            lines.append(f"       score={c['score']:+.0f}  {tier}  {c['muscle_groups']}")
+            fam = f" family={c.get('family_id', 'n/a')}"
+            penalized = " [family-penalty]" if c.get("family_penalty_applied") else ""
+            lines.append(f"    {i}. {c['name']}{gold}{penalized}")
+            lines.append(f"       id={c['id']} score={c['score']:+.2f} {tier}{fam}")
+            if show_subs and "substitutions" in c:
+                subs = c["substitutions"]
+                lines.append(f"       subs: ↓{subs['tier_down']} ↑{subs['tier_up']} ↔{subs['cross_family']}")
 
     gaps = z["summary"]["coverage_gaps"]
     if gaps:
-        lines.append(f"\n  ⚠ Coverage gaps (<3 candidates):")
+        lines.append("\n  ⚠ Coverage gaps (<3 candidates):")
         for g in gaps:
             lines.append(f"    {g['block']} {g['block_name']}: {g['candidates_found']} found")
 
@@ -505,132 +507,147 @@ def format_text(manifest: dict) -> str:
 
 
 def format_stats(manifest: dict) -> str:
-    """Stats summary for a single zip manifest."""
-    lines = []
     z = manifest
     s = z["summary"]["total_stats"]
-    lines.append(f"\n  {z['emoji_zip']} ({z['zip']}) stats:")
-    lines.append(f"    Considered:         {s['considered']}")
-    lines.append(f"    Filtered by type:   {s['filtered_type']}")
-    lines.append(f"    Filtered by tier:   {s['filtered_tier']}")
-    lines.append(f"    Filtered by GOLD:   {s['filtered_gold']}")
-    lines.append(f"    Filtered by order:  {s['filtered_order']}")
-    lines.append(f"    Filtered barbell:   {s['filtered_barbell']}")
-    lines.append(f"    Filtered duplicate: {s['filtered_duplicate']}")
-    lines.append(f"    Scored:             {s['scored']}")
+    lines = [
+        f"\n  {z['emoji_zip']} ({z['zip']}) stats:",
+        f"    Considered:         {s['considered']}",
+        f"    Filtered by type:   {s['filtered_type']}",
+        f"    Filtered by tier:   {s['filtered_tier']}",
+        f"    Filtered by GOLD:   {s['filtered_gold']}",
+        f"    Filtered by order:  {s['filtered_order']}",
+        f"    Filtered barbell:   {s['filtered_barbell']}",
+        f"    Filtered duplicate: {s['filtered_duplicate']}",
+        f"    Family penalized:   {s['family_penalized']}",
+        f"    Scored:             {s['scored']}",
+    ]
     gaps = z["summary"]["coverage_gaps"]
     if gaps:
         lines.append(f"    ⚠ Coverage gaps: {len(gaps)} block(s)")
-        for g in gaps:
-            lines.append(f"      {g['block']} {g['block_name']}: {g['candidates_found']} candidates")
     else:
-        lines.append(f"    ✓ All blocks have 3+ candidates")
+        lines.append("    ✓ All blocks have 3+ candidates")
     return "\n".join(lines)
 
 
 # ---------------------------------------------------------------------------
-# Deck helpers
+# Helpers
 # ---------------------------------------------------------------------------
-
 def get_deck_zips(registry: list, deck_number: int) -> list:
-    """Return all zip entries for a given deck number."""
     return [e for e in registry if e.get("deck_number") == deck_number]
+
+
+def resolve_zip_entries(args, lookup, registry):
+    if args.zip:
+        entry = lookup["numeric"].get(args.zip) or lookup["emoji"].get(args.zip)
+        if not entry:
+            raise ValueError(f"zip code not found: {args.zip}")
+        return [entry]
+    if args.deck:
+        deck_num = int(args.deck)
+        zips = get_deck_zips(registry, deck_num)
+        if not zips:
+            raise ValueError(f"no zip codes found for deck {deck_num}")
+        return zips
+    return registry
 
 
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
-
 def main():
-    parser = argparse.ArgumentParser(
-        description="CX-15: PPL± Exercise Selection Prototype"
-    )
+    parser = argparse.ArgumentParser(description="CX-43: PPL± Exercise Selector V2 (registry-aware)")
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--zip",  type=str,
-                       help="Single zip code (emoji or numeric, e.g. '⛽🏛🪡🔵' or '2123')")
-    group.add_argument("--deck", type=str,
-                       help="All 40 zips in a deck (e.g. '07' or '7')")
+    group.add_argument("--zip", type=str, help="Single zip (emoji or numeric)")
+    group.add_argument("--deck", type=str, help="All zips in deck (e.g., 07)")
+    group.add_argument("--all", action="store_true", help="Run all 1,680 zips")
 
-    parser.add_argument("--validate", action="store_true",
-                        help="Check for GOLD leakage and cross-block duplicates")
-    parser.add_argument("--stats", action="store_true",
-                        help="Print filter/selection statistics")
-    parser.add_argument("--output", choices=["json", "text"], default="text",
-                        help="Output format (default: text)")
-    parser.add_argument("--top", type=int, default=5,
-                        help="Candidates per block (default: 5)")
-
+    parser.add_argument("--validate", action="store_true", help="Validate manifests")
+    parser.add_argument("--stats", action="store_true", help="Print filter stats")
+    parser.add_argument("--output", choices=["json", "text"], default="text")
+    parser.add_argument("--top", type=int, default=5)
+    parser.add_argument("--v1", action="store_true", help="Use CX-15 behavior (library + binary affinity)")
+    parser.add_argument("--show-subs", action="store_true", help="Include substitution chains in output")
     args = parser.parse_args()
 
-    # Load data
     print("Loading data...", end=" ", flush=True)
-    registry  = load_registry()
-    vectors   = load_vectors()
-    exercises = load_exercises()
-    lookup    = build_registry_lookup(registry)
-    print(f"done. {len(registry)} zips, {len(exercises)} exercises.")
+    zip_registry = load_json(ZIP_REGISTRY_PATH)
+    vectors = load_json(VECTORS_PATH)
 
-    # Resolve zip(s)
-    if args.zip:
-        entry = lookup["numeric"].get(args.zip) or lookup["emoji"].get(args.zip)
-        if not entry:
-            print(f"Error: zip code not found: {args.zip}", file=sys.stderr)
-            sys.exit(1)
-        zip_entries = [entry]
+    if args.v1:
+        exercises = load_json(EXERCISE_LIBRARY_PATH)
+        substitution_map = {}
+        print(f"done. {len(zip_registry)} zips, {len(exercises)} exercises (V1 mode).")
     else:
-        deck_num = int(args.deck)
-        zip_entries = get_deck_zips(registry, deck_num)
-        if not zip_entries:
-            print(f"Error: no zip codes found for deck {deck_num}", file=sys.stderr)
-            sys.exit(1)
-        print(f"Deck {deck_num}: {len(zip_entries)} zip codes.")
+        raw_exercises = load_json(EXERCISE_REGISTRY_PATH)
+        exercises, overrides = preprocess_registry_exercises(raw_exercises)
+        substitution_map = load_json(SUBSTITUTION_MAP_PATH)
+        print(f"done. {len(zip_registry)} zips, {len(exercises)} exercises (V2 mode).")
+        print(f"movement_pattern overrides applied: {overrides}", file=sys.stderr)
 
-    # Run selection
+    lookup = build_registry_lookup(zip_registry)
+
+    try:
+        zip_entries = resolve_zip_entries(args, lookup, zip_registry)
+    except ValueError as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        sys.exit(1)
+
+    if args.deck:
+        print(f"Deck {int(args.deck)}: {len(zip_entries)} zip codes.")
+    if args.all:
+        print(f"All mode: {len(zip_entries)} zip codes.")
+
     manifests = []
     for zip_entry in zip_entries:
         numeric_zip = zip_entry["numeric_zip"]
-        zip_vector  = vectors.get(numeric_zip, {}).get("vector", [0] * VECTOR_SIZE)
-        manifest    = select_for_zip(zip_entry, zip_vector, exercises, top_n=args.top)
-        manifests.append(manifest)
+        zip_vector = vectors.get(numeric_zip, {}).get("vector", [0.0] * VECTOR_SIZE)
+        manifests.append(
+            select_for_zip(
+                zip_entry=zip_entry,
+                zip_vector=zip_vector,
+                exercises=exercises,
+                top_n=args.top,
+                v1_mode=args.v1,
+                substitution_map=substitution_map,
+                show_subs=args.show_subs,
+            )
+        )
 
-    # Validate
     if args.validate:
         all_violations = []
+        manifest_failures = 0
         for m in manifests:
-            all_violations.extend(validate_manifest(m))
+            violations = validate_manifest(m)
+            if violations:
+                manifest_failures += 1
+                all_violations.extend(violations)
+
+        manifest_passes = len(manifests) - manifest_failures
+        print("\n--- VALIDATION SUMMARY ---")
+        print(f"  Zips checked: {len(manifests)}")
+        print(f"  Pass: {manifest_passes}")
+        print(f"  Fail: {manifest_failures}")
+
         if all_violations:
             print(f"\n--- VALIDATION FAILED: {len(all_violations)} violation(s) ---")
-            for v in all_violations:
+            for v in all_violations[:200]:
                 print(f"  ✗ {v}")
+            if len(all_violations) > 200:
+                print(f"  ... {len(all_violations) - 200} additional violations omitted")
             sys.exit(1)
-        else:
-            total_blocks = sum(len(m["blocks"]) for m in manifests)
-            print(f"\n--- VALIDATION PASSED ---")
-            print(f"  ✓ {len(manifests)} zip(s), {total_blocks} block(s) checked")
-            print(f"  ✓ No GOLD exercises outside 🔴/🟣 colors")
-            print(f"  ✓ No duplicate exercises across blocks within any zip")
 
-    # Output
+        print("  ✓ No GOLD exercises outside 🔴/🟣 colors")
+        print("  ✓ No duplicate exercises across blocks within any zip")
+        print("  ✓ No same-family candidates within any block")
+
     if args.output == "json":
         output = manifests[0] if len(manifests) == 1 else manifests
         print(json.dumps(output, ensure_ascii=False, indent=2))
     else:
         for m in manifests:
-            print(format_text(m))
+            print(format_text(m, show_subs=args.show_subs))
             if args.stats:
                 print(format_stats(m))
-
-    # Deck-level stats summary
-    if args.deck and args.stats:
-        total_gaps = sum(len(m["summary"]["coverage_gaps"]) for m in manifests)
-        zips_with_gaps = sum(1 for m in manifests if m["summary"]["coverage_gaps"])
-        print(f"\n{'═' * 60}")
-        print(f"  DECK {args.deck} SUMMARY")
-        print(f"  Zips processed:        {len(manifests)}")
-        print(f"  Zips with gaps (<3):   {zips_with_gaps}")
-        print(f"  Total coverage gaps:   {total_gaps}")
-        if total_gaps == 0:
-            print(f"  ✓ Full coverage across all blocks in this deck")
 
 
 if __name__ == "__main__":

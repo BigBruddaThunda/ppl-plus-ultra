@@ -4,7 +4,7 @@ Last updated: 2026-03-06
 Phase: 2 — Workout Generation + Architecture Expansion
 Cards: 142 / 1,680 (Deck 07: 22/40 ⚠️, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅, Deck 10: 40/40 ✅)
 Seeds: 49 | Scripts: 28
-CX Containers: 44 defined, 39 complete, 5 open
+CX Containers: 44 defined, 40 complete, 4 open
 
 For development history, see `session-log.md`.
 
@@ -87,7 +87,7 @@ Precision, multi-file reasoning, cascading consequences.
 | DONE | CX-30 | Envelope schema + stamping prototype | CX-08 ✓, CX-14 ✓, CX-03 ✓ | envelope_stamper.py — atomic retrieval unit, --anonymous + --full + --deck modes. Session 036. |
 | DONE | CX-31 | Envelope similarity function + retrieval | — | envelope_retrieval.py — cosine sim, Tier 1–4 profiles, --validate 5/5. Wave 5 capstone. Session 037. |
 | DONE | CX-38 | Exercise Relationship Graph | — | Session 038: `family-trees.json` (15 families/2,085 members), `substitution-map.json`, `sport-tags.json`, `anatomy-index.json` |
-| OPEN | CX-43 | Exercise Selector V2 (registry-aware) | CX-36 ✓, CX-38 ✓, CX-15 ✓ | All blockers cleared. Upgrade exercise_selector.py to use registry |
+| DONE | CX-43 | Exercise Selector V2 (registry-aware) | CX-36 ✓, CX-38 ✓, CX-15 ✓ | Session 041: selector upgraded to registry + family diversity + substitutions (`scripts/middle-math/exercise_selector.py`) |
 
 ---
 
@@ -167,6 +167,7 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 - **Session 038 CLOSED (2026-03-06) — Exercise Library Expansion: Wave 6 complete (5/5).** CX-36: `middle-math/exercise-registry.json` — 2,085 exercises, globally unique EX-0001–EX-2085, 16-pattern vocabulary, anatomy inference, family linkage, axis/order affinity. CX-37: `scripts/generate-exercise-content.py` + 197 files in `exercise-content/` (push/pull/legs/plus/ultra). CX-38: 4 engine files in `middle-math/exercise-engine/` (family-trees, substitution-map, sport-tags, anatomy-index). CX-39: `external-refs.json` (2,085 null docks) + `seeds/exrx-partnership-brief.md`. CX-40: `sql/009-exercise-registry.sql` + `sql/010-exercise-knowledge.sql` + README updated. Wave 7 (CX-41, CX-42, CX-43) fully unblocked. Known data issue: `movement_pattern` catch-all assigns ~1,256 exercises to `core-stability` — carry/conditioning pattern disambiguation deferred to CX-43 Selector V2.
 - **Session 039 CLOSED (2026-03-06) — Exercise Content Batch 2:** CX-41 DONE via `scripts/generate-exercise-content.py --batch 500`; +298 new files generated (202 skipped), bringing `exercise-content/` to 495 files total across push/pull/legs/plus/ultra. Spot check completed on 3 random files (464–480 words each).
 - **Session 040 CLOSED (2026-03-06) — Exercise Content Batch 3:** CX-42 DONE via `scripts/generate-exercise-content.py --batch 1000`; +498 new files generated (502 skipped), bringing `exercise-content/` to 993 files total across push/pull/legs/plus/ultra. Spot check completed on 3 random files (441–478 words each).
+- **Session 041 CLOSED (2026-03-06) — CX-43 Selector V2 complete:** `scripts/middle-math/exercise_selector.py` upgraded to registry-aware selection (`exercise-registry.json`), octave-scale affinity scoring, family diversity enforcement (cross-block x0.3 penalty + in-block family uniqueness on output), substitution chain output (`--show-subs` via `exercise-engine/substitution-map.json`), catch-all movement_pattern preprocessing override (83 applied, logged to stderr), and V1 compatibility via `--v1`. Full sweep validation passed: 1,680/1,680 zips.
 - **Deck generation priority:** Continue ⛽ Order sweep (10→11→12) or pivot to 🐂 Foundation Order (01→06)? Jake's call.
 - **First CANONICAL review:** Jake has reviewed 0 decks to CANONICAL. When does this happen? Deck 08 is the candidate.
 - **Exercise library versioning:** Still v.0. Version bump criteria undefined. When does v.1 trigger?
