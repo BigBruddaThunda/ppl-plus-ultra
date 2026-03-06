@@ -898,8 +898,8 @@ relationship to card generation.
 
 | Stream | Status | Blocks Generation? |
 |--------|--------|--------------------|
-| Card Generation (Phase 2) | ACTIVE — 80/1,680 done | N/A — this IS the work |
-| Deck Identities | ACTIVE — Deck 08 done, Deck 07 pending retrofit | Yes for new decks |
+| Card Generation (Phase 2) | ACTIVE — 102/1,680 done | N/A — this IS the work |
+| Deck Identities | ACTIVE — Deck 08 done, Deck 09 done, Deck 07 pending retrofit | Yes for new decks |
 | Zip-Web Pods | BUILT — Deck 07 populated, 41 stubs ready | No |
 | Infrastructure (scripts/skills/hooks) | BUILT — Session 18 | No |
 | Deck Cosmograms | READY — prompt + standard committed, awaiting first generation | No |

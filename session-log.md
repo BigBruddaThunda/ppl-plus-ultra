@@ -549,4 +549,41 @@ Referenced in .codex/NEXT-ROUND-HANDOFF.md as "assumed done and merged."
 
 ---
 
+## Session 034 — 2026-03-06 · Critical Path Reconciliation
+
+**Branch:** `claude/critical-path-reconciliation-K7jeB`
+
+**Work summary:** Reconciliation + 3 critical path containers completed.
+
+**Reconciliation (Phase 1):**
+- CX-33 (Progress Dashboard) registered as DONE — was built in PR #90 (2026-03-05) but never marked in tracking docs
+- CLAUDE.md card count corrected: 80/1,680 → 102/1,680 (Deck 07: 22/40, Deck 08: 40/40, Deck 09: 40/40)
+- docs/cx-dependency-graph.md summary updated from 16/36 → 19/36 (pre-advance)
+
+**CX-14 — Weight Vector Computation Engine:**
+- `scripts/middle-math/weight_vector.py` — 61-dimensional weight vector derivation engine
+- `middle-math/weight-vectors.json` — 1,680 entries, all zip codes, all valid (--validate passes)
+- Octave scale [-8, +8], interaction resolution ORDER > COLOR > AXIS > TYPE
+- Hard suppression rules enforced: 🌋 Gutter blocked in 🖼/🐂/⚪ contexts
+
+**CX-21 — Content Type Registry:**
+- `middle-math/content-type-registry.json` — 109 types across 6 axes
+- Per entry: id, name, axis, axis_name, primary_floor, cross_floor_appearances, instance_count, order_depth_level, operator_engagement, description
+- Distribution: 🏛=19, 🔨=30, 🌹=20, 🪐=15, ⌛=13, 🐬=12
+
+**CX-28 — Cosmogram Content Scaffold:**
+- `scripts/scaffold_cosmograms.py` — generates 42 stub files
+- `deck-cosmograms/deck-01-cosmogram.md` through `deck-cosmograms/deck-42-cosmogram.md` — all 42 decks stubbed
+- Each stub has full frontmatter (status: STUB, research_required: true) + 13 body sections
+
+**Cascade unlock (Wave 4):**
+- CX-15 (Exercise Selection Prototype) — CX-13 ✓, CX-14 ✓ — fully unblocked, critical path next
+- CX-22 (Floor Routing Spec) — CX-03 ✓, CX-20 ✓, CX-21 ✓ — fully unblocked
+- CX-25 (Vote Weight Integration) — CX-20 ✓, CX-14 ✓ — fully unblocked
+- CX-30 (Envelope Schema) — CX-08 ✓, CX-14 ✓, CX-03 ✓ — fully unblocked
+
+**Final state:** 21/36 CX containers complete. 4 containers advanced this session.
+
+---
+
 🧮

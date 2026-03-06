@@ -485,14 +485,14 @@
     {
       "color": "🔵",
       "name": "Architectura Operis",
-      "done": 4,
-      "open": 4
+      "done": 5,
+      "open": 3
     },
     {
       "color": "🟣",
       "name": "Profundum Operis",
-      "done": 6,
-      "open": 13
+      "done": 9,
+      "open": 10
     },
     {
       "color": "🔴",
@@ -520,7 +520,7 @@
     }
   ],
   "cx_total": 36,
-  "cx_done": 17,
-  "cx_pending": 19,
-  "last_updated": "2026-03-05T23:52:58.733372+00:00"
+  "cx_done": 23,
+  "cx_pending": 13,
+  "last_updated": "2026-03-06T01:28:10.775178+00:00"
 }
