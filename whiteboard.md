@@ -4,7 +4,7 @@ Last updated: 2026-03-06
 Phase: 2 — Workout Generation + Architecture Expansion
 Cards: 182 / 1,680 (Deck 07: 22/40 ⚠️, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅, Deck 10: 40/40 ✅, Deck 11: 40/40 ✅)
 Seeds: 49 | Scripts: 28
-CX Containers: 44 defined, 40 complete, 4 open
+CX Containers: 44 defined, 41 complete, 3 open
 
 For development history, see `session-log.md`.
 
@@ -105,6 +105,7 @@ Maximum output, full capacity. Measure throughput.
 | DONE | CX-41 | Exercise Content Batch 2 (201–500) | CX-37 ✓ | Session 039: `python scripts/generate-exercise-content.py --batch 500` → +298 files (495 total in `exercise-content/`) |
 | DONE | CX-42 | Exercise Content Batch 3 (501–1000) | CX-37 ✓ | Session 040: `python scripts/generate-exercise-content.py --batch 1000` → +498 files (993 total in `exercise-content/`) |
 | DONE | — | Exercise Content Batch 4 (1001–1500) | CX-37 ✓ | Session 042: `python scripts/generate-exercise-content.py --batch 1500` → +493 files (1,486 total in `exercise-content/`) |
+| DONE | — | Exercise Content Batch 5 FINAL (1501–2085) | CX-37 ✓ | Session 044: `python scripts/generate-exercise-content.py --batch 2085` → +581 files, slug-collision fix generated final +18 files (2,085/2,085 total in `exercise-content/`) |
 | OPEN | — | Deck 07 regen (18 cards) | — | Duplicate primary exercises from pre-identity era |
 | DONE | — | Deck 10 generation (40 cards) | — | ⛽🪐 Strength Challenge complete (40/40) |
 | OPEN | — | Deck 11 generation (40 cards) | Deck 11 identity | ⛽⌛ Strength Time |

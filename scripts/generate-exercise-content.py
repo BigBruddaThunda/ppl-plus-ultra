@@ -245,6 +245,25 @@ def type_dir(scl_types: list) -> str:
     return t
 
 
+def output_filename(ex: dict, primary_slug_ids: dict[tuple[str, str], str]) -> str:
+    """
+    Return deterministic filename for an exercise.
+
+    Most exercises map to {slug}.md. If multiple exercise IDs share the same
+    type+slug pair, keep the first ID on the canonical slug and suffix all
+    subsequent IDs with their EX number to guarantee one file per exercise.
+    """
+    tdir = type_dir(ex.get("scl_types", ["plus"]))
+    slug = slugify(ex["name"])
+    key = (tdir, slug)
+
+    if primary_slug_ids.get(key) == ex["exercise_id"]:
+        return f"{slug}.md"
+
+    ex_num = ex["exercise_id"].split("-")[-1]
+    return f"{slug}-ex{ex_num}.md"
+
+
 def format_list(items: list, default: str = "—") -> str:
     if not items:
         return default
@@ -825,6 +844,15 @@ def get_priority_order(exercises: list) -> list:
     return priority + rest_sorted
 
 
+def build_primary_slug_ids(exercises: list[dict]) -> dict[tuple[str, str], str]:
+    """Map each (type, slug) to the first exercise_id that claims it."""
+    primary: dict[tuple[str, str], str] = {}
+    for ex in sorted(exercises, key=lambda x: int(x["exercise_id"].split("-")[1])):
+        key = (type_dir(ex.get("scl_types", ["plus"])), slugify(ex["name"]))
+        primary.setdefault(key, ex["exercise_id"])
+    return primary
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generate PPL± exercise knowledge files.")
     parser.add_argument("--exercise", help="Single exercise ID (e.g. EX-0001)")
@@ -841,17 +869,21 @@ def main():
     # Load registry
     exercises = json.loads(REGISTRY.read_text())
     by_id = {e["exercise_id"]: e for e in exercises}
+    primary_slug_ids = build_primary_slug_ids(exercises)
 
     if args.stats:
         total = len(exercises)
-        written = sum(1 for t in ["push", "pull", "legs", "plus", "ultra"]
-                      for f in (OUTPUT_DIR / t).glob("*.md") if f.name != "README.md")
+        expected_paths = {
+            OUTPUT_DIR / type_dir(ex.get("scl_types", ["plus"])) / output_filename(ex, primary_slug_ids)
+            for ex in exercises
+        }
+        written = sum(1 for p in expected_paths if p.exists())
         print(f"Registry entries: {total}")
         print(f"Files written:    {written}")
         print(f"Coverage:         {written/total*100:.1f}%")
         for t in ["push", "pull", "legs", "plus", "ultra"]:
             d = OUTPUT_DIR / t
-            count = len(list(d.glob("*.md"))) if d.exists() else 0
+            count = sum(1 for p in expected_paths if p.parent == d and p.exists())
             print(f"  {t}/: {count} files")
         return
 
@@ -879,8 +911,8 @@ def main():
     total_words = 0
     for ex in target:
         tdir = type_dir(ex.get("scl_types", ["plus"]))
-        slug = slugify(ex["name"])
-        out_path = OUTPUT_DIR / tdir / f"{slug}.md"
+        filename = output_filename(ex, primary_slug_ids)
+        out_path = OUTPUT_DIR / tdir / filename
 
         if out_path.exists() and not args.overwrite:
             skipped += 1

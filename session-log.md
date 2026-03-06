@@ -879,3 +879,37 @@ Work: Envelope pipeline close — CX-25 Vote Weight Integration, CX-30 Envelope 
 **Final state:**
 - Deck 11 fully generated and validated.
 - Global card count now 182/1,680.
+
+---
+
+## Session 044 — 2026-03-06
+
+**Branch:** `claude/exercise-library-expansion-LWTl5`
+**Campaign:** Exercise Library Expansion (Wave 7)
+**Task completed:** Exercise Content Batch 5 FINAL (1501–2085)
+
+---
+
+**Work completed:**
+- Ran `python scripts/generate-exercise-content.py --batch 2085` to finish exercise-content generation through EX-2085.
+- Initial batch run wrote 581 files and skipped 1,504, which revealed slug collisions where multiple EX IDs resolved to the same output filename (coverage reported 2,067/2,085).
+- Updated `scripts/generate-exercise-content.py` to handle duplicate type+slug collisions deterministically by preserving the canonical slug for the first EX ID and suffixing later collisions with `-exNNNN`.
+- Re-ran `python scripts/generate-exercise-content.py --batch 2085`; generator wrote the final 18 missing files.
+- Confirmed full library coverage and directory distribution.
+- Spot-checked 3 generated files for section completeness and word-count range.
+
+**Validation run:**
+- `python -m py_compile scripts/generate-exercise-content.py`
+- `python scripts/generate-exercise-content.py --batch 2085`
+- `python scripts/generate-exercise-content.py --stats`
+- `for d in push pull legs plus ultra; do find exercise-content/$d -type f -name '*.md' | wc -l; done`
+- `for f in exercise-content/pull/romanian-deadlift-rdl-ex1147.md exercise-content/legs/terminal-knee-extension-tke-ex1561.md exercise-content/plus/lateral-shuffle-to-sprint-ex1937.md; do wc -w "$f"; rg -n "^## (What It Is|Setup|Execution|Common Faults|What It Trains|PPL± Context|Family|Coaching Notes)" "$f"; done`
+
+**Validation outcomes:**
+- Final stats: `Registry entries: 2085 | Files written: 2085 | Coverage: 100.0%`.
+- Type distribution: push 575, pull 505, legs 280, plus 650, ultra 75.
+- Spot-check files present with complete template section structure; word counts: 546, 465, 435.
+
+**Tracking updated:** `whiteboard.md`
+
+**Final state:** Exercise content library is complete at 2,085/2,085 knowledge files.
