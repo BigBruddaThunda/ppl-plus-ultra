@@ -1,131 +1,103 @@
-# Codex Next-Round Handoff Brief (Post Critical Path Reconciliation — 2026-03-06)
+# NEXT-ROUND-HANDOFF — Post Sprint 035
 
-Use this as the copy/paste kickoff brief for the next Codex container run.
+**Branch:** `claude/wave-4-sprint-035-vN8CK`
+**Date:** 2026-03-06
+**State:** 26/36 CX containers complete, 10 open
 
-## 1) What Just Landed
+---
 
-Critical path reconciliation session (2026-03-06) completed the following:
+## 1) What Just Landed (Sprint 035)
 
-- **CX-33 reconciled** — Progress Dashboard (PR #90, 2026-03-05) registered as DONE. Stale tracking corrected.
-- **CX-14 Weight Vector Computation Engine** — DONE · `scripts/middle-math/weight_vector.py` + `middle-math/weight-vectors.json` — 1,680 vectors, 61 dimensions, octave scale [-8,+8], --validate passes, hard suppression rules enforced
-- **CX-21 Content Type Registry** — DONE · `middle-math/content-type-registry.json` — 109 types across 6 axes, cross-floor appearances, operator affinities
-- **CX-28 Cosmogram Content Scaffold** — DONE · `scripts/scaffold_cosmograms.py` + 42 stub files in `deck-cosmograms/deck-01-cosmogram.md` through `deck-cosmograms/deck-42-cosmogram.md`
-- **CLAUDE.md corrected** — Card count: 80/1,680 → 102/1,680
+| Container | Name | Evidence |
+|-----------|------|----------|
+| CX-15 | Exercise Selection Prototype | `scripts/middle-math/exercise_selector.py` — GOLD gate, load ceiling, equipment tier, Type match, --validate/--stats/--deck |
+| CX-22 | Floor Routing Spec | `middle-math/floor-routing-spec.md` — 109 content types × 6 Axis floors |
+| CX-24 | Bloom State Engine | `scripts/middle-math/bloom_engine.py` — 6 bloom levels, no decay, eudaimonic |
+| CX-26 | Operis Room Manifest Generator | `scripts/middle-math/generate_room_manifest.py` — 13-room Sandbox from date input |
+| CX-27 | Superscript/Subscript Data Model | `scripts/middle-math/compute_superscript.py` — system suggestions + user overrides |
 
-All registrations committed to:
-- `.codex/TASK-ARCHITECTURE.md` — CX-14, CX-21, CX-28 marked DONE; Wave 4 cascade table added
-- `whiteboard.md` — header: 21 complete, 15 open; cascade notes appended
-- `docs/cx-dependency-graph.md` — CX14, CX21, CX28 added to done class; summary updated 21/36
-- `session-log.md` — Session 034 entry appended
-- `docs/dashboard/data/progress.json` — rebuilt
+Tracking updated: `.codex/TASK-ARCHITECTURE.md`, `whiteboard.md`, `docs/cx-dependency-graph.md`, `session-log.md`
+
+---
 
 ## 2) Current State
 
 - Cards: 102/1,680 (Deck 07: 22/40 ⚠️ — 18 REGEN-NEEDED, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅)
-- CX Containers: 36 defined, 21 complete, 15 open
-- Critical path: **CX-15 → CX-29** (CX-15 fully unblocked: CX-13 ✓, CX-14 ✓)
-- Wave 4 newly unblocked: CX-15, CX-22, CX-25, CX-30
+- CX Containers: 36 defined, **26 complete**, 10 open
+- Cascade: CX-22 ✓ → **CX-29 now unblocked** (Wilson Audio Route Scaffold)
+- Critical path: CX-25 → CX-30 → CX-31
+
+---
 
 ## 3) Recommended Next Tasks (priority order)
 
-### Task A — CX-15 Exercise Selection Prototype (CRITICAL PATH)
+### Task A — CX-25: Vote Weight Integration (CRITICAL PATH)
 
-**Status:** Fully unblocked (CX-13 ✓, CX-14 ✓).
+**Write:** `scripts/middle-math/vote_weight_adjuster.py`
 
-Write: `scripts/middle-math/exercise_selector.py`
+Reads room_votes table (from sql/008-room-schema-extension.sql). Computes a
+vote weight adjustment to the zip's base weight vector. A +1 vote increases
+effective weight; a -1 vote decreases it. Cap adjustments so signals complement
+(not override) algorithmic ranking.
 
-Content: Given a zip code, produce a ranked exercise list using weight vectors + exercise library JSON.
-The selector is the engine that automates card generation at scale.
+Dependencies: CX-20 ✓, CX-14 ✓
+Unblocks: CX-30 (Envelope Stamping)
 
-Reads before writing:
-- `middle-math/weights/weight-system-spec.md`
-- `middle-math/weight-vectors.json` (1,680 entries)
-- `middle-math/exercise-library.json` (from CX-13)
-- `scripts/middle-math/weight_vector.py` (reuse emoji/numeric conversion)
-- `middle-math/ARCHITECTURE.md`
+### Task B — CX-30: Envelope Schema & Stamping Prototype (CRITICAL PATH)
 
----
+**Write:** `scripts/middle-math/envelope_stamper.py`
 
-### Task B — CX-22 Floor Routing Spec
+The envelope wraps a zip code for retrieval. Combines:
+- Weight vector (weight-vectors.json)
+- Vote adjustment (from CX-25)
+- Bloom state (bloom_engine.py)
+- User context (compute_superscript.py)
 
-**Status:** Fully unblocked (CX-03 ✓, CX-20 ✓, CX-21 ✓).
+Read: `seeds/scl-envelope-architecture.md`, `sql/008-room-schema-extension.sql`,
+`middle-math/ARCHITECTURE.md`
 
-Write: `middle-math/floor-routing-spec.md`
+Unblocks: CX-31
 
-Content: Routing rules for each Axis as an app floor. Which content types appear on which floor.
-Cross-floor appearance logic. Navigation between floors.
+### Task C — CX-29: Wilson Audio Route Scaffold (NOW UNBLOCKED)
 
-Reads before writing:
-- `middle-math/content-type-registry.json` (CX-21 output)
-- `seeds/axis-as-app-floors-architecture.md` (if exists)
-- `seeds/elevator-architecture.md`
-- `seeds/content-types-architecture.md`
+**Write:** `middle-math/wilson-audio-spec.md`
 
----
+3-layer keyword scoring for natural language → zip navigation. No AI model.
+~13,000 entries. Read: `seeds/voice-parser-architecture.md`, `seeds/wilson-voice-identity.md`
 
-### Task C — CX-24 Bloom State Engine
+### Task D — CX-17: Ralph Loop Validation & Batch
 
-**Status:** Unblocked (CX-20 ✓, CX-03 ✓).
+**Write:** `scripts/validate-pod.py`, `scripts/ralph-batch.sh`
 
-Write: `scripts/middle-math/bloom_engine.py`
-
-Content: Computes bloom level transitions from room_visits history.
-Bloom = depth of engagement, not gamification.
-
-Reads before writing:
-- `sql/008-room-schema-extension.sql` (bloom_history schema)
-- `seeds/systems-eudaimonics.md`
-- `middle-math/zip-registry.json`
+Batch generation orchestration for remaining deck pods.
+Blocked on: Jake must approve deck-07-pods.md prototype first.
 
 ---
 
-### Task D — CX-30 Envelope Schema + Stamping Prototype
+## 4) Jake-Blocked Items (unchanged)
 
-**Status:** Fully unblocked (CX-08 ✓, CX-14 ✓, CX-03 ✓).
-
-Write: `scripts/middle-math/envelope_stamper.py`
-
-Content: Schema and stamping logic for SCL envelopes. Reads zip + vector, stamps envelope metadata.
-
-Reads before writing:
-- `seeds/scl-envelope-architecture.md`
-- `middle-math/weight-vectors.json` (CX-14 output)
-- `middle-math/zip-registry.json`
+- Deck 07 Ralph pod review → must approve prototype before batch runs
+- First CANONICAL review → Jake reads 40 Deck 08 cards as a user
+- Deck 07 regen → 18 REGEN-NEEDED cards from pre-identity era
+- Historical events population → 366 dates, ~180 hours research, builds incrementally
+- Platform architecture V3 (if V2 needs update)
 
 ---
-
-## 4) Jake-Blocked Items (do not touch)
-
-- platform-v1-archive body paste (~15k words)
-- color-context-vernacular vocabulary update (25→61 emojis)
-- order-parameters vocabulary update
-- Deck 07 regen decision (18 REGEN-NEEDED cards)
-- Deck 07 Ralph pod review approval
-- First CANONICAL review (Deck 08 gemba test)
 
 ## 5) Do NOT Touch
 
 - Card content in `cards/`
 - Operis editions (except `operis-editions/historical-events/` scaffolds)
 - `scl-directory.md`, `exercise-library.md`
-- Any seed file marked "Jake-blocked" in whiteboard Notes
 - Files requiring live web research to populate
 - Cosmogram stubs (status: STUB — awaiting Jake-directed research population)
 
+---
+
 ## 6) Definition of Done (next session)
 
-- CX-15 exercise_selector.py written and producing ranked lists for sample zip codes
-- At least one of CX-22, CX-24, or CX-30 completed
+- CX-25 vote_weight_adjuster.py written and validated
+- CX-30 envelope_stamper.py written
 - All completed containers marked DONE in TASK-ARCHITECTURE.md with evidence
 - whiteboard.md header updated
-- validate-negotiosum.py passes with no mismatches
-
-## 7) Kickoff Prompt (copy/paste)
-
-"Use `.codex/NEXT-ROUND-HANDOFF.md` as source of truth for this session.
-All items in Section 1 are assumed done and merged.
-Execute Task A (CX-15) as highest priority — all blockers are met.
-Task B (CX-22) is the next most valuable unlock.
-Do not regenerate card content. Do not populate cosmogram stubs.
-Commit once with a focused PR.
-Update whiteboard.md and TASK-ARCHITECTURE.md before closing."
+- validate-negotiosum.py passes 5/5

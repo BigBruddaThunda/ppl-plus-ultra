@@ -4,7 +4,7 @@ Last updated: 2026-03-06
 Phase: 2 — Workout Generation + Architecture Expansion
 Cards: 102 / 1,680 (Deck 07: 22/40 ⚠️, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅)
 Seeds: 49 | Scripts: 28
-CX Containers: 36 defined, 21 complete, 15 open
+CX Containers: 36 defined, 26 complete, 10 open
 
 For development history, see `session-log.md`.
 
@@ -69,16 +69,16 @@ Precision, multi-file reasoning, cascading consequences.
 | DONE | CX-11 | Block weight declarations (22+SAVE) | CX-09 ✓, CX-10 ✓ | DRAFT — 790-line working draft confirmed on disk |
 | DONE | CX-12 | Operator weight declarations (12) | CX-09 ✓, CX-10 ✓ | DRAFT — 502-line working draft confirmed on disk |
 | DONE | CX-14 | Weight vector computation engine | CX-09–12 all ✓, CX-03 ✓ | weight_vector.py + weight-vectors.json — 1,680 vectors, 61 dims, --validate passes. Session 034. |
-| OPEN | CX-15 | Exercise selection prototype | CX-13 ✓, CX-14 | exercise_selector.py |
+| DONE | CX-15 | Exercise selection prototype | CX-13 ✓, CX-14 ✓ | exercise_selector.py — GOLD gate, load ceiling, tier, --validate, --stats. Sprint 035. |
 | OPEN | CX-18 | Design tokens + WeightCSS spec | CX-00A ✓ | tokens.json + weight-css-spec.md |
 | DONE | CX-20 | Room schema extension | CX-08 ✓ | sql/008-room-schema-extension.sql — 4 tables + RLS |
 | DONE | CX-21 | Content type registry (109 types JSON) | CX-00A ✓ | content-type-registry.json — 109 types, 6 axes, cross-floor appearances, operator affinities. Session 034. |
-| OPEN | CX-22 | Floor routing spec | CX-03 ✓, CX-20, CX-21 | floor-routing-spec.md |
+| DONE | CX-22 | Floor routing spec | CX-03 ✓, CX-20 ✓, CX-21 ✓ | middle-math/floor-routing-spec.md — 109 types × 6 floors. Unblocks CX-29. Sprint 035. |
 | DONE | CX-23 | Navigation graph builder (1,680 × 4 edges) | CX-03 ✓, CX-04 ✓, CX-08 ✓ | middle-math/navigation-graph.json — 6,720 edges |
-| OPEN | CX-24 | Bloom state engine | CX-20 ✓, CX-03 ✓ | bloom_engine.py — newly unblocked |
+| DONE | CX-24 | Bloom state engine | CX-20 ✓, CX-03 ✓ | bloom_engine.py — 6 levels, no decay, eudaimonic. Sprint 035. |
 | OPEN | CX-25 | Vote weight integration | CX-20, CX-14 | vote_weight_adjuster.py |
-| OPEN | CX-26 | Operis room manifest generator | CX-03 ✓, CX-04 ✓ | generate_room_manifest.py |
-| OPEN | CX-27 | Superscript/subscript data model | CX-20 ✓, CX-08 ✓ | compute_superscript.py — newly unblocked |
+| DONE | CX-26 | Operis room manifest generator | CX-03 ✓, CX-04 ✓ | generate_room_manifest.py — 13-room Sandbox from date. Sprint 035. |
+| DONE | CX-27 | Superscript/subscript data model | CX-20 ✓, CX-08 ✓ | compute_superscript.py — system suggestions + user overrides. Sprint 035. |
 | DONE | CX-28 | Cosmogram content scaffold (42 stubs) | CX-04 ✓ | scaffold_cosmograms.py + 42 stubs written. Session 034. |
 | OPEN | CX-29 | Wilson audio route specification | CX-22 | wilson-audio-spec.md — 3-layer keyword scoring |
 | OPEN | CX-30 | Envelope schema + stamping prototype | CX-08 ✓, CX-14, CX-03 ✓ | envelope_stamper.py |
@@ -166,6 +166,7 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 - **Monthly operator mapping confirmed:** Jan=📍pono, Feb=🧲capio, Mar=🧸fero, Apr=👀specio, May=🥨tendo, Jun=🤌facio, Jul=🚀mitto, Aug=🦢plico, Sep=🪵teneo, Oct=🐋duco, Nov=✒️grapho, Dec=🦉logos
 - **Rotation engine:** Order by weekday (7-day), Type by rolling 5-day calendar from Jan 1, Axis by monthly operator. 5 and 7 are coprime — same Order-Type pairing doesn't repeat for 35 days.
 - **4-dial elevator model:** Order=building, Axis=floor, Type=wing, Color=room. 1,680 rooms. Piano nobile stack: 🔨 ground → 🏛 noble → ⌛ 2nd → 🐬 3rd → 🌹 4th → 🪐 5th. Scroll on phone is inverse of building direction. Progressive disclosure IS the architecture.
+- **Sprint 035 cascade:** CX-22 (floor routing) DONE → CX-29 (Wilson audio route) NOW UNBLOCKED. CX-15 (exercise selector) DONE → CX-25 (vote weight) and CX-30 (envelope stamping) critical path clear. Next session: CX-25 or CX-30.
 - **The Operis is the front door** the system was missing. Solves cold start, onboarding, room circulation. Automatable once historical DB + cosmograms + calendar data are populated.
 - **Programs are guided tours** — sequences of zip code addresses, not sequences of workouts. The rooms already exist. The program is the itinerary.
 - **Publication standard constraint:** No "it's not X, it's Y" framing. The publication is informational. Independent of Party or Faction. Committed to Useful Knowledge.

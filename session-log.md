@@ -586,4 +586,25 @@ Referenced in .codex/NEXT-ROUND-HANDOFF.md as "assumed done and merged."
 
 ---
 
+## Session 035 — Wave 4 Sprint — 2026-03-06
+
+**Branch:** `claude/wave-4-sprint-035-vN8CK`
+**Duration:** 1-hour sprint window
+**Phase:** 2 — Architecture expansion + engine sweep
+
+**Completed:**
+- CX-15 DONE — `scripts/middle-math/exercise_selector.py` — ranked exercise candidates per block for all 1,680 zips. GOLD gate enforced, load ceiling by Order, equipment tier by Color, Type match, cross-block deduplication. `--validate` passes on deck 07 (40 zips, 0 coverage gaps). `--deck`, `--stats`, `--output` flags.
+- CX-22 DONE — `middle-math/floor-routing-spec.md` — 109 content types routed to 6 Axis floors. Default landing URLs, access gates, adjacency rules, agent-internal content documented.
+- CX-24 DONE — `scripts/middle-math/bloom_engine.py` — 6-level bloom state engine. No streaks, no decay, eudaimonic constraint (bloom never decreases). `--demo` (10-zip table), `--schema` (SQL), `--compute` (single calculation).
+- CX-26 DONE — `scripts/middle-math/generate_room_manifest.py` — 13-room Operis Sandbox generator. Derives Order (weekday), Type (5-day rolling), Axis (monthly). 8 Color siblings + 5 Content Room placeholders. `--date` and `--week` flags.
+- CX-27 DONE — `scripts/middle-math/compute_superscript.py` — superscript (system suggestions via cosine similarity on weight vectors) + subscript (user overrides: no_barbell, no_machines, injury flags, bookmarks). `--demo` (5-zip table), `--schema` (SQL ALTER TABLE).
+
+**Tracking updated:** `.codex/TASK-ARCHITECTURE.md`, `whiteboard.md`, `docs/cx-dependency-graph.md`
+
+**Cascade unblocked:** CX-22 → CX-29 (Wilson Audio Route Scaffold) now unblocked.
+
+**Final state:** 26/36 CX containers complete. 5 containers completed this session.
+
+---
+
 🧮
