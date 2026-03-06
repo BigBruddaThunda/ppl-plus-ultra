@@ -23,19 +23,19 @@ Use glossary terms from `scl-deep/systems-glossary.md` as the authoritative sour
 | CX-12 | Operator Weight Declarations | CX-09, CX-10 | 3 | DONE | Engine coupling session · 2026-03-05 | `middle-math/weights/operator-weights.md` — 502-line working draft |
 | CX-13 | Exercise Library Parser | CX-00A | 2 | DONE | PR #61 · db7b202 | `scripts/middle-math/parse_exercise_library.py`, `middle-math/exercise-library.json` |
 | CX-14 | Weight Vector Computation Engine | CX-09, CX-10, CX-11, CX-12, CX-03 | 3 | DONE | Session 034 · 2026-03-06 | `scripts/middle-math/weight_vector.py`, `middle-math/weight-vectors.json` (1,680 entries, 61 dimensions, --validate passes) |
-| CX-15 | Exercise Selection Prototype | CX-13, CX-14 | 4 | PENDING | — | — |
+| CX-15 | Exercise Selection Prototype | CX-13, CX-14 | 4 | DONE | Sprint 035 · claude/wave-4-sprint-035-vN8CK | `scripts/middle-math/exercise_selector.py` — GOLD gate, load ceiling, equipment tier, Type match, --validate passes 1,680 zips |
 | CX-16 | Deck Identity Scaffold Generator | CX-03, CX-04 | 2 | DONE | PR #67 · 862de8d | `scripts/deck-identity-scaffold.py`, deck identity docs for Decks 10–12 |
 | CX-17 | Ralph Loop Validation & Batch | CX-03 | 2 | PENDING | — | — |
 | CX-18 | Design Tokens & WeightCSS Spec | CX-00A | 2 | PENDING | — | — |
 | CX-19 | Agent Boundaries Document | CX-00A, CX-01 | 2 | PENDING | — | — |
 | CX-20 | Room Schema Extension | CX-08 | 2 | DONE | Engine coupling session · 2026-03-05 | `sql/008-room-schema-extension.sql` — 4 tables, RLS, 1,680-row population |
 | CX-21 | Content Type Registry | CX-00A | 2 | DONE | Session 034 · 2026-03-06 | `middle-math/content-type-registry.json` (109 types, 6 axes, cross-floor + operator mappings) |
-| CX-22 | Floor Routing Spec | CX-03, CX-20, CX-21 | 3 | PENDING | — | — |
+| CX-22 | Floor Routing Spec | CX-03, CX-20, CX-21 | 3 | DONE | Sprint 035 · claude/wave-4-sprint-035-vN8CK | `middle-math/floor-routing-spec.md` — 109 content types routed to 6 Axis floors, default landing, access gates |
 | CX-23 | Navigation Graph Builder | CX-03, CX-04, CX-08 | 2 | DONE | Engine coupling session · 2026-03-05 | `scripts/build-navigation-graph.py`, `middle-math/navigation-graph.json` — 1,680 nodes × 4 edges |
-| CX-24 | Bloom State Engine | CX-20, CX-03 | 3 | PENDING | — | — |
+| CX-24 | Bloom State Engine | CX-20, CX-03 | 3 | DONE | Sprint 035 · claude/wave-4-sprint-035-vN8CK | `scripts/middle-math/bloom_engine.py` — 6-level bloom, no streaks/decay, eudaimonic constraint, --demo and --schema flags |
 | CX-25 | Vote Weight Integration | CX-20, CX-14 | 4 | PENDING | — | — |
-| CX-26 | Operis Room Manifest Generator | CX-03, CX-04 | 2 | PENDING | — | — |
-| CX-27 | Superscript/Subscript Data Model | CX-20, CX-08 | 3 | PENDING | — | — |
+| CX-26 | Operis Room Manifest Generator | CX-03, CX-04 | 2 | DONE | Sprint 035 · claude/wave-4-sprint-035-vN8CK | `scripts/middle-math/generate_room_manifest.py` — 13-room Sandbox from date input, --date and --week flags |
+| CX-27 | Superscript/Subscript Data Model | CX-20, CX-08 | 3 | DONE | Sprint 035 · claude/wave-4-sprint-035-vN8CK | `scripts/middle-math/compute_superscript.py` — system suggestions + user overrides, --demo and --schema flags |
 | CX-28 | Cosmogram Content Scaffold | CX-04 | 2 | DONE | Session 034 · 2026-03-06 | `scripts/scaffold_cosmograms.py`, `deck-cosmograms/deck-01-cosmogram.md` through `deck-42-cosmogram.md` (42 stubs) |
 | CX-29 | Wilson Audio Route Scaffold | CX-22 | 4 | PENDING | — | — |
 | CX-30 | Envelope Schema & Stamping Prototype | CX-08, CX-14, CX-03 | 4 | PENDING | — | — |

@@ -30,12 +30,12 @@ flowchart TD
     CX18["CX-18: Design Tokens & WeightCSS Spec (OPEN)"]
     CX19["CX-19: Agent Boundaries Document (OPEN)"]
     CX20["CX-20: Room Schema Extension (DONE)"]
-    CX21["CX-21: Content Type Registry (OPEN)"]
+    CX21["CX-21: Content Type Registry (DONE)"]
     CX23["CX-23: Navigation Graph Builder (DONE)"]
-    CX26["CX-26: Operis Room Manifest Generator (OPEN)"]
-    CX28["CX-28: Cosmogram Content Scaffold (OPEN)"]
+    CX26["CX-26: Operis Room Manifest Generator (DONE)"]
+    CX28["CX-28: Cosmogram Content Scaffold (DONE)"]
     CX32["CX-32: Mermaid CX Dependency Graph (DONE)"]
-    CX33["CX-33: GitHub Pages Progress Dashboard (OPEN)"]
+    CX33["CX-33: GitHub Pages Progress Dashboard (DONE)"]
     CX35["CX-35: Whiteboard Negotiosum Validator (DONE)"]
   end
 
@@ -43,15 +43,15 @@ flowchart TD
   subgraph W3["Wave 3"]
     CX11["CX-11: Block Weight Declarations (DONE)"]
     CX12["CX-12: Operator Weight Declarations (DONE)"]
-    CX14["CX-14: Weight Vector Computation Engine (OPEN)"]
-    CX22["CX-22: Floor Routing Spec (OPEN)"]
-    CX24["CX-24: Bloom State Engine (OPEN)"]
-    CX27["CX-27: Superscript/Subscript Data Model (OPEN)"]
+    CX14["CX-14: Weight Vector Computation Engine (DONE)"]
+    CX22["CX-22: Floor Routing Spec (DONE)"]
+    CX24["CX-24: Bloom State Engine (DONE)"]
+    CX27["CX-27: Superscript/Subscript Data Model (DONE)"]
   end
 
   %% Wave 4
   subgraph W4["Wave 4"]
-    CX15["CX-15: Exercise Selection Prototype (OPEN)"]
+    CX15["CX-15: Exercise Selection Prototype (DONE)"]
     CX25["CX-25: Vote Weight Integration (OPEN)"]
     CX29["CX-29: Wilson Audio Route Scaffold (OPEN)"]
     CX30["CX-30: Envelope Schema & Stamping Prototype (OPEN)"]
@@ -158,8 +158,8 @@ flowchart TD
   class CX28,CX32 lusus;
   class CX35 nuntius;
 
-  %% DONE status (21 complete total — CX-14, CX-21, CX-28 completed Session 034)
-  class CX00A,CX02,CX03,CX04,CX05,CX06,CX07,CX08,CX09,CX10,CX11,CX12,CX13,CX14,CX16,CX20,CX21,CX23,CX28,CX32,CX33,CX34,CX35 done;
+  %% DONE status (26 complete total — CX-15, CX-22, CX-24, CX-26, CX-27 completed Sprint 035)
+  class CX00A,CX02,CX03,CX04,CX05,CX06,CX07,CX08,CX09,CX10,CX11,CX12,CX13,CX14,CX15,CX16,CX20,CX21,CX22,CX23,CX24,CX26,CX27,CX28,CX32,CX33,CX34,CX35 done;
 ```
 
 ## Legend
@@ -175,4 +175,4 @@ flowchart TD
 | 🟡 | Lusus Operis | Exploratory architecture | 2/0 |
 | ⚪ | Eudaimonia Operis | Review and flourishing checks | 0/0 |
 
-21/36 containers complete. CX-14 (Weight Vector Engine), CX-21 (Content Type Registry), CX-28 (Cosmogram Scaffold) completed Session 034. Critical path: CX-15 (Exercise Selection) now fully unblocked. Next wave: CX-22 → CX-29.
+26/36 containers complete. CX-15 (Exercise Selector), CX-22 (Floor Routing), CX-24 (Bloom Engine), CX-26 (Room Manifest), CX-27 (Superscript/Subscript) completed Sprint 035. CX-29 (Wilson Audio) now unblocked. Remaining critical: CX-25 → CX-30 → CX-31.
