@@ -49,7 +49,7 @@ Use glossary terms from `scl-deep/systems-glossary.md` as the authoritative sour
 | CX-38 | Exercise Relationship Graph | CX-36 | 6 | DONE | Session 038 | `middle-math/exercise-engine/family-trees.json`, `substitution-map.json`, `sport-tags.json`, `anatomy-index.json` |
 | CX-39 | External Reference Dock | CX-36 | 6 | DONE | Session 038 | `middle-math/exercise-engine/external-refs.json` (2,085 null docks), `seeds/exrx-partnership-brief.md` |
 | CX-40 | Exercise Registry SQL Migration | CX-36, CX-08 | 6 | DONE | Session 038 | `sql/009-exercise-registry.sql`, `sql/010-exercise-knowledge.sql`, `sql/README.md` updated |
-| CX-41 | Exercise Content Batch 2 (201–500) | CX-37 | 7 | PENDING | | |
+| CX-41 | Exercise Content Batch 2 (201–500) | CX-37 | 7 | DONE | Session 039 | `exercise-content/` (495 files total), `scripts/generate-exercise-content.py --batch 500` |
 | CX-42 | Exercise Content Batch 3 (501–1000) | CX-37 | 7 | PENDING | | |
 | CX-43 | Exercise Selector V2 (registry-aware) | CX-36, CX-38, CX-15 | 7 | PENDING | | |
 
@@ -114,7 +114,7 @@ When a container row is marked `DONE`, the row must include all of the following
 | CX-38 | DONE | — | Session 038 — 4 relationship graph files in `middle-math/exercise-engine/` |
 | CX-39 | DONE | — | Session 038 — `external-refs.json` (2,085 null docks) + ExRx brief |
 | CX-40 | DONE | — | Session 038 — `sql/009-exercise-registry.sql`, `sql/010-exercise-knowledge.sql` |
-| CX-41 | PENDING | CX-37 ✓ | Exercise Content Batch 2 (201–500) — CX-37 now unblocked |
+| CX-41 | DONE | — | Session 039 — +298 files generated; `exercise-content/` now 495 files total |
 | CX-42 | PENDING | CX-37 ✓ | Exercise Content Batch 3 (501–1000) — CX-37 now unblocked |
 | CX-43 | PENDING | CX-36 ✓, CX-38 ✓, CX-15 ✓ | Exercise Selector V2 — all blockers cleared |
 | (non-CX) Deck 07 pod review | OPEN | Jake | Jake reviews Deck 07 Ralph pod before Ralph loop can run |
@@ -182,9 +182,9 @@ All 44 containers sorted by wave and completion. 33/44 complete as of Session 03
 | CX-38 | Exercise Relationship Graph | 6 | DONE | Session 038 |
 | CX-39 | External Reference Dock | 6 | DONE | Session 038 |
 | CX-40 | Exercise Registry SQL Migration | 6 | DONE | Session 038 |
-| CX-41 | Exercise Content Batch 2 (201–500) | 7 | PENDING | — |
+| CX-41 | Exercise Content Batch 2 (201–500) | 7 | DONE | Session 039 |
 | CX-42 | Exercise Content Batch 3 (501–1000) | 7 | PENDING | — |
 | CX-43 | Exercise Selector V2 (registry-aware) | 7 | PENDING | — |
 
-Wave completion: Wave 1 (9/10) · Wave 2 (14/16) · Wave 3 (6/6) · Wave 4 (4/4) · Wave 5 (1/1) · Wave 6 (5/5) · Wave 7 (0/3)
+Wave completion: Wave 1 (9/10) · Wave 2 (14/16) · Wave 3 (6/6) · Wave 4 (4/4) · Wave 5 (1/1) · Wave 6 (5/5) · Wave 7 (1/3)
 CX-17 remains blocked on Jake pod review. Wave 6 complete (Session 038). Wave 7 fully unblocked.
