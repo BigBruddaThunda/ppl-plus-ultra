@@ -51,7 +51,7 @@ Use glossary terms from `scl-deep/systems-glossary.md` as the authoritative sour
 | CX-40 | Exercise Registry SQL Migration | CX-36, CX-08 | 6 | DONE | Session 038 | `sql/009-exercise-registry.sql`, `sql/010-exercise-knowledge.sql`, `sql/README.md` updated |
 | CX-41 | Exercise Content Batch 2 (201–500) | CX-37 | 7 | DONE | Session 039 | `exercise-content/` (495 files total), `scripts/generate-exercise-content.py --batch 500` |
 | CX-42 | Exercise Content Batch 3 (501–1000) | CX-37 | 7 | DONE | Session 040 · cx-42-batch-3-040 | `exercise-content/` (+498 files; 993 total via --stats) |
-| CX-43 | Exercise Selector V2 (registry-aware) | CX-36, CX-38, CX-15 | 7 | PENDING | | |
+| CX-43 | Exercise Selector V2 (registry-aware) | CX-36, CX-38, CX-15 | 7 | DONE | Session 041 · 2cabd79 | `scripts/middle-math/exercise_selector.py` — registry-aware selection, octave affinity, family diversity, substitution chains, `--v1` compatibility, 1,680-zip validation pass |
 
 **Status legend:**
 - `PENDING` — not started or no merged evidence recorded yet.
@@ -104,7 +104,7 @@ When a container row is marked `DONE`, the row must include all of the following
 
 ## Dependency Readiness (current state — Session 038, 2026-03-06)
 
-33/36 architecture containers DONE after Session 037. CX-36–40 completed in Session 038. Total: 44 defined, 39 complete, 5 open.
+33/36 architecture containers DONE after Session 037. CX-36–40 completed in Session 038. Total: 44 defined, 40 complete, 4 open.
 
 | Container | Status | Blocker | Notes |
 |-----------|--------|---------|-------|
@@ -116,11 +116,11 @@ When a container row is marked `DONE`, the row must include all of the following
 | CX-40 | DONE | — | Session 038 — `sql/009-exercise-registry.sql`, `sql/010-exercise-knowledge.sql` |
 | CX-41 | DONE | — | Session 039 — +298 files generated; `exercise-content/` now 495 files total |
 | CX-42 | DONE | — | Session 040 — +498 files generated; `exercise-content/` now 993 files total |
-| CX-43 | PENDING | CX-36 ✓, CX-38 ✓, CX-15 ✓ | Exercise Selector V2 — all blockers cleared |
+| CX-43 | DONE | — | Session 041 — selector upgraded to V2, `--all --validate` passed 1,680/1,680 |
 | (non-CX) Deck 07 pod review | OPEN | Jake | Jake reviews Deck 07 Ralph pod before Ralph loop can run |
 | (non-CX) Operis Contract A/B URL enforcement | OPEN | manual | Manual enforcement of Contract A/B pipeline |
 
-CX-17 remains blocked on Jake's pod review. Architecture + Exercise Library Foundation campaigns: 39/44 complete.
+CX-17 remains blocked on Jake's pod review. Architecture + Exercise Library Foundation campaigns: 40/44 complete.
 Wave 7 (CX-41, CX-42, CX-43) fully unblocked after Session 038.
 
 ---
@@ -184,7 +184,7 @@ All 44 containers sorted by wave and completion. 33/44 complete as of Session 03
 | CX-40 | Exercise Registry SQL Migration | 6 | DONE | Session 038 |
 | CX-41 | Exercise Content Batch 2 (201–500) | 7 | DONE | Session 039 |
 | CX-42 | Exercise Content Batch 3 (501–1000) | 7 | DONE | Session 040 |
-| CX-43 | Exercise Selector V2 (registry-aware) | 7 | PENDING | — |
+| CX-43 | Exercise Selector V2 (registry-aware) | 7 | DONE | Session 041 |
 
-Wave completion: Wave 1 (9/10) · Wave 2 (14/16) · Wave 3 (6/6) · Wave 4 (4/4) · Wave 5 (1/1) · Wave 6 (5/5) · Wave 7 (2/3)
-CX-17 remains blocked on Jake pod review. Wave 6 complete (Session 038). Wave 7 fully unblocked.
+Wave completion: Wave 1 (9/10) · Wave 2 (14/16) · Wave 3 (6/6) · Wave 4 (4/4) · Wave 5 (1/1) · Wave 6 (5/5) · Wave 7 (3/3)
+CX-17 remains blocked on Jake pod review. Wave 6 complete (Session 038). Wave 7 complete (Session 041).

@@ -784,3 +784,36 @@ Work: Envelope pipeline close — CX-25 Vote Weight Integration, CX-30 Envelope 
 - Global card count now 142/1,680.
 
 ---
+
+## Session 041 — 2026-03-06
+
+**Branch:** `claude/exercise-library-expansion-LWTl5`
+**Campaign:** Exercise Library Expansion (Wave 7)
+**Container completed:** CX-43 — Exercise Selector V2 (registry-aware)
+**CX totals:** 40/44 complete
+
+---
+
+**CX-43 — Exercise Selector V2:**
+- `scripts/middle-math/exercise_selector.py` rewritten to V2 with registry-first data loading (`middle-math/exercise-registry.json`) while preserving V1 compatibility via `--v1` (`middle-math/exercise-library.json`).
+- Affinity engine upgraded from binary flags to octave-scale vectors using registry-native `axis_affinity` and `order_affinity` weights at their emoji index positions; Type contribution retained at +2.
+- Family diversity logic added:
+  - Cross-block family reuse gets score multiplier penalty (`×0.3`) instead of hard exclusion.
+  - In-block candidate list now enforces unique `family_id` among ranked outputs.
+- Substitution chain integration added via `middle-math/exercise-engine/substitution-map.json`; optional output enabled with `--show-subs` (`tier_down`, `tier_up`, `cross_family`).
+- Catch-all movement-pattern preprocessing implemented: for `movement_pattern == "core-stability"`, override to `family_id` when family is in major pattern allowlist. Override count logged to stderr.
+- Validation extended: `--validate` now checks GOLD gate, cross-block duplicate exercises, and no same-family duplicates within a block.
+- CLI expanded with `--all` (all 1,680 zips), `--v1`, and `--show-subs`.
+
+**Validation + evidence:**
+- `python scripts/middle-math/exercise_selector.py --all --validate --output json > /tmp/cx43-validate-v2.json`
+  - Validation summary: 1,680 checked, 1,680 pass, 0 fail.
+  - Evidence file: `/tmp/cx43-validate-v2.json`
+- `python scripts/middle-math/exercise_selector.py --zip 2123 --show-subs --output text` (spot check substitution chain rendering)
+- `python scripts/middle-math/exercise_selector.py --zip 2123 --v1 --validate --output text` (backward compatibility mode check)
+
+**Tracking updated:** `whiteboard.md`, `.codex/TASK-ARCHITECTURE.md`
+
+**Final state:** CX-43 complete. Wave 7 complete (CX-41, CX-42, CX-43). CX campaign now 40/44 complete.
+
+---
