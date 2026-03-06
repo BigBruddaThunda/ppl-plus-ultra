@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛🍗🔵
 operator: 🤌 facio
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: 🍗 Legs | Quads, hamstrings, glutes, calves
@@ -56,7 +57,7 @@ Rest: 3 min.
 
 Rest: 3–4 min between sets.
 
-**🍗 Back Squat (High Bar)**
+**🍗 Front Squat**
 
 - Set 1: 80% × 5 (brace, hips back, chest up)
 - Set 2: 82% × 5 (same pattern, add 2%)

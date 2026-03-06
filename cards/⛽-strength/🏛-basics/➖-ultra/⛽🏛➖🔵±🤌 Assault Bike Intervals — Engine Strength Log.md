@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛➖🔵
 operator: 🤌 facio
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: ➖ Ultra | Cardiovascular system
@@ -53,7 +54,7 @@ These splits are personal. The number on the screen is yours alone.
 
 Rest: 3 min between intervals. Fixed. Do not shorten.
 
-**5 × Rowing Intervals (500m) — Max Effort Per Interval**
+**5 × Assault Bike Intervals (40 sec hard / 80 sec easy)**
 
 - Interval 1: max effort (sit tall at the catch, legs fire first — set the reference split)
 - Interval 2: max effort (damper stays fixed — don't adjust mid-session; hold the middle 200m)

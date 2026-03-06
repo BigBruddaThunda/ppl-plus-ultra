@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛🛒🟡
 operator: 📍 pono
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: 🛒 Push | Chest, front delts, triceps
@@ -39,7 +40,7 @@ Even in 🟡, the barbell bench is the main event. Explore from here.
 
 Rest: 3–4 min
 
-**🛒 Barbell Bench Press**
+**🛒 Decline Barbell Bench Press**
 
 - Set 1: 78% × 5
 - Set 2: 80% × 5

@@ -2,7 +2,7 @@
 
 Last updated: 2026-03-06
 Phase: 2 — Workout Generation + Architecture Expansion
-Cards: 222 / 1,680 (Deck 07: 22/40 ⚠️, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅, Deck 10: 40/40 ✅, Deck 11: 40/40 ✅, Deck 12: 40/40 ✅)
+Cards: 222 / 1,680 (Deck 07: 40/40 ✅, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅, Deck 10: 40/40 ✅, Deck 11: 40/40 ✅, Deck 12: 40/40 ✅)
 Seeds: 49 | Scripts: 28
 CX Containers: 44 defined, 40 complete, 4 open
 
@@ -56,7 +56,7 @@ Systematic, templated, institutional. Follow the pattern.
 | DONE | — | Deck identity scaffolds (Decks 01–06) | CX-03 ✓ | Session 039 |
 | DONE | CX-33 | GitHub Pages progress dashboard | CX-03 ✓, CX-04 ✓ | Built PR #90 (2026-03-05) — docs/dashboard/ + scripts/build-dashboard-data.py. Reconciled this session. |
 | DONE | CX-40 | Exercise Registry SQL Migration | — | Session 038: `sql/009-exercise-registry.sql`, `sql/010-exercise-knowledge.sql`, `sql/README.md` updated |
-| OPEN | — | Deck 07 retrofit regen queue (18 cards) | — | 18 REGEN-NEEDED cards from Session 021 |
+| DONE | — | Deck 07 retrofit regen queue (18 cards) | — | DONE — Deck 07 debt cleared, all 40 cards meet V2 standard. |
 | OPEN | — | Operis Contract A/B URL enforcement | — | P1 missing source URLs, P2 missing per-lane URLs |
 | OPEN | — | Re-run Operis V4 pipeline test (2024-07-26) | Contract A/B fix | After URL/schema patching |
 
@@ -107,7 +107,7 @@ Maximum output, full capacity. Measure throughput.
 | DONE | CX-42 | Exercise Content Batch 3 (501–1000) | CX-37 ✓ | Session 040: `python scripts/generate-exercise-content.py --batch 1000` → +498 files (993 total in `exercise-content/`) |
 | DONE | — | Exercise Content Batch 4 (1001–1500) | CX-37 ✓ | Session 042: `python scripts/generate-exercise-content.py --batch 1500` → +493 files (1,486 total in `exercise-content/`) |
 | DONE | — | Exercise Content Batch 5 FINAL (1501–2085) | CX-37 ✓ | Session 045: `python scripts/generate-exercise-content.py --batch 2085` → +599 files (2,085 total in `exercise-content/`) |
-| OPEN | — | Deck 07 regen (18 cards) | — | Duplicate primary exercises from pre-identity era |
+| DONE | — | Deck 07 regen (18 cards) | — | DONE — Deck 07 debt cleared — all 40 cards meet V2 standard. |
 | DONE | — | Deck 10 generation (40 cards) | — | ⛽🪐 Strength Challenge complete (40/40) |
 | OPEN | — | Deck 11 generation (40 cards) | Deck 11 identity | ⛽⌛ Strength Time |
 | DONE | — | Deck 12 generation (40 cards) | — | ⛽🐬 Strength Partner complete (40/40) |
@@ -177,7 +177,7 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 - **Exercise library versioning:** Still v.0. Version bump criteria undefined. When does v.1 trigger?
 - **Cosmogram sessions:** Require Genspark (web access). Schedule independently from generation. Priority candidates: Deck 07 (cards exist), Deck 01 (system origin), Deck 05 (history seed drafted).
 - **Operis V4 pipeline:** Contract A/B URL enforcement gaps remain open. Must fix before re-run. Contract C parser hardening ✅ already committed.
-- **Deck 07 Deck Campaign Table:** Deck 07 ⚠️ 40 cards (18 REGEN-NEEDED, identity V2 ✅). Deck 08 ✅ 40 cards (identity V2 ✅). Deck 09 ✅ 40 cards (identity ✅). Decks 10–12 ⬜.
+- **Deck 07 Deck Campaign Table:** Deck 07 ✅ 40 cards (debt cleared, identity V2 ✅). Deck 08 ✅ 40 cards (identity V2 ✅). Deck 09 ✅ 40 cards (identity ✅). Decks 10–12 ⬜.
 - **Deck 05 historical research seed:** Janus (Roman time/doorways), Imbolc (Celtic purification, Feb 1–2), Lupercalia (Roman purification, Feb 15), Ishango bone (20,000 BCE timekeeping), Benedictine horarium (canonical hours as temporal grammar), seven-day week (Babylonian/planetary). Feeds cosmogram when Deck 05 gets researched.
 - **Monthly operator mapping confirmed:** Jan=📍pono, Feb=🧲capio, Mar=🧸fero, Apr=👀specio, May=🥨tendo, Jun=🤌facio, Jul=🚀mitto, Aug=🦢plico, Sep=🪵teneo, Oct=🐋duco, Nov=✒️grapho, Dec=🦉logos
 - **Rotation engine:** Order by weekday (7-day), Type by rolling 5-day calendar from Jan 1, Axis by monthly operator. 5 and 7 are coprime — same Order-Type pairing doesn't repeat for 35 days.
@@ -191,7 +191,7 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 - **The Negotiosum structure is new** (planted 2026-03-05). First pruning pass should evaluate whether Color assignments feel right after 2 weeks of use.
 - **Reconciliation session (2026-03-05):** ~25 PRs (#27–#84) merged to main between Sessions 030–033 with no session log entries. This session reconciled all container statuses, backfilled evidence in TASK-ARCHITECTURE.md, and updated the Negotiosum. Deck 09 (40 cards) was generated entirely across unlogged Codex runs.
 - **Wave 3 unlock (2026-03-05):** CX-09 and CX-10 completion unlocked CX-11 (Block weights) and CX-12 (Operator weights). Both were already populated as working drafts in prior unlogged Codex runs. Engine coupling session confirmed on disk and registered as DONE. CX-14 (Weight Vector Engine) is now fully unblocked — all 5 dependencies met.
-- **Stale seed audit (2026-03-05):** 8 files flagged with stale card counts or status references. Update opportunistically when each file is next touched: seeds/claude-code-build-sequence.md, seeds/platform-architecture-v2.md, seeds/operis-architecture.md, seeds/operis-prompt-pipeline.md, .codex/NEXT-ROUND-HANDOFF.md, AGENTS.md, cards/AGENTS.md, middle-math/ARCHITECTURE.md. Jake-blocked items (require Jake's input): platform-v1-archive body paste, color-context-vernacular vocabulary update, order-parameters vocabulary update, Deck 07 regen decision.
+- **Stale seed audit (2026-03-05):** 8 files flagged with stale card counts or status references. Update opportunistically when each file is next touched: seeds/claude-code-build-sequence.md, seeds/platform-architecture-v2.md, seeds/operis-architecture.md, seeds/operis-prompt-pipeline.md, .codex/NEXT-ROUND-HANDOFF.md, AGENTS.md, cards/AGENTS.md, middle-math/ARCHITECTURE.md. Jake-blocked items (require Jake's input): platform-v1-archive body paste, color-context-vernacular vocabulary update, order-parameters vocabulary update.
 - **Graph Parti note:** Needs scl-macro-reference.md at root — condensed emoji macros for Graph Parti context. Not blocking.
 - **Color-tagging overhead:** Justified when it aids routing. Break-even at second human on project. The tags cost little now; they pay when the team grows.
 - **SCL-Deep expansion complete:** emoji-macros.md, order-specifications.md, block-specifications.md, vocabulary-standard.md, publication-standard.md all committed. These are reference docs — they deepen generation quality but don't block it.

@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛➕🟡
 operator: 📍 pono
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: ➕ Plus | Full body power, core
@@ -38,7 +39,7 @@ CODE: ⛽🏛➕🟡
 
 Rest: 3–4 min between sets.
 
-**Classic Barbell Complex — 4-Movement Sequence**
+**➕ Dumbbell Thruster**
 
 The load is governed by the weakest movement in the chain. The Overhead Press is typically the limiting factor — load to the press, not the deadlift.
 

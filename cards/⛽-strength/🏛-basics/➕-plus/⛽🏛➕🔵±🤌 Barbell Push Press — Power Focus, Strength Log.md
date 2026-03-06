@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛➕🔵
 operator: 🤌 facio
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: ➕ Plus | Full body power, core
@@ -53,7 +54,7 @@ Rest: 3 min before 🧈.
 
 Rest: 3 min between all sets.
 
-**A. ➕ Front Squat (Core Bracing)**
+**A. ➕ Barbell Push Press**
 
 - Set 1: 77% × 5 (elbows high, brace 360° before descent)
 - Set 2: 80% × 5 (knees track toes — do not let them drift in)

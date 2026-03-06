@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛🍗⚪
 operator: 📍 pono
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: 🍗 Legs | Quads, hamstrings, glutes, calves
@@ -56,7 +57,7 @@ Rest: 2 min between sets.
 Tempo: 4-0-1 on all working sets.
 Rest: 3 min between sets. ⚪ context demands full recovery between slow efforts.
 
-**🍗 Back Squat (High Bar) — 4-Sec Eccentric**
+**🍗 Barbell Hip Thrust — 4-Sec Eccentric**
 
 Breathing cue: inhale at the top, hold the brace through the full 4-sec descent, exhale on the drive.
 

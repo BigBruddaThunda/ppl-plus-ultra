@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛🪡🔴
 operator: 🤌 facio
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
@@ -54,7 +55,7 @@ Rest: 90 sec between primer sets.
 
 Rest: 3–4 min between deadlift sets. 2.5 min between row pairs.
 
-**A. 🪡 Deadlift (Conventional)**
+**A. 🪡 Sumo Deadlift**
 
 - Set 1: 80% × 5 (position before tension before pull)
 - Set 2: 82.5% × 5 (hold the position — nothing drifts)

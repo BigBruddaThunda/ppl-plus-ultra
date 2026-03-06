@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛🛒🔴
 operator: 🤌 facio
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: 🛒 Push | Chest, front delts, triceps
@@ -51,7 +52,7 @@ Rest: 90 sec.
 
 Rest: 3 min (reduced from standard — push the density).
 
-**A. 🛒 Barbell Bench Press** — 5 working sets
+**A. 🛒 Incline Barbell Bench Press** — 5 working sets
 
 - Set 1: 78% × 5
 - Set 2: 80% × 5

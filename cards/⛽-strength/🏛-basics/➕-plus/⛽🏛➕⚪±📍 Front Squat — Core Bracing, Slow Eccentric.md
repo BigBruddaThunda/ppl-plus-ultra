@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛➕⚪
 operator: 📍 pono
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: ➕ Plus | Full body power, core
@@ -61,7 +62,7 @@ Then:
 
 Rest: 3 min between sets.
 
-**A — ➕ Front Squat (Core Bracing) — 4-0-1 Tempo**
+**A — ➕ Front Squat (4-Sec Eccentric) — 4-0-1 Tempo**
 
 *(4 sec eccentric | 0 pause unless noted | 1 sec concentric)*
 
