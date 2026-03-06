@@ -1,20 +1,18 @@
-# NEXT-ROUND-HANDOFF — Post Sprint 035
+# NEXT-ROUND-HANDOFF — Post Session 036
 
-**Branch:** `claude/wave-4-sprint-035-vN8CK`
+**Branch:** `claude/envelope-pipeline-036-OsXgl`
 **Date:** 2026-03-06
-**State:** 26/36 CX containers complete, 10 open
+**State:** 29/36 CX containers complete, 7 open
 
 ---
 
-## 1) What Just Landed (Sprint 035)
+## 1) What Just Landed (Session 036)
 
 | Container | Name | Evidence |
 |-----------|------|----------|
-| CX-15 | Exercise Selection Prototype | `scripts/middle-math/exercise_selector.py` — GOLD gate, load ceiling, equipment tier, Type match, --validate/--stats/--deck |
-| CX-22 | Floor Routing Spec | `middle-math/floor-routing-spec.md` — 109 content types × 6 Axis floors |
-| CX-24 | Bloom State Engine | `scripts/middle-math/bloom_engine.py` — 6 bloom levels, no decay, eudaimonic |
-| CX-26 | Operis Room Manifest Generator | `scripts/middle-math/generate_room_manifest.py` — 13-room Sandbox from date input |
-| CX-27 | Superscript/Subscript Data Model | `scripts/middle-math/compute_superscript.py` — system suggestions + user overrides |
+| CX-25 | Vote Weight Integration | `scripts/middle-math/vote_weight_adjuster.py` — tanh signal, ±0.8 cap, eudaimonic interlock, --validate passes 6,720 checks |
+| CX-30 | Envelope Schema & Stamping Prototype | `scripts/middle-math/envelope_stamper.py` — atomic retrieval unit, --anonymous + --full + --deck modes |
+| CX-29 | Wilson Audio Route Scaffold | `middle-math/wilson-audio-spec.md` — 3-layer keyword scoring, ~2,260 entries, Wilson voice registers by floor |
 
 Tracking updated: `.codex/TASK-ARCHITECTURE.md`, `whiteboard.md`, `docs/cx-dependency-graph.md`, `session-log.md`
 
@@ -23,68 +21,84 @@ Tracking updated: `.codex/TASK-ARCHITECTURE.md`, `whiteboard.md`, `docs/cx-depen
 ## 2) Current State
 
 - Cards: 102/1,680 (Deck 07: 22/40 ⚠️ — 18 REGEN-NEEDED, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅)
-- CX Containers: 36 defined, **26 complete**, 10 open
-- Cascade: CX-22 ✓ → **CX-29 now unblocked** (Wilson Audio Route Scaffold)
-- Critical path: CX-25 → CX-30 → CX-31
+- CX Containers: 36 defined, **29 complete**, 7 open
+- **CX-31 is FULLY UNBLOCKED** — both blockers now met (CX-30 ✓, CX-21 ✓)
+- Wave 5 capstone is the next critical path task
 
 ---
 
-## 3) Recommended Next Tasks (priority order)
+## 3) Open Containers (7 remaining)
 
-### Task A — CX-25: Vote Weight Integration (CRITICAL PATH)
-
-**Write:** `scripts/middle-math/vote_weight_adjuster.py`
-
-Reads room_votes table (from sql/008-room-schema-extension.sql). Computes a
-vote weight adjustment to the zip's base weight vector. A +1 vote increases
-effective weight; a -1 vote decreases it. Cap adjustments so signals complement
-(not override) algorithmic ranking.
-
-Dependencies: CX-20 ✓, CX-14 ✓
-Unblocks: CX-30 (Envelope Stamping)
-
-### Task B — CX-30: Envelope Schema & Stamping Prototype (CRITICAL PATH)
-
-**Write:** `scripts/middle-math/envelope_stamper.py`
-
-The envelope wraps a zip code for retrieval. Combines:
-- Weight vector (weight-vectors.json)
-- Vote adjustment (from CX-25)
-- Bloom state (bloom_engine.py)
-- User context (compute_superscript.py)
-
-Read: `seeds/scl-envelope-architecture.md`, `sql/008-room-schema-extension.sql`,
-`middle-math/ARCHITECTURE.md`
-
-Unblocks: CX-31
-
-### Task C — CX-29: Wilson Audio Route Scaffold (NOW UNBLOCKED)
-
-**Write:** `middle-math/wilson-audio-spec.md`
-
-3-layer keyword scoring for natural language → zip navigation. No AI model.
-~13,000 entries. Read: `seeds/voice-parser-architecture.md`, `seeds/wilson-voice-identity.md`
-
-### Task D — CX-17: Ralph Loop Validation & Batch
-
-**Write:** `scripts/validate-pod.py`, `scripts/ralph-batch.sh`
-
-Batch generation orchestration for remaining deck pods.
-Blocked on: Jake must approve deck-07-pods.md prototype first.
+| ID | Name | Blockers | Notes |
+|----|------|----------|-------|
+| **CX-31** | Envelope Similarity & Retrieval | CX-30 ✓, CX-21 ✓ | **FULLY UNBLOCKED — Wave 5 capstone** |
+| CX-01 | Codex Agent Config & Task Architecture | CX-00A ✓ | `.codex/TASK-ARCHITECTURE.md` + `HANDOFF-CONTRACTS.md` |
+| CX-17 | Ralph Loop Validation & Batch | CX-03 ✓ | Blocked on Jake pod approval |
+| CX-18 | Design Tokens & WeightCSS Spec | CX-00A ✓ | `tokens.json` + `weight-css-spec.md` |
+| CX-19 | Agent Boundaries Document | CX-01 | Blocked on CX-01 |
+| — | Operis Contract A/B URL enforcement | — | P1/P2 URL gaps; then re-run V4 pipeline test |
+| — | Whiteboard DONE-task archive pass | — | Periodic ⚪ pruning |
 
 ---
 
-## 4) Jake-Blocked Items (unchanged)
+## 4) Recommended Next Task — CX-31: Envelope Similarity & Retrieval
+
+**Write:** `scripts/middle-math/envelope_retrieval.py`
+
+This is the Wave 5 capstone. It closes the entire CX architecture.
+
+The retrieval function takes a live weight vector (the "query") and finds the
+most similar envelopes in the content corpus using cosine similarity across
+all 61 dimensions.
+
+**What to read before writing:**
+- `seeds/scl-envelope-architecture.md` — retrieval is condition-based (not calendar-based)
+- `scripts/middle-math/envelope_stamper.py` (CX-30 — just built) — envelope schema
+- `middle-math/weight-vectors.json` — 1,680 base vectors to query against
+- `middle-math/content-type-registry.json` — content type retrieval profiles
+- `middle-math/ARCHITECTURE.md` — Section 6 (Operis Bridge context)
+
+**What to build:**
+1. `compute_similarity(vector_a, vector_b)` → cosine similarity in [-1, 1]
+2. `retrieve_top_n(query_vector, candidate_envelopes, n=10)` → ranked list
+3. Content-type-specific retrieval profiles (Tier 1 weights heavy; Tier 4 weights specific)
+4. `--query XXXX` flag: use a zip's vector as the query, show top-10 most similar
+5. `--deck 07` flag: show top-5 most similar to each zip in the deck
+6. `--validate` flag: confirm similarity is bounded [-1, 1], no NaN, symmetric
+
+**Unblocks:** Full envelope-based content retrieval. Operis sandbox selection.
+Exercise recommendation by vector proximity. Regional divergence routing.
+
+---
+
+## 5) CX-31 Architecture Notes
+
+From `seeds/scl-envelope-architecture.md`:
+
+> "Retrieval is condition-based matching, not calendar-based. The system finds
+> content whose envelope is most similar to the live weight vector state."
+
+Content-type retrieval profiles adjust the weighting across the 61 dimensions:
+- **Tier 1 (Order, seasonal):** Order dimensions weighted 2×, time/seasonal dims weighted 2×
+- **Tier 2 (Deck/Type):** Type and Axis dimensions weighted 1.5×
+- **Tier 3 (Exercise cluster):** Specific exercise family dimensions weighted 2×
+- **Tier 4 (Exercise-specific):** All 61 dims equal weight; similarity must exceed 0.9
+
+The query vector is the user's current "live" weight vector — determined by
+their bloom states, session history, and the day's Order.
+
+---
+
+## 6) Jake-Blocked Items (unchanged)
 
 - Deck 07 Ralph pod review → must approve prototype before batch runs
 - First CANONICAL review → Jake reads 40 Deck 08 cards as a user
 - Deck 07 regen → 18 REGEN-NEEDED cards from pre-identity era
 - Historical events population → 366 dates, ~180 hours research, builds incrementally
-- Platform architecture V3 (if V2 needs update)
 
 ---
 
-## 5) Do NOT Touch
+## 7) Do NOT Touch
 
 - Card content in `cards/`
 - Operis editions (except `operis-editions/historical-events/` scaffolds)
@@ -94,10 +108,12 @@ Blocked on: Jake must approve deck-07-pods.md prototype first.
 
 ---
 
-## 6) Definition of Done (next session)
+## 8) Definition of Done (next session)
 
-- CX-25 vote_weight_adjuster.py written and validated
-- CX-30 envelope_stamper.py written
-- All completed containers marked DONE in TASK-ARCHITECTURE.md with evidence
-- whiteboard.md header updated
+- CX-31 `envelope_retrieval.py` written and validated
+- `--validate` passes (similarity bounded, no NaN, symmetric)
+- `--query 2123` shows ranked similar envelopes with scores
+- CX-31 marked DONE in TASK-ARCHITECTURE.md with evidence
+- whiteboard.md updated: "30/36 complete"
 - validate-negotiosum.py passes 5/5
+- Session PR merged

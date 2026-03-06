@@ -33,13 +33,13 @@ Use glossary terms from `scl-deep/systems-glossary.md` as the authoritative sour
 | CX-22 | Floor Routing Spec | CX-03, CX-20, CX-21 | 3 | DONE | Sprint 035 · claude/wave-4-sprint-035-vN8CK | `middle-math/floor-routing-spec.md` — 109 content types routed to 6 Axis floors, default landing, access gates |
 | CX-23 | Navigation Graph Builder | CX-03, CX-04, CX-08 | 2 | DONE | Engine coupling session · 2026-03-05 | `scripts/build-navigation-graph.py`, `middle-math/navigation-graph.json` — 1,680 nodes × 4 edges |
 | CX-24 | Bloom State Engine | CX-20, CX-03 | 3 | DONE | Sprint 035 · claude/wave-4-sprint-035-vN8CK | `scripts/middle-math/bloom_engine.py` — 6-level bloom, no streaks/decay, eudaimonic constraint, --demo and --schema flags |
-| CX-25 | Vote Weight Integration | CX-20, CX-14 | 4 | PENDING | — | — |
+| CX-25 | Vote Weight Integration | CX-20, CX-14 | 4 | DONE | Session 036 · claude/envelope-pipeline-036-OsXgl | `scripts/middle-math/vote_weight_adjuster.py` — tanh signal, ±0.8 cap, --validate passes 6,720 checks |
 | CX-26 | Operis Room Manifest Generator | CX-03, CX-04 | 2 | DONE | Sprint 035 · claude/wave-4-sprint-035-vN8CK | `scripts/middle-math/generate_room_manifest.py` — 13-room Sandbox from date input, --date and --week flags |
 | CX-27 | Superscript/Subscript Data Model | CX-20, CX-08 | 3 | DONE | Sprint 035 · claude/wave-4-sprint-035-vN8CK | `scripts/middle-math/compute_superscript.py` — system suggestions + user overrides, --demo and --schema flags |
 | CX-28 | Cosmogram Content Scaffold | CX-04 | 2 | DONE | Session 034 · 2026-03-06 | `scripts/scaffold_cosmograms.py`, `deck-cosmograms/deck-01-cosmogram.md` through `deck-42-cosmogram.md` (42 stubs) |
-| CX-29 | Wilson Audio Route Scaffold | CX-22 | 4 | PENDING | — | — |
-| CX-30 | Envelope Schema & Stamping Prototype | CX-08, CX-14, CX-03 | 4 | PENDING | — | — |
-| CX-31 | Envelope Similarity Function & Retrieval Prototype | CX-30, CX-21 | 5 | PENDING | — | — |
+| CX-29 | Wilson Audio Route Scaffold | CX-22 | 4 | DONE | Session 036 · claude/envelope-pipeline-036-OsXgl | `middle-math/wilson-audio-spec.md` — 3-layer keyword scoring, ~2,260 entries, Wilson voice registers by floor |
+| CX-30 | Envelope Schema & Stamping Prototype | CX-08, CX-14, CX-03 | 4 | DONE | Session 036 · claude/envelope-pipeline-036-OsXgl | `scripts/middle-math/envelope_stamper.py` — atomic retrieval unit, --anonymous + --full + --deck modes |
+| CX-31 | Envelope Similarity Function & Retrieval Prototype | CX-30, CX-21 | 5 | PENDING | — | FULLY UNBLOCKED (CX-30 ✓, CX-21 ✓) — Wave 5 capstone |
 | CX-32 | Mermaid CX Dependency Graph | None | 2 | DONE | Codex run · evidence on disk | `docs/cx-dependency-graph.md` |
 | CX-33 | GitHub Pages Progress Dashboard | CX-03, CX-04 | 2 | DONE | PR #90 engine coupling session 2026-03-05 | `docs/dashboard/index.html`, `scripts/build-dashboard-data.py`, `docs/dashboard/data/progress.json` |
 | CX-34 | Codespaces Dev Container | None | 1 | DONE | Codex run · evidence on disk | `.devcontainer/devcontainer.json`, `docs/codespaces-quickstart.md` |

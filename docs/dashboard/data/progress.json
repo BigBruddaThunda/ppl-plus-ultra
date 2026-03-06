@@ -491,8 +491,8 @@
     {
       "color": "🟣",
       "name": "Profundum Operis",
-      "done": 14,
-      "open": 5
+      "done": 17,
+      "open": 2
     },
     {
       "color": "🔴",
@@ -520,7 +520,7 @@
     }
   ],
   "cx_total": 36,
-  "cx_done": 28,
-  "cx_pending": 8,
-  "last_updated": "2026-03-06T12:16:58.810841+00:00"
+  "cx_done": 31,
+  "cx_pending": 5,
+  "last_updated": "2026-03-06T13:08:10.149484+00:00"
 }

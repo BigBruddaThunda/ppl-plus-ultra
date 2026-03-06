@@ -608,3 +608,38 @@ Referenced in .codex/NEXT-ROUND-HANDOFF.md as "assumed done and merged."
 ---
 
 🧮
+
+### Session 036
+Date: 2026-03-06
+Branch: claude/envelope-pipeline-036-OsXgl
+Work: Envelope pipeline close — CX-25 Vote Weight Integration, CX-30 Envelope Stamper, CX-29 Wilson Audio Spec
+
+**CX-25 — Vote Weight Integration:**
+- `scripts/middle-math/vote_weight_adjuster.py`
+- Algorithm: tanh(raw_signal / vote_count) → normalized signal in (-1, 1)
+- Uniform adjustment across all 61 dimensions, capped at ±0.8 per dimension
+- Eudaimonic constraint enforced: votes are signal, not governance
+- --validate passes 6,720 checks (1,680 zips × 4 vote configurations)
+- --demo shows base vs adjusted comparison for 5 representative zips
+
+**CX-30 — Envelope Stamper:**
+- `scripts/middle-math/envelope_stamper.py`
+- Atomic retrieval unit: zip identity + base weight vector + vote-adjusted vector + bloom + superscript/subscript
+- --anonymous mode: base identity + weight vector only (free-tier envelope)
+- --full mode: mock user context demonstrating complete envelope shape
+- --deck mode: stamps all 40 envelopes in a deck
+- Integrates vote_weight_adjuster, bloom_engine, compute_superscript by import
+
+**CX-29 — Wilson Audio Route Scaffold:**
+- `middle-math/wilson-audio-spec.md`
+- 3-layer keyword scoring architecture: Layer 1 (~1,160 keywords), Layer 2 (~300 keywords), Layer 3 (~800 keywords)
+- ~2,260 total keyword entries, no AI dependency, client-side O(1) lookup
+- Wilson voice register by floor: Piano Nobile (technical), Ground Floor (utility), 2nd Floor (temporal), 3rd Floor (social), 4th Floor (personal), 5th Floor (research)
+
+**Tracking updated:** `.codex/TASK-ARCHITECTURE.md`, `whiteboard.md`, `docs/cx-dependency-graph.md`
+
+**Cascade unblocked:** CX-31 (Envelope Similarity & Retrieval) now FULLY UNBLOCKED — both blockers met (CX-30 ✓, CX-21 ✓). Wave 5 capstone is next.
+
+**Final state:** 29/36 CX containers complete. 3 containers completed this session. 7 open: CX-01, CX-17, CX-18, CX-19, CX-31 (+ 2 non-CX audit tasks).
+
+---
