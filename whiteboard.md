@@ -4,7 +4,7 @@ Last updated: 2026-03-06
 Phase: 2 — Workout Generation + Architecture Expansion
 Cards: 102 / 1,680 (Deck 07: 22/40 ⚠️, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅)
 Seeds: 49 | Scripts: 28
-CX Containers: 36 defined, 33 complete, 3 open
+CX Containers: 44 defined, 38 complete, 6 open
 
 For development history, see `session-log.md`.
 
@@ -25,6 +25,7 @@ Teach, scaffold, define. Output that stands alone for any reader.
 | DONE | CX-34 | Codespaces dev container | — | .devcontainer/ + docs/codespaces-quickstart.md |
 | DONE | — | Update README.md project status to 102/1,680 | — | Already updated in prior Codex runs |
 | DONE | — | Update README.md repo structure (new directories, files) | — | sql/, session-log.md, docs/ added |
+| DONE | CX-39 | External Reference Dock | — | Session 038: `external-refs.json` (2,085 null docks) + `seeds/exrx-partnership-brief.md` |
 
 ---
 
@@ -36,6 +37,7 @@ Self-contained, zero-dependency. Runs in airplane mode.
 |--------|----|------|---------|------|
 | DONE | CX-03 | Zip converter + registry (1,680 JSON) | — | zip_converter.py, zip_registry.py, zip-registry.json |
 | DONE | CX-13 | Exercise library parser (~2,185 JSON) | — | parse_exercise_library.py, exercise-library.json |
+| DONE | CX-36 | Exercise Identity Registry | — | Session 038: `scripts/build-exercise-registry.py` + `middle-math/exercise-registry.json` (2,085 entries, EX-0001–EX-2085) |
 | OPEN | CX-17 | Ralph Loop validation + batch orchestrator | CX-03 ✓ | validate-pod.py, ralph-batch.sh |
 | OPEN | — | Deck 07 Ralph pod review (prototype approval) | — | Jake must review deck-07-pods.md before batch |
 
@@ -52,6 +54,7 @@ Systematic, templated, institutional. Follow the pattern.
 | DONE | CX-08 | SQL schema materialization (7 migrations) | — | sql/001-007 + README — Session 033 |
 | DONE | CX-16 | Deck identity scaffolds (Decks 10–12) | CX-03 ✓ | PR #67 — deck-identity-scaffold.py + 3 identity docs |
 | DONE | CX-33 | GitHub Pages progress dashboard | CX-03 ✓, CX-04 ✓ | Built PR #90 (2026-03-05) — docs/dashboard/ + scripts/build-dashboard-data.py. Reconciled this session. |
+| DONE | CX-40 | Exercise Registry SQL Migration | — | Session 038: `sql/009-exercise-registry.sql`, `sql/010-exercise-knowledge.sql`, `sql/README.md` updated |
 | OPEN | — | Deck 07 retrofit regen queue (18 cards) | — | 18 REGEN-NEEDED cards from Session 021 |
 | OPEN | — | Operis Contract A/B URL enforcement | — | P1 missing source URLs, P2 missing per-lane URLs |
 | OPEN | — | Re-run Operis V4 pipeline test (2024-07-26) | Contract A/B fix | After URL/schema patching |
@@ -83,6 +86,8 @@ Precision, multi-file reasoning, cascading consequences.
 | DONE | CX-29 | Wilson audio route specification | CX-22 ✓ | middle-math/wilson-audio-spec.md — 3-layer scoring, ~2,260 keywords, voice registers by floor. Session 036. |
 | DONE | CX-30 | Envelope schema + stamping prototype | CX-08 ✓, CX-14 ✓, CX-03 ✓ | envelope_stamper.py — atomic retrieval unit, --anonymous + --full + --deck modes. Session 036. |
 | DONE | CX-31 | Envelope similarity function + retrieval | — | envelope_retrieval.py — cosine sim, Tier 1–4 profiles, --validate 5/5. Wave 5 capstone. Session 037. |
+| DONE | CX-38 | Exercise Relationship Graph | — | Session 038: `family-trees.json` (15 families/2,085 members), `substitution-map.json`, `sport-tags.json`, `anatomy-index.json` |
+| OPEN | CX-43 | Exercise Selector V2 (registry-aware) | CX-36 ✓, CX-38 ✓, CX-15 ✓ | All blockers cleared. Upgrade exercise_selector.py to use registry |
 
 ---
 
@@ -96,6 +101,9 @@ Maximum output, full capacity. Measure throughput.
 | DONE | — | Deck 07 generation (40 cards) | — | 18 flagged REGEN-NEEDED |
 | DONE | — | Deck 08 generation (40 cards) | — | GENERATED-V2 complete |
 | DONE | — | Deck 09 generation (40 cards) | — | 102/1,680 total |
+| DONE | CX-37 | Exercise Knowledge Template + First Batch | — | Session 038: `scripts/generate-exercise-content.py` + 197 files in `exercise-content/` + `exercise-content/README.md` |
+| OPEN | CX-41 | Exercise Content Batch 2 (201–500) | CX-37 ✓ | CX-37 complete — unblocked. `python scripts/generate-exercise-content.py --batch 500` |
+| OPEN | CX-42 | Exercise Content Batch 3 (501–1000) | CX-37 ✓ | CX-37 complete — unblocked. Follows CX-41. |
 | OPEN | — | Deck 07 regen (18 cards) | — | Duplicate primary exercises from pre-identity era |
 | OPEN | — | Deck 10 generation (40 cards) | Deck 10 identity | ⛽🪐 Strength Challenge |
 | OPEN | — | Deck 11 generation (40 cards) | Deck 11 identity | ⛽⌛ Strength Time |
@@ -156,6 +164,7 @@ Review, reflect, slow down. Does this serve flourishing?
 
 Active observations, open questions, and emergent ideas. When a note becomes a task, move it to the appropriate Color section. When a note becomes a seed, commit it and remove from here.
 
+- **Session 038 CLOSED (2026-03-06) — Exercise Library Expansion: Wave 6 complete (5/5).** CX-36: `middle-math/exercise-registry.json` — 2,085 exercises, globally unique EX-0001–EX-2085, 16-pattern vocabulary, anatomy inference, family linkage, axis/order affinity. CX-37: `scripts/generate-exercise-content.py` + 197 files in `exercise-content/` (push/pull/legs/plus/ultra). CX-38: 4 engine files in `middle-math/exercise-engine/` (family-trees, substitution-map, sport-tags, anatomy-index). CX-39: `external-refs.json` (2,085 null docks) + `seeds/exrx-partnership-brief.md`. CX-40: `sql/009-exercise-registry.sql` + `sql/010-exercise-knowledge.sql` + README updated. Wave 7 (CX-41, CX-42, CX-43) fully unblocked. Known data issue: `movement_pattern` catch-all assigns ~1,256 exercises to `core-stability` — carry/conditioning pattern disambiguation deferred to CX-43 Selector V2.
 - **Deck generation priority:** Continue ⛽ Order sweep (10→11→12) or pivot to 🐂 Foundation Order (01→06)? Jake's call.
 - **First CANONICAL review:** Jake has reviewed 0 decks to CANONICAL. When does this happen? Deck 08 is the candidate.
 - **Exercise library versioning:** Still v.0. Version bump criteria undefined. When does v.1 trigger?
