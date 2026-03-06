@@ -696,3 +696,55 @@ Work: Envelope pipeline close — CX-25 Vote Weight Integration, CX-30 Envelope 
 
 ---
 
+
+## Session 038 — 2026-03-06
+
+**Branch:** `claude/exercise-library-expansion-LWTl5`
+**Campaign:** Exercise Library Expansion (Wave 6)
+**Containers completed:** CX-36, CX-37, CX-38, CX-39, CX-40 (5/5 Wave 6)
+**CX totals:** 38/44 complete
+
+---
+
+**Phase 0 — Registration:**
+- `.codex/TASK-ARCHITECTURE.md` — 8 new CX rows (CX-36–43), Wave 6/7 in Wave Execution Plan, context firewall updated (`exercise-content/` added to MAY Read and MAY Write)
+- `whiteboard.md` — header updated "44 defined, 33 complete, 11 open", 8 new task rows across Ordo/Natura/Architectura/Profundum/Fervor sections
+- `docs/cx-dependency-graph.md` — Wave 6/7 subgraphs added, dependency edges wired
+
+**CX-36 — Exercise Identity Registry:**
+- `scripts/build-exercise-registry.py` — Full Python build script: 16-pattern vocabulary standardization, anatomy inference by pattern + section override, FAMILY_MEMBERS lookup for 8 major families, axis/order affinity scoring (octave scale -8/+8), equipment list inference, knowledge_file path generation, two-pass global ID assignment (EX-0001–EX-2085), CLI `--stats`/`--validate`/`--dry-run`
+- `middle-math/exercise-registry.json` — 2,085 entries generated, all exercises with globally unique IDs, anatomy, family linkage, affinity scores
+
+**CX-39 — External Reference Dock:**
+- `middle-math/exercise-engine/external-refs.json` — 2,085 null dock entries keyed by EX-ID
+- `seeds/exrx-partnership-brief.md` — One-page SEED partnership pitch: integration architecture, traffic flow model, Options A/B/C, technical readiness table
+
+**CX-40 — Exercise Registry SQL Migration:**
+- `sql/009-exercise-registry.sql` — Full `exercise_registry` table: TEXT PK, self-referencing parent_id FK, 8 indexes (GIN on scl_types/primary_movers/name_trgm, B-tree on pattern/family/parent), RLS public SELECT, auto-update trigger
+- `sql/010-exercise-knowledge.sql` — `exercise_knowledge` table: 1:1 FK to registry, JSONB faults/context/modifiers, status lifecycle EMPTY→CANONICAL, auto-populate stub rows from registry
+- `sql/README.md` — Execution order, file mapping, notes, psql commands, row count verification updated for migrations 9 and 10
+
+**CX-38 — Exercise Relationship Graph:**
+- `middle-math/exercise-engine/family-trees.json` — 15 families (all movement patterns), 2,085 member entries, root/variant/progression/regression/equipment-swap/unlinked roles
+- `middle-math/exercise-engine/substitution-map.json` — 2,085 entries, same_family/tier_down/tier_up/cross_family substitution chains
+- `middle-math/exercise-engine/sport-tags.json` — 20 sports indexed, by_sport inverted index + by_exercise per-ID map
+- `middle-math/exercise-engine/anatomy-index.json` — 50 muscles + 30 joint actions, primary/secondary/stabilizer inverted index
+
+**CX-37 — Exercise Knowledge Template + First Batch:**
+- `scripts/generate-exercise-content.py` — Full CLI generator: pattern-based templates for all 16 patterns (setup/execution/faults/PPL±Context/ColorModifiers/CoachingNotes), `resolve_template_pattern()` for family_id fallback when movement_pattern is catch-all, `--exercise/--section/--type/--batch/--priority-first/--overwrite/--dry-run/--stats` CLI
+- `exercise-content/README.md` — Subdirectory structure, file naming, status lifecycle, generation commands, population progress
+- `exercise-content/push/`, `pull/`, `legs/`, `plus/`, `ultra/` — Directories created
+- 197 knowledge files generated (200 attempted, 3 duplicate slugs collapsed), avg 484 words/file, priority-first ordering (25 high-frequency exercises from usage report first)
+
+**Known data issue logged:**
+- `movement_pattern` catch-all: ~1,256 exercises classified as `core-stability` due to PATTERN_KEYWORDS `"car"` substring matching `"carry"` and other collision cases. Generator mitigates via `resolve_template_pattern()` (uses `family_id` for hip-hinge/squat/etc. exercises). Full fix deferred to CX-43 (Selector V2).
+
+**Scripts run:**
+- `python scripts/build-exercise-registry.py --validate` — 0 errors
+- `python scripts/build-exercise-registry.py --stats` — 2,085 entries confirmed
+- `python scripts/generate-exercise-content.py --stats` — 197 files, 9.4% coverage
+- `python /tmp/build_cx38.py` — 4 CX-38 files generated
+
+**Final state:** Wave 6 complete (5/5). Wave 7 (CX-41, CX-42, CX-43) fully unblocked. 38/44 CX containers complete. Next session: CX-41 (batch 201–500) or CX-43 (Selector V2). Jake's call on deck generation vs. library expansion priority.
+
+---

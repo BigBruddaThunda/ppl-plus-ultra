@@ -1,142 +1,119 @@
-# Next Round Handoff — Post Session 037
+# Next Round Handoff — Post Session 038
 
 **Date:** 2026-03-06
-**Branch closed:** `claude/architecture-capstone-037-b7rHF`
-**State:** 33/36 CX containers complete. Wave 5 capstone delivered.
+**Branch closed:** `claude/exercise-library-expansion-LWTl5`
+**State:** 38/44 CX containers complete. Wave 6 (Exercise Library Foundation) delivered.
 
 ---
 
-## 1) Current State
+## What Was Completed This Session
 
-- **Cards:** 102 / 1,680 (6.1%) — Deck 07 (22 ⚠️ REGEN-NEEDED), Deck 08 ✅, Deck 09 ✅
-- **CX Containers:** 33/36 DONE — architecture campaign functionally complete
-- **Open CX containers:** CX-17 only (Ralph loop, blocked on Jake pod review)
-- **Phase:** 2 — Content generation is the primary work. Architecture serves it.
+### CX-36 — Exercise Identity Registry
+- `scripts/build-exercise-registry.py` — Full build script for registry
+- `middle-math/exercise-registry.json` — 2,085 exercises, EX-0001–EX-2085, globally unique IDs
+- Each entry: anatomy (primary/secondary/stabilizers/joint_actions), standardized movement_pattern (16-pattern vocab), family linkage (family_id/family_role/parent_id/transfer_ratio), axis_affinity + order_affinity (octave scale -8/+8), equipment[], sport_tags[], knowledge_file path
 
----
+### CX-39 — External Reference Dock
+- `middle-math/exercise-engine/external-refs.json` — 2,085 null ExRx/video/research docks
+- `seeds/exrx-partnership-brief.md` — Partnership pitch for ExRx.net URL mapping
 
-## 2) What Shipped This Session (Session 037)
+### CX-40 — Exercise Registry SQL Migrations
+- `sql/009-exercise-registry.sql` — `exercise_registry` table (TEXT PK, self-ref FK, RLS, 8 indexes)
+- `sql/010-exercise-knowledge.sql` — `exercise_knowledge` table (1:1 FK, JSONB coaching content, auto-stub population)
+- `sql/README.md` — Updated with migrations 9 and 10
 
-### CX-31 — Envelope Similarity & Retrieval (Wave 5 Capstone) ✅
+### CX-38 — Exercise Relationship Graph
+- `middle-math/exercise-engine/family-trees.json` — 15 families, 2,085 member entries
+- `middle-math/exercise-engine/substitution-map.json` — Same-family, tier-up/down, cross-family substitution chains per exercise
+- `middle-math/exercise-engine/sport-tags.json` — 20 sports indexed, by_sport and by_exercise maps
+- `middle-math/exercise-engine/anatomy-index.json` — 50 muscles + 30 joint actions, inverted primary/secondary/stabilizer index
 
-`scripts/middle-math/envelope_retrieval.py`
-
-The retrieval engine for the entire PPL± system. Every room lookup, Operis sandbox selection, exercise recommendation, and content retrieval resolves through this function.
-
-- Cosine similarity across 1,680 × 61-dimensional weight vectors
-- 4 content-type retrieval profiles (Tier 1–4 dimension weighting)
-- `build_query_vector` composes base + vote adjustment + bloom modifier
-- `retrieve_for_operis(date, n=13)` drives Operis sandbox room selection
-- `--validate` passes 5/5 checks
-- `--query 2123` → top-10 semantically similar envelopes with scores
-- `--operis 2026-03-06` → 13 Operis sandbox envelopes for the date
-
-### CX-01 — Codex Agent Configuration ✅
-
-`.codex/TASK-ARCHITECTURE.md` governance finalized:
-- Stale wave readiness tables replaced with current-state table
-- Container Completion Summary added (all 36 containers, chronological)
-- CX-01 marked DONE
-
-### CX-19 — Agent Boundaries Document ✅
-
-`.claude/AGENT-BOUNDARIES.md` created:
-- 5-agent roster with model assignments
-- Per-agent read/write/never-touch matrix
-- Escalation rules (when subagents escalate to Claude Code)
-- Jake-reserved zones documented
-
-### CX-18 — Design Tokens & WeightCSS Spec ✅
-
-Two files:
-- `middle-math/design-tokens.json` — 8 Color palettes × 7 Order typographic scales + spacing/animation/shadow tokens
-- `middle-math/weight-css-spec.md` — 61-dim vector → `--ppl-weight-*` CSS properties, octave normalization formula, TypeScript generator
-
-### Audit Snapshots ✅
-
-- `reports/deck-readiness-2026-03-06.md`
-- `reports/exercise-usage-2026-03-06.md`
+### CX-37 — Exercise Knowledge Template + First Batch
+- `scripts/generate-exercise-content.py` — Full CLI generator (--exercise/--type/--batch/--priority-first/--stats)
+- `exercise-content/README.md` — Structure, naming, status lifecycle, generation commands
+- `exercise-content/{push,pull,legs,plus,ultra}/` — 197 knowledge files (avg 484 words each)
+- Priority-first ordering: top 25 high-frequency exercises (from usage report) generated first
 
 ---
 
-## 3) Only Remaining CX Container
+## Known Issue: movement_pattern Classification
 
-| Container | Status | Blocker |
-|-----------|--------|---------|
-| CX-17 | OPEN | Jake pod review |
+**Status:** Non-blocking. Logged in whiteboard.md Notes.
 
-CX-17 is the Ralph Loop validation and batch orchestrator. It requires Jake to review `deck-07-pods.md` before the batch can run. This is a Codex task — not Claude Code.
+The registry builder's `PATTERN_KEYWORDS["core-stability"]` includes `"car"` which substring-matches `"carry"`. Result: ~1,256 exercises show `movement_pattern: "core-stability"` including carries and some other patterns.
 
-**All other CX containers are DONE.**
+**Mitigation in place:** `generate-exercise-content.py` has `resolve_template_pattern()` which uses `family_id` as a fallback when `movement_pattern` is `"core-stability"` but `family_id` is a major pattern (hip-hinge, squat, etc.). This gives correct PPL± Context templates to affected exercises.
 
----
-
-## 4) Recommended Next Work — Content Generation
-
-The architecture campaign is over. The infrastructure is built. The remaining work is content:
-
-### Priority 1: Deck 07 Regen (18 cards)
-- 18 cards in Deck 07 are flagged `REGEN-NEEDED` (pre-identity era, duplicate primary exercises)
-- Deck 07 identity doc exists (V2 format)
-- Use `/generate-card` skill or `card-generator` subagent
-- After regen: run `deck-auditor` for compliance check
-
-### Priority 2: Deck 10 Generation (40 cards)
-- ⛽🪐 Strength Challenge — identity doc exists
-- Fully unblocked (deck identity ✅)
-
-### Priority 3: Deck 11 + Deck 12
-- ⛽⌛ Strength Time (Deck 11) — identity doc exists
-- ⛽🐬 Strength Partner (Deck 12) — identity doc exists
-- Complete the Strength Order sweep (Decks 07–12)
-
-### Priority 4: First CANONICAL Review
-- Jake reads Deck 08 as a user (40 cards, V2 format)
-- Gemba test: does the workout feel right in the room?
-- No cards have reached CANONICAL status yet
-
-### Priority 5: Operis V4 Pipeline Test
-- Fix Contract A/B URL enforcement gaps (source URLs, per-lane URLs)
-- Re-run P1→P2→P3→P4 on a real date
-- Blocked on URL fixes
+**Full fix:** Rebuild the registry with corrected `PATTERN_KEYWORDS`. Deferred to CX-43 (Selector V2) or a targeted CX-36 patch session.
 
 ---
 
-## 5) Envelope Retrieval — How to Use It
+## Current Open Containers
+
+| Container | Blocker | Priority |
+|-----------|---------|----------|
+| CX-41 | CX-37 ✓ (unblocked) | Next batch: `python scripts/generate-exercise-content.py --batch 500 --overwrite` |
+| CX-42 | CX-41 | After CX-41 |
+| CX-43 | CX-36 ✓, CX-38 ✓, CX-15 ✓ (all unblocked) | Upgrade exercise_selector.py to use registry |
+| CX-17 | Jake pod review | Blocked on Jake |
+
+---
+
+## Next Session Options
+
+**Option A — CX-41: Knowledge Content Batch 2 (exercises 201–500)**
+```bash
+python scripts/generate-exercise-content.py --batch 500 --overwrite
+```
+Extends coverage from 9.4% to ~24%. Same generator, same quality.
+
+**Option B — CX-43: Exercise Selector V2**
+Upgrade `scripts/middle-math/exercise_selector.py` to query `middle-math/exercise-registry.json` directly (anatomy, family, affinity scores) instead of the flat exercise-library.json. All blockers cleared (CX-36, CX-38, CX-15 done).
+
+**Option C — Deck Generation**
+Continue ⛽ Strength sweep: Deck 10 (⛽🪐), Deck 11 (⛽⌛), Deck 12 (⛽🐬). Requires deck identity docs first.
+
+**Option D — movement_pattern registry fix**
+Patch `scripts/build-exercise-registry.py` to fix the "car" substring collision and other pattern misclassifications. Rebuild `exercise-registry.json`. This improves CX-38 and CX-37 content quality automatically.
+
+---
+
+## Key File Locations
+
+| Purpose | Path |
+|---------|------|
+| Exercise registry (source of truth) | `middle-math/exercise-registry.json` |
+| Registry builder | `scripts/build-exercise-registry.py` |
+| Knowledge generator | `scripts/generate-exercise-content.py` |
+| Knowledge files | `exercise-content/{push,pull,legs,plus,ultra}/*.md` |
+| Family trees | `middle-math/exercise-engine/family-trees.json` |
+| Substitution map | `middle-math/exercise-engine/substitution-map.json` |
+| Sport tags | `middle-math/exercise-engine/sport-tags.json` |
+| Anatomy index | `middle-math/exercise-engine/anatomy-index.json` |
+| External ref dock | `middle-math/exercise-engine/external-refs.json` |
+| SQL migrations | `sql/009-exercise-registry.sql`, `sql/010-exercise-knowledge.sql` |
+| Active task board | `whiteboard.md` |
+| CX container tracking | `.codex/TASK-ARCHITECTURE.md` |
+
+---
+
+## Validation Commands
 
 ```bash
-# Find rooms most similar to Strength/Basics/Pull/Structured
-python scripts/middle-math/envelope_retrieval.py --query 2123
+# Registry integrity
+python scripts/build-exercise-registry.py --validate
+python scripts/build-exercise-registry.py --stats
 
-# Top-5 similar for every card in Deck 09
-python scripts/middle-math/envelope_retrieval.py --deck 09
+# Knowledge coverage
+python scripts/generate-exercise-content.py --stats
 
-# 13 Operis sandbox rooms for today
-python scripts/middle-math/envelope_retrieval.py --operis 2026-03-06
+# Negotiosum health
+python scripts/validate-negotiosum.py
 
-# Validate correctness
-python scripts/middle-math/envelope_retrieval.py --validate
-
-# Similarity statistics (avg, tightest cluster, loosest outlier)
-python scripts/middle-math/envelope_retrieval.py --stats
+# Dashboard
+python scripts/build-dashboard-data.py
 ```
 
 ---
 
-## 6) Shift in Work Character
-
-Sessions 028–037 were an architecture campaign. Sessions 001–027 were deck generation. The next phase returns to generation — but now on a complete infrastructure:
-
-- Weight vectors computed (1,680 entries, 61 dims)
-- Exercise selector operational
-- Envelope retrieval operational
-- Room manifest / Operis rotation working
-- Vote weight, bloom, superscript/subscript all built
-- Navigation graph (6,720 edges) and floor routing spec done
-- Wilson audio spec ready
-
-The infrastructure makes scale possible. The content is the work.
-
----
-
-*Reference: `session-log.md` (Session 037) · `whiteboard.md` · `.codex/TASK-ARCHITECTURE.md`*
+🧮

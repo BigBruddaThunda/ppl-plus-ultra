@@ -1,4 +1,4 @@
-# Codex Task Architecture (CX-00A → CX-35)
+# Codex Task Architecture (CX-00A → CX-43)
 
 This document is the Codex execution map for the current architecture campaign.
 It defines the tech tree, wave plan, and context firewall for agent-safe execution.
@@ -44,6 +44,14 @@ Use glossary terms from `scl-deep/systems-glossary.md` as the authoritative sour
 | CX-33 | GitHub Pages Progress Dashboard | CX-03, CX-04 | 2 | DONE | PR #90 engine coupling session 2026-03-05 | `docs/dashboard/index.html`, `scripts/build-dashboard-data.py`, `docs/dashboard/data/progress.json` |
 | CX-34 | Codespaces Dev Container | None | 1 | DONE | Codex run · evidence on disk | `.devcontainer/devcontainer.json`, `docs/codespaces-quickstart.md` |
 | CX-35 | Whiteboard Negotiosum Validator | CX-03, CX-04 | 2 | DONE | Codex run · evidence on disk | `scripts/validate-negotiosum.py` |
+| CX-36 | Exercise Identity Registry | CX-13 | 6 | DONE | Session 038 | `scripts/build-exercise-registry.py`, `middle-math/exercise-registry.json` (2,085 entries, EX-0001–EX-2085) |
+| CX-37 | Exercise Knowledge Template + First Batch | CX-36 | 6 | DONE | Session 038 | `scripts/generate-exercise-content.py`, `exercise-content/` (197 files across push/pull/legs/plus/ultra) |
+| CX-38 | Exercise Relationship Graph | CX-36 | 6 | DONE | Session 038 | `middle-math/exercise-engine/family-trees.json`, `substitution-map.json`, `sport-tags.json`, `anatomy-index.json` |
+| CX-39 | External Reference Dock | CX-36 | 6 | DONE | Session 038 | `middle-math/exercise-engine/external-refs.json` (2,085 null docks), `seeds/exrx-partnership-brief.md` |
+| CX-40 | Exercise Registry SQL Migration | CX-36, CX-08 | 6 | DONE | Session 038 | `sql/009-exercise-registry.sql`, `sql/010-exercise-knowledge.sql`, `sql/README.md` updated |
+| CX-41 | Exercise Content Batch 2 (201–500) | CX-37 | 7 | PENDING | | |
+| CX-42 | Exercise Content Batch 3 (501–1000) | CX-37 | 7 | PENDING | | |
+| CX-43 | Exercise Selector V2 (registry-aware) | CX-36, CX-38, CX-15 | 7 | PENDING | | |
 
 **Status legend:**
 - `PENDING` — not started or no merged evidence recorded yet.
@@ -65,6 +73,8 @@ When a container row is marked `DONE`, the row must include all of the following
 - **Wave 3 — Engine coupling:** CX-11, CX-12, CX-14, CX-22, CX-24, CX-27
 - **Wave 4 — Application behaviors:** CX-15, CX-25, CX-29, CX-30
 - **Wave 5 — Retrieval capstone:** CX-31
+- **Wave 6 — Exercise Library Foundation:** CX-36, CX-37, CX-38, CX-39, CX-40
+- **Wave 7 — Exercise Library Scale:** CX-41, CX-42, CX-43
 
 ## Context Firewall Rules
 
@@ -74,6 +84,7 @@ When a container row is marked `DONE`, the row must include all of the following
 - `deck-cosmograms/README.md`
 - `cards/` (status scans only)
 - `exercise-library.md` (parse only)
+- `exercise-content/` (read for batch continuation and validation)
 
 ### Codex MAY Write
 - `middle-math/`, `scripts/`, `sql/`, `.codex/`, `.claude/`, `.github/`
@@ -81,6 +92,7 @@ When a container row is marked `DONE`, the row must include all of the following
 - `deck-cosmograms/` (stubs only)
 - `operis-editions/historical-events/` (scaffolds only)
 - `scl-deep/systems-glossary.md`, `scl-deep/systems-language-audit.md`
+- `exercise-content/` (knowledge files only)
 
 ### Codex NEVER Touches
 - Card content in `cards/`
@@ -90,19 +102,26 @@ When a container row is marked `DONE`, the row must include all of the following
 - Any file requiring live web research to populate
 - SCL rule or emoji creation/modification artifacts
 
-## Dependency Readiness (current state — Session 037, 2026-03-06)
+## Dependency Readiness (current state — Session 038, 2026-03-06)
 
-33/36 containers DONE after Session 037. Three containers remain:
+33/36 architecture containers DONE after Session 037. CX-36–40 completed in Session 038. Total: 44 defined, 38 complete, 6 open.
 
 | Container | Status | Blocker | Notes |
 |-----------|--------|---------|-------|
 | CX-17 | OPEN | Jake pod review | Ralph loop tooling — Codex task, needs pod review sign-off |
+| CX-36 | DONE | — | Session 038 — `middle-math/exercise-registry.json` (2,085 entries) |
+| CX-37 | DONE | — | Session 038 — 197 knowledge files in `exercise-content/` |
+| CX-38 | DONE | — | Session 038 — 4 relationship graph files in `middle-math/exercise-engine/` |
+| CX-39 | DONE | — | Session 038 — `external-refs.json` (2,085 null docks) + ExRx brief |
+| CX-40 | DONE | — | Session 038 — `sql/009-exercise-registry.sql`, `sql/010-exercise-knowledge.sql` |
+| CX-41 | PENDING | CX-37 ✓ | Exercise Content Batch 2 (201–500) — CX-37 now unblocked |
+| CX-42 | PENDING | CX-37 ✓ | Exercise Content Batch 3 (501–1000) — CX-37 now unblocked |
+| CX-43 | PENDING | CX-36 ✓, CX-38 ✓, CX-15 ✓ | Exercise Selector V2 — all blockers cleared |
 | (non-CX) Deck 07 pod review | OPEN | Jake | Jake reviews Deck 07 Ralph pod before Ralph loop can run |
 | (non-CX) Operis Contract A/B URL enforcement | OPEN | manual | Manual enforcement of Contract A/B pipeline |
 
-CX-17 is the only remaining CX container that Codex can touch. It is blocked on Jake's pod review.
-The CX architecture campaign is functionally complete at 33/36. The remaining work shifts to content generation:
-deck production (1,578 cards remaining), Operis editions, CANONICAL reviews, and cosmogram research.
+CX-17 remains blocked on Jake's pod review. Architecture + Exercise Library Foundation campaigns: 38/44 complete.
+Wave 7 (CX-41, CX-42, CX-43) fully unblocked after Session 038.
 
 ---
 
@@ -116,7 +135,7 @@ deck production (1,578 cards remaining), Operis editions, CANONICAL reviews, and
 
 ## Container Completion Summary
 
-All 36 containers sorted by wave and completion. 33/36 complete as of Session 037.
+All 44 containers sorted by wave and completion. 33/44 complete as of Session 037 (architecture); 8 new CX-36–43 registered Session 038.
 
 | Container | Name | Wave | Status | Session Completed |
 |-----------|------|------|--------|-------------------|
@@ -158,5 +177,14 @@ All 36 containers sorted by wave and completion. 33/36 complete as of Session 03
 | CX-30 | Envelope Schema & Stamping Prototype | 4 | DONE | Session 036 |
 | CX-31 | Envelope Similarity & Retrieval | 5 | DONE | Session 037 |
 
-Wave completion: Wave 1 (9/10) · Wave 2 (14/16) · Wave 3 (6/6) · Wave 4 (4/4) · Wave 5 (1/1)
-CX-17 is the only remaining unblocked CX container. It awaits Jake's pod review.
+| CX-36 | Exercise Identity Registry | 6 | DONE | Session 038 |
+| CX-37 | Exercise Knowledge Template + First Batch | 6 | DONE | Session 038 |
+| CX-38 | Exercise Relationship Graph | 6 | DONE | Session 038 |
+| CX-39 | External Reference Dock | 6 | DONE | Session 038 |
+| CX-40 | Exercise Registry SQL Migration | 6 | DONE | Session 038 |
+| CX-41 | Exercise Content Batch 2 (201–500) | 7 | PENDING | — |
+| CX-42 | Exercise Content Batch 3 (501–1000) | 7 | PENDING | — |
+| CX-43 | Exercise Selector V2 (registry-aware) | 7 | PENDING | — |
+
+Wave completion: Wave 1 (9/10) · Wave 2 (14/16) · Wave 3 (6/6) · Wave 4 (4/4) · Wave 5 (1/1) · Wave 6 (5/5) · Wave 7 (0/3)
+CX-17 remains blocked on Jake pod review. Wave 6 complete (Session 038). Wave 7 fully unblocked.

@@ -473,32 +473,32 @@
     {
       "color": "⚫",
       "name": "Ordo Operis",
-      "done": 9,
+      "done": 10,
       "open": 0
     },
     {
       "color": "🟢",
       "name": "Natura Operis",
-      "done": 2,
+      "done": 3,
       "open": 2
     },
     {
       "color": "🔵",
       "name": "Architectura Operis",
-      "done": 5,
+      "done": 6,
       "open": 3
     },
     {
       "color": "🟣",
       "name": "Profundum Operis",
-      "done": 19,
-      "open": 0
+      "done": 20,
+      "open": 1
     },
     {
       "color": "🔴",
       "name": "Fervor Operis",
-      "done": 4,
-      "open": 6
+      "done": 5,
+      "open": 8
     },
     {
       "color": "🟠",
@@ -519,8 +519,8 @@
       "open": 5
     }
   ],
-  "cx_total": 73,
-  "cx_done": 71,
-  "cx_pending": 2,
-  "last_updated": "2026-03-06T13:39:42.927583+00:00"
+  "cx_total": 97,
+  "cx_done": 86,
+  "cx_pending": 11,
+  "last_updated": "2026-03-06T17:20:47.838334+00:00"
 }

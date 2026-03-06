@@ -1,4 +1,4 @@
-# CX Dependency Graph (CX-00A → CX-35)
+# CX Dependency Graph (CX-00A → CX-43)
 
 ```mermaid
 flowchart TD
@@ -60,6 +60,22 @@ flowchart TD
   %% Wave 5
   subgraph W5["Wave 5"]
     CX31["CX-31: Envelope Similarity & Retrieval Prototype (DONE)"]
+  end
+
+  %% Wave 6 — Exercise Library Foundation
+  subgraph W6["Wave 6 — Exercise Library Foundation"]
+    CX36["CX-36: Exercise Identity Registry (DONE)"]
+    CX37["CX-37: Exercise Knowledge Template + First Batch (DONE)"]
+    CX38["CX-38: Exercise Relationship Graph (DONE)"]
+    CX39["CX-39: External Reference Dock (DONE)"]
+    CX40["CX-40: Exercise Registry SQL Migration (DONE)"]
+  end
+
+  %% Wave 7 — Exercise Library Scale
+  subgraph W7["Wave 7 — Exercise Library Scale"]
+    CX41["CX-41: Exercise Content Batch 2 (201-500) (PENDING)"]
+    CX42["CX-42: Exercise Content Batch 3 (501-1000) (PENDING)"]
+    CX43["CX-43: Exercise Selector V2 (registry-aware) (PENDING)"]
   end
 
   %% Dependency edges (blocker --> dependent)
@@ -137,6 +153,19 @@ flowchart TD
   CX03 --> CX33
   CX04 --> CX33
 
+  %% Wave 6/7 dependency edges
+  CX13 --> CX36
+  CX36 --> CX37
+  CX36 --> CX38
+  CX36 --> CX39
+  CX36 --> CX40
+  CX08 --> CX40
+  CX37 --> CX41
+  CX37 --> CX42
+  CX36 --> CX43
+  CX38 --> CX43
+  CX15 --> CX43
+
   %% Negotiosum color classes
   classDef ordo fill:#2d2d2d,color:#ffffff,stroke:#111111,stroke-width:1px;
   classDef natura fill:#22863a,color:#ffffff,stroke:#1b5e20,stroke-width:1px;
@@ -151,28 +180,29 @@ flowchart TD
   classDef done stroke:#000000,stroke-width:4px;
 
   %% Section assignments
-  class CX00A,CX01,CX02,CX05,CX06,CX19,CX34 ordo;
-  class CX03,CX13,CX17 natura;
-  class CX04,CX07,CX08,CX16,CX33 architectura;
-  class CX09,CX10,CX11,CX12,CX14,CX15,CX18,CX20,CX21,CX22,CX23,CX24,CX25,CX26,CX27,CX29,CX30,CX31 profundum;
+  class CX00A,CX01,CX02,CX05,CX06,CX19,CX34,CX39 ordo;
+  class CX03,CX13,CX17,CX36 natura;
+  class CX04,CX07,CX08,CX16,CX33,CX40 architectura;
+  class CX09,CX10,CX11,CX12,CX14,CX15,CX18,CX20,CX21,CX22,CX23,CX24,CX25,CX26,CX27,CX29,CX30,CX31,CX38,CX43 profundum;
+  class CX37,CX41,CX42 fervor;
   class CX28,CX32 lusus;
   class CX35 nuntius;
 
-  %% DONE status (33 complete total — CX-01, CX-18, CX-19, CX-31 completed Session 037)
-  class CX00A,CX01,CX02,CX03,CX04,CX05,CX06,CX07,CX08,CX09,CX10,CX11,CX12,CX13,CX14,CX15,CX16,CX18,CX19,CX20,CX21,CX22,CX23,CX24,CX25,CX26,CX27,CX28,CX29,CX30,CX31,CX32,CX33,CX34,CX35 done;
+  %% DONE status (38 complete total — CX-36 through CX-40 completed Session 038)
+  class CX00A,CX01,CX02,CX03,CX04,CX05,CX06,CX07,CX08,CX09,CX10,CX11,CX12,CX13,CX14,CX15,CX16,CX18,CX19,CX20,CX21,CX22,CX23,CX24,CX25,CX26,CX27,CX28,CX29,CX30,CX31,CX32,CX33,CX34,CX35,CX36,CX37,CX38,CX39,CX40 done;
 ```
 
 ## Legend
 
 | Color | Latin Name | Posture | Count (DONE/OPEN) |
 |---|---|---|---|
-| ⚫ | Ordo Operis | Teaching / scaffolding / definitions | 7/0 |
-| 🟢 | Natura Operis | Zero-dependency utilities | 2/1 |
-| 🔵 | Architectura Operis | Structured systems execution | 5/0 |
-| 🟣 | Profundum Operis | Deep precision / engine coupling | 18/0 |
-| 🔴 | Fervor Operis | High-output production | 0/0 |
+| ⚫ | Ordo Operis | Teaching / scaffolding / definitions | 8/0 |
+| 🟢 | Natura Operis | Zero-dependency utilities | 3/1 (CX-17) |
+| 🔵 | Architectura Operis | Structured systems execution | 6/0 |
+| 🟣 | Profundum Operis | Deep precision / engine coupling | 19/1 (CX-43) |
+| 🔴 | Fervor Operis | High-output production | 1/2 (CX-41, CX-42) |
 | 🟠 | Nuntius Operis | Audit and sweep routing | 1/0 |
 | 🟡 | Lusus Operis | Exploratory architecture | 2/0 |
 | ⚪ | Eudaimonia Operis | Review and flourishing checks | 0/0 |
 
-33/36 containers complete. Wave 5 capstone delivered (Session 037). CX-01 (governance), CX-18 (design tokens), CX-19 (agent boundaries), CX-31 (envelope retrieval) all closed. CX architecture 92% complete. CX-17 awaiting Jake pod review.
+33/44 containers complete. Architecture campaign complete (33/36, 92%). Exercise Library Expansion campaign opened Session 038: 8 new containers (CX-36 through CX-43), Wave 6–7. CX-36 is root dependency — everything unlocks after it. CX-17 awaiting Jake pod review.
