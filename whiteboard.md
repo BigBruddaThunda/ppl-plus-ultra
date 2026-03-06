@@ -4,7 +4,7 @@ Last updated: 2026-03-06
 Phase: 2 — Workout Generation + Architecture Expansion
 Cards: 102 / 1,680 (Deck 07: 22/40 ⚠️, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅)
 Seeds: 49 | Scripts: 28
-CX Containers: 36 defined, 29 complete, 7 open
+CX Containers: 36 defined, 33 complete, 3 open
 
 For development history, see `session-log.md`.
 
@@ -20,8 +20,8 @@ Teach, scaffold, define. Output that stands alone for any reader.
 | DONE | CX-02 | Historical events scaffold (366 files) | — | scripts/operis/scaffold_historical_events.py |
 | DONE | CX-05 | Markdownlint configuration | — | .github/linters/.markdownlint-cli2.jsonc |
 | DONE | CX-06 | Frontmatter schema + validator | — | card-frontmatter-schema.json + validator script |
-| OPEN | CX-01 | Codex agent task architecture | CX-00A ✓ | .codex/TASK-ARCHITECTURE.md + HANDOFF-CONTRACTS.md |
-| OPEN | CX-19 | Agent boundaries document | CX-00A ✓, CX-01 | .claude/AGENT-BOUNDARIES.md |
+| DONE | CX-01 | Codex agent task architecture | — | Governance finalized, completion summary added. Session 037. |
+| DONE | CX-19 | Agent boundaries document | — | .claude/AGENT-BOUNDARIES.md — 5-agent matrix, escalation rules, Jake zones. Session 037. |
 | DONE | CX-34 | Codespaces dev container | — | .devcontainer/ + docs/codespaces-quickstart.md |
 | DONE | — | Update README.md project status to 102/1,680 | — | Already updated in prior Codex runs |
 | DONE | — | Update README.md repo structure (new directories, files) | — | sql/, session-log.md, docs/ added |
@@ -70,7 +70,7 @@ Precision, multi-file reasoning, cascading consequences.
 | DONE | CX-12 | Operator weight declarations (12) | CX-09 ✓, CX-10 ✓ | DRAFT — 502-line working draft confirmed on disk |
 | DONE | CX-14 | Weight vector computation engine | CX-09–12 all ✓, CX-03 ✓ | weight_vector.py + weight-vectors.json — 1,680 vectors, 61 dims, --validate passes. Session 034. |
 | DONE | CX-15 | Exercise selection prototype | CX-13 ✓, CX-14 ✓ | exercise_selector.py — GOLD gate, load ceiling, tier, --validate, --stats. Sprint 035. |
-| OPEN | CX-18 | Design tokens + WeightCSS spec | CX-00A ✓ | tokens.json + weight-css-spec.md |
+| DONE | CX-18 | Design tokens + WeightCSS spec | — | middle-math/design-tokens.json + middle-math/weight-css-spec.md. Session 037. |
 | DONE | CX-20 | Room schema extension | CX-08 ✓ | sql/008-room-schema-extension.sql — 4 tables + RLS |
 | DONE | CX-21 | Content type registry (109 types JSON) | CX-00A ✓ | content-type-registry.json — 109 types, 6 axes, cross-floor appearances, operator affinities. Session 034. |
 | DONE | CX-22 | Floor routing spec | CX-03 ✓, CX-20 ✓, CX-21 ✓ | middle-math/floor-routing-spec.md — 109 types × 6 floors. Unblocks CX-29. Sprint 035. |
@@ -82,7 +82,7 @@ Precision, multi-file reasoning, cascading consequences.
 | DONE | CX-28 | Cosmogram content scaffold (42 stubs) | CX-04 ✓ | scaffold_cosmograms.py + 42 stubs written. Session 034. |
 | DONE | CX-29 | Wilson audio route specification | CX-22 ✓ | middle-math/wilson-audio-spec.md — 3-layer scoring, ~2,260 keywords, voice registers by floor. Session 036. |
 | DONE | CX-30 | Envelope schema + stamping prototype | CX-08 ✓, CX-14 ✓, CX-03 ✓ | envelope_stamper.py — atomic retrieval unit, --anonymous + --full + --deck modes. Session 036. |
-| OPEN | CX-31 | Envelope similarity function + retrieval | CX-30 ✓, CX-21 ✓ | **FULLY UNBLOCKED** — Wave 5 capstone. envelope_retrieval.py |
+| DONE | CX-31 | Envelope similarity function + retrieval | — | envelope_retrieval.py — cosine sim, Tier 1–4 profiles, --validate 5/5. Wave 5 capstone. Session 037. |
 
 ---
 
@@ -113,8 +113,8 @@ Sweep, audit, report, deliver. Touch everything, miss nothing.
 |--------|----|------|---------|------|
 | DONE | CX-00B | Systems language audit | CX-00A ✓ | scl-deep/systems-language-audit.md |
 | DONE | CX-35 | Whiteboard Negotiosum validator | CX-03 ✓, CX-04 ✓ | scripts/validate-negotiosum.py |
-| OPEN | — | Run deck-readiness.py and commit output | — | First live readiness snapshot |
-| OPEN | — | Run exercise-usage-report.py on 102 cards | — | First exercise coverage snapshot |
+| DONE | — | Run deck-readiness.py and commit output | — | reports/deck-readiness-2026-03-06.md committed. Session 037. |
+| DONE | — | Run exercise-usage-report.py on 102 cards | — | reports/exercise-usage-2026-03-06.md committed. Session 037. |
 | OPEN | — | Ralph Loop batch: populate 41 remaining deck pods | Deck 07 pod review | Blocked on Jake approval of prototype |
 | OPEN | — | Exercise library version bump to v.1 | — | Version bump criteria undefined |
 | OPEN | — | Whiteboard DONE-task archive pass | — | Periodic ⚪ task: trim completed rows |
@@ -167,6 +167,7 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 - **Rotation engine:** Order by weekday (7-day), Type by rolling 5-day calendar from Jan 1, Axis by monthly operator. 5 and 7 are coprime — same Order-Type pairing doesn't repeat for 35 days.
 - **4-dial elevator model:** Order=building, Axis=floor, Type=wing, Color=room. 1,680 rooms. Piano nobile stack: 🔨 ground → 🏛 noble → ⌛ 2nd → 🐬 3rd → 🌹 4th → 🪐 5th. Scroll on phone is inverse of building direction. Progressive disclosure IS the architecture.
 - **Sprint 035 cascade:** CX-22 (floor routing) DONE → CX-29 (Wilson audio route) NOW UNBLOCKED. CX-15 (exercise selector) DONE → CX-25 (vote weight) and CX-30 (envelope stamping) critical path clear. Next session: CX-25 or CX-30.
+- **Session 037 close (2026-03-06) — Architecture Capstone:** CX-31 DONE — envelope_retrieval.py (cosine similarity engine, Tier 1–4 retrieval profiles, --query/--deck/--operis/--validate/--stats flags, 5/5 validation). CX-01 DONE — TASK-ARCHITECTURE.md governance finalized, completion summary added. CX-19 DONE — .claude/AGENT-BOUNDARIES.md (5-agent matrix, escalation rules, Jake-reserved zones). CX-18 DONE — middle-math/design-tokens.json (8 Colors × 7 Orders) + middle-math/weight-css-spec.md (61-dim vector → CSS custom properties). Audit reports committed to reports/. 33/36 containers complete. CX architecture 92% done. Only CX-17 remains (blocked on Jake pod review). Project pivots to content generation.
 - **Session 036 close (2026-03-06):** CX-25 DONE — vote_weight_adjuster.py (tanh signal, ±0.8 cap, eudaimonic interlock, --validate 5/5). CX-30 DONE — envelope_stamper.py (atomic retrieval unit, --anonymous + --full + --deck modes, all layers integrated). CX-29 DONE — middle-math/wilson-audio-spec.md (3-layer keyword scoring, ~2,260 entries, Wilson registers by floor). 29/36 containers complete. CX-31 (Envelope Retrieval) now FULLY UNBLOCKED — both blockers met (CX-30 ✓, CX-21 ✓). Wave 5 capstone is next.
 - **The Operis is the front door** the system was missing. Solves cold start, onboarding, room circulation. Automatable once historical DB + cosmograms + calendar data are populated.
 - **Programs are guided tours** — sequences of zip code addresses, not sequences of workouts. The rooms already exist. The program is the itinerary.

@@ -473,8 +473,8 @@
     {
       "color": "⚫",
       "name": "Ordo Operis",
-      "done": 7,
-      "open": 2
+      "done": 9,
+      "open": 0
     },
     {
       "color": "🟢",
@@ -491,8 +491,8 @@
     {
       "color": "🟣",
       "name": "Profundum Operis",
-      "done": 17,
-      "open": 2
+      "done": 19,
+      "open": 0
     },
     {
       "color": "🔴",
@@ -503,8 +503,8 @@
     {
       "color": "🟠",
       "name": "Nuntius Operis",
-      "done": 2,
-      "open": 5
+      "done": 4,
+      "open": 3
     },
     {
       "color": "🟡",
@@ -519,8 +519,8 @@
       "open": 5
     }
   ],
-  "cx_total": 36,
-  "cx_done": 31,
-  "cx_pending": 5,
-  "last_updated": "2026-03-06T13:08:10.149484+00:00"
+  "cx_total": 73,
+  "cx_done": 71,
+  "cx_pending": 2,
+  "last_updated": "2026-03-06T13:39:42.927583+00:00"
 }
