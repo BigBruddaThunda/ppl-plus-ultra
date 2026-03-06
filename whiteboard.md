@@ -142,7 +142,10 @@ Creative exploration, discovery. Surprising AND useful.
 | DONE | — | Systems eudaimonics seed | — | seeds/systems-eudaimonics.md |
 | DONE | — | Color pipeline posture seed | — | seeds/color-pipeline-posture.md |
 | DONE | — | SCL envelope architecture | — | seeds/scl-envelope-architecture.md |
-| OPEN | — | First deck cosmogram (Deck 07 or 01 or 05) | — | Genspark temp architect session with web access |
+| ACTIVE | — | First deck cosmogram (Deck 07 or 01 or 05) | — | 61-branch architecture committed; scaffold script ready; contract prompt v1 ready; run in Genspark with web access |
+| DONE | — | Cosmogram 61-branch architecture spec | — | scl-deep/cosmogram-architecture.md committed |
+| DONE | — | Cosmogram scaffold script v2 | — | scripts/scaffold-cosmograms-v2.py — generates 42 v2 files pre-seeded from weight vectors |
+| DONE | — | Cosmogram contract prompt v1 | — | seeds/cosmogram-contract-prompt-v1.md — replaces domain-based research prompt for v2 format |
 | OPEN | — | Operis editorial voice prototype | — | Write one edition in full creative register |
 | OPEN | — | Deck campaign naming pass (Deck 09 titles) | — | Review operator + title quality across 40 cards |
 | OPEN | — | Platform architecture V3 (if V2 needs update) | — | After enough infrastructure lands |
