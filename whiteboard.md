@@ -2,7 +2,7 @@
 
 Last updated: 2026-03-06
 Phase: 2 — Workout Generation + Architecture Expansion
-Cards: 182 / 1,680 (Deck 07: 22/40 ⚠️, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅, Deck 10: 40/40 ✅, Deck 11: 40/40 ✅)
+Cards: 222 / 1,680 (Deck 07: 22/40 ⚠️, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅, Deck 10: 40/40 ✅, Deck 11: 40/40 ✅, Deck 12: 40/40 ✅)
 Seeds: 49 | Scripts: 28
 CX Containers: 44 defined, 40 complete, 4 open
 
@@ -108,7 +108,7 @@ Maximum output, full capacity. Measure throughput.
 | OPEN | — | Deck 07 regen (18 cards) | — | Duplicate primary exercises from pre-identity era |
 | DONE | — | Deck 10 generation (40 cards) | — | ⛽🪐 Strength Challenge complete (40/40) |
 | OPEN | — | Deck 11 generation (40 cards) | Deck 11 identity | ⛽⌛ Strength Time |
-| OPEN | — | Deck 12 generation (40 cards) | Deck 12 identity | ⛽🐬 Strength Partner |
+| DONE | — | Deck 12 generation (40 cards) | — | ⛽🐬 Strength Partner complete (40/40) |
 | OPEN | — | Historical events population (366 dates) | CX-02 ✓ | Research-intensive — ~180 hours total, builds incrementally |
 | OPEN | — | Remaining 37 decks (1,478 cards) | Ongoing | Foundation Order next? Jake's call |
 
@@ -168,6 +168,7 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 - **Session 038 CLOSED (2026-03-06) — Exercise Library Expansion: Wave 6 complete (5/5).** CX-36: `middle-math/exercise-registry.json` — 2,085 exercises, globally unique EX-0001–EX-2085, 16-pattern vocabulary, anatomy inference, family linkage, axis/order affinity. CX-37: `scripts/generate-exercise-content.py` + 197 files in `exercise-content/` (push/pull/legs/plus/ultra). CX-38: 4 engine files in `middle-math/exercise-engine/` (family-trees, substitution-map, sport-tags, anatomy-index). CX-39: `external-refs.json` (2,085 null docks) + `seeds/exrx-partnership-brief.md`. CX-40: `sql/009-exercise-registry.sql` + `sql/010-exercise-knowledge.sql` + README updated. Wave 7 (CX-41, CX-42, CX-43) fully unblocked. Known data issue: `movement_pattern` catch-all assigns ~1,256 exercises to `core-stability` — carry/conditioning pattern disambiguation deferred to CX-43 Selector V2.
 - **Session 039 CLOSED (2026-03-06) — Exercise Content Batch 2:** CX-41 DONE via `scripts/generate-exercise-content.py --batch 500`; +298 new files generated (202 skipped), bringing `exercise-content/` to 495 files total across push/pull/legs/plus/ultra. Spot check completed on 3 random files (464–480 words each).
 - **Session 040 CLOSED (2026-03-06) — Exercise Content Batch 3:** CX-42 DONE via `scripts/generate-exercise-content.py --batch 1000`; +498 new files generated (502 skipped), bringing `exercise-content/` to 993 files total across push/pull/legs/plus/ultra. Spot check completed on 3 random files (441–478 words each).
+- **Session 044 CLOSED (2026-03-06) — Deck 12 complete:** Deck identity built in `deck-identities/deck-12-identity.md`, all 40 cards generated under `cards/⛽-strength/🐬-partner/`, validators passed, and **⛽ Strength Order complete — 240/1,680 rooms filled**.
 - **Session 041 CLOSED (2026-03-06) — CX-43 Selector V2 complete:** `scripts/middle-math/exercise_selector.py` upgraded to registry-aware selection (`exercise-registry.json`), octave-scale affinity scoring, family diversity enforcement (cross-block x0.3 penalty + in-block family uniqueness on output), substitution chain output (`--show-subs` via `exercise-engine/substitution-map.json`), catch-all movement_pattern preprocessing override (83 applied, logged to stderr), and V1 compatibility via `--v1`. Full sweep validation passed: 1,680/1,680 zips.
 - **Deck generation priority:** Continue ⛽ Order sweep (10→11→12) or pivot to 🐂 Foundation Order (01→06)? Jake's call.
 - **First CANONICAL review:** Jake has reviewed 0 decks to CANONICAL. When does this happen? Deck 08 is the candidate.

@@ -879,3 +879,31 @@ Work: Envelope pipeline close — CX-25 Vote Weight Integration, CX-30 Envelope 
 **Final state:**
 - Deck 11 fully generated and validated.
 - Global card count now 182/1,680.
+
+## Session 044 — 2026-03-06
+
+**Branch:** `claude/exercise-library-expansion-LWTl5`
+**Campaign:** Deck Generation
+**Task completed:** Deck 12 (⛽🐬 Strength Partner) identity + 40 cards
+
+---
+
+**Work completed:**
+- Built `deck-identities/deck-12-identity.md` from scaffold to complete identity status with deck philosophy, Type×Color coverage map, color differentiation logic, full 40-zip exercise mapping, and 40 zip identity lines.
+- Generated all 40 Deck 12 cards under `cards/⛽-strength/🐬-partner/`, replaced each stub, renamed files to semantic operator + title format, and set frontmatter status to `GENERATED`.
+- Updated `whiteboard.md` to mark Deck 12 complete and moved total card count to 222/1,680 with note that the ⛽ Strength Order is complete at 240/1,680 rooms.
+
+**Validation run:**
+- `for f in cards/⛽-strength/🐬-partner/*/*.md; do python scripts/validate-card.py "$f"; done`
+- `bash scripts/validate-deck.sh cards/⛽-strength/🐬-partner`
+- `python scripts/audit-exercise-coverage.py cards/⛽-strength/🐬-partner`
+
+**Validation outcomes:**
+- 40/40 cards passed `validate-card.py`
+- Deck validator summary: generated cards valid
+- Exercise coverage audit: unique primary exercises across each Type row
+
+**Final state:**
+- Deck 12 fully generated and validated.
+- Global card count now 222/1,680.
+- ⛽ Strength Order complete: 240/1,680 rooms filled.
