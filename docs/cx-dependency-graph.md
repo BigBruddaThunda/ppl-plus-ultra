@@ -1,4 +1,4 @@
-# CX Dependency Graph (CX-00A → CX-31)
+# CX Dependency Graph (CX-00A → CX-35)
 
 ```mermaid
 flowchart TD
@@ -16,6 +16,7 @@ flowchart TD
     CX05["CX-05: Markdownlint Configuration (DONE)"]
     CX06["CX-06: Frontmatter Schema & Validator (DONE)"]
     CX08["CX-08: SQL Schema Materialization (DONE)"]
+    CX34["CX-34: Codespaces Dev Container (DONE)"]
   end
 
   %% Wave 2
@@ -28,17 +29,20 @@ flowchart TD
     CX17["CX-17: Ralph Loop Validation & Batch (OPEN)"]
     CX18["CX-18: Design Tokens & WeightCSS Spec (OPEN)"]
     CX19["CX-19: Agent Boundaries Document (OPEN)"]
-    CX20["CX-20: Room Schema Extension (OPEN)"]
+    CX20["CX-20: Room Schema Extension (DONE)"]
     CX21["CX-21: Content Type Registry (OPEN)"]
-    CX23["CX-23: Navigation Graph Builder (OPEN)"]
+    CX23["CX-23: Navigation Graph Builder (DONE)"]
     CX26["CX-26: Operis Room Manifest Generator (OPEN)"]
     CX28["CX-28: Cosmogram Content Scaffold (OPEN)"]
+    CX32["CX-32: Mermaid CX Dependency Graph (DONE)"]
+    CX33["CX-33: GitHub Pages Progress Dashboard (OPEN)"]
+    CX35["CX-35: Whiteboard Negotiosum Validator (DONE)"]
   end
 
   %% Wave 3
   subgraph W3["Wave 3"]
-    CX11["CX-11: Block Weight Declarations (OPEN)"]
-    CX12["CX-12: Operator Weight Declarations (OPEN)"]
+    CX11["CX-11: Block Weight Declarations (DONE)"]
+    CX12["CX-12: Operator Weight Declarations (DONE)"]
     CX14["CX-14: Weight Vector Computation Engine (OPEN)"]
     CX22["CX-22: Floor Routing Spec (OPEN)"]
     CX24["CX-24: Bloom State Engine (OPEN)"]
@@ -130,6 +134,9 @@ flowchart TD
   CX30 --> CX31
   CX21 --> CX31
 
+  CX03 --> CX33
+  CX04 --> CX33
+
   %% Negotiosum color classes
   classDef ordo fill:#2d2d2d,color:#ffffff,stroke:#111111,stroke-width:1px;
   classDef natura fill:#22863a,color:#ffffff,stroke:#1b5e20,stroke-width:1px;
@@ -144,27 +151,28 @@ flowchart TD
   classDef done stroke:#000000,stroke-width:4px;
 
   %% Section assignments
-  class CX00A,CX01,CX02,CX05,CX06,CX19 ordo;
+  class CX00A,CX01,CX02,CX05,CX06,CX19,CX34 ordo;
   class CX03,CX13,CX17 natura;
-  class CX04,CX07,CX08,CX16 architectura;
+  class CX04,CX07,CX08,CX16,CX33 architectura;
   class CX09,CX10,CX11,CX12,CX14,CX15,CX18,CX20,CX21,CX22,CX23,CX24,CX25,CX26,CX27,CX29,CX30,CX31 profundum;
-  class CX28 lusus;
+  class CX28,CX32 lusus;
+  class CX35 nuntius;
 
-  %% DONE status (13 complete total includes CX-00B in board tally)
-  class CX00A,CX02,CX03,CX04,CX05,CX06,CX07,CX08,CX09,CX10,CX13,CX16 done;
+  %% DONE status (16 complete total — includes CX-00B in board tally)
+  class CX00A,CX02,CX03,CX04,CX05,CX06,CX07,CX08,CX09,CX10,CX11,CX12,CX13,CX16,CX20,CX23,CX32,CX34,CX35 done;
 ```
 
 ## Legend
 
 | Color | Latin Name | Posture | Count (DONE/OPEN) |
 |---|---|---|---|
-| ⚫ | Ordo Operis | Teaching / scaffolding / definitions | 4/2 |
+| ⚫ | Ordo Operis | Teaching / scaffolding / definitions | 5/2 |
 | 🟢 | Natura Operis | Zero-dependency utilities | 2/1 |
-| 🔵 | Architectura Operis | Structured systems execution | 4/0 |
-| 🟣 | Profundum Operis | Deep precision / engine coupling | 3/14 |
+| 🔵 | Architectura Operis | Structured systems execution | 4/1 |
+| 🟣 | Profundum Operis | Deep precision / engine coupling | 5/13 |
 | 🔴 | Fervor Operis | High-output production | 0/0 |
-| 🟠 | Nuntius Operis | Audit and sweep routing | 0/0 |
-| 🟡 | Lusus Operis | Exploratory architecture | 0/1 |
+| 🟠 | Nuntius Operis | Audit and sweep routing | 1/0 |
+| 🟡 | Lusus Operis | Exploratory architecture | 1/1 |
 | ⚪ | Eudaimonia Operis | Review and flourishing checks | 0/0 |
 
-13/32 containers complete. Critical path: CX-11 → CX-12 → CX-14 → CX-15
+16/36 containers complete. Critical path: CX-14 → CX-15 (CX-11 and CX-12 are now DONE)

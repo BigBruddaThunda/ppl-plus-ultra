@@ -1,0 +1,526 @@
+{
+  "card_total": 1680,
+  "card_generated": 102,
+  "card_canonical": 0,
+  "card_empty": 1560,
+  "card_regen_needed": 18,
+  "card_other": 1,
+  "deck_grid": [
+    {
+      "deck": 1,
+      "order_pos": 1,
+      "order_emoji": "🐂",
+      "order_name": "Foundation",
+      "axis_pos": 1,
+      "axis_emoji": "🏛",
+      "axis_name": "Basics",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 2,
+      "order_pos": 1,
+      "order_emoji": "🐂",
+      "order_name": "Foundation",
+      "axis_pos": 2,
+      "axis_emoji": "🔨",
+      "axis_name": "Functional",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 3,
+      "order_pos": 1,
+      "order_emoji": "🐂",
+      "order_name": "Foundation",
+      "axis_pos": 3,
+      "axis_emoji": "🌹",
+      "axis_name": "Aesthetic",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 4,
+      "order_pos": 1,
+      "order_emoji": "🐂",
+      "order_name": "Foundation",
+      "axis_pos": 4,
+      "axis_emoji": "🪐",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 5,
+      "order_pos": 1,
+      "order_emoji": "🐂",
+      "order_name": "Foundation",
+      "axis_pos": 5,
+      "axis_emoji": "⌛",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 6,
+      "order_pos": 1,
+      "order_emoji": "🐂",
+      "order_name": "Foundation",
+      "axis_pos": 6,
+      "axis_emoji": "🐬",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 7,
+      "order_pos": 2,
+      "order_emoji": "⛽",
+      "order_name": "Strength",
+      "axis_pos": 1,
+      "axis_emoji": "🏛",
+      "axis_name": "Basics",
+      "generated": 40,
+      "total": 40
+    },
+    {
+      "deck": 8,
+      "order_pos": 2,
+      "order_emoji": "⛽",
+      "order_name": "Strength",
+      "axis_pos": 2,
+      "axis_emoji": "🔨",
+      "axis_name": "Functional",
+      "generated": 40,
+      "total": 40
+    },
+    {
+      "deck": 9,
+      "order_pos": 2,
+      "order_emoji": "⛽",
+      "order_name": "Strength",
+      "axis_pos": 3,
+      "axis_emoji": "🌹",
+      "axis_name": "Aesthetic",
+      "generated": 40,
+      "total": 40
+    },
+    {
+      "deck": 10,
+      "order_pos": 2,
+      "order_emoji": "⛽",
+      "order_name": "Strength",
+      "axis_pos": 4,
+      "axis_emoji": "🪐",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 11,
+      "order_pos": 2,
+      "order_emoji": "⛽",
+      "order_name": "Strength",
+      "axis_pos": 5,
+      "axis_emoji": "⌛",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 12,
+      "order_pos": 2,
+      "order_emoji": "⛽",
+      "order_name": "Strength",
+      "axis_pos": 6,
+      "axis_emoji": "🐬",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 13,
+      "order_pos": 3,
+      "order_emoji": "🦋",
+      "order_name": "Hypertrophy",
+      "axis_pos": 1,
+      "axis_emoji": "🏛",
+      "axis_name": "Basics",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 14,
+      "order_pos": 3,
+      "order_emoji": "🦋",
+      "order_name": "Hypertrophy",
+      "axis_pos": 2,
+      "axis_emoji": "🔨",
+      "axis_name": "Functional",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 15,
+      "order_pos": 3,
+      "order_emoji": "🦋",
+      "order_name": "Hypertrophy",
+      "axis_pos": 3,
+      "axis_emoji": "🌹",
+      "axis_name": "Aesthetic",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 16,
+      "order_pos": 3,
+      "order_emoji": "🦋",
+      "order_name": "Hypertrophy",
+      "axis_pos": 4,
+      "axis_emoji": "🪐",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 17,
+      "order_pos": 3,
+      "order_emoji": "🦋",
+      "order_name": "Hypertrophy",
+      "axis_pos": 5,
+      "axis_emoji": "⌛",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 18,
+      "order_pos": 3,
+      "order_emoji": "🦋",
+      "order_name": "Hypertrophy",
+      "axis_pos": 6,
+      "axis_emoji": "🐬",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 19,
+      "order_pos": 4,
+      "order_emoji": "🏟",
+      "order_name": "Performance",
+      "axis_pos": 1,
+      "axis_emoji": "🏛",
+      "axis_name": "Basics",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 20,
+      "order_pos": 4,
+      "order_emoji": "🏟",
+      "order_name": "Performance",
+      "axis_pos": 2,
+      "axis_emoji": "🔨",
+      "axis_name": "Functional",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 21,
+      "order_pos": 4,
+      "order_emoji": "🏟",
+      "order_name": "Performance",
+      "axis_pos": 3,
+      "axis_emoji": "🌹",
+      "axis_name": "Aesthetic",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 22,
+      "order_pos": 4,
+      "order_emoji": "🏟",
+      "order_name": "Performance",
+      "axis_pos": 4,
+      "axis_emoji": "🪐",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 23,
+      "order_pos": 4,
+      "order_emoji": "🏟",
+      "order_name": "Performance",
+      "axis_pos": 5,
+      "axis_emoji": "⌛",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 24,
+      "order_pos": 4,
+      "order_emoji": "🏟",
+      "order_name": "Performance",
+      "axis_pos": 6,
+      "axis_emoji": "🐬",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 25,
+      "order_pos": 5,
+      "order_emoji": "🌾",
+      "order_name": "Full Body",
+      "axis_pos": 1,
+      "axis_emoji": "🏛",
+      "axis_name": "Basics",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 26,
+      "order_pos": 5,
+      "order_emoji": "🌾",
+      "order_name": "Full Body",
+      "axis_pos": 2,
+      "axis_emoji": "🔨",
+      "axis_name": "Functional",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 27,
+      "order_pos": 5,
+      "order_emoji": "🌾",
+      "order_name": "Full Body",
+      "axis_pos": 3,
+      "axis_emoji": "🌹",
+      "axis_name": "Aesthetic",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 28,
+      "order_pos": 5,
+      "order_emoji": "🌾",
+      "order_name": "Full Body",
+      "axis_pos": 4,
+      "axis_emoji": "🪐",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 29,
+      "order_pos": 5,
+      "order_emoji": "🌾",
+      "order_name": "Full Body",
+      "axis_pos": 5,
+      "axis_emoji": "⌛",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 30,
+      "order_pos": 5,
+      "order_emoji": "🌾",
+      "order_name": "Full Body",
+      "axis_pos": 6,
+      "axis_emoji": "🐬",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 31,
+      "order_pos": 6,
+      "order_emoji": "⚖",
+      "order_name": "Balance",
+      "axis_pos": 1,
+      "axis_emoji": "🏛",
+      "axis_name": "Basics",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 32,
+      "order_pos": 6,
+      "order_emoji": "⚖",
+      "order_name": "Balance",
+      "axis_pos": 2,
+      "axis_emoji": "🔨",
+      "axis_name": "Functional",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 33,
+      "order_pos": 6,
+      "order_emoji": "⚖",
+      "order_name": "Balance",
+      "axis_pos": 3,
+      "axis_emoji": "🌹",
+      "axis_name": "Aesthetic",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 34,
+      "order_pos": 6,
+      "order_emoji": "⚖",
+      "order_name": "Balance",
+      "axis_pos": 4,
+      "axis_emoji": "🪐",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 35,
+      "order_pos": 6,
+      "order_emoji": "⚖",
+      "order_name": "Balance",
+      "axis_pos": 5,
+      "axis_emoji": "⌛",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 36,
+      "order_pos": 6,
+      "order_emoji": "⚖",
+      "order_name": "Balance",
+      "axis_pos": 6,
+      "axis_emoji": "🐬",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 37,
+      "order_pos": 7,
+      "order_emoji": "🖼",
+      "order_name": "Restoration",
+      "axis_pos": 1,
+      "axis_emoji": "🏛",
+      "axis_name": "Basics",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 38,
+      "order_pos": 7,
+      "order_emoji": "🖼",
+      "order_name": "Restoration",
+      "axis_pos": 2,
+      "axis_emoji": "🔨",
+      "axis_name": "Functional",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 39,
+      "order_pos": 7,
+      "order_emoji": "🖼",
+      "order_name": "Restoration",
+      "axis_pos": 3,
+      "axis_emoji": "🌹",
+      "axis_name": "Aesthetic",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 40,
+      "order_pos": 7,
+      "order_emoji": "🖼",
+      "order_name": "Restoration",
+      "axis_pos": 4,
+      "axis_emoji": "🪐",
+      "axis_name": "Challenge",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 41,
+      "order_pos": 7,
+      "order_emoji": "🖼",
+      "order_name": "Restoration",
+      "axis_pos": 5,
+      "axis_emoji": "⌛",
+      "axis_name": "Time",
+      "generated": 0,
+      "total": 40
+    },
+    {
+      "deck": 42,
+      "order_pos": 7,
+      "order_emoji": "🖼",
+      "order_name": "Restoration",
+      "axis_pos": 6,
+      "axis_emoji": "🐬",
+      "axis_name": "Partner",
+      "generated": 0,
+      "total": 40
+    }
+  ],
+  "color_sections": [
+    {
+      "color": "⚫",
+      "name": "Ordo Operis",
+      "done": 7,
+      "open": 2
+    },
+    {
+      "color": "🟢",
+      "name": "Natura Operis",
+      "done": 2,
+      "open": 2
+    },
+    {
+      "color": "🔵",
+      "name": "Architectura Operis",
+      "done": 4,
+      "open": 4
+    },
+    {
+      "color": "🟣",
+      "name": "Profundum Operis",
+      "done": 6,
+      "open": 13
+    },
+    {
+      "color": "🔴",
+      "name": "Fervor Operis",
+      "done": 4,
+      "open": 6
+    },
+    {
+      "color": "🟠",
+      "name": "Nuntius Operis",
+      "done": 2,
+      "open": 5
+    },
+    {
+      "color": "🟡",
+      "name": "Lusus Operis",
+      "done": 4,
+      "open": 4
+    },
+    {
+      "color": "⚪",
+      "name": "Eudaimonia Operis",
+      "done": 0,
+      "open": 5
+    }
+  ],
+  "cx_total": 36,
+  "cx_done": 17,
+  "cx_pending": 19,
+  "last_updated": "2026-03-05T23:52:58.733372+00:00"
+}
