@@ -817,3 +817,35 @@ Work: Envelope pipeline close — CX-25 Vote Weight Integration, CX-30 Envelope 
 **Final state:** CX-43 complete. Wave 7 complete (CX-41, CX-42, CX-43). CX campaign now 40/44 complete.
 
 ---
+
+## Session 042 — 2026-03-06
+
+**Branch:** `claude/exercise-library-expansion-LWTl5`
+**Campaign:** Exercise Library Expansion (Wave 7)
+**Task completed:** Exercise Content Batch 4 (1001–1500)
+
+---
+
+**Work completed:**
+- Ran `python scripts/generate-exercise-content.py --batch 1500` to continue generation from the existing 993-file state.
+- Generator skipped existing files and wrote 493 new knowledge files, bringing `exercise-content/` to 1,486 files total.
+- Confirmed distribution across all five type directories: push (516), pull (496), legs (189), plus (280), ultra (5).
+- Spot-checked 3 random generated files for completeness and template structure:
+  - `exercise-content/push/pnf-tricep-stretch-contract-relax.md`
+  - `exercise-content/pull/seated-hip-internal-rotation.md`
+  - `exercise-content/plus/knee-drive-standing.md`
+
+**Validation run:**
+- `python scripts/generate-exercise-content.py --batch 1500`
+- `python scripts/generate-exercise-content.py --stats`
+- `for d in push pull legs plus ultra; do find exercise-content/$d -type f -name '*.md' | wc -l; done`
+- Manual content review (`sed`) on 3 random files
+
+**Validation outcomes:**
+- Batch run summary: `Written: 493 | Skipped: 1007 | Errors: 0 | Avg words/file: 486`
+- Stats summary: `Files written: 1486` (`Coverage: 71.3%`)
+- Spot-check files all include frontmatter, setup, execution, common faults, order context, color modifiers, and coaching notes sections; word counts in expected ~400–500 range.
+
+**Tracking updated:** `whiteboard.md`
+
+**Final state:** Exercise content generation now covers 1,486/2,085 exercises. Next batch to reach ~2,000 can proceed with `--batch 2000` when scheduled.
