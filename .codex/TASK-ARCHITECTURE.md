@@ -9,7 +9,7 @@ Use glossary terms from `scl-deep/systems-glossary.md` as the authoritative sour
 | Container | Name | Dependency | Wave | Status | Completed In | Evidence |
 |---|---|---|---|---|---|---|
 | CX-00A / CX-00B | Systems Glossary + Systems Language Audit | None / CX-00A | 1 | DONE | PR #63 area · c3f6ec7 | `scl-deep/systems-glossary.md`, `scl-deep/systems-language-audit.md` |
-| CX-01 | Codex Agent Configuration & Task Architecture | CX-00A | 1 | PENDING | — | — |
+| CX-01 | Codex Agent Configuration & Task Architecture | CX-00A | 1 | DONE | Session 037 · architecture-capstone-037 | `.codex/TASK-ARCHITECTURE.md` — governance finalized, completion summary added |
 | CX-02 | Historical Events Scaffold | CX-00A | 1 | DONE | Session 028 · `047113c` | `operis-editions/historical-events/README.md` |
 | CX-03 | Zip Converter Utilities | CX-00A | 1 | DONE | PR #58 · 83868b9 | `scripts/middle-math/zip_converter.py`, `scripts/middle-math/zip_registry.py`, `middle-math/zip-registry.json` |
 | CX-04 | Inventory & Progress Truth Tables | CX-00A | 1 | DONE | Session 018 · `3b75660` | `scripts/progress-report.py`, `scripts/index-card-inventory.py` |
@@ -26,8 +26,8 @@ Use glossary terms from `scl-deep/systems-glossary.md` as the authoritative sour
 | CX-15 | Exercise Selection Prototype | CX-13, CX-14 | 4 | DONE | Sprint 035 · claude/wave-4-sprint-035-vN8CK | `scripts/middle-math/exercise_selector.py` — GOLD gate, load ceiling, equipment tier, Type match, --validate passes 1,680 zips |
 | CX-16 | Deck Identity Scaffold Generator | CX-03, CX-04 | 2 | DONE | PR #67 · 862de8d | `scripts/deck-identity-scaffold.py`, deck identity docs for Decks 10–12 |
 | CX-17 | Ralph Loop Validation & Batch | CX-03 | 2 | PENDING | — | — |
-| CX-18 | Design Tokens & WeightCSS Spec | CX-00A | 2 | PENDING | — | — |
-| CX-19 | Agent Boundaries Document | CX-00A, CX-01 | 2 | PENDING | — | — |
+| CX-18 | Design Tokens & WeightCSS Spec | CX-00A | 2 | DONE | Session 037 · architecture-capstone-037 | `middle-math/design-tokens.json`, `middle-math/weight-css-spec.md` |
+| CX-19 | Agent Boundaries Document | CX-00A, CX-01 | 2 | DONE | Session 037 · architecture-capstone-037 | `.claude/AGENT-BOUNDARIES.md` — 5-agent matrix, escalation rules, Jake-reserved zones |
 | CX-20 | Room Schema Extension | CX-08 | 2 | DONE | Engine coupling session · 2026-03-05 | `sql/008-room-schema-extension.sql` — 4 tables, RLS, 1,680-row population |
 | CX-21 | Content Type Registry | CX-00A | 2 | DONE | Session 034 · 2026-03-06 | `middle-math/content-type-registry.json` (109 types, 6 axes, cross-floor + operator mappings) |
 | CX-22 | Floor Routing Spec | CX-03, CX-20, CX-21 | 3 | DONE | Sprint 035 · claude/wave-4-sprint-035-vN8CK | `middle-math/floor-routing-spec.md` — 109 content types routed to 6 Axis floors, default landing, access gates |
@@ -39,7 +39,7 @@ Use glossary terms from `scl-deep/systems-glossary.md` as the authoritative sour
 | CX-28 | Cosmogram Content Scaffold | CX-04 | 2 | DONE | Session 034 · 2026-03-06 | `scripts/scaffold_cosmograms.py`, `deck-cosmograms/deck-01-cosmogram.md` through `deck-42-cosmogram.md` (42 stubs) |
 | CX-29 | Wilson Audio Route Scaffold | CX-22 | 4 | DONE | Session 036 · a7c0022 | `middle-math/wilson-audio-spec.md` — 3-layer keyword scoring, ~2,260 entries, Wilson voice registers by floor |
 | CX-30 | Envelope Schema & Stamping Prototype | CX-08, CX-14, CX-03 | 4 | DONE | Session 036 · a7c0022 | `scripts/middle-math/envelope_stamper.py` — atomic retrieval unit, --anonymous + --full + --deck modes |
-| CX-31 | Envelope Similarity Function & Retrieval Prototype | CX-30, CX-21 | 5 | PENDING | — | FULLY UNBLOCKED (CX-30 ✓, CX-21 ✓) — Wave 5 capstone |
+| CX-31 | Envelope Similarity Function & Retrieval Prototype | CX-30, CX-21 | 5 | DONE | Session 037 · architecture-capstone-037 | `scripts/middle-math/envelope_retrieval.py` — cosine similarity, Tier 1–4 profiles, --query/--deck/--operis/--validate/--stats, 5/5 validation checks pass |
 | CX-32 | Mermaid CX Dependency Graph | None | 2 | DONE | Codex run · evidence on disk | `docs/cx-dependency-graph.md` |
 | CX-33 | GitHub Pages Progress Dashboard | CX-03, CX-04 | 2 | DONE | PR #90 engine coupling session 2026-03-05 | `docs/dashboard/index.html`, `scripts/build-dashboard-data.py`, `docs/dashboard/data/progress.json` |
 | CX-34 | Codespaces Dev Container | None | 1 | DONE | Codex run · evidence on disk | `.devcontainer/devcontainer.json`, `docs/codespaces-quickstart.md` |
@@ -90,59 +90,19 @@ When a container row is marked `DONE`, the row must include all of the following
 - Any file requiring live web research to populate
 - SCL rule or emoji creation/modification artifacts
 
-## Dependency Readiness (as of engine coupling session 2026-03-05)
+## Dependency Readiness (current state — Session 037, 2026-03-06)
 
-After marking CX-00A/00B, CX-03, CX-05, CX-07, CX-09, CX-10, CX-11, CX-12, CX-13, CX-16, CX-32, CX-34, CX-35 as DONE (16/36 containers complete),
-the dependency graph shifts. Updated readiness by wave:
+33/36 containers DONE after Session 037. Three containers remain:
 
-### Wave 2 — Remaining OPEN containers
+| Container | Status | Blocker | Notes |
+|-----------|--------|---------|-------|
+| CX-17 | OPEN | Jake pod review | Ralph loop tooling — Codex task, needs pod review sign-off |
+| (non-CX) Deck 07 pod review | OPEN | Jake | Jake reviews Deck 07 Ralph pod before Ralph loop can run |
+| (non-CX) Operis Contract A/B URL enforcement | OPEN | manual | Manual enforcement of Contract A/B pipeline |
 
-| Container | Blockers | Blocker Status | Ready? |
-|-----------|----------|----------------|--------|
-| CX-01 | CX-00A | ✓ | YES — unblocked |
-| CX-17 | CX-03 | ✓ | YES — unblocked |
-| CX-18 | CX-00A | ✓ | YES — unblocked |
-| CX-19 | CX-00A, CX-01 | CX-01 still OPEN | BLOCKED on CX-01 |
-| CX-20 | CX-08 | ✓ | YES — unblocked |
-| CX-21 | CX-00A | ✓ | YES — unblocked |
-| CX-23 | CX-03, CX-04, CX-08 | all ✓ | YES — all dependencies met |
-| CX-26 | CX-03, CX-04 | all ✓ | YES — unblocked |
-| CX-28 | CX-04 | ✓ | YES — unblocked |
-
-### Wave 3 — Readiness after engine coupling session
-
-| Container | Blockers | Blocker Status | Ready? |
-|-----------|----------|----------------|--------|
-| CX-11 | CX-09, CX-10 | both ✓ | DONE — 790-line working draft |
-| CX-12 | CX-09, CX-10 | both ✓ | DONE — 502-line working draft |
-| CX-14 | CX-09–12, CX-03 | all ✓ | YES — **newly unblocked** · CRITICAL PATH |
-| CX-22 | CX-03, CX-20, CX-21 | CX-20 ✓, CX-21 still OPEN | BLOCKED on CX-21 only |
-| CX-24 | CX-20, CX-03 | CX-20 ✓, CX-03 ✓ | YES — **newly unblocked** |
-| CX-27 | CX-20, CX-08 | CX-20 ✓, CX-08 ✓ | YES — **newly unblocked** |
-
-### Critical path
-
-CX-14 → CX-15 (both complete as of Session 034)
-
-CX-14 DONE (Session 034): weight_vector.py + weight-vectors.json. CX-15 (Exercise Selection Prototype) is now fully unblocked (CX-13 ✓, CX-14 ✓).
-
-### Wave 4 — Post Session 034 cascade
-
-| Container | Blockers | Blocker Status | Ready? |
-|-----------|----------|----------------|--------|
-| CX-15 | CX-13, CX-14 | both ✓ | YES — **newly unblocked** · CRITICAL PATH NEXT |
-| CX-22 | CX-03, CX-20, CX-21 | all ✓ | YES — **newly unblocked** |
-| CX-25 | CX-20, CX-14 | both ✓ | YES — **newly unblocked** |
-| CX-30 | CX-08, CX-14, CX-03 | all ✓ | YES — **newly unblocked** |
-
-### Downstream cascade from Session 034
-
-- CX-15 (Exercise Selection Prototype) — fully unblocked, critical path
-- CX-22 (Floor Routing Spec) — unblocked now that CX-21 complete
-- CX-25 (Vote Weight Integration) — unblocked now that CX-14 complete
-- CX-30 (Envelope Schema) — unblocked now that CX-14 complete
-- CX-24 (Bloom State Engine) — unblocked (CX-20 ✓, CX-03 ✓)
-- CX-27 (Superscript/Subscript Data Model) — unblocked (CX-20 ✓, CX-08 ✓)
+CX-17 is the only remaining CX container that Codex can touch. It is blocked on Jake's pod review.
+The CX architecture campaign is functionally complete at 33/36. The remaining work shifts to content generation:
+deck production (1,578 cards remaining), Operis editions, CANONICAL reviews, and cosmogram research.
 
 ---
 
@@ -151,3 +111,52 @@ CX-14 DONE (Session 034): weight_vector.py + weight-vectors.json. CX-15 (Exercis
 - Treat the architecture as a layered resolver: dependencies first, leaf tasks last.
 - Keep handoffs explicit between generator, validator, explorer, and reviewer agents.
 - Do not bypass interlocks: if a dependency is unmet, the container remains pending.
+
+---
+
+## Container Completion Summary
+
+All 36 containers sorted by wave and completion. 33/36 complete as of Session 037.
+
+| Container | Name | Wave | Status | Session Completed |
+|-----------|------|------|--------|-------------------|
+| CX-00A | Systems Glossary | 1 | DONE | Session 028 (PR #63) |
+| CX-00B | Systems Language Audit | 1 | DONE | Session 028 (PR #63) |
+| CX-01 | Codex Agent Configuration & Task Architecture | 1 | DONE | Session 037 |
+| CX-02 | Historical Events Scaffold | 1 | DONE | Session 028 |
+| CX-03 | Zip Converter Utilities | 1 | DONE | PR #58 |
+| CX-04 | Inventory & Progress Truth Tables | 1 | DONE | Session 018 |
+| CX-05 | Markdownlint Configuration | 1 | DONE | Codex run |
+| CX-06 | Frontmatter Schema & Validator | 1 | DONE | Session 030 |
+| CX-08 | SQL Schema Materialization | 1 | DONE | Session 025 |
+| CX-34 | Codespaces Dev Container | 1 | DONE | Codex run |
+| CX-07 | CI Lint Workflow | 2 | DONE | Codex run |
+| CX-09 | Axis Weight Declarations | 2 | DONE | PR #64 |
+| CX-10 | Type & Color Weight Declarations | 2 | DONE | PR #65 |
+| CX-13 | Exercise Library Parser | 2 | DONE | PR #61 |
+| CX-16 | Deck Identity Scaffold Generator | 2 | DONE | PR #67 |
+| CX-17 | Ralph Loop Validation & Batch | 2 | PENDING | — |
+| CX-18 | Design Tokens & WeightCSS Spec | 2 | DONE | Session 037 |
+| CX-19 | Agent Boundaries Document | 2 | DONE | Session 037 |
+| CX-20 | Room Schema Extension | 2 | DONE | Session 034 (engine coupling) |
+| CX-21 | Content Type Registry | 2 | DONE | Session 034 |
+| CX-23 | Navigation Graph Builder | 2 | DONE | Session 034 (engine coupling) |
+| CX-26 | Operis Room Manifest Generator | 2 | DONE | Sprint 035 |
+| CX-28 | Cosmogram Content Scaffold | 2 | DONE | Session 034 |
+| CX-32 | Mermaid CX Dependency Graph | 2 | DONE | Codex run |
+| CX-33 | GitHub Pages Progress Dashboard | 2 | DONE | PR #90 / Session 034 |
+| CX-35 | Whiteboard Negotiosum Validator | 2 | DONE | Codex run |
+| CX-11 | Block Weight Declarations | 3 | DONE | Session 034 (engine coupling) |
+| CX-12 | Operator Weight Declarations | 3 | DONE | Session 034 (engine coupling) |
+| CX-14 | Weight Vector Computation Engine | 3 | DONE | Session 034 |
+| CX-22 | Floor Routing Spec | 3 | DONE | Sprint 035 |
+| CX-24 | Bloom State Engine | 3 | DONE | Sprint 035 |
+| CX-27 | Superscript/Subscript Data Model | 3 | DONE | Sprint 035 |
+| CX-15 | Exercise Selection Prototype | 4 | DONE | Sprint 035 |
+| CX-25 | Vote Weight Integration | 4 | DONE | Session 036 |
+| CX-29 | Wilson Audio Route Scaffold | 4 | DONE | Session 036 |
+| CX-30 | Envelope Schema & Stamping Prototype | 4 | DONE | Session 036 |
+| CX-31 | Envelope Similarity & Retrieval | 5 | DONE | Session 037 |
+
+Wave completion: Wave 1 (9/10) · Wave 2 (14/16) · Wave 3 (6/6) · Wave 4 (4/4) · Wave 5 (1/1)
+CX-17 is the only remaining unblocked CX container. It awaits Jake's pod review.

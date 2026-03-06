@@ -1,119 +1,142 @@
-# NEXT-ROUND-HANDOFF — Post Session 036
+# Next Round Handoff — Post Session 037
 
-**Branch:** `claude/envelope-pipeline-036-OsXgl`
 **Date:** 2026-03-06
-**State:** 29/36 CX containers complete, 7 open
+**Branch closed:** `claude/architecture-capstone-037-b7rHF`
+**State:** 33/36 CX containers complete. Wave 5 capstone delivered.
 
 ---
 
-## 1) What Just Landed (Session 036)
+## 1) Current State
 
-| Container | Name | Evidence |
-|-----------|------|----------|
-| CX-25 | Vote Weight Integration | `scripts/middle-math/vote_weight_adjuster.py` — tanh signal, ±0.8 cap, eudaimonic interlock, --validate passes 6,720 checks |
-| CX-30 | Envelope Schema & Stamping Prototype | `scripts/middle-math/envelope_stamper.py` — atomic retrieval unit, --anonymous + --full + --deck modes |
-| CX-29 | Wilson Audio Route Scaffold | `middle-math/wilson-audio-spec.md` — 3-layer keyword scoring, ~2,260 entries, Wilson voice registers by floor |
-
-Tracking updated: `.codex/TASK-ARCHITECTURE.md`, `whiteboard.md`, `docs/cx-dependency-graph.md`, `session-log.md`
+- **Cards:** 102 / 1,680 (6.1%) — Deck 07 (22 ⚠️ REGEN-NEEDED), Deck 08 ✅, Deck 09 ✅
+- **CX Containers:** 33/36 DONE — architecture campaign functionally complete
+- **Open CX containers:** CX-17 only (Ralph loop, blocked on Jake pod review)
+- **Phase:** 2 — Content generation is the primary work. Architecture serves it.
 
 ---
 
-## 2) Current State
+## 2) What Shipped This Session (Session 037)
 
-- Cards: 102/1,680 (Deck 07: 22/40 ⚠️ — 18 REGEN-NEEDED, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅)
-- CX Containers: 36 defined, **29 complete**, 7 open
-- **CX-31 is FULLY UNBLOCKED** — both blockers now met (CX-30 ✓, CX-21 ✓)
-- Wave 5 capstone is the next critical path task
+### CX-31 — Envelope Similarity & Retrieval (Wave 5 Capstone) ✅
 
----
+`scripts/middle-math/envelope_retrieval.py`
 
-## 3) Open Containers (7 remaining)
+The retrieval engine for the entire PPL± system. Every room lookup, Operis sandbox selection, exercise recommendation, and content retrieval resolves through this function.
 
-| ID | Name | Blockers | Notes |
-|----|------|----------|-------|
-| **CX-31** | Envelope Similarity & Retrieval | CX-30 ✓, CX-21 ✓ | **FULLY UNBLOCKED — Wave 5 capstone** |
-| CX-01 | Codex Agent Config & Task Architecture | CX-00A ✓ | `.codex/TASK-ARCHITECTURE.md` + `HANDOFF-CONTRACTS.md` |
-| CX-17 | Ralph Loop Validation & Batch | CX-03 ✓ | Blocked on Jake pod approval |
-| CX-18 | Design Tokens & WeightCSS Spec | CX-00A ✓ | `tokens.json` + `weight-css-spec.md` |
-| CX-19 | Agent Boundaries Document | CX-01 | Blocked on CX-01 |
-| — | Operis Contract A/B URL enforcement | — | P1/P2 URL gaps; then re-run V4 pipeline test |
-| — | Whiteboard DONE-task archive pass | — | Periodic ⚪ pruning |
+- Cosine similarity across 1,680 × 61-dimensional weight vectors
+- 4 content-type retrieval profiles (Tier 1–4 dimension weighting)
+- `build_query_vector` composes base + vote adjustment + bloom modifier
+- `retrieve_for_operis(date, n=13)` drives Operis sandbox room selection
+- `--validate` passes 5/5 checks
+- `--query 2123` → top-10 semantically similar envelopes with scores
+- `--operis 2026-03-06` → 13 Operis sandbox envelopes for the date
 
----
+### CX-01 — Codex Agent Configuration ✅
 
-## 4) Recommended Next Task — CX-31: Envelope Similarity & Retrieval
+`.codex/TASK-ARCHITECTURE.md` governance finalized:
+- Stale wave readiness tables replaced with current-state table
+- Container Completion Summary added (all 36 containers, chronological)
+- CX-01 marked DONE
 
-**Write:** `scripts/middle-math/envelope_retrieval.py`
+### CX-19 — Agent Boundaries Document ✅
 
-This is the Wave 5 capstone. It closes the entire CX architecture.
+`.claude/AGENT-BOUNDARIES.md` created:
+- 5-agent roster with model assignments
+- Per-agent read/write/never-touch matrix
+- Escalation rules (when subagents escalate to Claude Code)
+- Jake-reserved zones documented
 
-The retrieval function takes a live weight vector (the "query") and finds the
-most similar envelopes in the content corpus using cosine similarity across
-all 61 dimensions.
+### CX-18 — Design Tokens & WeightCSS Spec ✅
 
-**What to read before writing:**
-- `seeds/scl-envelope-architecture.md` — retrieval is condition-based (not calendar-based)
-- `scripts/middle-math/envelope_stamper.py` (CX-30 — just built) — envelope schema
-- `middle-math/weight-vectors.json` — 1,680 base vectors to query against
-- `middle-math/content-type-registry.json` — content type retrieval profiles
-- `middle-math/ARCHITECTURE.md` — Section 6 (Operis Bridge context)
+Two files:
+- `middle-math/design-tokens.json` — 8 Color palettes × 7 Order typographic scales + spacing/animation/shadow tokens
+- `middle-math/weight-css-spec.md` — 61-dim vector → `--ppl-weight-*` CSS properties, octave normalization formula, TypeScript generator
 
-**What to build:**
-1. `compute_similarity(vector_a, vector_b)` → cosine similarity in [-1, 1]
-2. `retrieve_top_n(query_vector, candidate_envelopes, n=10)` → ranked list
-3. Content-type-specific retrieval profiles (Tier 1 weights heavy; Tier 4 weights specific)
-4. `--query XXXX` flag: use a zip's vector as the query, show top-10 most similar
-5. `--deck 07` flag: show top-5 most similar to each zip in the deck
-6. `--validate` flag: confirm similarity is bounded [-1, 1], no NaN, symmetric
+### Audit Snapshots ✅
 
-**Unblocks:** Full envelope-based content retrieval. Operis sandbox selection.
-Exercise recommendation by vector proximity. Regional divergence routing.
+- `reports/deck-readiness-2026-03-06.md`
+- `reports/exercise-usage-2026-03-06.md`
 
 ---
 
-## 5) CX-31 Architecture Notes
+## 3) Only Remaining CX Container
 
-From `seeds/scl-envelope-architecture.md`:
+| Container | Status | Blocker |
+|-----------|--------|---------|
+| CX-17 | OPEN | Jake pod review |
 
-> "Retrieval is condition-based matching, not calendar-based. The system finds
-> content whose envelope is most similar to the live weight vector state."
+CX-17 is the Ralph Loop validation and batch orchestrator. It requires Jake to review `deck-07-pods.md` before the batch can run. This is a Codex task — not Claude Code.
 
-Content-type retrieval profiles adjust the weighting across the 61 dimensions:
-- **Tier 1 (Order, seasonal):** Order dimensions weighted 2×, time/seasonal dims weighted 2×
-- **Tier 2 (Deck/Type):** Type and Axis dimensions weighted 1.5×
-- **Tier 3 (Exercise cluster):** Specific exercise family dimensions weighted 2×
-- **Tier 4 (Exercise-specific):** All 61 dims equal weight; similarity must exceed 0.9
-
-The query vector is the user's current "live" weight vector — determined by
-their bloom states, session history, and the day's Order.
+**All other CX containers are DONE.**
 
 ---
 
-## 6) Jake-Blocked Items (unchanged)
+## 4) Recommended Next Work — Content Generation
 
-- Deck 07 Ralph pod review → must approve prototype before batch runs
-- First CANONICAL review → Jake reads 40 Deck 08 cards as a user
-- Deck 07 regen → 18 REGEN-NEEDED cards from pre-identity era
-- Historical events population → 366 dates, ~180 hours research, builds incrementally
+The architecture campaign is over. The infrastructure is built. The remaining work is content:
+
+### Priority 1: Deck 07 Regen (18 cards)
+- 18 cards in Deck 07 are flagged `REGEN-NEEDED` (pre-identity era, duplicate primary exercises)
+- Deck 07 identity doc exists (V2 format)
+- Use `/generate-card` skill or `card-generator` subagent
+- After regen: run `deck-auditor` for compliance check
+
+### Priority 2: Deck 10 Generation (40 cards)
+- ⛽🪐 Strength Challenge — identity doc exists
+- Fully unblocked (deck identity ✅)
+
+### Priority 3: Deck 11 + Deck 12
+- ⛽⌛ Strength Time (Deck 11) — identity doc exists
+- ⛽🐬 Strength Partner (Deck 12) — identity doc exists
+- Complete the Strength Order sweep (Decks 07–12)
+
+### Priority 4: First CANONICAL Review
+- Jake reads Deck 08 as a user (40 cards, V2 format)
+- Gemba test: does the workout feel right in the room?
+- No cards have reached CANONICAL status yet
+
+### Priority 5: Operis V4 Pipeline Test
+- Fix Contract A/B URL enforcement gaps (source URLs, per-lane URLs)
+- Re-run P1→P2→P3→P4 on a real date
+- Blocked on URL fixes
 
 ---
 
-## 7) Do NOT Touch
+## 5) Envelope Retrieval — How to Use It
 
-- Card content in `cards/`
-- Operis editions (except `operis-editions/historical-events/` scaffolds)
-- `scl-directory.md`, `exercise-library.md`
-- Files requiring live web research to populate
-- Cosmogram stubs (status: STUB — awaiting Jake-directed research population)
+```bash
+# Find rooms most similar to Strength/Basics/Pull/Structured
+python scripts/middle-math/envelope_retrieval.py --query 2123
+
+# Top-5 similar for every card in Deck 09
+python scripts/middle-math/envelope_retrieval.py --deck 09
+
+# 13 Operis sandbox rooms for today
+python scripts/middle-math/envelope_retrieval.py --operis 2026-03-06
+
+# Validate correctness
+python scripts/middle-math/envelope_retrieval.py --validate
+
+# Similarity statistics (avg, tightest cluster, loosest outlier)
+python scripts/middle-math/envelope_retrieval.py --stats
+```
 
 ---
 
-## 8) Definition of Done (next session)
+## 6) Shift in Work Character
 
-- CX-31 `envelope_retrieval.py` written and validated
-- `--validate` passes (similarity bounded, no NaN, symmetric)
-- `--query 2123` shows ranked similar envelopes with scores
-- CX-31 marked DONE in TASK-ARCHITECTURE.md with evidence
-- whiteboard.md updated: "30/36 complete"
-- validate-negotiosum.py passes 5/5
-- Session PR merged
+Sessions 028–037 were an architecture campaign. Sessions 001–027 were deck generation. The next phase returns to generation — but now on a complete infrastructure:
+
+- Weight vectors computed (1,680 entries, 61 dims)
+- Exercise selector operational
+- Envelope retrieval operational
+- Room manifest / Operis rotation working
+- Vote weight, bloom, superscript/subscript all built
+- Navigation graph (6,720 edges) and floor routing spec done
+- Wilson audio spec ready
+
+The infrastructure makes scale possible. The content is the work.
+
+---
+
+*Reference: `session-log.md` (Session 037) · `whiteboard.md` · `.codex/TASK-ARCHITECTURE.md`*

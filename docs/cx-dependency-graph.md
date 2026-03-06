@@ -9,7 +9,7 @@ flowchart TD
 
   %% Wave 1
   subgraph W1["Wave 1"]
-    CX01["CX-01: Agent Config & Task Architecture (OPEN)"]
+    CX01["CX-01: Agent Config & Task Architecture (DONE)"]
     CX02["CX-02: Historical Events Scaffold (DONE)"]
     CX03["CX-03: Zip Converter Utilities (DONE)"]
     CX04["CX-04: Inventory & Progress Truth Tables (DONE)"]
@@ -27,8 +27,8 @@ flowchart TD
     CX13["CX-13: Exercise Library Parser (DONE)"]
     CX16["CX-16: Deck Identity Scaffold Generator (DONE)"]
     CX17["CX-17: Ralph Loop Validation & Batch (OPEN)"]
-    CX18["CX-18: Design Tokens & WeightCSS Spec (OPEN)"]
-    CX19["CX-19: Agent Boundaries Document (OPEN)"]
+    CX18["CX-18: Design Tokens & WeightCSS Spec (DONE)"]
+    CX19["CX-19: Agent Boundaries Document (DONE)"]
     CX20["CX-20: Room Schema Extension (DONE)"]
     CX21["CX-21: Content Type Registry (DONE)"]
     CX23["CX-23: Navigation Graph Builder (DONE)"]
@@ -59,7 +59,7 @@ flowchart TD
 
   %% Wave 5
   subgraph W5["Wave 5"]
-    CX31["CX-31: Envelope Similarity & Retrieval Prototype (OPEN)"]
+    CX31["CX-31: Envelope Similarity & Retrieval Prototype (DONE)"]
   end
 
   %% Dependency edges (blocker --> dependent)
@@ -158,21 +158,21 @@ flowchart TD
   class CX28,CX32 lusus;
   class CX35 nuntius;
 
-  %% DONE status (29 complete total — CX-25, CX-29, CX-30 completed Session 036)
-  class CX00A,CX02,CX03,CX04,CX05,CX06,CX07,CX08,CX09,CX10,CX11,CX12,CX13,CX14,CX15,CX16,CX20,CX21,CX22,CX23,CX24,CX25,CX26,CX27,CX28,CX29,CX30,CX32,CX33,CX34,CX35 done;
+  %% DONE status (33 complete total — CX-01, CX-18, CX-19, CX-31 completed Session 037)
+  class CX00A,CX01,CX02,CX03,CX04,CX05,CX06,CX07,CX08,CX09,CX10,CX11,CX12,CX13,CX14,CX15,CX16,CX18,CX19,CX20,CX21,CX22,CX23,CX24,CX25,CX26,CX27,CX28,CX29,CX30,CX31,CX32,CX33,CX34,CX35 done;
 ```
 
 ## Legend
 
 | Color | Latin Name | Posture | Count (DONE/OPEN) |
 |---|---|---|---|
-| ⚫ | Ordo Operis | Teaching / scaffolding / definitions | 5/2 |
+| ⚫ | Ordo Operis | Teaching / scaffolding / definitions | 7/0 |
 | 🟢 | Natura Operis | Zero-dependency utilities | 2/1 |
 | 🔵 | Architectura Operis | Structured systems execution | 5/0 |
-| 🟣 | Profundum Operis | Deep precision / engine coupling | 10/8 |
+| 🟣 | Profundum Operis | Deep precision / engine coupling | 18/0 |
 | 🔴 | Fervor Operis | High-output production | 0/0 |
 | 🟠 | Nuntius Operis | Audit and sweep routing | 1/0 |
 | 🟡 | Lusus Operis | Exploratory architecture | 2/0 |
 | ⚪ | Eudaimonia Operis | Review and flourishing checks | 0/0 |
 
-26/36 containers complete. CX-15 (Exercise Selector), CX-22 (Floor Routing), CX-24 (Bloom Engine), CX-26 (Room Manifest), CX-27 (Superscript/Subscript) completed Sprint 035. CX-29 (Wilson Audio) now unblocked. Remaining critical: CX-25 → CX-30 → CX-31.
+33/36 containers complete. Wave 5 capstone delivered (Session 037). CX-01 (governance), CX-18 (design tokens), CX-19 (agent boundaries), CX-31 (envelope retrieval) all closed. CX architecture 92% complete. CX-17 awaiting Jake pod review.

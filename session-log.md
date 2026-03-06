@@ -643,3 +643,56 @@ Work: Envelope pipeline close — CX-25 Vote Weight Integration, CX-30 Envelope 
 **Final state:** 29/36 CX containers complete. 3 containers completed this session. 7 open: CX-01, CX-17, CX-18, CX-19, CX-31 (+ 2 non-CX audit tasks).
 
 ---
+
+## Session 037 — Architecture Capstone (2026-03-06)
+
+**Branch:** `claude/architecture-capstone-037-b7rHF`
+**Scope:** Wave 5 close (CX-31) + governance pair (CX-01 → CX-19) + design tokens (CX-18) + audit snapshots
+
+---
+
+**CX-31 — Envelope Similarity & Retrieval Engine (Wave 5 Capstone):**
+- `scripts/middle-math/envelope_retrieval.py`
+- Cosine similarity engine across 1,680 × 61-dimensional weight vectors
+- `compute_similarity(vector_a, vector_b, weights=None) → float [-1, 1]`
+- `retrieve_top_n(query_vector, candidates, n, tier) → ranked list`
+- `build_query_vector(zip_code, user_context=None) → 61-float list` (composes base + votes + bloom)
+- `retrieve_for_operis(date_str, n=13) → manifest` (rotation engine → Tier 1 retrieval)
+- 4 content-type retrieval profiles: Tier 1 (Order/seasonal ×2), Tier 2 (Type/Axis ×1.5), Tier 3 (exercise family ×2), Tier 4 (equal weight, threshold 0.9)
+- CLI flags: --query, --deck, --operis, --validate, --stats
+- `--validate` passes 5/5 checks (bounded, no NaN, symmetric, self-sim=1.0, top-1 is self)
+- Architecture complete: every room lookup, Operis sandbox selection, and content retrieval resolves through this function
+
+**CX-01 — Codex Agent Configuration & Task Architecture:**
+- `.codex/TASK-ARCHITECTURE.md` governance finalized
+- Replaced stale Wave 2/3 readiness tables with current-state table (3 remaining containers)
+- Added Container Completion Summary (all 36 containers, sorted by wave, with completion dates)
+- CX-01 marked DONE
+
+**CX-19 — Agent Boundaries Document:**
+- `.claude/AGENT-BOUNDARIES.md` created
+- 5-agent roster: Claude Code, Codex, card-generator (Opus 4.6), deck-auditor (Sonnet 4.6), progress-tracker (Haiku 4.5)
+- Per-agent read/write/never-touch matrix (10 file categories)
+- Escalation rules for all 5 agents
+- Jake-reserved zones: scl-directory.md, exercise-library.md, CANONICAL status, billing/keys, pod review, operator overrides, SCL expansion
+
+**CX-18 — Design Tokens & WeightCSS Spec:**
+- `middle-math/design-tokens.json` — 8 Color palettes (6 properties each), 7 Order typographic scales, spacing/radius/animation/shadow/typography tokens
+- `middle-math/weight-css-spec.md` — 61-dim weight vector → CSS custom properties (`--ppl-weight-*`), octave scale normalization formula, dimension index map, TypeScript generation function, fallback values
+
+**Block 5 — Audit Snapshots:**
+- `reports/` directory created
+- `reports/README.md` — regeneration instructions
+- `reports/deck-readiness-2026-03-06.md` — deck generation readiness matrix (42 decks)
+- `reports/exercise-usage-2026-03-06.md` — exercise coverage across 102 generated cards
+
+**Scripts run:**
+- `python scripts/build-dashboard-data.py` — dashboard data refreshed
+- `python scripts/validate-negotiosum.py` — whiteboard consistency check
+
+**Tracking updated:** `whiteboard.md`, `.codex/TASK-ARCHITECTURE.md`, `docs/cx-dependency-graph.md`
+
+**Final state:** 33/36 CX containers complete. 4 containers completed this session. CX-17 (Ralph loop) is the only remaining CX container — blocked on Jake pod review. The CX architecture campaign is functionally complete. Project pivots from architecture to content generation.
+
+---
+
