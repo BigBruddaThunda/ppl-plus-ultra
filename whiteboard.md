@@ -53,6 +53,7 @@ Systematic, templated, institutional. Follow the pattern.
 | DONE | CX-07 | CI lint workflow | — | .github/workflows/lint.yml |
 | DONE | CX-08 | SQL schema materialization (7 migrations) | — | sql/001-007 + README — Session 033 |
 | DONE | CX-16 | Deck identity scaffolds (Decks 10–12) | CX-03 ✓ | PR #67 — deck-identity-scaffold.py + 3 identity docs |
+| DONE | — | Deck identity scaffolds (Decks 01–06) | CX-03 ✓ | Session 039 |
 | DONE | CX-33 | GitHub Pages progress dashboard | CX-03 ✓, CX-04 ✓ | Built PR #90 (2026-03-05) — docs/dashboard/ + scripts/build-dashboard-data.py. Reconciled this session. |
 | DONE | CX-40 | Exercise Registry SQL Migration | — | Session 038: `sql/009-exercise-registry.sql`, `sql/010-exercise-knowledge.sql`, `sql/README.md` updated |
 | OPEN | — | Deck 07 retrofit regen queue (18 cards) | — | 18 REGEN-NEEDED cards from Session 021 |
