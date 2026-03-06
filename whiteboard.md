@@ -108,7 +108,7 @@ Maximum output, full capacity. Measure throughput.
 | DONE | — | Exercise Content Batch 5 FINAL (1501–2085) | CX-37 ✓ | Session 044: `python scripts/generate-exercise-content.py --batch 2085` → +581 files, slug-collision fix generated final +18 files (2,085/2,085 total in `exercise-content/`) |
 | OPEN | — | Deck 07 regen (18 cards) | — | Duplicate primary exercises from pre-identity era |
 | DONE | — | Deck 10 generation (40 cards) | — | ⛽🪐 Strength Challenge complete (40/40) |
-| OPEN | — | Deck 11 generation (40 cards) | Deck 11 identity | ⛽⌛ Strength Time |
+| DONE | — | Deck 11 generation (40 cards) | — | Session 043: ⛽⌛ Strength Time complete (40/40) |
 | OPEN | — | Deck 12 generation (40 cards) | Deck 12 identity | ⛽🐬 Strength Partner |
 | OPEN | — | Historical events population (366 dates) | CX-02 ✓ | Research-intensive — ~180 hours total, builds incrementally |
 | OPEN | — | Remaining 37 decks (1,478 cards) | Ongoing | Foundation Order next? Jake's call |
