@@ -279,6 +279,36 @@ def get_color_text(pattern: str, color_key: str) -> str:
     return tmpl.get(color_key, COLOR_TEMPLATES["default"].get(color_key, ""))
 
 
+def read_frontmatter_exercise_id(path: Path) -> str | None:
+    if not path.exists():
+        return None
+    text = path.read_text(encoding="utf-8")
+    m = re.search(r"^exercise_id:\s*(EX-\d{4})", text, re.MULTILINE)
+    return m.group(1) if m else None
+
+
+def resolve_output_path(ex: dict) -> Path:
+    """
+    Resolve output path for an exercise.
+
+    Default filename is slug-based. If that filename is already occupied by a
+    different exercise_id, use a disambiguated filename with ID suffix.
+    """
+    tdir = type_dir(ex.get("scl_types", ["plus"]))
+    slug = slugify(ex["name"])
+    base = OUTPUT_DIR / tdir / f"{slug}.md"
+    suffix = OUTPUT_DIR / tdir / f"{slug}-ex-{ex['exercise_id'].split('-')[1]}.md"
+
+    for candidate in (base, suffix):
+        if read_frontmatter_exercise_id(candidate) == ex["exercise_id"]:
+            return candidate
+
+    if base.exists() and read_frontmatter_exercise_id(base) not in (None, ex["exercise_id"]):
+        return suffix
+
+    return base
+
+
 def build_coaching_notes(ex: dict) -> str:
     """Generate a PPL± voice coaching paragraph."""
     name = ex["name"]
@@ -844,8 +874,14 @@ def main():
 
     if args.stats:
         total = len(exercises)
-        written = sum(1 for t in ["push", "pull", "legs", "plus", "ultra"]
-                      for f in (OUTPUT_DIR / t).glob("*.md") if f.name != "README.md")
+        files = [
+            f
+            for t in ["push", "pull", "legs", "plus", "ultra"]
+            for f in (OUTPUT_DIR / t).glob("*.md")
+            if f.name != "README.md"
+        ]
+        covered_ids = {eid for eid in (read_frontmatter_exercise_id(f) for f in files) if eid}
+        written = len(covered_ids)
         print(f"Registry entries: {total}")
         print(f"Files written:    {written}")
         print(f"Coverage:         {written/total*100:.1f}%")
@@ -878,9 +914,7 @@ def main():
     written = skipped = errors = 0
     total_words = 0
     for ex in target:
-        tdir = type_dir(ex.get("scl_types", ["plus"]))
-        slug = slugify(ex["name"])
-        out_path = OUTPUT_DIR / tdir / f"{slug}.md"
+        out_path = resolve_output_path(ex)
 
         if out_path.exists() and not args.overwrite:
             skipped += 1
