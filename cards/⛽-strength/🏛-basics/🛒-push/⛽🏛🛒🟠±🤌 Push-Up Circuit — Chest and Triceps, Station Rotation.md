@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛🛒🟠
 operator: 🤌 facio
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: 🛒 Push | Chest, front delts, triceps
@@ -42,7 +43,7 @@ Rest between rounds: 3 min (⛽ Order demands full round recovery)
 
 ```
 Station A — Chest          Station B — Triceps
-Weighted Chest Dip         Diamond Push-Up
+Deficit Push-Up         Diamond Push-Up
 × 5 reps                   × 6 reps
 (lean forward, chest)      (elbows back)
 

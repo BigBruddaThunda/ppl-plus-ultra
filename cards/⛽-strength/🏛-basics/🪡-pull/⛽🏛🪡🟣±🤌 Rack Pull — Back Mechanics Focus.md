@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛🪡🟣
 operator: 🤌 facio
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
@@ -53,7 +54,7 @@ Rest: 2 min between ramp sets.
 
 Rest: 4–5 min between all sets. Non-negotiable in 🟣.
 
-**A. 🪡 Deadlift (Conventional) — Technical Sets**
+**A. 🪡 Rack Pull (Below Knee)**
 
 - Set 1: 80% × 5 (film this set if possible — this is the data set)
 - Set 2: 82.5% × 4 (correct whatever you saw — adjust grip, stance, brace)

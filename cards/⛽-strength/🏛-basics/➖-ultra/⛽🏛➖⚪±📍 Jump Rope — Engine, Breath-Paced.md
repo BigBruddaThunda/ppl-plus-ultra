@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛➖⚪
 operator: 📍 pono
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: ➖ Ultra | Cardiovascular system
@@ -60,7 +61,7 @@ The intensity is not absent — it is controlled. High output through the nose i
 
 Rest: 2.5 min between intervals. Breathe through the nose during rest as well.
 
-**4 × Rowing Intervals (500m) — Nasal Breathing, Max Pace That Permits It**
+**🪢 Jump Rope — Nasal Rhythm Rounds**
 
 - Interval 1: (4-count inhale on the recovery slide, exhale on the drive finish — find the rhythm; damper 4, 24–26 spm)
 - Interval 2: (hold or push slightly — if Interval 1 was sustainable, test the upper edge)

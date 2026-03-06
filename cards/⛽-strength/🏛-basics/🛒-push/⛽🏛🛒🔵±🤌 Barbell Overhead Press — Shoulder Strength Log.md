@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛🛒🔵
 operator: 🤌 facio
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: 🛒 Push | Chest, front delts, triceps
@@ -49,7 +50,7 @@ Rest 90 sec between ramp sets.
 
 Rest: 3–4 min between all sets.
 
-**A. 🛒 Barbell Bench Press**
+**A. 🛒 Barbell Overhead Press (Standing)**
 
 | Set | Load | Reps |
 |-----|------|------|

@@ -1,8 +1,9 @@
 ---
 zip: ⛽🏛🪡⚪
 operator: 📍 pono
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
 deck: 07
+updated: 2026-03-06
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
 type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
@@ -62,7 +63,7 @@ Tempo: 4-1-2-0 (4 sec eccentric | 1 sec hold at bottom | 2 sec concentric | 0 se
 
 Rest: 3–4 min. Extended rest mandatory under ⚪.
 
-**A. 🪡 Deadlift (Conventional) — Slow Eccentric**
+**A. 🪡 Romanian Deadlift — Slow Eccentric**
 
 The slow eccentric applies on the way down from lockout. Not how most deadlifts go — significantly harder per rep.
 

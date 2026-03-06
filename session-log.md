@@ -943,3 +943,30 @@ Work: Envelope pipeline close — CX-25 Vote Weight Integration, CX-30 Envelope 
 **Tracking updated:** `whiteboard.md`
 
 **Final state:** Exercise content knowledge library is complete at 2,085/2,085 files (100% coverage).
+
+## Session 046 — 2026-03-06
+
+**Branch:** `claude/exercise-library-expansion-LWTl5`
+**Campaign:** Deck 07 Retrofit
+**Task completed:** Regenerated 18 REGEN-NEEDED cards to V2 standard
+
+---
+
+**Work completed:**
+- Regenerated the 18 Deck 07 cards previously marked `GENERATED-V2-REGEN-NEEDED` across Push, Pull, Legs, Plus, and Ultra.
+- Updated each regenerated card frontmatter status to `GENERATED` and stamped `updated: 2026-03-06`.
+- Corrected Deck 07 primary exercise coverage so no Type row has duplicate primaries across Color variants.
+- Cleared an additional Deck 07 validation blocker in `⛽🏛➕🟢` by replacing `Explosive Tuck Jump` with non-GOLD `Squat Jump`.
+- Updated `whiteboard.md` to mark Deck 07 retrofit regen as DONE, set Deck 07 to `40/40 ✅`, and noted debt clearance.
+
+**Validation run:**
+- `python scripts/validate-card.py <each of 18 regenerated card paths>`
+- `bash scripts/validate-deck.sh cards/⛽-strength/🏛-basics/`
+- `python scripts/audit-exercise-coverage.py cards/⛽-strength/🏛-basics/`
+
+**Validation outcomes:**
+- 18/18 regenerated cards passed `validate-card.py`.
+- Deck validator summary: `40 passed, 0 failed, 0 stubs skipped`.
+- Coverage audit: no duplicate primary exercises in Deck 07.
+
+**Final state:** Deck 07 debt cleared — all 40 cards meet V2 standard.

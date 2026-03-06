@@ -16,7 +16,7 @@ Bodyweight full-body power | Core, hip power, upper body carry | 55–65 min
 
 CODE: ⛽🏛➕🟢
 
-> "The bar is gone. The strength standard isn't."
+> "The bar is gone. The strength standard is unchanged."
 
 ═══════════════════════════════════════
 
@@ -37,7 +37,7 @@ CODE: ⛽🏛➕🟢
 
 Rest: 90 sec
 
-**➕ Explosive Tuck Jump**
+**➕ Squat Jump**
 
 - 3 × 5 (full triple extension — hips, knees, ankles — tight landing each rep)
 
