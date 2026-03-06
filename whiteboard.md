@@ -102,7 +102,7 @@ Maximum output, full capacity. Measure throughput.
 | DONE | — | Deck 08 generation (40 cards) | — | GENERATED-V2 complete |
 | DONE | — | Deck 09 generation (40 cards) | — | 102/1,680 total |
 | DONE | CX-37 | Exercise Knowledge Template + First Batch | — | Session 038: `scripts/generate-exercise-content.py` + 197 files in `exercise-content/` + `exercise-content/README.md` |
-| OPEN | CX-41 | Exercise Content Batch 2 (201–500) | CX-37 ✓ | CX-37 complete — unblocked. `python scripts/generate-exercise-content.py --batch 500` |
+| DONE | CX-41 | Exercise Content Batch 2 (201–500) | CX-37 ✓ | Session 039: `python scripts/generate-exercise-content.py --batch 500` → +298 files (495 total in `exercise-content/`) |
 | OPEN | CX-42 | Exercise Content Batch 3 (501–1000) | CX-37 ✓ | CX-37 complete — unblocked. Follows CX-41. |
 | OPEN | — | Deck 07 regen (18 cards) | — | Duplicate primary exercises from pre-identity era |
 | OPEN | — | Deck 10 generation (40 cards) | Deck 10 identity | ⛽🪐 Strength Challenge |
@@ -165,6 +165,7 @@ Review, reflect, slow down. Does this serve flourishing?
 Active observations, open questions, and emergent ideas. When a note becomes a task, move it to the appropriate Color section. When a note becomes a seed, commit it and remove from here.
 
 - **Session 038 CLOSED (2026-03-06) — Exercise Library Expansion: Wave 6 complete (5/5).** CX-36: `middle-math/exercise-registry.json` — 2,085 exercises, globally unique EX-0001–EX-2085, 16-pattern vocabulary, anatomy inference, family linkage, axis/order affinity. CX-37: `scripts/generate-exercise-content.py` + 197 files in `exercise-content/` (push/pull/legs/plus/ultra). CX-38: 4 engine files in `middle-math/exercise-engine/` (family-trees, substitution-map, sport-tags, anatomy-index). CX-39: `external-refs.json` (2,085 null docks) + `seeds/exrx-partnership-brief.md`. CX-40: `sql/009-exercise-registry.sql` + `sql/010-exercise-knowledge.sql` + README updated. Wave 7 (CX-41, CX-42, CX-43) fully unblocked. Known data issue: `movement_pattern` catch-all assigns ~1,256 exercises to `core-stability` — carry/conditioning pattern disambiguation deferred to CX-43 Selector V2.
+- **Session 039 CLOSED (2026-03-06) — Exercise Content Batch 2:** CX-41 DONE via `scripts/generate-exercise-content.py --batch 500`; +298 new files generated (202 skipped), bringing `exercise-content/` to 495 files total across push/pull/legs/plus/ultra. Spot check completed on 3 random files (464–480 words each).
 - **Deck generation priority:** Continue ⛽ Order sweep (10→11→12) or pivot to 🐂 Foundation Order (01→06)? Jake's call.
 - **First CANONICAL review:** Jake has reviewed 0 decks to CANONICAL. When does this happen? Deck 08 is the candidate.
 - **Exercise library versioning:** Still v.0. Version bump criteria undefined. When does v.1 trigger?
