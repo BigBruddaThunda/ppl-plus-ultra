@@ -1,7 +1,8 @@
 ---
 zip: ⛽🏛🪡🟣
 operator: 🤌 facio
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
+updated: 2026-03-06
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -48,6 +49,8 @@ Rest: 2 min between ramp sets.
 ═══════════════════════════════════════
 
 ## 3. 🧈 BREAD & BUTTER
+
+**A. Rack Pull (Below Knee)**
 
 🤌 facio — execute with precision, not volume
 

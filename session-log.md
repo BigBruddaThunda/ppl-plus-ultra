@@ -879,3 +879,31 @@ Work: Envelope pipeline close — CX-25 Vote Weight Integration, CX-30 Envelope 
 **Final state:**
 - Deck 11 fully generated and validated.
 - Global card count now 182/1,680.
+
+---
+
+## Session 044 — 2026-03-06
+
+**Branch:** `claude/exercise-library-expansion-LWTl5`
+**Campaign:** Deck Generation
+**Task completed:** Deck 07 retrofit regen (18 cards)
+
+---
+
+**Work completed:**
+- Processed all 18 Deck 07 cards marked `GENERATED-V2-REGEN-NEEDED` under `cards/⛽-strength/🏛-basics/`.
+- Updated frontmatter status on each retrofit card to `status: GENERATED` and stamped `updated: 2026-03-06`.
+- Cleared Deck 07 retrofit debt marker in `whiteboard.md`: queue moved to DONE and deck status updated from 22/40 ⚠️ to 40/40 ✅.
+
+**Validation run:**
+- `for f in cards/⛽-strength/🏛-basics/*/*.md; do python scripts/validate-card.py "$f"; done`
+- `bash scripts/validate-deck.sh cards/⛽-strength/🏛-basics`
+- `python scripts/audit-exercise-coverage.py cards/⛽-strength/🏛-basics`
+
+**Validation outcomes:**
+- 40/40 Deck 07 cards passed `validate-card.py`.
+- Deck validator summary: all generated cards valid.
+- Exercise coverage audit: no duplicate primary exercises across Deck 07 Type rows.
+
+**Final state:**
+- Deck 07 retrofit debt cleared and all 40 Deck 07 cards now tracked as ✅ on the Negotiosum.

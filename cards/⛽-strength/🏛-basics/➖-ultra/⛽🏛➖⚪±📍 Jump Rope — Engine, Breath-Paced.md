@@ -1,7 +1,8 @@
 ---
 zip: ⛽🏛➖⚪
 operator: 📍 pono
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
+updated: 2026-03-06
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -55,6 +56,8 @@ The intensity is not absent — it is controlled. High output through the nose i
 ═══════════════════════════════════════
 
 ## 3. 🧈 BREAD & BUTTER
+
+**A. Jump Rope (Steady Rhythm, Nasal Breathing)**
 
 📍 pono — four rowing intervals. Nasal breathing throughout. Full rule: if the mouth opens, rest 30 extra seconds before continuing. Do not chase with mouth breathing.
 

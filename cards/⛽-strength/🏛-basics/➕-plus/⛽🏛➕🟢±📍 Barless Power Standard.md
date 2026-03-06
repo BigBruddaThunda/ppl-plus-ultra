@@ -37,7 +37,7 @@ CODE: ⛽🏛➕🟢
 
 Rest: 90 sec
 
-**➕ Explosive Tuck Jump**
+**➕ Explosive Squat Jump**
 
 - 3 × 5 (full triple extension — hips, knees, ankles — tight landing each rep)
 

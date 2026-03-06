@@ -1,7 +1,8 @@
 ---
 zip: ⛽🏛➖🔵
 operator: 🤌 facio
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
+updated: 2026-03-06
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -48,6 +49,8 @@ These splits are personal. The number on the screen is yours alone.
 ═══════════════════════════════════════
 
 ## 3. 🧈 BREAD & BUTTER
+
+**A. Assault Bike Sprint (Structured)**
 
 🤌 facio — execute. Log every split.
 

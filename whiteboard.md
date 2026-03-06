@@ -2,7 +2,7 @@
 
 Last updated: 2026-03-06
 Phase: 2 — Workout Generation + Architecture Expansion
-Cards: 182 / 1,680 (Deck 07: 22/40 ⚠️, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅, Deck 10: 40/40 ✅, Deck 11: 40/40 ✅)
+Cards: 182 / 1,680 (Deck 07: 40/40 ✅, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅, Deck 10: 40/40 ✅, Deck 11: 40/40 ✅)
 Seeds: 49 | Scripts: 28
 CX Containers: 44 defined, 40 complete, 4 open
 
@@ -55,7 +55,7 @@ Systematic, templated, institutional. Follow the pattern.
 | DONE | CX-16 | Deck identity scaffolds (Decks 10–12) | CX-03 ✓ | PR #67 — deck-identity-scaffold.py + 3 identity docs |
 | DONE | CX-33 | GitHub Pages progress dashboard | CX-03 ✓, CX-04 ✓ | Built PR #90 (2026-03-05) — docs/dashboard/ + scripts/build-dashboard-data.py. Reconciled this session. |
 | DONE | CX-40 | Exercise Registry SQL Migration | — | Session 038: `sql/009-exercise-registry.sql`, `sql/010-exercise-knowledge.sql`, `sql/README.md` updated |
-| OPEN | — | Deck 07 retrofit regen queue (18 cards) | — | 18 REGEN-NEEDED cards from Session 021 |
+| DONE | — | Deck 07 retrofit regen queue (18 cards) | — | Deck 07 debt cleared — all 40 cards meet V2 standard. Session 044. |
 | OPEN | — | Operis Contract A/B URL enforcement | — | P1 missing source URLs, P2 missing per-lane URLs |
 | OPEN | — | Re-run Operis V4 pipeline test (2024-07-26) | Contract A/B fix | After URL/schema patching |
 

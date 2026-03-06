@@ -1,7 +1,8 @@
 ---
 zip: ⛽🏛🍗⚪
 operator: 📍 pono
-status: GENERATED-V2-REGEN-NEEDED
+status: GENERATED
+updated: 2026-03-06
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -50,6 +51,8 @@ Rest: 2 min between sets.
 ═══════════════════════════════════════
 
 ## 3. 🧈 BREAD & BUTTER
+
+**A. Barbell Hip Thrust (4-Sec Eccentric)**
 
 📍 pono — this is not easy weight. This is slow weight.
 
