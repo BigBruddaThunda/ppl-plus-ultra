@@ -52,9 +52,9 @@ flowchart TD
   %% Wave 4
   subgraph W4["Wave 4"]
     CX15["CX-15: Exercise Selection Prototype (DONE)"]
-    CX25["CX-25: Vote Weight Integration (OPEN)"]
-    CX29["CX-29: Wilson Audio Route Scaffold (OPEN)"]
-    CX30["CX-30: Envelope Schema & Stamping Prototype (OPEN)"]
+    CX25["CX-25: Vote Weight Integration (DONE)"]
+    CX29["CX-29: Wilson Audio Route Scaffold (DONE)"]
+    CX30["CX-30: Envelope Schema & Stamping Prototype (DONE)"]
   end
 
   %% Wave 5
@@ -158,8 +158,8 @@ flowchart TD
   class CX28,CX32 lusus;
   class CX35 nuntius;
 
-  %% DONE status (26 complete total — CX-15, CX-22, CX-24, CX-26, CX-27 completed Sprint 035)
-  class CX00A,CX02,CX03,CX04,CX05,CX06,CX07,CX08,CX09,CX10,CX11,CX12,CX13,CX14,CX15,CX16,CX20,CX21,CX22,CX23,CX24,CX26,CX27,CX28,CX32,CX33,CX34,CX35 done;
+  %% DONE status (29 complete total — CX-25, CX-29, CX-30 completed Session 036)
+  class CX00A,CX02,CX03,CX04,CX05,CX06,CX07,CX08,CX09,CX10,CX11,CX12,CX13,CX14,CX15,CX16,CX20,CX21,CX22,CX23,CX24,CX25,CX26,CX27,CX28,CX29,CX30,CX32,CX33,CX34,CX35 done;
 ```
 
 ## Legend
@@ -169,7 +169,7 @@ flowchart TD
 | ⚫ | Ordo Operis | Teaching / scaffolding / definitions | 5/2 |
 | 🟢 | Natura Operis | Zero-dependency utilities | 2/1 |
 | 🔵 | Architectura Operis | Structured systems execution | 5/0 |
-| 🟣 | Profundum Operis | Deep precision / engine coupling | 7/11 |
+| 🟣 | Profundum Operis | Deep precision / engine coupling | 10/8 |
 | 🔴 | Fervor Operis | High-output production | 0/0 |
 | 🟠 | Nuntius Operis | Audit and sweep routing | 1/0 |
 | 🟡 | Lusus Operis | Exploratory architecture | 2/0 |
