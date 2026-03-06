@@ -106,6 +106,7 @@ Maximum output, full capacity. Measure throughput.
 | DONE | CX-41 | Exercise Content Batch 2 (201–500) | CX-37 ✓ | Session 039: `python scripts/generate-exercise-content.py --batch 500` → +298 files (495 total in `exercise-content/`) |
 | DONE | CX-42 | Exercise Content Batch 3 (501–1000) | CX-37 ✓ | Session 040: `python scripts/generate-exercise-content.py --batch 1000` → +498 files (993 total in `exercise-content/`) |
 | DONE | — | Exercise Content Batch 4 (1001–1500) | CX-37 ✓ | Session 042: `python scripts/generate-exercise-content.py --batch 1500` → +493 files (1,486 total in `exercise-content/`) |
+| DONE | — | Exercise Content Batch 5 FINAL (1501–2085) | CX-37 ✓ | Session 045: `python scripts/generate-exercise-content.py --batch 2085` → +599 files (2,085 total in `exercise-content/`) |
 | OPEN | — | Deck 07 regen (18 cards) | — | Duplicate primary exercises from pre-identity era |
 | DONE | — | Deck 10 generation (40 cards) | — | ⛽🪐 Strength Challenge complete (40/40) |
 | OPEN | — | Deck 11 generation (40 cards) | Deck 11 identity | ⛽⌛ Strength Time |

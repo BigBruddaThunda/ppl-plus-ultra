@@ -907,3 +907,39 @@ Work: Envelope pipeline close — CX-25 Vote Weight Integration, CX-30 Envelope 
 - Deck 12 fully generated and validated.
 - Global card count now 222/1,680.
 - ⛽ Strength Order complete: 240/1,680 rooms filled.
+
+## Session 045 — 2026-03-06
+
+**Branch:** `claude/exercise-library-expansion-LWTl5`
+**Campaign:** Exercise Library Expansion (Wave 7)
+**Task completed:** Exercise Content Batch 5 FINAL (1501–2085)
+
+---
+
+**Work completed:**
+- Ran `python scripts/generate-exercise-content.py --batch 2085` to finish remaining exercise knowledge files.
+- Initial generation pass produced 581 new files; coverage audit identified 18 missing exercise IDs caused by slug collisions between same-name variants.
+- Updated `scripts/generate-exercise-content.py` to resolve output paths by `exercise_id` and disambiguate collisions with `-ex-####` suffixes.
+- Re-ran `python scripts/generate-exercise-content.py --batch 2085`; generator wrote the 18 missing files.
+- Confirmed full coverage at 2,085/2,085 and verified distribution across all five type directories.
+- Spot-checked 3 random files for completeness and expected content length:
+  - `exercise-content/plus/step-and-throw-forward.md` (451 words)
+  - `exercise-content/push/9090-external-rotation.md` (441 words)
+  - `exercise-content/pull/diaphragmatic-breathing-pelvic-floor-coordination.md` (470 words)
+
+**Validation run:**
+- `python scripts/generate-exercise-content.py --batch 2085`
+- `python scripts/generate-exercise-content.py --stats`
+- `for d in push pull legs plus ultra; do find exercise-content/$d -type f -name '*.md' | wc -l; done`
+- Coverage integrity audit (registry IDs vs file frontmatter IDs) via ad-hoc Python check
+- Manual content review (`sed` + `wc -w`) on 3 random files
+
+**Validation outcomes:**
+- Final batch summary: all remaining files generated; coverage complete after collision-safe path fix.
+- Stats summary: `Registry entries: 2085`, `Files written: 2085`, `Coverage: 100.0%`.
+- Type distribution: push (575), pull (505), legs (280), plus (650), ultra (75).
+- Spot-check files include full template sections and remain in expected ~400–500 word range.
+
+**Tracking updated:** `whiteboard.md`
+
+**Final state:** Exercise content knowledge library is complete at 2,085/2,085 files (100% coverage).
