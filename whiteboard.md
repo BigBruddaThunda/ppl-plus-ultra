@@ -2,7 +2,7 @@
 
 Last updated: 2026-03-06
 Phase: 2 — Workout Generation + Architecture Expansion
-Cards: 222 / 1,680 (Deck 07: 40/40 ✅, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅, Deck 10: 40/40 ✅, Deck 11: 40/40 ✅, Deck 12: 40/40 ✅)
+Cards: 262 / 1,680 (Deck 01: 40/40 ✅, Deck 07: 40/40 ✅, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅, Deck 10: 40/40 ✅, Deck 11: 40/40 ✅, Deck 12: 40/40 ✅)
 Seeds: 49 | Scripts: 28
 CX Containers: 44 defined, 40 complete, 4 open
 
@@ -112,7 +112,7 @@ Maximum output, full capacity. Measure throughput.
 | OPEN | — | Deck 11 generation (40 cards) | Deck 11 identity | ⛽⌛ Strength Time |
 | DONE | — | Deck 12 generation (40 cards) | — | ⛽🐬 Strength Partner complete (40/40) |
 | OPEN | — | Historical events population (366 dates) | CX-02 ✓ | Research-intensive — ~180 hours total, builds incrementally |
-| OPEN | — | Remaining 37 decks (1,478 cards) | Ongoing | Foundation Order next? Jake's call |
+| OPEN | — | Remaining 36 decks (1,418 cards) | Ongoing | Deck 01 complete (40/40). Continue Foundation sweep. |
 
 ---
 

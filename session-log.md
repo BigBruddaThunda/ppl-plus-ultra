@@ -970,3 +970,29 @@ Work: Envelope pipeline close — CX-25 Vote Weight Integration, CX-30 Envelope 
 - Coverage audit: no duplicate primary exercises in Deck 07.
 
 **Final state:** Deck 07 debt cleared — all 40 cards meet V2 standard.
+
+## Session 047 — 2026-03-06
+
+**Branch:** `claude/exercise-library-expansion-LWTl5`
+**Campaign:** Deck Generation
+**Task completed:** Deck 01 (🐂🏛 Foundation Basics) identity + 40 cards
+
+---
+
+**Work completed:**
+- Completed `deck-identities/deck-01-identity.md` from scaffold to full deck identity with philosophy, Type×Color coverage map, color differentiation logic, complete primary exercise mapping for all 40 zip codes, and all 40 zip identity lines.
+- Generated all 40 Deck 01 cards in `cards/🐂-foundation/🏛-basics/` from stubs to full workout cards and renamed each to semantic filename format `[zip]±[operator] [Title].md`.
+- Updated card frontmatter statuses to `GENERATED` and embedded Foundation constraints (≤65%, 8–15 reps, 60–90s rest, difficulty ceiling 2/5).
+- Updated `whiteboard.md` card totals and progress to include Deck 01 complete (40/40), moving global count to 262/1,680.
+
+**Validation run:**
+- `bash scripts/validate-deck.sh cards/🐂-foundation/🏛-basics`
+- `python scripts/audit-exercise-coverage.py cards/🐂-foundation/🏛-basics`
+
+**Validation outcomes:**
+- Deck validator summary: 40 passed, 0 failed, 0 stubs skipped.
+- Exercise coverage audit: no duplicate primary exercises across Type rows.
+
+**Final state:**
+- Deck 01 complete and validated.
+- Global card count now 262/1,680.
