@@ -1,80 +1,76 @@
-# Codex Next-Round Handoff Brief (Post Engine Coupling Session — 2026-03-05)
+# Codex Next-Round Handoff Brief (Post Critical Path Reconciliation — 2026-03-06)
 
 Use this as the copy/paste kickoff brief for the next Codex container run.
 
 ## 1) What Just Landed
 
-Engine coupling session (2026-03-05) completed the following:
+Critical path reconciliation session (2026-03-06) completed the following:
 
-- **CX-11 Block Weight Declarations** — DONE · `middle-math/weights/block-weights.md` (790-line working draft, confirmed on disk from prior run)
-- **CX-12 Operator Weight Declarations** — DONE · `middle-math/weights/operator-weights.md` (502-line working draft, confirmed on disk from prior run)
-- **CX-20 Room Schema Extension** — DONE · `sql/008-room-schema-extension.sql` — 4 tables (rooms, room_visits, room_votes, bloom_history), RLS policies, indexes, 1,680-row population
-- **CX-23 Navigation Graph Builder** — DONE · `scripts/build-navigation-graph.py` + `middle-math/navigation-graph.json` — 1,680 nodes × 4 edges = 6,720 directional edges, all passing Type Exclusion Rule validation
-- **CX-33 Progress Dashboard** — DONE · `scripts/build-dashboard-data.py` + `docs/dashboard/index.html` + `docs/dashboard/data/progress.json`
-- **CX-32 Mermaid Dependency Graph** — DONE (prior run, registered this session)
-- **CX-34 Codespaces Dev Container** — DONE (prior run, registered this session)
-- **CX-35 Negotiosum Validator** — DONE (prior run, registered this session)
+- **CX-33 reconciled** — Progress Dashboard (PR #90, 2026-03-05) registered as DONE. Stale tracking corrected.
+- **CX-14 Weight Vector Computation Engine** — DONE · `scripts/middle-math/weight_vector.py` + `middle-math/weight-vectors.json` — 1,680 vectors, 61 dimensions, octave scale [-8,+8], --validate passes, hard suppression rules enforced
+- **CX-21 Content Type Registry** — DONE · `middle-math/content-type-registry.json` — 109 types across 6 axes, cross-floor appearances, operator affinities
+- **CX-28 Cosmogram Content Scaffold** — DONE · `scripts/scaffold_cosmograms.py` + 42 stub files in `deck-cosmograms/deck-01-cosmogram.md` through `deck-cosmograms/deck-42-cosmogram.md`
+- **CLAUDE.md corrected** — Card count: 80/1,680 → 102/1,680
 
 All registrations committed to:
-- `.codex/TASK-ARCHITECTURE.md` — CX-32 through CX-35 added, CX-11 and CX-12 marked DONE
-- `whiteboard.md` — header updated to 36 defined / 16 complete / 20 open
-- `docs/cx-dependency-graph.md` — 4 new nodes, 2 status updates, summary updated
-- `docs/README.md` — expanded from stub to proper index
+- `.codex/TASK-ARCHITECTURE.md` — CX-14, CX-21, CX-28 marked DONE; Wave 4 cascade table added
+- `whiteboard.md` — header: 21 complete, 15 open; cascade notes appended
+- `docs/cx-dependency-graph.md` — CX14, CX21, CX28 added to done class; summary updated 21/36
+- `session-log.md` — Session 034 entry appended
+- `docs/dashboard/data/progress.json` — rebuilt
 
 ## 2) Current State
 
 - Cards: 102/1,680 (Deck 07: 22/40 ⚠️ — 18 REGEN-NEEDED, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅)
-- CX Containers: 36 defined, 16 complete (+ CX-33 if built), 20 open
-- Wave 3: CX-11 ✅, CX-12 ✅ — **CX-14 now fully unblocked**
-- Wave 2: CX-20 ✅, CX-23 ✅ — CX-24 and CX-27 newly unblocked
-- Critical path: **CX-14 → CX-15**
+- CX Containers: 36 defined, 21 complete, 15 open
+- Critical path: **CX-15 → CX-29** (CX-15 fully unblocked: CX-13 ✓, CX-14 ✓)
+- Wave 4 newly unblocked: CX-15, CX-22, CX-25, CX-30
 
 ## 3) Recommended Next Tasks (priority order)
 
-### Task A — CX-14 Weight Vector Computation Engine (CRITICAL PATH)
+### Task A — CX-15 Exercise Selection Prototype (CRITICAL PATH)
 
-**Status:** Newly unblocked. All 5 dependencies met: CX-09 ✓, CX-10 ✓, CX-11 ✓, CX-12 ✓, CX-03 ✓.
+**Status:** Fully unblocked (CX-13 ✓, CX-14 ✓).
 
-Write: `scripts/middle-math/weight_vector.py`
+Write: `scripts/middle-math/exercise_selector.py`
 
-Content: For each zip code (1,680), compute a multi-dimensional weight vector from
-all 5 weight declaration files. The vector encodes the zip's complete training identity
-as a numeric representation for exercise selection.
+Content: Given a zip code, produce a ranked exercise list using weight vectors + exercise library JSON.
+The selector is the engine that automates card generation at scale.
 
 Reads before writing:
-- `middle-math/weights/order-weights.md`
-- `middle-math/weights/axis-weights.md`
-- `middle-math/weights/type-weights.md`
-- `middle-math/weights/color-weights.md`
-- `middle-math/weights/block-weights.md`
-- `middle-math/weights/operator-weights.md`
-- `middle-math/ARCHITECTURE.md` (weight system section)
-- `middle-math/zip-registry.json` (all 1,680 zips)
+- `middle-math/weights/weight-system-spec.md`
+- `middle-math/weight-vectors.json` (1,680 entries)
+- `middle-math/exercise-library.json` (from CX-13)
+- `scripts/middle-math/weight_vector.py` (reuse emoji/numeric conversion)
+- `middle-math/ARCHITECTURE.md`
 
 ---
 
-### Task B — CX-21 Content Type Registry
+### Task B — CX-22 Floor Routing Spec
 
-**Status:** Unblocked (CX-00A ✓). Lightweight but unblocks CX-22 Floor Routing.
+**Status:** Fully unblocked (CX-03 ✓, CX-20 ✓, CX-21 ✓).
 
-Write: `middle-math/content-type-registry.json`
+Write: `middle-math/floor-routing-spec.md`
 
-Content: 109 content types from seeds/content-types-architecture.md → structured JSON.
+Content: Routing rules for each Axis as an app floor. Which content types appear on which floor.
+Cross-floor appearance logic. Navigation between floors.
 
 Reads before writing:
-- `seeds/content-types-architecture.md`
+- `middle-math/content-type-registry.json` (CX-21 output)
 - `seeds/axis-as-app-floors-architecture.md` (if exists)
+- `seeds/elevator-architecture.md`
+- `seeds/content-types-architecture.md`
 
 ---
 
 ### Task C — CX-24 Bloom State Engine
 
-**Status:** Newly unblocked (CX-20 ✓, CX-03 ✓).
+**Status:** Unblocked (CX-20 ✓, CX-03 ✓).
 
 Write: `scripts/middle-math/bloom_engine.py`
 
 Content: Computes bloom level transitions from room_visits history.
-Bloom = depth of engagement, not gamification (see seeds/systems-eudaimonics.md).
+Bloom = depth of engagement, not gamification.
 
 Reads before writing:
 - `sql/008-room-schema-extension.sql` (bloom_history schema)
@@ -83,17 +79,18 @@ Reads before writing:
 
 ---
 
-### Task D — CX-28 Cosmogram Content Scaffold (lightweight)
+### Task D — CX-30 Envelope Schema + Stamping Prototype
 
-**Status:** Unblocked (CX-04 ✓). Low effort — scaffolds 42 stub files.
+**Status:** Fully unblocked (CX-08 ✓, CX-14 ✓, CX-03 ✓).
 
-Write: `scripts/scaffold_cosmograms.py`
-Run: creates `deck-cosmograms/deck-01-cosmogram.md` through `deck-cosmograms/deck-42-cosmogram.md`
+Write: `scripts/middle-math/envelope_stamper.py`
+
+Content: Schema and stamping logic for SCL envelopes. Reads zip + vector, stamps envelope metadata.
 
 Reads before writing:
-- `deck-cosmograms/README.md`
-- `scl-deep/publication-standard.md`
-- `seeds/cosmogram-research-prompt.md`
+- `seeds/scl-envelope-architecture.md`
+- `middle-math/weight-vectors.json` (CX-14 output)
+- `middle-math/zip-registry.json`
 
 ---
 
@@ -113,21 +110,22 @@ Reads before writing:
 - `scl-directory.md`, `exercise-library.md`
 - Any seed file marked "Jake-blocked" in whiteboard Notes
 - Files requiring live web research to populate
+- Cosmogram stubs (status: STUB — awaiting Jake-directed research population)
 
 ## 6) Definition of Done (next session)
 
-- CX-14 weight_vector.py written and computing vectors for all 1,680 zips
-- CX-21 content-type-registry.json populated with 109 entries
-- All completed containers marked DONE in TASK-ARCHITECTURE.md with commit + evidence
-- whiteboard.md updated to reflect new completions
+- CX-15 exercise_selector.py written and producing ranked lists for sample zip codes
+- At least one of CX-22, CX-24, or CX-30 completed
+- All completed containers marked DONE in TASK-ARCHITECTURE.md with evidence
+- whiteboard.md header updated
 - validate-negotiosum.py passes with no mismatches
 
 ## 7) Kickoff Prompt (copy/paste)
 
 "Use `.codex/NEXT-ROUND-HANDOFF.md` as source of truth for this session.
 All items in Section 1 are assumed done and merged.
-Execute Task A (CX-14) as highest priority — all blockers are now met.
-Task B (CX-21) can run in parallel.
-Do not regenerate card content.
+Execute Task A (CX-15) as highest priority — all blockers are met.
+Task B (CX-22) is the next most valuable unlock.
+Do not regenerate card content. Do not populate cosmogram stubs.
 Commit once with a focused PR.
 Update whiteboard.md and TASK-ARCHITECTURE.md before closing."

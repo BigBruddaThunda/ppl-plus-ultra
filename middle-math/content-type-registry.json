@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "CT-001",
+    "name": "The Workout Card",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 1680,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🤌 facio",
+    "description": "The primary content type. 1,680 instances. The room's main offering.",
+    "cross_floor_appearances": [
+      "🏛",
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-002",
+    "name": "The Operis Edition",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🐋 duco",
+    "description": "The daily gazette. One per calendar day.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-003",
+    "name": "The Deck Cosmogram",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 42,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "👀 specio",
+    "description": "Deep research identity document per deck. 42 instances.",
+    "cross_floor_appearances": [
+      "🏛",
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-004",
+    "name": "The Deck Identity",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 42,
+    "order_depth_level": "trivium",
+    "operator_engagement": "📍 pono",
+    "description": "Exercise mapping and generation context per deck. 42 instances.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-005",
+    "name": "The Zip Code Address",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 1680,
+    "order_depth_level": "trivium",
+    "operator_engagement": "📍 pono",
+    "description": "The 4-emoji identifier. 1,680 instances. The address itself as content.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-006",
+    "name": "The Operator Definition",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 12,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🤌 facio",
+    "description": "One of 12 Latin training action verbs. 12 instances.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-007",
+    "name": "The Block Definition",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 22,
+    "order_depth_level": "trivium",
+    "operator_engagement": "📍 pono",
+    "description": "One of 22 session container descriptions. 22 instances.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-008",
+    "name": "The Order Profile",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 7,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🦉 logos",
+    "description": "Full specification for one of 7 Orders. 7 instances.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-009",
+    "name": "The Axis Profile",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 6,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🦉 logos",
+    "description": "Full specification for one of 6 Axes. 6 instances.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-010",
+    "name": "The Type Profile",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 5,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🦉 logos",
+    "description": "Full specification for one of 5 Types. 5 instances.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-011",
+    "name": "The Color Profile",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 8,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🦉 logos",
+    "description": "Full specification for one of 8 Colors. 8 instances.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-012",
+    "name": "The Deck Campaign Status",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 42,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "Progress report per deck (cosmogram/identity/cards/audit/CANONICAL). 42 instances.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-013",
+    "name": "The Generation Log",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "Record of a card generation session. One per session.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-014",
+    "name": "The Validation Report",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "👀 specio",
+    "description": "Output of validate-card.py. One per card check.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-015",
+    "name": "The Audit Report",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "👀 specio",
+    "description": "Output of deck-auditor subagent. One per deck audit.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-016",
+    "name": "The Progress Dashboard",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "Output of progress-report.py. Current state of the 1,680-room build.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-017",
+    "name": "The CLAUDE.md",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "📍 pono",
+    "description": "The agent's operating context. One instance, continuously updated.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-018",
+    "name": "The Whiteboard",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "📍 pono",
+    "description": "The project's short-term working memory. One instance, continuously updated.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-019",
+    "name": "The README",
+    "axis": "🏛",
+    "axis_name": "Firmitas",
+    "primary_floor": "Piano Nobile",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🤌 facio",
+    "description": "Public-facing project documentation. One instance.",
+    "cross_floor_appearances": [
+      "🏛"
+    ]
+  },
+  {
+    "id": "CT-020",
+    "name": "The Exercise Library Entry",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 2185,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🧲 capio",
+    "description": "One exercise with full SCL metadata. ~2,185 instances.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-021",
+    "name": "The Section Header",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 17,
+    "order_depth_level": "trivium",
+    "operator_engagement": "📍 pono",
+    "description": "One of 17 exercise library sections (A–Q) with routing rules.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-022",
+    "name": "The Zip-Web Pod",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 42,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🧸 fero",
+    "description": "Navigation graph for one deck. 42 instances.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-023",
+    "name": "The Zip-Web Signature",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1680,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🧸 fero",
+    "description": "Fatigue and routing metadata for one zip code. 1,680 instances.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-024",
+    "name": "The Seed Document",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": null,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🚀 mitto",
+    "description": "Architectural idea planted for future phases. Current count: 11+.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-025",
+    "name": "The Skill Definition",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 5,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🧸 fero",
+    "description": "One of 5 Claude Code skills. Invoke syntax, steps, output spec.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-026",
+    "name": "The Subagent Definition",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 3,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🧸 fero",
+    "description": "One of 3 subagent types. Model, purpose, tool access.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-027",
+    "name": "The Hook Configuration",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 3,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "One of 3 hooks (PostToolUse, SessionStart, compact). Trigger and action.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-028",
+    "name": "The Script",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🥨 tendo",
+    "description": "One deterministic validation or reporting tool. Current count: 4.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-029",
+    "name": "The Ralph Loop",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🧸 fero",
+    "description": "Batch generation configuration. Single instance.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-030",
+    "name": "The Codex Agent Definition",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 4,
+    "order_depth_level": "trivium",
+    "operator_engagement": "📍 pono",
+    "description": "One of 4 Codex agent configurations.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-031",
+    "name": "The SCL Directory",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🦉 logos",
+    "description": "Compiled operational reference. Single instance.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-032",
+    "name": "The Exercise Library Version",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "A tagged release of exercise-library.md.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-033",
+    "name": "The Deck Identity Template",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "📍 pono",
+    "description": "The blank template for new identity documents.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-034",
+    "name": "The Naming Convention Document",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "📍 pono",
+    "description": "The card title rules. Single instance.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-035",
+    "name": "The Frontmatter Schema",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "The YAML shape for card stub validation. Planned.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-036",
+    "name": "The Linter Configuration",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "📍 pono",
+    "description": "markdownlint-cli2 config. Planned.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-037",
+    "name": "The CI Workflow",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🥨 tendo",
+    "description": "GitHub Actions validation pipeline. Planned.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-038",
+    "name": "The Cosmogram Research Prompt",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "👀 specio",
+    "description": "The research template for deck cosmogram generation.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-039",
+    "name": "The Publication Standard",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "📍 pono",
+    "description": "The editorial voice document. Single instance. Also lives on 🪐 floor.",
+    "cross_floor_appearances": [
+      "🔨",
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-040",
+    "name": "The Emoji Macro Reference",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "👀 specio",
+    "description": "61-emoji deep cultural/historical reference. Drafted.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-041",
+    "name": "The 1RM Calculator",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🥨 tendo",
+    "description": "User-facing tool. Phase 4/5.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-042",
+    "name": "The Volume Calculator",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🥨 tendo",
+    "description": "User-facing tool. Phase 4/5.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-043",
+    "name": "The Plate Calculator",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🥨 tendo",
+    "description": "User-facing tool. Phase 4/5.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-044",
+    "name": "The Rest Timer",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "⌛ duco",
+    "description": "User-facing tool. Phase 4/5.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-045",
+    "name": "The EMOM Timer",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🐋 duco",
+    "description": "User-facing tool. Phase 4/5.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-046",
+    "name": "The AMRAP Timer",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🐋 duco",
+    "description": "User-facing tool. Phase 4/5.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-047",
+    "name": "The Stopwatch",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🐋 duco",
+    "description": "User-facing tool. Phase 4/5.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-048",
+    "name": "The Zip Dial UI",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "📍 pono",
+    "description": "4-dial elevator panel. Phase 4/5.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-049",
+    "name": "The Zip Search",
+    "axis": "🔨",
+    "axis_name": "Utilitas",
+    "primary_floor": "Ground Floor",
+    "instance_count": 1,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🧲 capio",
+    "description": "Address search interface. Phase 4/5.",
+    "cross_floor_appearances": [
+      "🔨"
+    ]
+  },
+  {
+    "id": "CT-050",
+    "name": "The Workout Log",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "User's completed session record at a specific zip code.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-051",
+    "name": "The Set Log",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "One logged set within a workout log (exercise, weight, reps, notes).",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-052",
+    "name": "The Saved Room",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🪵 teneo",
+    "description": "A bookmarked zip code in the user's personal collection.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-053",
+    "name": "The Collection Tag",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "📍 pono",
+    "description": "User-defined category for saved rooms.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-054",
+    "name": "The Personal Note",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "Free-text annotation on a saved room.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-055",
+    "name": "The Session Rating",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "👀 specio",
+    "description": "1–10 score attached to a completed workout log.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-056",
+    "name": "The Progress Photo",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "👀 specio",
+    "description": "Timestamped image in the user's 🌹 floor history.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-057",
+    "name": "The Trophy",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🪵 teneo",
+    "description": "Earned milestone marker (streak, first visit, first save, etc.).",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-058",
+    "name": "The Streak Record",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🪵 teneo",
+    "description": "Continuous training day counter.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-059",
+    "name": "The Personal PR",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🚀 mitto",
+    "description": "User's personal record at a specific exercise.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-060",
+    "name": "The Body Metric",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "Logged weight, measurements, or other quantified data.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-061",
+    "name": "The Aesthetic Goal",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "👀 specio",
+    "description": "A user-stated visual or appearance objective (private by default).",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-062",
+    "name": "The Room Bloom Entry",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🧲 capio",
+    "description": "The enriched history layer that accumulates with repeated visits to a zip code.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-063",
+    "name": "The Custom Room Name",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "📍 pono",
+    "description": "User's personal label for a saved zip code.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-064",
+    "name": "The Program Enrollment",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🥨 tendo",
+    "description": "A user's active assignment to a guided tour (program).",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-065",
+    "name": "The Program Progress Marker",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "The current position in an enrolled program.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-066",
+    "name": "The Personal Almanac",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🐋 duco",
+    "description": "The user's full training history organized as a calendar.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-067",
+    "name": "The Before/After Pair",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "👀 specio",
+    "description": "Matched progress photos across a time span.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-068",
+    "name": "The Training Volume Summary",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "Aggregated sets/reps/load across a period.",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-069",
+    "name": "The Preferred Zip List",
+    "axis": "🌹",
+    "axis_name": "Venustas",
+    "primary_floor": "4th Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🪵 teneo",
+    "description": "User's self-identified favorite addresses (powers recommendations).",
+    "cross_floor_appearances": [
+      "🌹"
+    ]
+  },
+  {
+    "id": "CT-070",
+    "name": "The Cosmogram Body",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 42,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "👀 specio",
+    "description": "The main research content of a deck cosmogram (history, culture, architecture).",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-071",
+    "name": "The Cosmogram Annotation",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": null,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "A supplemental note attached to a cosmogram by Jake or the editorial team.",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-072",
+    "name": "The Emoji Macro Entry",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 61,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "👀 specio",
+    "description": "One emoji's deep cultural, historical, and symbolic reference document.",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-073",
+    "name": "The Order Science Document",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 7,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🦉 logos",
+    "description": "Full periodization science for one Order (from scl-deep/order-parameters.md).",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-074",
+    "name": "The Axis Specification",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 6,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🦉 logos",
+    "description": "Full dual-layer specification for one Axis (from scl-deep/axis-specifications.md).",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-075",
+    "name": "The Color Context Entry",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 8,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🦉 logos",
+    "description": "One color's tonal communication system documentation.",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-076",
+    "name": "The Publication Standard",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "📍 pono",
+    "description": "The voice of the institution. Also listed under 🔨 (Tools) — polysemic type.",
+    "cross_floor_appearances": [
+      "🔨",
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-077",
+    "name": "The Platform Architecture Document",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🦉 logos",
+    "description": "The V2 full system specification.",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-078",
+    "name": "The Elevator Architecture Seed",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🦉 logos",
+    "description": "The spatial model document.",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-079",
+    "name": "The Operis Architecture Seed",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🦉 logos",
+    "description": "The editorial publication specification. Supersedes The Daily Architecture Seed.",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-080",
+    "name": "The Default Rotation Engine Seed",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🐋 duco",
+    "description": "The deterministic zip selection algorithm.",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-081",
+    "name": "The Almanac Macro Operators Seed",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🐋 duco",
+    "description": "The 12-month operator calendar.",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-082",
+    "name": "The Axis-as-App-Floors Seed",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🦉 logos",
+    "description": "The dual function specification.",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-083",
+    "name": "The Junction Community Seed",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🦉 logos",
+    "description": "The social layer specification.",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-084",
+    "name": "The Room Bloom Seed",
+    "axis": "🪐",
+    "axis_name": "Gravitas",
+    "primary_floor": "5th Floor",
+    "instance_count": 1,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🧲 capio",
+    "description": "The residency enrichment specification.",
+    "cross_floor_appearances": [
+      "🪐"
+    ]
+  },
+  {
+    "id": "CT-085",
+    "name": "The Operis Edition Archive",
+    "axis": "⌛",
+    "axis_name": "Temporitas",
+    "primary_floor": "2nd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🐋 duco",
+    "description": "A past edition's full content, browsable by date.",
+    "cross_floor_appearances": [
+      "⌛"
+    ]
+  },
+  {
+    "id": "CT-086",
+    "name": "The Season Report",
+    "axis": "⌛",
+    "axis_name": "Temporitas",
+    "primary_floor": "2nd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🐋 duco",
+    "description": "Current Order displayed relative to calendar and astronomical position.",
+    "cross_floor_appearances": [
+      "⌛"
+    ]
+  },
+  {
+    "id": "CT-087",
+    "name": "The Monthly Operator Summary",
+    "axis": "⌛",
+    "axis_name": "Temporitas",
+    "primary_floor": "2nd Floor",
+    "instance_count": 12,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "Which Latin operator governs the current month.",
+    "cross_floor_appearances": [
+      "⌛"
+    ]
+  },
+  {
+    "id": "CT-088",
+    "name": "The Weekly Cadence Display",
+    "axis": "⌛",
+    "axis_name": "Temporitas",
+    "primary_floor": "2nd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🐋 duco",
+    "description": "The 7-day Order rotation made visible (Mon 🐂 → Sun 🖼).",
+    "cross_floor_appearances": [
+      "⌛"
+    ]
+  },
+  {
+    "id": "CT-089",
+    "name": "The Training History View",
+    "axis": "⌛",
+    "axis_name": "Temporitas",
+    "primary_floor": "2nd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "👀 specio",
+    "description": "User's past workouts at a specific zip code, ordered by date.",
+    "cross_floor_appearances": [
+      "⌛"
+    ]
+  },
+  {
+    "id": "CT-090",
+    "name": "The Equinox/Solstice Notice",
+    "axis": "⌛",
+    "axis_name": "Temporitas",
+    "primary_floor": "2nd Floor",
+    "instance_count": 4,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🐋 duco",
+    "description": "Seasonal threshold announcement.",
+    "cross_floor_appearances": [
+      "⌛"
+    ]
+  },
+  {
+    "id": "CT-091",
+    "name": "The Moon Phase Display",
+    "axis": "⌛",
+    "axis_name": "Temporitas",
+    "primary_floor": "2nd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🐋 duco",
+    "description": "Current lunar position with zip code mapping.",
+    "cross_floor_appearances": [
+      "⌛"
+    ]
+  },
+  {
+    "id": "CT-092",
+    "name": "The Historical Events Database Entry",
+    "axis": "⌛",
+    "axis_name": "Temporitas",
+    "primary_floor": "2nd Floor",
+    "instance_count": 365,
+    "order_depth_level": "trivium",
+    "operator_engagement": "✒️ grapho",
+    "description": "One date's events file (365 total, used by the Operis).",
+    "cross_floor_appearances": [
+      "⌛"
+    ]
+  },
+  {
+    "id": "CT-093",
+    "name": "The Astronomical Data Feed",
+    "axis": "⌛",
+    "axis_name": "Temporitas",
+    "primary_floor": "2nd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🐋 duco",
+    "description": "Calculable celestial data for ▶️ Primer content.",
+    "cross_floor_appearances": [
+      "⌛"
+    ]
+  },
+  {
+    "id": "CT-094",
+    "name": "The Cultural Calendar Entry",
+    "axis": "⌛",
+    "axis_name": "Temporitas",
+    "primary_floor": "2nd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🧲 capio",
+    "description": "A notable date with zip code mapping (quarterly curation).",
+    "cross_floor_appearances": [
+      "⌛"
+    ]
+  },
+  {
+    "id": "CT-095",
+    "name": "The Program Week View",
+    "axis": "⌛",
+    "axis_name": "Temporitas",
+    "primary_floor": "2nd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🐋 duco",
+    "description": "The current week's room sequence in an enrolled program.",
+    "cross_floor_appearances": [
+      "⌛"
+    ]
+  },
+  {
+    "id": "CT-096",
+    "name": "The Seasonal Guide",
+    "axis": "⌛",
+    "axis_name": "Temporitas",
+    "primary_floor": "2nd Floor",
+    "instance_count": 7,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🐋 duco",
+    "description": "A long-form essay about one Order's season (Phase 4/5 content).",
+    "cross_floor_appearances": [
+      "⌛"
+    ]
+  },
+  {
+    "id": "CT-097",
+    "name": "The Training Age Estimate",
+    "axis": "⌛",
+    "axis_name": "Temporitas",
+    "primary_floor": "2nd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🦉 logos",
+    "description": "A derived label for user's position in the system's curriculum.",
+    "cross_floor_appearances": [
+      "⌛"
+    ]
+  },
+  {
+    "id": "CT-098",
+    "name": "The Room Thread",
+    "axis": "🐬",
+    "axis_name": "Sociatas",
+    "primary_floor": "3rd Floor",
+    "instance_count": 1680,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🦉 logos",
+    "description": "A per-zip-code community discussion thread on the 🐬 floor.",
+    "cross_floor_appearances": [
+      "🐬"
+    ]
+  },
+  {
+    "id": "CT-099",
+    "name": "The Thread Post",
+    "axis": "🐬",
+    "axis_name": "Sociatas",
+    "primary_floor": "3rd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🦉 logos",
+    "description": "A user contribution to a room thread.",
+    "cross_floor_appearances": [
+      "🐬"
+    ]
+  },
+  {
+    "id": "CT-100",
+    "name": "The Forum Channel",
+    "axis": "🐬",
+    "axis_name": "Sociatas",
+    "primary_floor": "3rd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🦉 logos",
+    "description": "A broader topic-based discussion space (not zip-specific).",
+    "cross_floor_appearances": [
+      "🐬"
+    ]
+  },
+  {
+    "id": "CT-101",
+    "name": "The Forum Post",
+    "axis": "🐬",
+    "axis_name": "Sociatas",
+    "primary_floor": "3rd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🦉 logos",
+    "description": "A user contribution to a forum channel.",
+    "cross_floor_appearances": [
+      "🐬"
+    ]
+  },
+  {
+    "id": "CT-102",
+    "name": "The Forum Comment",
+    "axis": "🐬",
+    "axis_name": "Sociatas",
+    "primary_floor": "3rd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🦉 logos",
+    "description": "A reply to a forum post.",
+    "cross_floor_appearances": [
+      "🐬"
+    ]
+  },
+  {
+    "id": "CT-103",
+    "name": "The Direct Message",
+    "axis": "🐬",
+    "axis_name": "Sociatas",
+    "primary_floor": "3rd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🧲 capio",
+    "description": "Tier 2 coaching channel between user and Jake.",
+    "cross_floor_appearances": [
+      "🐬"
+    ]
+  },
+  {
+    "id": "CT-104",
+    "name": "The Coaching Note",
+    "axis": "🐬",
+    "axis_name": "Sociatas",
+    "primary_floor": "3rd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🧸 fero",
+    "description": "Jake's asynchronous feedback attached to a user's workout log (Tier 2).",
+    "cross_floor_appearances": [
+      "🐬"
+    ]
+  },
+  {
+    "id": "CT-105",
+    "name": "The Form Video",
+    "axis": "🐬",
+    "axis_name": "Sociatas",
+    "primary_floor": "3rd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "👀 specio",
+    "description": "A user-submitted video attached to a thread or DM for coaching review.",
+    "cross_floor_appearances": [
+      "🐬"
+    ]
+  },
+  {
+    "id": "CT-106",
+    "name": "The Station Rotation Prompt",
+    "axis": "🐬",
+    "axis_name": "Sociatas",
+    "primary_floor": "3rd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🤌 facio",
+    "description": "The 🐬 Axis card format where two users alternate stations.",
+    "cross_floor_appearances": [
+      "🐬"
+    ]
+  },
+  {
+    "id": "CT-107",
+    "name": "The Partner Workout Agreement",
+    "axis": "🐬",
+    "axis_name": "Sociatas",
+    "primary_floor": "3rd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🧲 capio",
+    "description": "The shared session setup for synchronized training at one zip code.",
+    "cross_floor_appearances": [
+      "🐬"
+    ]
+  },
+  {
+    "id": "CT-108",
+    "name": "The Community Milestone",
+    "axis": "🐬",
+    "axis_name": "Sociatas",
+    "primary_floor": "3rd Floor",
+    "instance_count": null,
+    "order_depth_level": "trivium",
+    "operator_engagement": "🪵 teneo",
+    "description": "A shared achievement visible to all users at a zip code.",
+    "cross_floor_appearances": [
+      "🐬"
+    ]
+  },
+  {
+    "id": "CT-109",
+    "name": "The Coaching Program Template",
+    "axis": "🐬",
+    "axis_name": "Sociatas",
+    "primary_floor": "3rd Floor",
+    "instance_count": null,
+    "order_depth_level": "quadrivium",
+    "operator_engagement": "🥨 tendo",
+    "description": "A Jake-designed program offered to Tier 2 users as a guided tour.",
+    "cross_floor_appearances": [
+      "🐬"
+    ]
+  }
+]

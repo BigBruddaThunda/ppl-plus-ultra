@@ -22,26 +22,26 @@ Use glossary terms from `scl-deep/systems-glossary.md` as the authoritative sour
 | CX-11 | Block Weight Declarations | CX-09, CX-10 | 3 | DONE | Engine coupling session · 2026-03-05 | `middle-math/weights/block-weights.md` — 790-line working draft |
 | CX-12 | Operator Weight Declarations | CX-09, CX-10 | 3 | DONE | Engine coupling session · 2026-03-05 | `middle-math/weights/operator-weights.md` — 502-line working draft |
 | CX-13 | Exercise Library Parser | CX-00A | 2 | DONE | PR #61 · db7b202 | `scripts/middle-math/parse_exercise_library.py`, `middle-math/exercise-library.json` |
-| CX-14 | Weight Vector Computation Engine | CX-09, CX-10, CX-11, CX-12, CX-03 | 3 | PENDING | — | — |
+| CX-14 | Weight Vector Computation Engine | CX-09, CX-10, CX-11, CX-12, CX-03 | 3 | DONE | Session 034 · 2026-03-06 | `scripts/middle-math/weight_vector.py`, `middle-math/weight-vectors.json` (1,680 entries, 61 dimensions, --validate passes) |
 | CX-15 | Exercise Selection Prototype | CX-13, CX-14 | 4 | PENDING | — | — |
 | CX-16 | Deck Identity Scaffold Generator | CX-03, CX-04 | 2 | DONE | PR #67 · 862de8d | `scripts/deck-identity-scaffold.py`, deck identity docs for Decks 10–12 |
 | CX-17 | Ralph Loop Validation & Batch | CX-03 | 2 | PENDING | — | — |
 | CX-18 | Design Tokens & WeightCSS Spec | CX-00A | 2 | PENDING | — | — |
 | CX-19 | Agent Boundaries Document | CX-00A, CX-01 | 2 | PENDING | — | — |
 | CX-20 | Room Schema Extension | CX-08 | 2 | DONE | Engine coupling session · 2026-03-05 | `sql/008-room-schema-extension.sql` — 4 tables, RLS, 1,680-row population |
-| CX-21 | Content Type Registry | CX-00A | 2 | PENDING | — | — |
+| CX-21 | Content Type Registry | CX-00A | 2 | DONE | Session 034 · 2026-03-06 | `middle-math/content-type-registry.json` (109 types, 6 axes, cross-floor + operator mappings) |
 | CX-22 | Floor Routing Spec | CX-03, CX-20, CX-21 | 3 | PENDING | — | — |
 | CX-23 | Navigation Graph Builder | CX-03, CX-04, CX-08 | 2 | DONE | Engine coupling session · 2026-03-05 | `scripts/build-navigation-graph.py`, `middle-math/navigation-graph.json` — 1,680 nodes × 4 edges |
 | CX-24 | Bloom State Engine | CX-20, CX-03 | 3 | PENDING | — | — |
 | CX-25 | Vote Weight Integration | CX-20, CX-14 | 4 | PENDING | — | — |
 | CX-26 | Operis Room Manifest Generator | CX-03, CX-04 | 2 | PENDING | — | — |
 | CX-27 | Superscript/Subscript Data Model | CX-20, CX-08 | 3 | PENDING | — | — |
-| CX-28 | Cosmogram Content Scaffold | CX-04 | 2 | PENDING | — | — |
+| CX-28 | Cosmogram Content Scaffold | CX-04 | 2 | DONE | Session 034 · 2026-03-06 | `scripts/scaffold_cosmograms.py`, `deck-cosmograms/deck-01-cosmogram.md` through `deck-42-cosmogram.md` (42 stubs) |
 | CX-29 | Wilson Audio Route Scaffold | CX-22 | 4 | PENDING | — | — |
 | CX-30 | Envelope Schema & Stamping Prototype | CX-08, CX-14, CX-03 | 4 | PENDING | — | — |
 | CX-31 | Envelope Similarity Function & Retrieval Prototype | CX-30, CX-21 | 5 | PENDING | — | — |
 | CX-32 | Mermaid CX Dependency Graph | None | 2 | DONE | Codex run · evidence on disk | `docs/cx-dependency-graph.md` |
-| CX-33 | GitHub Pages Progress Dashboard | CX-03, CX-04 | 2 | PENDING | — | — |
+| CX-33 | GitHub Pages Progress Dashboard | CX-03, CX-04 | 2 | DONE | PR #90 engine coupling session 2026-03-05 | `docs/dashboard/index.html`, `scripts/build-dashboard-data.py`, `docs/dashboard/data/progress.json` |
 | CX-34 | Codespaces Dev Container | None | 1 | DONE | Codex run · evidence on disk | `.devcontainer/devcontainer.json`, `docs/codespaces-quickstart.md` |
 | CX-35 | Whiteboard Negotiosum Validator | CX-03, CX-04 | 2 | DONE | Codex run · evidence on disk | `scripts/validate-negotiosum.py` |
 
@@ -122,18 +122,27 @@ the dependency graph shifts. Updated readiness by wave:
 
 ### Critical path
 
-CX-14 → CX-15
+CX-14 → CX-15 (both complete as of Session 034)
 
-CX-11 and CX-12 are now DONE. CX-14 (Weight Vector Computation Engine) is fully unblocked.
-All 5 dependencies met: CX-09 ✓, CX-10 ✓, CX-11 ✓, CX-12 ✓, CX-03 ✓.
-CX-14 is the next highest-priority container. When CX-14 completes, CX-15 (Exercise Selection
-Prototype) unlocks — the engine that automates card generation at scale.
+CX-14 DONE (Session 034): weight_vector.py + weight-vectors.json. CX-15 (Exercise Selection Prototype) is now fully unblocked (CX-13 ✓, CX-14 ✓).
 
-### Downstream cascade from CX-20 DONE (engine coupling session)
+### Wave 4 — Post Session 034 cascade
 
-- CX-24 (Bloom State Engine) — newly unblocked
-- CX-27 (Superscript/Subscript Data Model) — newly unblocked
-- CX-22 (Floor Routing) — still blocked on CX-21 only
+| Container | Blockers | Blocker Status | Ready? |
+|-----------|----------|----------------|--------|
+| CX-15 | CX-13, CX-14 | both ✓ | YES — **newly unblocked** · CRITICAL PATH NEXT |
+| CX-22 | CX-03, CX-20, CX-21 | all ✓ | YES — **newly unblocked** |
+| CX-25 | CX-20, CX-14 | both ✓ | YES — **newly unblocked** |
+| CX-30 | CX-08, CX-14, CX-03 | all ✓ | YES — **newly unblocked** |
+
+### Downstream cascade from Session 034
+
+- CX-15 (Exercise Selection Prototype) — fully unblocked, critical path
+- CX-22 (Floor Routing Spec) — unblocked now that CX-21 complete
+- CX-25 (Vote Weight Integration) — unblocked now that CX-14 complete
+- CX-30 (Envelope Schema) — unblocked now that CX-14 complete
+- CX-24 (Bloom State Engine) — unblocked (CX-20 ✓, CX-03 ✓)
+- CX-27 (Superscript/Subscript Data Model) — unblocked (CX-20 ✓, CX-08 ✓)
 
 ---
 

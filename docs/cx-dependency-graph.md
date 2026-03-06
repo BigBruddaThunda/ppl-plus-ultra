@@ -158,8 +158,8 @@ flowchart TD
   class CX28,CX32 lusus;
   class CX35 nuntius;
 
-  %% DONE status (16 complete total — includes CX-00B in board tally)
-  class CX00A,CX02,CX03,CX04,CX05,CX06,CX07,CX08,CX09,CX10,CX11,CX12,CX13,CX16,CX20,CX23,CX32,CX34,CX35 done;
+  %% DONE status (21 complete total — CX-14, CX-21, CX-28 completed Session 034)
+  class CX00A,CX02,CX03,CX04,CX05,CX06,CX07,CX08,CX09,CX10,CX11,CX12,CX13,CX14,CX16,CX20,CX21,CX23,CX28,CX32,CX33,CX34,CX35 done;
 ```
 
 ## Legend
@@ -168,11 +168,11 @@ flowchart TD
 |---|---|---|---|
 | ⚫ | Ordo Operis | Teaching / scaffolding / definitions | 5/2 |
 | 🟢 | Natura Operis | Zero-dependency utilities | 2/1 |
-| 🔵 | Architectura Operis | Structured systems execution | 4/1 |
-| 🟣 | Profundum Operis | Deep precision / engine coupling | 5/13 |
+| 🔵 | Architectura Operis | Structured systems execution | 5/0 |
+| 🟣 | Profundum Operis | Deep precision / engine coupling | 7/11 |
 | 🔴 | Fervor Operis | High-output production | 0/0 |
 | 🟠 | Nuntius Operis | Audit and sweep routing | 1/0 |
-| 🟡 | Lusus Operis | Exploratory architecture | 1/1 |
+| 🟡 | Lusus Operis | Exploratory architecture | 2/0 |
 | ⚪ | Eudaimonia Operis | Review and flourishing checks | 0/0 |
 
-16/36 containers complete. Critical path: CX-14 → CX-15 (CX-11 and CX-12 are now DONE)
+21/36 containers complete. CX-14 (Weight Vector Engine), CX-21 (Content Type Registry), CX-28 (Cosmogram Scaffold) completed Session 034. Critical path: CX-15 (Exercise Selection) now fully unblocked. Next wave: CX-22 → CX-29.
