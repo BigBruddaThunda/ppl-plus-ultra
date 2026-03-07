@@ -209,4 +209,29 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 
 ---
 
+## ARCHIDECK LAYER (branch: claude/build-archideck-layer-V47rx)
+
+Status: Infrastructure initialized 2026-03-07. Branch created. No merge to main yet.
+
+The `archideck/` directory contains the meta-architectural operating system:
+- `archideck/KERNEL.md` — Compressed SCL seed (~2,800 words, project-agnostic)
+- `archideck/CONTRACTS.md` — Cross-project Negotiosum switchboard
+- `archideck/AGENT-CONTRACT.md` — Universal agent operating instructions
+- `archideck/CLAUDE.md` — PPL± vs Archideck routing layer
+- `archideck/intake/` — Raw idea landing zone
+- `archideck/projects/` — Project index
+
+New project scaffolds created (intake phase):
+- `projects/graph-parti/` — Graph Parti semantic canvas
+- `projects/story-engine/` — Narrative architecture (intake needed)
+- `projects/civic-atlas/` — Urban design layer (intake needed)
+- `shared/` — Cross-project tools and SCL reference directory
+
+GSD v1.22.4 installed to `.claude/commands/gsd/` and `.codex/skills/` (additive, no existing files overwritten).
+
+PPL± card generation continues on main as normal. When the Archideck branch is stable and tested, it merges to main as an additive layer.
+See: `archideck/CONTRACTS.md` for cross-project switchboard.
+
+---
+
 🧮
