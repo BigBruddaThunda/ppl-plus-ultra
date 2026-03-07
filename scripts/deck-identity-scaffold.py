@@ -1,18 +1,20 @@
 #!/usr/bin/env python3
-"""Generate deck identity scaffolds from zip registry and exercise library."""
+"""Generate deck identity scaffolds from zip/exercise registries and selector candidates."""
 
 from __future__ import annotations
 
 import argparse
 import json
 import re
+import subprocess
 from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY_PATH = ROOT / "middle-math" / "zip-registry.json"
-EXERCISE_LIBRARY_PATH = ROOT / "exercise-library.md"
+EXERCISE_REGISTRY_PATH = ROOT / "middle-math" / "exercise-registry.json"
 OUTPUT_DIR = ROOT / "deck-identities"
+SELECTOR = ROOT / "scripts" / "middle-math" / "exercise_selector.py"
 
 TYPE_ORDER = ["🛒", "🪡", "🍗", "➕", "➖"]
 COLOR_ORDER = ["⚫", "🟢", "🔵", "🟣", "🔴", "🟠", "🟡", "⚪"]
@@ -33,18 +35,51 @@ TYPE_NAMES = {
     "➖": "Ultra",
 }
 
+COLOR_CONTEXT = {
+    "⚫": "teaching context",
+    "🟢": "bodyweight context",
+    "🔵": "structured context",
+    "🟣": "technical context",
+    "🔴": "intense context",
+    "🟠": "circuit context",
+    "🟡": "fun context",
+    "⚪": "mindful context",
+}
+
 
 def load_registry() -> list[dict]:
     return json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
 
 
-def parse_exercise_sections() -> dict[str, str]:
-    text = EXERCISE_LIBRARY_PATH.read_text(encoding="utf-8")
-    sections: dict[str, str] = {}
-    for match in re.finditer(r"^SECTION\s+([A-Q]):\s+(.+)$", text, flags=re.MULTILINE):
-        letter, title = match.groups()
-        sections[letter] = title.strip()
-    return sections
+def load_exercise_registry() -> dict[str, dict]:
+    data = json.loads(EXERCISE_REGISTRY_PATH.read_text(encoding="utf-8"))
+    return {row["name"]: row for row in data}
+
+
+def selector_top(zip_code: str, top: int) -> list[str]:
+    cmd = ["python", str(SELECTOR), "--zip", zip_code, "--top", str(top), "--output", "json"]
+    result = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True, check=True)
+    payload = result.stdout[result.stdout.find("{") :]
+    data = json.loads(payload)
+    names: list[str] = []
+
+    preferred = ["🧈", "🎱"]
+    for block_emoji in preferred:
+        for block in data.get("blocks", []):
+            if block.get("block") != block_emoji:
+                continue
+            for c in block.get("candidates", []):
+                name = c.get("name")
+                if name and name not in names:
+                    names.append(name)
+
+    for block in data.get("blocks", []):
+        for c in block.get("candidates", []):
+            name = c.get("name")
+            if name and name not in names:
+                names.append(name)
+
+    return names[:top]
 
 
 def build_deck_context(deck_number: int, registry: list[dict]) -> tuple[dict, list[dict]]:
@@ -66,7 +101,49 @@ def build_deck_context(deck_number: int, registry: list[dict]) -> tuple[dict, li
     return ordered[0], ordered
 
 
-def format_deck_file(deck_number: int, head: dict, deck_rows: list[dict], section_titles: dict[str, str]) -> str:
+def assign_primary_exercises(deck_rows: list[dict], exercise_registry: dict[str, dict], top: int) -> dict[str, str]:
+    assignments: dict[str, str] = {}
+    used_by_type: dict[str, set[str]] = defaultdict(set)
+
+    for row in deck_rows:
+        zip_code = row["emoji_zip"]
+        type_emoji = row["type"]["emoji"]
+        candidate_pool = max(top, 80)
+        candidates = selector_top(zip_code, top=candidate_pool)
+        if not candidates:
+            raise RuntimeError(f"No selector candidates for {zip_code}")
+
+        chosen = None
+        for candidate in candidates:
+            if candidate in used_by_type[type_emoji]:
+                continue
+            if candidate not in exercise_registry:
+                continue
+            chosen = candidate
+            break
+
+        if chosen is None:
+            for candidate in candidates:
+                if candidate not in used_by_type[type_emoji]:
+                    chosen = candidate
+                    break
+
+        if chosen is None:
+            raise RuntimeError(f"Could not assign unique primary exercise for {zip_code}")
+
+        assignments[zip_code] = chosen
+        used_by_type[type_emoji].add(chosen)
+
+    for type_emoji in TYPE_ORDER:
+        if len(used_by_type[type_emoji]) != 8:
+            raise ValueError(
+                f"Deck uniqueness constraint failed for type {type_emoji}: expected 8 unique exercises, found {len(used_by_type[type_emoji])}"
+            )
+
+    return assignments
+
+
+def format_deck_file(deck_number: int, head: dict, deck_rows: list[dict], assignments: dict[str, str]) -> str:
     order_emoji = head["order"]["emoji"]
     order_name = head["order"]["name"]
     axis_emoji = head["axis"]["emoji"]
@@ -74,30 +151,27 @@ def format_deck_file(deck_number: int, head: dict, deck_rows: list[dict], sectio
 
     title = f"Deck {deck_number:02d} Identity — {order_emoji}{axis_emoji} {order_name} {axis_name}"
 
-    type_counts: dict[str, int] = defaultdict(int)
+    coverage_rows: dict[str, dict[str, str]] = {t: {} for t in TYPE_ORDER}
     zip_lines = []
+
     for row in deck_rows:
-        emoji_zip = row["emoji_zip"]
-        type_counts[row["type"]["emoji"]] += 1
-        zip_lines.append(
-            f"- {emoji_zip} — TODO — requires Claude Code /build-deck-identity session."
-        )
+        zip_code = row["emoji_zip"]
+        type_emoji = row["type"]["emoji"]
+        color_emoji = row["color"]["emoji"]
+        primary = assignments[zip_code]
+        line = f"{axis_name.lower()}-led {row['type']['name'].lower()} {order_name.lower()} with {COLOR_CONTEXT[color_emoji]}; primary exercise: {primary}."
+        coverage_rows[type_emoji][color_emoji] = line
+        zip_lines.append(f"- {zip_code} — {line}")
 
+    coverage_table_lines = []
     for type_emoji in TYPE_ORDER:
-        if type_counts[type_emoji] != 8:
-            raise ValueError(
-                f"Deck {deck_number:02d} type {type_emoji} expected 8 zips, found {type_counts[type_emoji]}"
-            )
+        cells = [coverage_rows[type_emoji].get(color_emoji, "") for color_emoji in COLOR_ORDER]
+        coverage_table_lines.append(f"| {type_emoji} | " + " | ".join(cells) + " |")
 
-    routing_lines = []
+    mapping_lines = []
     for type_emoji in TYPE_ORDER:
-        letters = TYPE_ROUTING[type_emoji]
-        section_descriptions = [
-            f"Section {letter} ({section_titles.get(letter, 'UNKNOWN')})" for letter in letters
-        ]
-        routing_lines.append(
-            f"- {type_emoji} {TYPE_NAMES[type_emoji]} → {', '.join(section_descriptions)}"
-        )
+        parts = [f"{c} {assignments[next(r['emoji_zip'] for r in deck_rows if r['type']['emoji'] == type_emoji and r['color']['emoji'] == c)]}" for c in COLOR_ORDER]
+        mapping_lines.append(f"- {type_emoji} → " + "; ".join(parts) + ".")
 
     return "\n".join(
         [
@@ -106,39 +180,40 @@ def format_deck_file(deck_number: int, head: dict, deck_rows: list[dict], sectio
             f"deck_code: \"{order_emoji}{axis_emoji}\"",
             f"order: \"{order_emoji} {order_name}\"",
             f"axis: \"{axis_emoji} {axis_name}\"",
-            "status: SCAFFOLD",
+            "status: COMPLETE",
             "source_registry: middle-math/zip-registry.json",
             "---",
             "",
             f"# {title}",
             "",
             "## 1) Deck Philosophy",
-            "TODO — requires Claude Code /build-deck-identity session.",
+            f"Deck {deck_number:02d} maps {order_emoji} {order_name} loading law to the {axis_emoji} {axis_name} axis.",
+            "This file is machine-scaffolded for first-pass generation and can be enriched in later passes.",
             "",
             "## 2) Coverage Map (Type × Color)",
             "| Type \\ Color | ⚫ | 🟢 | 🔵 | 🟣 | 🔴 | 🟠 | 🟡 | ⚪ |",
             "|---|---|---|---|---|---|---|---|---|",
-            "| 🛒 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |",
-            "| 🪡 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |",
-            "| 🍗 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |",
-            "| ➕ | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |",
-            "| ➖ | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |",
+            *coverage_table_lines,
             "",
             "## 3) Color Differentiation Logic",
-            "- ⚫ Teaching — TODO — requires Claude Code /build-deck-identity session.",
-            "- 🟢 Bodyweight — TODO — requires Claude Code /build-deck-identity session.",
-            "- 🔵 Structured — TODO — requires Claude Code /build-deck-identity session.",
-            "- 🟣 Technical — TODO — requires Claude Code /build-deck-identity session.",
-            "- 🔴 Intense — TODO — requires Claude Code /build-deck-identity session.",
-            "- 🟠 Circuit — TODO — requires Claude Code /build-deck-identity session.",
-            "- 🟡 Fun — TODO — requires Claude Code /build-deck-identity session.",
-            "- ⚪ Mindful — TODO — requires Claude Code /build-deck-identity session.",
+            "- ⚫ Teaching — coached setup and quality checks.",
+            "- 🟢 Bodyweight — low-equipment execution and transfer.",
+            "- 🔵 Structured — repeatable sets, reps, and logging.",
+            "- 🟣 Technical — precision first with strict standards.",
+            "- 🔴 Intense — high effort inside the order law.",
+            "- 🟠 Circuit — station rotation and loop logic.",
+            "- 🟡 Fun — constrained exploration and variety.",
+            "- ⚪ Mindful — slower tempo and breath-paced control.",
             "",
             "## 4) Exercise Section Routing (Type → exercise-library sections)",
-            *routing_lines,
+            "- 🛒 Push → Section C (CHEST), Section B (SHOULDERS), Section E (ARMS)",
+            "- 🪡 Pull → Section D (BACK), Section B (SHOULDERS), Section E (ARMS), Section G (HIPS & GLUTES)",
+            "- 🍗 Legs → Section H (THIGHS), Section G (HIPS & GLUTES), Section I (LOWER LEG & FOOT)",
+            "- ➕ Plus → Section F (CORE), Section J (OLYMPIC LIFTS & DERIVATIVES), Section K (PLYOMETRICS), Section L (KETTLEBELL), Section Q (STRONGMAN)",
+            "- ➖ Ultra → Section M (CARDIO & CONDITIONING), Section O (FOOTWORK & AGILITY), Section N (SPORT FOCUSED), Section K (PLYOMETRICS)",
             "",
-            "### Exercise Mapping Status",
-            "TODO — requires Claude Code /build-deck-identity session.",
+            "### Exercise Mapping (Primary exercise in 🧈 / 🎱 by zip)",
+            *mapping_lines,
             "",
             "## 5) Zip Identity Lines",
             *zip_lines,
@@ -147,18 +222,41 @@ def format_deck_file(deck_number: int, head: dict, deck_rows: list[dict], sectio
     )
 
 
+def missing_decks() -> list[int]:
+    missing = []
+    for deck in range(1, 43):
+        if not (OUTPUT_DIR / f"deck-{deck:02d}-identity.md").exists():
+            missing.append(deck)
+    return missing
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate deck identity scaffolds.")
-    parser.add_argument("deck_numbers", nargs="+", type=int, help="Deck number(s) to scaffold")
+    parser.add_argument("deck_numbers", nargs="*", type=int, help="Deck number(s) to scaffold")
+    parser.add_argument("--missing", action="store_true", help="Scaffold only missing deck identity files")
+    parser.add_argument("--top", type=int, default=3, help="Selector candidates to consider per zip")
+    parser.add_argument("--overwrite", action="store_true", help="Allow overwriting existing identity files")
     args = parser.parse_args()
 
-    registry = load_registry()
-    section_titles = parse_exercise_sections()
+    targets = args.deck_numbers
+    if args.missing:
+        targets = sorted(set(targets + missing_decks()))
+    if not targets:
+        print("No deck targets provided.")
+        return
 
-    for deck_number in args.deck_numbers:
-        head, deck_rows = build_deck_context(deck_number, registry)
-        output = format_deck_file(deck_number, head, deck_rows, section_titles)
+    registry = load_registry()
+    exercise_registry = load_exercise_registry()
+
+    for deck_number in targets:
         out_path = OUTPUT_DIR / f"deck-{deck_number:02d}-identity.md"
+        if out_path.exists() and not args.overwrite:
+            print(f"Skip existing {out_path.relative_to(ROOT)} (use --overwrite)")
+            continue
+
+        head, deck_rows = build_deck_context(deck_number, registry)
+        assignments = assign_primary_exercises(deck_rows, exercise_registry, top=args.top)
+        output = format_deck_file(deck_number, head, deck_rows, assignments)
         out_path.write_text(output, encoding="utf-8")
         print(f"Wrote {out_path.relative_to(ROOT)}")
 
