@@ -108,12 +108,12 @@ PATTERN_MAP: dict = {
     "Cone Drill": "conditioning", "Footwork": "conditioning",
     "Shuffle": "conditioning", "Throwing": "anti-rotation",
     "Medicine Ball": "anti-rotation", "Rotational": "anti-rotation",
-    "Stretch": "core-stability", "Mobility": "core-stability",
-    "Flexibility": "core-stability", "Foam Roll": "core-stability",
-    "SMR": "core-stability", "Isometric": "core-stability",
+    "Stretch": "mobility", "Mobility": "mobility",
+    "Flexibility": "mobility", "Foam Roll": "mobility",
+    "SMR": "mobility", "Isometric": "core-stability",
     "Balance": "core-stability", "Coordination": "core-stability",
-    "Cat-Cow": "core-stability", "Hip Circle": "core-stability",
-    "Shoulder CAR": "core-stability", "Hip CAR": "core-stability",
+    "Cat-Cow": "mobility", "Hip Circle": "mobility",
+    "Shoulder CAR": "mobility", "Hip CAR": "mobility",
 }
 
 PATTERN_KEYWORDS: dict = {
@@ -141,10 +141,18 @@ PATTERN_KEYWORDS: dict = {
                       "chop", "landmine rotation", "anti-rotation", "side bend",
                       "windmill", "turkish"],
     "core-stability": ["plank", "hollow", "dead bug", "bird dog", "sit-up",
-                       "crunch", "rollout", "ab wheel", "neck", "cervical",
+                       "crunch", "rollout", "ab wheel",
                        "mountain climber", "flutter kick", "leg raise",
-                       "cat-cow", "car", "mobility", "stretch", "foam",
-                       "bear crawl", "superman", "world's greatest"],
+                       "bear crawl", "superman", "v-up", "dragon flag",
+                       "l-sit", "hanging knee", "hanging leg", "toe-to-bar"],
+    "isolation": ["neck", "cervical", "chin tuck", "jaw", "scalene",
+                  "sternocleidomastoid", "neck bridge", "head nod"],
+    "mobility": ["cat-cow", "car ", "cars ", "mobility", "stretch", "foam",
+                 "world's greatest", "yoga", "pigeon", "child's pose",
+                 "hip circle", "hip car", "shoulder car", "thoracic",
+                 "somatic", "breathing", "pelvic floor", "pnf",
+                 "lacrosse ball", "trigger point", "90/90", "frog stretch",
+                 "couch stretch"],
     "olympic": ["clean", "snatch", "jerk", "stone", "tire flip", "atlas"],
     "conditioning": ["run", "sprint", "bike", "cycle", "swim", "jump rope",
                      "sled", "agility", "footwork", "drill", "treadmill",
@@ -253,6 +261,18 @@ ANATOMY_BY_PATTERN: dict = {
         "secondary_movers": ["hamstrings", "hip_flexors"],
         "stabilizers": ["core", "erector_spinae", "tibialis_anterior"],
         "joint_actions": ["hip_extension", "knee_extension", "ankle_plantarflexion"],
+    },
+    "isolation": {
+        "primary_movers": ["target_muscle"],
+        "secondary_movers": [],
+        "stabilizers": ["core"],
+        "joint_actions": ["single_joint_action"],
+    },
+    "mobility": {
+        "primary_movers": ["target_tissue"],
+        "secondary_movers": [],
+        "stabilizers": [],
+        "joint_actions": ["joint_mobilization", "tissue_lengthening"],
     },
 }
 
@@ -469,13 +489,36 @@ SPORT_TAGS_BY_PATTERN: dict = {
     "olympic": ["olympic_weightlifting", "strength_sports", "functional_fitness"],
     "conditioning": ["distance_running", "cycling", "rowing_sport", "general_fitness"],
     "plyometric": ["sprinting", "jumping", "team_sports_lower", "youth_athletics"],
+    "isolation": ["bodybuilding", "rehabilitation", "general_fitness"],
+    "mobility": ["general_fitness", "rehabilitation", "yoga", "movement_practice"],
 }
 
 VALID_PATTERNS = {
     "hip-hinge", "vertical-pull", "horizontal-pull", "isolation-curl",
     "horizontal-press", "vertical-press", "isolation-extension", "squat",
     "lunge", "leg-isolation", "carry", "anti-rotation", "core-stability",
-    "olympic", "conditioning", "plyometric",
+    "olympic", "conditioning", "plyometric", "isolation", "mobility",
+}
+
+# Section-based fallback when no pattern or keyword match is found
+SECTION_PATTERN_DEFAULTS = {
+    "A": "isolation",       # Head & Neck
+    "B": "vertical-press",  # Shoulders
+    "C": "horizontal-press",# Chest
+    "D": "horizontal-pull", # Back
+    "E": "isolation-curl",  # Arms (biceps default; keywords override for triceps)
+    "F": "core-stability",  # Core (legitimate)
+    "G": "hip-hinge",       # Hips & Glutes
+    "H": "squat",           # Thighs
+    "I": "leg-isolation",   # Lower Leg & Foot
+    "J": "olympic",         # Olympic Lifts
+    "K": "plyometric",      # Plyometrics
+    "L": "hip-hinge",       # Kettlebell (hinge most common)
+    "M": "conditioning",    # Cardio & Conditioning
+    "N": "conditioning",    # Sport Focused
+    "O": "conditioning",    # Footwork & Agility
+    "P": "mobility",        # Stretching/Mobility
+    "Q": "carry",           # Strongman
 }
 
 
@@ -494,7 +537,7 @@ def make_slug(name: str) -> str:
     s = re.sub(r"-+", "-", s)
     return s.strip("-")
 
-def standardize_pattern(raw: str) -> tuple:
+def standardize_pattern(raw: str, section: str = "", name: str = "") -> tuple:
     if raw in PATTERN_MAP:
         std = PATTERN_MAP[raw]
         return std, (raw if std != raw else None)
@@ -506,6 +549,15 @@ def standardize_pattern(raw: str) -> tuple:
         for kw in keywords:
             if kw in raw_lower:
                 return std_pat, raw
+    # Name-based keyword fallback
+    name_lower = name.lower()
+    for std_pat, keywords in PATTERN_KEYWORDS.items():
+        for kw in keywords:
+            if kw in name_lower:
+                return std_pat, raw
+    # Section-based default fallback
+    if section in SECTION_PATTERN_DEFAULTS:
+        return SECTION_PATTERN_DEFAULTS[section], raw
     return "core-stability", raw
 
 def infer_anatomy(name: str, std_pattern: str, muscle_groups: str) -> dict:
@@ -639,7 +691,8 @@ def build_registry() -> list:
         name_to_id[normalize(name)] = ex_id
 
         raw_pattern = src.get("movement_pattern", "")
-        std_pattern, subpattern = standardize_pattern(raw_pattern)
+        section = src.get("section", "")
+        std_pattern, subpattern = standardize_pattern(raw_pattern, section=section, name=name)
         muscle_groups = src.get("muscle_groups", "")
 
         anatomy = infer_anatomy(name, std_pattern, muscle_groups)
