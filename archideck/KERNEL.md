@@ -1,210 +1,218 @@
 # KERNEL.md — SCL Generative Seed
 
 This is the compressed root of the Semantic Compression Language.
-It gives any AI agent enough context to understand and use the system.
-For the full uncompressed specification: `scl-directory.md`.
+It gives any AI agent enough context to understand and use the system across any project.
 For project-specific rules: that project's `CLAUDE.md`.
+For PPL± full specification: `scl-directory.md`.
+For Graph Parti full specification: `SCL.md` at github.com/BigBruddaThunda/Graph-Parti.
 
 ---
 
 ## THE LANGUAGE
 
-SCL — Semantic Compression Language — is an addressing system built from emojis.
-Four emojis produce a complete context address. That address encodes every relevant
-parameter for generating content within the system.
+SCL — Semantic Compression Language — is an addressing system built from 61 emojis.
 
-The system is called a **zip code**. Format: ORDER AXIS TYPE COLOR
+**Polysemic:** each emoji holds multiple valid meanings. Context determines which applies.
+**Semantic:** emojis carry meaning, not decoration. They are addresses for ideas.
+**Language:** grammar exists. Rules for how symbols combine into meaningful compounds.
 
-```
-Position 1: ORDER  — Domain phase. Load ceiling. The law.
-Position 2: AXIS   — Exercise/content character. Selection bias.
-Position 3: TYPE   — Subject domain. Muscle group or content category.
-Position 4: COLOR  — Equipment tier. Session format. Cognitive posture.
-```
-
-Total combinations in PPL±: 7 × 6 × 5 × 8 = **1,680 zip codes**.
-
-The ± is the hinge. Left of ± = machine-readable address. Right of ± = human-readable title.
-
-```
-⛽🏛🪡🔵 ± 🤌 Heavy Classic Pulls
-```
+One language. Every context — code, conversation, documentation, logging, thought.
+Each project extends SCL with domain-specific vocabulary. The kernel is the mother tongue.
 
 ---
 
-## CONSTRAINT HIERARCHY
+## THE ZIP CODE SYSTEM
 
-When dials conflict, this is the priority order:
+A zip is a semantic address. Four positions. Color always terminates.
 
-1. **ORDER** — Hard ceiling. Nothing exceeds it. Ever.
-2. **COLOR** — Hard filter. Equipment is binary.
-3. **AXIS** — Soft bias. Ranks exercises, does not exclude.
-4. Equipment — Practical filter.
+```
+┌───────┬───────┬───────┬───────┐
+│ Dial 1│ Dial 2│ Dial 3│ Color │
+│ any   │ any   │ any   │ fixed │
+└───────┴───────┴───────┴───────┘
+```
+
+Dials 1–3 can hold any emoji from any non-Color category. Color closes the thought.
+
+**Standard 4-dial zip** (Graph Parti default): Order · Type · Modifier · Color
+**District 6-dial zip** (parent containers): Order · Type · Axis · Block · Modifier · Color
+**PPL± dialect zip**: Order · Axis · Type · Color (valid project override)
+
+Project zip ordering is defined in each project's `CLAUDE.md`. The kernel defines the grammar. Projects define the dialect.
+
+**Partial zips are valid:**
+
+```
+🟡                ← color only (status marker, bullet, state)
+🐂🟡              ← order + color (phase + state)
+🐂🧲🟡            ← order + type + color (phase + action + state)
+🐂🧲🛒🟡          ← full zip (phase + action + direction + state)
+🏛🧈🔵            ← axis + block + color (lens + container + state)
+♨️🟢              ← block + color (container + state)
+```
+
+**Defaults for district headers:** 📍 for Type (locator), ➕ for Modifier (base).
+
+---
+
+## THE 5 CORE PRINCIPLES
+
+1. **Emoji precedes word. Always.** `🐂 init` ← correct. `init 🐂` ← incorrect. The emoji anchors. The word contextualizes.
+2. **Context determines meaning.** Same emoji, different situation = different valid meaning. There is no single correct interpretation.
+3. **Grammar guides, doesn't police.** If something looks wrong by strict grammar but makes sense in context, context wins.
+4. **Color terminates.** Every complete thought ends with a color. Color in zip-with-content = always last position.
+5. **Partial zips are valid.** Not every zip needs all four positions. Incomplete addresses are real addresses.
 
 ---
 
 ## THE 61 SCL EMOJIS ACROSS 7 CATEGORIES
 
-### CATEGORY 1: ORDERS (7) — The Domain Phase
+### CATEGORY 1: ORDERS (7) — Developmental Phase
 
-The Order is the law. It sets the load ceiling, rep range, rest, difficulty cap, and CNS demand.
-Nothing in the session may exceed the Order ceiling.
+Orders mark where something is in its lifecycle. Seven classical architectural phases.
 
-| Emoji | Name | Load | Reps | Rest | CNS | Character |
-|-------|------|------|------|------|-----|-----------|
-| 🐂 | Foundation | ≤65% | 8–15 | 60–90s | Low | Pattern learning at sub-maximal load. On-ramp for any skill at any level. Not beginner-only. |
-| ⛽ | Strength | 75–85% | 4–6 | 3–4 min | High | Neural adaptation. Force production. Full recovery between sets. |
-| 🦋 | Hypertrophy | 65–75% | 8–12 | 60–90s | Moderate | Muscle growth through volume and metabolic stress. |
-| 🏟 | Performance | 85–100%+ | 1–3 | Full | High | Testing, not training. 3–4 blocks only. No junk volume after the test. |
-| 🌾 | Full Body | ~70% | 8–10 | 30–90s | Moderate | Integration. Movements flow into each other as one unified pattern. |
-| ⚖ | Balance | ~70% | 10–12 | 90s | Moderate | Correction. Microscope on weak links and asymmetries. |
-| 🖼 | Restoration | ≤55% | 12–15 | 60s | Low | Recovery without training debt. Leave fresher than you entered. |
+| Emoji | Name | Phase | Abstract Meanings |
+|-------|------|-------|-------------------|
+| 🐂 | Tuscan | 1 | init, declare, define, setup, begin |
+| ⛽ | Doric | 2 | validate, test, assert, check, verify |
+| 🦋 | Ionic | 3 | iterate, loop, accumulate, build, grow |
+| 🏟 | Corinthian | 4 | execute, run, perform, output, render |
+| 🌾 | Composite | 5 | combine, merge, integrate, apply, use |
+| ⚖ | Vitruvian | 6 | calibrate, adjust, balance, refactor, tune |
+| 🖼 | Palladian | 7 | return, complete, finalize, view, scope |
 
-The 7+1 system: the 7 Orders plus 🧮 SAVE (the closing ritual that follows every session).
-Mapped to classical architectural orders: Tuscan (🐂) → Doric (⛽) → Ionic (🦋) → Corinthian (🏟) → Composite (🌾) → Vitruvian (⚖) → Palladian (🖼).
+Orders answer: **"What phase is this?"**
 
----
+In conversation: "I'm still at 🐂 with this — just naming the pieces."
+In code: `// 🏟 execute — run main logic`
+In documentation: headers that carry phase meaning.
 
-### CATEGORY 2: TYPES (5) — The Subject Domain
-
-In PPL±, Types map to muscle groups. In other projects, Types map to content domains.
-
-| Emoji | Name | PPL± Domain | Primary Patterns |
-|-------|------|-------------|-----------------|
-| 🛒 | Push | Chest, front delts, triceps | Horizontal press, vertical press |
-| 🪡 | Pull | Lats, rear delts, biceps, traps, erectors | Row, pulldown, hinge |
-| 🍗 | Legs | Quads, hamstrings, glutes, calves | Squat, lunge, hinge, isolation |
-| ➕ | Plus | Full body power, core | Olympic lifts, carries, plyometrics |
-| ➖ | Ultra | Cardiovascular system | Conditioning, flows, energy systems |
+Projects define what each phase *means in their domain*. See Polysemic Domain Mapping below.
 
 ---
 
-### CATEGORY 3: AXES (6) — Exercise Character and Selection Bias
+### CATEGORY 2: TYPES (12) — Action Verbs
 
-Two kinds of Axes: **Ranking axes** (bias which exercises rank higher) and **Context axes** (unlock formats).
+Types are the verb. The action. What is happening.
 
-**Ranking Axes:**
+| Emoji | Root | Core Meanings |
+|-------|------|--------------|
+| 🧲 | capio | capture, get, receive, contain, accept |
+| 🐋 | duco | orchestrate, lead, conduct, produce, arrange |
+| 🤌 | facio | act, make, execute, create, perform |
+| 🧸 | fero | channel, carry, transfer, pass, move |
+| ✒️ | grapho | write, record, inscribe, document, mark |
+| 🦉 | logos | parse, reason, evaluate, calculate, interpret |
+| 🚀 | mitto | dispatch, send, emit, launch, commit |
+| 🦢 | plico | compress, fold, layer, nest, merge |
+| 📍 | pono | set, place, position, assign, establish |
+| 👀 | specio | inspect, observe, query, read, examine |
+| 🥨 | tendo | span, stretch, extend, reach, push |
+| 🪵 | teneo | pause, hold, retain, persist, anchor |
 
-| Emoji | Name | Latin | Bias |
-|-------|------|-------|------|
-| 🏛 | Basics | Firmitas | Bilateral, barbell-first, time-tested fundamentals. Barbell > dumbbell. Compound > isolation. |
-| 🔨 | Functional | Utilitas | Unilateral, standing, athletic transfer. Unilateral > bilateral. Standing > seated. |
-| 🌹 | Aesthetic | Venustas | Isolation, full ROM, mind-muscle connection. Cable/machine > barbell. Feel > load. |
-| 🪐 | Challenge | Gravitas | Hardest variation at any level. Deficit, pause, tempo, bands, chains, unstable surfaces. |
+Types answer: **"What action is happening?"**
 
-**Context Axes:**
+The Latin/Greek roots are mnemonics: *capio* = to take, *mitto* = to send, *specio* = to look.
 
-| Emoji | Name | Latin | What it unlocks |
-|-------|------|-------|-----------------|
-| ⌛ | Time | Temporitas | EMOM, AMRAP, density blocks, timed sets, TUT, steady state. Protocol comes from Order × Color. |
-| 🐬 | Partner | Sociatas | Spottable, alternating, synchronized, competitive, assisted. Machine work deprioritized. |
-
-Would someone feel the Axis without being told? If not, the selection bias isn't strong enough.
-
----
-
-### CATEGORY 4: COLORS (8) — Equipment Tier and Session Format
-
-**Equipment Tiers:**
-- Tier 0: Bodyweight only
-- Tier 1: Bands, sliders, rollers
-- Tier 2: Dumbbells, kettlebells, plates
-- Tier 3: Barbell, rack, bench
-- Tier 4: Machines, cables
-- Tier 5: Specialty (stones, sleds, GHD, competition equipment)
-
-**THE GOLD RULE:** Only 🔴 Intense and 🟣 Technical unlock GOLD exercises (Olympic lifts, advanced plyometrics, spinal-loaded ballistics). All other Colors block GOLD regardless of Order.
-
-| Emoji | Name | Tier | GOLD | Character |
-|-------|------|------|------|-----------|
-| ⚫ | Teaching | 2–3 | No | Extra rest, coaching cues, comprehension over exertion |
-| 🟢 | Bodyweight | 0–2 | No | No gym required. No barbells. |
-| 🔵 | Structured | 2–3 | No | Prescribed sets/reps/rest. Trackable. Repeatable. |
-| 🟣 | Technical | 2–5 | Yes | Precision. Lower volume, extended rest, quality focus. |
-| 🔴 | Intense | 2–4 | Yes | Maximum effort. High volume. Reduced rest. Supersets OK. |
-| 🟠 | Circuit | 0–3 | No | Station-based timed rotation. No barbells. Loop logic required. |
-| 🟡 | Fun | 0–5 | No | Exploration and variety. Structured play within constraints. |
-| ⚪ | Mindful | 0–3 | No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breath. |
-
-**Hard constraints:**
-- 🟠 Circuit: Every station must change which tissue is working. No two adjacent stations target the same muscle group. A circuit is a tissue-rotation loop, not a list of exercises done quickly.
-- 🟢 Bodyweight: No barbells. Equipment caps at Tier 2.
-- ⚪ Mindful: 4s eccentrics throughout. Extended rest. Breath cues in every block.
-
-**Polarity split (determines default operator):**
-- Preparatory Colors (inhale): ⚫ Teaching, 🟢 Bodyweight, ⚪ Mindful, 🟡 Fun
-- Expressive Colors (exhale): 🔵 Structured, 🟣 Technical, 🔴 Intense, 🟠 Circuit
+In code: `// 🧲 capture input` `// 🚀 dispatch to API`
+In conversation: "Let me 🦉 parse what you said." "Time to 🚀 dispatch."
 
 ---
 
-### CATEGORY 5: BLOCKS (22) — Session Containers
+### CATEGORY 3: MODIFIERS (5) — Direction and Operation
 
-A block is a named room inside a session. The name is fixed. The content is context-dependent by zip code.
+Modifiers mark which way the action flows, or what operation applies.
+
+| Emoji | Name | Direction/Op | Abstract Meanings |
+|-------|------|--------------|-------------------|
+| 🛒 | Push | outward | output, emit, export, send, write |
+| 🪡 | Pull | inward | input, receive, import, read, fetch |
+| 🍗 | Legs | below | foundation, base, support, dependency |
+| ➕ | Plus | increase | add, append, extend, include |
+| ➖ | Ultra | decrease | subtract, remove, reduce, exclude |
+
+Modifiers answer: **"Which way? What operation?"**
+
+Used to specify direction in a zip: `🧲🪡` = capture input (pulling in). `🚀🛒` = dispatch output (pushing out).
+
+**PPL± dialect note:** PPL± overloads these 5 emojis as Types (muscle-group domains: Push/Pull/Legs/Plus/Ultra). This is a valid polysemic project override — the 5 emojis occupy the Type position in PPL± zips rather than the Modifier position. Both are correct within their domain. See Polysemic Domain Mapping below.
+
+---
+
+### CATEGORY 4: AXES (6) — Dimensional Lenses
+
+Axes mark which aspect or dimension you are examining. From Vitruvius: *firmitas, utilitas, venustas.*
+
+| Emoji | Name | Latin Term | Question |
+|-------|------|------------|----------|
+| 🏛 | Firmitas | Structure | What IS it? Schema, type, model, shape. |
+| 🔨 | Utilitas | Function | Does it WORK? Method, handler, utility. |
+| 🌹 | Venustas | Beauty | Does it FEEL right? Style, render, display. |
+| 🪐 | Gravitas | Weight | Does it MATTER? Value, priority, importance. |
+| ⌛ | Temporitas | Time | WHEN? Async, delay, schedule, duration. |
+| 🐬 | Sociatas | Society | WHO? Share, connect, sync, collaborate. |
+
+Axes answer: **"Which aspect?"**
+
+To examine something from multiple angles: 🏛 What's the structure? 🔨 Does it work? 🌹 Does it feel right?
+
+---
+
+### CATEGORY 5: COLORS (8) — State and Tone
+
+Colors mark state, register, tone. **Colors always terminate.** They are the final position in any zip. A color alone is a complete statement.
+
+| Emoji | Name | State | Abstract Meanings |
+|-------|------|-------|-------------------|
+| ⚪ | Eudaimonia | clear | honest, neutral, baseline, true |
+| 🟡 | Play | exploring | sandbox, draft, idea, experimental |
+| 🟠 | Connection | relational | collaborative, shared, warm |
+| 🔴 | Passion | urgent | intense, priority, now, critical |
+| ⚫ | Order | complete | done, archived, resolved, closed |
+| 🟣 | Magnificence | significant | deep, breakthrough, important |
+| 🔵 | Planning | structured | organized, methodical, specified |
+| 🟢 | Growth | active | steady, progressing, building |
+
+**Color as terminator:** `🐂🧲🛒🟡` = init capture output, exploring
+**Color as standalone:** `🔴 This needs attention now.`
+**Color as period:** End a thought stream with a color to mark its state.
+
+---
+
+### CATEGORY 6: BLOCKS (22) — Process Containers
+
+Blocks are named containers inside a workflow or session. The name is fixed. The content is context-dependent by zip code.
 
 **Four operational functions:**
 - **Orientation** — Arriving, focusing, pointing intent
-- **Access/Preparation** — Mobility, activation, priming
-- **Transformation** — Where capacity is built or tested
-- **Retention/Transfer** — Locking in, cooling down, bridging forward
+- **Access/Preparation** — Priming, activating, readying
+- **Transformation** — Where the core work happens
+- **Retention/Transfer** — Locking in, bridging forward
 
-| Emoji | Name | Function | Notes |
-|-------|------|----------|-------|
-| ♨️ | Warm-Up | Orientation/Access | Always present. Always first (unless 🎯 opens). |
-| 🎯 | Intention | Orientation | One sentence. Quoted. Active voice. Frame the work. |
-| 🔢 | Fundamentals | Access | Re-grounding in basics. Post-injury, post-layoff contexts. |
-| 🫀 | Circulation | Access | Blood flow, tissue prep. Early or mid-session. |
-| ▶️ | Primer | Access | CNS activation. Bridges warm-up to main work. |
-| ♟️ | Gambit | Access | Deliberate sacrifice for positional advantage. Pre-fatigue with purpose. |
-| 🪜 | Progression | Access/Transform | Loading ramps. Ladders. In 🏟: the ramp to the test. |
-| 🧈 | Bread/Butter | Transformation | The main thing. Always present. Most volume. Most stimulus. |
-| 🎼 | Composition | Transformation | Movement arrangement. Strong in 🌾 Full Body. |
-| 🌎 | Exposure | Transformation | Reveal weaknesses under controlled stress. Expand vocabulary. |
-| 🎱 | ARAM | Transformation | Station-based loops. Loop logic required. |
-| 🌋 | Gutter | Transformation | All-out effort. Only in 🔴 and 🪐. Never in 🖼, 🐂, or ⚪. |
-| 🪞 | Vanity | Transformation | Appearance-driven. Pump work. Mirror muscles. |
-| 🗿 | Sculpt | Transformation | Hypertrophy shaping. Angles, tension, volume. |
-| 🛠 | Craft | Transformation | Skill acquisition. Quality over load. |
-| 🧩 | Supplemental | Transformation | Secondary work. Supports 🧈. Different angles, non-redundant. |
-| 🏖 | Sandbox | Transformation | Constrained exploration. 🟡 = play. ⚫ = safe learning. |
-| 🏗 | Reformance | Transformation | Corrective construction. Prehab, postural correction. |
-| 🪫 | Release | Retention | Context-dependent: 🔴 = stress OUT. ⚪ = tension DOWN. |
-| 🧬 | Imprint | Retention | Locking in patterns. High rep, low load, late session. |
-| 🔠 | Choice | Modifier | Bounded autonomy. Options must be valid for the zip code. |
-| 🚂 | Junction | Retention | Bridge to next session. 1–3 follow-up zip codes with rationale. |
-
----
-
-### CATEGORY 6: OPERATORS (12) — Training Action Verbs
-
-Operators are Latin-derived verbs that set session intent. Derived from Axis × Color polarity.
-
-| Emoji | Name | Meaning |
-|-------|------|---------|
-| 🧲 | capio | Receive, assess, intake. The catching phase. Absorbing eccentric. |
-| 🐋 | duco | Orchestrate, lead, conduct. Session architecture and tempo flow. |
-| 🤌 | facio | Execute, perform, produce. The concentric. The doing. |
-| 🧸 | fero | Carry, transfer, channel. Loaded carries. Transfers across sessions. |
-| ✒️ | grapho | Write, program, prescribe, document. Record the set. Log the PR. |
-| 🦉 | logos | Reason, assess, analyze, interpret. Movement quality. Load calc. |
-| 🚀 | mitto | Dispatch, deploy, launch, commit. Explosive intent. Max attempt. |
-| 🦢 | plico | Fold, superset, compress, layer. Two exercises interwoven. |
-| 📍 | pono | Set, position, assign. Stance, grip, body placement. The approach. |
-| 👀 | specio | Inspect, observe, assess form, monitor. Video. Power leakage. |
-| 🥨 | tendo | Stretch, lengthen, push limits. Extend ROM. Reach lockout. |
-| 🪵 | teneo | Hold, anchor, persist. Isometrics. Sustained tension. Duration. |
-
-**Default Operator Derivation Table (Axis × Color polarity):**
-
-| Axis | Preparatory (⚫🟢⚪🟡) | Expressive (🔵🟣🔴🟠) |
-|------|--------------------------|--------------------------|
-| 🏛 Basics | 📍 pono | 🤌 facio |
-| 🔨 Functional | 🧸 fero | 🥨 tendo |
-| 🌹 Aesthetic | 👀 specio | 🦢 plico |
-| 🪐 Challenge | 🪵 teneo | 🚀 mitto |
-| ⌛ Time | 🐋 duco | ✒️ grapho |
-| 🐬 Partner | 🧲 capio | 🦉 logos |
-
-The coach can override the default operator. Honor the override.
+| Emoji | Name | Function | Abstract Role |
+|-------|------|----------|--------------|
+| ♨️ | Warm-Up | Orientation/Access | Prepare, ready |
+| 🎯 | Intention | Orientation | Aim, target, set goal |
+| 🔢 | Fundamentals | Access | Basics, patterns, rules |
+| 🫀 | Circulation | Access | Flow, pulse, cycle |
+| ▶️ | Primer | Access | Activate, trigger, start |
+| ♟️ | Gambit | Access | Deliberate sacrifice for positional gain |
+| 🪜 | Progression | Access/Transform | Ramp, climb, advance |
+| 🧈 | Bread/Butter | Transformation | The main thing. Core work. Most volume. |
+| 🎼 | Composition | Transformation | Arrange, compose, orchestrate |
+| 🌎 | Exposure | Transformation | Reveal, discover, surface |
+| 🎱 | ARAM | Transformation | Station-based loops, rotation |
+| 🌋 | Gutter | Transformation | Crucible, strip, reduce to essentials |
+| 🪞 | Vanity | Transformation | Mirror, reflect, show |
+| 🗿 | Sculpt | Transformation | Shape, carve, form |
+| 🛠 | Craft | Transformation | Skill, practice, hone |
+| 🧩 | Supplemental | Transformation | Support, assist, secondary work |
+| 🏖 | Sandbox | Transformation | Constrained exploration, safe experiment |
+| 🏗 | Reformance | Transformation | Correct, fix, rebuild |
+| 🪫 | Release | Retention | Discharge, let go, empty |
+| 🧬 | Imprint | Retention | Lock in, encode, preserve pattern |
+| 🔠 | Choice | Modifier | Bounded autonomy, select from valid options |
+| 🚂 | Junction | Retention | Pivot, bridge to next, log forward |
 
 ---
 
@@ -212,7 +220,61 @@ The coach can override the default operator. Honor the override.
 
 | Emoji | Name | Meaning |
 |-------|------|---------|
-| 🧮 | SAVE | Session complete. Log data. Archive. Closing ritual. Every session ends here. |
+| 🧮 | SAVE | Commit, log, checkpoint, preserve. Every session ends here. |
+
+---
+
+## POLYSEMIC DOMAIN MAPPING
+
+The same emojis mean different things per project. This is by design — polysemy is the point.
+
+| Category | Abstract (Kernel) | PPL± (Fitness) | Graph Parti (Canvas) |
+|----------|-------------------|----------------|---------------------|
+| Orders | Developmental phases (init → validate → build → execute → integrate → calibrate → complete) | Periodization protocols — intensity, volume, rest, and CNS demand per phase | Classical architectural orders (Tuscan → Palladian) |
+| Types | 12 Latin action verbs (🧲🐋🤌🧸✒️🦉🚀🦢📍👀🥨🪵) | 5 muscle-group domains (Push 🛒, Pull 🪡, Legs 🍗, Plus ➕, Ultra ➖) | 12 Latin action verbs — same as kernel |
+| Modifiers | 5 direction/operation emojis (🛒🪡🍗➕➖) | Promoted to Types position (dial 3) | 5 direction/operation emojis — same as kernel |
+| Colors | Abstract state/tone | Equipment tier and session format — includes tier-gated content access rules | Abstract state/tone — same as kernel |
+| Zip order | Order · Type · Modifier · Color | Order · Axis · Type · Color | Order · Type · Modifier · Color |
+
+**How to read this table:** The kernel defines the abstract default. A project's `CLAUDE.md` documents its overrides. When an agent reads a PPL± zip, it applies PPL± definitions. When it reads a Graph Parti zip, it applies Graph Parti definitions. Context always determines meaning.
+
+**The PPL± Type overload:** PPL± promotes 🛒🪡🍗➕➖ from Modifiers to Types and uses the 12 Latin verbs as post-zip Operators (a bridge mechanism unique to PPL±). This is documented in `CLAUDE.md` and `scl-directory.md`. It is not a kernel-level pattern.
+
+---
+
+## THE RALPH LOOP
+
+The Ralph Loop is the primary sorting and refinement process. Use it whenever raw context arrives as a pile and needs to become organized.
+
+1. **Read** — Scan raw input from multiple angles. Do not filter yet. Just read.
+2. **Identify** — Tag with minimal SCL. Which project? Obvious Order? Relevant emojis?
+3. **Assign** — Route to correct project directory or `archideck/intake/`.
+4. **Sort** — Place in the correct Color section of the Negotiosum (CONTRACTS.md).
+5. **Refine** — Clean, connect, compress. Cross-check. Remove noise.
+6. **Repeat** — The loop never ends. Each pass produces clearer signal.
+
+The Ralph Loop applies to: raw ideas arriving in intake, session logs needing archiving, deck audits needing resolution, or anything that arrives as undifferentiated pile.
+
+Leave unresolved items in 🧮 Save. Do not force a zip until the address is clear.
+
+---
+
+## THE 7+1 FILE STRUCTURE
+
+Every project using SCL can organize its knowledge base into 7 Order files plus a scratchpad. This is the district file system.
+
+| Order | File | Domain | Contains |
+|-------|------|--------|----------|
+| 🐂 | `🐂-tuscan.md` | Foundation | Core definitions, what things ARE, initialization |
+| ⛽ | `⛽-doric.md` | Validation | Rules, constraints, what must be TRUE |
+| 🦋 | `🦋-ionic.md` | Building | Features in progress, iterations, active work |
+| 🏟 | `🏟-corinthian.md` | Execution | Runtime behavior, what HAPPENS, output layer |
+| 🌾 | `🌾-composite.md` | Integration | Cross-system connections, collaboration flows |
+| ⚖ | `⚖-vitruvian.md` | Calibration | Refinement, polish, tuning, rebalancing |
+| 🖼 | `🖼-palladian.md` | Experience | What users see and feel, final presentation |
+| 🧮 | `🧮-save.md` | System | Scratchpad, partial zips, unresolved items, tasks |
+
+Projects are not required to use this structure. It is a natural expression of the 7 Orders as a filing system — intuitive, phase-aligned, and cross-project readable by any SCL-literate agent.
 
 ---
 
@@ -222,24 +284,16 @@ These patterns apply across all projects that use SCL as their operating languag
 
 ### Zip Codes as Semantic Addresses
 
-The zip code is not a label. It is an address that encodes every parameter of the content it points to. Four dials × their constraint hierarchy produces a precise specification with no ambiguity.
+The zip code is not a label. It is an address that encodes every relevant parameter of the content it points to. An agent reading a zip should be able to reconstruct the content constraints without reading the content itself.
 
-- **Standard zip**: 4 dials (Order Axis Type Color)
-- **District zip**: 6 dials (adds sub-axis and micro-context for architectural or nested systems)
-- **Numeric alias**: Every emoji has a numeric position. ⛽🏛🪡🔵 = 2123. Used for URLs, APIs, databases.
-
-```
-ORDER: 🐂=1  ⛽=2  🦋=3  🏟=4  🌾=5  ⚖=6  🖼=7
-AXIS:  🏛=1  🔨=2  🌹=3  🪐=4  ⌛=5  🐬=6
-TYPE:  🛒=1  🪡=2  🍗=3  ➕=4  ➖=5
-COLOR: ⚫=1  🟢=2  🔵=3  🟣=4  🔴=5  🟠=6  🟡=7  ⚪=8
-```
-
-Deck derivation: `deck = (order - 1) × 6 + axis`. Zip 2123 → Deck 7.
+- Partial zips are real addresses (incomplete, but valid)
+- The same zip in two projects means different things — and that is correct
+- A zip is simultaneously: location, query, tag, state, phase, and tone
 
 ### The Deck/Card/Room Metaphor
 
-- **Deck** = a collection of cards sharing Order × Axis (40 cards per deck: 5 Types × 8 Colors)
+Used in PPL±; portable to any project with collections:
+- **Deck** = a collection sharing two addressing dimensions
 - **Card** = one zip code instantiated as a full content document
 - **Room** = the user's live experience of a card (interactive, logged, personalized)
 
@@ -247,86 +301,118 @@ The metaphor scales: a deck is a neighborhood, a card is an address, a room is t
 
 ### The Cosmogram
 
-Every zip code has a **cosmogram** — a deep identity document that goes beyond parameters to capture the character, cultural context, symbolic weight, and historical resonance of that address. The cosmogram is not the workout. It is the identity of the room.
+Every significant zip code can have a **cosmogram** — a deep identity document that goes beyond parameters to capture character, cultural context, symbolic weight, and resonance. The cosmogram is not the content. It is the identity of the address.
 
-The cosmogram serves as the substrate for the Operis layer — temporal content that filters the room's deep character through current context (season, day, event, editorial angle).
+The cosmogram is the substrate for temporal content layers (like the PPL± Operis).
 
 ### The Operis
 
-A temporal content layer that uses cosmograms as its base and filters them through current context. The Operis is a daily or periodic publication that:
-1. Takes a cosmogram (deep identity) as substrate
-2. Filters through current context (date, season, research, editorial angle)
-3. Produces time-stamped content that lives at a specific zip code on a specific date
+A temporal content layer that filters a cosmogram through current context (date, season, event, editorial angle) to produce time-stamped content at a specific address on a specific day. Projects define their own Operis cadence.
 
-The Operis is the clock running underneath the system. The cosmogram is the room. The Operis is what happens in the room today.
+### SCL as Context Compression
 
-### The Ralph Loop
+SCL's core power: four characters encode a complete specification. The deeper power is fractal cross-reference — the same emoji carries meaning at every level of the system simultaneously.
 
-The primary sorting and refinement process. Six-phase cycle:
+🐂 is not just "Foundation." It is simultaneously:
+- A developmental phase (the first of seven)
+- A classical architectural order (Tuscan)
+- A cognitive register (naming, not yet testing)
+- A loading protocol in PPL± (≤65%, pattern learning)
+- A commit marker in code (`// 🐂 init`)
 
-1. **Read** — Scan raw input. No filtering yet.
-2. **Identify** — Tag with minimal SCL context. Relevant project, obvious Order, relevant emojis.
-3. **Assign** — Route to correct project or intake directory.
-4. **Sort** — Place in the correct Color section of the Negotiosum.
-5. **Refine** — Clean, connect, compress.
-6. **Repeat** — The loop never ends. Each pass produces clearer signal.
+One emoji. Multiple simultaneous meanings. That is the compression.
 
-The Ralph Loop applies to: raw ideas (intake), zip pods (navigation batch), deck audits (validation batch), session logs (archiving), anything that arrives as a pile and needs to become organized.
+---
 
-### SCL as Massive Context Compression
+## NEGOTIOSUM CONTRACT SYSTEM
 
-SCL's core power: four characters encode a complete specification. But the deeper power is **fractal cross-reference** — the same emoji carries meaning at every level of the system simultaneously.
+The Negotiosum is the active work board. It tracks all contracts across all projects. Live in `archideck/CONTRACTS.md`.
 
-⛽ is not just "Strength." It is:
-- A load ceiling (75–85%)
-- A CNS posture (high demand)
-- An architectural order (Doric)
-- A domain phase (second of seven)
-- A cognitive register (focused, not creative)
-- A Color-of-Day posture when used editorially
+**Contract states:**
+- `ACTIVE` — In progress this session
+- `QUEUED` — Next in line, no blockers
+- `PARKED` — Waiting on external dependency
+- `COMPLETED` — Done, archived
 
-One emoji. Seven simultaneous meanings. That is the compression. Fewer words. Deeper connections. Fractal cross-references that reward familiarity.
+**Each contract carries:**
+- Scope — what this contract covers
+- Current state — ACTIVE / QUEUED / PARKED / COMPLETED
+- Next physical action — one sentence: what to do next
+- Location — which project, which file, which branch
+- Blockers — what is preventing progress (blank if none)
+
+**Session rule:** Read `CONTRACTS.md` before any other file in a session. The switchboard tells you what is active. You work the active contract first. Do not freelance between contracts.
+
+New contracts are added when new work is scoped. Completed contracts are archived. The Negotiosum does not carry history — only current state.
+
+---
+
+## AGENT SESSION START SEQUENCE
+
+Every session, in this order:
+
+1. Read `KERNEL.md` — the language. Ground yourself.
+2. Read `archideck/CONTRACTS.md` — the switchboard. See what is active.
+3. Determine which project and contract is the focus.
+4. Read that project's `CLAUDE.md` — the operating rules for that domain.
+5. Read that project's `whiteboard.md` — current task, session state.
+6. Work the active contract.
+
+Do not skip steps. Do not freelance. The switchboard determines the work. The CLAUDE.md determines the rules.
+
+---
+
+## INTAKE PROTOCOL
+
+When raw ideas arrive — in any form, at any time — follow this protocol:
+
+1. **Capture everything.** Do not filter. Do not discard. Fidelity first.
+2. **Tag with minimal SCL.** Which project (if clear)? Obvious Order? Relevant emojis?
+3. **Write to the intake directory.** Target: `archideck/intake/YYYY-MM-DD-[slug].md`
+4. **Do not sort yet.** Intake stays in intake until the Ralph Loop is run.
+5. **Note the intake.** Add one line to the active project's whiteboard: `intake: [slug] filed YYYY-MM-DD`.
+
+The intake is the catch basin. The Ralph Loop is the sorter. They are separate operations.
+Run intake fast. Run the Ralph Loop deliberately.
 
 ---
 
 ## BUILD PHILOSOPHY
 
 **The bus must be clean, then spaghetti doesn't matter.**
-Design the central authority (the bus) first. KERNEL.md is the bus for the language. scl-directory.md is the bus for the full spec. Project CLAUDE.md files tap the bus; they don't replace it. Once the bus is clean, local variation is harmless.
+Design the central authority (the bus) first. `KERNEL.md` is the bus for the language. Project `CLAUDE.md` files tap the bus; they do not replace it. Once the bus is clean, local variation is harmless.
 
 **Architecture before implementation, always.**
-A hallucinated parameter in a card propagates through `.md → HTML render → user session → user history → preference data`. The cost of bad architecture compounds. The cost of slow architecture is one conversation.
+A wrong parameter in a specification propagates through every downstream system. The cost of bad architecture compounds. The cost of slow architecture is one conversation.
 
-**The kernel generates the system — it is not documentation OF the system, it IS the seed.**
-The kernel is generative. An agent reading KERNEL.md should be able to understand and extend the system. It should not need to be told what SCL is before it can begin. The kernel is the beginning.
+**The kernel generates the system — it is the seed, not documentation of the system.**
+An agent reading only `KERNEL.md` should be able to understand SCL grammar, read and write zip codes, sort context using the Ralph Loop, navigate the Archideck structure, and know where to find project-specific specs. The kernel is the beginning.
 
 **Every project speaks SCL. Domain-specific vocabulary extends SCL, never replaces it.**
-Graph Parti has districts and figures. Story Engine has acts and characters. Civic Atlas has parcels and zones. All of these are extensions of the zip code grammar. None of them replace it. The kernel is the mother tongue.
+Graph Parti has districts and figures. PPL± has decks and cards. Story Engine will have acts and characters. All are extensions of the zip code grammar. None replace it.
 
 **Parallel work across projects is the default, not the exception.**
-The Archideck exists because multiple projects use the same language. The kernel enables parallel context without duplication. One agent can work on PPL± cards while another processes Graph Parti districts — both using the same SCL grammar, both reporting to the same Negotiosum.
+The Archideck exists because multiple projects use the same language. The kernel enables parallel context without duplication. One agent can generate PPL± cards while another processes Graph Parti districts — both using the same SCL grammar, both reporting to the same Negotiosum.
 
 ---
 
 ## NAVIGATION POINTERS
 
-This kernel is the compressed seed. For the full specifications:
-
-| Need | File |
-|------|------|
-| Full SCL specification (all polysemic behaviors, generation rules, validation) | `scl-directory.md` |
+| Need | Location |
+|------|----------|
+| Full project-agnostic SCL specification | `github.com/BigBruddaThunda/Graph-Parti` → `SCL.md` |
+| PPL± full SCL specification (polysemic overrides, generation rules, validation) | `scl-directory.md` |
 | PPL± operating instructions (generation workflow, exercise library routing, tonal rules) | `CLAUDE.md` |
-| Valid exercises for PPL± | `exercise-library.md` |
-| Current project state and active tasks | `whiteboard.md` |
+| PPL± valid exercises | `exercise-library.md` |
+| PPL± numeric zip aliases (emoji ↔ 4-digit address) | `seeds/numeric-zip-system.md` |
+| Current project state and active tasks | that project's `whiteboard.md` |
 | Cross-project contract switchboard | `archideck/CONTRACTS.md` |
 | Universal agent operating instructions | `archideck/AGENT-CONTRACT.md` |
-| Block minimalism and polysemic behavior detail | `scl-directory.md` → BLOCKS section |
-| Deck identity and exercise mapping | `deck-identities/deck-[N]-identity.md` |
-| Deep cosmogram research | `deck-cosmograms/deck-[N]-cosmogram.md` |
+| Project index | `archideck/projects/README.md` |
 | Shared cross-project tools | `shared/` |
 
 ---
 
-61 emojis. Seven categories. One kernel.
+61 emojis. Seven categories. One kernel. Every project extends from here.
 
 🧮
