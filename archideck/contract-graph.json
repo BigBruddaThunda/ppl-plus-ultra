@@ -1,0 +1,195 @@
+{
+  "version": "1.0",
+  "generated": "2026-03-07",
+  "description": "Archideck contract dependency graph. Nodes are contracts. Edges are dependency relationships. Mirrors the 1,680-node PPL± navigation-graph.json at the project management layer.",
+  "nodes": [
+    {
+      "id": "ppl-workout-generation",
+      "label": "PPL± Workout Generation",
+      "zip": "🦋🤌🟢",
+      "zip_numeric": "3-facio-2",
+      "status": "ACTIVE",
+      "progress": 0.167,
+      "cards_complete": 280,
+      "cards_total": 1680,
+      "milestone": "M1–M7",
+      "location": "cards/",
+      "order_posture": "ionic"
+    },
+    {
+      "id": "gsd-scl-orchestration",
+      "label": "GSD × SCL Orchestration Layer",
+      "zip": "🐂🏛🔵",
+      "zip_numeric": "1-1-3",
+      "status": "ACTIVE",
+      "progress": 0.85,
+      "milestone": "M0",
+      "location": "archideck/, .planning/",
+      "order_posture": "tuscan"
+    },
+    {
+      "id": "ppl-experience-layer",
+      "label": "PPL± Experience Layer",
+      "zip": "🖼🌹🟡",
+      "zip_numeric": "7-3-7",
+      "status": "QUEUED",
+      "progress": 0.0,
+      "milestone": "M10",
+      "location": "html/",
+      "order_posture": "palladian"
+    },
+    {
+      "id": "ppl-operis-pipeline",
+      "label": "PPL± Operis Pipeline",
+      "zip": "🏟⌛🔵",
+      "zip_numeric": "4-5-3",
+      "status": "QUEUED",
+      "progress": 0.15,
+      "milestone": "M9",
+      "location": "operis-editions/",
+      "order_posture": "corinthian"
+    },
+    {
+      "id": "ppl-cosmogram-population",
+      "label": "PPL± Cosmogram Population",
+      "zip": "🐂🌹🟣",
+      "zip_numeric": "1-3-4",
+      "status": "QUEUED",
+      "progress": 0.05,
+      "milestone": "M8",
+      "location": "deck-cosmograms/",
+      "order_posture": "tuscan"
+    },
+    {
+      "id": "graph-parti-district-org",
+      "label": "Graph Parti District Organization",
+      "zip": "⚖🏛🟢",
+      "zip_numeric": "6-1-2",
+      "status": "QUEUED",
+      "progress": 0.3,
+      "milestone": null,
+      "location": "projects/graph-parti/",
+      "order_posture": "vitruvian"
+    },
+    {
+      "id": "story-engine",
+      "label": "Story Engine Narrative Architecture",
+      "zip": "🐂🌹🟡",
+      "zip_numeric": "1-3-7",
+      "status": "QUEUED",
+      "progress": 0.0,
+      "milestone": null,
+      "location": "projects/story-engine/",
+      "order_posture": "tuscan"
+    },
+    {
+      "id": "civic-atlas",
+      "label": "Civic Atlas Urban Design Layer",
+      "zip": "🐂🐬🟡",
+      "zip_numeric": "1-6-7",
+      "status": "QUEUED",
+      "progress": 0.0,
+      "milestone": null,
+      "location": "projects/civic-atlas/",
+      "order_posture": "tuscan"
+    },
+    {
+      "id": "ppl-linters-ci",
+      "label": "PPL± Linters CI Pipeline",
+      "zip": "⛽🏛🔵",
+      "zip_numeric": "2-1-3",
+      "status": "PARKED",
+      "progress": 0.1,
+      "milestone": null,
+      "location": ".github/workflows/",
+      "order_posture": "doric"
+    },
+    {
+      "id": "ppl-middle-math-engine",
+      "label": "PPL± Middle-Math Engine",
+      "zip": "⚖🏛🟣",
+      "zip_numeric": "6-1-4",
+      "status": "PARKED",
+      "progress": 0.25,
+      "milestone": null,
+      "location": "middle-math/",
+      "order_posture": "vitruvian"
+    },
+    {
+      "id": "ppl-historical-events-db",
+      "label": "PPL± Historical Events Database",
+      "zip": "🏟⌛🟣",
+      "zip_numeric": "4-5-4",
+      "status": "QUEUED",
+      "progress": 0.0,
+      "milestone": "M9-prerequisite",
+      "location": "operis-editions/historical-events/",
+      "order_posture": "corinthian"
+    }
+  ],
+  "edges": [
+    {
+      "from": "ppl-experience-layer",
+      "to": "ppl-workout-generation",
+      "type": "depends-on",
+      "note": "Experience layer requires critical mass of generated cards"
+    },
+    {
+      "from": "ppl-operis-pipeline",
+      "to": "ppl-cosmogram-population",
+      "type": "depends-on",
+      "note": "Operis needs cosmogram context for featured zip descriptions"
+    },
+    {
+      "from": "ppl-operis-pipeline",
+      "to": "ppl-historical-events-db",
+      "type": "depends-on",
+      "note": "Prompt 1 checks historical events path before web research"
+    },
+    {
+      "from": "ppl-experience-layer",
+      "to": "ppl-middle-math-engine",
+      "type": "depends-on",
+      "note": "Weight vectors drive UI rendering and exercise selection in Phase 4"
+    },
+    {
+      "from": "ppl-middle-math-engine",
+      "to": "ppl-workout-generation",
+      "type": "depends-on",
+      "note": "Middle-math engine needs card content as its primary data source"
+    },
+    {
+      "from": "ppl-workout-generation",
+      "to": "gsd-scl-orchestration",
+      "type": "depends-on",
+      "note": "All future generation sessions use zip-routed session routing"
+    }
+  ],
+  "critical_path": [
+    "gsd-scl-orchestration",
+    "ppl-workout-generation",
+    "ppl-cosmogram-population",
+    "ppl-historical-events-db",
+    "ppl-operis-pipeline",
+    "ppl-middle-math-engine",
+    "ppl-experience-layer"
+  ],
+  "independent_contracts": [
+    "graph-parti-district-org",
+    "story-engine",
+    "civic-atlas"
+  ],
+  "milestone_sequence": {
+    "M0": "gsd-scl-orchestration",
+    "M1": "ppl-workout-generation (Foundation Decks 01–06)",
+    "M2": "ppl-workout-generation (Strength Decks 07–12) ✅",
+    "M3": "ppl-workout-generation (Hypertrophy Decks 13–18)",
+    "M4": "ppl-workout-generation (Performance Decks 19–24)",
+    "M5": "ppl-workout-generation (Full Body Decks 25–30)",
+    "M6": "ppl-workout-generation (Balance Decks 31–36)",
+    "M7": "ppl-workout-generation (Restoration Decks 37–42)",
+    "M8": "ppl-cosmogram-population",
+    "M9": "ppl-operis-pipeline",
+    "M10": "ppl-experience-layer"
+  }
+}
