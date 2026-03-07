@@ -142,7 +142,7 @@ Creative exploration, discovery. Surprising AND useful.
 | DONE | — | Systems eudaimonics seed | — | seeds/systems-eudaimonics.md |
 | DONE | — | Color pipeline posture seed | — | seeds/color-pipeline-posture.md |
 | DONE | — | SCL envelope architecture | — | seeds/scl-envelope-architecture.md |
-| ACTIVE | — | First deck cosmogram (Deck 07 or 01 or 05) | — | 61-branch architecture committed; scaffold script ready; contract prompt v1 ready; run in Genspark with web access |
+| DONE | — | Cosmogram first pass (all 42 decks, Codex scaffold) | — | 42 v2 cosmograms set to DRAFT with 61/61 branch subject scaffolds; no web deposits |
 | DONE | — | Cosmogram 61-branch architecture spec | — | scl-deep/cosmogram-architecture.md committed |
 | DONE | — | Cosmogram scaffold script v2 | — | scripts/scaffold-cosmograms-v2.py — generates 42 v2 files pre-seeded from weight vectors |
 | DONE | — | Cosmogram contract prompt v1 | — | seeds/cosmogram-contract-prompt-v1.md — replaces domain-based research prompt for v2 format |
@@ -204,6 +204,8 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 - **Macro system notes (planted 2026-03-05):** Color as conversational tone modifier (Phase 7+): Colors can signal intent in digital communication. "This is a 🟣 question" = I need precision. "This is a 🟡 question" = I'm exploring. Potential community floor feature. GitHub Project Board as visual Negotiosum: Create a Project board with a Color custom field, populate from whiteboard.md. Whiteboard auto-update enforcement: CX-35 partially covers this; consider adding CI check that verifies whiteboard.md was updated in any PR marking a CX container DONE.
 - **Session 034 critical path advance (2026-03-06):** CX-33 reconciled (PR #90, built 2026-03-05). CX-14 DONE — weight_vector.py computes all 1,680 vectors (61 dimensions, octave scale [-8,+8]). CX-21 DONE — content-type-registry.json (109 types, 6 axes). CX-28 DONE — 42 cosmogram stubs generated. Cascade unlock: CX-15, CX-22, CX-25, CX-30 all fully unblocked. CX-15 is critical path next.
 - **Wave 4 unblocked (2026-03-06):** CX-15 (Exercise Selection Prototype) — CX-13 ✓, CX-14 ✓. CX-22 (Floor Routing) — CX-03 ✓, CX-20 ✓, CX-21 ✓. CX-25 (Vote Weight Integration) — CX-20 ✓, CX-14 ✓. CX-30 (Envelope Schema) — CX-08 ✓, CX-14 ✓, CX-03 ✓.
+- **DONE: Cosmogram first pass — 42 v2 files generated via Codex (subject scaffold, no web deposits) [2026-03-07].**
+- **ACTIVE: Cosmogram enrichment — web research sessions needed for deposits, cross-deck mapping, and subject validation.**
 
 ---
 

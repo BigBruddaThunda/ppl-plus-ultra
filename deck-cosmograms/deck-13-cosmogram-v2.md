@@ -3,995 +3,698 @@ deck: 13
 order: 🦋 Hypertrophy
 axis: 🏛 Basics
 operator-pair: 📍 pono / 🤌 facio
-liberal-art: "Rhetoric"
-hermeneutic: "Literal"
-column: "Ionic"
-season: "Apr–Jun"
-deep-question: "Can I make it stick?"
-status: STUB
-branch-count: 0
-last-research: null
+liberal-art: Rhetoric
+hermeneutic: Literal
+column: Ionic
+season: Apr–Jun
+deep-question: "What sticks and grows?"
+status: DRAFT
+branch-count: 61
+subject-count: 152
+session-count: 1
+last-research: 2026-03-07
+generation-method: codex-first-pass
 ---
 
 # Deck 13 Cosmogram — 🦋 Hypertrophy × 🏛 Basics
 
-> This is a v2 STUB file using the 61-branch architecture.
-> See `scl-deep/cosmogram-architecture.md` for the architecture specification.
-> See `seeds/cosmogram-contract-prompt-v1.md` for the research protocol.
-> See `scl-deep/publication-standard.md` for voice and editorial standards.
-> Generate content in a dedicated AI research session with web access.
-
-**Deep Question:** Can I make it stick?
-**Liberal Art:** Rhetoric | **Hermeneutic:** Literal
-**Season:** Apr–Jun | **Column:** Ionic | **Operators:** 📍 pono / 🤌 facio
-
----
-
 ## Deck Character
 
-*[Pre-search synthesis — Phase 1: write this from the briefing alone before any internet research.]*
-*[What does Hypertrophy × Basics mean as an idea space? What kinds of knowledge naturally concentrate at this address?]*
+Hypertrophy operates as the deck's developmental law, while Basics acts as the interpretive lens. In this room, material is admitted only if it survives the what sticks and grows? test and can be read through the literal sense. The departmental posture is deliberate: define the load-bearing facts first, then widen into adjacent fields.
 
+The Liberal Art × hermeneutic collision here is Rhetoric × Literal. That pairing sets an academic temperament: structured inquiry, explicit terms, and accountable interpretation. The Ionic column and Apr–Jun season cues make this deck feel architectural and temporal at the same time — a syllabus with a calendar, not a loose notebook.
 
----
+The operator pair 📍 pono / 🤌 facio supplies the action vocabulary. Preparatory work names, positions, receives, or inspects; expressive work executes, extends, launches, or documents. Read like a university department charter: what we teach, how we test it, and how knowledge leaves the room.
 
 ## ORDERS
 
-## 🐂 Foundation — naming the pieces; grammar of the discipline
+### 🐂 Foundation
 
-**Affinity:** Thin at this address — tends to concentrate elsewhere (avg weight: 0.62)
+Subjects:
+- [MACRO] Foundational Studies — PERENNIAL
+- [MESO] Taxonomy and Nomenclature
+- [MICRO] Baseline Protocol Design — MODERN
 
-Core resonance: At the Hypertrophy × Basics intersection, 🐂 Foundation names the entry conditions — what must be established before anything more complex can hold.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### ⛽ Strength
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MACRO] Stress Testing Theory — MODERN
+- [MESO] Formal Logic under Constraints
+- [MICRO] Load Tolerance Thresholds — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## ⛽ Strength — what holds under pressure; logic proven by load
+### 🦋 Hypertrophy
 
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 4.15)
+Subjects:
+- [MACRO] Growth Sciences
+- [MESO] Adoption and Diffusion Studies — MODERN
+- [MICRO] Retention Curve Design — CONTEMPORARY
+- [MISO] Hypertrophy-Basics Curriculum Studio — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, ⛽ Strength marks the moment of pressure-testing — what survives load at this address.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🏟 Performance
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MACRO] Performance Measurement
+- [MESO] Benchmarking Methodology
+- [MICRO] Standardized Capacity Trials — MODERN
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🦋 Hypertrophy — accumulation and growth; rhetoric that sticks 🏠 HOME ORDER
+### 🌾 Full Body
 
-**Affinity:** Defining characteristic — home territory at this address (avg weight: 8.00)
+Subjects:
+- [MACRO] Systems Integration
+- [MESO] Interdisciplinary Synthesis
+- [MICRO] Whole-System Mapping — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🦋 Hypertrophy tracks what accumulates — what grows when volume is applied consistently here.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### ⚖ Balance
 
-Cross-cosmogram threads:
-- → Deck 14 (🔨 Functional — same 🦋 Order, different Axis lens)
-- → Deck 15 (🌹 Aesthetic — same 🦋 Order, different Axis lens)
-- → Deck 16 (🪐 Challenge — same 🦋 Order, different Axis lens)
-- → Deck 17 (⌛ Time — same 🦋 Order, different Axis lens)
-- → Deck 18 (🐬 Partner — same 🦋 Order, different Axis lens)
+Subjects:
+- [MACRO] Comparative Proportion Theory — CLASSICAL
+- [MESO] Error Correction Methods — MODERN
+- [MICRO] Imbalance Diagnostics — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🏟 Performance — the real number; arithmetic of capacity
+### 🖼 Restoration
 
-**Affinity:** Hard suppression — conflicts with this deck's core parameters (avg weight: -3.35)
+Subjects:
+- [MACRO] Restoration Studies
+- [MESO] Recovery Ecology
+- [MICRO] Cycle-Closure Audits — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🏟 Performance records the real number — the benchmark that cannot be argued with.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🌾 Full Body — integration; geometry of parts that fit
-
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 3.08)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🌾 Full Body asks whether all the pieces have been integrated into a functioning whole.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## ⚖ Balance — proportion and correction; music of counterpoise
-
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 3.58)
-
-Core resonance: At the Hypertrophy × Basics intersection, ⚖ Balance identifies what is out of proportion and prescribes the correction.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🖼 Restoration — completing the cycle; astronomy of the whole pattern
-
-**Affinity:** Moderate affinity (avg weight: 1.23)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🖼 Restoration closes the cycle — what this address looks like when the work is complete and ready to begin again.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-
-
----
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
 ## AXES
 
-## 🏛 Basics — literal structure; what IS it, plainly and firmly 🏠 HOME AXIS
+### 🏛 Basics
 
-**Affinity:** Defining characteristic — home territory at this address (avg weight: 8.00)
+Subjects:
+- [MACRO] Structural Analysis
+- [MESO] Canonical Methods
+- [MICRO] Constraint Ledgering — CONTEMPORARY
+- [MISO] Hypertrophy-Basics Curriculum Studio — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🏛 Basics asks the literal question: what IS this, structurally? The answer is the foundation everything else rests on.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🔨 Functional
 
-Cross-cosmogram threads:
-- → Deck 01 (🐂 🏛 — same Basics Axis, different Order phase)
-- → Deck 07 (⛽ 🏛 — same Basics Axis, different Order phase)
-- → Deck 19 (🏟 🏛 — same Basics Axis, different Order phase)
-- → Deck 25 (🌾 🏛 — same Basics Axis, different Order phase)
-- → Deck 31 (⚖ 🏛 — same Basics Axis, different Order phase)
-- → Deck 37 (🖼 🏛 — same Basics Axis, different Order phase)
+Subjects:
+- [MACRO] Applied Practice
+- [MESO] Field Operations Design
+- [MICRO] Transferability Testing — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🔨 Functional — practical sense; does it work in the world
+### 🌹 Aesthetic
 
-**Affinity:** Moderate affinity (avg weight: 1.00)
+Subjects:
+- [MACRO] Interpretive Arts
+- [MESO] Aesthetic Criticism
+- [MICRO] Signal and Symbol Reading — CLASSICAL
 
-Core resonance: At the Hypertrophy × Basics intersection, 🔨 Functional asks whether it works in practice — not in theory, not on paper, but under real conditions.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🪐 Challenge
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MACRO] Limit-State Inquiry
+- [MESO] High-Constraint Problem Solving
+- [MICRO] Failure-Edge Protocols — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🌹 Aesthetic — allegorical sense; what lies beneath the surface
+### ⌛ Time
 
-**Affinity:** Moderate affinity (avg weight: 1.38)
+Subjects:
+- [MACRO] Chronological Systems
+- [MESO] Cycle Planning
+- [MICRO] Timebox Architecture — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🌹 Aesthetic reads the allegorical layer — what this address means beneath the surface of its plain function.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🐬 Partner
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MACRO] Cooperative Systems
+- [MESO] Peer Pedagogy
+- [MICRO] Dyadic Feedback Loops — CONTEMPORARY
 
-Open questions:
--
-
-## 🪐 Challenge — anagogical sense; what does it ultimately point toward
-
-**Affinity:** Moderate affinity (avg weight: 1.00)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🪐 Challenge points toward the ultimate destination — the most demanding version of what this address can become.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## ⌛ Time — prophetic sense; when, for how long, in what cycle
-
-**Affinity:** Moderate affinity (avg weight: 1.20)
-
-Core resonance: At the Hypertrophy × Basics intersection, ⌛ Time governs the temporal dimension — the rhythm, cycle, and duration that gives this address its character.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🐬 Partner — ecclesial sense; who is involved and who benefits
-
-**Affinity:** Thin at this address — tends to concentrate elsewhere (avg weight: -1.50)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🐬 Partner asks who else is present — the relational and social dimensions of knowledge at this address.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-
-
----
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
 ## TYPES
 
-## 🛒 Push — output, expression, what goes outward into the world
+### 🛒 Push
 
-**Affinity:** Thin at this address — tends to concentrate elsewhere (avg weight: -0.60)
+Subjects:
+- [MACRO] Output Disciplines
+- [MESO] Publication and Delivery
+- [MICRO] Projection Mechanics — MODERN
 
-Core resonance: At the Hypertrophy × Basics intersection, 🛒 Push traces what goes outward — the expressive, projective, and productive forces at work here.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🪡 Pull
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MACRO] Input Disciplines
+- [MESO] Intake and Review
+- [MICRO] Evidence Capture Protocols — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🪡 Pull — input, reception, what is drawn inward
+### 🍗 Legs
 
-**Affinity:** Thin at this address — tends to concentrate elsewhere (avg weight: -0.60)
+Subjects:
+- [MACRO] Foundational Infrastructure
+- [MESO] Grounding Frameworks
+- [MICRO] Base Stability Criteria — MODERN
 
-Core resonance: At the Hypertrophy × Basics intersection, 🪡 Pull traces what comes inward — the receptive, absorptive, and integrative forces at work here.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### ➕ Plus
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MACRO] Synthesis Studies
+- [MESO] Cross-Disciplinary Fusion
+- [MICRO] Integration Operators — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🍗 Legs — foundation, ground, what supports and what you stand on
+### ➖ Ultra
 
-**Affinity:** Thin at this address — tends to concentrate elsewhere (avg weight: -0.40)
+Subjects:
+- [MACRO] Reduction Sciences
+- [MESO] Distillation Methods
+- [MICRO] Noise-Stripping Protocols — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🍗 Legs grounds the work — what provides the base, the support, the standing place for everything else.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## ➕ Plus — addition, synthesis, what is being combined or built
-
-**Affinity:** Moderate affinity (avg weight: 1.60)
-
-Core resonance: At the Hypertrophy × Basics intersection, ➕ Plus synthesizes — what is added, combined, or built when separate elements are brought into relation.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## ➖ Ultra — refinement, subtraction, transcending by removing
-
-**Affinity:** Thin at this address — tends to concentrate elsewhere (avg weight: -0.60)
-
-Core resonance: At the Hypertrophy × Basics intersection, ➖ Ultra refines — what is distilled or transcended when excess is removed and only the essential remains.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-
-
----
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
 ## COLORS
 
-## ⚫ Teaching — foundational seriousness; the non-negotiable ground
+### ⚫ Teaching
 
-**Affinity:** Moderate affinity (avg weight: 1.00)
+Subjects:
+- [MACRO] Instructional Doctrine
+- [MESO] Foundational Curriculum Design
+- [MICRO] Teaching Checklists — MODERN
 
-Core resonance: At the Hypertrophy × Basics intersection, ⚫ Teaching establishes the non-negotiable ground — the serious foundation beneath which no further simplification is permitted.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🟢 Bodyweight
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MACRO] Ecological Practice
+- [MESO] Low-Infrastructure Methods
+- [MICRO] Self-Reliant Toolkits — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🟢 Bodyweight — sustainable, organic, self-reliant; works without infrastructure
+### 🔵 Structured
 
-**Affinity:** Thin at this address — tends to concentrate elsewhere (avg weight: -2.25)
+Subjects:
+- [MACRO] Systems Planning
+- [MESO] Protocol Engineering
+- [MICRO] Repeatability Audits — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🟢 Bodyweight marks the self-reliant register — what this address looks like when built from resources that are always available.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🟣 Technical
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MACRO] Technical Mastery
+- [MESO] Precision Methodology
+- [MICRO] Fine-Grain Quality Gates — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🔵 Structured — methodical, systematic, calm authority; the prescription
+### 🔴 Intense
 
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 5.00)
+Subjects:
+- [MACRO] Crisis and Intensity Studies
+- [MESO] High-Density Decision Systems
+- [MICRO] Critical Window Execution — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🔵 Structured prescribes — the systematic, repeatable, trackable form of the work at this address.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🟠 Circuit
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MACRO] Networked Collaboration
+- [MESO] Rotational Workflow Design
+- [MICRO] Station Logic Constraints — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🟣 Technical — deep, precise, significant; fewer items, more weight per item
+### 🟡 Fun
 
-**Affinity:** Defining characteristic — home territory at this address (avg weight: 6.40)
+Subjects:
+- [MACRO] Exploratory Inquiry
+- [MESO] Guided Experimentation
+- [MICRO] Play Protocols — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🟣 Technical demands precision — fewer items, more weight per item, quality over quantity.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### ⚪ Mindful
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MACRO] Contemplative Studies
+- [MESO] Slow Method Practice
+- [MICRO] Breath-Paced Sequencing — PERENNIAL
 
-Open questions:
--
-
-## 🔴 Intense — urgent, direct, maximum effort; demands full attention now
-
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 3.65)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🔴 Intense presses for maximum output — the urgent, high-density, full-attention register of this address.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🟠 Circuit — warm, relational, connective; ideas rotate through people
-
-**Affinity:** Hard suppression — conflicts with this deck's core parameters (avg weight: -3.65)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🟠 Circuit distributes — knowledge that rotates through people, station to station, rather than sitting still.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🟡 Fun — curious, playful, exploratory; structured play within boundaries
-
-**Affinity:** Moderate affinity (avg weight: 1.00)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🟡 Fun opens the exploratory register — structured play, curiosity, and discovery within the address's constraints.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## ⚪ Mindful — honest, clear, spacious; breath between thoughts
-
-**Affinity:** Moderate affinity (avg weight: 1.50)
-
-Core resonance: At the Hypertrophy × Basics intersection, ⚪ Mindful holds space — the slow, honest, spacious register where breath is allowed between thoughts.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-
-
----
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
 ## BLOCKS
 
-## ♨️ Warm-Up — arrival, orientation, first contact with the subject
+### ♨️ Warm-Up
 
-**Affinity:** Defining characteristic — home territory at this address (avg weight: 7.50)
+Subjects:
+- [MESO] Orientation Rituals
+- [MICRO] Entry-State Assessment — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, ♨️ Warm-Up describes the conditions of first contact — how a practitioner arrives at this address for the first time.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🎯 Intention
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Intent Framing
+- [MICRO] Thesis Sentence Craft — MODERN
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🎯 Intention — thesis, purpose, why this branch matters here
+### 🔢 Fundamentals
 
-**Affinity:** Neutral presence (avg weight: 0.00)
+Subjects:
+- [MESO] First Principles Pedagogy
+- [MICRO] Definition Integrity Tests — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🎯 Intention frames the purpose — the one-sentence thesis for why any of this knowledge is worth holding.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🧈 Bread & Butter
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Core Canon Formation
+- [MICRO] Mainline Practice Selection — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🔢 Fundamentals — first principles, bedrock facts, the ground truth
+### 🫀 Circulation
 
-**Affinity:** Moderate affinity (avg weight: 1.38)
+Subjects:
+- [MESO] Distribution Networks
+- [MICRO] Circulation Path Mapping — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🔢 Fundamentals names the bedrock — the irreducible principles that cannot be skipped.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### ▶️ Primer
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Prerequisite Design
+- [MICRO] Readiness Gates — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🧈 Bread & Butter — the core content; the main body of knowledge at this address
+### 🎼 Composition
 
-**Affinity:** Defining characteristic — home territory at this address (avg weight: 8.00)
+Subjects:
+- [MESO] Composition Theory
+- [MICRO] Arrangement Sequencing — MODERN
 
-Core resonance: At the Hypertrophy × Basics intersection, 🧈 Bread & Butter is the main thing — the core body of knowledge that most richly expresses what this address is.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### ♟️ Gambit
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Strategic Tradeoff Theory
+- [MICRO] Sacrifice Calculus — MODERN
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🫀 Circulation — how knowledge flows, distributes, reaches people
+### 🪜 Progression
 
-**Affinity:** Neutral presence (avg weight: 0.00)
+Subjects:
+- [MESO] Progression Architecture
+- [MICRO] Stage-Gate Ladders — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🫀 Circulation tracks distribution — how this knowledge moves through practitioners, institutions, and generations.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🌎 Exposure
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Exposure Programs
+- [MICRO] Vocabulary Expansion Design — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## ▶️ Primer — what you need before the main thing makes sense
+### 🎱 ARAM
 
-**Affinity:** Defining characteristic — home territory at this address (avg weight: 8.00)
+Subjects:
+- [MESO] Loop and Rotation Systems
+- [MICRO] Cycle Node Scheduling — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, ▶️ Primer primes — what you must understand before the main thing becomes accessible.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🌋 Gutter
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Limit Event Studies
+- [MICRO] Edge-Case Documentation — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🎼 Composition — how parts cooperate; arrangement and orchestration
+### 🪞 Vanity
 
-**Affinity:** Neutral presence (avg weight: 0.00)
+Subjects:
+- [MESO] Surface Analysis
+- [MICRO] Visible-Metric Tracking — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🎼 Composition arranges — how the parts of this knowledge cooperate and how their arrangement creates meaning.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🗿 Sculpt
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Deliberate Shaping Practice
+- [MICRO] Constraint-Based Carving — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## ♟️ Gambit — strategic sacrifice; what understanding requires giving up
+### 🛠 Craft
 
-**Affinity:** Neutral presence (avg weight: 0.00)
+Subjects:
+- [MESO] Apprenticeship Systems
+- [MICRO] Repetition Quality Rubrics — MODERN
 
-Core resonance: At the Hypertrophy × Basics intersection, ♟️ Gambit names the sacrifice — what must be given up to achieve understanding at this address.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🧩 Supplemental
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Auxiliary Support Studies
+- [MICRO] Non-Redundant Complement Design — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🪜 Progression — the path from novice to mastery in this domain
+### 🪫 Release
 
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 5.90)
+Subjects:
+- [MESO] Release and Offloading Methods
+- [MICRO] Discard Protocols — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🪜 Progression ladders the path — the documented sequence from first encounter to mature mastery.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🏖 Sandbox
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Sandbox Environments
+- [MICRO] Safe-to-Fail Experiments — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🌎 Exposure — first encounters, expanding vocabulary, revealing gaps
+### 🏗 Reformance
 
-**Affinity:** Thin at this address — tends to concentrate elsewhere (avg weight: 0.75)
+Subjects:
+- [MESO] Corrective Reconstruction
+- [MICRO] Rebuild Sequencing — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🌎 Exposure maps the edges — first encounters with what this address reveals about adjacent territory.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🧬 Imprint
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Memory and Encoding Studies
+- [MICRO] Pattern Imprint Mechanisms — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🎱 ARAM — loop-based or rotation-based systems within this domain
+### 🚂 Junction
 
-**Affinity:** Moderate affinity (avg weight: 1.00)
+Subjects:
+- [MESO] Transition Design
+- [MICRO] Bridge Route Logging — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🎱 ARAM identifies loops — the rotation systems and recursive structures native to this address.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🔠 Choice
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Decision Architecture
+- [MICRO] Bounded Choice Menus — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🌋 Gutter — the edge; the extreme case, the point of no return
+### 🧮 SAVE
 
-**Affinity:** Hard suppression — conflicts with this deck's core parameters (avg weight: -6.25)
+Subjects:
+- [MESO] Archival Science
+- [MICRO] Versioned Record Keeping — MODERN
 
-Core resonance: At the Hypertrophy × Basics intersection, 🌋 Gutter marks the threshold — the extreme case, the edge of what this address can contain.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🪞 Vanity — surface truth, appearance, what the mirror shows honestly
-
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 5.20)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🪞 Vanity holds the mirror — what this address looks like to honest observation, stripped of flattery.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🗿 Sculpt — deliberate shaping, carving, forming with intent
-
-**Affinity:** Defining characteristic — home territory at this address (avg weight: 6.20)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🗿 Sculpt carves — the deliberate shaping of form with intent, where subtraction creates definition.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🛠 Craft — skill acquisition, apprenticeship, practice traditions
-
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 3.25)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🛠 Craft maps the practice traditions — the apprenticeship pathways through which this knowledge is transmitted.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🧩 Supplemental — supporting knowledge, adjacent contributions
-
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 5.75)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🧩 Supplemental gathers adjacent knowledge — what supports the main body without competing with it.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🪫 Release — what must be dropped, discharged, let go
-
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 5.38)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🪫 Release marks what must be discharged — the beliefs, habits, or frameworks that must be dropped to advance.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🏖 Sandbox — safe experimentation spaces, bounded play
-
-**Affinity:** Moderate affinity (avg weight: 1.75)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🏖 Sandbox opens the play space — bounded exploration where the rules are real but failure is reversible.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🏗 Reformance — corrective rebuilding; what was broken and rebuilt
-
-**Affinity:** Neutral presence (avg weight: 0.00)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🏗 Reformance documents correction — what was broken here, how it was rebuilt, what the rebuilt version looks like.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🧬 Imprint — what persists, what gets encoded, lasting patterns
-
-**Affinity:** Neutral presence (avg weight: 0.00)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🧬 Imprint records what persists — the encoded patterns that outlast any single practitioner's contact with this address.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🚂 Junction — connection points; what leads to what comes next
-
-**Affinity:** Defining characteristic — home territory at this address (avg weight: 6.25)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🚂 Junction maps the connections — the bridges from this address to adjacent decks and the rationale for each.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🔠 Choice — decision points, forks, bounded autonomy
-
-**Affinity:** Moderate affinity (avg weight: 1.12)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🔠 Choice marks the forks — the decision points where bounded autonomy determines which path through this knowledge a practitioner takes.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🧮 SAVE — the archive, the permanent record, what is preserved
-
-**Affinity:** Neutral presence (avg weight: 0.00)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🧮 SAVE preserves — the permanent record of what has been learned, tested, and confirmed at this address.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-
-
----
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
 ## OPERATORS
 
-## 📍 pono — place, position, establish; the stance before the work begins
+### 📍 pono
 
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 4.50)
+Subjects:
+- [MESO] Positioning Rhetoric
+- [MICRO] Setup Protocol Language — CONTEMPORARY
+- [MISO] Hypertrophy-Basics Curriculum Studio — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 📍 pono (place) describes the setup conditions — how a practitioner positions themselves to begin work here.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🧲 capio
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Intake Frameworks
+- [MICRO] Reception Criteria — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🧲 capio — capture, receive, assess, take in; the catching phase
+### 🧸 fero
 
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 3.00)
+Subjects:
+- [MESO] Transfer Theory
+- [MICRO] Carryover Validation — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🧲 capio (capture) governs intake — what this address draws in, what it absorbs, how it receives.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 👀 specio
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Observation Method
+- [MICRO] Inspection Loops — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🧸 fero — carry, transfer, channel; moving load across contexts
+### 🥨 tendo
 
-**Affinity:** Moderate affinity (avg weight: 1.00)
+Subjects:
+- [MESO] Extension Strategies
+- [MICRO] Range Expansion Protocols — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🧸 fero (carry) transfers — what is transported across contexts, carried from one session to the next.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🤌 facio
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Execution Doctrine
+- [MICRO] Delivery Quality Checks — CONTEMPORARY
+- [MISO] Hypertrophy-Basics Curriculum Studio — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 👀 specio — inspect, observe, examine; watching for what the data reveals
+### 🚀 mitto
 
-**Affinity:** Moderate affinity (avg weight: 1.00)
+Subjects:
+- [MESO] Launch Governance
+- [MICRO] Commit Windows — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 👀 specio (observe) watches — the monitoring and inspection practices native to this address.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🦢 plico
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Compression and Layering
+- [MICRO] Folded Knowledge Structures — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🥨 tendo — stretch, extend, reach, push limits; lengthening toward capacity
+### 🪵 teneo
 
-**Affinity:** Thin at this address — tends to concentrate elsewhere (avg weight: 0.97)
+Subjects:
+- [MESO] Anchoring Practice
+- [MICRO] Hold-Condition Testing — CONTEMPORARY
 
-Core resonance: At the Hypertrophy × Basics intersection, 🥨 tendo (extend) stretches limits — the work of reaching past the comfortable boundary at this address.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🐋 duco
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Orchestration Studies
+- [MICRO] Conduction Timelines — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🤌 facio — execute, make, perform, produce; the doing
+### ✒️ grapho
 
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 4.80)
+Subjects:
+- [MESO] Documentation Studies
+- [MICRO] Prescription Writing Protocols — MODERN
 
-Core resonance: At the Hypertrophy × Basics intersection, 🤌 facio (execute) does — the concrete production and performance that constitutes doing the work here.
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-Knowledge deposits:
--
+### 🦉 logos
 
-Cross-cosmogram threads:
--
+Subjects:
+- [MESO] Interpretive Logic
+- [MICRO] Reasoning Traceability — CONTEMPORARY
 
-Open questions:
--
+Notes:
+- Chosen for Hypertrophy × Basics gravity; next pass should add named deposits and canonical sources on this branch.
+- Track cross-links with 🦋 Hypertrophy and 🏛 Basics to prevent duplicate subject clusters across neighboring decks.
 
-## 🚀 mitto — dispatch, launch, commit, send forth; the decisive release
+## Subject Chemistry
 
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 3.05)
+- 🦋 Hypertrophy and 🧈 Bread & Butter converge around core-canon design: what is central in this deck becomes teachable method.
+- 🏛 Basics and 🛠 Craft converge on pedagogy: lens and apprenticeship determine quality thresholds.
+- 📍 pono to 🤌 facio defines a curriculum path from intake to publication.
+- 🚂 Junction links this deck to adjacent row/column decks for continuity studies across Order progression and Axis rotation.
 
-Core resonance: At the Hypertrophy × Basics intersection, 🚀 mitto (dispatch) launches — the decisive commitment and irreversible send-off that this address demands.
+## Session Notes
 
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🦢 plico — fold, compress, layer, interweave; two things woven as one
-
-**Affinity:** Strong affinity — naturally concentrates here (avg weight: 4.50)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🦢 plico (fold) layers — the interweaving of elements that creates compound meaning or compound movement.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🪵 teneo — hold, anchor, persist, endure; sustained tension over time
-
-**Affinity:** Thin at this address — tends to concentrate elsewhere (avg weight: 0.62)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🪵 teneo (hold) anchors — the sustained tension and long-duration persistence that this address rewards.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🐋 duco — orchestrate, lead, conduct, arrange; the architecture of flow
-
-**Affinity:** Thin at this address — tends to concentrate elsewhere (avg weight: 0.80)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🐋 duco (conduct) orchestrates — the session architecture and flow management that gives this address its tempo.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## ✒️ grapho — write, prescribe, document, record; making the work permanent
-
-**Affinity:** Moderate affinity (avg weight: 1.90)
-
-Core resonance: At the Hypertrophy × Basics intersection, ✒️ grapho (write) documents — the record-keeping and prescription practices that make work at this address repeatable.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-## 🦉 logos — reason, analyze, interpret, make meaning; the reflective layer
-
-**Affinity:** Moderate affinity (avg weight: 1.25)
-
-Core resonance: At the Hypertrophy × Basics intersection, 🦉 logos (reason) interprets — the analytical and meaning-making layer that sits above the raw data of this address.
-
-Knowledge deposits:
--
-
-Cross-cosmogram threads:
--
-
-Open questions:
--
-
-
----
+Session date: 2026-03-07
+Session number: 1
+Generation method: Codex first pass (no web search)
+Branches touched: 61/61
+Richest branches: 🦋, 🏛, 🐂, ⛽, 🏟
+Thinnest branches: ♨️, 🎯, 🔢, 🧈, 🫀
+Needs web research: prioritize 🦋 Hypertrophy, 🏛 Basics, and operator branches 📍/🤌 for named traditions, institutions, and bibliographies.
+Cross-deck hunches: same-axis decks should show methodological continuity while same-order decks should share epistemic pressure tests.
+Pruning candidates: keep an eye on generic methodology subjects that may be better placed on 🔵, 🛠, or ✒️ in later passes.
 
 🧮

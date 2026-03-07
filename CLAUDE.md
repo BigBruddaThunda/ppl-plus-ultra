@@ -858,7 +858,7 @@ generate cards using scl-directory.md and deck identity alone.
 The cosmogram is supplemental context, not a generation blocker.
 
 Status: Research prompt and publication standard committed.
-No cosmograms populated yet. Generation can begin.
+Cosmogram v2 first pass completed for all 42 decks (DRAFT subject scaffolds, no web deposits yet).
 - Research prompt: `seeds/cosmogram-research-prompt.md`
 - Publication standard: `scl-deep/publication-standard.md`
 - Output target: `deck-cosmograms/deck-[NUMBER]-cosmogram.md`
