@@ -1,0 +1,46 @@
+# Deck 38 Batch Generation Report
+
+Generated: 2026-03-07T23:02:07.020707+00:00
+
+| Zip | Title | Primary Exercise | Validation | Notes |
+|---|---|---|---|---|
+| 🖼🔨➕⚪ | Wide-Grip Lat Pulldown (Teres Focus) — Plus Mindful | Wide-Grip Lat Pulldown (Teres Focus) | PASS |  |
+| 🖼🔨➕⚫ | Half-Kneeling Band Single-Arm Pulldown — Plus Teaching | Half-Kneeling Band Single-Arm Pulldown | PASS |  |
+| 🖼🔨➕🔴 | Neck Rotation (Bodyweight) — Plus Intense | Neck Rotation (Bodyweight) | PASS |  |
+| 🖼🔨➕🔵 | Face Pull (Rope) — Plus Structured | Face Pull (Rope) | PASS |  |
+| 🖼🔨➕🟠 | Single-Arm Face Pull — Plus Circuit | Single-Arm Face Pull | PASS |  |
+| 🖼🔨➕🟡 | Aquaman (Alternating Superman) — Plus Fun | Aquaman (Alternating Superman) | PASS |  |
+| 🖼🔨➕🟢 | Behind-the-Neck Lat Pulldown (Teres Focus) — Plus Bodyweight | Behind-the-Neck Lat Pulldown (Teres Focus) | PASS |  |
+| 🖼🔨➕🟣 | Seated Good Morning — Plus Technical | Seated Good Morning | PASS |  |
+| 🖼🔨➖⚪ | Turkish Get-Up (Full) — Ultra Mindful | Turkish Get-Up (Full) | PASS |  |
+| 🖼🔨➖⚫ | Turkish Get-Up (Full) — Ultra Teaching | Turkish Get-Up (Full) | PASS |  |
+| 🖼🔨➖🔴 | Turkish Get-Up (Full) — Ultra Intense | Turkish Get-Up (Full) | PASS |  |
+| 🖼🔨➖🔵 | Kettlebell Goblet Squat — Ultra Structured | Kettlebell Goblet Squat | PASS |  |
+| 🖼🔨➖🟠 | Turkish Get-Up (Full) — Ultra Circuit | Turkish Get-Up (Full) | PASS |  |
+| 🖼🔨➖🟡 | Turkish Get-Up (Full) — Ultra Fun | Turkish Get-Up (Full) | PASS |  |
+| 🖼🔨➖🟢 | Single-Leg Jump Rope — Ultra Bodyweight | Single-Leg Jump Rope | PASS |  |
+| 🖼🔨➖🟣 | Half Turkish Get-Up (To Elbow) — Ultra Technical | Half Turkish Get-Up (To Elbow) | PASS |  |
+| 🖼🔨🍗⚪ | Pistol Squat (Single-Leg) — Legs Mindful | Pistol Squat (Single-Leg) | PASS |  |
+| 🖼🔨🍗⚫ | Single-Leg Toe Raise — Legs Teaching | Single-Leg Toe Raise | PASS |  |
+| 🖼🔨🍗🔴 | Single-Leg Jump Rope — Legs Intense | Single-Leg Jump Rope | PASS |  |
+| 🖼🔨🍗🔵 | Single-Leg Curl (Seated) — Legs Structured | Single-Leg Curl (Seated) | PASS |  |
+| 🖼🔨🍗🟠 | Box Jump — Legs Circuit | Box Jump | PASS |  |
+| 🖼🔨🍗🟡 | Standing Hip Internal Rotation (Band) — Legs Fun | Standing Hip Internal Rotation (Band) | PASS |  |
+| 🖼🔨🍗🟢 | Single-Leg Wall Sit — Legs Bodyweight | Single-Leg Wall Sit | PASS |  |
+| 🖼🔨🍗🟣 | Single-Leg Hip Thrust (Barbell) — Legs Technical | Single-Leg Hip Thrust (Barbell) | PASS |  |
+| 🖼🔨🛒⚪ | Medicine Ball Slam (Chest Height) — Push Mindful | Medicine Ball Slam (Chest Height) | PASS |  |
+| 🖼🔨🛒⚫ | Single-Arm Cable Rear Delt Fly — Push Teaching | Single-Arm Cable Rear Delt Fly | PASS |  |
+| 🖼🔨🛒🔴 | Single-Arm Overhead Cable Extension — Push Intense | Single-Arm Overhead Cable Extension | PASS |  |
+| 🖼🔨🛒🔵 | Single-Arm Dumbbell Lateral Raise — Push Structured | Single-Arm Dumbbell Lateral Raise | PASS |  |
+| 🖼🔨🛒🟠 | Neutral-Grip Lat Pulldown (Brachialis) — Push Circuit | Neutral-Grip Lat Pulldown (Brachialis) | PASS |  |
+| 🖼🔨🛒🟡 | Cable External Rotation (Standing) — Push Fun | Cable External Rotation (Standing) | PASS |  |
+| 🖼🔨🛒🟢 | Incline Cable Fly — Push Bodyweight | Incline Cable Fly | PASS |  |
+| 🖼🔨🛒🟣 | Alternating Hammer Curl — Push Technical | Alternating Hammer Curl | PASS |  |
+| 🖼🔨🪡⚪ | Single-Arm Overhead Cable Extension — Pull Mindful | Single-Arm Overhead Cable Extension | PASS |  |
+| 🖼🔨🪡⚫ | Half-Kneeling Band Single-Arm Pulldown — Pull Teaching | Half-Kneeling Band Single-Arm Pulldown | PASS |  |
+| 🖼🔨🪡🔴 | Alternating Hammer Curl — Pull Intense | Alternating Hammer Curl | PASS |  |
+| 🖼🔨🪡🔵 | Single-Leg Hip Thrust (Bodyweight) — Pull Structured | Single-Leg Hip Thrust (Bodyweight) | PASS |  |
+| 🖼🔨🪡🟠 | Face Pull (Rope) — Pull Circuit | Face Pull (Rope) | PASS |  |
+| 🖼🔨🪡🟡 | Seated Good Morning — Pull Fun | Seated Good Morning | PASS |  |
+| 🖼🔨🪡🟢 | Behind-the-Neck Lat Pulldown (Teres Focus) — Pull Bodyweight | Behind-the-Neck Lat Pulldown (Teres Focus) | PASS |  |
+| 🖼🔨🪡🟣 | Single-Arm Dumbbell Lateral Raise — Pull Technical | Single-Arm Dumbbell Lateral Raise | PASS |  |
