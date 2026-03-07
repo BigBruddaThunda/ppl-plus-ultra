@@ -45,6 +45,59 @@ NO_BARBELL = {"🟢", "🟠"}
 
 TYPE_EMOJI = {"Push": "🛒", "Pull": "🪡", "Legs": "🍗", "Plus": "➕", "Ultra": "➖"}
 
+# --- Order-aware generation parameters ---
+
+ORDER_REST = {
+    "🐂": {"warmup": "60s", "working": "75s", "main": "75s", "supplemental": "60s"},
+    "⛽": {"warmup": "90s", "working": "120s", "main": "180s", "supplemental": "120s"},
+    "🦋": {"warmup": "60s", "working": "75s", "main": "90s", "supplemental": "60s"},
+    "🏟": {"warmup": "90s", "working": "120s", "main": "Full recovery", "supplemental": "N/A"},
+    "🌾": {"warmup": "60s", "working": "60s", "main": "60s", "supplemental": "45s"},
+    "⚖": {"warmup": "60s", "working": "75s", "main": "90s", "supplemental": "75s"},
+    "🖼": {"warmup": "60s", "working": "60s", "main": "60s", "supplemental": "60s"},
+}
+
+ORDER_INTENTIONS = {
+    "🐂": "Learn the pattern at sub-maximal load. Own the positions before adding weight.",
+    "⛽": "Drive clean reps inside the strength ceiling and make every set repeatable.",
+    "🦋": "Build tension through volume. Load serves the muscle, not the ego.",
+    "🏟": "Test. Record. Leave. No junk volume after the attempt.",
+    "🌾": "Flow through the full body as one integrated pattern.",
+    "⚖": "Find the weak link and spend time on it. Correction is the session.",
+    "🖼": "Leave fresher than you entered. Recovery is the work.",
+}
+
+ORDER_SAVE = {
+    "🐂": "The pattern owns the session. Add load only when positions are automatic.",
+    "⛽": "Keep the same movement standard and only add load if bar path stays unchanged.",
+    "🦋": "Track the pump and the tension. Volume drives growth; form keeps it honest.",
+    "🏟": "Record the number. That is the session. Come back when recovered.",
+    "🌾": "The flow is the measure. If movements disconnected, simplify next session.",
+    "⚖": "The correction is the progress. Symmetry before load, always.",
+    "🖼": "Notice what released. Carry that awareness into the next 24 hours.",
+}
+
+ORDER_TIME = {
+    "🐂": "40-50 min",
+    "⛽": "50-65 min",
+    "🦋": "55-70 min",
+    "🏟": "25-35 min",
+    "🌾": "40-55 min",
+    "⚖": "40-50 min",
+    "🖼": "30-40 min",
+}
+
+COLOR_CUES = {
+    "⚫": "(coached, check form before adding load)",
+    "🟢": "(bodyweight, no external load needed)",
+    "🔵": "(prescribed, track sets and reps)",
+    "🟣": "(precision, quality over volume)",
+    "🔴": "(high effort, push the pace)",
+    "🟠": "(station rotation, keep moving)",
+    "🟡": "(explore, stay within constraints)",
+    "⚪": "(4s eccentric, breath-paced)",
+}
+
 
 @dataclass
 class StubCard:
@@ -213,62 +266,346 @@ def run_generator(prompt: str, generator_cmd: str | None, context: dict[str, Any
     return fallback_template(context)
 
 
-def fallback_template(context: dict[str, Any]) -> str:
-    zip_code = context["zip"]
-    t = TYPE_EMOJI.get(context["type_name"], "🛒")
-    title = f"{context['primary_exercise']} — {context['type_name']} {context['color_name']}"
-    return f"""# {t} {title} {t}
+def _get_order_params(ctx: dict[str, Any]) -> dict[str, Any]:
+    """Extract working load, reps, rest from Order ceiling."""
+    c = ctx["order_ceiling"]
+    load = c.get("load", (c.get("load_min", 70) + c.get("load_max", 80)) // 2)
+    reps = (c["reps_min"] + c["reps_max"]) // 2
+    warmup_load = max(load - 20, 40)
+    warmup_reps = min(c["reps_max"], 12)
+    rest = ORDER_REST[ctx["order_emoji"]]
+    return {"load": load, "reps": reps, "warmup_load": warmup_load, "warmup_reps": warmup_reps, "rest": rest}
 
-## {context['order_name']} {context['axis_name']} — {context['type_name']} focus ({context['color_name']}) · 45-55 min
+
+def _sub(ctx: dict[str, Any], block_name: str) -> str:
+    return f"{ctx['zip']} ({block_name} | {ctx['type_name']} | {ctx['axis_name']} | {ctx['color_name']})"
+
+
+def _ex(ctx: dict[str, Any], idx: int) -> str:
+    """Get supplemental exercise by index, fallback to primary."""
+    sups = ctx["supplemental"]
+    return sups[idx] if idx < len(sups) else ctx["primary_exercise"]
+
+
+def _block_warmup(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    t = ctx["type_emoji"]
+    cue = COLOR_CUES.get(ctx["color_emoji"], "(steady tempo)")
+    return f"""═══
+## {num}) ♨️ Warm-Up — {ctx['operator']}
+Subcode: {_sub(ctx, 'Warm-Up')}
+├─ {p['warmup_reps']} {t} {_ex(ctx, 0)} {cue}
+│  Set 1: {ctx['order_emoji']} {p['warmup_load']}% × {p['warmup_reps']} (pattern prep)
+Rest: {p['rest']['warmup']}"""
+
+
+def _block_intention(ctx: dict[str, Any]) -> str:
+    intention = ORDER_INTENTIONS.get(ctx["order_emoji"], "Work with purpose.")
+    return f"""═══
+## 1) 🎯 Intention
+
+> \"{intention}\""""
+
+
+def _block_fundamentals(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    t = ctx["type_emoji"]
+    return f"""═══
+## {num}) 🔢 Fundamentals
+Subcode: {_sub(ctx, 'Fundamentals')}
+├─ {p['warmup_reps']} {t} {_ex(ctx, 1)} (slow, own each position)
+│  Set 1: {ctx['order_emoji']} {p['warmup_load']}% × {p['warmup_reps']} (grounding)
+│  Set 2: {ctx['order_emoji']} {p['warmup_load'] + 5}% × {p['warmup_reps']} (pattern lock)
+Rest: {p['rest']['working']}"""
+
+
+def _block_primer(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    t = ctx["type_emoji"]
+    return f"""═══
+## {num}) ▶️ Primer
+Subcode: {_sub(ctx, 'Primer')}
+├─ {p['reps']} {t} {_ex(ctx, 1)} (tight setup, crisp intent)
+│  Set 1: {ctx['order_emoji']} {p['warmup_load'] + 10}% × {p['reps']} (activation)
+Rest: {p['rest']['working']}"""
+
+
+def _block_progression(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    t = ctx["type_emoji"]
+    return f"""═══
+## {num}) 🪜 Progression
+Subcode: {_sub(ctx, 'Progression')}
+├─ {p['reps']} {t} {ctx['primary_exercise']} (ramp to test weight)
+│  Set 1: {ctx['order_emoji']} {p['load'] - 15}% × {p['reps'] + 1} (opener)
+│  Set 2: {ctx['order_emoji']} {p['load'] - 5}% × {p['reps']} (bridge)
+Rest: {p['rest']['main']}"""
+
+
+def _block_composition(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    t = ctx["type_emoji"]
+    return f"""═══
+## {num}) 🎼 Composition
+Subcode: {_sub(ctx, 'Composition')}
+├─ {p['reps']} {t} {_ex(ctx, 1)} → {ctx['primary_exercise']} (flow without reset)
+│  Set 1: {ctx['order_emoji']} {p['load']}% × {p['reps']} (unified pattern)
+│  Set 2: {ctx['order_emoji']} {p['load']}% × {p['reps']} (repeat flow)
+Rest: {p['rest']['working']}"""
+
+
+def _block_reformance(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    t = ctx["type_emoji"]
+    return f"""═══
+## {num}) 🏗 Reformance
+Subcode: {_sub(ctx, 'Reformance')}
+├─ {p['reps']} {t} {_ex(ctx, 1)} (corrective, address the weak link)
+│  Set 1: {ctx['order_emoji']} {p['warmup_load']}% × {p['reps'] + 2} (prehab)
+│  Set 2: {ctx['order_emoji']} {p['warmup_load'] + 5}% × {p['reps']} (stability)
+Rest: {p['rest']['working']}"""
+
+
+def _block_bread_butter(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    t = ctx["type_emoji"]
+    cue = COLOR_CUES.get(ctx["color_emoji"], "(clean line, own the bottom)")
+    sets = []
+    order = ctx["order_emoji"]
+    if ctx["order_emoji"] == "🏟":
+        sets.append(f"│  Set 1: {order} {p['load']}% × {p['reps']} (test attempt)")
+        sets.append(f"│  Set 2: {order} {p['load'] + 5}% × {p['reps']} (max attempt)")
+    elif ctx["order_emoji"] == "🖼":
+        sets.append(f"│  Set 1: {order} {p['load']}% × {p['reps']} (slow, feel each rep)")
+        sets.append(f"│  Set 2: {order} {p['load']}% × {p['reps']} (same tempo, same breath)")
+    else:
+        sets.append(f"│  Set 1: {order} {p['load'] - 5}% × {p['reps']} (build set)")
+        sets.append(f"│  Set 2: {order} {p['load']}% × {p['reps']} (working set)")
+        sets.append(f"│  Set 3: {order} {p['load']}% × {p['reps']} (repeat quality)")
+    return f"""═══
+## {num}) 🧈 Bread & Butter
+Subcode: {_sub(ctx, 'Bread & Butter')}
+├─ {p['reps']} {t} {ctx['primary_exercise']} {cue}
+{chr(10).join(sets)}
+Rest: {p['rest']['main']}"""
+
+
+def _block_sculpt(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    t = ctx["type_emoji"]
+    return f"""═══
+## {num}) 🗿 Sculpt
+Subcode: {_sub(ctx, 'Sculpt')}
+├─ {p['reps'] + 2} {t} {_ex(ctx, 2)} (angles, tension, volume)
+│  Set 1: {ctx['order_emoji']} {p['load'] - 5}% × {p['reps'] + 2} (shaping)
+│  Set 2: {ctx['order_emoji']} {p['load'] - 5}% × {p['reps'] + 2} (carving)
+Rest: {p['rest']['supplemental']}"""
+
+
+def _block_vanity(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    t = ctx["type_emoji"]
+    return f"""═══
+## {num}) 🪞 Vanity
+Subcode: {_sub(ctx, 'Vanity')}
+├─ {p['reps'] + 4} {t} {_ex(ctx, 3)} (pump work, mirror muscles, honest)
+│  Set 1: {ctx['order_emoji']} {p['load'] - 10}% × {p['reps'] + 4} (accumulation)
+│  Set 2: {ctx['order_emoji']} {p['load'] - 10}% × {p['reps'] + 4} (chase the pump)
+Rest: {p['rest']['supplemental']}"""
+
+
+def _block_supplemental(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    t = ctx["type_emoji"]
+    return f"""═══
+## {num}) 🧩 Supplemental
+Subcode: {_sub(ctx, 'Supplemental')}
+├─ {p['reps'] + 2} {t} {_ex(ctx, 2)} (full range, different angle)
+│  Set 1: {ctx['order_emoji']} {p['load'] - 10}% × {p['reps'] + 2} (support volume)
+│  Set 2: {ctx['order_emoji']} {p['load'] - 10}% × {p['reps'] + 2} (non-redundant)
+Rest: {p['rest']['supplemental']}"""
+
+
+def _block_release(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    t = ctx["type_emoji"]
+    order = ctx["order_emoji"]
+    if order == "🔴" or ctx["color_emoji"] == "🔴":
+        cue = "(stress out, cathartic discharge)"
+    elif order == "🖼" or ctx["color_emoji"] == "⚪":
+        cue = "(parasympathetic, tension down)"
+    else:
+        cue = "(smooth tempo, downshift)"
+    return f"""═══
+## {num}) 🪫 Release
+Subcode: {_sub(ctx, 'Release')}
+├─ 12 {t} {_ex(ctx, 3)} {cue}
+│  Set 1: {order} {max(p['load'] - 20, 40)}% × 12 (deload)
+Rest: {p['rest']['supplemental']}"""
+
+
+def _block_imprint(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    t = ctx["type_emoji"]
+    return f"""═══
+## {num}) 🧬 Imprint
+Subcode: {_sub(ctx, 'Imprint')}
+├─ {p['reps'] + 4} {t} {_ex(ctx, 4)} (high rep, low load, neural memory)
+│  Set 1: {ctx['order_emoji']} {max(p['load'] - 25, 35)}% × {p['reps'] + 4} (lock the pattern)
+Rest: {p['rest']['supplemental']}"""
+
+
+def _block_aram(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    """🎱 ARAM block for 🟠 Circuit — station-based loop with tissue rotation."""
+    t = ctx["type_emoji"]
+    sups = ctx["supplemental"]
+    stations = [ctx["primary_exercise"]] + sups[:3]
+    station_lines = []
+    for i, ex in enumerate(stations):
+        station_lines.append(f"│  Station {i + 1}: {t} {ex} × {p['reps']} {COLOR_CUES['🟠']}")
+    return f"""═══
+## {num}) 🎱 ARAM — Circuit Loop
+Subcode: {_sub(ctx, 'ARAM')}
+┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
+{chr(10).join(station_lines)}
+│  Transition: 15s between stations
+│  Round rest: {p['rest']['working']}
+Rest: 90s after final round"""
+
+
+def _block_sandbox(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    t = ctx["type_emoji"]
+    return f"""═══
+## {num}) 🏖 Sandbox
+Subcode: {_sub(ctx, 'Sandbox')}
+├─ {p['reps']} {t} {_ex(ctx, 4)} (explore within constraints, structured play)
+│  Set 1: {ctx['order_emoji']} {p['load'] - 10}% × {p['reps']} (discovery)
+Rest: {p['rest']['supplemental']}"""
+
+
+def _block_junction(ctx: dict[str, Any], num: int) -> str:
+    return f"""═══
+## {num}) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → {ctx['zip']} — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room."""
+
+
+def _block_save(ctx: dict[str, Any]) -> str:
+    save_msg = ORDER_SAVE.get(ctx["order_emoji"], "Log the session and carry the standard forward.")
+    return f"""
+## 🧮 SAVE
+{save_msg}"""
+
+
+def fallback_template(context: dict[str, Any]) -> str:
+    """Generate Order×Color aware workout card template."""
+    zip_code = context["zip"]
+    t = context.get("type_emoji", TYPE_EMOJI.get(context["type_name"], "🛒"))
+    order_e = context["order_emoji"]
+    color_e = context["color_emoji"]
+    p = _get_order_params(context)
+    time_est = ORDER_TIME.get(order_e, "45-55 min")
+
+    title = f"{context['primary_exercise']} — {context['type_name']} {context['color_name']}"
+    intention = ORDER_INTENTIONS.get(order_e, "Work with purpose.")
+
+    header = f"""# {t} {title} {t}
+
+## {context['order_name']} {context['axis_name']} — {context['type_name']} focus ({context['color_name']}) · {time_est}
 
 **CODE:** {zip_code}
 
-> \"Drive clean reps inside the {context['order_name'].lower()} ceiling and make every set repeatable.\"
+> \"{intention}\"
+"""
 
-═══
-## 1) ♨️ Warm-Up — {context['operator']} inline
-Subcode: {zip_code} (Warm-Up | {context['type_name']} | {context['axis_name']} | {context['color_name']})
-├─ 10 {t} {context['supplemental'][0] if context['supplemental'] else context['primary_exercise']} (steady tempo, easy ramp)
-│  Set 1: {context['order_emoji']} 60% × 10 (pattern prep)
-Rest: 75s
+    blocks: list[str] = []
+    n = 1
 
-═══
-## 2) ▶️ Primer
-Subcode: {zip_code} (Primer | {context['type_name']} | {context['axis_name']} | {context['color_name']})
-├─ 8 {t} {context['supplemental'][1] if len(context['supplemental']) > 1 else context['primary_exercise']} (tight setup, crisp intent)
-│  Set 1: {context['order_emoji']} 65% × 8 (activation)
-Rest: 90s
+    # --- Order-specific block assembly ---
 
-═══
-## 3) 🧈 Bread & Butter
-Subcode: {zip_code} (Bread & Butter | {context['type_name']} | {context['axis_name']} | {context['color_name']})
-├─ 5 {t} {context['primary_exercise']} (clean line, own the bottom)
-│  Set 1: {context['order_emoji']} 75% × 5 (build set)
-│  Set 2: {context['order_emoji']} 80% × 5 (working set)
-│  Set 3: {context['order_emoji']} 80% × 5 (repeat quality)
-Rest: 180s
+    if order_e == "🐂":  # Foundation: 4-6 blocks
+        blocks.append(_block_warmup(context, p, n)); n += 1
+        blocks.append(_block_fundamentals(context, p, n)); n += 1
+        blocks.append(_block_bread_butter(context, p, n)); n += 1
+        if color_e not in ("🟠",):
+            blocks.append(_block_supplemental(context, p, n)); n += 1
+        blocks.append(_block_imprint(context, p, n)); n += 1
+        blocks.append(_block_junction(context, n)); n += 1
 
-═══
-## 4) 🧩 Supplemental
-Subcode: {zip_code} (Supplemental | {context['type_name']} | {context['axis_name']} | {context['color_name']})
-├─ 6 {t} {context['supplemental'][2] if len(context['supplemental']) > 2 else context['primary_exercise']} (full range, no drift)
-│  Set 1: {context['order_emoji']} 70% × 6 (support volume)
-Rest: 120s
+    elif order_e == "⛽":  # Strength: 5-6 blocks
+        blocks.append(_block_warmup(context, p, n)); n += 1
+        blocks.append(_block_primer(context, p, n)); n += 1
+        blocks.append(_block_bread_butter(context, p, n)); n += 1
+        blocks.append(_block_supplemental(context, p, n)); n += 1
+        blocks.append(_block_release(context, p, n)); n += 1
+        blocks.append(_block_junction(context, n)); n += 1
 
-═══
-## 5) 🪫 Release
-Subcode: {zip_code} (Release | {context['type_name']} | {context['axis_name']} | {context['color_name']})
-├─ 12 {t} {context['supplemental'][3] if len(context['supplemental']) > 3 else context['primary_exercise']} (smooth tempo, downshift)
-│  Set 1: {context['order_emoji']} 55% × 12 (tension out)
-Rest: 90s
+    elif order_e == "🦋":  # Hypertrophy: 6-7 blocks
+        blocks.append(_block_warmup(context, p, n)); n += 1
+        blocks.append(_block_primer(context, p, n)); n += 1
+        blocks.append(_block_bread_butter(context, p, n)); n += 1
+        blocks.append(_block_sculpt(context, p, n)); n += 1
+        if color_e == "🔴":
+            blocks.append(_block_vanity(context, p, n)); n += 1
+        else:
+            blocks.append(_block_supplemental(context, p, n)); n += 1
+        blocks.append(_block_release(context, p, n)); n += 1
+        blocks.append(_block_junction(context, n)); n += 1
 
-═══
-## 6) 🚂 Junction
-- Log: load, reps, and form break point.
-- Next → {zip_code} — repeat and tighten execution under same constraints.
+    elif order_e == "🏟":  # Performance: 3-4 blocks ONLY
+        blocks.append(_block_warmup(context, p, n)); n += 1
+        blocks.append(_block_progression(context, p, n)); n += 1
+        blocks.append(_block_bread_butter(context, p, n)); n += 1
+        blocks.append(_block_junction(context, n)); n += 1
 
-## 🧮 SAVE
-Keep the same movement standard next session and only add load if bar path and position stay unchanged."""
+    elif order_e == "🌾":  # Full Body: 5-6 blocks
+        blocks.append(_block_warmup(context, p, n)); n += 1
+        blocks.append(_block_composition(context, p, n)); n += 1
+        blocks.append(_block_bread_butter(context, p, n)); n += 1
+        blocks.append(_block_supplemental(context, p, n)); n += 1
+        blocks.append(_block_release(context, p, n)); n += 1
+        blocks.append(_block_junction(context, n)); n += 1
+
+    elif order_e == "⚖":  # Balance: 5-6 blocks
+        blocks.append(_block_warmup(context, p, n)); n += 1
+        blocks.append(_block_reformance(context, p, n)); n += 1
+        blocks.append(_block_bread_butter(context, p, n)); n += 1
+        blocks.append(_block_supplemental(context, p, n)); n += 1
+        blocks.append(_block_release(context, p, n)); n += 1
+        blocks.append(_block_junction(context, n)); n += 1
+
+    elif order_e == "🖼":  # Restoration: 4-5 blocks
+        blocks.append(_block_intention(context))
+        n = 2
+        blocks.append(_block_release(context, p, n)); n += 1
+        blocks.append(_block_bread_butter(context, p, n)); n += 1
+        blocks.append(_block_imprint(context, p, n)); n += 1
+        blocks.append(_block_junction(context, n)); n += 1
+
+    else:  # Fallback for unknown Order
+        blocks.append(_block_warmup(context, p, n)); n += 1
+        blocks.append(_block_bread_butter(context, p, n)); n += 1
+        blocks.append(_block_supplemental(context, p, n)); n += 1
+        blocks.append(_block_junction(context, n)); n += 1
+
+    # --- Color overrides ---
+    # 🟠 Circuit: replace 🧈 Bread & Butter with 🎱 ARAM (validator requires this)
+    if color_e == "🟠" and order_e != "🏟":
+        new_blocks = []
+        for blk in blocks:
+            if "🧈 Bread & Butter" in blk:
+                aram_num = int(blk.split(")")[0].split("##")[-1].strip())
+                new_blocks.append(_block_aram(context, p, aram_num))
+            elif "🧩 Supplemental" in blk or "🗿 Sculpt" in blk or "🪞 Vanity" in blk:
+                continue  # Drop extra transformation blocks — ARAM absorbs them
+            else:
+                new_blocks.append(blk)
+        blocks = new_blocks
+
+    # 🟡 Fun: add Sandbox before Junction only if block count stays within Order max
+    order_blocks_max = ORDER_CEILINGS[order_e].get("blocks_max", 6)
+    if color_e == "🟡" and order_e not in ("🏟",) and len(blocks) < order_blocks_max:
+        new_blocks = []
+        for blk in blocks:
+            if "🚂 Junction" in blk:
+                sandbox_num = int(blk.split(")")[0].split("##")[-1].strip())
+                new_blocks.append(_block_sandbox(context, p, sandbox_num))
+                new_blocks.append(blk.replace(f"## {sandbox_num})", f"## {sandbox_num + 1})"))
+            else:
+                new_blocks.append(blk)
+        blocks = new_blocks
+
+    body = header + "\n".join(blocks) + _block_save(context)
+    return body
 
 
 def compose_card(frontmatter: dict[str, str], generated_body: str) -> str:
@@ -315,14 +652,17 @@ def generate_deck(deck: int, generator_cmd: str | None, limit: int | None, dry_r
         supplemental = selector_candidates(zip_code, top=5)
         context = {
             "zip": zip_code,
-            "operator": stub.frontmatter.get("operator", meta["operator"]["emoji"]),
+            "operator": stub.frontmatter.get("operator", meta["operator"]["emoji"] + " " + meta["operator"]["name"]),
             "identity_line": entry.description,
             "primary_exercise": entry.primary_exercise,
             "supplemental": supplemental,
             "order_emoji": meta["order"]["emoji"],
             "order_name": meta["order"]["name"],
+            "axis_emoji": meta["axis"]["emoji"],
             "axis_name": meta["axis"]["name"],
+            "type_emoji": TYPE_EMOJI.get(meta["type"]["name"], "🛒"),
             "type_name": meta["type"]["name"],
+            "color_emoji": meta["color"]["emoji"],
             "color_name": meta["color"]["name"],
             "order_ceiling": ORDER_CEILINGS[meta["order"]["emoji"]],
             "color_tier": COLOR_TIERS[meta["color"]["emoji"]],
