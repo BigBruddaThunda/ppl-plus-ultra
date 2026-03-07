@@ -1,10 +1,18 @@
-# PPL± EXERCISE LIBRARY v.0 — SCL-MAPPED EDITION
+# PPL± EXERCISE LIBRARY v.1 — SCL-MAPPED EDITION
 
-Total Exercises: ~2,800+ across 17 sections (A–Q)
+Total Exercises: 2,085 across 17 sections (A–Q)
 Mapping: Each section header declares SCL Type(s), Order relevance, Axis emphasis,
 Equipment Tier range, GOLD gate status, Operator affinity, and routing notes.
 Use these headers as the bridge between the canonical exercise list and the
 SCL zip-code generation logic.
+
+## v.1 CHANGELOG (2026-03-07)
+- Movement pattern vocabulary expanded from 16 → 18 patterns (added: isolation, mobility)
+- 1,163 exercises reclassified from catch-all core-stability to correct patterns
+- Exercise-card cross-reference index built (99.2% match rate across 1,680 cards)
+- Integration validation: 21/21 checks passed
+- Section P (Stretching/Mobility) scl_types gap fixed (85 exercises)
+- Exercise count corrected from "~2,800+" to exact 2,085
 
 SECTION A: HEAD & NECK (30 exercises)
 SCL Mapping: Primary ➕ Plus | Secondary 🖼 Restoration

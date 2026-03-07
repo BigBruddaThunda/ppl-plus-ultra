@@ -63,8 +63,15 @@ python scripts/generate-exercise-content.py --stats
 
 ## Population Progress
 
-Initial batch (CX-37): first 200 files generated with priority weighting.
-Remaining batches: CX-41 (201-500), CX-42 (501-1000), beyond via CX-43.
+**COMPLETE** — 2,085/2,085 knowledge files generated (100%).
+
+- Batch 1 (CX-37): EX-0001–EX-0197
+- Batch 2 (CX-41): EX-0198–EX-0500
+- Batch 3 (CX-42): EX-0501–EX-1000
+- Batch 4: EX-1001–EX-1500
+- Batch 5 FINAL: EX-1501–EX-2085
+
+All files status: `GENERATED`. Review pass pending for `CANONICAL` promotion.
 
 Source: `middle-math/exercise-registry.json`
 Family data: `middle-math/exercise-engine/family-trees.json`

@@ -1,9 +1,10 @@
 # Negotiosum — PPL± Active Work Board
 
-Last updated: 2026-03-06
-Phase: 2 — Workout Generation + Architecture Expansion
-Cards: 262 / 1,680 (Deck 01: 40/40 ✅, Deck 07: 40/40 ✅, Deck 08: 40/40 ✅, Deck 09: 40/40 ✅, Deck 10: 40/40 ✅, Deck 11: 40/40 ✅, Deck 12: 40/40 ✅)
-Seeds: 49 | Scripts: 28
+Last updated: 2026-03-07
+Phase: 3 — System Integration + Library Canonicalization
+Cards: 1,680 / 1,680 (ALL 42 DECKS COMPLETE ✅)
+Exercise Library: v.1 (2,085 exercises, 18 movement patterns, 21/21 integration checks)
+Seeds: 49 | Scripts: 31
 CX Containers: 44 defined, 40 complete, 4 open
 
 For development history, see `session-log.md`.
@@ -109,10 +110,10 @@ Maximum output, full capacity. Measure throughput.
 | DONE | — | Exercise Content Batch 5 FINAL (1501–2085) | CX-37 ✓ | Session 045: `python scripts/generate-exercise-content.py --batch 2085` → +599 files (2,085 total in `exercise-content/`) |
 | DONE | — | Deck 07 regen (18 cards) | — | DONE — Deck 07 debt cleared — all 40 cards meet V2 standard. |
 | DONE | — | Deck 10 generation (40 cards) | — | ⛽🪐 Strength Challenge complete (40/40) |
-| OPEN | — | Deck 11 generation (40 cards) | Deck 11 identity | ⛽⌛ Strength Time |
+| DONE | — | Deck 11 generation (40 cards) | — | ⛽⌛ Strength Time — complete (batch gen PR #116) |
 | DONE | — | Deck 12 generation (40 cards) | — | ⛽🐬 Strength Partner complete (40/40) |
 | OPEN | — | Historical events population (366 dates) | CX-02 ✓ | Research-intensive — ~180 hours total, builds incrementally |
-| OPEN | — | Remaining 36 decks (1,418 cards) | Ongoing | Deck 01 complete (40/40). Continue Foundation sweep. |
+| DONE | — | All 42 decks generated (1,680/1,680) | — | 100% room coverage — PR #116 batch generation |
 
 ---
 
@@ -127,7 +128,7 @@ Sweep, audit, report, deliver. Touch everything, miss nothing.
 | DONE | — | Run deck-readiness.py and commit output | — | reports/deck-readiness-2026-03-06.md committed. Session 037. |
 | DONE | — | Run exercise-usage-report.py on 102 cards | — | reports/exercise-usage-2026-03-06.md committed. Session 037. |
 | OPEN | — | Ralph Loop batch: populate 41 remaining deck pods | Deck 07 pod review | Blocked on Jake approval of prototype |
-| OPEN | — | Exercise library version bump to v.1 | — | Version bump criteria undefined |
+| DONE | — | Exercise library version bump to v.1 | — | v.1: 18 patterns, 1,163 reclassified, card index (99.2%), 21/21 integration |
 | OPEN | — | Whiteboard DONE-task archive pass | — | Periodic ⚪ task: trim completed rows |
 
 ---
@@ -177,7 +178,7 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 - **Session 041 CLOSED (2026-03-06) — CX-43 Selector V2 complete:** `scripts/middle-math/exercise_selector.py` upgraded to registry-aware selection (`exercise-registry.json`), octave-scale affinity scoring, family diversity enforcement (cross-block x0.3 penalty + in-block family uniqueness on output), substitution chain output (`--show-subs` via `exercise-engine/substitution-map.json`), catch-all movement_pattern preprocessing override (83 applied, logged to stderr), and V1 compatibility via `--v1`. Full sweep validation passed: 1,680/1,680 zips.
 - **Deck generation priority:** Continue ⛽ Order sweep (10→11→12) or pivot to 🐂 Foundation Order (01→06)? Jake's call.
 - **First CANONICAL review:** Jake has reviewed 0 decks to CANONICAL. When does this happen? Deck 08 is the candidate.
-- **Exercise library versioning:** Still v.0. Version bump criteria undefined. When does v.1 trigger?
+- **Exercise library v.1 SHIPPED (2026-03-07).** Movement pattern vocabulary expanded 16→18 (added: isolation, mobility). 1,163 exercises reclassified from core-stability catch-all. Exercise-card cross-reference index built (99.2% match, 253 unique exercises used across 1,680 cards, 1,832 unused). Integration validation: 21/21 checks. Section P scl_types gap fixed (85 exercises). Scripts: reclassify-movement-patterns.py, build-exercise-card-index.py, validate-exercise-integration.py.
 - **Cosmogram sessions:** Require Genspark (web access). Schedule independently from generation. Priority candidates: Deck 07 (cards exist), Deck 01 (system origin), Deck 05 (history seed drafted).
 - **Operis V4 pipeline:** Contract A/B URL enforcement gaps remain open. Must fix before re-run. Contract C parser hardening ✅ already committed.
 - **Deck 07 Deck Campaign Table:** Deck 07 ✅ 40 cards (debt cleared, identity V2 ✅). Deck 08 ✅ 40 cards (identity V2 ✅). Deck 09 ✅ 40 cards (identity ✅). Decks 10–12 ⬜.
