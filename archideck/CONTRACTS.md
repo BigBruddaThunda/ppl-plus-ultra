@@ -7,10 +7,32 @@ The sum of negotiation. The living state of all work across all Archideck projec
 ## ACTIVE
 
 ### PPL± — Workout Generation
-- **Scope:** Phase 2 deck generation. 262/1,680 cards complete. 7 decks done (01, 07–12).
+- **Scope:** Phase 2 deck generation. 280/1,680 cards complete. 7 decks done (01, 07–12).
 - **Current:** See `whiteboard.md` (Negotiosum) for task board. See `CLAUDE.md` for generation rules.
 - **Next physical action:** Generate next card in active deck per whiteboard.md instructions.
 - **Location:** Repository root `/` (PPL± predates Archideck layer)
+
+```
+zip: 🦋 🤌 🟢
+weight-vector-bias: {order: ionic, modifier: facio, color: growth}
+depends-on: []
+blocks: [ppl-experience-layer, ppl-operis-pipeline]
+milestone: M3 (Hypertrophy Order Sweep — next in sequence)
+```
+
+### GSD × SCL Orchestration Layer
+- **Scope:** Wire GSD framework to SCL zip codes. Codebase map, Negotiosum upgrade, milestone scaffolding, session pipeline.
+- **Current:** Executing this session (2026-03-07). Branch: `claude/emoji-fitness-dictionary-aE8LY`.
+- **Next physical action:** Complete phases 2–4, commit, push.
+- **Location:** `archideck/`, `.planning/`
+
+```
+zip: 🐂 🏛 🔵
+weight-vector-bias: {order: tuscan, axis: firmitas, color: structured}
+depends-on: []
+blocks: [all future sessions — unlocks zip-routed routing]
+milestone: M0 (Infrastructure — precedes M1)
+```
 
 ---
 
@@ -22,17 +44,41 @@ The sum of negotiation. The living state of all work across all Archideck projec
 - **Seed docs:** `seeds/experience-layer-blueprint.md`, `seeds/mobile-ui-architecture.md`, `seeds/stripe-integration-pipeline.md`
 - **Location:** `html/` (scaffold only, non-functional)
 
+```
+zip: 🖼 🌹 🟡
+weight-vector-bias: {order: palladian, axis: venustas, color: fun}
+depends-on: [ppl-workout-generation]
+blocks: [ppl-stripe-subscription, ppl-user-accounts]
+milestone: M10 (Experience Layer)
+```
+
 ### PPL± — Operis Pipeline
 - **Scope:** Daily editorial system. 4-prompt pipeline. Cosmogram + temporal filter. V4 architecture complete.
 - **Blocked by:** Historical events database (366 files, one-time build), Operis V4 pipeline test
 - **Seed docs:** `seeds/operis-prompt-pipeline.md`, `seeds/operis-architecture.md`
 - **Location:** `operis-editions/`
 
+```
+zip: 🏟 ⌛ 🔵
+weight-vector-bias: {order: corinthian, axis: temporitas, color: structured}
+depends-on: [ppl-cosmogram-population, ppl-historical-events-db]
+blocks: []
+milestone: M9 (Operis Pipeline V4)
+```
+
 ### PPL± — Cosmogram Population
-- **Scope:** Deep identity documents for all 42 decks. Research prompt + publication standard committed.
-- **Blocked by:** Session time (first pass drafts scaffolded, no web deposits yet)
+- **Scope:** Deep identity documents for all 42 decks. Research prompt + publication standard committed. V2 scaffolds generated (machine-first-pass, no web deposits yet).
+- **Blocked by:** Session time (Genspark web-access sessions per deck)
 - **Seed docs:** `seeds/cosmogram-research-prompt.md`, `scl-deep/publication-standard.md`
 - **Location:** `deck-cosmograms/`
+
+```
+zip: 🐂 🌹 🟣
+weight-vector-bias: {order: tuscan, axis: venustas, color: technical}
+depends-on: []
+blocks: [ppl-operis-pipeline]
+milestone: M8 (Cosmogram First Pass)
+```
 
 ### Graph Parti — District Organization
 - **Scope:** Semantic canvas for architecture and complex thinking. 7+1 Order files as district containers. SCL zip codes for every idea, block, and district.
@@ -40,15 +86,39 @@ The sum of negotiation. The living state of all work across all Archideck projec
 - **Key concepts:** Standard zip (4-dial) and District zip (6-dial), Ralph Loop as primary sorting process
 - **Location:** `projects/graph-parti/`
 
+```
+zip: ⚖ 🏛 🟢
+weight-vector-bias: {order: vitruvian, axis: firmitas, color: growth}
+depends-on: []
+blocks: [ralph-loop-sort, district-refinement, kernel-cross-ref]
+milestone: (independent)
+```
+
 ### Story Engine — Narrative Architecture
 - **Scope:** Story and video game architecture using SCL addressing. Acts, characters, scenes, world-building as zip-coded content.
 - **Status:** Raw ideas. Needs intake processing through Ralph Loop.
 - **Location:** `projects/story-engine/` (scaffold created)
 
+```
+zip: 🐂 🌹 🟡
+weight-vector-bias: {order: tuscan, axis: venustas, color: fun}
+depends-on: []
+blocks: [intake-processing, ralph-loop-sort]
+milestone: (independent)
+```
+
 ### Civic Atlas — Urban Design Layer
 - **Scope:** Real estate, urban planning, and civic design project using SCL addressing. Parcels, zones, districts as zip-coded content.
 - **Status:** Raw ideas. Needs intake processing.
 - **Location:** `projects/civic-atlas/` (scaffold created)
+
+```
+zip: 🐂 🐬 🟡
+weight-vector-bias: {order: tuscan, axis: sociatas, color: fun}
+depends-on: []
+blocks: [intake-processing, ralph-loop-sort]
+milestone: (independent)
+```
 
 ---
 
@@ -61,10 +131,26 @@ The sum of negotiation. The living state of all work across all Archideck projec
 - **Blocked by:** Seed not yet promoted to active. PostToolUse hook (Tier 3) already running.
 - **Seed docs:** `seeds/linters-architecture.md`
 
+```
+zip: ⛽ 🏛 🔵
+weight-vector-bias: {order: doric, axis: firmitas, color: structured}
+depends-on: []
+blocks: [merge-to-main-policy]
+milestone: (infrastructure — no milestone assigned)
+```
+
 ### PPL± — Middle-Math Engine
 - **Scope:** Computation engine between SCL spec and rendered experience. Weight declarations, selection algorithms, rotation engine.
 - **Status:** Architecture seeded. Weight declarations in first-draft for Orders only.
 - **Location:** `middle-math/`
+
+```
+zip: ⚖ 🏛 🟣
+weight-vector-bias: {order: vitruvian, axis: firmitas, color: technical}
+depends-on: []
+blocks: [ppl-experience-layer]
+milestone: (precedes M10)
+```
 
 ---
 
@@ -79,7 +165,13 @@ The sum of negotiation. The living state of all work across all Archideck projec
 - ✅ PPL± Reverse-weight resolution seeded (`middle-math/rotation/`)
 - ✅ Graph Parti first pass complete (7+1 Order files written)
 - ✅ Archideck concept defined (2026-03-07)
-- ✅ Archideck infrastructure initialized (2026-03-07) — this session
+- ✅ Archideck infrastructure initialized (2026-03-07)
+- ✅ GSD × SCL Orchestration Layer (2026-03-07 — this session)
+  - `.planning/codebase/` (7 documents, SCL-enriched)
+  - `archideck/CONTRACTS.md` (zip schema upgrade)
+  - `archideck/contract-graph.json`
+  - `.planning/milestones/M1–M10-CONTEXT.md`
+  - `archideck/session-pipeline.md`
 
 ---
 
@@ -95,6 +187,22 @@ A contract is created when work is scoped and committed to.
 To activate a queued contract: state it in session, move to ACTIVE, ensure the blocker is resolved.
 To park a contract: acknowledge it explicitly, state the reason, move to PARKED.
 To complete a contract: verify the deliverable, move to COMPLETED, note the date.
+
+### Zip Schema
+
+Each contract carries a zip code block in Kernel grammar (`Order · Axis/Modifier · Color`):
+
+```
+zip: [partial zip, 2–3 emojis]
+weight-vector-bias: {key: value pairs for dominant dial weights}
+depends-on: [list of contract IDs that must complete first]
+blocks: [list of contract IDs or sub-tasks this contract enables]
+milestone: [GSD milestone label, if applicable]
+```
+
+The zip locates the contract within the 1,680-node navigation graph.
+The weight-vector-bias describes the dominant cognitive posture of the work.
+The depends-on/blocks edges form the contract dependency graph (`archideck/contract-graph.json`).
 
 ---
 
