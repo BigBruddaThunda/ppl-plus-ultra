@@ -7,6 +7,12 @@ This deck is where “strength for look and control” is organized without drif
 
 Deck 09 is not 🏛 classic barbell-first strength and not 🔨 transfer-first unilateral performance. It is focused force expression through aesthetically biased exercise choices that make target muscles obvious under load.
 
+
+
+### Cosmogram Character (codex first pass 2026-03-07)
+
+⛽ Strength × 🌹 Aesthetic frames this deck as a standards-setting department: it defines what counts, how quality is judged, and how knowledge should transfer to adjacent rooms. This paragraph is the first-pass cosmogram character scaffold and will be replaced by a full philosophy once coverage mapping and branch deposits are validated.
+
 ## 2) Coverage Map (Type × Color)
 | Type \ Color | ⚫ | 🟢 | 🔵 | 🟣 | 🔴 | 🟠 | 🟡 | ⚪ |
 |---|---|---|---|---|---|---|---|---|

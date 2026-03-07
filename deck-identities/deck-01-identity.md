@@ -12,6 +12,12 @@ source_registry: middle-math/zip-registry.json
 ## 1) Deck Philosophy
 🐂 Foundation (≤65% load, 8–15 reps, 60–90s rest, max difficulty 2/5, low CNS demand) meets 🏛 Basics (bilateral, stable, barbell-first, time-tested fundamentals). This deck is the system ground floor: bench, squat, deadlift, row, press, curl, and extension patterns taught at loads where position quality is the metric. It is not beginner-only; experienced lifters return here whenever a pattern is relearned. The ceiling is absolute: nothing exceeds 65%, nothing drops below 8 reps, and nothing exceeds difficulty 2/5.
 
+
+
+### Cosmogram Character (codex first pass 2026-03-07)
+
+🐂 Foundation × 🏛 Basics frames this deck as a standards-setting department: it defines what counts, how quality is judged, and how knowledge should transfer to adjacent rooms. This paragraph is the first-pass cosmogram character scaffold and will be replaced by a full philosophy once coverage mapping and branch deposits are validated.
+
 ## 2) Coverage Map (Type × Color)
 | Type \ Color | ⚫ | 🟢 | 🔵 | 🟣 | 🔴 | 🟠 | 🟡 | ⚪ |
 |---|---|---|---|---|---|---|---|---|

@@ -16,6 +16,12 @@ The clock is not a conditioning gimmick in this deck. It is a pacing mechanism f
 
 Operator split is fixed by polarity: preparatory colors use 🐋 duco (conduct the session rhythm), expressive colors use ✒️ grapho (prescribe and record exact timed output).
 
+
+
+### Cosmogram Character (codex first pass 2026-03-07)
+
+⛽ Strength × ⌛ Time frames this deck as a standards-setting department: it defines what counts, how quality is judged, and how knowledge should transfer to adjacent rooms. This paragraph is the first-pass cosmogram character scaffold and will be replaced by a full philosophy once coverage mapping and branch deposits are validated.
+
 ## 2) Coverage Map (Type × Color)
 | Type \ Color | ⚫ | 🟢 | 🔵 | 🟣 | 🔴 | 🟠 | 🟡 | ⚪ |
 |---|---|---|---|---|---|---|---|---|

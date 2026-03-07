@@ -7,6 +7,12 @@ This deck is where asymmetry is measured and corrected. Every session should mak
 
 Deck 08 is not 🏛 bilateral classic lifting and not 🌹 isolation-first physique work. It is practical unilateral force production with athletic posture, anti-rotation demand, and repeatable progression.
 
+
+
+### Cosmogram Character (codex first pass 2026-03-07)
+
+⛽ Strength × 🔨 Functional frames this deck as a standards-setting department: it defines what counts, how quality is judged, and how knowledge should transfer to adjacent rooms. This paragraph is the first-pass cosmogram character scaffold and will be replaced by a full philosophy once coverage mapping and branch deposits are validated.
+
 ## 2) Coverage Map (Type × Color)
 | Type \ Color | ⚫ | 🟢 | 🔵 | 🟣 | 🔴 | 🟠 | 🟡 | ⚪ |
 |---|---|---|---|---|---|---|---|---|

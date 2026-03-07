@@ -12,6 +12,12 @@ source_registry: middle-math/zip-registry.json
 ## 1) Deck Philosophy
 TODO — requires Claude Code /build-deck-identity session.
 
+
+
+### Cosmogram Character (codex first pass 2026-03-07)
+
+🐂 Foundation × 🔨 Functional frames this deck as a standards-setting department: it defines what counts, how quality is judged, and how knowledge should transfer to adjacent rooms. This paragraph is the first-pass cosmogram character scaffold and will be replaced by a full philosophy once coverage mapping and branch deposits are validated.
+
 ## 2) Coverage Map (Type × Color)
 | Type \ Color | ⚫ | 🟢 | 🔵 | 🟣 | 🔴 | 🟠 | 🟡 | ⚪ |
 |---|---|---|---|---|---|---|---|---|
