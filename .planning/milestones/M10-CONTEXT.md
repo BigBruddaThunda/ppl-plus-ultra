@@ -3,7 +3,7 @@
 **Status:** NOT STARTED (seed architecture complete)
 **SCL Zip:** 🖼 🌹 🟢 (Palladian × Venustas × Growth — building the experience)
 **Contract:** `ppl-experience-layer`
-**PPL Phase:** Phase 4
+**Ppl Phase:** Phase 4
 
 ---
 

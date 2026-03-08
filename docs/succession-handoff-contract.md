@@ -1,4 +1,4 @@
-# PPL± Succession Handoff Contract — Batch Deck Generation
+# Ppl± Succession Handoff Contract — Batch Deck Generation
 
 Use this contract to hand off one deck-generation session to the next Codex agent.
 

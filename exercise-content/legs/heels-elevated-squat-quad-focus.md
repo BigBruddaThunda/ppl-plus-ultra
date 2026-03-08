@@ -41,7 +41,7 @@ Heels-Elevated Squat (Quad Focus) is a squat movement that primarily trains quad
 **Secondary:** hamstrings, adductors, gluteus_medius
 **Joint actions:** knee_extension, hip_extension, ankle_dorsiflexion
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Foot width, bracing, and descent rate are the lesson. Load is irrelevant. The goal is groove — the same position rep after rep. Sub-65% gives you 8–15 reps to get it right.
 

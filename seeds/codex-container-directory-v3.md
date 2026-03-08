@@ -1,4 +1,4 @@
-# 🟡 PPL± CODEX CONTAINER DIRECTORY & PLAN v3.0
+# 🟡 Ppl± CODEX CONTAINER DIRECTORY & PLAN v3.0
 
 Date: 2026-03-04  
 Author: Claude Opus 4.6 — Temp Architect Session  
@@ -26,7 +26,7 @@ Each container below is a self-contained Codex task. Copy the container block in
 
 **Instructions for Codex:**
 
-Create a glossary document at `scl-deep/systems-glossary.md`. Scan the repo for all system-operation terms (pipeline, bus, inserter, scan cycle, cache hit/miss, snapshot, resolution, interlock, setpoint, filter, emit, rung, etc.) and define each one in two sentences or fewer. Organize definitions into eight sections: Pipeline (how data moves through the system), Data Flow (how content travels between files and tables), State Management (how status markers and phase tracking work), Resolution (how conflicts between dials, weights, or rules are resolved), Validation (how the scan cycle, linters, and hooks verify correctness), Feedback (how votes, bloom, and usage data loop back into the system), UX (how floors, dials, rooms, and navigation are described), and Project Health (how progress, coverage, and readiness are measured). Include a PPL-to-Systems translation table mapping PPL concepts (zip code, deck, block, Order, Axis, etc.) to their systems-language equivalents (address, batch, container, priority dial, depth dial, etc.). Use `scl-deep/publication-standard.md` voice throughout. Follow existing frontmatter format from other `scl-deep/` files.
+Create a glossary document at `scl-deep/systems-glossary.md`. Scan the repo for all system-operation terms (pipeline, bus, inserter, scan cycle, cache hit/miss, snapshot, resolution, interlock, setpoint, filter, emit, rung, etc.) and define each one in two sentences or fewer. Organize definitions into eight sections: Pipeline (how data moves through the system), Data Flow (how content travels between files and tables), State Management (how status markers and phase tracking work), Resolution (how conflicts between dials, weights, or rules are resolved), Validation (how the scan cycle, linters, and hooks verify correctness), Feedback (how votes, bloom, and usage data loop back into the system), UX (how floors, dials, rooms, and navigation are described), and Project Health (how progress, coverage, and readiness are measured). Include a PPL-to-Systems translation table mapping Ppl concepts (zip code, deck, block, Order, Axis, etc.) to their systems-language equivalents (address, batch, container, priority dial, depth dial, etc.). Use `scl-deep/publication-standard.md` voice throughout. Follow existing frontmatter format from other `scl-deep/` files.
 
 **Validation:** Every term used in `CLAUDE.md`'s "SYSTEMS LANGUAGE" section must appear in the glossary. No definitions exceed two sentences. The translation table must cover all 7 SCL categories.
 
@@ -157,7 +157,7 @@ Create `scripts/exercise-usage-report.py` that parses all generated cards in `ca
 
 **Instructions for Codex:**
 
-Create `.github/linters/.markdownlint-cli2.jsonc` with rules tuned for PPL±: allow emoji in headings (disable MD044 for emoji characters), allow long lines in code blocks, enforce consistent heading style (ATX), require blank lines around headings and lists, enforce no trailing spaces, allow HTML (some cards may use inline HTML). Disable rules that conflict with the SCL card format (e.g., MD033 for inline HTML, MD013 for line length in specific contexts). Include comments explaining each rule choice and why it fits or exempts PPL± content.
+Create `.github/linters/.markdownlint-cli2.jsonc` with rules tuned for Ppl±: allow emoji in headings (disable MD044 for emoji characters), allow long lines in code blocks, enforce consistent heading style (ATX), require blank lines around headings and lists, enforce no trailing spaces, allow HTML (some cards may use inline HTML). Disable rules that conflict with the SCL card format (e.g., MD033 for inline HTML, MD013 for line length in specific contexts). Include comments explaining each rule choice and why it fits or exempts Ppl± content.
 
 **Validation:** `markdownlint-cli2 --config .github/linters/.markdownlint-cli2.jsonc README.md` runs without crashing (config is valid JSON5). Config file has comments explaining each rule.
 

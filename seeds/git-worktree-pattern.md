@@ -12,7 +12,7 @@ history — no duplicate clones.
 
 ---
 
-## Why PPL± Needs This
+## Why Ppl± Needs This
 
 Multiple parallel work streams:
 - `main`: always clean, current truth

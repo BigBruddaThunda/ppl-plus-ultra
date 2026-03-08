@@ -40,7 +40,7 @@ Rope Face Pull is a horizontal pull movement that primarily trains latissimus_do
 **Secondary:** biceps_brachii, rear_deltoid, teres_major
 **Joint actions:** shoulder_horizontal_abduction, elbow_flexion, scapular_retraction
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Row mechanics: shoulders set first, pull to the lower rib, squeeze the shoulder blade at the top. Foundation load is pattern acquisition — the groove before the grind.
 

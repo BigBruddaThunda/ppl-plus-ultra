@@ -1,6 +1,6 @@
-# CLAUDE.md — PPL± Project Operating Instructions
+# CLAUDE.md — Ppl± Project Operating Instructions
 
-You are working inside the PPL± repository.
+You are working inside the Ppl± repository.
 This file is your operating context. Read it before touching anything else.
 
 ---
@@ -18,7 +18,7 @@ Active task: See `whiteboard.md` for current session instructions.
 
 ## WHAT THIS PROJECT IS
 
-PPL± is a semantic training language and workout generation system built by Jake Berry.
+Ppl± is a semantic training language and workout generation system built by Jake Berry.
 It uses 61 emojis across 7 categories to produce 1,680 unique workout addresses called
 zip codes. Each zip code is a 4-emoji address that fully specifies a workout's loading
 protocol, muscle group, exercise character, and equipment format.
@@ -103,11 +103,11 @@ Key architectural decisions planted:
 - **Axis-as-App-Floors** — The 6 Axes serve dual function: in-workout exercise bias AND app-level content spaces (6 floors of the building). The most significant architectural insight since the zip code system.
 - **Macro Almanac** — 12 operators mapped to 12 months with agricultural rationale and annual breath rhythm (4-month inhale → 4-month exhale → 2-month catch-breath → 2-month close).
 - `daily-architecture.md` — SUPERSEDED by operis-architecture.md (Feb 26, 2026). Historical record: The Daily as content type, standing departments, five input layers, automation pathway.
-- `operis-architecture.md` — PPL± Operis: complete specification. Weekly editorial cadence (7 Orders × Trivium/Quadrivium), 17 standing departments with activation-by-Order matrix, Operis↔Cosmogram feedback loop, construction vehicle pipeline (8–12 zip codes forced per edition). Supersedes daily-architecture.md.
+- `operis-architecture.md` — Ppl± Operis: complete specification. Weekly editorial cadence (7 Orders × Trivium/Quadrivium), 17 standing departments with activation-by-Order matrix, Operis↔Cosmogram feedback loop, construction vehicle pipeline (8–12 zip codes forced per edition). Supersedes daily-architecture.md.
 - `content-types-architecture.md` — 109 content types mapped to 6 Axes with cross-floor appearance rule, 12-operator engagement model, and Order-as-curriculum (Trivium/Quadrivium depth levels).
-- `operis-naming-rationale.md` — "Operis" etymology: Latin genitive ("of the work"). Phonetically approximates "off the press." Associative field: opera, opus, operate. PPL± brand name readings documented.
+- `operis-naming-rationale.md` — "Operis" etymology: Latin genitive ("of the work"). Phonetically approximates "off the press." Associative field: opera, opus, operate. Ppl± brand name readings documented.
 - `elevator-architecture.md` — The 4-dial elevator model: Order=building, Axis=floor, Type=wing, Color=room. Piano nobile floor stack (🔨 ground → 🏛 noble → ⌛ 2nd → 🐬 3rd → 🌹 4th → 🪐 5th). Dual axis function. Horizontal (zip web) and vertical (floor stack) navigation.
-- `platform-architecture-v2.md` — Complete platform architecture refactored from Feb 11 "PPL± ITSELF." Business model (Tier 1 $10, Tier 2 $25–30), UX flows (card/deck/room metaphor, onboarding sequence), tech stack (Next.js/Supabase/Vercel/Stripe), zip-code-centric database schema, automation as deterministic pipeline. Supersedes platform-architecture-v1-archive.md.
+- `platform-architecture-v2.md` — Complete platform architecture refactored from Feb 11 "Ppl± ITSELF." Business model (Tier 1 $10, Tier 2 $25–30), UX flows (card/deck/room metaphor, onboarding sequence), tech stack (Next.js/Supabase/Vercel/Stripe), zip-code-centric database schema, automation as deterministic pipeline. Supersedes platform-architecture-v1-archive.md.
 - `seeds/operis-prompt-pipeline.md` — 4-prompt Operis generation pipeline: handoff contracts, Color flow (3 Color identities), department activation matrix, rotation engine V1.0 reference, automation pathway.
 - `seeds/operis-educational-layer.md` — 8-lane educational content system mapped to Color Context Vernacular tonal registers, seasonal content architecture, SCL emoji content lattice.
 - `seeds/operis-color-posture.md` — Color of the Day as cognitive posture: three Color identities (workout/publication/Operis), eight postures, determination inputs, automation scoring pathway.
@@ -760,9 +760,9 @@ Containers with explicit `CLAUDE.md` write scope:
 
 | Container | Writes | CLAUDE.md insertion point | Permitted CLAUDE.md section names |
 |---|---|---|---|
-| CX-19 — Session Log Append | `whiteboard.md`, `CLAUDE.md` | Append-only at file end, after final `---` separator | `## PPL± OPERIS BUILD-OUT — SESSION 028` |
+| CX-19 — Session Log Append | `whiteboard.md`, `CLAUDE.md` | Append-only at file end, after final `---` separator | `## Ppl± OPERIS BUILD-OUT — SESSION 028` |
 | CX-24 — Numeric Zip Layer | `middle-math/**`, `README.md`, `html/README.md`, `CLAUDE.md`, `whiteboard.md` | Insert only under existing architecture sections; no new top-level section creation | `## NUMERIC ZIP NOTATION`, `## EXPERIENCE LAYER ARCHITECTURE`, `## DATA ETHICS POSITION` |
-| CX-29 — Operis Prompt Pipeline | `seeds/operis-*.md`, `CLAUDE.md`, `whiteboard.md` | Update bullets inside existing Operis status section only | `## PPL± OPERIS BUILD-OUT — SESSION 028` |
+| CX-29 — Operis Prompt Pipeline | `seeds/operis-*.md`, `CLAUDE.md`, `whiteboard.md` | Update bullets inside existing Operis status section only | `## Ppl± OPERIS BUILD-OUT — SESSION 028` |
 
 ### Session startup sequence
 
@@ -786,7 +786,7 @@ Every session should follow this sequence:
 
 ## SYSTEMS LANGUAGE
 
-PPL± uses two controlled vocabularies:
+Ppl± uses two controlled vocabularies:
 
 1. **SCL** (`scl-directory.md`) — the workout language. 61 emojis, 7 categories, 1,680 addresses.
 2. **Systems Glossary** (`scl-deep/systems-glossary.md`) — the architecture language. How the project describes its own operations.
@@ -811,9 +811,9 @@ Full glossary: `scl-deep/systems-glossary.md`
 
 ---
 
-## TEMP PPL± ARCHITECT PATTERN
+## TEMP Ppl± ARCHITECT PATTERN
 
-PPL± uses external AI environments (Genspark, Claude.ai web) as
+Ppl± uses external AI environments (Genspark, Claude.ai web) as
 read-only architect workspaces. These sessions cannot write to the
 repo. They produce blueprint documents that Claude Code executes.
 
@@ -873,7 +873,7 @@ Status: PLANNED — directory structure planted, no tools built yet.
 Three-tier validation pipeline (planned):
 1. markdownlint-cli2 — structural markdown compliance
 2. Frontmatter schema validator — YAML shape validation
-3. SCL validator — PPL±-specific rules (`scripts/validate-card.py`)
+3. SCL validator — Ppl±-specific rules (`scripts/validate-card.py`)
 
 The existing PostToolUse hook (validate-card.py) is Tier 3's
 foundation. GitHub Actions CI will be the gate before merge.
@@ -909,7 +909,7 @@ relationship to card generation.
 | Git-Worktree Pattern | PLANNED — seed planted | No |
 | HTML Experience Layer | Phase 4/5 — scaffold only | No |
 | Codex Agent Infrastructure | BUILT — Session 4 | No |
-| PPL± Operis Build-Out | ACTIVE — pipeline architecture planted Session 028 | No |
+| Ppl± Operis Build-Out | ACTIVE — pipeline architecture planted Session 028 | No |
 | Elevator/Floor Model | SEED — planted Session 022 | No |
 | Platform Architecture V2 | SEED — planted Session 022 | No |
 | Middle-Math Engine | PLANTED — architecture seeded Session 024 | No |
@@ -968,7 +968,7 @@ the design intent — why each emoji was chosen for its role.
 
 Two new documents added to the SCL-deep and middle-math layers:
 
-- `scl-deep/vocabulary-standard.md` — Language standard. Banned/approved word lists. ExRx factual register. Operator verb preference. Covers all PPL± content surfaces: cards, Operis, README, cosmograms, whiteboard prose. Companion to publication-standard.md.
+- `scl-deep/vocabulary-standard.md` — Language standard. Banned/approved word lists. ExRx factual register. Operator verb preference. Covers all Ppl± content surfaces: cards, Operis, README, cosmograms, whiteboard prose. Companion to publication-standard.md.
 
 - `middle-math/rotation/reverse-weight-resolution.md` — Temporal zip-code resolution algorithm. Yesterday→today→tomorrow triangulation. Adjusts the rotation engine's default zip by looking backward at yesterday's fatigue signature and forward at tomorrow's stimulus requirements. Operis editorial implication: featured Sandbox room is the reverse-weight resolution room.
 
@@ -1007,7 +1007,7 @@ The experience layer is specified in seed documents planted February 26, 2026. T
 
 **Voice and audio layer:**
 - `seeds/voice-parser-architecture.md` — Universal building navigation: natural language to zip + floor + content type. 3-layer keyword scoring. ~13,000 entries. No AI model. Handles workouts, info queries, personal data, almanac, education, community, multi-intent.
-- `seeds/wilson-voice-identity.md` — Wilson: the PPL± voice. TTS identity, floor-specific register, response patterns. Not a chatbot.
+- `seeds/wilson-voice-identity.md` — Wilson: the Ppl± voice. TTS identity, floor-specific register, response patterns. Not a chatbot.
 - `seeds/automotive-layer-architecture.md` — Android Auto / CarPlay. Operis read aloud, voice zip nav, playlists, free-tier audio funnel.
 - `seeds/regional-filter-architecture.md` — Opt-in region, seasonal content, no GPS/no tracking.
 
@@ -1020,15 +1020,15 @@ These documents do not block Phase 2-3 card generation. They become active when 
 
 ## DATA ETHICS POSITION
 
-PPL± collects only what the user explicitly provides through their own action. No analytics fingerprinting. No third-party tracking. No selling data. Full data export on request. Full data deletion on command. The business model is subscriptions — the user is the customer, not the product.
+Ppl± collects only what the user explicitly provides through their own action. No analytics fingerprinting. No third-party tracking. No selling data. Full data export on request. Full data deletion on command. The business model is subscriptions — the user is the customer, not the product.
 
-This is a technical architecture decision, not a political statement. PPL± is not affiliated with any party or faction. Jake Berry, the creator, is not PPL± itself. The system's position on data matches the character of the system.
+This is a technical architecture decision, not a political statement. Ppl± is not affiliated with any party or faction. Jake Berry, the creator, is not Ppl± itself. The system's position on data matches the character of the system.
 
 See `seeds/data-ethics-architecture.md` and `seeds/systems-eudaimonics.md` for the complete design constraints and economic philosophy specification.
 
 ---
 
-## PPL± OPERIS BUILD-OUT — SESSION 028
+## Ppl± OPERIS BUILD-OUT — SESSION 028
 
 - Seed planted: `seeds/operis-architecture.md` (supersedes `seeds/daily-architecture.md`)
 - Architecture complete: weekly editorial cadence, 109 content types, generation pipeline spec, front page card layout, depth standard, age-neutral register (Session 027)
@@ -1053,7 +1053,7 @@ See `seeds/data-ethics-architecture.md` and `seeds/systems-eudaimonics.md` for t
 
 ## WHITEBOARD PROTOCOL — THE NEGOTIOSUM
 
-The project whiteboard (`whiteboard.md`) is named the Negotiosum — the active work board. It is organized into 8 Color sections matching the PPL± Color production postures defined in `seeds/color-pipeline-posture.md`.
+The project whiteboard (`whiteboard.md`) is named the Negotiosum — the active work board. It is organized into 8 Color sections matching the Ppl± Color production postures defined in `seeds/color-pipeline-posture.md`.
 
 ### Structure
 

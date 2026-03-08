@@ -39,7 +39,7 @@ Ankle CARs is a anti rotation movement that primarily trains core, obliques. It 
 **Secondary:** gluteus_maximus, hip_flexors
 **Joint actions:** spinal_rotation, anti_rotation, hip_stabilization
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** The anti-rotation pattern is always a stability event. Foundation load: learn to resist, not to produce. Pallof press, landmine anti-rotation, and bird-dog are all pattern-acquisition tools here.
 

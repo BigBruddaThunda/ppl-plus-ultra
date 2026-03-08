@@ -1,6 +1,6 @@
 # HTML Experience Layer
 
-This directory will contain the PPL± interactive experience layer built with Next.js.
+This directory will contain the Ppl± interactive experience layer built with Next.js.
 
 **Status: Phase 4/5 — Blueprinted, Not Built**
 

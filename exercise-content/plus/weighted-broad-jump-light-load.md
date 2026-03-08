@@ -39,7 +39,7 @@ Weighted Broad Jump (Light Load) is a plyometric movement that primarily trains 
 **Secondary:** hamstrings, hip_flexors
 **Joint actions:** hip_extension, knee_extension, ankle_plantarflexion
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Plyometrics at foundation intent are jumping and landing mechanics. Stick the landing, stabilize, reset. Load is absent or minimal. The goal is ground contact quality and joint position.
 

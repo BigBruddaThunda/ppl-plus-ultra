@@ -1,8 +1,8 @@
-# scl-directory.md — PPL± Semantic Compression Language
+# scl-directory.md — Ppl± Semantic Compression Language
 
 Complete Reference Document | All Rules, All Emojis, All Constraints
 
-Created by Jake Berry. This file is the master specification for the PPL± SCL system.
+Created by Jake Berry. This file is the master specification for the Ppl± SCL system.
 Every workout generated from a zip code is bound by the rules in this document.
 If a conflict arises between this file and any other source, this file wins.
 
@@ -10,17 +10,17 @@ Read this before generating anything.
 
 ---
 
-PPL± SCL Prompt Handoff
+Ppl± SCL Prompt Handoff
 
 ROLE
 
-You are an SCL (Semantic Compression Language) workout generator for the PPL± system. PPL± is a 61-emoji language that produces 1,680 unique workout addresses called zip codes. Your job is to read zip codes, derive their constraints, and generate complete workout content that honors every dial in the code.
+You are an SCL (Semantic Compression Language) workout generator for the Ppl± system. Ppl± is a 61-emoji language that produces 1,680 unique workout addresses called zip codes. Your job is to read zip codes, derive their constraints, and generate complete workout content that honors every dial in the code.
 
 You were created by Jake Berry. You speak his language. You follow his rules.
 
 THE LANGUAGE
 
-PPL± uses 61 emojis across 7 categories. These are not decorations. They are compressed training parameters. Each emoji carries specific meaning about load, intent, muscle group, exercise character, equipment, and session structure.
+Ppl± uses 61 emojis across 7 categories. These are not decorations. They are compressed training parameters. Each emoji carries specific meaning about load, intent, muscle group, exercise character, equipment, and session structure.
 
 The language is polysemic — the same emoji holds multiple valid meanings depending on context. The language is polymorphic — the same structural pattern produces different outputs depending on which emojis fill the positions.
 
@@ -617,13 +617,13 @@ The system has 1,680 rooms. Fill them.
 
 🧮
 
-every exercise in the exercise list are the only valid workouts for PPL± workouts and they can be used for theoretical mental math. they are tied to the entire scl.
+every exercise in the exercise list are the only valid workouts for Ppl± workouts and they can be used for theoretical mental math. they are tied to the entire scl.
 
-r/PPL± — The People's Plus-Ultra Program
+r/Ppl± — The People's Plus-Ultra Program
 
 How to Build a Workout Using the 61-Emoji Language
 
-Welcome to PPL±, the internet's Push-Pull-Legs-Plus-Ultra program. This is not a normal workout split. This is a semantic language for athletic development — 61 emojis that combine into 1,680 unique workout addresses. Each address is a room waiting for the right workout to fill it. Your job is to build that workout.
+Welcome to Ppl±, the internet's Push-Pull-Legs-Plus-Ultra program. This is not a normal workout split. This is a semantic language for athletic development — 61 emojis that combine into 1,680 unique workout addresses. Each address is a room waiting for the right workout to fill it. Your job is to build that workout.
 
 This post teaches you the complete language. Every emoji, every rule, every combination principle. Read it, learn it, and then submit a workout for any of the 1,680 codes. The community votes. The best submission for each code becomes the canonical workout at that address. Jake Berry, the system's creator, has final editorial approval.
 
@@ -631,7 +631,7 @@ This is not a meme. This is real programming. The language has rules. The rules 
 
 PART 1: THE LANGUAGE
 
-PPL± Semantic Compression Language (SCL) uses 61 emojis across 7 categories. These emojis are not decorations. They are compressed training parameters. Each one carries specific meaning about load, intent, muscle group, exercise character, equipment, and session structure.
+Ppl± Semantic Compression Language (SCL) uses 61 emojis across 7 categories. These emojis are not decorations. They are compressed training parameters. Each one carries specific meaning about load, intent, muscle group, exercise character, equipment, and session structure.
 
 The language is polysemic — the same emoji holds multiple valid meanings depending on context. Just like the English word "run" means different things in "run a mile" and "run a business," SCL emojis shift meaning based on what surrounds them. You learn this by using it, not by memorizing definitions.
 
@@ -930,7 +930,7 @@ For some people, 🖼🍗🌹⚪ is the most important code in the system. They 
 
 CATEGORY 2: TYPES (5) — The Muscle Groups
 
-Types define what body parts or training domain the session covers. They're the PPL± in the name — Push, Pull, Legs, Plus, Ultra.
+Types define what body parts or training domain the session covers. They're the Ppl± in the name — Push, Pull, Legs, Plus, Ultra.
 
 🛒 PUSH
 
@@ -980,7 +980,7 @@ What it covers: Full-body power production and core stability.
 
 Movement patterns: Olympic lifts (clean, snatch, jerk and derivatives). Loaded carries (farmer walks, overhead carries, suitcase carries). Plyometrics (box jumps, broad jumps, depth jumps). Rotational and anti-rotation core (Pallof press, woodchops, landmine rotation). Loaded core (weighted planks, ab wheel, hanging leg raises).
 
-Why this emoji: The plus sign. Additive. Cross-cutting. What PPL alone is missing.
+Why this emoji: The plus sign. Additive. Cross-cutting. What Ppl alone is missing.
 
 🧈 B&B anchors: Cleans, snatches, box jumps, farmer carries, Turkish get-ups, loaded planks.
 
@@ -1150,7 +1150,7 @@ Use cases:
 - "Social workout in the park" → 🐬🌾🔨🟢
 - "Competitive session with training partner" → 🐬⛽🏛🔴
 
-For personal trainers: The code system includes your clients. 🐬⚫ means "teaching mode, partner context." 🐬🟠 means "group class format." Your programming stays within the system — you don't have to abandon PPL± when training others.
+For personal trainers: The code system includes your clients. 🐬⚫ means "teaching mode, partner context." 🐬🟠 means "group class format." Your programming stays within the system — you don't have to abandon Ppl± when training others.
 
 CATEGORY 4: COLORS (8) — Equipment & Session Format
 
@@ -1869,7 +1869,7 @@ PART 6: GLOSSARY
 
 Zip Code — Another name for the 4-dial code. Also used for sub-block addresses within workouts (BLOCK + TYPE + AXIS + COLOR).
 
-SCL — Semantic Compression Language. The 61-emoji system that PPL± is built on.
+SCL — Semantic Compression Language. The 61-emoji system that Ppl± is built on.
 
 Polysemic — Having multiple valid meanings. The same emoji means different things in different contexts. This is intentional and fundamental to how the language works.
 
@@ -1881,7 +1881,7 @@ GOLD Exercises — Advanced movements (Olympic lifts, advanced plyometrics, spin
 
 Order Ceiling — The maximum load, difficulty, and CNS demand permitted by the Order. Nothing exceeds it. Ever.
 
-Block — A named container that holds exercises within a workout. 22 canonical blocks exist in PPL±.
+Block — A named container that holds exercises within a workout. 22 canonical blocks exist in Ppl±.
 
 🧈 Bread & Butter — The main block. Present in every workout. Carries the most volume and the most important exercises. Always gets maximum visual emphasis.
 
@@ -1889,7 +1889,7 @@ Operator — One of 12 Latin-derived action verbs that describe what the body is
 
 🧮 SAVE — The system checkpoint. Session complete. Log the data. Archive the workout.
 
-Card — A single workout. The fundamental unit of PPL±.
+Card — A single workout. The fundamental unit of Ppl±.
 
 Deck — A program. A sequence of cards arranged across weeks and days.
 
@@ -1903,7 +1903,7 @@ The Restoration Lane — 🖼 + 🌹 + ⚪ combined. Addresses somatic work, pel
 
 Tree Notation — The ├─ and │ characters used to show containment and hierarchy in workout formatting. ├─ opens a sub-block. │ continues the list inside it.
 
-Welcome to PPL±.
+Welcome to Ppl±.
 
 1,680 rooms. 61 emojis. One language.
 

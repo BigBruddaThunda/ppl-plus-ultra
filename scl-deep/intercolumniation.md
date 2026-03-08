@@ -1,27 +1,27 @@
 ---
-source: PPL± SCL Deep Specification — Intercolumniation v1.0
+source: Ppl± SCL Deep Specification — Intercolumniation v1.0
 date: 2026-02-20
 status: WORKING DRAFT
 integration-target: scl-directory.md (Blocks section, Order parameters), html/design-system/
 notes: |
   Intercolumniation is the architectural science of spacing between columns.
-  In PPL±, rest periods are the intercolumniation — the spacing that gives each
+  In Ppl±, rest periods are the intercolumniation — the spacing that gives each
   set its structural integrity. This document specifies rest architecture across
   all scales: intra-set, inter-set, inter-exercise, inter-block, inter-session.
 ---
 
 # INTERCOLUMNIATION
-## The Architecture of Rest in PPL±
+## The Architecture of Rest in Ppl±
 
 In classical architecture, intercolumniation governs the rhythm between structural columns. Too close, and the structure loses grace. Too far, and it loses stability. The spacing is not empty — it is load-bearing.
 
-In PPL±, every rest period is intercolumniation. The space between sets is not dead time. It is where the adaptation happens. The quality of the rest determines the quality of the next set, which determines the quality of the next session.
+In Ppl±, every rest period is intercolumniation. The space between sets is not dead time. It is where the adaptation happens. The quality of the rest determines the quality of the next set, which determines the quality of the next session.
 
 ---
 
 ## SECTION 1: SCALES OF REST
 
-Rest in PPL± operates at five distinct scales:
+Rest in Ppl± operates at five distinct scales:
 
 ### 1. Intra-Set Rest (Breath Recovery)
 Within a single set — breathing, bracing, grip reset between reps of a timed or high-rep set. Not a formal rest period. A quality check.

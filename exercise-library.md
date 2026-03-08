@@ -1,4 +1,4 @@
-# PPL± EXERCISE LIBRARY v.1 — SCL-MAPPED EDITION
+# Ppl± EXERCISE LIBRARY v.1 — SCL-MAPPED EDITION
 
 Total Exercises: 2,085 across 17 sections (A–Q)
 Mapping: Each section header declares SCL Type(s), Order relevance, Axis emphasis,
@@ -2547,7 +2547,7 @@ Notes: Atlas stones (#1–7), sandbag (#8–20), log (#21–28), keg (#29–34),
 
 
 
-END OF PPL± EXERCISE LIBRARY v.0 — SCL-MAPPED EDITION
+END OF Ppl± EXERCISE LIBRARY v.0 — SCL-MAPPED EDITION
 
 
 SUMMARY TABLE — SECTIONS × SCL MAPPING
@@ -2642,13 +2642,13 @@ Expressive Colors:  🔵 Structured, 🟣 Technical, 🔴 Intense, 🟠 Circuit
 | ⌛ Time       | 🐋 duco (conduct)  | ✒️ grapho (write)  |
 | 🐬 Partner    | 🧲 capio (receive) | 🦉 logos (reason)  |
 
-PPL± and the usage of the zips and scl allows for a high amount of context density due to scl being context compression and allows for tighter content management and use of building and automation. as the scl handles the depth and meaning in simple emojis
+Ppl± and the usage of the zips and scl allows for a high amount of context density due to scl being context compression and allows for tighter content management and use of building and automation. as the scl handles the depth and meaning in simple emojis
 
 part of what i want is to add something else to the script for when it makes the zip±.md files.
 
 its that similar to have a gitkeep in there. 
 
-the files have the current scl rubric and workout context inside. so each file has the context of PPL± SCL inside as the gitkeep information. this provides the tools and context in a room. so reading a zip code file reaffirms the language and also it keeps something in the file. but the operator placeholder acts as if something has been done to the file.
+the files have the current scl rubric and workout context inside. so each file has the context of Ppl± SCL inside as the gitkeep information. this provides the tools and context in a room. so reading a zip code file reaffirms the language and also it keeps something in the file. but the operator placeholder acts as if something has been done to the file.
 
 unless this would be more than paste this into every file on script create. if it acts like a need to read and write and treat each one like a generated document. then no need to waste tokens on pasting context. but if it can happen automatically, then yes. 
 
@@ -2771,9 +2771,9 @@ Then create the full cards/ folder structure and generate all 1,680 stub files.
 
 I will paste the content for each root file now.
 
-CLAUDE.md — PPL± Project Operating Instructions
+CLAUDE.md — Ppl± Project Operating Instructions
 
-You are working inside the PPL± repository.
+You are working inside the Ppl± repository.
 This file is your operating context. Read it before touching anything else.
 
 CURRENT PROJECT PHASE
@@ -2787,7 +2787,7 @@ Do not freelance. Read whiteboard.md before acting.
 
 WHAT THIS PROJECT IS
 
-PPL± is a semantic training language and workout generation system built by Jake Berry.
+Ppl± is a semantic training language and workout generation system built by Jake Berry.
 It uses 61 emojis across 7 categories to produce 1,680 unique workout addresses called
 zip codes. Each zip code is a 4-emoji address that fully specifies a workout's loading
 protocol, muscle group, exercise character, and equipment format.
@@ -3353,11 +3353,11 @@ Read the zip code. Honor the constraints. Fill the room.
 
 🧮
 
-PPL± — Push Pull Legs Plus Ultra
+Ppl± — Push Pull Legs Plus Ultra
 
 A semantic training language. 61 emojis. 1,680 workouts.
 
-PPL± is a workout generation and programming system built on SCL —
+Ppl± is a workout generation and programming system built on SCL —
 Semantic Compression Language. Four emojis produce a complete workout
 address. Every parameter of that workout — load, reps, rest, equipment,
 exercise character, and session structure — is encoded in those four
@@ -3367,7 +3367,7 @@ Created by Jake Berry.
 
 The Zip Code
 
-Every workout in PPL± has a 4-emoji address called a zip code.
+Every workout in Ppl± has a 4-emoji address called a zip code.
 ⛽ 🏛 🪡 🔵
 │  │  │  └── COLOR  — Equipment and session format
 │  │  └───── TYPE   — Muscle groups and movement domain
@@ -3525,7 +3525,7 @@ Every workout ends with 🧮 SAVE — the closing ritual and session archive.
 
 The Exercise Library
 
-exercise-library.md contains the complete valid exercise pool for PPL±
+exercise-library.md contains the complete valid exercise pool for Ppl±
 generation. All exercises used in any workout must come from this library.
 
 ~2,185 exercises across 17 sections (A–Q), each mapped to SCL Types,

@@ -42,7 +42,7 @@ Single-Leg Romanian Deadlift (Dumbbell) is a hip hinge movement that primarily t
 **Secondary:** adductors, quadratus_lumborum, gluteus_medius
 **Joint actions:** hip_extension, knee_flexion_isometric, spinal_extension
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Hinge mechanics take priority over load. Sub-65% means you have room to focus on the hip push-back, the hamstring load, and the neutral spine position. This is where the pattern is encoded.
 

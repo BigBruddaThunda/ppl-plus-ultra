@@ -1,5 +1,5 @@
 ---
-source: PPL± SCL Deep Specification — Junction Web v1.0
+source: Ppl± SCL Deep Specification — Junction Web v1.0
 date: 2026-02-20
 status: WORKING DRAFT
 integration-target: cards/ (🚂 Junction blocks), seeds/default-rotation-engine.md

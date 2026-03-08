@@ -13,7 +13,7 @@ connects-to:
   - scl-deep/emoji-macros.md
 ---
 
-# PPL± Operis — Educational Content Layer
+# Ppl± Operis — Educational Content Layer
 
 ## One Sentence
 

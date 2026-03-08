@@ -6,7 +6,7 @@ blocks: nothing in Phase 2-3
 connects-to: html/design-system/, seeds/superposed-order-ui.md
 ---
 
-# Art Direction — The PPL± Aesthetic
+# Art Direction — The Ppl± Aesthetic
 
 ## One Sentence
 

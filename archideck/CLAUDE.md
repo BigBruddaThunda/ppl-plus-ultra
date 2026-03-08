@@ -1,16 +1,16 @@
 # ARCHIDECK — Operating Layer
 
-This repository is a PPL± project with the Archideck meta-layer installed.
+This repository is a Ppl± project with the Archideck meta-layer installed.
 
 ---
 
 ## ROUTING
 
-**If you are working on PPL± (cards, decks, exercise library, Operis, validation):**
+**If you are working on Ppl± (cards, decks, exercise library, Operis, validation):**
 
 → Read the root-level `CLAUDE.md` and `whiteboard.md` as normal.
-→ The Archideck layer is ambient context. It does not override PPL± generation rules.
-→ `scl-directory.md` is the full SCL spec for PPL± generation.
+→ The Archideck layer is ambient context. It does not override Ppl± generation rules.
+→ `scl-directory.md` is the full SCL spec for Ppl± generation.
 → `exercise-library.md` is the exercise authority.
 
 **If you are working on Archideck infrastructure (kernel updates, contracts, cross-project tools):**
@@ -35,35 +35,35 @@ This repository is a PPL± project with the Archideck meta-layer installed.
 
 ## WHAT THE ARCHIDECK IS
 
-The Archideck is the meta-architectural layer. It is not a separate project — it is the root-level operating system that PPL± (and all future projects) runs on top of.
+The Archideck is the meta-architectural layer. It is not a separate project — it is the root-level operating system that Ppl± (and all future projects) runs on top of.
 
 - **KERNEL.md** — Compressed SCL seed. The language. What any agent reads first.
 - **CONTRACTS.md** — The Negotiosum switchboard. Cross-project state. What is active, queued, parked, done.
 - **AGENT-CONTRACT.md** — Universal agent operating instructions. Session start sequence. Cross-project rules.
 - **intake/** — Landing zone for raw ideas before Ralph Loop sorting.
-- **projects/** — Project directory for non-PPL± projects.
+- **projects/** — Project directory for non-Ppl± projects.
 
-PPL± lives at the repository root because this repo started as PPL±. The Archideck layer was added on top. Other projects live under `projects/`.
+Ppl± lives at the repository root because this repo started as Ppl±. The Archideck layer was added on top. Other projects live under `projects/`.
 
 ---
 
 ## WHAT THE ARCHIDECK IS NOT
 
 - Not a replacement for project-level `CLAUDE.md` files.
-- Not a constraint on PPL± generation rules.
-- Not a place to route PPL± cards or card generation work.
+- Not a constraint on Ppl± generation rules.
+- Not a place to route Ppl± cards or card generation work.
 - Not a separate codebase. No separate build system, no separate package.json, no separate CI.
 
-The Archideck adds new files and directories at the repo root. It does not modify any existing PPL± files.
+The Archideck adds new files and directories at the repo root. It does not modify any existing Ppl± files.
 
 ---
 
 ## CONTEXT HIERARCHY
 
-When conflicts arise, this is the resolution order for PPL± work:
+When conflicts arise, this is the resolution order for Ppl± work:
 
 1. `whiteboard.md` — Active task board. Current session instructions.
-2. `CLAUDE.md` (root) — PPL± operating instructions. Generation law.
+2. `CLAUDE.md` (root) — Ppl± operating instructions. Generation law.
 3. `scl-directory.md` — Full SCL specification. Execution authority.
 4. `archideck/KERNEL.md` — Compressed seed. Background context.
 

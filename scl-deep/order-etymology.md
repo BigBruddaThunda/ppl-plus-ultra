@@ -1,5 +1,5 @@
 ---
-source: PPL± SCL Deep Specification — Order Etymology v1.0
+source: Ppl± SCL Deep Specification — Order Etymology v1.0
 date: 2026-02-20
 status: WORKING DRAFT
 integration-target: scl-directory.md (Order section), README.md, html/design-system/tokens/
@@ -11,9 +11,9 @@ notes: |
 ---
 
 # ORDER ETYMOLOGY
-## The Architectural Heritage of the 7 PPL± Orders
+## The Architectural Heritage of the 7 Ppl± Orders
 
-The 7 Orders are not named arbitrarily. Each name is borrowed from a classical or Renaissance architectural tradition that shares the structural and tonal character of that training phase. When PPL± renders workout cards in HTML, these architectural identities drive the visual language — typography weight, column structure, decorative density, material texture.
+The 7 Orders are not named arbitrarily. Each name is borrowed from a classical or Renaissance architectural tradition that shares the structural and tonal character of that training phase. When Ppl± renders workout cards in HTML, these architectural identities drive the visual language — typography weight, column structure, decorative density, material texture.
 
 The architecture is the training.
 
@@ -30,7 +30,7 @@ The five canonical classical orders, from simplest to most ornate:
 4. Corinthian — Elaborate acanthus-leaf capital. Maximum ornamentation.
 5. Composite — Roman hybrid of Ionic and Corinthian. Synthesis.
 
-PPL± extends this to 7 by adding:
+Ppl± extends this to 7 by adding:
 6. Vitruvian — Named for Vitruvius, the Roman author of *De Architectura*, who formalized the proportional system underlying all classical orders.
 7. Palladian — Andrea Palladio's Renaissance refinement: symmetry, classical vocabulary, and return to pure proportion.
 

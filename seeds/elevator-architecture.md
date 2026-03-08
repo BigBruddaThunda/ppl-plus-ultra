@@ -13,7 +13,7 @@ connects-to: seeds/operis-architecture.md, seeds/superposed-order-ui.md, seeds/a
 
 ## One Sentence
 
-The PPL± zip code system is a 4-dial elevator serving 1,680 rooms across a 7-building campus, with the Operis on the piano nobile, six floors of progressive depth per room, and the Operis as the elevator's default morning setting.
+The Ppl± zip code system is a 4-dial elevator serving 1,680 rooms across a 7-building campus, with the Operis on the piano nobile, six floors of progressive depth per room, and the Operis as the elevator's default morning setting.
 
 ## The 4-Dial Elevator
 
@@ -85,7 +85,7 @@ The six Axes map to six floors in every building. The floor stack follows the Re
 
 In Renaissance architecture, the piano nobile was the principal floor of a palazzo — elevated above street level, reached by the grand staircase, with the highest ceilings and the finest proportions. The ground floor handled commerce, storage, and servants' work. Visitors arrived at the piano nobile. The ground floor served the building's operations.
 
-PPL± follows this pattern. 🔨 Utilitas handles the functional infrastructure — tools, settings, navigation, the zip directory, account management. 🏛 Firmitas is where you arrive — the Operis, the workout, the day's address. You don't land in the settings panel. You land in today's room. The piano nobile is the architectural expression of "start with the content, not the controls."
+Ppl± follows this pattern. 🔨 Utilitas handles the functional infrastructure — tools, settings, navigation, the zip directory, account management. 🏛 Firmitas is where you arrive — the Operis, the workout, the day's address. You don't land in the settings panel. You land in today's room. The piano nobile is the architectural expression of "start with the content, not the controls."
 
 ### How the Floors Map to the Scroll Experience
 

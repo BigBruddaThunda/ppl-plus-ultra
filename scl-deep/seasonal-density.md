@@ -1,5 +1,5 @@
 ---
-source: PPL± SCL Deep Specification — Seasonal Density v1.0
+source: Ppl± SCL Deep Specification — Seasonal Density v1.0
 date: 2026-02-20
 status: WORKING DRAFT
 integration-target: scl-directory.md (Part 7), seeds/almanac-macro-operators.md, almanac-2026-zip-calendar.md
@@ -7,14 +7,14 @@ notes: |
   This is the expanded source specification behind the Seasonal Density Modifiers
   section in scl-directory.md (Part 7). It provides the full theoretical framework,
   algorithmic inputs, hemisphere considerations, and open design questions for the
-  seasonal layer of the PPL± system. The compressed version in Part 7 is the
+  seasonal layer of the Ppl± system. The compressed version in Part 7 is the
   operational reference. This document is the source.
 ---
 
 # SEASONAL DENSITY
-## The Full Specification of PPL± Seasonal Training Rhythm
+## The Full Specification of Ppl± Seasonal Training Rhythm
 
-The PPL± system has four layers of temporal structure:
+The Ppl± system has four layers of temporal structure:
 
 1. **Daily:** The weekday Order cycle (7-day, fixed). Monday = 🐂 Foundation always.
 2. **Weekly (rolling):** The Type cycle (5-day, never resets for the week). Jan 1 = 🛒, Jan 2 = 🪡, etc.
@@ -29,7 +29,7 @@ This document specifies Layer 4: the seasonal density arc.
 
 The agricultural year is a periodization model. Farmers do not plant at maximum intensity in January and maintain that intensity through December. The year breathes. High-output periods are bounded by low-output periods. The system recovers so it can produce again.
 
-PPL± maps onto this rhythm not because agriculture is inherently related to training, but because both systems are governed by the same biological constraint: adaptation requires alternating stress and recovery at multiple timescales simultaneously.
+Ppl± maps onto this rhythm not because agriculture is inherently related to training, but because both systems are governed by the same biological constraint: adaptation requires alternating stress and recovery at multiple timescales simultaneously.
 
 Single sessions have a stress-recovery cycle (sets and rest periods).
 Training weeks have a stress-recovery cycle (hard days and easy days).
@@ -188,7 +188,7 @@ These weights are inputs to the recommendation engine, not hard constraints. A �
 
 ## SECTION 4: HEMISPHERE CONSIDERATIONS
 
-The current seasonal density specification is Northern Hemisphere. The PPL± agricultural rationale maps onto:
+The current seasonal density specification is Northern Hemisphere. The Ppl± agricultural rationale maps onto:
 - Northern Hemisphere growing season: March–September
 - Northern Hemisphere dormant season: November–February
 - Northern Hemisphere peak output: June–August

@@ -1,4 +1,4 @@
-# PPL± Operis — Historical Events Database
+# Ppl± Operis — Historical Events Database
 
 This directory will contain 365 files, one per calendar day, providing the pre-built historical events pool for the Operis Researcher prompt (Prompt 1).
 

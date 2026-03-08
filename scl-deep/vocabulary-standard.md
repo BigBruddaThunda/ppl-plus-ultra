@@ -1,5 +1,5 @@
 ---
-title: PPL± Vocabulary Standard
+title: Ppl± Vocabulary Standard
 category: scl-deep
 status: SEED
 planted: 2026-02-28
@@ -12,11 +12,11 @@ connects-to:
   - CLAUDE.md
 ---
 
-# PPL± Vocabulary Standard
+# Ppl± Vocabulary Standard
 
-This document formalizes the language standard for all PPL± content: workout cards, the Operis, README files, whiteboard entries, cosmograms, and any content that carries the PPL± voice.
+This document formalizes the language standard for all Ppl± content: workout cards, the Operis, README files, whiteboard entries, cosmograms, and any content that carries the Ppl± voice.
 
-The publication-standard.md establishes the tonal register and historical inheritance. This document is its companion — a reference list of banned words, preferred verbs, and the factual register standard that governs every claim made in PPL± content.
+The publication-standard.md establishes the tonal register and historical inheritance. This document is its companion — a reference list of banned words, preferred verbs, and the factual register standard that governs every claim made in Ppl± content.
 
 ---
 
@@ -30,7 +30,7 @@ The voice does not perform enthusiasm. It does not coach through encouragement. 
 
 ## Banned Words and Replacements
 
-These words are prohibited across all PPL± content. If a draft contains one, replace it or delete the sentence.
+These words are prohibited across all Ppl± content. If a draft contains one, replace it or delete the sentence.
 
 | Banned | Reason | Replacement |
 |--------|--------|-------------|

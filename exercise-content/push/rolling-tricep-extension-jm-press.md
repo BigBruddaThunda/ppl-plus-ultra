@@ -40,7 +40,7 @@ Rolling Tricep Extension (JM Press) is a isolation extension movement that prima
 **Secondary:** anconeus
 **Joint actions:** elbow_extension
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Full elbow extension is the lesson. The tricep must fire through its full mechanical range. Foundation load is an education in lockout — not a strength stimulus.
 

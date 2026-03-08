@@ -1,6 +1,6 @@
 # exercise-content/
 
-Coaching knowledge files for every exercise in the PPL± registry.
+Coaching knowledge files for every exercise in the Ppl± registry.
 One `.md` file per exercise. 1:1 with `middle-math/exercise-registry.json`.
 
 ## Structure
@@ -29,7 +29,7 @@ EMPTY → GENERATED → REVIEWED → CANONICAL
 
 - `EMPTY` — stub row in `exercise_knowledge` table, no file written
 - `GENERATED` — file written by `scripts/generate-exercise-content.py`
-- `REVIEWED` — manually reviewed for accuracy and PPL± voice
+- `REVIEWED` — manually reviewed for accuracy and Ppl± voice
 - `CANONICAL` — locked version, master reference
 
 ## File Format
@@ -41,9 +41,9 @@ Each file contains:
 4. `## Execution` — ordered execution cues (4-8 items)
 5. `## Common Faults` — fault/correction pairs (3-5 faults)
 6. `## What It Trains` — primary movers, secondary movers, joint actions
-7. `## PPL± Context` — per-Order behavior + Color modifiers
+7. `## Ppl± Context` — per-Order behavior + Color modifiers
 8. `## Family` — pattern, role, regressions, progressions, equipment swaps
-9. `## Coaching Notes` — PPL± voice paragraph
+9. `## Coaching Notes` — Ppl± voice paragraph
 
 ## Generation
 

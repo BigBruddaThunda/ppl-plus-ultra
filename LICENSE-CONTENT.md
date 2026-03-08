@@ -1,4 +1,4 @@
-# PPL± Content License
+# Ppl± Content License
 
 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**
 
@@ -9,7 +9,7 @@
 
 ## What This License Covers
 
-All **content produced within and for the PPL± system** — including:
+All **content produced within and for the Ppl± system** — including:
 
 - All workout cards in the `cards/` directory (generated and stub)
 - All deck cosmograms in the `deck-cosmograms/` directory
@@ -29,7 +29,7 @@ In short: everything **generated using the language**, and the editorial voice l
 
 ## What This License Does NOT Cover
 
-The PPL± Semantic Compression Language specification — the zip code system, emoji dictionary,
+The Ppl± Semantic Compression Language specification — the zip code system, emoji dictionary,
 operator tables, weight vector mathematics, and all structural rules — is covered separately
 under LICENSE-LANGUAGE.md (CC BY 4.0).
 
@@ -44,7 +44,7 @@ You are free to:
 
 Under the following terms:
 
-- **Attribution** — You must give appropriate credit to Jake Berry and the PPL± project,
+- **Attribution** — You must give appropriate credit to Jake Berry and the Ppl± project,
   provide a link to the license, and indicate if changes were made.
 - **NonCommercial** — You may not use the material for commercial purposes without written
   permission from Jake Berry.
@@ -57,5 +57,5 @@ Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ---
 
-*PPL± is a semantic training language and workout generation system created by Jake Berry.*
+*Ppl± is a semantic training language and workout generation system created by Jake Berry.*
 *Repository: https://github.com/BigBruddaThunda/ppl-plus-ultra*

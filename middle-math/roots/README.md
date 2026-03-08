@@ -1,15 +1,15 @@
 # Almanac Roots — System Math Primitives
 
 The Hero's Almanac diagnostic system (the 7 Dares, 224 questions, 224 Archetypes)
-contributed foundational math to PPL±. The user-facing assessment framework is
+contributed foundational math to Ppl±. The user-facing assessment framework is
 archived. The underlying math is preserved here as system-level primitives.
 
 ## What Was Preserved
 
 - The octave scoring logic (1-8 scale) → now the system weight scale (-8 to +8)
-- The 7-Order developmental ladder → now the 7 PPL± Orders
+- The 7-Order developmental ladder → now the 7 Ppl± Orders
 - The 4-Lens perspective framework → now 4 of the 6 Axes
-- The 8-Voice tonal system → now the 8 PPL± Colors
+- The 8-Voice tonal system → now the 8 Ppl± Colors
 - The Intercolumniation spacing formula → now the training frequency derivation
 
 ## What Was Transformed
@@ -33,7 +33,7 @@ See: `almanac-archive.md` for the pointer to the full documentation.
 
 - `octave-logic.md` — The 1-8 scoring scale as system weight primitive
 - `order-notation.md` — The 7-Order developmental structure as system architecture
-- `four-layers.md` — Ladder/Lenses/Voices/Scales mapped to PPL± system dimensions
+- `four-layers.md` — Ladder/Lenses/Voices/Scales mapped to Ppl± system dimensions
 - `almanac-archive.md` — Pointer to the full archived Almanac documentation
 
 🧮

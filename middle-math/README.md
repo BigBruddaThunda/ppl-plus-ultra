@@ -1,4 +1,4 @@
-# 🧮 Middle-Math — PPL± Computation Engine
+# 🧮 Middle-Math — Ppl± Computation Engine
 
 The deterministic bridge between the SCL architecture and the rendered user experience.
 

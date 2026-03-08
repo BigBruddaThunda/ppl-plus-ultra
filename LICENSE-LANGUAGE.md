@@ -1,8 +1,8 @@
-# PPL± Language License
+# Ppl± Language License
 
 **Creative Commons Attribution 4.0 International (CC BY 4.0)**
 
-> This license covers the PPL± Semantic Compression Language specification. Content files
+> This license covers the Ppl± Semantic Compression Language specification. Content files
 > (workout cards, cosmograms, exercise library, Operis editions, publication standard, deck
 > identities) are separately licensed. See LICENSE-CONTENT.md.
 
@@ -10,7 +10,7 @@
 
 ## What This License Covers
 
-The **PPL± Semantic Compression Language (SCL)** as a system — including:
+The **Ppl± Semantic Compression Language (SCL)** as a system — including:
 
 - The 4-dial zip code addressing system (ORDER × AXIS × TYPE × COLOR)
 - The 61-emoji SCL dictionary and their assigned positions and roles
@@ -51,12 +51,12 @@ You are free to:
 
 Under the following terms:
 
-- **Attribution** — You must give appropriate credit to Jake Berry and the PPL± project,
+- **Attribution** — You must give appropriate credit to Jake Berry and the Ppl± project,
   provide a link to the license, and indicate if changes were made.
 
 Full license text: https://creativecommons.org/licenses/by/4.0/
 
 ---
 
-*PPL± is a semantic training language and workout generation system created by Jake Berry.*
+*Ppl± is a semantic training language and workout generation system created by Jake Berry.*
 *Repository: https://github.com/BigBruddaThunda/ppl-plus-ultra*

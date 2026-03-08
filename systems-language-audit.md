@@ -1,4 +1,4 @@
-# PPL± Systems Language Audit
+# Ppl± Systems Language Audit
 
 Generated: 2026-03-04
 Scope: All active documents cross-referenced against `scl-deep/systems-glossary.md`
@@ -334,7 +334,7 @@ Concepts found in documents that have no glossary term yet:
 | seeds/default-rotation-engine.md vs glossary | "35-day super-cycle" vs "Period-35" | Same concept named differently in two places. The rotation engine doc says "super-cycle"; the glossary says "Period-35" in the oscillator definition. This is spaghetti inside the glossary itself. | Standardize to **Period-35** (the mathematical framing); add note in glossary oscillator entry |
 | CLAUDE.md | Validation checklist (agent mental check) vs scan cycle (script check) | The VALIDATION CHECKLIST section is a pre-generation agent mental check. validate-card.py is a post-generation automated check. Both are called "scan cycle" in the glossary but they're different processes. | Rename the agent mental check: **pre-flight** (pre-generation checklist run mentally by the agent); reserve **scan cycle** for the automated script run |
 | CLAUDE.md | "Card status lifecycle" | EMPTY → GENERATED → CANONICAL is a state machine. The concept of a card having lifecycle states has no glossary term. | **card lifecycle** or **card status** — define as the state machine EMPTY → GENERATED → CANONICAL |
-| CLAUDE.md | "Temp PPL± Architect Pattern" | External AI does research/planning; Claude Code executes. A recurring architectural pattern with no systems term. | **read-plan-execute split** or **architect-executor pattern** — the temp architect reads and plans; Claude Code executes |
+| CLAUDE.md | "Temp Ppl± Architect Pattern" | External AI does research/planning; Claude Code executes. A recurring architectural pattern with no systems term. | **read-plan-execute split** or **architect-executor pattern** — the temp architect reads and plans; Claude Code executes |
 | CLAUDE.md | "Error propagation" | "A hallucinated exercise propagates: .md → HTML → user session → user history → preference data." Named as a concern, not as a systems concept. | **propagation** — the downstream contamination chain when upstream content accuracy fails |
 | seeds/operis-architecture.md | "Construction vehicle" | The Operis as a mechanism that forces card generation as a side effect of editorial output. Vivid metaphor, widely used, no glossary entry. | **construction vehicle** — an editorial output pipeline whose side effect is cache warming; formalize the metaphor |
 

@@ -13,7 +13,7 @@ connects-to: whiteboard.md
 
 ## How To Use This Document
 
-This document is the execution roadmap for building the PPL± experience layer. It is written for Claude Code sessions that will execute each step.
+This document is the execution roadmap for building the Ppl± experience layer. It is written for Claude Code sessions that will execute each step.
 
 Each session is scoped to produce a working increment. "Working" means: you can run it, navigate to it, and the specified behavior is observable. Nothing is "done" until the test section passes.
 

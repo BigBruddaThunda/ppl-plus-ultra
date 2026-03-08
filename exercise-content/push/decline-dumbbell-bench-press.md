@@ -40,7 +40,7 @@ Decline Dumbbell Bench Press is a horizontal press movement that primarily train
 **Secondary:** obliques, erector_spinae, hip_flexors
 **Joint actions:** spinal_flexion, spinal_stabilization, intra_abdominal_pressure
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Scapular position before bar position. The shoulder blade must be set before the chest is loaded. Foundation load means you have time to find the position without chasing a number.
 

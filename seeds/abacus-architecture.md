@@ -129,7 +129,7 @@ Bonus Pool (13):
 **Session slot rules:**
 - Each of the 7 Orders appears exactly 5 times across 35 sessions
 - Each of the 5 Types appears exactly 7 times across 35 sessions
-- No two adjacent sessions share the same Type (natural PPL split)
+- No two adjacent sessions share the same Type (natural Ppl split)
 - Axis distribution reflects the archetype's character (not uniform)
 - Color distribution reflects the archetype's equipment profile
 
@@ -347,7 +347,7 @@ Steps 9–12 require the experience layer + user accounts (Phase 5–6).
 
 The abacus architecture is pure SCL applied to itself. The same 4-dial system that addresses individual workouts also organizes workout programs. This is the recursive property of the zip code system — it scales from "what is this single session?" to "what is this entire training life?"
 
-The Archideck kernel can express this: any domain that has a multi-dimensional address space can generate abaci by defining archetypes and populating them with address selections. The abacus pattern is domain-agnostic. PPL± is the first implementation.
+The Archideck kernel can express this: any domain that has a multi-dimensional address space can generate abaci by defining archetypes and populating them with address selections. The abacus pattern is domain-agnostic. Ppl± is the first implementation.
 
 ---
 

@@ -14,7 +14,7 @@ Workout blocks stack like architectural stories and expand upward from the botto
 
 ## The Concept
 
-Classical architecture: superposed order = stacking different column types in successive vertical stories (Doric on ground, Ionic above, Corinthian on top). PPL± applies this to the workout card.
+Classical architecture: superposed order = stacking different column types in successive vertical stories (Doric on ground, Ionic above, Corinthian on top). Ppl± applies this to the workout card.
 
 Blocks are listed bottom-to-top. ♨️ Warm-Up at the bottom (ground floor). 🚂 Junction near the top (upper story). 🧮 SAVE anchors at the very bottom as the foundation stone.
 
@@ -37,7 +37,7 @@ The expand toggle sits on the right thumb rail. Tapping a block pushes content u
 
 ## Why This Works
 
-It reverses the assumption that content = scrolling down. A workout is a building. You climb it. The foundation is first. The capstone is last. The information reads upwards, not down. Traditional workout lists check off from top to bottom. PPL± builds from the ground up.
+It reverses the assumption that content = scrolling down. A workout is a building. You climb it. The foundation is first. The capstone is last. The information reads upwards, not down. Traditional workout lists check off from top to bottom. Ppl± builds from the ground up.
 
 ## Open Questions
 

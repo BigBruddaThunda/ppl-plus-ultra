@@ -1,8 +1,8 @@
 # Order Notation — 7 Orders as System Architecture
 
-The 7 PPL± Orders (🐂 Foundation through 🖼 Restoration) are more than loading protocols. They are a developmental ladder, an editorial curriculum, a periodization system, and a UI density scale — all simultaneously.
+The 7 Ppl± Orders (🐂 Foundation through 🖼 Restoration) are more than loading protocols. They are a developmental ladder, an editorial curriculum, a periodization system, and a UI density scale — all simultaneously.
 
-This document traces the 7 Orders from their Almanac root to their multi-dimensional function in the PPL± system.
+This document traces the 7 Orders from their Almanac root to their multi-dimensional function in the Ppl± system.
 
 ---
 
@@ -20,7 +20,7 @@ Stage 6: Teaching — You can transfer the capacity.
 Stage 7: Integration — The capacity is no longer a skill. It is you.
 ```
 
-The 7 PPL± Orders correspond to these stages — not one-to-one with the Almanac's 7, but with the same developmental logic: a hierarchy from orientation (🐂 Foundation) through testing (🏟 Performance) through integration (🖼 Restoration as the completion cycle).
+The 7 Ppl± Orders correspond to these stages — not one-to-one with the Almanac's 7, but with the same developmental logic: a hierarchy from orientation (🐂 Foundation) through testing (🏟 Performance) through integration (🖼 Restoration as the completion cycle).
 
 ---
 

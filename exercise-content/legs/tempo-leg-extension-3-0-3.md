@@ -39,7 +39,7 @@ Tempo Leg Extension (3-0-3) is a leg isolation movement that primarily trains qu
 **Secondary:** —
 **Joint actions:** knee_extension
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Isolation exercises at foundation load establish the muscle-mind connection. Quad extensions, hamstring curls, and calf raises need to be felt — not just performed.
 

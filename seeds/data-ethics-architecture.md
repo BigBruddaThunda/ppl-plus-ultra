@@ -7,21 +7,21 @@ depends-on: seeds/platform-architecture-v2.md
 connects-to: seeds/stripe-integration-pipeline.md, seeds/experience-layer-blueprint.md, seeds/regional-filter-architecture.md
 ---
 
-# 🛡 Data Ethics Architecture — PPL± Privacy and User Data Specification
+# 🛡 Data Ethics Architecture — Ppl± Privacy and User Data Specification
 
 🔵⚫ — structured + teaching
 
 ## Preamble
 
-PPL± is not affiliated with any political party, faction, or ideology. Jake Berry, the creator, is not PPL± itself. The system's position on data is a technical architecture decision that matches the character of the system: the user is the customer, not the product.
+Ppl± is not affiliated with any political party, faction, or ideology. Jake Berry, the creator, is not Ppl± itself. The system's position on data is a technical architecture decision that matches the character of the system: the user is the customer, not the product.
 
 This document is technical architecture. It is not a marketing position. The constraints it specifies are enforced at the infrastructure level — not as policy, but as implementation.
 
 ---
 
-## What PPL± Collects
+## What Ppl± Collects
 
-PPL± collects only what the user explicitly provides through their own deliberate action. No passive collection. No inferred data. No behavioral fingerprinting.
+Ppl± collects only what the user explicitly provides through their own deliberate action. No passive collection. No inferred data. No behavioral fingerprinting.
 
 **Collected:**
 
@@ -39,7 +39,7 @@ PPL± collects only what the user explicitly provides through their own delibera
 
 ---
 
-## What PPL± Does NOT Collect
+## What Ppl± Does NOT Collect
 
 **No analytics fingerprinting.**
 No session replay. No heatmaps. No click tracking. No scroll depth. No A/B test assignment. No cohort segmentation. No conversion funnel analysis.
@@ -56,7 +56,7 @@ No GPS. No IP geolocation beyond coarse country-level for fraud prevention (Stri
 **No passive device signals.**
 No device fingerprinting. No browser fingerprinting. No user agent logging beyond server-standard access logs. No battery status, accelerometer, gyroscope, camera, or microphone access outside of explicit user-initiated voice input.
 
-**SDKs that are never initialized in the PPL± codebase:**
+**SDKs that are never initialized in the Ppl± codebase:**
 
 - Google Analytics (any version)
 - Mixpanel
@@ -77,7 +77,7 @@ If a future dependency inadvertently includes one of the above, it is removed be
 
 ---
 
-## What PPL± Gives Back
+## What Ppl± Gives Back
 
 ### Full Data Export
 
@@ -230,7 +230,7 @@ No service role key is exposed to the client. All writes go through the authenti
 
 ## Business Model Explanation
 
-PPL± earns revenue through subscriptions: Tier 1 Library Card ($10/month) and Tier 2 Residency ($25-30/month). The subscription pays for the infrastructure, the content, and the ongoing development. The user's data is not a revenue source. There is no advertising product. There is no data licensing agreement. There is no investor whose interests conflict with the user's interests at the data layer.
+Ppl± earns revenue through subscriptions: Tier 1 Library Card ($10/month) and Tier 2 Residency ($25-30/month). The subscription pays for the infrastructure, the content, and the ongoing development. The user's data is not a revenue source. There is no advertising product. There is no data licensing agreement. There is no investor whose interests conflict with the user's interests at the data layer.
 
 This is why the ethics position is architecturally stable: the incentive structure supports it. Subscriptions require user trust. User trust requires data integrity. The architecture enforces what the business model requires.
 

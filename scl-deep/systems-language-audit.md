@@ -95,7 +95,7 @@ Severity rubric: **high** = glossary term exists but a completely different word
 | File Path | Line Number (approx) | Found Term | Glossary Term | Suggested Replacement | Severity |
 |---|---:|---|---|---|---|
 | `card-template-v2.md` | 20 | `7. **🚂 JUNCTION** — log space (blank fields, not pre-filled) + 1–3 follow-up zips with one-line rationale` | Draft offering | `draft offering` | medium |
-| `card-template-v2.md` | 1 | `# card-template-v2.md — PPL± Card Format Standard` | Poka-yoke | `poka-yoke` | low |
+| `card-template-v2.md` | 1 | `# card-template-v2.md — Ppl± Card Format Standard` | Poka-yoke | `poka-yoke` | low |
 | `card-template-v2.md` | 3 | `This is the v2 card template. It replaces the v1 15-element required format.` | Poka-yoke | `poka-yoke` | low |
 | `card-template-v2.md` | 184 | `**Reduced required elements:** 15 → 8. The seven dropped elements (sub-block zip codes, tree notation, oper...` | Poka-yoke | `poka-yoke` | low |
 | `card-template-v2.md` | 186 | `**Color drives structure:** The block sequence and content depth scale to the Color's personality, not to a...` | Poka-yoke | `poka-yoke` | low |
@@ -679,13 +679,13 @@ Severity rubric: **high** = glossary term exists but a completely different word
 | `scl-deep/systems-glossary.md` | 65 | `\| Snapshot \| Event Sourcing / Git \| A periodic materialization of current state to avoid full event repl...` | Authoritative source | `authoritative source` | high |
 | `scl-deep/systems-glossary.md` | 48 | `\| Tee \| Unix / Factorio \| A split that duplicates a data stream to two destinations without blocking eit...` | Backpressure | `backpressure` | medium |
 | `scl-deep/systems-glossary.md` | 51 | `\| Backpressure \| Unix / Factorio \| When a downstream system signals upstream to slow down because it can...` | Pipeline | `pipeline` | medium |
-| `scl-deep/systems-glossary.md` | 84 | `\| Cache miss \| DNS / MTG \| When an address has no stored content and requires full resolution. In PPL: a...` | Backpressure | `backpressure` | medium |
+| `scl-deep/systems-glossary.md` | 84 | `\| Cache miss \| DNS / MTG \| When an address has no stored content and requires full resolution. In Ppl: a...` | Backpressure | `backpressure` | medium |
 | `scl-deep/systems-glossary.md` | 172 | `\| Operis → edition + card queue \| Tee \| §2 Data Flow \|` | Backpressure | `backpressure` | medium |
 | `scl-deep/systems-glossary.md` | 293 | `\| Tee \| Operis → published edition + card generation queue (same source, two streams) \|` | Backpressure | `backpressure` | medium |
 | `scl-deep/systems-glossary.md` | 89 | `\| Alias \| DNS / MTG \| Two names for the same address. Conversion between aliases is a single lookup — no...` | Resolution | `resolution` | low |
-| `scl-deep/systems-glossary.md` | 157 | `Complete lookup: PPL concept → systems term → definition source.` | Resolution | `resolution` | low |
+| `scl-deep/systems-glossary.md` | 157 | `Complete lookup: Ppl concept → systems term → definition source.` | Resolution | `resolution` | low |
 | `scl-deep/systems-glossary.md` | 171 | `\| YAML frontmatter struct between steps \| Pipe \| §2 Data Flow \|` | Filter | `filter` | low |
-| `scl-deep/systems-glossary.md` | 229 | `Reverse lookup: systems term → PPL implementation.` | Resolution | `resolution` | low |
+| `scl-deep/systems-glossary.md` | 229 | `Reverse lookup: systems term → Ppl implementation.` | Resolution | `resolution` | low |
 
 ## scl-deep/systems-language-audit.md
 

@@ -8,7 +8,7 @@ connects-to: seeds/axis-as-app-floors.md, seeds/zip-dial-navigation.md, seeds/al
 supersedes: seeds/platform-architecture-v1-archive.md (February 11, 2026)
 ---
 
-# 🧮 PPL± Platform Architecture — V2
+# 🧮 Ppl± Platform Architecture — V2
 
 The Complete System Specification
 
@@ -21,9 +21,9 @@ Register: 🔵🟢 — structured + steady
 
 ## 📍 pono — POSITIONING THE PLATFORM
 
-### What PPL± Is
+### What Ppl± Is
 
-PPL± is a 4-dial elevator serving 1,680 rooms across a 7-building campus, with the Operis on the piano nobile, six floors of progressive depth per room, and an automation pipeline that runs the press.
+Ppl± is a 4-dial elevator serving 1,680 rooms across a 7-building campus, with the Operis on the piano nobile, six floors of progressive depth per room, and an automation pipeline that runs the press.
 
 The four dials — Order (building), Axis (floor), Type (wing), Color (room) — produce a zip code. The zip code is the product. Each zip code addresses a room containing a workout, a community thread, a personal history layer, an almanac entry, and a deep-context cosmogram. The room exists at an address. The user visits the address. The system tracks the visit. Over time, the room and the user grow richer together.
 
@@ -71,7 +71,7 @@ On a phone, scrolling down moves you up through the building. Progressive disclo
 
 See seeds/operis-architecture.md for the complete specification. Summary:
 
-The Operis lives on the 🏛 piano nobile. It is the platform's landing surface — what users see when they open PPL±. It weaves date-specific history, seasonal context, astronomical data, and 8–12 curated zip codes into a front-page experience. Tapping a zip code in the Operis takes the user into that room.
+The Operis lives on the 🏛 piano nobile. It is the platform's landing surface — what users see when they open Ppl±. It weaves date-specific history, seasonal context, astronomical data, and 8–12 curated zip codes into a front-page experience. Tapping a zip code in the Operis takes the user into that room.
 
 The Operis solves the cold-start problem (no learning curve), powers the circulation system (rotates which rooms get traffic), and is automatable (four of five input layers are deterministic or static).
 
@@ -92,7 +92,7 @@ Target audience: general fitness users, remote clients, anyone who wants a struc
 
 What they receive:
 
-PPL± Operis — every edition, every day. The full front-page experience with curated zip codes, historical context, seasonal framing, and the Wilson Note.
+Ppl± Operis — every edition, every day. The full front-page experience with curated zip codes, historical context, seasonal framing, and the Wilson Note.
 
 All 1,680 rooms — every workout at every address. Browse by dial, by deck, by Operis portal. The full library is open.
 
@@ -361,7 +361,7 @@ Publication standard compliance: no motivational filler, no wellness-influencer 
 
 Zip code integrity: every room at every address honors all four dials. The Order ceiling holds. The Color equipment filter holds. The Axis bias shapes exercise selection. The Type muscle groups are accurate. A room that violates its address is architecturally unsound. The validation pipeline (scripts/validate-card.py) enforces this at generation time.
 
-The reader informs the opinion: PPL± content presents information. The reader evaluates. The publication does not tell the reader what to think — it gives them what they need to think well. Independent of party or faction. Committed to useful knowledge, honest reporting, and the cultivation of an informed public.
+The reader informs the opinion: Ppl± content presents information. The reader evaluates. The publication does not tell the reader what to think — it gives them what they need to think well. Independent of party or faction. Committed to useful knowledge, honest reporting, and the cultivation of an informed public.
 
 ---
 
@@ -375,7 +375,7 @@ The database schema can be prototyped — zip-code-centric tables, Operis editio
 
 The automation pipeline has a clear dependency chain — rotation engine (math) → exercise library (pool) → SCL rules (constraints) → generation pipeline (tools) → Operis input layers (content) → publication standard (voice).
 
-The Feb 11 "PPL± ITSELF" document is archived at seeds/platform-architecture-v1-archive.md. This document replaces it.
+The Feb 11 "Ppl± ITSELF" document is archived at seeds/platform-architecture-v1-archive.md. This document replaces it.
 
 ---
 
@@ -385,5 +385,5 @@ Status: SEED — planted, not active.
 Depends on: card generation progress (rooms need content), cosmogram population (rooms need substrate), Daily prototype refinement (front page needs testing).
 Does not block: current card generation pipeline, deck identity work, cosmogram research sessions.
 
-Published from PPL± Platform Architecture V2.
+Published from Ppl± Platform Architecture V2.
 25 February 2026. Late ⛽ Doric. 🧲 capio.

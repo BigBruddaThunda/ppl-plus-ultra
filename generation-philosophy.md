@@ -1,4 +1,4 @@
-# generation-philosophy.md — PPL± Generation v2
+# generation-philosophy.md — Ppl± Generation v2
 
 Six principles that govern how workouts are written in this system.
 These override any tendency toward verbosity, fake precision, or template-filling.

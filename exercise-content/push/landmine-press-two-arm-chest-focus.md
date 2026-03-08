@@ -40,7 +40,7 @@ Landmine Press (Two-Arm, Chest Focus) is a vertical press movement that primaril
 **Secondary:** obliques, erector_spinae, hip_flexors
 **Joint actions:** spinal_flexion, spinal_stabilization, intra_abdominal_pressure
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Overhead position demands shoulder mobility that most people have to earn. Foundation load lets you find the path before you fight the load. Lockout position is the cue — stack the joint.
 

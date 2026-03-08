@@ -1,4 +1,4 @@
-# PPL± Codespaces Quickstart
+# Ppl± Codespaces Quickstart
 
 This quickstart is for first-time terminal users.
 

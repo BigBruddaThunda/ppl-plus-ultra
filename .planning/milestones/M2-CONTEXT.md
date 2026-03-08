@@ -3,7 +3,7 @@
 **Status:** ✅ COMPLETE (2026-03-07)
 **SCL Zip:** ⛽ 🟢 (Doric × Growth)
 **Contract:** `ppl-workout-generation`
-**PPL Phase:** Phase 2
+**Ppl Phase:** Phase 2
 
 ---
 

@@ -1,6 +1,6 @@
-# Middle-Math Architecture — PPL± Computation Engine
+# Middle-Math Architecture — Ppl± Computation Engine
 
-The deterministic system between what PPL± is and what the user sees.
+The deterministic system between what Ppl± is and what the user sees.
 
 ---
 
@@ -82,11 +82,11 @@ See `rendering/operis-weight-derivation.md` for the complete specification.
 
 ## Section 7 — Almanac Roots
 
-The Hero's Almanac diagnostic system contributed foundational math to PPL±. The user-facing assessment framework — the 7 Dares, 224 questions, 224 Archetypes, the character creator — is archived. The underlying math is preserved as system-level primitives.
+The Hero's Almanac diagnostic system contributed foundational math to Ppl±. The user-facing assessment framework — the 7 Dares, 224 questions, 224 Archetypes, the character creator — is archived. The underlying math is preserved as system-level primitives.
 
-The octave scoring logic (1–8 scale per Dare) became the -8 to +8 bipolar weight scale. The 7-Order developmental ladder became the 7 PPL± Orders, governing workouts, editorial depth, and curriculum posture simultaneously. The 4-Lens perspective framework (Ladder, Lenses, Voices, Scales) became 4 of the 6 Axes. The 8-Voice tonal system became the 8 PPL± Colors.
+The octave scoring logic (1–8 scale per Dare) became the -8 to +8 bipolar weight scale. The 7-Order developmental ladder became the 7 Ppl± Orders, governing workouts, editorial depth, and curriculum posture simultaneously. The 4-Lens perspective framework (Ladder, Lenses, Voices, Scales) became 4 of the 6 Axes. The 8-Voice tonal system became the 8 Ppl± Colors.
 
-The transformation was complete. The assessment framing came off. The math stayed. Character in the Almanac was built through a quiz. Character in PPL± is built through use — the exercise ledger grows, the profile sharpens, the system learns the user without asking.
+The transformation was complete. The assessment framing came off. The math stayed. Character in the Almanac was built through a quiz. Character in Ppl± is built through use — the exercise ledger grows, the profile sharpens, the system learns the user without asking.
 
 See `roots/` for the preserved primitives and the translation document.
 
@@ -94,7 +94,7 @@ See `roots/` for the preserved primitives and the translation document.
 
 ## Section 8 — The Numeric Zip Layer
 
-Every PPL± emoji has a numeric position on its dial: Order 1-7, Axis 1-6, Type 1-5, Color 1-8. The 4-digit numeric zip code (e.g., `2123` for `⛽🏛🪡🔵`) is the system-layer addressing key used in URLs, database primary keys, API parameters, weight vector indices, and every context where emojis cannot operate.
+Every Ppl± emoji has a numeric position on its dial: Order 1-7, Axis 1-6, Type 1-5, Color 1-8. The 4-digit numeric zip code (e.g., `2123` for `⛽🏛🪡🔵`) is the system-layer addressing key used in URLs, database primary keys, API parameters, weight vector indices, and every context where emojis cannot operate.
 
 The emoji is the display layer. The number is the computation layer. Conversion between them is a single array lookup in either direction. The numeric positions ARE the array indices for weight vector computation: `vector[order - 1] = 8` sets the Order primary weight; `vector[6 + axis] = 8` sets the Axis primary weight; and so on through all four dials.
 

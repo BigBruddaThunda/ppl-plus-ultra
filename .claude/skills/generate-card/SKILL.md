@@ -1,6 +1,6 @@
 ---
 name: generate-card
-description: Generate a single PPL± workout card from its zip code. Reads identity doc, validates, generates, renames stub, logs to whiteboard.
+description: Generate a single Ppl± workout card from its zip code. Reads identity doc, validates, generates, renames stub, logs to whiteboard.
 disable-model-invocation: true
 argument-hint: "[zip-code e.g. ⛽🌹🛒🔵]"
 allowed-tools: Read, Write, Edit, Bash, Grep, Glob

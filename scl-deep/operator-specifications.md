@@ -132,7 +132,7 @@ The override does not change the zip code. It changes only the operator emoji th
 **Month:** February
 **Annual Breath:** Long Inhale — receiving
 
-**Latin root:** *capere* (to take, seize, receive). Principal parts: *capio, capere, cepi, captum*. Related: *capture*, *capacity*, *accept* (ad + capere), *concept* (con + capere — to take together). The root carries two senses that sit in tension: to seize (active, predatory) and to receive (passive, receptive). *Capio* in the PPL± system leans toward the second meaning — the open hand, not the closed fist.
+**Latin root:** *capere* (to take, seize, receive). Principal parts: *capio, capere, cepi, captum*. Related: *capture*, *capacity*, *accept* (ad + capere), *concept* (con + capere — to take together). The root carries two senses that sit in tension: to seize (active, predatory) and to receive (passive, receptive). *Capio* in the Ppl± system leans toward the second meaning — the open hand, not the closed fist.
 
 **Agricultural resonance (February):** The seed shipment arrives. The farmer reads the packet data — germination rates, days to maturity, spacing requirements. The soil amendment bags come in from the co-op. *Capio* is the act of receiving information and material before acting on it. February is assessment month: what came in, what condition is it in, what can be used.
 

@@ -1,4 +1,4 @@
-# PPL± GitHub Actions
+# Ppl± GitHub Actions
 
 GitHub Actions workflows for repository-level validation and CI checks.
 

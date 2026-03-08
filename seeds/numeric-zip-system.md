@@ -13,7 +13,7 @@ connects-to: seeds/experience-layer-blueprint.md, middle-math/ARCHITECTURE.md, m
 
 ## One Sentence
 
-Every PPL± zip code emoji has a numeric position on its dial (Order 1-7, Axis 1-6, Type 1-5, Color 1-8), making every zip code a 4-digit integer that serves as the system-layer addressing key for URLs, database primary keys, API routing, weight vector computation, and every context where emojis cannot operate.
+Every Ppl± zip code emoji has a numeric position on its dial (Order 1-7, Axis 1-6, Type 1-5, Color 1-8), making every zip code a 4-digit integer that serves as the system-layer addressing key for URLs, database primary keys, API routing, weight vector computation, and every context where emojis cannot operate.
 
 ---
 

@@ -10,9 +10,9 @@
 
 ## Overview
 
-Wilson is the audible form of the PPL± publication standard. The voice parser
+Wilson is the audible form of the Ppl± publication standard. The voice parser
 is the system that converts spoken or typed natural language into a navigation
-target inside the PPL± building. This spec defines the 3-layer keyword scoring
+target inside the Ppl± building. This spec defines the 3-layer keyword scoring
 architecture that powers voice navigation.
 
 **Critical design constraints:**
@@ -188,7 +188,7 @@ Examples:
 
 ## Layer 3 — Content Type Resolution
 
-**Purpose:** Match spoken words to one of the 109 PPL± content types.
+**Purpose:** Match spoken words to one of the 109 Ppl± content types.
 **Output:** A specific content type ID (CT-001 through CT-109) + its primary floor.
 **Keyword count estimate:** ~800 entries
 
@@ -299,7 +299,7 @@ vocabulary, not in persona — Wilson does not change who it is.
 ### 🏛 Piano Nobile — Full Technical Register
 
 Wilson speaks precisely and completely. Full set/rep prescription.
-Full block sequence. Uses PPL± vocabulary natively.
+Full block sequence. Uses Ppl± vocabulary natively.
 
 > "Heavy Classic Pulls — 2123. Six blocks. Bread and Butter: Romanian
 > deadlift, weighted pull-up, Pendlay row. Four sets, five reps.

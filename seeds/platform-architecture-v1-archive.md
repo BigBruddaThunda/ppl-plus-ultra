@@ -12,7 +12,7 @@ archive_reason: >
   (seeds/platform-architecture-v2.md). This document retained for historical reference.
 ---
 
-# 🧮 PPL± ITSELF — Platform Architecture (February 11, 2026)
+# 🧮 Ppl± ITSELF — Platform Architecture (February 11, 2026)
 
 > **ARCHIVED DOCUMENT**
 > Superseded by `seeds/platform-architecture-v2.md` (February 25, 2026).
@@ -21,29 +21,29 @@ archive_reason: >
 ---
 
 ═══════════════════════════════════════════════════════════════════════════════
-🧮 PPL± ITSELF
+🧮 Ppl± ITSELF
 The Complete Platform Architecture — Context Document
 ═══════════════════════════════════════════════════════════════════════════════
 **Document Type:** System Architecture & Context Capture
 **Status:** 🟡 Draft / Living Document
 **Created:** February 11, 2026
 **Author:** Jake Berry
-**Purpose:** Complete specification of PPL± as a digital training platform
+**Purpose:** Complete specification of Ppl± as a digital training platform
 ═══════════════════════════════════════════════════════════════════════════════
 
 # 🎯 INTENTION
 
-"PPL± is a mobile-first training platform that delivers Jake's seasonal athletic development system to clients through structured programs, daily workouts, and intelligent automation—while preserving the human craft of coaching."
+"Ppl± is a mobile-first training platform that delivers Jake's seasonal athletic development system to clients through structured programs, daily workouts, and intelligent automation—while preserving the human craft of coaching."
 
 ═══════════════════════════════════════════════════════════════════════════════
-# 🐂 FOUNDATION — What PPL± Is
+# 🐂 FOUNDATION — What Ppl± Is
 ═══════════════════════════════════════════════════════════════════════════════
 
 ## The Core Concept
 
-PPL± is a digital training platform built around three interconnected systems:
+Ppl± is a digital training platform built around three interconnected systems:
 
-1. **The Training System** — PPL± methodology (Push/Pull/Legs/Plus), Seven Orders (seasonal training phases), Eight Colors (equipment/structure approaches)
+1. **The Training System** — Ppl± methodology (Push/Pull/Legs/Plus), Seven Orders (seasonal training phases), Eight Colors (equipment/structure approaches)
 2. **The Delivery Platform** — Mobile-first web application that delivers workouts, tracks progress, manages programs, and builds community
 3. **The Business Model** — Tiered subscription service that scales from mass-market daily workouts to personalized training programs
 
@@ -65,10 +65,10 @@ PPL± is a digital training platform built around three interconnected systems:
 
 ## The Solution Architecture
 
-PPL± solves both sides through:
+Ppl± solves both sides through:
 
 **Structured Delivery:**
-- Workouts formatted in PPL± Semantic Compression Language (SCL)
+- Workouts formatted in Ppl± Semantic Compression Language (SCL)
 - Mobile-optimized for portrait mode (screenshot-friendly)
 - Clear visual hierarchy using emojis as semantic anchors
 - Programs structured as "card decks" (collections of workouts)
@@ -89,7 +89,7 @@ PPL± solves both sides through:
 # 🏛 ARCHITECTURE — The 6-Axis Navigation System
 ═══════════════════════════════════════════════════════════════════════════════
 
-PPL± uses the six axes from SCL as the primary navigation structure. Each axis is a top-level section containing related features and functions.
+Ppl± uses the six axes from SCL as the primary navigation structure. Each axis is a top-level section containing related features and functions.
 
 ## Visual Structure
 
@@ -1353,7 +1353,7 @@ export default async function handler(req, res) {
 - Jake's training logs (15,000+ hours documented)
 - Client feedback (ratings, reviews)
 - Forum Q&A (Jake's answers become training data)
-- This context document (🧮 PPL± Itself)
+- This context document (🧮 Ppl± Itself)
 
 ### RAG Capabilities:
 
@@ -1670,7 +1670,7 @@ Total: ~5 hours/week digital work
 - Progressive Web App (offline capable, "add to home screen")
 
 **2. SCL as the Semantic Foundation**
-- Workouts formatted in PPL± Semantic Compression Language
+- Workouts formatted in Ppl± Semantic Compression Language
 - Emojis aren't decoration—they're addresses
 - ZIP codes create addressable, queryable content
 - Consistency enables automation (RAG can parse structure)
@@ -1764,5 +1764,5 @@ Total: ~5 hours/week digital work
 ═══════════════════════════════════════════════════════════════════════════════
 🧸 fero — Carry this vision into reality. The architecture stands. The path is clear.
 ═══════════════════════════════════════════════════════════════════════════════
-🧮 PPL± ITSELF — COMPLETE
+🧮 Ppl± ITSELF — COMPLETE
 ═══════════════════════════════════════════════════════════════════════════════

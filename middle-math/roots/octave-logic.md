@@ -10,7 +10,7 @@ That math is preserved here as the foundation of the SCL weight system.
 
 **Almanac form:** 1–8, unipolar. High = strong development. Low = area for growth.
 
-**PPL± weight form:** -8 to +8, bipolar. +8 = defining presence. 0 = neutral. -8 = hard exclusion.
+**Ppl± weight form:** -8 to +8, bipolar. +8 = defining presence. 0 = neutral. -8 = hard exclusion.
 
 The transformation: extend the 1–8 positive scale to a -8/+8 axis by centering at 0. What was a 1 (barely present) becomes a -7 or -8 (actively excluded). What was an 8 (fully expressed) becomes a +7 or +8 (defining). The neutral midpoint of the Almanac (a score of 4.5 on a 1–8 scale) becomes 0.
 
@@ -24,7 +24,7 @@ Eight values on the positive side. Eight on the negative. One neutral center.
 
 The octave is a natural measurement unit: enough gradations to express meaningful difference, few enough to keep meaning attached to each value. A 100-point scale loses anchoring — what does 73 mean versus 74? An octave keeps each value distinct. +5 means something different from +4, and a competent reader can feel the difference.
 
-In the Almanac, the 7 Dares produced a 7-dimensional profile. In PPL±, the 61 emojis produce a 61-dimensional weight vector. The octave scale applies to all 61 dimensions simultaneously.
+In the Almanac, the 7 Dares produced a 7-dimensional profile. In Ppl±, the 61 emojis produce a 61-dimensional weight vector. The octave scale applies to all 61 dimensions simultaneously.
 
 ---
 

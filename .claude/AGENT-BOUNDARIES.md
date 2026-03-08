@@ -1,7 +1,7 @@
-# PPL± Agent Boundaries
+# Ppl± Agent Boundaries
 **CX-19 — Formalized 2026-03-06 (Session 037)**
 
-This document is the human-readable governance layer for the multi-agent PPL± system.
+This document is the human-readable governance layer for the multi-agent Ppl± system.
 It defines which agents can read, write, or never touch which file categories.
 The technical firewall lives in `.codex/TASK-ARCHITECTURE.md` (Context Firewall Rules section).
 

@@ -41,7 +41,7 @@ Barbell Floor Press is a horizontal press movement that primarily trains pectora
 **Secondary:** anterior_deltoid, triceps_brachii
 **Joint actions:** shoulder_horizontal_adduction, elbow_extension
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Scapular position before bar position. The shoulder blade must be set before the chest is loaded. Foundation load means you have time to find the position without chasing a number.
 

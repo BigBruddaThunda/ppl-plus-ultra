@@ -21,7 +21,7 @@ connects-to:
 
 ### The 5-Type System
 
-PPL± is built on the classical Push/Pull/Legs split — the most durable organizing principle in resistance training. Three Types, three sessions, every muscle group covered. But the classical split has a ceiling. It trains muscle groups. It does not train integration, power production, or energy systems as first-class citizens.
+Ppl± is built on the classical Push/Pull/Legs split — the most durable organizing principle in resistance training. Three Types, three sessions, every muscle group covered. But the classical split has a ceiling. It trains muscle groups. It does not train integration, power production, or energy systems as first-class citizens.
 
 ➕ Plus and ➖ Ultra are the extension beyond that ceiling.
 
@@ -498,7 +498,7 @@ Ultra is subtraction. The ➖ sign is not negation — it is reduction to the es
 | ➕ Plus | — (not in classical split) | Integration: parts operating as one system |
 | ➖ Ultra | — (not in classical split) | Efficiency: the infrastructure beneath all other types |
 
-The classical 3-day split was a valid organizing framework when the gym was the whole context. PPL± adds Plus and Ultra because:
+The classical 3-day split was a valid organizing framework when the gym was the whole context. Ppl± adds Plus and Ultra because:
 
 1. Power production (Olympic lifts, plyometrics, loaded carries) cannot be cleanly assigned to a single body-part day without losing its identity.
 2. Cardiovascular capacity is not an accessory to resistance training. It is a co-equal system that requires dedicated training investment.

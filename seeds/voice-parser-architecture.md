@@ -13,7 +13,7 @@ connects-to: seeds/automotive-layer-architecture.md, seeds/mobile-ui-architectur
 
 ## One Sentence
 
-The PPL± voice parser is the building's front desk — a client-side, AI-free keyword scoring system that converts any natural language input (spoken or typed) into three addressing coordinates (zip code + floor + content type) by scoring against a ~13,000-entry vocabulary built from all 61 SCL attributes, 6 app floors, 109 content types, and ~2,185 exercises.
+The Ppl± voice parser is the building's front desk — a client-side, AI-free keyword scoring system that converts any natural language input (spoken or typed) into three addressing coordinates (zip code + floor + content type) by scoring against a ~13,000-entry vocabulary built from all 61 SCL attributes, 6 app floors, 109 content types, and ~2,185 exercises.
 
 ---
 
@@ -342,7 +342,7 @@ Fallback for no Web Speech API support: text input only. The parser itself is ag
 
 Wilson reads back the parse result before navigating (when confidence < 1.0). This serves two functions:
 1. Confirms the interpretation (reduces wrong navigations)
-2. Teaches the vocabulary (users learn what "heavy pull" means in PPL± terms)
+2. Teaches the vocabulary (users learn what "heavy pull" means in Ppl± terms)
 
 Wilson response for parse confirmation:
 > "Heavy pull. I'm reading ⛽ Strength, 🪡 Pull, 🏛 Basics — Heavy Classic Pulls. Going there now."

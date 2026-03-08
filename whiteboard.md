@@ -1,4 +1,4 @@
-# Negotiosum — PPL± Active Work Board
+# Negotiosum — Ppl± Active Work Board
 
 Last updated: 2026-03-08
 Phase: 3.1 — Quality Rebuild Campaign
@@ -233,7 +233,7 @@ The `archideck/` directory contains the meta-architectural operating system:
 - `archideck/KERNEL.md` — Compressed SCL seed (~2,800 words, project-agnostic)
 - `archideck/CONTRACTS.md` — Cross-project Negotiosum switchboard
 - `archideck/AGENT-CONTRACT.md` — Universal agent operating instructions
-- `archideck/CLAUDE.md` — PPL± vs Archideck routing layer
+- `archideck/CLAUDE.md` — Ppl± vs Archideck routing layer
 - `archideck/intake/` — Raw idea landing zone
 - `archideck/projects/` — Project index
 
@@ -245,7 +245,7 @@ New project scaffolds created (intake phase):
 
 GSD v1.22.4 installed to `.claude/commands/gsd/` and `.codex/skills/` (additive, no existing files overwritten).
 
-PPL± card generation continues on main as normal. When the Archideck branch is stable and tested, it merges to main as an additive layer.
+Ppl± card generation continues on main as normal. When the Archideck branch is stable and tested, it merges to main as an additive layer.
 See: `archideck/CONTRACTS.md` for cross-project switchboard.
 
 ---

@@ -1,6 +1,6 @@
 ---
 name: progress-report
-description: Run the progress report script and display the PPL± generation dashboard.
+description: Run the progress report script and display the Ppl± generation dashboard.
 allowed-tools: Bash
 ---
 

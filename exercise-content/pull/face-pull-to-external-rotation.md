@@ -40,7 +40,7 @@ Face Pull to External Rotation is a horizontal pull movement that primarily trai
 **Secondary:** obliques, erector_spinae, hip_flexors
 **Joint actions:** spinal_flexion, spinal_stabilization, intra_abdominal_pressure
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Row mechanics: shoulders set first, pull to the lower rib, squeeze the shoulder blade at the top. Foundation load is pattern acquisition — the groove before the grind.
 

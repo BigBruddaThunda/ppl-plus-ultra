@@ -39,7 +39,7 @@ Executable PostgreSQL 15+ migrations derived from `middle-math/schemas/*.md`.
 - `007` inserts all valid numeric zip combinations using a 4-way cross join: 7 × 6 × 5 × 8 = 1,680.
 - `008` adds 4 tables for room-level tracking: `rooms` (one row per zip, 1,680 rows), `room_visits` (append-only log), `room_votes` (user quality signals), `bloom_history` (depth transition log). Navigation edges (nav_north/east/south/west) are populated by `scripts/build-navigation-graph.py`.
 - `009` creates `exercise_registry`: 2,085 exercises with globally unique IDs (EX-0001–EX-2085), anatomy, family linkage, axis/order affinity, GOLD gate. Self-referencing parent_id for family trees. Requires `pg_trgm` extension for name search index.
-- `010` creates `exercise_knowledge`: 1:1 coaching content for each registry entry. Setup cues, execution cues, common faults, PPL± per-Order context. Auto-populated with EMPTY stub rows from registry at migration time.
+- `010` creates `exercise_knowledge`: 1:1 coaching content for each registry entry. Setup cues, execution cues, common faults, Ppl± per-Order context. Auto-populated with EMPTY stub rows from registry at migration time.
 
 ## Run Against Supabase
 

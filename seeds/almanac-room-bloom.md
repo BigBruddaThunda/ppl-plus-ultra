@@ -16,7 +16,7 @@ Each zip code room starts sparse and grows richer as the user visits — populat
 
 First visit: just the workout card and empty superscript/subscript boxes. Tenth visit: history populates exercise rows, community board has depth, personal notes from previous visits appear, Junction suggestions are informed by actual patterns.
 
-The room grows because you've been in it. The HTML space is alive, not static. This is the fundamental UX promise of PPL± — the system teaches itself through use, not through onboarding.
+The room grows because you've been in it. The HTML space is alive, not static. This is the fundamental UX promise of Ppl± — the system teaches itself through use, not through onboarding.
 
 ## Data That Blooms
 

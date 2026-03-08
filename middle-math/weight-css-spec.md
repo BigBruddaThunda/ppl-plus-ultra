@@ -1,7 +1,7 @@
-# PPL± WeightCSS Specification
+# Ppl± WeightCSS Specification
 **CX-18 — Formalized 2026-03-06 (Session 037)**
 
-This document specifies how the 61-dimensional SCL weight vector maps to CSS custom properties for the PPL± experience layer. The weight vector is not just a retrieval signal — it is a complete rendering instruction.
+This document specifies how the 61-dimensional SCL weight vector maps to CSS custom properties for the Ppl± experience layer. The weight vector is not just a retrieval signal — it is a complete rendering instruction.
 
 Reference: `middle-math/ARCHITECTURE.md` (Section 5 — Rendering Layer), `seeds/experience-layer-blueprint.md`
 
@@ -9,7 +9,7 @@ Reference: `middle-math/ARCHITECTURE.md` (Section 5 — Rendering Layer), `seeds
 
 ## Overview
 
-Every PPL± room has a 61-dimensional weight vector. That vector encodes the room's complete SCL identity: which Order governs it, which Axis biases it, what Type it trains, what Color formats it, and how all the blocks and operators interact. The rendering layer reads this vector and derives CSS custom properties that shape the room's visual appearance, information density, typography, and tonal register.
+Every Ppl± room has a 61-dimensional weight vector. That vector encodes the room's complete SCL identity: which Order governs it, which Axis biases it, what Type it trains, what Color formats it, and how all the blocks and operators interact. The rendering layer reads this vector and derives CSS custom properties that shape the room's visual appearance, information density, typography, and tonal register.
 
 **The zip code is a complete rendering instruction.** You do not need to pass separate style parameters. You pass a zip code, resolve its weight vector, and derive all visual properties from that vector.
 
@@ -333,7 +333,7 @@ When the weight vector is neutral (all values near 0, normalized near 0.5), appl
 }
 ```
 
-Neutral fallback theme: `design-tokens.json → colors.structured` (🔵 Structured — the canonical neutral color for the PPL± system).
+Neutral fallback theme: `design-tokens.json → colors.structured` (🔵 Structured — the canonical neutral color for the Ppl± system).
 
 ---
 

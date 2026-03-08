@@ -42,7 +42,7 @@
 
 The registry builder's `PATTERN_KEYWORDS["core-stability"]` includes `"car"` which substring-matches `"carry"`. Result: ~1,256 exercises show `movement_pattern: "core-stability"` including carries and some other patterns.
 
-**Mitigation in place:** `generate-exercise-content.py` has `resolve_template_pattern()` which uses `family_id` as a fallback when `movement_pattern` is `"core-stability"` but `family_id` is a major pattern (hip-hinge, squat, etc.). This gives correct PPL± Context templates to affected exercises.
+**Mitigation in place:** `generate-exercise-content.py` has `resolve_template_pattern()` which uses `family_id` as a fallback when `movement_pattern` is `"core-stability"` but `family_id` is a major pattern (hip-hinge, squat, etc.). This gives correct Ppl± Context templates to affected exercises.
 
 **Full fix:** Rebuild the registry with corrected `PATTERN_KEYWORDS`. Deferred to CX-43 (Selector V2) or a targeted CX-36 patch session.
 
