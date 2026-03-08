@@ -15,7 +15,7 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🔨➕🟢
 
-> "Flow through the full body as one integrated pattern."
+> "Flow through the body using only what you carry. No equipment needed."
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🌾🔨➕🟢 (Warm-Up | Plus | Functional | Bodyweight)
@@ -25,7 +25,7 @@ Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🔨➕🟢 (Composition | Plus | Functional | Bodyweight)
-├─ 9 ➕ Single-Arm Face Pull → Half-Kneeling Band Single-Arm Pulldown (flow without reset)
+├─ 9 ➕ Aquaman (Alternating Superman) → Half-Kneeling Band Single-Arm Pulldown (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
@@ -40,15 +40,15 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🔨➕🟢 (Supplemental | Plus | Functional | Bodyweight)
-├─ 11 ➕ Aquaman (Alternating Superman) (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
+├─ 10 ➕ Half-Kneeling Cable Chop (full range, different angle)
+│  Set 1: 🌾 60% × 10 (support volume)
+│  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🔨➕🟢 (Release | Plus | Functional | Bodyweight)
-├─ 12 ➕ Half-Kneeling Cable Chop (smooth tempo, downshift)
-│  Set 1: 🌾 50% × 12 (deload)
+├─ 10 ➕ Single-Leg Romanian Deadlift (smooth tempo, downshift)
+│  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══
 ## 6) 🚂 Junction
@@ -56,4 +56,4 @@ Rest: 45s
 - Next → 🌾🔨➕🟢 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The flow is the measure. If movements disconnected, simplify next session.
+Flow at bodyweight reveals coordination. Log the movement quality.

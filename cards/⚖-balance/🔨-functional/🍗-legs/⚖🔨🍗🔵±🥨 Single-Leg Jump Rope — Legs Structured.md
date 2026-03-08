@@ -15,7 +15,7 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 
 **CODE:** ⚖🔨🍗🔵
 
-> "Find the weak link and spend time on it. Correction is the session."
+> "Prescribed accessory work. Target the specific imbalance."
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: ⚖🔨🍗🔵 (Warm-Up | Legs | Functional | Structured)
@@ -26,7 +26,7 @@ Rest: 60s
 ## 2) 🏗 Reformance
 Subcode: ⚖🔨🍗🔵 (Reformance | Legs | Functional | Structured)
 ├─ 11 🍗 Half-Kneeling Hip Flexor Stretch (corrective, address the weak link)
-│  Set 1: ⚖ 50% × 13 (prehab)
+│  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
 ═══
@@ -40,9 +40,9 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🔨🍗🔵 (Supplemental | Legs | Functional | Structured)
-├─ 13 🍗 Single-Leg Extension (full range, different angle)
-│  Set 1: ⚖ 60% × 13 (support volume)
-│  Set 2: ⚖ 60% × 13 (non-redundant)
+├─ 12 🍗 Single-Leg Extension (full range, different angle)
+│  Set 1: ⚖ 60% × 12 (support volume)
+│  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release

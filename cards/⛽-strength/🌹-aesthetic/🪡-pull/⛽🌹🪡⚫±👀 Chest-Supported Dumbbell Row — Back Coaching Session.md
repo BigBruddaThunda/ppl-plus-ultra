@@ -9,98 +9,51 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: ⚫ Teaching
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🪡 Chest-Supported Dumbbell Row — Pull Teaching 🪡
 
-# 🪡 Chest-Supported Dumbbell Row — Back Coaching Session 🪡
+## Strength Aesthetic — Pull focus (Teaching) · 50-65 min
 
-Strength aesthetic session | Back, rear delts, biceps | 58-70 min
+**CODE:** ⛽🌹🪡⚫
 
-CODE: ⛽🌹🪡⚫
-
-> "Pull heavy through full range and keep the scap rhythm clean under load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 👀 specio
-
-Sub-block: ♨️🪡🌹⚫ (Warm-Up | Pull | Aesthetic | Teaching)
-
-├─ 8 🪡 Band Face Pull (elbows high)
-├─ 8 🪡 Scapular Pull-Up (depress then relax)
-└─ 6 🪡 Straight-Arm Pulldown (Bar) (lats engage first)
-
-Rest: 60 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🪡🌹⚫ (Primer | Pull | Aesthetic | Teaching)
-
-├─ Set 1: ⛽ 55% × 6 on Chest-Supported Dumbbell Row (set torso)
-├─ Set 2: ⛽ 65% × 5 on Chest-Supported Dumbbell Row (smooth path)
-└─ Set 3: ⛽ 72% × 4 on Chest-Supported Dumbbell Row (hard pull, slow lower)
-
-Rest: 2 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 👀 specio
-
-Sub-block: 🧈🪡🌹⚫ (Bread & Butter | Pull | Aesthetic | Teaching)
-
-├─ 5 🪡 Chest-Supported Dumbbell Row (full reach, full squeeze)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 5
-│  ├─ Set 3: ⛽ 82% × 4
-│  └─ Set 4: ⛽ 85% × 4
-└─ 4 🪡 Rope Face Pull (shoulders stay down)
-   ├─ Set 1: ⛽ 76% × 4
-   ├─ Set 2: ⛽ 78% × 4
-   └─ Set 3: ⛽ 80% × 4
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🪡🌹⚫ (Supplemental | Pull | Aesthetic | Teaching)
-
-├─ 5 🪡 Seated Cable Row (Neutral Grip) (elbows pull to hip line)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 4
-│  └─ Set 3: ⛽ 80% × 4
-└─ 5 🪡 Cable Curl (Straight Bar) (squeeze, then lower)
-   ├─ Set 1: ⛽ 74% × 5
-   ├─ Set 2: ⛽ 76% × 5
-   └─ Set 3: ⛽ 78% × 4
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🪡🌹⚫ (Release | Pull | Aesthetic | Teaching)
-
-- 60 sec slow nasal breathing, long exhale.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🪡🌹⚫ (Junction | Pull | Aesthetic | Teaching)
-
-Next → ⛽🌹🛒⚫ — push pattern balances shoulder mechanics.
-Next → ⛽🌹🍗⚫ — leg force supports pulling output.
-Next → ⛽🌹➕⚫ — trunk control improves pull transfer.
-
-Log: top load ______ | clean reps ______ | note ______
-
-═══════════════════════════════════════
-
+> "Learn where the bar sits and how it moves before adding plates."
+═══
+## 1) ♨️ Warm-Up — 👀 specio
+Subcode: ⛽🌹🪡⚫ (Warm-Up | Pull | Aesthetic | Teaching)
+├─ 6 🪡 Wide-Grip Lat Pulldown (Teres Focus) (coached, check form before adding load)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 135s
+═══
+## 2) 🛠 Craft
+Subcode: ⛽🌹🪡⚫ (Craft | Pull | Aesthetic | Teaching)
+├─ 5 🪡 Face Pull (Rope) (coach: check grip width, elbow angle, foot pressure)
+│  Set 1: ⛽ 60% × 5 (practice the pattern, not the load)
+│  Set 2: ⛽ 65% × 5 (same cues, slightly heavier)
+Rest: 180s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🌹🪡⚫ (Bread & Butter | Pull | Aesthetic | Teaching)
+├─ 5 🪡 Chest-Supported Dumbbell Row (coached, check form before adding load)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 270s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🌹🪡⚫ (Supplemental | Pull | Aesthetic | Teaching)
+├─ 6 🪡 Good Morning (Barbell) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 180s
+═══
+## 5) 🧬 Imprint
+Subcode: ⛽🌹🪡⚫ (Imprint | Pull | Aesthetic | Teaching)
+├─ 6 🪡 Chest-Supported Dumbbell Row (high rep, low load, neural memory)
+│  Set 1: ⛽ 55% × 6 (lock the pattern)
+Rest: 180s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹🪡⚫ — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The win is heavy output with no hitch in the pull path. If torso sway starts, log the load and hold progression there next session.
+Note the coaching cues that changed the movement. Build from those.

@@ -9,93 +9,40 @@ type: ➕ Plus
 color: 🟠 Circuit
 blocks: ♨️ ▶️ 🧈 🎱 🪫 🚂
 ---
+# ➕ Kettlebell Swing — Plus Circuit ➕
 
-# ➕ Kettlebell Swing — Plus Challenge, Circuit ➕
+## Strength Challenge — Plus focus (Circuit) · 50-65 min
 
-Strength challenge session | Full-body power and core | 55-70 min
+**CODE:** ⛽🪐➕🟠
 
-CODE: ⛽🪐➕🟠
-
-> "Move heavy through unstable demands and keep force transfer clean."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🚀 mitto
-
-Sub-block: ♨️➕🪐🟠 (Warm-Up | Plus | Challenge | Circuit)
-
-├─ 6 ➕ Suitcase Carry (Single-Arm) (no side bend)
-└─ 8 ➕ Medicine Ball Slam (full hip snap)
-
-Rest: 90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➕🪐🟠 (Primer | Plus | Challenge | Circuit)
-
-├─ Set 1: ⛽ 60% × 6 on Kettlebell Swing (controlled depth)
-├─ Set 2: ⛽ 68% × 5 on Kettlebell Swing (2-second pause)
-└─ Set 3: ⛽ 72% × 4 on Kettlebell Swing (same strict line)
-
-Rest: 2-3 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🚀
-
-Sub-block: 🧈➕🪐🟠 (Bread & Butter | Plus | Challenge | Circuit)
-
-├─ 5 ➕ Kettlebell Swing (hardest clean variation today)
-│  ├─ Set 1: ⛽ 75% × 6 (tempo down, violent up)
-│  ├─ Set 2: ⛽ 78% × 5 (1-second hold in weak point)
-│  ├─ Set 3: ⛽ 82% × 4 (keep shape locked)
-│  └─ Set 4: ⛽ 85% × 4 (no breakdown reps)
-└─ 4 ➕ Sled Push (Heavy) (short violent steps) 
-   ├─ Set 1: ⛽ 75% × 5 (strict path)
-   ├─ Set 2: ⛽ 80% × 4 (pause each rep)
-   └─ Set 3: ⛽ 82% × 4 (same speed target)
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🎱 ARAM
-
-Sub-block: 🎱➕🪐🟠 (ARAM | Plus | Challenge | Circuit)
-
-├─ 5 ➕ Sled Push (Heavy) (short violent steps)
-└─ 4 ➕ Kettlebell Swing (snap then float)
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫➕🪐🟠 (Release | Plus | Challenge | Circuit)
-
-- 5 minutes easy downshift work and nasal breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂➕🪐🟠 (Junction | Plus | Challenge | Circuit)
-
-Log:
-- Load quality: ______________________
-- Hardest sticking point: ____________
-- Recovery readiness (1-5): _________
-
-Next → ⛽🪐🍗🔵 — keep lower-body force production high
-Next → ⛽🪐➖🔵 — convert force output into repeatable engine work
-
-═══════════════════════════════════════
-
+> "Rotate stations. Keep the tissues trading off under heavy demand."
+═══
+## 1) ♨️ Warm-Up — 🚀 mitto
+Subcode: ⛽🪐➕🟠 (Warm-Up | Plus | Challenge | Circuit)
+├─ 6 ➕ Overhead Throw (Medicine Ball) (station rotation, keep moving)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) 🎱 ARAM — Circuit Loop
+Subcode: ⛽🪐➕🟠 (ARAM | Plus | Challenge | Circuit)
+┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
+│  Station 1: ➕ Kettlebell Swing × 5 (station rotation, keep moving)
+│  Station 2: ➕ Overhead Throw (Medicine Ball) × 5 (station rotation, keep moving)
+│  Station 3: ➕ Pull-Up (Overhand Grip) × 5 (station rotation, keep moving)
+│  Station 4: ➕ Bent-Over Barbell Row (Overhand) × 5 (station rotation, keep moving)
+│  Transition: 15s between stations
+│  Round rest: 60s
+Rest: 90s after final round
+═══
+## 3) 🪫 Release
+Subcode: ⛽🪐➕🟠 (Release | Plus | Challenge | Circuit)
+├─ 6 ➕ Rotational Medicine Ball Throw (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 4) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🪐➕🟠 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Challenge strength is heavy load plus stricter execution. Keep the same standard next session: no rep counts unless the position stays honest.
+Log station completion times. Consistency matters more than speed.

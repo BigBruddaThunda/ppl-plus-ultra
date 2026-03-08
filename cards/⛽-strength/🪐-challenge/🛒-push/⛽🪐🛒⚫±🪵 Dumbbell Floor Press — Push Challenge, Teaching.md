@@ -9,93 +9,51 @@ type: 🛒 Push
 color: ⚫ Teaching
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🛒 Dumbbell Floor Press — Push Teaching 🛒
 
-# 🛒 Dumbbell Floor Press — Push Challenge, Teaching 🛒
+## Strength Challenge — Push focus (Teaching) · 50-65 min
 
-Strength challenge session | Chest, shoulders, triceps | 58-72 min
+**CODE:** ⛽🪐🛒⚫
 
-CODE: ⛽🪐🛒⚫
-
-> "Drive heavy pressing through stricter positions and longer control points."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🪵 teneo
-
-Sub-block: ♨️🛒🪐⚫ (Warm-Up | Push | Challenge | Teaching)
-
-├─ 8 🛒 Ring Push-Up (brace hard at the top)
-└─ 6 🛒 Landmine Press (Single Arm) (lock ribcage down)
-
-Rest: 90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🛒🪐⚫ (Primer | Push | Challenge | Teaching)
-
-├─ Set 1: ⛽ 60% × 6 on Dumbbell Floor Press (controlled depth)
-├─ Set 2: ⛽ 68% × 5 on Dumbbell Floor Press (2-second pause)
-└─ Set 3: ⛽ 72% × 4 on Dumbbell Floor Press (same strict line)
-
-Rest: 2-3 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🪵
-
-Sub-block: 🧈🛒🪐⚫ (Bread & Butter | Push | Challenge | Teaching)
-
-├─ 5 🛒 Dumbbell Floor Press (hardest clean variation today)
-│  ├─ Set 1: ⛽ 75% × 6 (tempo down, violent up)
-│  ├─ Set 2: ⛽ 78% × 5 (1-second hold in weak point)
-│  ├─ Set 3: ⛽ 82% × 4 (keep shape locked)
-│  └─ Set 4: ⛽ 85% × 4 (no breakdown reps)
-└─ 4 🛒 Weighted Chest Dip (pause in the bottom) 
-   ├─ Set 1: ⛽ 75% × 5 (strict path)
-   ├─ Set 2: ⛽ 80% × 4 (pause each rep)
-   └─ Set 3: ⛽ 82% × 4 (same speed target)
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🛒🪐⚫ (SUPPLEMENTAL | Push | Challenge | Teaching)
-
-├─ 6 🛒 Weighted Chest Dip (pause in the bottom)
-└─ 5 🛒 Dumbbell Overhead Press (Standing) (strict tempo up)
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🛒🪐⚫ (Release | Push | Challenge | Teaching)
-
-- 5 minutes easy downshift work and nasal breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🛒🪐⚫ (Junction | Push | Challenge | Teaching)
-
-Log:
-- Load quality: ______________________
-- Hardest sticking point: ____________
-- Recovery readiness (1-5): _________
-
-Next → ⛽🪐🪡🔵 — pair this with strict pulling tension
-Next → ⛽🪐🍗🔵 — keep lower-body force in the same challenge lane
-
-═══════════════════════════════════════
-
+> "Learn where the bar sits and how it moves before adding plates."
+═══
+## 1) ♨️ Warm-Up — 🪵 teneo
+Subcode: ⛽🪐🛒⚫ (Warm-Up | Push | Challenge | Teaching)
+├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (coached, check form before adding load)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 135s
+═══
+## 2) 🛠 Craft
+Subcode: ⛽🪐🛒⚫ (Craft | Push | Challenge | Teaching)
+├─ 5 🛒 Incline Barbell Bench Press (30°) (coach: check grip width, elbow angle, foot pressure)
+│  Set 1: ⛽ 60% × 5 (practice the pattern, not the load)
+│  Set 2: ⛽ 65% × 5 (same cues, slightly heavier)
+Rest: 180s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🪐🛒⚫ (Bread & Butter | Push | Challenge | Teaching)
+├─ 5 🛒 Dumbbell Floor Press (coached, check form before adding load)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 270s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🪐🛒⚫ (Supplemental | Push | Challenge | Teaching)
+├─ 6 🛒 Smith Machine Incline Press (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 180s
+═══
+## 5) 🧬 Imprint
+Subcode: ⛽🪐🛒⚫ (Imprint | Push | Challenge | Teaching)
+├─ 6 🛒 Diamond Push-Up (high rep, low load, neural memory)
+│  Set 1: ⛽ 55% × 6 (lock the pattern)
+Rest: 180s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🪐🛒⚫ — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Challenge strength is heavy load plus stricter execution. Keep the same standard next session: no rep counts unless the position stays honest.
+Note the coaching cues that changed the movement. Build from those.

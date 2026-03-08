@@ -9,93 +9,50 @@ type: 🍗 Legs
 color: 🟡 Fun
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🍗 Cossack Squat — Legs Fun 🍗
 
-# 🍗 Cossack Squat — Legs Challenge, Fun 🍗
+## Strength Challenge — Legs focus (Fun) · 50-65 min
 
-Strength challenge session | Quads, glutes, hamstrings | 60-74 min
+**CODE:** ⛽🪐🍗🟡
 
-CODE: ⛽🪐🍗🟡
-
-> "Build heavy leg force with pauses, deficits, and strict range control."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🪵 teneo
-
-Sub-block: ♨️🍗🪐🟡 (Warm-Up | Legs | Challenge | Fun)
-
-├─ 8 🍗 Reverse Lunge (Glute Load) (knee tracks over toes)
-└─ 6 🍗 Cossack Squat (sit deep each side)
-
-Rest: 90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🍗🪐🟡 (Primer | Legs | Challenge | Fun)
-
-├─ Set 1: ⛽ 60% × 6 on Cossack Squat (controlled depth)
-├─ Set 2: ⛽ 68% × 5 on Cossack Squat (2-second pause)
-└─ Set 3: ⛽ 72% × 4 on Cossack Squat (same strict line)
-
-Rest: 2-3 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🪵
-
-Sub-block: 🧈🍗🪐🟡 (Bread & Butter | Legs | Challenge | Fun)
-
-├─ 5 🍗 Cossack Squat (hardest clean variation today)
-│  ├─ Set 1: ⛽ 75% × 6 (tempo down, violent up)
-│  ├─ Set 2: ⛽ 78% × 5 (1-second hold in weak point)
-│  ├─ Set 3: ⛽ 82% × 4 (keep shape locked)
-│  └─ Set 4: ⛽ 85% × 4 (no breakdown reps)
-└─ 4 🍗 Bulgarian Split Squat (Front-Foot Elevated) (own the bottom) 
-   ├─ Set 1: ⛽ 75% × 5 (strict path)
-   ├─ Set 2: ⛽ 80% × 4 (pause each rep)
-   └─ Set 3: ⛽ 82% × 4 (same speed target)
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🍗🪐🟡 (SUPPLEMENTAL | Legs | Challenge | Fun)
-
-├─ 5 🍗 Bulgarian Split Squat (Front-Foot Elevated) (own the bottom)
-└─ 6 🍗 Walking Lunge (long stride, upright torso)
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🍗🪐🟡 (Release | Legs | Challenge | Fun)
-
-- 5 minutes easy downshift work and nasal breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🍗🪐🟡 (Junction | Legs | Challenge | Fun)
-
-Log:
-- Load quality: ______________________
-- Hardest sticking point: ____________
-- Recovery readiness (1-5): _________
-
-Next → ⛽🪐🪡🔵 — hinge and pull to reinforce posterior chain
-Next → ⛽🪐➖🔵 — condition recovery while keeping leg drive
-
-═══════════════════════════════════════
-
+> "Find a movement you have not tried at this load and own it."
+═══
+## 1) ♨️ Warm-Up — 🪵 teneo
+Subcode: ⛽🪐🍗🟡 (Warm-Up | Legs | Challenge | Fun)
+├─ 6 🍗 Pogo Hops (Ankle Bounce) (explore, stay within constraints)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽🪐🍗🟡 (Bread & Butter | Legs | Challenge | Fun)
+├─ 5 🍗 Cossack Squat (explore, stay within constraints)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 3) 🌎 Exposure
+Subcode: ⛽🪐🍗🟡 (Exposure | Legs | Challenge | Fun)
+├─ 5 🍗 Walking Lunge (try the unfamiliar version, explore the range)
+│  Set 1: ⛽ 65% × 5 (discovery set)
+Rest: 120s
+═══
+## 4) 🏖 Sandbox
+Subcode: ⛽🪐🍗🟡 (Sandbox | Legs | Challenge | Fun)
+├─ 5 🍗 Spanish Squat (Banded VMO) (explore within constraints, choose your variation)
+│  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
+│  Option B: ⛽ 70% × 5 (try a variation you have not used before)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🪐🍗🟡 (Release | Legs | Challenge | Fun)
+├─ 6 🍗 Walking Lunge (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🪐🍗🟡 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Challenge strength is heavy load plus stricter execution. Keep the same standard next session: no rep counts unless the position stays honest.
+Note what you tried and what surprised you. Build on it next session.

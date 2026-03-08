@@ -15,34 +15,28 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 **CODE:** 🖼🐬🪡🔴
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Active recovery. Move enough to flush, not enough to fatigue."
 ═══
 ## 1) 🎯 Intention
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Active recovery. Move enough to flush, not enough to fatigue."
 ═══
-## 2) 🪫 Release
-Subcode: 🖼🐬🪡🔴 (Release | Pull | Partner | Intense)
-├─ 12 🪡 Good Morning (Barbell) (stress out, cathartic discharge)
-│  Set 1: 🖼 40% × 12 (deload)
-Rest: 60s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: 🖼🐬🪡🔴 (Bread & Butter | Pull | Partner | Intense)
 ├─ 13 🪡 Band Hammer Curl (high effort, push the pace)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
-Rest: 60s
+Rest: 30s
 ═══
-## 4) 🧬 Imprint
-Subcode: 🖼🐬🪡🔴 (Imprint | Pull | Partner | Intense)
-├─ 17 🪡 Preacher Curl Machine (high rep, low load, neural memory)
-│  Set 1: 🖼 35% × 17 (lock the pattern)
-Rest: 60s
+## 3) 🪫 Release
+Subcode: 🖼🐬🪡🔴 (Release | Pull | Partner | Intense)
+├─ 12 🪡 Good Morning (Barbell) (stress out, cathartic discharge)
+│  Set 1: 🖼 40% × 12 (deload)
+Rest: 30s
 ═══
-## 5) 🚂 Junction
+## 4) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🖼🐬🪡🔴 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Notice what released. Carry that awareness into the next 24 hours.
+Active recovery flushes fatigue. Note what felt better after moving.

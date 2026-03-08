@@ -15,7 +15,7 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🪐🪡🟢
 
-> "Flow through the full body as one integrated pattern."
+> "Flow through the body using only what you carry. No equipment needed."
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🌾🪐🪡🟢 (Warm-Up | Pull | Challenge | Bodyweight)
@@ -40,15 +40,15 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🪐🪡🟢 (Supplemental | Pull | Challenge | Bodyweight)
-├─ 11 🪡 Wide-Grip Lat Pulldown (Teres Focus) (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
+├─ 10 🪡 Wide-Grip Lat Pulldown (Teres Focus) (full range, different angle)
+│  Set 1: 🌾 60% × 10 (support volume)
+│  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🪐🪡🟢 (Release | Pull | Challenge | Bodyweight)
-├─ 12 🪡 Good Morning (Barbell) (smooth tempo, downshift)
-│  Set 1: 🌾 50% × 12 (deload)
+├─ 10 🪡 Good Morning (Barbell) (smooth tempo, downshift)
+│  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══
 ## 6) 🚂 Junction
@@ -56,4 +56,4 @@ Rest: 45s
 - Next → 🌾🪐🪡🟢 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The flow is the measure. If movements disconnected, simplify next session.
+Flow at bodyweight reveals coordination. Log the movement quality.

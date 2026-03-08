@@ -15,20 +15,19 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🏛➖🔴
 
-> "Flow through the full body as one integrated pattern."
+> "Drive through the integrated pattern with intent. No wasted motion."
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🌾🏛➖🔴 (Warm-Up | Ultra | Basics | Intense)
 ├─ 10 ➖ Single-Leg Hops Through Ladder (high effort, push the pace)
 │  Set 1: 🌾 50% × 10 (pattern prep)
-Rest: 60s
+Rest: 30s
 ═══
-## 2) 🎼 Composition
-Subcode: 🌾🏛➖🔴 (Composition | Ultra | Basics | Intense)
-├─ 9 ➖ Rowing Machine (Steady State) → Single-Leg Hops Through Ladder (flow without reset)
-│  Set 1: 🌾 70% × 9 (unified pattern)
-│  Set 2: 🌾 70% × 9 (repeat flow)
-Rest: 60s
+## 2) ▶️ Primer
+Subcode: 🌾🏛➖🔴 (Primer | Ultra | Basics | Intense)
+├─ 9 ➖ Rowing Machine (Steady State) (tight setup, crisp intent)
+│  Set 1: 🌾 60% × 9 (activation)
+Rest: 30s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🏛➖🔴 (Bread & Butter | Ultra | Basics | Intense)
@@ -36,24 +35,31 @@ Subcode: 🌾🏛➖🔴 (Bread & Butter | Ultra | Basics | Intense)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
-Rest: 60s
+Rest: 30s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🏛➖🔴 (Supplemental | Ultra | Basics | Intense)
-├─ 11 ➖ Kettlebell Goblet Squat (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
+├─ 10 ➖ Kettlebell Goblet Squat (full range, different angle)
+│  Set 1: 🌾 60% × 10 (support volume)
+│  Set 2: 🌾 60% × 10 (non-redundant)
+Rest: 30s
+═══
+## 5) 🌋 Gutter
+Subcode: 🌾🏛➖🔴 (Gutter | Ultra | Basics | Intense)
+├─ 10 ➖ Rowing Intervals (500m) (all-out, leave nothing in reserve)
+│  Set 1: 🌾 55% × 10 (push to form break)
+│  Set 2: 🌾 55% × AMRAP (final effort)
 Rest: 45s
 ═══
-## 5) 🪫 Release
+## 6) 🪫 Release
 Subcode: 🌾🏛➖🔴 (Release | Ultra | Basics | Intense)
-├─ 12 ➖ Rowing Intervals (500m) (stress out, cathartic discharge)
-│  Set 1: 🌾 50% × 12 (deload)
-Rest: 45s
+├─ 10 ➖ Rowing Intervals (500m) (stress out, cathartic discharge)
+│  Set 1: 🌾 50% × 10 (deload)
+Rest: 30s
 ═══
-## 6) 🚂 Junction
+## 7) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🌾🏛➖🔴 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The flow is the measure. If movements disconnected, simplify next session.
+Integrated effort under fatigue reveals the real pattern. Log the breakdown point.

@@ -15,7 +15,7 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 
 **CODE:** 🦋⌛➖🔵
 
-> "Build tension through volume. Load serves the muscle, not the ego."
+> "Hit every set at the prescribed rep count. Volume is the driver."
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🦋⌛➖🔵 (Warm-Up | Ultra | Time | Structured)
@@ -62,4 +62,4 @@ Rest: 60s
 - Next → 🦋⌛➖🔵 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Track the pump and the tension. Volume drives growth; form keeps it honest.
+Volume drives growth; form keeps it honest. Log sets, reps, and load.

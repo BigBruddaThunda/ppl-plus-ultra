@@ -9,93 +9,57 @@ type: 🛒 Push
 color: 🔴 Intense
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🛒 Barbell Overhead Press (Standing) — Push Intense 🛒
 
-# 🛒 Barbell Overhead Press (Standing) — Push Challenge, Intense 🛒
+## Strength Challenge — Push focus (Intense) · 50-65 min
 
-Strength challenge session | Chest, shoulders, triceps | 58-72 min
+**CODE:** ⛽🪐🛒🔴
 
-CODE: ⛽🪐🛒🔴
-
-> "Drive heavy pressing through stricter positions and longer control points."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🚀 mitto
-
-Sub-block: ♨️🛒🪐🔴 (Warm-Up | Push | Challenge | Intense)
-
-├─ 8 🛒 Ring Push-Up (brace hard at the top)
-└─ 6 🛒 Landmine Press (Single Arm) (lock ribcage down)
-
-Rest: 90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🛒🪐🔴 (Primer | Push | Challenge | Intense)
-
-├─ Set 1: ⛽ 60% × 6 on Barbell Overhead Press (Standing) (controlled depth)
-├─ Set 2: ⛽ 68% × 5 on Barbell Overhead Press (Standing) (2-second pause)
-└─ Set 3: ⛽ 72% × 4 on Barbell Overhead Press (Standing) (same strict line)
-
-Rest: 2-3 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🚀
-
-Sub-block: 🧈🛒🪐🔴 (Bread & Butter | Push | Challenge | Intense)
-
-├─ 5 🛒 Barbell Overhead Press (Standing) (hardest clean variation today)
-│  ├─ Set 1: ⛽ 75% × 6 (tempo down, violent up)
-│  ├─ Set 2: ⛽ 78% × 5 (1-second hold in weak point)
-│  ├─ Set 3: ⛽ 82% × 4 (keep shape locked)
-│  └─ Set 4: ⛽ 85% × 4 (no breakdown reps)
-└─ 4 🛒 Weighted Chest Dip (pause in the bottom) 
-   ├─ Set 1: ⛽ 75% × 5 (strict path)
-   ├─ Set 2: ⛽ 80% × 4 (pause each rep)
-   └─ Set 3: ⛽ 82% × 4 (same speed target)
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🛒🪐🔴 (SUPPLEMENTAL | Push | Challenge | Intense)
-
-├─ 6 🛒 Weighted Chest Dip (pause in the bottom)
-└─ 5 🛒 Dumbbell Overhead Press (Standing) (strict tempo up)
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🛒🪐🔴 (Release | Push | Challenge | Intense)
-
-- 5 minutes easy downshift work and nasal breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🛒🪐🔴 (Junction | Push | Challenge | Intense)
-
-Log:
-- Load quality: ______________________
-- Hardest sticking point: ____________
-- Recovery readiness (1-5): _________
-
-Next → ⛽🪐🪡🔵 — pair this with strict pulling tension
-Next → ⛽🪐🍗🔵 — keep lower-body force in the same challenge lane
-
-═══════════════════════════════════════
-
+> "Push the ceiling. Every set should cost something real."
+═══
+## 1) ♨️ Warm-Up — 🚀 mitto
+Subcode: ⛽🪐🛒🔴 (Warm-Up | Push | Challenge | Intense)
+├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (high effort, push the pace)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🪐🛒🔴 (Primer | Push | Challenge | Intense)
+├─ 5 🛒 Push Jerk (Barbell) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 60s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🪐🛒🔴 (Bread & Butter | Push | Challenge | Intense)
+├─ 5 🛒 Barbell Overhead Press (Standing) (high effort, push the pace)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 90s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🪐🛒🔴 (Supplemental | Push | Challenge | Intense)
+├─ 6 🛒 Bamboo Bar Bench Press (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 60s
+═══
+## 5) 🌋 Gutter
+Subcode: ⛽🪐🛒🔴 (Gutter | Push | Challenge | Intense)
+├─ 6 🛒 Barbell Bench Press (all-out, leave nothing in reserve)
+│  Set 1: ⛽ 65% × 6 (push to form break)
+│  Set 2: ⛽ 65% × AMRAP (final effort)
+Rest: 45s
+═══
+## 6) 🪫 Release
+Subcode: ⛽🪐🛒🔴 (Release | Push | Challenge | Intense)
+├─ 6 🛒 Barbell Bench Press (stress out, cathartic discharge)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 7) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🪐🛒🔴 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Challenge strength is heavy load plus stricter execution. Keep the same standard next session: no rep counts unless the position stays honest.
+Record peak effort. Recovery before next heavy session.

@@ -15,22 +15,15 @@ blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 
 **CODE:** 🐂🪐➕🟠
 
-> "Learn the pattern at sub-maximal load. Own the positions before adding weight."
+> "Rotate through stations at learning pace. Each one is a fresh pattern."
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🐂🪐➕🟠 (Warm-Up | Plus | Challenge | Circuit)
 ├─ 12 ➕ Pull-Up (Overhand Grip) (station rotation, keep moving)
 │  Set 1: 🐂 45% × 12 (pattern prep)
-Rest: 60s
+Rest: 30s
 ═══
-## 2) 🔢 Fundamentals
-Subcode: 🐂🪐➕🟠 (Fundamentals | Plus | Challenge | Circuit)
-├─ 12 ➕ Bent-Over Barbell Row (Overhand) (slow, own each position)
-│  Set 1: 🐂 45% × 12 (grounding)
-│  Set 2: 🐂 50% × 12 (pattern lock)
-Rest: 75s
-═══
-## 3) 🎱 ARAM — Circuit Loop
+## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🐂🪐➕🟠 (ARAM | Plus | Challenge | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
 │  Station 1: ➕ T-Rotation (Push-Up Position) × 11 (station rotation, keep moving)
@@ -38,18 +31,18 @@ Subcode: 🐂🪐➕🟠 (ARAM | Plus | Challenge | Circuit)
 │  Station 3: ➕ Bent-Over Barbell Row (Overhand) × 11 (station rotation, keep moving)
 │  Station 4: ➕ Rotational Medicine Ball Throw × 11 (station rotation, keep moving)
 │  Transition: 15s between stations
-│  Round rest: 75s
+│  Round rest: 37s
 Rest: 90s after final round
 ═══
-## 4) 🧬 Imprint
-Subcode: 🐂🪐➕🟠 (Imprint | Plus | Challenge | Circuit)
-├─ 15 ➕ Chest-Supported Row (Elbow Out) (high rep, low load, neural memory)
-│  Set 1: 🐂 40% × 15 (lock the pattern)
-Rest: 60s
+## 3) 🪫 Release
+Subcode: 🐂🪐➕🟠 (Release | Plus | Challenge | Circuit)
+├─ 12 ➕ Landmine Press (Anti-Rotation) (smooth tempo, downshift)
+│  Set 1: 🐂 45% × 12 (deload)
+Rest: 30s
 ═══
-## 5) 🚂 Junction
+## 4) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🐂🪐➕🟠 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The pattern owns the session. Add load only when positions are automatic.
+Review which station felt least stable. That pattern needs more reps.

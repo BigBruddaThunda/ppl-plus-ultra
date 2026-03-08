@@ -15,19 +15,19 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 
 **CODE:** 🦋🐬➖🔴
 
-> "Build tension through volume. Load serves the muscle, not the ego."
+> "High volume, low rest. Chase the pump and earn the fatigue."
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: 🦋🐬➖🔴 (Warm-Up | Ultra | Partner | Intense)
-├─ 12 ➖ Single-Leg Jump Rope (high effort, push the pace)
+├─ 12 ➖ Kettlebell Goblet Squat (high effort, push the pace)
 │  Set 1: 🦋 50% × 12 (pattern prep)
-Rest: 60s
+Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🐬➖🔴 (Primer | Ultra | Partner | Intense)
-├─ 10 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+├─ 10 ➖ Turkish Get-Up (Full) (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
-Rest: 75s
+Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🐬➖🔴 (Bread & Butter | Ultra | Partner | Intense)
@@ -35,31 +35,31 @@ Subcode: 🦋🐬➖🔴 (Bread & Butter | Ultra | Partner | Intense)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
-Rest: 90s
+Rest: 45s
 ═══
-## 4) 🗿 Sculpt
-Subcode: 🦋🐬➖🔴 (Sculpt | Ultra | Partner | Intense)
-├─ 12 ➖ Turkish Get-Up (Full) (angles, tension, volume)
-│  Set 1: 🦋 65% × 12 (shaping)
-│  Set 2: 🦋 65% × 12 (carving)
-Rest: 60s
+## 4) 🧩 Supplemental
+Subcode: 🦋🐬➖🔴 (Supplemental | Ultra | Partner | Intense)
+├─ 12 ➖ Half Turkish Get-Up (To Elbow) (full range, different angle)
+│  Set 1: 🦋 60% × 12 (support volume)
+│  Set 2: 🦋 60% × 12 (non-redundant)
+Rest: 30s
 ═══
-## 5) 🪞 Vanity
-Subcode: 🦋🐬➖🔴 (Vanity | Ultra | Partner | Intense)
-├─ 14 ➖ Half Turkish Get-Up (To Elbow) (pump work, mirror muscles, honest)
-│  Set 1: 🦋 60% × 14 (accumulation)
-│  Set 2: 🦋 60% × 14 (chase the pump)
-Rest: 60s
+## 5) 🌋 Gutter
+Subcode: 🦋🐬➖🔴 (Gutter | Ultra | Partner | Intense)
+├─ 12 ➖ Turkish Get-Up (To Seated) (all-out, leave nothing in reserve)
+│  Set 1: 🦋 55% × 12 (push to form break)
+│  Set 2: 🦋 55% × AMRAP (final effort)
+Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋🐬➖🔴 (Release | Ultra | Partner | Intense)
-├─ 12 ➖ Half Turkish Get-Up (To Elbow) (stress out, cathartic discharge)
+├─ 12 ➖ Turkish Get-Up (To Seated) (stress out, cathartic discharge)
 │  Set 1: 🦋 50% × 12 (deload)
-Rest: 60s
+Rest: 30s
 ═══
 ## 7) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🦋🐬➖🔴 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Track the pump and the tension. Volume drives growth; form keeps it honest.
+High volume earned today recovers into growth tomorrow. Eat and sleep.

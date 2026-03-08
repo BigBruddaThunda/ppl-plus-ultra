@@ -10,120 +10,50 @@ type: ➕ Plus | Full body power, core
 color: 🔵 Structured | Tier 2–3 | GOLD: No | Prescribed sets/reps/rest. Trackable. Repeatable.
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
+# ➕ Barbell Push Press — Plus Structured ➕
 
-# ➕ Barbell Push Press — Power Focus, Strength Log ➕
+## Strength Basics — Plus focus (Structured) · 50-65 min
 
-Structured full-body power | High Pull, Front Squat, Farmer's Carry | 65–75 min
+**CODE:** ⛽🏛➕🔵
 
-CODE: ⛽🏛➕🔵
-
-> "Log every set. The ledger is how this gets better."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🤌 facio — prepare the CNS for the pull pattern and overhead demand
-
-- 10 Dead Bug (lower back sealed — anterior chain online before loading)
-- 8 Hollow Body Rock (brace before you move)
-- 8 High Pull (Barbell) at empty bar (hip drive to shrug — feel the sequence)
-- 6 Front Squat (Core Bracing) at empty bar (elbows forward, depth below parallel)
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-🤌 facio — activate the power pull pattern before working load
-
-Rest: 2 min between sets.
-
-**➕ High Pull (Barbell)**
-
-- Set 1: 55% × 4 (deliberate — feel the hip-to-shrug sequence, not arm-first)
-- Set 2: 65% × 3 (add speed — hips extend first, elbows follow)
-- Set 3: 72% × 2 (approach feel — this is what the working weight will require)
-
-Rest: 3 min before 🧈.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-🤌 facio — execute. Log every number.
-
-Rest: 3 min between all sets.
-
-**A. ➕ Barbell Push Press**
-
-- Set 1: 77% × 5 (elbows high, brace 360° before descent)
-- Set 2: 80% × 5 (knees track toes — do not let them drift in)
-- Set 3: 80% × 5 (chest leads out of the hole — hips follow the chest)
-- Set 4: 82% × 4 (same pattern, more load — if elbows drop, the weight is too heavy)
-- Set 5: 80% × 5 (back-off set — same load as Set 2, faster)
-
-**B. ➕ Barbell Overhead Press (Standing)**
-
-- Set 1: 77% × 5 (lats and glutes braced before the press starts)
-- Set 2: 80% × 5 (drive bar past the face — don't drift it forward)
-- Set 3: 80% × 4 (full lockout — arms straight, head through, bar directly overhead)
-- Set 4: 77% × 5 (back-off — same load as Set 1)
-
-Rest: 3 min between A and B blocks.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-🤌 facio — carries and anti-rotation to close the session
-
-Rest: 2 min
-
-**➕ Farmer's Carry (Double Kettlebell)**
-
-- Set 1: 40m (heavy KB — near grip failure by the end is the target)
-- Set 2: 40m (same weight — don't reduce)
-- Set 3: 40m
-- Set 4: 40m (log KB weight — this is the carry number for next session)
-
-**➕ Pallof Press (Cable)**
-
-- Set 1: 3/side × 5 (press out, hold 2 sec, return — hips still)
-- Set 2: 3/side × 5
-- Set 3: 3/side × 5
-
-═══════════════════════════════════════
-
-## 5. 🚂 JUNCTION
-
-Cross-Junction map (current zip at center):
-
-```text
-               ↑ 🖼⌛➖⚪
-                    (restore the engine after high CNS loading)
-
-← ⛽🏛🛒🟣   •   ⛽🏛➕🔵   → ⛽🏛🪡🟣
-  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
-
-               ↓ 🖼⌛🍗⚪
-                    (downshift and recover while keeping pattern quality)
-```
-
-```
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-Readiness next session (1–5): _________
-```
-
-Next →
-- 🖼⌛➖⚪ — restore the engine after high CNS loading
-- ⛽🏛🛒🟣 — pair the main strength pattern with its structural complement
-- ⛽🏛🪡🟣 — pair the main strength pattern with its structural complement
-- 🖼⌛🍗⚪ — downshift and recover while keeping pattern quality
-
-═══════════════════════════════════════
-
+> "Same weight, same reps, same rest. Build the base one session at a time."
+═══
+## 1) ♨️ Warm-Up — 🤌 facio
+Subcode: ⛽🏛➕🔵 (Warm-Up | Plus | Basics | Structured)
+├─ 6 ➕ Rotational Medicine Ball Throw (prescribed, track sets and reps)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🏛➕🔵 (Primer | Plus | Basics | Structured)
+├─ 5 ➕ Landmine Press (Anti-Rotation) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 120s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🏛➕🔵 (Bread & Butter | Plus | Basics | Structured)
+├─ 5 ➕ Barbell Push Press (prescribed, track sets and reps)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🏛➕🔵 (Supplemental | Plus | Basics | Structured)
+├─ 6 ➕ Pull-Up (Overhand Grip) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🏛➕🔵 (Release | Plus | Basics | Structured)
+├─ 6 ➕ Bent-Over Barbell Row (Overhand) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🏛➕🔵 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The ledger only works if you write in it. Log every set. The Front Squat and the OHP are two ends of the same structural demand — if one is ahead of the other, the gap shows up here. Track both.
+Keep the same movement standard. Only add load if bar path stays unchanged.

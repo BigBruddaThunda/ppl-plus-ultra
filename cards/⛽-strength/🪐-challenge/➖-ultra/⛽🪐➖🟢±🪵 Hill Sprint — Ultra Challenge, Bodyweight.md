@@ -9,93 +9,50 @@ type: ➖ Ultra
 color: 🟢 Bodyweight
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➖ Hill Sprint — Ultra Bodyweight ➖
 
-# ➖ Hill Sprint — Ultra Challenge, Bodyweight ➖
+## Strength Challenge — Ultra focus (Bodyweight) · 50-65 min
 
-Strength challenge session | Engine, intervals, repeat output | 50-66 min
+**CODE:** ⛽🪐➖🟢
 
-CODE: ⛽🪐➖🟢
-
-> "Hold high output intervals while keeping mechanics strict under fatigue."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🪵 teneo
-
-Sub-block: ♨️➖🪐🟢 (Warm-Up | Ultra | Challenge | Bodyweight)
-
-├─ 5 ➖ Jump Rope Intervals (1 minute on/off) (light, fast contacts)
-└─ 5 ➖ Mountain Climber (tight plank position)
-
-Rest: 90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➖🪐🟢 (Primer | Ultra | Challenge | Bodyweight)
-
-├─ Set 1: ⛽ 60% × 6 on Hill Sprint (controlled depth)
-├─ Set 2: ⛽ 68% × 5 on Hill Sprint (2-second pause)
-└─ Set 3: ⛽ 72% × 4 on Hill Sprint (same strict line)
-
-Rest: 2-3 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🪵
-
-Sub-block: 🧈➖🪐🟢 (Bread & Butter | Ultra | Challenge | Bodyweight)
-
-├─ 5 ➖ Hill Sprint (hardest clean variation today)
-│  ├─ Set 1: ⛽ 75% × 6 (tempo down, violent up)
-│  ├─ Set 2: ⛽ 78% × 5 (1-second hold in weak point)
-│  ├─ Set 3: ⛽ 82% × 4 (keep shape locked)
-│  └─ Set 4: ⛽ 85% × 4 (no breakdown reps)
-└─ 4 ➖ Battle Ropes (Intervals) (keep ribs stacked) 
-   ├─ Set 1: ⛽ 75% × 5 (strict path)
-   ├─ Set 2: ⛽ 80% × 4 (pause each rep)
-   └─ Set 3: ⛽ 82% × 4 (same speed target)
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➖🪐🟢 (SUPPLEMENTAL | Ultra | Challenge | Bodyweight)
-
-├─ 5 ➖ Battle Ropes (Intervals) (keep ribs stacked)
-└─ 5 ➖ Rowing Intervals (repeat split discipline)
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫➖🪐🟢 (Release | Ultra | Challenge | Bodyweight)
-
-- 5 minutes easy downshift work and nasal breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂➖🪐🟢 (Junction | Ultra | Challenge | Bodyweight)
-
-Log:
-- Load quality: ______________________
-- Hardest sticking point: ____________
-- Recovery readiness (1-5): _________
-
-Next → ⛽🪐🪡🔵 — add heavy pulling after engine stress
-Next → ⛽🪐➕🔵 — transfer interval grit into loaded movement
-
-═══════════════════════════════════════
-
+> "Prove the pattern holds without external load. Bodyweight is the test."
+═══
+## 1) ♨️ Warm-Up — 🪵 teneo
+Subcode: ⛽🪐➖🟢 (Warm-Up | Ultra | Challenge | Bodyweight)
+├─ 6 ➖ Kettlebell Goblet Squat (bodyweight, no external load needed)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🪐➖🟢 (Primer | Ultra | Challenge | Bodyweight)
+├─ 5 ➖ Partner Toss (Alternating) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 120s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🪐➖🟢 (Bread & Butter | Ultra | Challenge | Bodyweight)
+├─ 5 ➖ Hill Sprint (bodyweight, no external load needed)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🪐➖🟢 (Supplemental | Ultra | Challenge | Bodyweight)
+├─ 6 ➖ Plant and Cut (Single-Leg Deceleration) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🪐➖🟢 (Release | Ultra | Challenge | Bodyweight)
+├─ 6 ➖ Layup Approach (Single-Leg Power) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🪐➖🟢 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Challenge strength is heavy load plus stricter execution. Keep the same standard next session: no rep counts unless the position stays honest.
+Bodyweight strength is the transfer test. If it held, the gym work is real.

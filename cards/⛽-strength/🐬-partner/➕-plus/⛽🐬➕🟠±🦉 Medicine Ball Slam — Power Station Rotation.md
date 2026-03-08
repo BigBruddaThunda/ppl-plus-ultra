@@ -9,99 +9,40 @@ type: ➕ Plus | Partner-context strength emphasis
 color: 🟠 Circuit | Partner deployment logic
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➕ Medicine Ball Slam — Plus Circuit ➕
 
-# ➕ Medicine Ball Slam — Power Station Rotation ➕
+## Strength Partner — Plus focus (Circuit) · 50-65 min
 
-Partner strength session | Full body power and core | 55-70 min
+**CODE:** ⛽🐬➕🟠
 
-CODE: ⛽🐬➕🟠
-
-> "Trade roles every set: one athlete lifts heavy while one partner protects quality and pace."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🦉 logos — align roles before the first heavy set
-
-Sub-block: ♨️➕🐬🟠 (Warm-Up | Plus | Partner | Circuit)
-
-- ➕ Dynamic prep drill (talk through setup)
-- ➕ Pattern rehearsal rep (partner mirrors tempo)
-- ➕ Ramp rep with light load (switch roles each round)
-
-Rest: 60-90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➕🐬🟠 (Primer | Plus | Partner | Circuit)
-
-- Set 1: ⛽ 60% × 5 (partner cues brace and path)
-- Set 2: ⛽ 68% × 4 (swap lifter and spotter)
-- Set 3: ⛽ 72% × 3 (final neural wake-up)
-
-Rest: 2 min between primer sets.
-
-═══════════════════════════════════════
-
-## 3. 🎱 ARAM
-
-Primary Pattern: **Medicine Ball Slam**
-
-🦉 logos — partner-governed heavy work
-
-Sub-block: 🎱➕🐬🟠 (ARAM | Plus | Partner | Circuit)
-
-- 5 ➕ Medicine Ball Slam (partner setup check)
-- ➕ Secondary partner variation (same muscle focus)
-- ➕ Assisted or resisted finisher (quality over speed)
-
-├─ Set 1: ⛽ 75% × 5 (find synchronized rhythm)
-├─ Set 2: ⛽ 80% × 5 (partner spot and cue)
-├─ Set 3: ⛽ 82% × 4 (keep form under strain)
-│  Set 4: ⛽ 78% × 6 (clean back-off volume)
-
-Rest: 3-4 min between heavy sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➕🐬🟠 (Supplemental | Plus | Partner | Circuit)
-
-- ➕ Accessory A (partner-resisted final reps)
-- ➕ Accessory B (alternating side emphasis)
-- ➕ Accessory C (partner count and quality audit)
-
-Rest: 2-3 min between rounds.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-- 90 sec unloaded mobility reset (partner guides range)
-- 60 sec breathing downshift (one leads cadence)
-- 5 slow breaths each side (switch coaching role)
-
-Rest: move continuously.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Log:
-- Top load and reps: __________
-- Best partner cue today: __________
-- Missed rep cause: __________
-
-Next → ⛽🐬➕🟠 — repeat with cleaner handoffs and tighter cues
-Next → ⛽🐬➕🔵 — hold structure and add 2.5-5% if quality stays high
-Next → ⚖🐬➕⚪ — deload with partner tempo control and asymmetry cleanup
-
-═══════════════════════════════════════
-
+> "Rotate stations. Keep the tissues trading off under heavy demand."
+═══
+## 1) ♨️ Warm-Up — 🦉 logos
+Subcode: ⛽🐬➕🟠 (Warm-Up | Plus | Partner | Circuit)
+├─ 6 ➕ Shot Put Throw (Single-Arm) (station rotation, keep moving)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) 🎱 ARAM — Circuit Loop
+Subcode: ⛽🐬➕🟠 (ARAM | Plus | Partner | Circuit)
+┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
+│  Station 1: ➕ Medicine Ball Slam × 5 (station rotation, keep moving)
+│  Station 2: ➕ Shot Put Throw (Single-Arm) × 5 (station rotation, keep moving)
+│  Station 3: ➕ Half-Kneeling Pallof Press × 5 (station rotation, keep moving)
+│  Station 4: ➕ Single-Arm Dumbbell Row (Anti-Rotation) × 5 (station rotation, keep moving)
+│  Transition: 15s between stations
+│  Round rest: 60s
+Rest: 90s after final round
+═══
+## 3) 🪫 Release
+Subcode: ⛽🐬➕🟠 (Release | Plus | Partner | Circuit)
+├─ 6 ➕ Archer Pull-Up (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 4) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🐬➕🟠 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Shared strength only works when both jobs are precise. Keep the same cue language next session so load can rise without losing mechanics.
+Log station completion times. Consistency matters more than speed.

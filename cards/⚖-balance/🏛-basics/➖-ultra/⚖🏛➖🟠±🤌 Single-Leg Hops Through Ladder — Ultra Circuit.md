@@ -15,22 +15,15 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 
 **CODE:** ⚖🏛➖🟠
 
-> "Find the weak link and spend time on it. Correction is the session."
+> "Rotate through corrective stations. Each one targets a different deficit."
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: ⚖🏛➖🟠 (Warm-Up | Ultra | Basics | Circuit)
 ├─ 12 ➖ Rowing Machine (Steady State) (station rotation, keep moving)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
-Rest: 60s
+Rest: 30s
 ═══
-## 2) 🏗 Reformance
-Subcode: ⚖🏛➖🟠 (Reformance | Ultra | Basics | Circuit)
-├─ 11 ➖ Single-Leg Hops Through Ladder (corrective, address the weak link)
-│  Set 1: ⚖ 50% × 13 (prehab)
-│  Set 2: ⚖ 55% × 11 (stability)
-Rest: 75s
-═══
-## 3) 🎱 ARAM — Circuit Loop
+## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⚖🏛➖🟠 (ARAM | Ultra | Basics | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
 │  Station 1: ➖ Single-Leg Hops Through Ladder × 11 (station rotation, keep moving)
@@ -38,18 +31,18 @@ Subcode: ⚖🏛➖🟠 (ARAM | Ultra | Basics | Circuit)
 │  Station 3: ➖ Single-Leg Hops Through Ladder × 11 (station rotation, keep moving)
 │  Station 4: ➖ Kettlebell Goblet Squat × 11 (station rotation, keep moving)
 │  Transition: 15s between stations
-│  Round rest: 75s
+│  Round rest: 37s
 Rest: 90s after final round
 ═══
-## 5) 🪫 Release
+## 3) 🪫 Release
 Subcode: ⚖🏛➖🟠 (Release | Ultra | Basics | Circuit)
 ├─ 12 ➖ Rowing Intervals (500m) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
-Rest: 75s
+Rest: 37s
 ═══
-## 6) 🚂 Junction
+## 4) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → ⚖🏛➖🟠 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The correction is the progress. Symmetry before load, always.
+Corrective circuit attacked the deficit from every angle. Note what improved.

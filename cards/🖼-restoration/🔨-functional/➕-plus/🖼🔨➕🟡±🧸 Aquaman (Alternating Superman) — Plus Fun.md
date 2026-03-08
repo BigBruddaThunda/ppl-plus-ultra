@@ -15,34 +15,29 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 **CODE:** 🖼🔨➕🟡
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Explore somatic movements you would not normally try."
 ═══
 ## 1) 🎯 Intention
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Explore somatic movements you would not normally try."
 ═══
-## 2) 🪫 Release
-Subcode: 🖼🔨➕🟡 (Release | Plus | Functional | Fun)
-├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (parasympathetic, tension down)
-│  Set 1: 🖼 40% × 12 (deload)
-Rest: 60s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: 🖼🔨➕🟡 (Bread & Butter | Plus | Functional | Fun)
 ├─ 13 ➕ Aquaman (Alternating Superman) (explore, stay within constraints)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
-## 4) 🧬 Imprint
-Subcode: 🖼🔨➕🟡 (Imprint | Plus | Functional | Fun)
-├─ 17 ➕ Good Morning (Barbell) (high rep, low load, neural memory)
-│  Set 1: 🖼 35% × 17 (lock the pattern)
+## 3) 🏖 Sandbox
+Subcode: 🖼🔨➕🟡 (Sandbox | Plus | Functional | Fun)
+├─ 13 ➕ Aquaman (Alternating Superman) (explore within constraints, choose your variation)
+│  Option A: 🖼 45% × 13 (play with grip, stance, or tempo)
+│  Option B: 🖼 45% × 13 (try a variation you have not used before)
 Rest: 60s
 ═══
-## 5) 🚂 Junction
+## 4) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🖼🔨➕🟡 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Notice what released. Carry that awareness into the next 24 hours.
+Somatic exploration teaches the body things the gym never will.

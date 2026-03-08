@@ -9,98 +9,50 @@ type: ➕ Plus | Full body power, core, carries
 color: ⚪ Mindful
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➕ Dead Bug — Plus Mindful ➕
 
-# ➕ Dead Bug — Core Control, Breath-Paced ➕
+## Strength Aesthetic — Plus focus (Mindful) · 50-65 min
 
-Strength aesthetic session | Core, power, integrated output | 52-68 min
+**CODE:** ⛽🌹➕⚪
 
-CODE: ⛽🌹➕⚪
-
-> "Hit each rep with force, then own the position so power and control stay linked."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 👀 specio
-
-Sub-block: ♨️➕🌹⚪ (Warm-Up | Plus | Aesthetic | Mindful)
-
-├─ 6 ➕ Dead Bug (long exhale)
-├─ 6 ➕ Bear Crawl (short controlled steps)
-└─ 6 ➕ Plank with Shoulder Tap (hips stay square)
-
-Rest: 90 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➕🌹⚪ (Primer | Plus | Aesthetic | Mindful)
-
-├─ Set 1: ⛽ 55% × 6 on Dead Bug (own setup)
-├─ Set 2: ⛽ 65% × 5 on Dead Bug (stay crisp)
-└─ Set 3: ⛽ 72% × 4 on Dead Bug (power with control)
-
-Rest: 2 min 30 sec between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 👀 specio
-
-Sub-block: 🧈➕🌹⚪ (Bread & Butter | Plus | Aesthetic | Mindful)
-
-├─ 5 ➕ Dead Bug (slow breath-paced reps)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 5
-│  ├─ Set 3: ⛽ 82% × 4
-│  └─ Set 4: ⛽ 85% × 4
-└─ 4 ➕ Band Dead Bug (brace before move)
-   ├─ Set 1: ⛽ 76% × 4
-   ├─ Set 2: ⛽ 78% × 4
-   └─ Set 3: ⛽ 80% × 4
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➕🌹⚪ (Supplemental | Plus | Aesthetic | Mindful)
-
-├─ 5 ➕ Long-Lever Plank (Anti-Extension) (ribs down, brace hard)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 4
-│  └─ Set 3: ⛽ 80% × 4
-└─ 5 ➕ Slow Turkish Get-Up (10+ Seconds Per Position) (own each step or rep)
-   ├─ Set 1: ⛽ 74% × 5
-   ├─ Set 2: ⛽ 76% × 5
-   └─ Set 3: ⛽ 78% × 4
-
-Rest: 2 min 30 sec between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫➕🌹⚪ (Release | Plus | Aesthetic | Mindful)
-
-- 60 sec easy breathing, full exhale each round.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂➕🌹⚪ (Junction | Plus | Aesthetic | Mindful)
-
-Next → ⛽🌹🍗⚪ — leg emphasis builds carryover force.
-Next → ⛽🌹🪡⚪ — posterior chain pull balances trunk demand.
-Next → ⛽🌹➖⚪ — engine intervals stress the same brace under fatigue.
-
-Log: top load ______ | clean reps ______ | note ______
-
-═══════════════════════════════════════
-
+> "Four seconds down. Feel every degree of the range before you earn the drive."
+═══
+## 1) ♨️ Warm-Up — 👀 specio
+Subcode: ⛽🌹➕⚪ (Warm-Up | Plus | Aesthetic | Mindful)
+├─ 6 ➕ Neck Flexion (Bodyweight) (4s eccentric, breath-paced)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 180s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽🌹➕⚪ (Bread & Butter | Plus | Aesthetic | Mindful)
+├─ 5 ➕ Dead Bug (4s eccentric, breath-paced)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 360s
+═══
+## 3) 🧩 Supplemental
+Subcode: ⛽🌹➕⚪ (Supplemental | Plus | Aesthetic | Mindful)
+├─ 6 ➕ Face Pull (Rope) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 240s
+═══
+## 4) 🪫 Release
+Subcode: ⛽🌹➕⚪ (Release | Plus | Aesthetic | Mindful)
+├─ 6 ➕ Good Morning (Barbell) (parasympathetic, tension down, 4s eccentric)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 240s
+═══
+## 5) 🧬 Imprint
+Subcode: ⛽🌹➕⚪ (Imprint | Plus | Aesthetic | Mindful)
+├─ 6 ➕ Neck Rotation (Bodyweight) (high rep, low load, neural memory)
+│  Set 1: ⛽ 55% × 6 (lock the pattern)
+Rest: 240s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹➕⚪ — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Plus strength quality is force plus position. If output climbs while posture stays clean, keep the progression line.
+Slow strength builds tendons, not just muscles. Trust the tempo.

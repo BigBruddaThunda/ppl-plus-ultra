@@ -15,7 +15,7 @@ blocks: ♨️ 🪜 🧈 🚂
 
 **CODE:** 🏟🔨🪡🟢
 
-> "Test. Record. Leave. No junk volume after the attempt."
+> "Test bodyweight capacity. How many, how fast, how clean."
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🏟🔨🪡🟢 (Warm-Up | Pull | Functional | Bodyweight)
@@ -42,4 +42,4 @@ Rest: Full recovery
 - Next → 🏟🔨🪡🟢 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Record the number. That is the session. Come back when recovered.
+Record the bodyweight test number. That is the session.

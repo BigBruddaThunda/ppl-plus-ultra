@@ -10,98 +10,51 @@ type: ➖ Ultra | Cardiovascular system and conditioning engine
 color: 🔵 Strength Log | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
+# ➖ Rowing Machine (Steady State) — Ultra Structured ➖
 
-# ➖ Rowing Machine (Steady State) — Ultra Strength Log ➖
+## Foundation Basics — Ultra focus (Structured) · 40-50 min
 
-Foundation basics session | Cardiovascular system and conditioning engine | 45-55 min
+**CODE:** 🐂🏛➖🔵
 
-CODE: 🐂🏛➖🔵
-
-> "Own every rep shape before adding load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🤌 facio — arrive and groove baseline patterns.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🔵 (Warm-Up | Ultra | Basics | Tier-safe)
-
-├─ 8 ➖ Bodyweight Squat (find stance and depth)
-├─ 8 ➖ Dead Bug (brace before moving)
-└─ 10 ➖ Jump Rope (light rhythm, easy breath)
-
-═══════════════════════════════════════
-
-## 2. 🔢 FUNDAMENTALS
-
-🤌 facio — pattern rehearsal under control.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🔵 (Fundamentals | Ultra | Basics | Foundational load)
-
-├─ 10 ➖ Goblet Squat (sit between hips, chest tall)
-├─ 10 ➖ Band Row (pull elbows to pockets)
-└─ 10 ➖ Standard Push-Up (lock body line)
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-🤌 facio — main pattern volume at ≤65% effort.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🔵 (Bread & Butter | Ultra | Basics | Primary pattern)
-
-├─ 12 ➖ Rowing Machine (Steady State) (clean setup, own the full range)
-│  Set 1: 🐂 55% × 12 (pattern first)
-│  Set 2: 🐂 60% × 10 (same groove)
-│  Set 3: 🐂 65% × 8 (no grind reps)
-└─ 10 ➖ Glute Bridge (Bodyweight) (lock ribs down)
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🔵 (Supplemental | Ultra | Basics | Support work)
-
-├─ 10 ➖ Jump Rope (steady rhythm, nasal breath)
-└─ 8 ➖ Rowing Machine (Steady State) (quiet return on slide)
-
-═══════════════════════════════════════
-
-## 5. 🧬 IMPRINT
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🔵 (Imprint | Ultra | Basics | Repeatable form)
-
-└─ 10 ➖ Slow Mountain Climber (long exhale each rep)
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🔵 (Junction | Ultra | Basics | Next-step routing)
-
-Next → 🐂🏛➖🔵 — repeat the same movement family with tighter set tracking.
-Next → 🐂🔨➖🔵 — keep foundation loading and add unilateral bias.
-Next → 🖼🏛➖⚪ — downshift into restoration pacing when recovery is low.
-
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-
-═══════════════════════════════════════
-
+> "Follow the prescription. The numbers build the habit."
+═══
+## 1) ♨️ Warm-Up — 🤌 facio
+Subcode: 🐂🏛➖🔵 (Warm-Up | Ultra | Basics | Structured)
+├─ 12 ➖ Rowing Machine (Steady State) (prescribed, track sets and reps)
+│  Set 1: 🐂 45% × 12 (pattern prep)
+Rest: 60s
+═══
+## 2) 🔢 Fundamentals
+Subcode: 🐂🏛➖🔵 (Fundamentals | Ultra | Basics | Structured)
+├─ 12 ➖ Kettlebell Goblet Squat (slow, own each position)
+│  Set 1: 🐂 45% × 12 (grounding)
+│  Set 2: 🐂 50% × 12 (pattern lock)
+Rest: 75s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: 🐂🏛➖🔵 (Bread & Butter | Ultra | Basics | Structured)
+├─ 11 ➖ Rowing Machine (Steady State) (prescribed, track sets and reps)
+│  Set 1: 🐂 60% × 11 (build set)
+│  Set 2: 🐂 65% × 11 (working set)
+│  Set 3: 🐂 65% × 11 (repeat quality)
+Rest: 75s
+═══
+## 4) 🧩 Supplemental
+Subcode: 🐂🏛➖🔵 (Supplemental | Ultra | Basics | Structured)
+├─ 13 ➖ Rowing Intervals (500m) (full range, different angle)
+│  Set 1: 🐂 55% × 13 (support volume)
+│  Set 2: 🐂 55% × 13 (non-redundant)
+Rest: 60s
+═══
+## 5) 🧬 Imprint
+Subcode: 🐂🏛➖🔵 (Imprint | Ultra | Basics | Structured)
+├─ 15 ➖ Rowing Intervals (2000m) (high rep, low load, neural memory)
+│  Set 1: 🐂 40% × 15 (lock the pattern)
+Rest: 60s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → 🐂🏛➖🔵 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Keep this card until positions feel automatic under the current ceiling. Foundation is where durable technique gets locked in.
+Log the numbers. Consistency at sub-maximal load builds the strongest base.

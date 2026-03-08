@@ -15,17 +15,17 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 
 **CODE:** 🦋🐬➖🔵
 
-> "Build tension through volume. Load serves the muscle, not the ego."
+> "Hit every set at the prescribed rep count. Volume is the driver."
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: 🦋🐬➖🔵 (Warm-Up | Ultra | Partner | Structured)
-├─ 12 ➖ Single-Leg Jump Rope (prescribed, track sets and reps)
+├─ 12 ➖ Kettlebell Goblet Squat (prescribed, track sets and reps)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🐬➖🔵 (Primer | Ultra | Partner | Structured)
-├─ 10 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+├─ 10 ➖ Turkish Get-Up (Full) (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 75s
 ═══
@@ -39,21 +39,21 @@ Rest: 90s
 ═══
 ## 4) 🗿 Sculpt
 Subcode: 🦋🐬➖🔵 (Sculpt | Ultra | Partner | Structured)
-├─ 12 ➖ Turkish Get-Up (Full) (angles, tension, volume)
+├─ 12 ➖ Half Turkish Get-Up (To Elbow) (angles, tension, volume)
 │  Set 1: 🦋 65% × 12 (shaping)
 │  Set 2: 🦋 65% × 12 (carving)
 Rest: 60s
 ═══
 ## 5) 🧩 Supplemental
 Subcode: 🦋🐬➖🔵 (Supplemental | Ultra | Partner | Structured)
-├─ 12 ➖ Turkish Get-Up (Full) (full range, different angle)
+├─ 12 ➖ Half Turkish Get-Up (To Elbow) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 60s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋🐬➖🔵 (Release | Ultra | Partner | Structured)
-├─ 12 ➖ Half Turkish Get-Up (To Elbow) (smooth tempo, downshift)
+├─ 12 ➖ Turkish Get-Up (To Seated) (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══
@@ -62,4 +62,4 @@ Rest: 60s
 - Next → 🦋🐬➖🔵 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Track the pump and the tension. Volume drives growth; form keeps it honest.
+Volume drives growth; form keeps it honest. Log sets, reps, and load.

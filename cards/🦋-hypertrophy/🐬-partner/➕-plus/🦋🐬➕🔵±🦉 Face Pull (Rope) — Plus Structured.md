@@ -15,17 +15,17 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 
 **CODE:** 🦋🐬➕🔵
 
-> "Build tension through volume. Load serves the muscle, not the ego."
+> "Hit every set at the prescribed rep count. Volume is the driver."
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: 🦋🐬➕🔵 (Warm-Up | Plus | Partner | Structured)
-├─ 12 ➕ Single-Arm Face Pull (prescribed, track sets and reps)
+├─ 12 ➕ Aquaman (Alternating Superman) (prescribed, track sets and reps)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🐬➕🔵 (Primer | Plus | Partner | Structured)
-├─ 10 ➕ Aquaman (Alternating Superman) (tight setup, crisp intent)
+├─ 10 ➕ Half-Kneeling Cable Chop (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 75s
 ═══
@@ -39,21 +39,21 @@ Rest: 90s
 ═══
 ## 4) 🗿 Sculpt
 Subcode: 🦋🐬➕🔵 (Sculpt | Plus | Partner | Structured)
-├─ 12 ➕ Half-Kneeling Cable Chop (angles, tension, volume)
+├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (angles, tension, volume)
 │  Set 1: 🦋 65% × 12 (shaping)
 │  Set 2: 🦋 65% × 12 (carving)
 Rest: 60s
 ═══
 ## 5) 🧩 Supplemental
 Subcode: 🦋🐬➕🔵 (Supplemental | Plus | Partner | Structured)
-├─ 12 ➕ Half-Kneeling Cable Chop (full range, different angle)
+├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 60s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋🐬➕🔵 (Release | Plus | Partner | Structured)
-├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (smooth tempo, downshift)
+├─ 12 ➕ Good Morning (Barbell) (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══
@@ -62,4 +62,4 @@ Rest: 60s
 - Next → 🦋🐬➕🔵 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Track the pump and the tension. Volume drives growth; form keeps it honest.
+Volume drives growth; form keeps it honest. Log sets, reps, and load.

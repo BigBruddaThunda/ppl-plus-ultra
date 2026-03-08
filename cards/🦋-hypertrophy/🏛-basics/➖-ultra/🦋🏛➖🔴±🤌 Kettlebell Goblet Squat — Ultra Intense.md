@@ -11,53 +11,55 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
 # ➖ Kettlebell Goblet Squat — Ultra Intense ➖
 
-## Hypertrophy Basics — Ultra focus (Intense) · 45-55 min
+## Hypertrophy Basics — Ultra focus (Intense) · 55-70 min
 
 **CODE:** 🦋🏛➖🔴
 
-> "Drive clean reps inside the hypertrophy ceiling and make every set repeatable."
-
+> "High volume, low rest. Chase the pump and earn the fatigue."
 ═══
-## 1) ♨️ Warm-Up — 🤌 facio inline
+## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🦋🏛➖🔴 (Warm-Up | Ultra | Basics | Intense)
-├─ 10 ➖ Rowing Machine (Steady State) (steady tempo, easy ramp)
-│  Set 1: 🦋 60% × 10 (pattern prep)
-Rest: 75s
-
+├─ 12 ➖ Rowing Machine (Steady State) (high effort, push the pace)
+│  Set 1: 🦋 50% × 12 (pattern prep)
+Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🏛➖🔴 (Primer | Ultra | Basics | Intense)
-├─ 8 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
-│  Set 1: 🦋 65% × 8 (activation)
-Rest: 90s
-
+├─ 10 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+│  Set 1: 🦋 60% × 10 (activation)
+Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🏛➖🔴 (Bread & Butter | Ultra | Basics | Intense)
-├─ 5 ➖ Kettlebell Goblet Squat (clean line, own the bottom)
-│  Set 1: 🦋 75% × 5 (build set)
-│  Set 2: 🦋 80% × 5 (working set)
-│  Set 3: 🦋 80% × 5 (repeat quality)
-Rest: 180s
-
+├─ 10 ➖ Kettlebell Goblet Squat (high effort, push the pace)
+│  Set 1: 🦋 65% × 10 (build set)
+│  Set 2: 🦋 70% × 10 (working set)
+│  Set 3: 🦋 70% × 10 (repeat quality)
+Rest: 45s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🦋🏛➖🔴 (Supplemental | Ultra | Basics | Intense)
-├─ 6 ➖ Rowing Intervals (500m) (full range, no drift)
-│  Set 1: 🦋 70% × 6 (support volume)
-Rest: 120s
-
+├─ 12 ➖ Rowing Intervals (500m) (full range, different angle)
+│  Set 1: 🦋 60% × 12 (support volume)
+│  Set 2: 🦋 60% × 12 (non-redundant)
+Rest: 30s
 ═══
-## 5) 🪫 Release
+## 5) 🌋 Gutter
+Subcode: 🦋🏛➖🔴 (Gutter | Ultra | Basics | Intense)
+├─ 12 ➖ Rowing Intervals (1000m) (all-out, leave nothing in reserve)
+│  Set 1: 🦋 55% × 12 (push to form break)
+│  Set 2: 🦋 55% × AMRAP (final effort)
+Rest: 45s
+═══
+## 6) 🪫 Release
 Subcode: 🦋🏛➖🔴 (Release | Ultra | Basics | Intense)
-├─ 12 ➖ Rowing Intervals (1000m) (smooth tempo, downshift)
-│  Set 1: 🦋 55% × 12 (tension out)
-Rest: 90s
-
+├─ 12 ➖ Rowing Intervals (1000m) (stress out, cathartic discharge)
+│  Set 1: 🦋 50% × 12 (deload)
+Rest: 30s
 ═══
-## 6) 🚂 Junction
+## 7) 🚂 Junction
 - Log: load, reps, and form break point.
-- Next → 🦋🏛➖🔴 — repeat and tighten execution under same constraints.
-
+- Next → 🦋🏛➖🔴 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Keep the same movement standard next session and only add load if bar path and position stay unchanged.
+High volume earned today recovers into growth tomorrow. Eat and sleep.

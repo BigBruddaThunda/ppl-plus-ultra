@@ -11,53 +11,38 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
 # 🛒 Feet-Elevated Diamond Push-Up — Push Circuit 🛒
 
-## Hypertrophy Basics — Push focus (Circuit) · 45-55 min
+## Hypertrophy Basics — Push focus (Circuit) · 55-70 min
 
 **CODE:** 🦋🏛🛒🟠
 
-> "Drive clean reps inside the hypertrophy ceiling and make every set repeatable."
-
+> "Circuit the muscle group from every angle. Each station is a new stimulus."
 ═══
-## 1) ♨️ Warm-Up — 🤌 facio inline
+## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🦋🏛🛒🟠 (Warm-Up | Push | Basics | Circuit)
-├─ 10 🛒 Incline Barbell Bench Press (30°) (steady tempo, easy ramp)
-│  Set 1: 🦋 60% × 10 (pattern prep)
-Rest: 75s
-
+├─ 12 🛒 Incline Barbell Bench Press (30°) (station rotation, keep moving)
+│  Set 1: 🦋 50% × 12 (pattern prep)
+Rest: 30s
 ═══
-## 2) ▶️ Primer
-Subcode: 🦋🏛🛒🟠 (Primer | Push | Basics | Circuit)
-├─ 8 🛒 Smith Machine Incline Press (tight setup, crisp intent)
-│  Set 1: 🦋 65% × 8 (activation)
-Rest: 90s
-
+## 2) 🎱 ARAM — Circuit Loop
+Subcode: 🦋🏛🛒🟠 (ARAM | Push | Basics | Circuit)
+┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
+│  Station 1: 🛒 Feet-Elevated Diamond Push-Up × 10 (station rotation, keep moving)
+│  Station 2: 🛒 Incline Barbell Bench Press (30°) × 10 (station rotation, keep moving)
+│  Station 3: 🛒 Smith Machine Incline Press × 10 (station rotation, keep moving)
+│  Station 4: 🛒 Landmine Press (Two-Arm, Chest Focus) × 10 (station rotation, keep moving)
+│  Transition: 15s between stations
+│  Round rest: 37s
+Rest: 90s after final round
 ═══
-## 3) 🧈 Bread & Butter
-Subcode: 🦋🏛🛒🟠 (Bread & Butter | Push | Basics | Circuit)
-├─ 5 🛒 Feet-Elevated Diamond Push-Up (clean line, own the bottom)
-│  Set 1: 🦋 75% × 5 (build set)
-│  Set 2: 🦋 80% × 5 (working set)
-│  Set 3: 🦋 80% × 5 (repeat quality)
-Rest: 180s
-
-═══
-## 4) 🧩 Supplemental
-Subcode: 🦋🏛🛒🟠 (Supplemental | Push | Basics | Circuit)
-├─ 6 🛒 Landmine Press (Two-Arm, Chest Focus) (full range, no drift)
-│  Set 1: 🦋 70% × 6 (support volume)
-Rest: 120s
-
-═══
-## 5) 🪫 Release
+## 3) 🪫 Release
 Subcode: 🦋🏛🛒🟠 (Release | Push | Basics | Circuit)
 ├─ 12 🛒 Diamond Push-Up (Close-Grip) (smooth tempo, downshift)
-│  Set 1: 🦋 55% × 12 (tension out)
-Rest: 90s
-
+│  Set 1: 🦋 50% × 12 (deload)
+Rest: 30s
 ═══
-## 6) 🚂 Junction
+## 4) 🚂 Junction
 - Log: load, reps, and form break point.
-- Next → 🦋🏛🛒🟠 — repeat and tighten execution under same constraints.
-
+- Next → 🦋🏛🛒🟠 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Keep the same movement standard next session and only add load if bar path and position stay unchanged.
+Circuit hypertrophy works through cumulative fatigue. Note which station failed first.

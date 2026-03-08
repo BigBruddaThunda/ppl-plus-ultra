@@ -9,98 +9,50 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟡 Fun
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🛒 Chest Press Machine — Push Fun 🛒
 
-# 🛒 Chest Press Machine — Chest Variety Day 🛒
+## Strength Aesthetic — Push focus (Fun) · 50-65 min
 
-Strength aesthetic session | Chest, front delts, triceps | 58-70 min
+**CODE:** ⛽🌹🛒🟡
 
-CODE: ⛽🌹🛒🟡
-
-> "Keep the line honest and let the target muscle own every heavy rep."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 👀 specio
-
-Sub-block: ♨️🛒🌹🟡 (Warm-Up | Push | Aesthetic | Fun)
-
-├─ 8 🛒 Scapular Push-Up (push floor away)
-├─ 8 🛒 Incline Push-Up (long chest range)
-└─ 6 🛒 Band-Resisted Push-Up (brace and press)
-
-Rest: 60 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🛒🌹🟡 (Primer | Push | Aesthetic | Fun)
-
-├─ Set 1: ⛽ 55% × 6 on Chest Press Machine (control setup)
-├─ Set 2: ⛽ 65% × 5 on Chest Press Machine (smooth descent)
-└─ Set 3: ⛽ 72% × 4 on Chest Press Machine (clean drive)
-
-Rest: 2 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 👀 specio
-
-Sub-block: 🧈🛒🌹🟡 (Bread & Butter | Push | Aesthetic | Fun)
-
-├─ 5 🛒 Chest Press Machine (full stretch, full finish)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 5
-│  ├─ Set 3: ⛽ 82% × 4
-│  └─ Set 4: ⛽ 85% × 4
-└─ 4 🛒 Decline Dumbbell Bench Press (keep shoulder quiet)
-   ├─ Set 1: ⛽ 76% × 4
-   ├─ Set 2: ⛽ 78% × 4
-   └─ Set 3: ⛽ 80% × 4
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🛒🌹🟡 (Supplemental | Push | Aesthetic | Fun)
-
-├─ 5 🛒 Pec Deck Machine (full ROM, smooth tempo)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 4
-│  └─ Set 3: ⛽ 80% × 4
-└─ 5 🛒 Archer Push-Up (own the bottom)
-   ├─ Set 1: ⛽ 74% × 5
-   ├─ Set 2: ⛽ 76% × 5
-   └─ Set 3: ⛽ 78% × 4
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🛒🌹🟡 (Release | Push | Aesthetic | Fun)
-
-- 60 sec breathing in tall kneel, long exhale each round.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🛒🌹🟡 (Junction | Push | Aesthetic | Fun)
-
-Next → ⛽🌹🪡🟡 — pair heavy pull to restore shoulder balance.
-Next → ⛽🌹🍗🟡 — lower-body output keeps total strength climbing.
-Next → ⛽🌹➕🟡 — trunk and power work reinforce pressing transfer.
-
-Log: top load ______ | clean reps ______ | note ______
-
-═══════════════════════════════════════
-
+> "Find a movement you have not tried at this load and own it."
+═══
+## 1) ♨️ Warm-Up — 👀 specio
+Subcode: ⛽🌹🛒🟡 (Warm-Up | Push | Aesthetic | Fun)
+├─ 6 🛒 Dumbbell Chest Fly (explore, stay within constraints)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽🌹🛒🟡 (Bread & Butter | Push | Aesthetic | Fun)
+├─ 5 🛒 Chest Press Machine (explore, stay within constraints)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 3) 🌎 Exposure
+Subcode: ⛽🌹🛒🟡 (Exposure | Push | Aesthetic | Fun)
+├─ 5 🛒 Medicine Ball Chest Pass (try the unfamiliar version, explore the range)
+│  Set 1: ⛽ 65% × 5 (discovery set)
+Rest: 120s
+═══
+## 4) 🏖 Sandbox
+Subcode: ⛽🌹🛒🟡 (Sandbox | Push | Aesthetic | Fun)
+├─ 5 🛒 Preacher Curl Machine (explore within constraints, choose your variation)
+│  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
+│  Option B: ⛽ 70% × 5 (try a variation you have not used before)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🌹🛒🟡 (Release | Push | Aesthetic | Fun)
+├─ 6 🛒 Medicine Ball Chest Pass (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹🛒🟡 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The quality marker is repeatability: same path, same control, same output at heavy loads. Keep the rep standard fixed before adding load.
+Note what you tried and what surprised you. Build on it next session.

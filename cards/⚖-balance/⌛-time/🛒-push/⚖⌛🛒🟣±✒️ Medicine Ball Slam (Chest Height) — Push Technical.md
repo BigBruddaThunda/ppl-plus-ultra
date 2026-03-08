@@ -15,20 +15,19 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 
 **CODE:** ⚖⌛🛒🟣
 
-> "Find the weak link and spend time on it. Correction is the session."
+> "Precise correction. Small movements, full attention, zero momentum."
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⚖⌛🛒🟣 (Warm-Up | Push | Time | Technical)
 ├─ 12 🛒 Medicine Ball Chest Pass (precision, quality over volume)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
-Rest: 60s
+Rest: 90s
 ═══
-## 2) 🏗 Reformance
-Subcode: ⚖⌛🛒🟣 (Reformance | Push | Time | Technical)
-├─ 11 🛒 Sandbag Shouldering (corrective, address the weak link)
-│  Set 1: ⚖ 50% × 13 (prehab)
-│  Set 2: ⚖ 55% × 11 (stability)
-Rest: 75s
+## 2) ▶️ Primer
+Subcode: ⚖⌛🛒🟣 (Primer | Push | Time | Technical)
+├─ 11 🛒 Sandbag Shouldering (tight setup, crisp intent)
+│  Set 1: ⚖ 60% × 11 (activation)
+Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖⌛🛒🟣 (Bread & Butter | Push | Time | Technical)
@@ -36,24 +35,24 @@ Subcode: ⚖⌛🛒🟣 (Bread & Butter | Push | Time | Technical)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
-Rest: 90s
+Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖⌛🛒🟣 (Supplemental | Push | Time | Technical)
-├─ 13 🛒 Low-to-High Cable Fly (full range, different angle)
-│  Set 1: ⚖ 60% × 13 (support volume)
-│  Set 2: ⚖ 60% × 13 (non-redundant)
-Rest: 75s
+├─ 12 🛒 Low-to-High Cable Fly (full range, different angle)
+│  Set 1: ⚖ 60% × 12 (support volume)
+│  Set 2: ⚖ 60% × 12 (non-redundant)
+Rest: 112s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖⌛🛒🟣 (Release | Push | Time | Technical)
 ├─ 12 🛒 Band Pull-Apart (Chest Opener) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
-Rest: 75s
+Rest: 112s
 ═══
 ## 6) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → ⚖⌛🛒🟣 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The correction is the progress. Symmetry before load, always.
+Precision in correction builds the foundation. Note what changed.

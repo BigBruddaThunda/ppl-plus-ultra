@@ -1,7 +1,7 @@
 ---
 zip: ⛽🏛🪡🟠
 operator: 🤌 facio
-status: GENERATED-V2
+status: GENERATED
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -9,106 +9,40 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟠 Circuit | Tier 0–3 | GOLD: No | Station rotation. No barbells. Loop logic required.
 blocks: ♨️ → 🎱 → 🪫 → 🚂 → 🧮
 ---
+# 🪡 Pull Circuit — Pull Circuit 🪡
 
-# 🪡 Pull Circuit — Full Back, Full Loop 🪡
+## Strength Basics — Pull focus (Circuit) · 50-65 min
 
-Station-based pull circuit, no barbells | Lats, traps, rear delts, biceps, erectors | 50–60 min
+**CODE:** ⛽🏛🪡🟠
 
-CODE: ⛽🏛🪡🟠
-
-> "Five stations, five tissue zones — nothing repeats until the loop is complete."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🤌 facio — prepare the pulling chain before the circuit begins
-
-- 8 Dead Hang (30 sec passive)
-- 10 Scapular Pull-Up (retract and depress cleanly)
-- 12 Band Pull-Apart
-- 8/side Prone Y-Raise
-- 8 Cat-Cow
-
-Preview each station once at 50% effort before the loop starts.
-
-═══════════════════════════════════════
-
-## 2. 🎱 ARAM
-
-🤌 facio — tissue rotation loop, 3 rounds
-
-Loop logic: each station changes which tissue is working. No two adjacent stations train the same muscle group.
-
-Rest between stations: 15–20 sec (rotate and set up)
-Rest between rounds: 3 min
-
-```
-Station A — Lats              Station B — Upper Traps
-Pull-Up (Overhand)            Dumbbell Shrug
-× 5 reps                      × 6 reps
-(full hang, chin over bar)    (straight up, 1 sec hold)
-
-Station C — Rear Delts        Station D — Erectors
-Band Face Pull                Kettlebell Deadlift
-× 10 reps                     × 5 reps
-(thumbs back, elbows high)    (hinge not squat, full lockout)
-
-Station E — Biceps
-Dumbbell Curl (Standard)
-× 6 reps
-(full extension down)
-
-→ return to Station A for next round
-```
-
-**Load guidance:** Dumbbells and kettlebells at the heavy end of what you can control for 5–6 reps. Pull-Up: add a vest if all reps feel easy across 3 rounds.
-
-Run 3 complete rounds.
-
-═══════════════════════════════════════
-
-## 3. 🪫 RELEASE
-
-Circuit work accumulates tension across the whole shoulder girdle.
-
-- 90 sec Hanging Lat Stretch
-- 60 sec/side Doorway Lat Stretch (arm extended, rotate torso away)
-- 60 sec Child's Pose (arms extended)
-- 8 slow Cat-Cow
-
-═══════════════════════════════════════
-
-## 4. 🚂 JUNCTION
-
-Cross-Junction map (current zip at center):
-
-```text
-               ↑ ⛽⌛➕⚪
-                    (convert force into full-body power with timed structure)
-
-← ⛽🏛🛒⚪   •   ⛽🏛🪡🟠   → ⛽🏛🍗⚪
-  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
-
-               ↓ 🖼⌛➖⚪
-                    (downshift and recover while keeping pattern quality)
-```
-
-```
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-Readiness next session (1–5): _________
-```
-
-Next →
-- ⛽⌛➕⚪ — convert force into full-body power with timed structure
-- ⛽🏛🛒⚪ — pair the main strength pattern with its structural complement
-- ⛽🏛🍗⚪ — pair the main strength pattern with its structural complement
-- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
-
-═══════════════════════════════════════
-
+> "Rotate stations. Keep the tissues trading off under heavy demand."
+═══
+## 1) ♨️ Warm-Up — 🤌 facio
+Subcode: ⛽🏛🪡🟠 (Warm-Up | Pull | Basics | Circuit)
+├─ 6 🪡 Pull-Up (Overhand Grip) (station rotation, keep moving)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) 🎱 ARAM — Circuit Loop
+Subcode: ⛽🏛🪡🟠 (ARAM | Pull | Basics | Circuit)
+┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
+│  Station 1: 🪡 Pull Circuit × 5 (station rotation, keep moving)
+│  Station 2: 🪡 Pull-Up (Overhand Grip) × 5 (station rotation, keep moving)
+│  Station 3: 🪡 Bent-Over Barbell Row (Overhand) × 5 (station rotation, keep moving)
+│  Station 4: 🪡 Chest-Supported Row (Elbow Out) × 5 (station rotation, keep moving)
+│  Transition: 15s between stations
+│  Round rest: 60s
+Rest: 90s after final round
+═══
+## 3) 🪫 Release
+Subcode: ⛽🏛🪡🟠 (Release | Pull | Basics | Circuit)
+├─ 6 🪡 Deadlift (Conventional) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 4) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🏛🪡🟠 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Five tissue zones, three rounds, no barbells. The back works fully in a different context than a barbell session. That difference has value.
+Log station completion times. Consistency matters more than speed.

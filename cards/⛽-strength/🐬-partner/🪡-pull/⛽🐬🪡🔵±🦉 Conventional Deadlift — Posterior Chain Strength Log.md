@@ -9,99 +9,50 @@ type: 🪡 Pull | Partner-context strength emphasis
 color: 🔵 Structured | Partner deployment logic
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🪡 Conventional Deadlift — Pull Structured 🪡
 
-# 🪡 Conventional Deadlift — Posterior Chain Strength Log 🪡
+## Strength Partner — Pull focus (Structured) · 50-65 min
 
-Partner strength session | Back, rear delts, biceps | 55-70 min
+**CODE:** ⛽🐬🪡🔵
 
-CODE: ⛽🐬🪡🔵
-
-> "Trade roles every set: one athlete lifts heavy while one partner protects quality and pace."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🦉 logos — align roles before the first heavy set
-
-Sub-block: ♨️🪡🐬🔵 (Warm-Up | Pull | Partner | Structured)
-
-- 🪡 Dynamic prep drill (talk through setup)
-- 🪡 Pattern rehearsal rep (partner mirrors tempo)
-- 🪡 Ramp rep with light load (switch roles each round)
-
-Rest: 60-90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🪡🐬🔵 (Primer | Pull | Partner | Structured)
-
-- Set 1: ⛽ 60% × 5 (partner cues brace and path)
-- Set 2: ⛽ 68% × 4 (swap lifter and spotter)
-- Set 3: ⛽ 72% × 3 (final neural wake-up)
-
-Rest: 2 min between primer sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-Primary Pattern: **Conventional Deadlift**
-
-🦉 logos — partner-governed heavy work
-
-Sub-block: 🧈🪡🐬🔵 (Bread & Butter | Pull | Partner | Structured)
-
-- 5 🪡 Conventional Deadlift (partner setup check)
-- 🪡 Secondary partner variation (same muscle focus)
-- 🪡 Assisted or resisted finisher (quality over speed)
-
-├─ Set 1: ⛽ 75% × 5 (find synchronized rhythm)
-├─ Set 2: ⛽ 80% × 5 (partner spot and cue)
-├─ Set 3: ⛽ 82% × 4 (keep form under strain)
-│  Set 4: ⛽ 78% × 6 (clean back-off volume)
-
-Rest: 3-4 min between heavy sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🪡🐬🔵 (Supplemental | Pull | Partner | Structured)
-
-- 🪡 Accessory A (partner-resisted final reps)
-- 🪡 Accessory B (alternating side emphasis)
-- 🪡 Accessory C (partner count and quality audit)
-
-Rest: 2-3 min between rounds.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-- 90 sec unloaded mobility reset (partner guides range)
-- 60 sec breathing downshift (one leads cadence)
-- 5 slow breaths each side (switch coaching role)
-
-Rest: move continuously.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Log:
-- Top load and reps: __________
-- Best partner cue today: __________
-- Missed rep cause: __________
-
-Next → ⛽🐬🪡🔵 — repeat with cleaner handoffs and tighter cues
-Next → ⛽🐬🪡🔵 — hold structure and add 2.5-5% if quality stays high
-Next → ⚖🐬🪡⚪ — deload with partner tempo control and asymmetry cleanup
-
-═══════════════════════════════════════
-
+> "Same weight, same reps, same rest. Build the base one session at a time."
+═══
+## 1) ♨️ Warm-Up — 🦉 logos
+Subcode: ⛽🐬🪡🔵 (Warm-Up | Pull | Partner | Structured)
+├─ 6 🪡 Wide-Grip Pull-Up (Teres Focus) (prescribed, track sets and reps)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🐬🪡🔵 (Primer | Pull | Partner | Structured)
+├─ 5 🪡 Chest-Supported Row (Elbow Out) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 120s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🐬🪡🔵 (Bread & Butter | Pull | Partner | Structured)
+├─ 5 🪡 Conventional Deadlift (prescribed, track sets and reps)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🐬🪡🔵 (Supplemental | Pull | Partner | Structured)
+├─ 6 🪡 Cable Row (High Elbow) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🐬🪡🔵 (Release | Pull | Partner | Structured)
+├─ 6 🪡 Deadlift (Conventional) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🐬🪡🔵 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Shared strength only works when both jobs are precise. Keep the same cue language next session so load can rise without losing mechanics.
+Keep the same movement standard. Only add load if bar path stays unchanged.

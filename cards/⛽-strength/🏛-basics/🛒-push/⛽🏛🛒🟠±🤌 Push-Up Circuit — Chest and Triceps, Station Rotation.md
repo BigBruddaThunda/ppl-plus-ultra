@@ -10,105 +10,40 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟠 Circuit | Tier 0–3 | GOLD: No | Station rotation. No barbells. Loop logic required.
 blocks: ♨️ → 🎱 → 🪫 → 🚂 → 🧮
 ---
+# 🛒 Push-Up Circuit — Push Circuit 🛒
 
-# 🛒 Push-Up Circuit — Chest and Triceps, Station Rotation 🛒
+## Strength Basics — Push focus (Circuit) · 50-65 min
 
-Station-based push strength | Chest, front delts, triceps | 50–60 min
+**CODE:** ⛽🏛🛒🟠
 
-CODE: ⛽🏛🛒🟠
-
-> "Each station recovers what the last one worked. The loop is the logic."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🤌 facio — prepare all push tissue
-
-- 10 Shoulder Dislocations
-- 15 Band Pull-Apart
-- 15 🛒 Standard Push-Up
-- Preview each station once at 50% effort before the loop starts
-
-═══════════════════════════════════════
-
-## 2. 🎱 ARAM
-
-🤌 facio — tissue rotation loop, 3 rounds
-
-Loop logic: each station changes what tissue is working. No two adjacent stations hit the same primary muscle.
-
-Rest between stations: 45–60 sec (rotate and set up, don't fully recover)
-Rest between rounds: 3 min (⛽ Order demands full round recovery)
-
-```
-Station A — Chest          Station B — Triceps
-Deficit Push-Up         Diamond Push-Up
-× 5 reps                   × 6 reps
-(lean forward, chest)      (elbows back)
-
-Station C — Delts          Station D — Chest (angle)
-Dumbbell Lateral Raise     Dumbbell Bench Press
-× 10 reps                  × 5 reps
-(light, recovery)          (arch, full ROM)
-
-Station E — Triceps        Station F — Delts (vertical)
-Close-Grip DB Press        Dumbbell OHP (Standing)
-× 5 reps                   × 5 reps
-(inside grip)              (strict, full lock)
-
-→ return to Station A for next round
-```
-
-**Load guideline for strength stations (A, D, E, F):**
-Dumbbells at ⛽ working load — challenging 5s, not easy 5s.
-
-**Station C** is the recovery station — light dumbbells, actively recovering the chest between station clusters.
-
-Run 3 complete rounds.
-
-═══════════════════════════════════════
-
-## 3. 🪫 RELEASE
-
-Circuit work accumulates tension across the whole shoulder girdle.
-
-- Doorway Chest Stretch: 60 sec each side
-- Child's Pose (arms extended): 60 sec
-- Cross-Body Shoulder Stretch: 45 sec each side
-
-═══════════════════════════════════════
-
-## 4. 🚂 JUNCTION
-
-Cross-Junction map (current zip at center):
-
-```text
-               ↑ ⛽⌛➕⚪
-                    (convert force into full-body power with timed structure)
-
-← ⛽🏛🪡⚪   •   ⛽🏛🛒🟠   → ⛽🏛🍗⚪
-  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
-
-               ↓ 🖼⌛➖⚪
-                    (downshift and recover while keeping pattern quality)
-```
-
-```
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-Readiness next session (1–5): _________
-```
-
-Next →
-- ⛽⌛➕⚪ — convert force into full-body power with timed structure
-- ⛽🏛🪡⚪ — pair the main strength pattern with its structural complement
-- ⛽🏛🍗⚪ — pair the main strength pattern with its structural complement
-- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
-
-═══════════════════════════════════════
-
+> "Rotate stations. Keep the tissues trading off under heavy demand."
+═══
+## 1) ♨️ Warm-Up — 🤌 facio
+Subcode: ⛽🏛🛒🟠 (Warm-Up | Push | Basics | Circuit)
+├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (station rotation, keep moving)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) 🎱 ARAM — Circuit Loop
+Subcode: ⛽🏛🛒🟠 (ARAM | Push | Basics | Circuit)
+┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
+│  Station 1: 🛒 Push-Up Circuit × 5 (station rotation, keep moving)
+│  Station 2: 🛒 Plyometric Push-Up (Hands Leave Ground) × 5 (station rotation, keep moving)
+│  Station 3: 🛒 Barbell Bench Press × 5 (station rotation, keep moving)
+│  Station 4: 🛒 Diamond Push-Up (Close-Grip) × 5 (station rotation, keep moving)
+│  Transition: 15s between stations
+│  Round rest: 60s
+Rest: 90s after final round
+═══
+## 3) 🪫 Release
+Subcode: ⛽🏛🛒🟠 (Release | Push | Basics | Circuit)
+├─ 6 🛒 Smith Machine Incline Press (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 4) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🏛🛒🟠 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The loop only works if each station actually changes what's working. If two adjacent stations felt like the same muscle, the logic broke. Note it and adjust before the next run.
+Log station completion times. Consistency matters more than speed.

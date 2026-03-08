@@ -9,98 +9,50 @@ type: 🛒 Push | Chest, front delts, triceps
 color: ⚪ Mindful
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🛒 Slow Eccentric Bench Press — Push Mindful 🛒
 
-# 🛒 Slow Eccentric Bench Press — Chest Control, Breath-Paced 🛒
+## Strength Aesthetic — Push focus (Mindful) · 50-65 min
 
-Strength aesthetic session | Chest, front delts, triceps | 58-70 min
+**CODE:** ⛽🌹🛒⚪
 
-CODE: ⛽🌹🛒⚪
-
-> "Keep the line honest and let the target muscle own every heavy rep."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 👀 specio
-
-Sub-block: ♨️🛒🌹⚪ (Warm-Up | Push | Aesthetic | Mindful)
-
-├─ 8 🛒 Scapular Push-Up (push floor away)
-├─ 8 🛒 Incline Push-Up (long chest range)
-└─ 6 🛒 Band-Resisted Push-Up (brace and press)
-
-Rest: 90 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🛒🌹⚪ (Primer | Push | Aesthetic | Mindful)
-
-├─ Set 1: ⛽ 55% × 6 on Slow Eccentric Push-Up (5-second lower) (control setup)
-├─ Set 2: ⛽ 65% × 5 on Slow Eccentric Push-Up (5-second lower) (smooth descent)
-└─ Set 3: ⛽ 72% × 4 on Slow Eccentric Push-Up (5-second lower) (clean drive)
-
-Rest: 2 min 30 sec between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 👀 specio
-
-Sub-block: 🧈🛒🌹⚪ (Bread & Butter | Push | Aesthetic | Mindful)
-
-├─ 5 🛒 Slow Eccentric Push-Up (5-second lower) (5-second lower, calm exhale)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 5
-│  ├─ Set 3: ⛽ 82% × 4
-│  └─ Set 4: ⛽ 85% × 4
-└─ 4 🛒 Slow Eccentric Dumbbell Fly (keep shoulder quiet)
-   ├─ Set 1: ⛽ 76% × 4
-   ├─ Set 2: ⛽ 78% × 4
-   └─ Set 3: ⛽ 80% × 4
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🛒🌹⚪ (Supplemental | Push | Aesthetic | Mindful)
-
-├─ 5 🛒 Paused Push-Up (2-second floor pause) (full ROM, smooth tempo)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 4
-│  └─ Set 3: ⛽ 80% × 4
-└─ 5 🛒 Push-Up Isometric Hold (Bottom Position) (own the bottom)
-   ├─ Set 1: ⛽ 74% × 5
-   ├─ Set 2: ⛽ 76% × 5
-   └─ Set 3: ⛽ 78% × 4
-
-Rest: 2 min 30 sec between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🛒🌹⚪ (Release | Push | Aesthetic | Mindful)
-
-- 60 sec breathing in tall kneel, long exhale each round.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🛒🌹⚪ (Junction | Push | Aesthetic | Mindful)
-
-Next → ⛽🌹🪡⚪ — pair heavy pull to restore shoulder balance.
-Next → ⛽🌹🍗⚪ — lower-body output keeps total strength climbing.
-Next → ⛽🌹➕⚪ — trunk and power work reinforce pressing transfer.
-
-Log: top load ______ | clean reps ______ | note ______
-
-═══════════════════════════════════════
-
+> "Four seconds down. Feel every degree of the range before you earn the drive."
+═══
+## 1) ♨️ Warm-Up — 👀 specio
+Subcode: ⛽🌹🛒⚪ (Warm-Up | Push | Aesthetic | Mindful)
+├─ 6 🛒 Dumbbell Chest Fly (4s eccentric, breath-paced)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 180s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽🌹🛒⚪ (Bread & Butter | Push | Aesthetic | Mindful)
+├─ 5 🛒 Slow Eccentric Bench Press (4s eccentric, breath-paced)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 360s
+═══
+## 3) 🧩 Supplemental
+Subcode: ⛽🌹🛒⚪ (Supplemental | Push | Aesthetic | Mindful)
+├─ 6 🛒 Band Pull-Apart (Chest Opener) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 240s
+═══
+## 4) 🪫 Release
+Subcode: ⛽🌹🛒⚪ (Release | Push | Aesthetic | Mindful)
+├─ 6 🛒 Preacher Curl Machine (parasympathetic, tension down, 4s eccentric)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 240s
+═══
+## 5) 🧬 Imprint
+Subcode: ⛽🌹🛒⚪ (Imprint | Push | Aesthetic | Mindful)
+├─ 6 🛒 Medicine Ball Chest Pass (high rep, low load, neural memory)
+│  Set 1: ⛽ 55% × 6 (lock the pattern)
+Rest: 240s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹🛒⚪ — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The quality marker is repeatability: same path, same control, same output at heavy loads. Keep the rep standard fixed before adding load.
+Slow strength builds tendons, not just muscles. Trust the tempo.

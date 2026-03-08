@@ -15,7 +15,7 @@ blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 
 **CODE:** 🐂🪐🍗🟢
 
-> "Learn the pattern at sub-maximal load. Own the positions before adding weight."
+> "Learn the pattern with your own body first. External load comes later."
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🐂🪐🍗🟢 (Warm-Up | Legs | Challenge | Bodyweight)
@@ -56,4 +56,4 @@ Rest: 60s
 - Next → 🐂🪐🍗🟢 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The pattern owns the session. Add load only when positions are automatic.
+If the pattern held at bodyweight, it will hold under load. Graduate when ready.

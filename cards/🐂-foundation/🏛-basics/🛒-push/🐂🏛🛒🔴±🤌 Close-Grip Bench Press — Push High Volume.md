@@ -10,98 +10,51 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🔴 High Volume | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
+# 🛒 Close-Grip Bench Press — Push Intense 🛒
 
-# 🛒 Close-Grip Bench Press — Push High Volume 🛒
+## Foundation Basics — Push focus (Intense) · 40-50 min
 
-Foundation basics session | Chest, front delts, triceps | 45-55 min
+**CODE:** 🐂🏛🛒🔴
 
-CODE: 🐂🏛🛒🔴
-
-> "Own every rep shape before adding load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🤌 facio — arrive and groove baseline patterns.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🛒🔴 (Warm-Up | Push | Basics | Tier-safe)
-
-├─ 8 🛒 Bodyweight Squat (find stance and depth)
-├─ 8 🛒 Dead Bug (brace before moving)
-└─ 10 🛒 Jump Rope (light rhythm, easy breath)
-
-═══════════════════════════════════════
-
-## 2. 🔢 FUNDAMENTALS
-
-🤌 facio — pattern rehearsal under control.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🛒🔴 (Fundamentals | Push | Basics | Foundational load)
-
-├─ 10 🛒 Goblet Squat (sit between hips, chest tall)
-├─ 10 🛒 Band Row (pull elbows to pockets)
-└─ 10 🛒 Standard Push-Up (lock body line)
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-🤌 facio — main pattern volume at ≤65% effort.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🛒🔴 (Bread & Butter | Push | Basics | Primary pattern)
-
-├─ 12 🛒 Close-Grip Bench Press (clean setup, own the full range)
-│  Set 1: 🐂 55% × 12 (pattern first)
-│  Set 2: 🐂 60% × 10 (same groove)
-│  Set 3: 🐂 65% × 8 (no grind reps)
-└─ 10 🛒 Glute Bridge (Bodyweight) (lock ribs down)
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🛒🔴 (Supplemental | Push | Basics | Support work)
-
-├─ 10 🛒 Dumbbell Overhead Press (Seated) (stack ribs, stay tall)
-└─ 12 🛒 Diamond Push-Up (Close-Grip) (elbows stay narrow)
-
-═══════════════════════════════════════
-
-## 5. 🧬 IMPRINT
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🛒🔴 (Imprint | Push | Basics | Repeatable form)
-
-└─ 12 🛒 Scapular Push-Up (Serratus Focus) (reach at the top)
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🛒🔴 (Junction | Push | Basics | Next-step routing)
-
-Next → 🐂🏛🛒🔵 — repeat the same movement family with tighter set tracking.
-Next → 🐂🔨🛒🔴 — keep foundation loading and add unilateral bias.
-Next → 🖼🏛➖⚪ — downshift into restoration pacing when recovery is low.
-
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-
-═══════════════════════════════════════
-
+> "Sub-maximal load, high effort. Earn every rep with form."
+═══
+## 1) ♨️ Warm-Up — 🤌 facio
+Subcode: 🐂🏛🛒🔴 (Warm-Up | Push | Basics | Intense)
+├─ 12 🛒 Barbell Bench Press (high effort, push the pace)
+│  Set 1: 🐂 45% × 12 (pattern prep)
+Rest: 30s
+═══
+## 2) 🔢 Fundamentals
+Subcode: 🐂🏛🛒🔴 (Fundamentals | Push | Basics | Intense)
+├─ 12 🛒 Diamond Push-Up (Close-Grip) (slow, own each position)
+│  Set 1: 🐂 45% × 12 (grounding)
+│  Set 2: 🐂 50% × 12 (pattern lock)
+Rest: 37s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: 🐂🏛🛒🔴 (Bread & Butter | Push | Basics | Intense)
+├─ 11 🛒 Close-Grip Bench Press (high effort, push the pace)
+│  Set 1: 🐂 60% × 11 (build set)
+│  Set 2: 🐂 65% × 11 (working set)
+│  Set 3: 🐂 65% × 11 (repeat quality)
+Rest: 37s
+═══
+## 4) 🧩 Supplemental
+Subcode: 🐂🏛🛒🔴 (Supplemental | Push | Basics | Intense)
+├─ 13 🛒 Plyometric Push-Up (Hands Leave Ground) (full range, different angle)
+│  Set 1: 🐂 55% × 13 (support volume)
+│  Set 2: 🐂 55% × 13 (non-redundant)
+Rest: 30s
+═══
+## 5) 🧬 Imprint
+Subcode: 🐂🏛🛒🔴 (Imprint | Push | Basics | Intense)
+├─ 15 🛒 Landmine Press (Two-Arm, Chest Focus) (high rep, low load, neural memory)
+│  Set 1: 🐂 40% × 15 (lock the pattern)
+Rest: 30s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → 🐂🏛🛒🔴 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Keep this card until positions feel automatic under the current ceiling. Foundation is where durable technique gets locked in.
+Effort at low load reveals form breaks. Fix them before adding weight.

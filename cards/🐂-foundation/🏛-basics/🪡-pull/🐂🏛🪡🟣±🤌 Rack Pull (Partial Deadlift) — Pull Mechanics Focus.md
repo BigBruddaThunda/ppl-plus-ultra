@@ -10,98 +10,50 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟣 Mechanics Focus | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
+# 🪡 Rack Pull (Partial Deadlift) — Pull Technical 🪡
 
-# 🪡 Rack Pull (Partial Deadlift) — Pull Mechanics Focus 🪡
+## Foundation Basics — Pull focus (Technical) · 40-50 min
 
-Foundation basics session | Lats, rear delts, biceps, traps, erectors | 45-55 min
+**CODE:** 🐂🏛🪡🟣
 
-CODE: 🐂🏛🪡🟣
-
-> "Own every rep shape before adding load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🤌 facio — arrive and groove baseline patterns.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🪡🟣 (Warm-Up | Pull | Basics | Tier-safe)
-
-├─ 8 🪡 Bodyweight Squat (find stance and depth)
-├─ 8 🪡 Dead Bug (brace before moving)
-└─ 10 🪡 Jump Rope (light rhythm, easy breath)
-
-═══════════════════════════════════════
-
-## 2. 🔢 FUNDAMENTALS
-
-🤌 facio — pattern rehearsal under control.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🪡🟣 (Fundamentals | Pull | Basics | Foundational load)
-
-├─ 10 🪡 Goblet Squat (sit between hips, chest tall)
-├─ 10 🪡 Band Row (pull elbows to pockets)
-└─ 10 🪡 Standard Push-Up (lock body line)
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-🤌 facio — main pattern volume at ≤65% effort.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🪡🟣 (Bread & Butter | Pull | Basics | Primary pattern)
-
-├─ 12 🪡 Rack Pull (Partial Deadlift) (clean setup, own the full range)
-│  Set 1: 🐂 55% × 12 (pattern first)
-│  Set 2: 🐂 60% × 10 (same groove)
-│  Set 3: 🐂 65% × 8 (no grind reps)
-└─ 10 🪡 Glute Bridge (Bodyweight) (lock ribs down)
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🪡🟣 (Supplemental | Pull | Basics | Support work)
-
-├─ 12 🪡 Band Pull-Apart (Rhomboid) (open chest, squeeze back)
-└─ 10 🪡 Bent-Over Barbell Row (Overhand) (brace and row to lower ribs)
-
-═══════════════════════════════════════
-
-## 5. 🧬 IMPRINT
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🪡🟣 (Imprint | Pull | Basics | Repeatable form)
-
-└─ 12 🪡 Band Face Pull (elbows high, rotate out)
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🪡🟣 (Junction | Pull | Basics | Next-step routing)
-
-Next → 🐂🏛🪡🔵 — repeat the same movement family with tighter set tracking.
-Next → 🐂🔨🪡🟣 — keep foundation loading and add unilateral bias.
-Next → 🖼🏛➖⚪ — downshift into restoration pacing when recovery is low.
-
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-
-═══════════════════════════════════════
-
+> "Quality of position matters more than speed of completion."
+═══
+## 1) ♨️ Warm-Up — 🤌 facio
+Subcode: 🐂🏛🪡🟣 (Warm-Up | Pull | Basics | Technical)
+├─ 12 🪡 Zercher Carry (precision, quality over volume)
+│  Set 1: 🐂 45% × 12 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: 🐂🏛🪡🟣 (Primer | Pull | Basics | Technical)
+├─ 11 🪡 Wide-Grip Pull-Up (Teres Focus) (tight setup, crisp intent)
+│  Set 1: 🐂 55% × 11 (activation)
+Rest: 112s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: 🐂🏛🪡🟣 (Bread & Butter | Pull | Basics | Technical)
+├─ 11 🪡 Rack Pull (Partial Deadlift) (precision, quality over volume)
+│  Set 1: 🐂 60% × 11 (build set)
+│  Set 2: 🐂 65% × 11 (working set)
+│  Set 3: 🐂 65% × 11 (repeat quality)
+Rest: 112s
+═══
+## 4) 🧩 Supplemental
+Subcode: 🐂🏛🪡🟣 (Supplemental | Pull | Basics | Technical)
+├─ 13 🪡 Cable Row (High Elbow) (full range, different angle)
+│  Set 1: 🐂 55% × 13 (support volume)
+│  Set 2: 🐂 55% × 13 (non-redundant)
+Rest: 90s
+═══
+## 5) 🪫 Release
+Subcode: 🐂🏛🪡🟣 (Release | Pull | Basics | Technical)
+├─ 12 🪡 Deadlift (Conventional) (smooth tempo, downshift)
+│  Set 1: 🐂 45% × 12 (deload)
+Rest: 90s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → 🐂🏛🪡🟣 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Keep this card until positions feel automatic under the current ceiling. Foundation is where durable technique gets locked in.
+Note which positions felt uncertain. Those are your next session's priority.

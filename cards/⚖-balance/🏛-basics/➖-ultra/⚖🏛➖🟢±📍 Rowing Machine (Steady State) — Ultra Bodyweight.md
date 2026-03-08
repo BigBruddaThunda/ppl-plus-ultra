@@ -15,18 +15,18 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 
 **CODE:** ⚖🏛➖🟢
 
-> "Find the weak link and spend time on it. Correction is the session."
+> "Find asymmetries with bodyweight. No equipment hides the gap."
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: ⚖🏛➖🟢 (Warm-Up | Ultra | Basics | Bodyweight)
-├─ 12 ➖ Single-Leg Jump Rope (bodyweight, no external load needed)
+├─ 12 ➖ Kettlebell Goblet Squat (bodyweight, no external load needed)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🏗 Reformance
 Subcode: ⚖🏛➖🟢 (Reformance | Ultra | Basics | Bodyweight)
-├─ 11 ➖ Kettlebell Goblet Squat (corrective, address the weak link)
-│  Set 1: ⚖ 50% × 13 (prehab)
+├─ 11 ➖ Single-Leg Hops Through Ladder (corrective, address the weak link)
+│  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
 ═══
@@ -40,14 +40,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🏛➖🟢 (Supplemental | Ultra | Basics | Bodyweight)
-├─ 13 ➖ Single-Leg Hops Through Ladder (full range, different angle)
-│  Set 1: ⚖ 60% × 13 (support volume)
-│  Set 2: ⚖ 60% × 13 (non-redundant)
+├─ 12 ➖ Rowing Machine (Steady State) (full range, different angle)
+│  Set 1: ⚖ 60% × 12 (support volume)
+│  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🏛➖🟢 (Release | Ultra | Basics | Bodyweight)
-├─ 12 ➖ Rowing Machine (Steady State) (smooth tempo, downshift)
+├─ 12 ➖ Single-Foot In Each Box (Forward) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══
@@ -56,4 +56,4 @@ Rest: 75s
 - Next → ⚖🏛➖🟢 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The correction is the progress. Symmetry before load, always.
+Bodyweight exposed the asymmetry. Note which side lagged.

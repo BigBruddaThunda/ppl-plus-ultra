@@ -15,15 +15,15 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 **CODE:** 🖼🏛➖🟢
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Restore with what your body provides. Floor work, breath, gentle movement."
 ═══
 ## 1) 🎯 Intention
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Restore with what your body provides. Floor work, breath, gentle movement."
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🏛➖🟢 (Release | Ultra | Basics | Bodyweight)
-├─ 12 ➖ Sprint (30-60 meters) (parasympathetic, tension down)
+├─ 12 ➖ Sprint (10-30 meters) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
@@ -36,8 +36,8 @@ Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🏛➖🟢 (Imprint | Ultra | Basics | Bodyweight)
-├─ 17 ➖ Sprint (10-30 meters) (high rep, low load, neural memory)
-│  Set 1: 🖼 35% × 17 (lock the pattern)
+├─ 15 ➖ Sprint (10-30 meters) (high rep, low load, neural memory)
+│  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══
 ## 5) 🚂 Junction
@@ -45,4 +45,4 @@ Rest: 60s
 - Next → 🖼🏛➖🟢 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Notice what released. Carry that awareness into the next 24 hours.
+Floor work and breath are always available. Use them daily.

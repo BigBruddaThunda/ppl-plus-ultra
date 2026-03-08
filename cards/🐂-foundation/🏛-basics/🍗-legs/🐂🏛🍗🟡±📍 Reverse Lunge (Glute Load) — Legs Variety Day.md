@@ -10,98 +10,50 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟡 Variety Day | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
+# 🍗 Reverse Lunge (Glute Load) — Legs Fun 🍗
 
-# 🍗 Reverse Lunge (Glute Load) — Legs Variety Day 🍗
+## Foundation Basics — Legs focus (Fun) · 40-50 min
 
-Foundation basics session | Quads, hamstrings, glutes, calves | 45-55 min
+**CODE:** 🐂🏛🍗🟡
 
-CODE: 🐂🏛🍗🟡
-
-> "Own every rep shape before adding load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-📍 pono — arrive and groove baseline patterns.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🍗🟡 (Warm-Up | Legs | Basics | Tier-safe)
-
-├─ 8 🍗 Bodyweight Squat (find stance and depth)
-├─ 8 🍗 Dead Bug (brace before moving)
-└─ 10 🍗 Jump Rope (light rhythm, easy breath)
-
-═══════════════════════════════════════
-
-## 2. 🔢 FUNDAMENTALS
-
-📍 pono — pattern rehearsal under control.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🍗🟡 (Fundamentals | Legs | Basics | Foundational load)
-
-├─ 10 🍗 Goblet Squat (sit between hips, chest tall)
-├─ 10 🍗 Band Row (pull elbows to pockets)
-└─ 10 🍗 Standard Push-Up (lock body line)
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-📍 pono — main pattern volume at ≤65% effort.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🍗🟡 (Bread & Butter | Legs | Basics | Primary pattern)
-
-├─ 12 🍗 Reverse Lunge (Glute Load) (clean setup, own the full range)
-│  Set 1: 🐂 55% × 12 (pattern first)
-│  Set 2: 🐂 60% × 10 (same groove)
-│  Set 3: 🐂 65% × 8 (no grind reps)
-└─ 10 🍗 Glute Bridge (Bodyweight) (lock ribs down)
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🍗🟡 (Supplemental | Legs | Basics | Support work)
-
-├─ 10 🍗 Romanian Deadlift (RDL) (hips back, long spine)
-└─ 12 🍗 Split Squat (Rear Foot Flat) (vertical torso)
-
-═══════════════════════════════════════
-
-## 5. 🧬 IMPRINT
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🍗🟡 (Imprint | Legs | Basics | Repeatable form)
-
-└─ 15 🍗 Bodyweight Squat (smooth depth and stance)
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🍗🟡 (Junction | Legs | Basics | Next-step routing)
-
-Next → 🐂🏛🍗🔵 — repeat the same movement family with tighter set tracking.
-Next → 🐂🔨🍗🟡 — keep foundation loading and add unilateral bias.
-Next → 🖼🏛➖⚪ — downshift into restoration pacing when recovery is low.
-
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-
-═══════════════════════════════════════
-
+> "Explore the movement. Find what feels unfamiliar and stay there."
+═══
+## 1) ♨️ Warm-Up — 📍 pono
+Subcode: 🐂🏛🍗🟡 (Warm-Up | Legs | Basics | Fun)
+├─ 12 🍗 Deep Squat Hold (Ankle Mobility) (explore, stay within constraints)
+│  Set 1: 🐂 45% × 12 (pattern prep)
+Rest: 60s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: 🐂🏛🍗🟡 (Bread & Butter | Legs | Basics | Fun)
+├─ 11 🍗 Reverse Lunge (Glute Load) (explore, stay within constraints)
+│  Set 1: 🐂 60% × 11 (build set)
+│  Set 2: 🐂 65% × 11 (working set)
+│  Set 3: 🐂 65% × 11 (repeat quality)
+Rest: 75s
+═══
+## 3) 🌎 Exposure
+Subcode: 🐂🏛🍗🟡 (Exposure | Legs | Basics | Fun)
+├─ 11 🍗 Spanish Squat (Banded VMO) (try the unfamiliar version, explore the range)
+│  Set 1: 🐂 50% × 11 (discovery set)
+Rest: 60s
+═══
+## 4) 🏖 Sandbox
+Subcode: 🐂🏛🍗🟡 (Sandbox | Legs | Basics | Fun)
+├─ 11 🍗 Conventional Deadlift (explore within constraints, choose your variation)
+│  Option A: 🐂 55% × 11 (play with grip, stance, or tempo)
+│  Option B: 🐂 55% × 11 (try a variation you have not used before)
+Rest: 60s
+═══
+## 5) 🪫 Release
+Subcode: 🐂🏛🍗🟡 (Release | Legs | Basics | Fun)
+├─ 12 🍗 Spanish Squat (Banded VMO) (smooth tempo, downshift)
+│  Set 1: 🐂 45% × 12 (deload)
+Rest: 60s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → 🐂🏛🍗🟡 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Keep this card until positions feel automatic under the current ceiling. Foundation is where durable technique gets locked in.
+What felt unfamiliar today becomes familiar next session. Return to it.

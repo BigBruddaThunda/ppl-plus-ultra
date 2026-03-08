@@ -9,98 +9,50 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔵 Structured
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🪡 Single-Arm Dumbbell Row — Pull Structured 🪡
 
-# 🪡 Single-Arm Dumbbell Row — Lat Strength Log 🪡
+## Strength Aesthetic — Pull focus (Structured) · 50-65 min
 
-Strength aesthetic session | Back, rear delts, biceps | 58-70 min
+**CODE:** ⛽🌹🪡🔵
 
-CODE: ⛽🌹🪡🔵
-
-> "Pull heavy through full range and keep the scap rhythm clean under load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🪢 plico
-
-Sub-block: ♨️🪡🌹🔵 (Warm-Up | Pull | Aesthetic | Structured)
-
-├─ 8 🪡 Band Face Pull (elbows high)
-├─ 8 🪡 Scapular Pull-Up (depress then relax)
-└─ 6 🪡 Straight-Arm Pulldown (Bar) (lats engage first)
-
-Rest: 60 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🪡🌹🔵 (Primer | Pull | Aesthetic | Structured)
-
-├─ Set 1: ⛽ 55% × 6 on Single-Arm Dumbbell Row (set torso)
-├─ Set 2: ⛽ 65% × 5 on Single-Arm Dumbbell Row (smooth path)
-└─ Set 3: ⛽ 72% × 4 on Single-Arm Dumbbell Row (hard pull, slow lower)
-
-Rest: 2 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🪢 plico
-
-Sub-block: 🧈🪡🌹🔵 (Bread & Butter | Pull | Aesthetic | Structured)
-
-├─ 5 🪡 Single-Arm Dumbbell Row (full reach, full squeeze)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 5
-│  ├─ Set 3: ⛽ 82% × 4
-│  └─ Set 4: ⛽ 85% × 4
-└─ 4 🪡 Lat Pulldown (Neutral Grip) (shoulders stay down)
-   ├─ Set 1: ⛽ 76% × 4
-   ├─ Set 2: ⛽ 78% × 4
-   └─ Set 3: ⛽ 80% × 4
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🪡🌹🔵 (Supplemental | Pull | Aesthetic | Structured)
-
-├─ 5 🪡 Straight-Arm Pulldown (Rope) (elbows pull to hip line)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 4
-│  └─ Set 3: ⛽ 80% × 4
-└─ 5 🪡 Hammer Curl (squeeze, then lower)
-   ├─ Set 1: ⛽ 74% × 5
-   ├─ Set 2: ⛽ 76% × 5
-   └─ Set 3: ⛽ 78% × 4
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🪡🌹🔵 (Release | Pull | Aesthetic | Structured)
-
-- 60 sec slow nasal breathing, long exhale.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🪡🌹🔵 (Junction | Pull | Aesthetic | Structured)
-
-Next → ⛽🌹🛒🔵 — push pattern balances shoulder mechanics.
-Next → ⛽🌹🍗🔵 — leg force supports pulling output.
-Next → ⛽🌹➕🔵 — trunk control improves pull transfer.
-
-Log: top load ______ | clean reps ______ | note ______
-
-═══════════════════════════════════════
-
+> "Same weight, same reps, same rest. Build the base one session at a time."
+═══
+## 1) ♨️ Warm-Up — 🪢 plico
+Subcode: ⛽🌹🪡🔵 (Warm-Up | Pull | Aesthetic | Structured)
+├─ 6 🪡 Wide-Grip Lat Pulldown (Teres Focus) (prescribed, track sets and reps)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🌹🪡🔵 (Primer | Pull | Aesthetic | Structured)
+├─ 5 🪡 Face Pull (Rope) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 120s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🌹🪡🔵 (Bread & Butter | Pull | Aesthetic | Structured)
+├─ 5 🪡 Single-Arm Dumbbell Row (prescribed, track sets and reps)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🌹🪡🔵 (Supplemental | Pull | Aesthetic | Structured)
+├─ 6 🪡 Good Morning (Barbell) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🌹🪡🔵 (Release | Pull | Aesthetic | Structured)
+├─ 6 🪡 Preacher Curl Machine (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹🪡🔵 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The win is heavy output with no hitch in the pull path. If torso sway starts, log the load and hold progression there next session.
+Keep the same movement standard. Only add load if bar path stays unchanged.

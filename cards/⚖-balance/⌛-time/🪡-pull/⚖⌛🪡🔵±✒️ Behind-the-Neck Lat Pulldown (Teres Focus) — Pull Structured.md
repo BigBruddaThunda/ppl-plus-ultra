@@ -15,18 +15,18 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 
 **CODE:** ⚖⌛🪡🔵
 
-> "Find the weak link and spend time on it. Correction is the session."
+> "Prescribed accessory work. Target the specific imbalance."
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⚖⌛🪡🔵 (Warm-Up | Pull | Time | Structured)
-├─ 12 🪡 Cable Pullover (prescribed, track sets and reps)
+├─ 12 🪡 Wide-Grip Lat Pulldown (Teres Focus) (prescribed, track sets and reps)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🏗 Reformance
 Subcode: ⚖⌛🪡🔵 (Reformance | Pull | Time | Structured)
-├─ 11 🪡 Wide-Grip Lat Pulldown (Teres Focus) (corrective, address the weak link)
-│  Set 1: ⚖ 50% × 13 (prehab)
+├─ 11 🪡 Face Pull (Rope) (corrective, address the weak link)
+│  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
 ═══
@@ -40,14 +40,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖⌛🪡🔵 (Supplemental | Pull | Time | Structured)
-├─ 13 🪡 Face Pull (Rope) (full range, different angle)
-│  Set 1: ⚖ 60% × 13 (support volume)
-│  Set 2: ⚖ 60% × 13 (non-redundant)
+├─ 12 🪡 Good Morning (Barbell) (full range, different angle)
+│  Set 1: ⚖ 60% × 12 (support volume)
+│  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖⌛🪡🔵 (Release | Pull | Time | Structured)
-├─ 12 🪡 Good Morning (Barbell) (smooth tempo, downshift)
+├─ 12 🪡 Preacher Curl Machine (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

@@ -9,93 +9,50 @@ type: 🪡 Pull
 color: 🟣 Technical
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🪡 Snatch-Grip Deadlift — Pull Technical 🪡
 
-# 🪡 Snatch-Grip Deadlift — Pull Challenge, Technical 🪡
+## Strength Challenge — Pull focus (Technical) · 50-65 min
 
-Strength challenge session | Lats, upper back, biceps | 58-72 min
+**CODE:** ⛽🪐🪡🟣
 
-CODE: ⛽🪐🪡🟣
-
-> "Pull heavy from disadvantage and keep the trunk locked under load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🚀 mitto
-
-Sub-block: ♨️🪡🪐🟣 (Warm-Up | Pull | Challenge | Technical)
-
-├─ 8 🪡 Inverted Row (pull elbows to pockets)
-└─ 6 🪡 Chin-Up (Underhand Grip) (hold top position)
-
-Rest: 90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🪡🪐🟣 (Primer | Pull | Challenge | Technical)
-
-├─ Set 1: ⛽ 60% × 6 on Snatch-Grip Deadlift (controlled depth)
-├─ Set 2: ⛽ 68% × 5 on Snatch-Grip Deadlift (2-second pause)
-└─ Set 3: ⛽ 72% × 4 on Snatch-Grip Deadlift (same strict line)
-
-Rest: 2-3 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🚀
-
-Sub-block: 🧈🪡🪐🟣 (Bread & Butter | Pull | Challenge | Technical)
-
-├─ 5 🪡 Snatch-Grip Deadlift (hardest clean variation today)
-│  ├─ Set 1: ⛽ 75% × 6 (tempo down, violent up)
-│  ├─ Set 2: ⛽ 78% × 5 (1-second hold in weak point)
-│  ├─ Set 3: ⛽ 82% × 4 (keep shape locked)
-│  └─ Set 4: ⛽ 85% × 4 (no breakdown reps)
-└─ 4 🪡 Lat Pulldown (Wide Grip) (full stop on chest) 
-   ├─ Set 1: ⛽ 75% × 5 (strict path)
-   ├─ Set 2: ⛽ 80% × 4 (pause each rep)
-   └─ Set 3: ⛽ 82% × 4 (same speed target)
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🪡🪐🟣 (SUPPLEMENTAL | Pull | Challenge | Technical)
-
-├─ 5 🪡 Lat Pulldown (Wide Grip) (full stop on chest)
-└─ 5 🪡 Single-Arm Lat Pulldown (resist torso twist)
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🪡🪐🟣 (Release | Pull | Challenge | Technical)
-
-- 5 minutes easy downshift work and nasal breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🪡🪐🟣 (Junction | Pull | Challenge | Technical)
-
-Log:
-- Load quality: ______________________
-- Hardest sticking point: ____________
-- Recovery readiness (1-5): _________
-
-Next → ⛽🪐🛒🔵 — press after strict pulling to balance shoulder load
-Next → ⛽🪐➕🔵 — transfer hinge tension to full-body bracing
-
-═══════════════════════════════════════
-
+> "One clean rep at the right load is worth more than five at the wrong one."
+═══
+## 1) ♨️ Warm-Up — 🚀 mitto
+Subcode: ⛽🪐🪡🟣 (Warm-Up | Pull | Challenge | Technical)
+├─ 6 🪡 Zercher Carry (precision, quality over volume)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 135s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🪐🪡🟣 (Primer | Pull | Challenge | Technical)
+├─ 5 🪡 Push Jerk (Barbell) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 180s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🪐🪡🟣 (Bread & Butter | Pull | Challenge | Technical)
+├─ 5 🪡 Snatch-Grip Deadlift (precision, quality over volume)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 270s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🪐🪡🟣 (Supplemental | Pull | Challenge | Technical)
+├─ 6 🪡 Pull-Up (Overhand Grip) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 180s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🪐🪡🟣 (Release | Pull | Challenge | Technical)
+├─ 6 🪡 Bent-Over Barbell Row (Overhand) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 180s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🪐🪡🟣 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Challenge strength is heavy load plus stricter execution. Keep the same standard next session: no rep counts unless the position stays honest.
+Log bar path quality, not just the weight. The how matters as much as the how much.

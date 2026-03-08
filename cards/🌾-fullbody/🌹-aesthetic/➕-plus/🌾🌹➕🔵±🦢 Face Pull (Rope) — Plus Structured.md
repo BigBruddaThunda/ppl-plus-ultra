@@ -15,17 +15,17 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🌹➕🔵
 
-> "Flow through the full body as one integrated pattern."
+> "Prescribed flow. Each movement connects to the next without reset."
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🌾🌹➕🔵 (Warm-Up | Plus | Aesthetic | Structured)
-├─ 10 ➕ Single-Arm Face Pull (prescribed, track sets and reps)
+├─ 10 ➕ Aquaman (Alternating Superman) (prescribed, track sets and reps)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🌹➕🔵 (Composition | Plus | Aesthetic | Structured)
-├─ 9 ➕ Aquaman (Alternating Superman) → Face Pull (Rope) (flow without reset)
+├─ 9 ➕ Single-Leg Hops Through Ladder → Face Pull (Rope) (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
@@ -40,15 +40,15 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🌹➕🔵 (Supplemental | Plus | Aesthetic | Structured)
-├─ 11 ➕ Single-Leg Hops Through Ladder (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
+├─ 10 ➕ Half-Kneeling Cable Chop (full range, different angle)
+│  Set 1: 🌾 60% × 10 (support volume)
+│  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🌹➕🔵 (Release | Plus | Aesthetic | Structured)
-├─ 12 ➕ Half-Kneeling Cable Chop (smooth tempo, downshift)
-│  Set 1: 🌾 50% × 12 (deload)
+├─ 10 ➕ Wide-Grip Lat Pulldown (Teres Focus) (smooth tempo, downshift)
+│  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══
 ## 6) 🚂 Junction

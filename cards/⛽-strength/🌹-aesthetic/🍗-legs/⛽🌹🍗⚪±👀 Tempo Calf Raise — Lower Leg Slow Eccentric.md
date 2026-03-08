@@ -9,98 +9,50 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: ⚪ Mindful
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🍗 Tempo Calf Raise — Legs Mindful 🍗
 
-# 🍗 Tempo Calf Raise — Lower Leg Slow Eccentric 🍗
+## Strength Aesthetic — Legs focus (Mindful) · 50-65 min
 
-Strength aesthetic session | Quads, glutes, hamstrings, calves | 58-72 min
+**CODE:** ⛽🌹🍗⚪
 
-CODE: ⛽🌹🍗⚪
-
-> "Own each heavy rep with full range so the target leg tissue carries the load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 👀 specio
-
-Sub-block: ♨️🍗🌹⚪ (Warm-Up | Legs | Aesthetic | Mindful)
-
-├─ 8 🍗 Bodyweight Squat (hips open, chest tall)
-├─ 8 🍗 Reverse Lunge (knee tracks forward)
-└─ 8 🍗 Glute Bridge (squeeze at top)
-
-Rest: 90 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🍗🌹⚪ (Primer | Legs | Aesthetic | Mindful)
-
-├─ Set 1: ⛽ 55% × 6 on Tempo Calf Raise (3-0-3) (find stance)
-├─ Set 2: ⛽ 65% × 5 on Tempo Calf Raise (3-0-3) (steady descent)
-└─ Set 3: ⛽ 72% × 4 on Tempo Calf Raise (3-0-3) (drive hard, no rush)
-
-Rest: 2 min 30 sec between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 👀 specio
-
-Sub-block: 🧈🍗🌹⚪ (Bread & Butter | Legs | Aesthetic | Mindful)
-
-├─ 5 🍗 Tempo Calf Raise (3-0-3) (4-second lower each rep)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 5
-│  ├─ Set 3: ⛽ 82% × 4
-│  └─ Set 4: ⛽ 85% × 4
-└─ 4 🍗 Tempo Bulgarian Split Squat (3-0-3) (tension never drops)
-   ├─ Set 1: ⛽ 76% × 4
-   ├─ Set 2: ⛽ 78% × 4
-   └─ Set 3: ⛽ 80% × 4
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🍗🌹⚪ (Supplemental | Legs | Aesthetic | Mindful)
-
-├─ 5 🍗 Tempo Leg Press (3-0-3) (drive through mid-foot)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 4
-│  └─ Set 3: ⛽ 80% × 4
-└─ 5 🍗 Tempo Seated Calf Raise (3-0-3) (full stretch, full finish)
-   ├─ Set 1: ⛽ 74% × 5
-   ├─ Set 2: ⛽ 76% × 5
-   └─ Set 3: ⛽ 78% × 4
-
-Rest: 2 min 30 sec between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🍗🌹⚪ (Release | Legs | Aesthetic | Mindful)
-
-- 60 sec easy nasal breathing with long exhale.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🍗🌹⚪ (Junction | Legs | Aesthetic | Mindful)
-
-Next → ⛽🌹🛒⚪ — upper-body push next while legs recover.
-Next → ⛽🌹🪡⚪ — pull day balances torso loading.
-Next → ⛽🌹➖⚪ — engine work supports next leg session capacity.
-
-Log: top load ______ | clean reps ______ | note ______
-
-═══════════════════════════════════════
-
+> "Four seconds down. Feel every degree of the range before you earn the drive."
+═══
+## 1) ♨️ Warm-Up — 👀 specio
+Subcode: ⛽🌹🍗⚪ (Warm-Up | Legs | Aesthetic | Mindful)
+├─ 6 🍗 Standing Quad Stretch (4s eccentric, breath-paced)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 180s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽🌹🍗⚪ (Bread & Butter | Legs | Aesthetic | Mindful)
+├─ 5 🍗 Tempo Calf Raise (4s eccentric, breath-paced)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 360s
+═══
+## 3) 🧩 Supplemental
+Subcode: ⛽🌹🍗⚪ (Supplemental | Legs | Aesthetic | Mindful)
+├─ 6 🍗 Step-Down (Eccentric) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 240s
+═══
+## 4) 🪫 Release
+Subcode: ⛽🌹🍗⚪ (Release | Legs | Aesthetic | Mindful)
+├─ 6 🍗 Leg Extension Machine (parasympathetic, tension down, 4s eccentric)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 240s
+═══
+## 5) 🧬 Imprint
+Subcode: ⛽🌹🍗⚪ (Imprint | Legs | Aesthetic | Mindful)
+├─ 6 🍗 Barbell Good Morning (high rep, low load, neural memory)
+│  Set 1: ⛽ 55% × 6 (lock the pattern)
+Rest: 240s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹🍗⚪ — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Heavy aesthetic leg work is controlled force: if depth and line stay consistent, progression is earned. If range shortens, keep load and repeat.
+Slow strength builds tendons, not just muscles. Trust the tempo.

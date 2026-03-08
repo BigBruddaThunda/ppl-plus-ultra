@@ -15,20 +15,19 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾⌛🪡🟣
 
-> "Flow through the full body as one integrated pattern."
+> "Precision in the transitions. The connection between movements is the skill."
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🌾⌛🪡🟣 (Warm-Up | Pull | Time | Technical)
 ├─ 10 🪡 Yoke Walk (precision, quality over volume)
 │  Set 1: 🌾 50% × 10 (pattern prep)
-Rest: 60s
+Rest: 90s
 ═══
-## 2) 🎼 Composition
-Subcode: 🌾⌛🪡🟣 (Composition | Pull | Time | Technical)
-├─ 9 🪡 Single-Arm Face Pull → Atlas Stone Lift (flow without reset)
-│  Set 1: 🌾 70% × 9 (unified pattern)
-│  Set 2: 🌾 70% × 9 (repeat flow)
-Rest: 60s
+## 2) ▶️ Primer
+Subcode: 🌾⌛🪡🟣 (Primer | Pull | Time | Technical)
+├─ 9 🪡 Single-Arm Face Pull (tight setup, crisp intent)
+│  Set 1: 🌾 60% × 9 (activation)
+Rest: 90s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾⌛🪡🟣 (Bread & Butter | Pull | Time | Technical)
@@ -36,24 +35,24 @@ Subcode: 🌾⌛🪡🟣 (Bread & Butter | Pull | Time | Technical)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
-Rest: 60s
+Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾⌛🪡🟣 (Supplemental | Pull | Time | Technical)
-├─ 11 🪡 Single-Leg Romanian Deadlift (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
-Rest: 45s
+├─ 10 🪡 Single-Leg Romanian Deadlift (full range, different angle)
+│  Set 1: 🌾 60% × 10 (support volume)
+│  Set 2: 🌾 60% × 10 (non-redundant)
+Rest: 67s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾⌛🪡🟣 (Release | Pull | Time | Technical)
-├─ 12 🪡 Wide-Grip Lat Pulldown (Teres Focus) (smooth tempo, downshift)
-│  Set 1: 🌾 50% × 12 (deload)
-Rest: 45s
+├─ 10 🪡 Wide-Grip Lat Pulldown (Teres Focus) (smooth tempo, downshift)
+│  Set 1: 🌾 50% × 10 (deload)
+Rest: 67s
 ═══
 ## 6) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🌾⌛🪡🟣 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The flow is the measure. If movements disconnected, simplify next session.
+Note the weakest transition. That is where the chain needs work.

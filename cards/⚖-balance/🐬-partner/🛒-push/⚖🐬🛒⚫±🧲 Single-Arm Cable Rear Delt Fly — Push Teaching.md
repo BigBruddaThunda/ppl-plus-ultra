@@ -15,20 +15,20 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 
 **CODE:** ⚖🐬🛒⚫
 
-> "Find the weak link and spend time on it. Correction is the session."
+> "Identify the weak link. Coach the correction before adding load."
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: ⚖🐬🛒⚫ (Warm-Up | Push | Partner | Teaching)
 ├─ 12 🛒 Single-Arm Cable Chest Fly (coached, check form before adding load)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
-Rest: 60s
+Rest: 90s
 ═══
-## 2) 🏗 Reformance
-Subcode: ⚖🐬🛒⚫ (Reformance | Push | Partner | Teaching)
-├─ 11 🛒 Incline Barbell Bench Press (30°) (corrective, address the weak link)
-│  Set 1: ⚖ 50% × 13 (prehab)
-│  Set 2: ⚖ 55% × 11 (stability)
-Rest: 75s
+## 2) 🛠 Craft
+Subcode: ⚖🐬🛒⚫ (Craft | Push | Partner | Teaching)
+├─ 11 🛒 Incline Barbell Bench Press (30°) (coach: check grip width, elbow angle, foot pressure)
+│  Set 1: ⚖ 50% × 11 (practice the pattern, not the load)
+│  Set 2: ⚖ 55% × 11 (same cues, slightly heavier)
+Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🐬🛒⚫ (Bread & Butter | Push | Partner | Teaching)
@@ -36,24 +36,24 @@ Subcode: ⚖🐬🛒⚫ (Bread & Butter | Push | Partner | Teaching)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
-Rest: 90s
+Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🐬🛒⚫ (Supplemental | Push | Partner | Teaching)
-├─ 13 🛒 Landmine Press (Two-Arm, Chest Focus) (full range, different angle)
-│  Set 1: ⚖ 60% × 13 (support volume)
-│  Set 2: ⚖ 60% × 13 (non-redundant)
-Rest: 75s
+├─ 12 🛒 Landmine Press (Two-Arm, Chest Focus) (full range, different angle)
+│  Set 1: ⚖ 60% × 12 (support volume)
+│  Set 2: ⚖ 60% × 12 (non-redundant)
+Rest: 112s
 ═══
-## 5) 🪫 Release
-Subcode: ⚖🐬🛒⚫ (Release | Push | Partner | Teaching)
-├─ 12 🛒 Band Pull-Apart (Chest Opener) (smooth tempo, downshift)
-│  Set 1: ⚖ 50% × 12 (deload)
-Rest: 75s
+## 5) 🧬 Imprint
+Subcode: ⚖🐬🛒⚫ (Imprint | Push | Partner | Teaching)
+├─ 12 🛒 Diamond Push-Up (high rep, low load, neural memory)
+│  Set 1: ⚖ 45% × 12 (lock the pattern)
+Rest: 112s
 ═══
 ## 6) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → ⚖🐬🛒⚫ — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The correction is the progress. Symmetry before load, always.
+The coaching eye found the weak link. Now the correction begins.

@@ -15,20 +15,19 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 
 **CODE:** ⚖🔨🛒🟣
 
-> "Find the weak link and spend time on it. Correction is the session."
+> "Precise correction. Small movements, full attention, zero momentum."
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: ⚖🔨🛒🟣 (Warm-Up | Push | Functional | Technical)
 ├─ 12 🛒 Single-Arm Cable Chest Fly (precision, quality over volume)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
-Rest: 60s
+Rest: 90s
 ═══
-## 2) 🏗 Reformance
-Subcode: ⚖🔨🛒🟣 (Reformance | Push | Functional | Technical)
-├─ 11 🛒 Single-Arm Incline Dumbbell Press (corrective, address the weak link)
-│  Set 1: ⚖ 50% × 13 (prehab)
-│  Set 2: ⚖ 55% × 11 (stability)
-Rest: 75s
+## 2) ▶️ Primer
+Subcode: ⚖🔨🛒🟣 (Primer | Push | Functional | Technical)
+├─ 11 🛒 Single-Arm Incline Dumbbell Press (tight setup, crisp intent)
+│  Set 1: ⚖ 60% × 11 (activation)
+Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🔨🛒🟣 (Bread & Butter | Push | Functional | Technical)
@@ -36,24 +35,24 @@ Subcode: ⚖🔨🛒🟣 (Bread & Butter | Push | Functional | Technical)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
-Rest: 90s
+Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🔨🛒🟣 (Supplemental | Push | Functional | Technical)
-├─ 13 🛒 Single-Arm Landmine Press (Chest Focus) (full range, different angle)
-│  Set 1: ⚖ 60% × 13 (support volume)
-│  Set 2: ⚖ 60% × 13 (non-redundant)
-Rest: 75s
+├─ 12 🛒 Single-Arm Landmine Press (Chest Focus) (full range, different angle)
+│  Set 1: ⚖ 60% × 12 (support volume)
+│  Set 2: ⚖ 60% × 12 (non-redundant)
+Rest: 112s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🔨🛒🟣 (Release | Push | Functional | Technical)
 ├─ 12 🛒 Alternating Dumbbell Curl (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
-Rest: 75s
+Rest: 112s
 ═══
 ## 6) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → ⚖🔨🛒🟣 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The correction is the progress. Symmetry before load, always.
+Precision in correction builds the foundation. Note what changed.

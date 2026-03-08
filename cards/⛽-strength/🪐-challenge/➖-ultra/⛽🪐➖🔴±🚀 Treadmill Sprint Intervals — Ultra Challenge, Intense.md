@@ -9,93 +9,57 @@ type: ➖ Ultra
 color: 🔴 Intense
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➖ Treadmill Sprint Intervals — Ultra Intense ➖
 
-# ➖ Treadmill Sprint Intervals — Ultra Challenge, Intense ➖
+## Strength Challenge — Ultra focus (Intense) · 50-65 min
 
-Strength challenge session | Engine, intervals, repeat output | 50-66 min
+**CODE:** ⛽🪐➖🔴
 
-CODE: ⛽🪐➖🔴
-
-> "Hold high output intervals while keeping mechanics strict under fatigue."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🚀 mitto
-
-Sub-block: ♨️➖🪐🔴 (Warm-Up | Ultra | Challenge | Intense)
-
-├─ 5 ➖ Jump Rope Intervals (1 minute on/off) (light, fast contacts)
-└─ 5 ➖ Mountain Climber (tight plank position)
-
-Rest: 90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➖🪐🔴 (Primer | Ultra | Challenge | Intense)
-
-├─ Set 1: ⛽ 60% × 6 on Treadmill Sprint Intervals (controlled depth)
-├─ Set 2: ⛽ 68% × 5 on Treadmill Sprint Intervals (2-second pause)
-└─ Set 3: ⛽ 72% × 4 on Treadmill Sprint Intervals (same strict line)
-
-Rest: 2-3 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🚀
-
-Sub-block: 🧈➖🪐🔴 (Bread & Butter | Ultra | Challenge | Intense)
-
-├─ 5 ➖ Treadmill Sprint Intervals (hardest clean variation today)
-│  ├─ Set 1: ⛽ 75% × 6 (tempo down, violent up)
-│  ├─ Set 2: ⛽ 78% × 5 (1-second hold in weak point)
-│  ├─ Set 3: ⛽ 82% × 4 (keep shape locked)
-│  └─ Set 4: ⛽ 85% × 4 (no breakdown reps)
-└─ 4 ➖ Battle Ropes (Intervals) (keep ribs stacked) 
-   ├─ Set 1: ⛽ 75% × 5 (strict path)
-   ├─ Set 2: ⛽ 80% × 4 (pause each rep)
-   └─ Set 3: ⛽ 82% × 4 (same speed target)
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➖🪐🔴 (SUPPLEMENTAL | Ultra | Challenge | Intense)
-
-├─ 5 ➖ Battle Ropes (Intervals) (keep ribs stacked)
-└─ 5 ➖ Rowing Intervals (repeat split discipline)
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫➖🪐🔴 (Release | Ultra | Challenge | Intense)
-
-- 5 minutes easy downshift work and nasal breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂➖🪐🔴 (Junction | Ultra | Challenge | Intense)
-
-Log:
-- Load quality: ______________________
-- Hardest sticking point: ____________
-- Recovery readiness (1-5): _________
-
-Next → ⛽🪐🪡🔵 — add heavy pulling after engine stress
-Next → ⛽🪐➕🔵 — transfer interval grit into loaded movement
-
-═══════════════════════════════════════
-
+> "Push the ceiling. Every set should cost something real."
+═══
+## 1) ♨️ Warm-Up — 🚀 mitto
+Subcode: ⛽🪐➖🔴 (Warm-Up | Ultra | Challenge | Intense)
+├─ 6 ➖ Overhead Throw (Medicine Ball) (high effort, push the pace)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🪐➖🔴 (Primer | Ultra | Challenge | Intense)
+├─ 5 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 60s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🪐➖🔴 (Bread & Butter | Ultra | Challenge | Intense)
+├─ 5 ➖ Treadmill Sprint Intervals (high effort, push the pace)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 90s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🪐➖🔴 (Supplemental | Ultra | Challenge | Intense)
+├─ 6 ➖ Chest Pass Throw (Medicine Ball) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 60s
+═══
+## 5) 🌋 Gutter
+Subcode: ⛽🪐➖🔴 (Gutter | Ultra | Challenge | Intense)
+├─ 6 ➖ Rotational Throw (Side Toss) (all-out, leave nothing in reserve)
+│  Set 1: ⛽ 65% × 6 (push to form break)
+│  Set 2: ⛽ 65% × AMRAP (final effort)
+Rest: 45s
+═══
+## 6) 🪫 Release
+Subcode: ⛽🪐➖🔴 (Release | Ultra | Challenge | Intense)
+├─ 6 ➖ Rotational Throw (Side Toss) (stress out, cathartic discharge)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 7) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🪐➖🔴 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Challenge strength is heavy load plus stricter execution. Keep the same standard next session: no rep counts unless the position stays honest.
+Record peak effort. Recovery before next heavy session.

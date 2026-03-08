@@ -9,98 +9,50 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟡 Fun
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🪡 Incline Dumbbell Row — Pull Fun 🪡
 
-# 🪡 Incline Dumbbell Row — Upper Back Variety Day 🪡
+## Strength Aesthetic — Pull focus (Fun) · 50-65 min
 
-Strength aesthetic session | Back, rear delts, biceps | 58-70 min
+**CODE:** ⛽🌹🪡🟡
 
-CODE: ⛽🌹🪡🟡
-
-> "Pull heavy through full range and keep the scap rhythm clean under load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 👀 specio
-
-Sub-block: ♨️🪡🌹🟡 (Warm-Up | Pull | Aesthetic | Fun)
-
-├─ 8 🪡 Band Face Pull (elbows high)
-├─ 8 🪡 Scapular Pull-Up (depress then relax)
-└─ 6 🪡 Straight-Arm Pulldown (Bar) (lats engage first)
-
-Rest: 60 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🪡🌹🟡 (Primer | Pull | Aesthetic | Fun)
-
-├─ Set 1: ⛽ 55% × 6 on Incline Dumbbell Row (set torso)
-├─ Set 2: ⛽ 65% × 5 on Incline Dumbbell Row (smooth path)
-└─ Set 3: ⛽ 72% × 4 on Incline Dumbbell Row (hard pull, slow lower)
-
-Rest: 2 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 👀 specio
-
-Sub-block: 🧈🪡🌹🟡 (Bread & Butter | Pull | Aesthetic | Fun)
-
-├─ 5 🪡 Incline Dumbbell Row (full reach, full squeeze)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 5
-│  ├─ Set 3: ⛽ 82% × 4
-│  └─ Set 4: ⛽ 85% × 4
-└─ 4 🪡 Seated Face Pull (Horizontal) (shoulders stay down)
-   ├─ Set 1: ⛽ 76% × 4
-   ├─ Set 2: ⛽ 78% × 4
-   └─ Set 3: ⛽ 80% × 4
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🪡🌹🟡 (Supplemental | Pull | Aesthetic | Fun)
-
-├─ 5 🪡 Lat Pulldown (Underhand Grip) (elbows pull to hip line)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 4
-│  └─ Set 3: ⛽ 80% × 4
-└─ 5 🪡 Behind-the-Back Cable Curl (squeeze, then lower)
-   ├─ Set 1: ⛽ 74% × 5
-   ├─ Set 2: ⛽ 76% × 5
-   └─ Set 3: ⛽ 78% × 4
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🪡🌹🟡 (Release | Pull | Aesthetic | Fun)
-
-- 60 sec slow nasal breathing, long exhale.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🪡🌹🟡 (Junction | Pull | Aesthetic | Fun)
-
-Next → ⛽🌹🛒🟡 — push pattern balances shoulder mechanics.
-Next → ⛽🌹🍗🟡 — leg force supports pulling output.
-Next → ⛽🌹➕🟡 — trunk control improves pull transfer.
-
-Log: top load ______ | clean reps ______ | note ______
-
-═══════════════════════════════════════
-
+> "Find a movement you have not tried at this load and own it."
+═══
+## 1) ♨️ Warm-Up — 👀 specio
+Subcode: ⛽🌹🪡🟡 (Warm-Up | Pull | Aesthetic | Fun)
+├─ 6 🪡 Wide-Grip Lat Pulldown (Teres Focus) (explore, stay within constraints)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽🌹🪡🟡 (Bread & Butter | Pull | Aesthetic | Fun)
+├─ 5 🪡 Incline Dumbbell Row (explore, stay within constraints)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 3) 🌎 Exposure
+Subcode: ⛽🌹🪡🟡 (Exposure | Pull | Aesthetic | Fun)
+├─ 5 🪡 Preacher Curl Machine (try the unfamiliar version, explore the range)
+│  Set 1: ⛽ 65% × 5 (discovery set)
+Rest: 120s
+═══
+## 4) 🏖 Sandbox
+Subcode: ⛽🌹🪡🟡 (Sandbox | Pull | Aesthetic | Fun)
+├─ 5 🪡 Incline Dumbbell Row (explore within constraints, choose your variation)
+│  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
+│  Option B: ⛽ 70% × 5 (try a variation you have not used before)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🌹🪡🟡 (Release | Pull | Aesthetic | Fun)
+├─ 6 🪡 Preacher Curl Machine (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹🪡🟡 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The win is heavy output with no hitch in the pull path. If torso sway starts, log the load and hold progression there next session.
+Note what you tried and what surprised you. Build on it next session.

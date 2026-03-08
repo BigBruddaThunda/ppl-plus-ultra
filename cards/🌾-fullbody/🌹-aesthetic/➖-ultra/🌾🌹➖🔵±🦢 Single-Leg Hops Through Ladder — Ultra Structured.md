@@ -15,7 +15,7 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🌹➖🔵
 
-> "Flow through the full body as one integrated pattern."
+> "Prescribed flow. Each movement connects to the next without reset."
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🌾🌹➖🔵 (Warm-Up | Ultra | Aesthetic | Structured)
@@ -25,7 +25,7 @@ Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🌹➖🔵 (Composition | Ultra | Aesthetic | Structured)
-├─ 9 ➖ Single-Leg Jump Rope → Single-Leg Hops Through Ladder (flow without reset)
+├─ 9 ➖ Kettlebell Goblet Squat → Single-Leg Hops Through Ladder (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
@@ -40,15 +40,15 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🌹➖🔵 (Supplemental | Ultra | Aesthetic | Structured)
-├─ 11 ➖ Kettlebell Goblet Squat (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
+├─ 10 ➖ Single-Foot In Each Box (Forward) (full range, different angle)
+│  Set 1: 🌾 60% × 10 (support volume)
+│  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🌹➖🔵 (Release | Ultra | Aesthetic | Structured)
-├─ 12 ➖ Single-Foot In Each Box (Forward) (smooth tempo, downshift)
-│  Set 1: 🌾 50% × 12 (deload)
+├─ 10 ➖ Turkish Get-Up (Full) (smooth tempo, downshift)
+│  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══
 ## 6) 🚂 Junction

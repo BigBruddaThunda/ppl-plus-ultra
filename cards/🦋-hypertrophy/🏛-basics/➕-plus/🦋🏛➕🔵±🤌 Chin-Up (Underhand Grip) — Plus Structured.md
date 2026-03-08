@@ -11,53 +11,55 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
 # ➕ Chin-Up (Underhand Grip) — Plus Structured ➕
 
-## Hypertrophy Basics — Plus focus (Structured) · 45-55 min
+## Hypertrophy Basics — Plus focus (Structured) · 55-70 min
 
 **CODE:** 🦋🏛➕🔵
 
-> "Drive clean reps inside the hypertrophy ceiling and make every set repeatable."
-
+> "Hit every set at the prescribed rep count. Volume is the driver."
 ═══
-## 1) ♨️ Warm-Up — 🤌 facio inline
+## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🦋🏛➕🔵 (Warm-Up | Plus | Basics | Structured)
-├─ 10 ➕ Pull-Up (Overhand Grip) (steady tempo, easy ramp)
-│  Set 1: 🦋 60% × 10 (pattern prep)
-Rest: 75s
-
+├─ 12 ➕ Pull-Up (Overhand Grip) (prescribed, track sets and reps)
+│  Set 1: 🦋 50% × 12 (pattern prep)
+Rest: 60s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🏛➕🔵 (Primer | Plus | Basics | Structured)
-├─ 8 ➕ Bent-Over Barbell Row (Overhand) (tight setup, crisp intent)
-│  Set 1: 🦋 65% × 8 (activation)
-Rest: 90s
-
+├─ 10 ➕ Bent-Over Barbell Row (Overhand) (tight setup, crisp intent)
+│  Set 1: 🦋 60% × 10 (activation)
+Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🏛➕🔵 (Bread & Butter | Plus | Basics | Structured)
-├─ 5 ➕ Chin-Up (Underhand Grip) (clean line, own the bottom)
-│  Set 1: 🦋 75% × 5 (build set)
-│  Set 2: 🦋 80% × 5 (working set)
-│  Set 3: 🦋 80% × 5 (repeat quality)
-Rest: 180s
-
+├─ 10 ➕ Chin-Up (Underhand Grip) (prescribed, track sets and reps)
+│  Set 1: 🦋 65% × 10 (build set)
+│  Set 2: 🦋 70% × 10 (working set)
+│  Set 3: 🦋 70% × 10 (repeat quality)
+Rest: 90s
 ═══
-## 4) 🧩 Supplemental
+## 4) 🗿 Sculpt
+Subcode: 🦋🏛➕🔵 (Sculpt | Plus | Basics | Structured)
+├─ 12 ➕ Chest-Supported Row (Elbow Out) (angles, tension, volume)
+│  Set 1: 🦋 65% × 12 (shaping)
+│  Set 2: 🦋 65% × 12 (carving)
+Rest: 60s
+═══
+## 5) 🧩 Supplemental
 Subcode: 🦋🏛➕🔵 (Supplemental | Plus | Basics | Structured)
-├─ 6 ➕ Chest-Supported Row (Elbow Out) (full range, no drift)
-│  Set 1: 🦋 70% × 6 (support volume)
-Rest: 120s
-
+├─ 12 ➕ Chest-Supported Row (Elbow Out) (full range, different angle)
+│  Set 1: 🦋 60% × 12 (support volume)
+│  Set 2: 🦋 60% × 12 (non-redundant)
+Rest: 60s
 ═══
-## 5) 🪫 Release
+## 6) 🪫 Release
 Subcode: 🦋🏛➕🔵 (Release | Plus | Basics | Structured)
 ├─ 12 ➕ Deadlift (Conventional) (smooth tempo, downshift)
-│  Set 1: 🦋 55% × 12 (tension out)
-Rest: 90s
-
+│  Set 1: 🦋 50% × 12 (deload)
+Rest: 60s
 ═══
-## 6) 🚂 Junction
+## 7) 🚂 Junction
 - Log: load, reps, and form break point.
-- Next → 🦋🏛➕🔵 — repeat and tighten execution under same constraints.
-
+- Next → 🦋🏛➕🔵 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Keep the same movement standard next session and only add load if bar path and position stay unchanged.
+Volume drives growth; form keeps it honest. Log sets, reps, and load.

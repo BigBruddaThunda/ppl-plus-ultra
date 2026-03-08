@@ -15,7 +15,7 @@ blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 
 **CODE:** 🐂⌛➕🟡
 
-> "Learn the pattern at sub-maximal load. Own the positions before adding weight."
+> "Explore the movement. Find what feels unfamiliar and stay there."
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🐂⌛➕🟡 (Warm-Up | Plus | Time | Fun)
@@ -23,14 +23,7 @@ Subcode: 🐂⌛➕🟡 (Warm-Up | Plus | Time | Fun)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══
-## 2) 🔢 Fundamentals
-Subcode: 🐂⌛➕🟡 (Fundamentals | Plus | Time | Fun)
-├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (slow, own each position)
-│  Set 1: 🐂 45% × 12 (grounding)
-│  Set 2: 🐂 50% × 12 (pattern lock)
-Rest: 75s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: 🐂⌛➕🟡 (Bread & Butter | Plus | Time | Fun)
 ├─ 11 ➕ Neck Flexion with Plate (Loaded) (explore, stay within constraints)
 │  Set 1: 🐂 60% × 11 (build set)
@@ -38,17 +31,23 @@ Subcode: 🐂⌛➕🟡 (Bread & Butter | Plus | Time | Fun)
 │  Set 3: 🐂 65% × 11 (repeat quality)
 Rest: 75s
 ═══
-## 4) 🧩 Supplemental
-Subcode: 🐂⌛➕🟡 (Supplemental | Plus | Time | Fun)
-├─ 13 ➕ Face Pull (Rope) (full range, different angle)
-│  Set 1: 🐂 55% × 13 (support volume)
-│  Set 2: 🐂 55% × 13 (non-redundant)
+## 3) 🌎 Exposure
+Subcode: 🐂⌛➕🟡 (Exposure | Plus | Time | Fun)
+├─ 11 ➕ Good Morning (Barbell) (try the unfamiliar version, explore the range)
+│  Set 1: 🐂 50% × 11 (discovery set)
 Rest: 60s
 ═══
-## 5) 🧬 Imprint
-Subcode: 🐂⌛➕🟡 (Imprint | Plus | Time | Fun)
-├─ 15 ➕ Neck Rotation (Bodyweight) (high rep, low load, neural memory)
-│  Set 1: 🐂 40% × 15 (lock the pattern)
+## 4) 🏖 Sandbox
+Subcode: 🐂⌛➕🟡 (Sandbox | Plus | Time | Fun)
+├─ 11 ➕ Neck Rotation (Bodyweight) (explore within constraints, choose your variation)
+│  Option A: 🐂 55% × 11 (play with grip, stance, or tempo)
+│  Option B: 🐂 55% × 11 (try a variation you have not used before)
+Rest: 60s
+═══
+## 5) 🪫 Release
+Subcode: 🐂⌛➕🟡 (Release | Plus | Time | Fun)
+├─ 12 ➕ Good Morning (Barbell) (smooth tempo, downshift)
+│  Set 1: 🐂 45% × 12 (deload)
 Rest: 60s
 ═══
 ## 6) 🚂 Junction
@@ -56,4 +55,4 @@ Rest: 60s
 - Next → 🐂⌛➕🟡 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The pattern owns the session. Add load only when positions are automatic.
+What felt unfamiliar today becomes familiar next session. Return to it.

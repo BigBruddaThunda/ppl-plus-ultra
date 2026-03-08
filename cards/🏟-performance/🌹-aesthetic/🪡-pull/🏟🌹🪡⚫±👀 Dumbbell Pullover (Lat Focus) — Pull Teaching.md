@@ -15,20 +15,20 @@ blocks: ♨️ 🪜 🧈 🚂
 
 **CODE:** 🏟🌹🪡⚫
 
-> "Test. Record. Leave. No junk volume after the attempt."
+> "Rehearse the test protocol. Know the standards before test day."
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: 🏟🌹🪡⚫ (Warm-Up | Pull | Aesthetic | Teaching)
-├─ 3 🪡 Cable Pullover (coached, check form before adding load)
+├─ 3 🪡 Wide-Grip Lat Pulldown (Teres Focus) (coached, check form before adding load)
 │  Set 1: 🏟 72% × 3 (pattern prep)
-Rest: 90s
+Rest: 135s
 ═══
-## 2) 🪜 Progression
-Subcode: 🏟🌹🪡⚫ (Progression | Pull | Aesthetic | Teaching)
-├─ 2 🪡 Dumbbell Pullover (Lat Focus) (ramp to test weight)
-│  Set 1: 🏟 77% × 3 (opener)
-│  Set 2: 🏟 87% × 2 (bridge)
-Rest: Full recovery
+## 2) 🛠 Craft
+Subcode: 🏟🌹🪡⚫ (Craft | Pull | Aesthetic | Teaching)
+├─ 2 🪡 Face Pull (Rope) (coach: check grip width, elbow angle, foot pressure)
+│  Set 1: 🏟 72% × 2 (practice the pattern, not the load)
+│  Set 2: 🏟 77% × 2 (same cues, slightly heavier)
+Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🌹🪡⚫ (Bread & Butter | Pull | Aesthetic | Teaching)
@@ -42,4 +42,4 @@ Rest: Full recovery
 - Next → 🏟🌹🪡⚫ — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Record the number. That is the session. Come back when recovered.
+Understand the test protocol. Next session is the real attempt.

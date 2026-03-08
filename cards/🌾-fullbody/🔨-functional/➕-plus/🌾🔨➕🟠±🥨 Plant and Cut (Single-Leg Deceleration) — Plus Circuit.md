@@ -15,22 +15,15 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🔨➕🟠
 
-> "Flow through the full body as one integrated pattern."
+> "Rotate through full-body stations. Every station moves a different chain."
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🌾🔨➕🟠 (Warm-Up | Plus | Functional | Circuit)
 ├─ 10 ➕ Single-Leg Hops Through Ladder (station rotation, keep moving)
 │  Set 1: 🌾 50% × 10 (pattern prep)
-Rest: 60s
+Rest: 30s
 ═══
-## 2) 🎼 Composition
-Subcode: 🌾🔨➕🟠 (Composition | Plus | Functional | Circuit)
-├─ 9 ➕ Partner Toss (Alternating) → Plant and Cut (Single-Leg Deceleration) (flow without reset)
-│  Set 1: 🌾 70% × 9 (unified pattern)
-│  Set 2: 🌾 70% × 9 (repeat flow)
-Rest: 60s
-═══
-## 3) 🎱 ARAM — Circuit Loop
+## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🌾🔨➕🟠 (ARAM | Plus | Functional | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
 │  Station 1: ➕ Plant and Cut (Single-Leg Deceleration) × 9 (station rotation, keep moving)
@@ -38,18 +31,18 @@ Subcode: 🌾🔨➕🟠 (ARAM | Plus | Functional | Circuit)
 │  Station 3: ➕ Partner Toss (Alternating) × 9 (station rotation, keep moving)
 │  Station 4: ➕ Half-Kneeling Cable Chop × 9 (station rotation, keep moving)
 │  Transition: 15s between stations
-│  Round rest: 60s
+│  Round rest: 30s
 Rest: 90s after final round
 ═══
-## 5) 🪫 Release
+## 3) 🪫 Release
 Subcode: 🌾🔨➕🟠 (Release | Plus | Functional | Circuit)
-├─ 12 ➕ Single-Arm Face Pull (smooth tempo, downshift)
-│  Set 1: 🌾 50% × 12 (deload)
-Rest: 45s
+├─ 10 ➕ Single-Leg Romanian Deadlift (smooth tempo, downshift)
+│  Set 1: 🌾 50% × 10 (deload)
+Rest: 30s
 ═══
-## 6) 🚂 Junction
+## 4) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🌾🔨➕🟠 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The flow is the measure. If movements disconnected, simplify next session.
+Full-body circuit hits every chain. Note which station caused the most fatigue.

@@ -15,7 +15,7 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🐬➖🟢
 
-> "Flow through the full body as one integrated pattern."
+> "Flow through the body using only what you carry. No equipment needed."
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: 🌾🐬➖🟢 (Warm-Up | Ultra | Partner | Bodyweight)
@@ -25,7 +25,7 @@ Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🐬➖🟢 (Composition | Ultra | Partner | Bodyweight)
-├─ 9 ➖ Single-Leg Jump Rope → Turkish Get-Up (Full) (flow without reset)
+├─ 9 ➖ Kettlebell Goblet Squat → Turkish Get-Up (Full) (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
@@ -40,15 +40,15 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🐬➖🟢 (Supplemental | Ultra | Partner | Bodyweight)
-├─ 11 ➖ Kettlebell Goblet Squat (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
+├─ 10 ➖ Turkish Get-Up (Full) (full range, different angle)
+│  Set 1: 🌾 60% × 10 (support volume)
+│  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🐬➖🟢 (Release | Ultra | Partner | Bodyweight)
-├─ 12 ➖ Turkish Get-Up (Full) (smooth tempo, downshift)
-│  Set 1: 🌾 50% × 12 (deload)
+├─ 10 ➖ Single-Foot In Each Box (Forward) (smooth tempo, downshift)
+│  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══
 ## 6) 🚂 Junction
@@ -56,4 +56,4 @@ Rest: 45s
 - Next → 🌾🐬➖🟢 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The flow is the measure. If movements disconnected, simplify next session.
+Flow at bodyweight reveals coordination. Log the movement quality.

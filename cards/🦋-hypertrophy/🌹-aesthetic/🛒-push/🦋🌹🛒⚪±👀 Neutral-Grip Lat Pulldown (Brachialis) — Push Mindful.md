@@ -15,51 +15,44 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 
 **CODE:** 🦋🌹🛒⚪
 
-> "Build tension through volume. Load serves the muscle, not the ego."
+> "Slow eccentrics under moderate load. Time under tension is the stimulus."
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: 🦋🌹🛒⚪ (Warm-Up | Push | Aesthetic | Mindful)
 ├─ 12 🛒 Dumbbell Chest Fly (4s eccentric, breath-paced)
 │  Set 1: 🦋 50% × 12 (pattern prep)
-Rest: 60s
+Rest: 120s
 ═══
-## 2) ▶️ Primer
-Subcode: 🦋🌹🛒⚪ (Primer | Push | Aesthetic | Mindful)
-├─ 10 🛒 Low-to-High Cable Fly (tight setup, crisp intent)
-│  Set 1: 🦋 60% × 10 (activation)
-Rest: 75s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: 🦋🌹🛒⚪ (Bread & Butter | Push | Aesthetic | Mindful)
 ├─ 10 🛒 Neutral-Grip Lat Pulldown (Brachialis) (4s eccentric, breath-paced)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
-Rest: 90s
+Rest: 180s
 ═══
-## 4) 🗿 Sculpt
-Subcode: 🦋🌹🛒⚪ (Sculpt | Push | Aesthetic | Mindful)
-├─ 12 🛒 Band Pull-Apart (Chest Opener) (angles, tension, volume)
-│  Set 1: 🦋 65% × 12 (shaping)
-│  Set 2: 🦋 65% × 12 (carving)
-Rest: 60s
-═══
-## 5) 🧩 Supplemental
+## 3) 🧩 Supplemental
 Subcode: 🦋🌹🛒⚪ (Supplemental | Push | Aesthetic | Mindful)
 ├─ 12 🛒 Band Pull-Apart (Chest Opener) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
-Rest: 60s
+Rest: 120s
 ═══
-## 6) 🪫 Release
+## 4) 🪫 Release
 Subcode: 🦋🌹🛒⚪ (Release | Push | Aesthetic | Mindful)
-├─ 12 🛒 Preacher Curl Machine (parasympathetic, tension down)
+├─ 12 🛒 Preacher Curl Machine (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🦋 50% × 12 (deload)
-Rest: 60s
+Rest: 120s
 ═══
-## 7) 🚂 Junction
+## 5) 🧬 Imprint
+Subcode: 🦋🌹🛒⚪ (Imprint | Push | Aesthetic | Mindful)
+├─ 12 🛒 Medicine Ball Chest Pass (high rep, low load, neural memory)
+│  Set 1: 🦋 45% × 12 (lock the pattern)
+Rest: 120s
+═══
+## 6) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🦋🌹🛒⚪ — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Track the pump and the tension. Volume drives growth; form keeps it honest.
+Slow eccentrics build tissue that fast reps miss. Trust the tempo.

@@ -9,98 +9,57 @@ type: ➖ Ultra | Cardiovascular system, conditioning
 color: 🔴 Intense
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➖ Sled Push — Ultra Intense ➖
 
-# ➖ Sled Push — High Volume Conditioning ➖
+## Strength Aesthetic — Ultra focus (Intense) · 50-65 min
 
-Strength aesthetic session | Engine, pacing, repeat output | 48-65 min
+**CODE:** ⛽🌹➖🔴
 
-CODE: ⛽🌹➖🔴
-
-> "Hold strong interval output while keeping pace mechanics clean from first effort to last."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🪢 plico
-
-Sub-block: ♨️➖🌹🔴 (Warm-Up | Ultra | Aesthetic | Intense)
-
-├─ 5 ➖ Treadmill Incline Walk (steady nasal breath)
-├─ 5 ➖ Jump Rope Intervals (1 minute on/off) (light contacts)
-└─ 5 ➖ Mountain Climber (smooth rhythm)
-
-Rest: 60 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➖🌹🔴 (Primer | Ultra | Aesthetic | Intense)
-
-├─ Set 1: ⛽ 55% × 6 efforts on Sled Push (Heavy) (find pace)
-├─ Set 2: ⛽ 65% × 5 efforts on Sled Push (Heavy) (steady split)
-└─ Set 3: ⛽ 72% × 4 efforts on Sled Push (Heavy) (hard but controlled)
-
-Rest: 2 min between efforts.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🪢 plico
-
-Sub-block: 🧈➖🌹🔴 (Bread & Butter | Ultra | Aesthetic | Intense)
-
-├─ 5 ➖ Sled Push (Heavy) (repeat hard, hold form)
-│  ├─ Set 1: ⛽ 75% × 5 efforts
-│  ├─ Set 2: ⛽ 78% × 5 efforts
-│  ├─ Set 3: ⛽ 82% × 4 efforts
-│  └─ Set 4: ⛽ 85% × 4 efforts
-└─ 4 ➖ Sled Sprint (Resisted) (same pace target)
-   ├─ Set 1: ⛽ 76% × 4 efforts
-   ├─ Set 2: ⛽ 78% × 4 efforts
-   └─ Set 3: ⛽ 80% × 4 efforts
-
-Rest: 3-4 min between efforts.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➖🌹🔴 (Supplemental | Ultra | Aesthetic | Intense)
-
-├─ 5 ➖ Assault Bike Sprints (10-30 seconds) (stay smooth under fatigue)
-│  ├─ Set 1: ⛽ 75% × 5 efforts
-│  ├─ Set 2: ⛽ 78% × 4 efforts
-│  └─ Set 3: ⛽ 80% × 4 efforts
-└─ 5 ➖ Rowing Sprints (250m) (finish each interval clean)
-   ├─ Set 1: ⛽ 74% × 5 efforts
-   ├─ Set 2: ⛽ 76% × 5 efforts
-   └─ Set 3: ⛽ 78% × 4 efforts
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫➖🌹🔴 (Release | Ultra | Aesthetic | Intense)
-
-- 5 minutes easy walk and downshift breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂➖🌹🔴 (Junction | Ultra | Aesthetic | Intense)
-
-Next → ⛽🌹🍗🔴 — leg strength day after engine demand.
-Next → ⛽🌹🪡🔴 — pull session restores posterior focus.
-Next → 🖼🌹➖⚪ — low-load recovery to keep CNS fresh.
-
-Log: pace ______ | best interval ______ | note ______
-
-═══════════════════════════════════════
-
+> "Push the ceiling. Every set should cost something real."
+═══
+## 1) ♨️ Warm-Up — 🪢 plico
+Subcode: ⛽🌹➖🔴 (Warm-Up | Ultra | Aesthetic | Intense)
+├─ 6 ➖ Scoop Toss (Low to High) (high effort, push the pace)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🌹➖🔴 (Primer | Ultra | Aesthetic | Intense)
+├─ 5 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 60s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🌹➖🔴 (Bread & Butter | Ultra | Aesthetic | Intense)
+├─ 5 ➖ Sled Push (high effort, push the pace)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 90s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🌹➖🔴 (Supplemental | Ultra | Aesthetic | Intense)
+├─ 6 ➖ Overhead Athlete Position (OAP) Drill (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 60s
+═══
+## 5) 🌋 Gutter
+Subcode: ⛽🌹➖🔴 (Gutter | Ultra | Aesthetic | Intense)
+├─ 6 ➖ Partner Toss (Alternating) (all-out, leave nothing in reserve)
+│  Set 1: ⛽ 65% × 6 (push to form break)
+│  Set 2: ⛽ 65% × AMRAP (final effort)
+Rest: 45s
+═══
+## 6) 🪫 Release
+Subcode: ⛽🌹➖🔴 (Release | Ultra | Aesthetic | Intense)
+├─ 6 ➖ Partner Toss (Alternating) (stress out, cathartic discharge)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 7) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹➖🔴 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Engine strength is repeatability under fatigue. Keep interval quality and breathing control stable before progressing speed or resistance.
+Record peak effort. Recovery before next heavy session.

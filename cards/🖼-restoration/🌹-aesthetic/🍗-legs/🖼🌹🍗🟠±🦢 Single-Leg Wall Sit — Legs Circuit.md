@@ -15,19 +15,13 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 **CODE:** 🖼🌹🍗🟠
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Rotate through restoration stations. Each one addresses a different tissue."
 ═══
 ## 1) 🎯 Intention
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Rotate through restoration stations. Each one addresses a different tissue."
 ═══
-## 2) 🪫 Release
-Subcode: 🖼🌹🍗🟠 (Release | Legs | Aesthetic | Circuit)
-├─ 12 🍗 Single-Leg Curl (Lying) (parasympathetic, tension down)
-│  Set 1: 🖼 40% × 12 (deload)
-Rest: 60s
-═══
-## 3) 🎱 ARAM — Circuit Loop
+## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🖼🌹🍗🟠 (ARAM | Legs | Aesthetic | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
 │  Station 1: 🍗 Single-Leg Wall Sit × 13 (station rotation, keep moving)
@@ -35,18 +29,18 @@ Subcode: 🖼🌹🍗🟠 (ARAM | Legs | Aesthetic | Circuit)
 │  Station 3: 🍗 Single-Leg Extension × 13 (station rotation, keep moving)
 │  Station 4: 🍗 Single-Leg Good Morning × 13 (station rotation, keep moving)
 │  Transition: 15s between stations
-│  Round rest: 60s
+│  Round rest: 30s
 Rest: 90s after final round
 ═══
-## 4) 🧬 Imprint
-Subcode: 🖼🌹🍗🟠 (Imprint | Legs | Aesthetic | Circuit)
-├─ 17 🍗 Step-Down (Eccentric) (high rep, low load, neural memory)
-│  Set 1: 🖼 35% × 17 (lock the pattern)
-Rest: 60s
+## 3) 🪫 Release
+Subcode: 🖼🌹🍗🟠 (Release | Legs | Aesthetic | Circuit)
+├─ 12 🍗 Single-Leg Curl (Lying) (parasympathetic, tension down, 4s eccentric)
+│  Set 1: 🖼 40% × 12 (deload)
+Rest: 30s
 ═══
-## 5) 🚂 Junction
+## 4) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🖼🌹🍗🟠 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Notice what released. Carry that awareness into the next 24 hours.
+Each restoration station addressed a different tissue. Note what released.

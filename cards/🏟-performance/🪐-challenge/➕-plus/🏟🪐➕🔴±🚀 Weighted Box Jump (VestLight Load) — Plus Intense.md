@@ -15,13 +15,13 @@ blocks: ♨️ 🪜 🧈 🚂
 
 **CODE:** 🏟🪐➕🔴
 
-> "Test. Record. Leave. No junk volume after the attempt."
+> "All-out effort. Leave everything on the platform."
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🏟🪐➕🔴 (Warm-Up | Plus | Challenge | Intense)
-├─ 3 ➕ Box Jump (high effort, push the pace)
+├─ 3 ➕ Push Jerk (high effort, push the pace)
 │  Set 1: 🏟 72% × 3 (pattern prep)
-Rest: 90s
+Rest: 45s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🪐➕🔴 (Progression | Plus | Challenge | Intense)
@@ -42,4 +42,4 @@ Rest: Full recovery
 - Next → 🏟🪐➕🔴 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Record the number. That is the session. Come back when recovered.
+The test is complete. Recovery is the next priority.

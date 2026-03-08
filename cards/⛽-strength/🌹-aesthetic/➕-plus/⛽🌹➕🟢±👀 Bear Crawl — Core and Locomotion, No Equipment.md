@@ -9,98 +9,50 @@ type: ➕ Plus | Full body power, core, carries
 color: 🟢 Bodyweight
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➕ Bear Crawl — Plus Bodyweight ➕
 
-# ➕ Bear Crawl — Core and Locomotion, No Equipment ➕
+## Strength Aesthetic — Plus focus (Bodyweight) · 50-65 min
 
-Strength aesthetic session | Core, power, integrated output | 52-68 min
+**CODE:** ⛽🌹➕🟢
 
-CODE: ⛽🌹➕🟢
-
-> "Hit each rep with force, then own the position so power and control stay linked."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 👀 specio
-
-Sub-block: ♨️➕🌹🟢 (Warm-Up | Plus | Aesthetic | Bodyweight)
-
-├─ 6 ➕ Dead Bug (long exhale)
-├─ 6 ➕ Bear Crawl (short controlled steps)
-└─ 6 ➕ Plank with Shoulder Tap (hips stay square)
-
-Rest: 60 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➕🌹🟢 (Primer | Plus | Aesthetic | Bodyweight)
-
-├─ Set 1: ⛽ 55% × 6 on Bear Crawl (own setup)
-├─ Set 2: ⛽ 65% × 5 on Bear Crawl (stay crisp)
-└─ Set 3: ⛽ 72% × 4 on Bear Crawl (power with control)
-
-Rest: 2 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 👀 specio
-
-Sub-block: 🧈➕🌹🟢 (Bread & Butter | Plus | Aesthetic | Bodyweight)
-
-├─ 5 ➕ Bear Crawl (explosive up, controlled down)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 5
-│  ├─ Set 3: ⛽ 82% × 4
-│  └─ Set 4: ⛽ 85% × 4
-└─ 4 ➕ Mountain Climber (brace before move)
-   ├─ Set 1: ⛽ 76% × 4
-   ├─ Set 2: ⛽ 78% × 4
-   └─ Set 3: ⛽ 80% × 4
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➕🌹🟢 (Supplemental | Plus | Aesthetic | Bodyweight)
-
-├─ 5 ➕ Plank (Standard) (ribs down, brace hard)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 4
-│  └─ Set 3: ⛽ 80% × 4
-└─ 5 ➕ Dead Bug (own each step or rep)
-   ├─ Set 1: ⛽ 74% × 5
-   ├─ Set 2: ⛽ 76% × 5
-   └─ Set 3: ⛽ 78% × 4
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫➕🌹🟢 (Release | Plus | Aesthetic | Bodyweight)
-
-- 60 sec easy breathing, full exhale each round.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂➕🌹🟢 (Junction | Plus | Aesthetic | Bodyweight)
-
-Next → ⛽🌹🍗🟢 — leg emphasis builds carryover force.
-Next → ⛽🌹🪡🟢 — posterior chain pull balances trunk demand.
-Next → ⛽🌹➖🟢 — engine intervals stress the same brace under fatigue.
-
-Log: top load ______ | clean reps ______ | note ______
-
-═══════════════════════════════════════
-
+> "Prove the pattern holds without external load. Bodyweight is the test."
+═══
+## 1) ♨️ Warm-Up — 👀 specio
+Subcode: ⛽🌹➕🟢 (Warm-Up | Plus | Aesthetic | Bodyweight)
+├─ 6 ➕ Aquaman (Alternating Superman) (bodyweight, no external load needed)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🌹➕🟢 (Primer | Plus | Aesthetic | Bodyweight)
+├─ 5 ➕ Wide-Grip Lat Pulldown (Teres Focus) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 120s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🌹➕🟢 (Bread & Butter | Plus | Aesthetic | Bodyweight)
+├─ 5 ➕ Bear Crawl (bodyweight, no external load needed)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🌹➕🟢 (Supplemental | Plus | Aesthetic | Bodyweight)
+├─ 6 ➕ Good Morning (Barbell) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🌹➕🟢 (Release | Plus | Aesthetic | Bodyweight)
+├─ 6 ➕ Half-Kneeling Cable Chop (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹➕🟢 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Plus strength quality is force plus position. If output climbs while posture stays clean, keep the progression line.
+Bodyweight strength is the transfer test. If it held, the gym work is real.

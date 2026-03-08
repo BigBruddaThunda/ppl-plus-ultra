@@ -9,99 +9,57 @@ type: ➖ Ultra | Partner-context strength emphasis
 color: 🔴 Intense | Partner deployment logic
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➖ Heavy Bag Work (Combinations) — Ultra Intense ➖
 
-# ➖ Heavy Bag Work (Combinations) — Engine Output High Volume ➖
+## Strength Partner — Ultra focus (Intense) · 50-65 min
 
-Partner strength conditioning | Engine and repeat power | 45-60 min
+**CODE:** ⛽🐬➖🔴
 
-CODE: ⛽🐬➖🔴
-
-> "Trade roles every set: one athlete lifts heavy while one partner protects quality and pace."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🦉 logos — align roles before the first heavy set
-
-Sub-block: ♨️➖🐬🔴 (Warm-Up | Ultra | Partner | Intense)
-
-- ➖ Dynamic prep drill (talk through setup)
-- ➖ Pattern rehearsal rep (partner mirrors tempo)
-- ➖ Ramp rep with light load (switch roles each round)
-
-Rest: 60-90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➖🐬🔴 (Primer | Ultra | Partner | Intense)
-
-- Set 1: ⛽ 60% × 5 (partner cues brace and path)
-- Set 2: ⛽ 68% × 4 (swap lifter and spotter)
-- Set 3: ⛽ 72% × 3 (final neural wake-up)
-
-Rest: 2 min between primer sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-Primary Pattern: **Heavy Bag Work (Combinations)**
-
-🦉 logos — partner-governed heavy work
-
-Sub-block: 🧈➖🐬🔴 (Bread & Butter | Ultra | Partner | Intense)
-
-- 5 ➖ Heavy Bag Work (Combinations) (partner setup check)
-- ➖ Secondary partner variation (same muscle focus)
-- ➖ Assisted or resisted finisher (quality over speed)
-
-├─ Set 1: ⛽ 75% × 5 (find synchronized rhythm)
-├─ Set 2: ⛽ 80% × 5 (partner spot and cue)
-├─ Set 3: ⛽ 82% × 4 (keep form under strain)
-│  Set 4: ⛽ 78% × 6 (clean back-off volume)
-
-Rest: 3-4 min between heavy sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➖🐬🔴 (Supplemental | Ultra | Partner | Intense)
-
-- ➖ Accessory A (partner-resisted final reps)
-- ➖ Accessory B (alternating side emphasis)
-- ➖ Accessory C (partner count and quality audit)
-
-Rest: 2-3 min between rounds.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-- 90 sec unloaded mobility reset (partner guides range)
-- 60 sec breathing downshift (one leads cadence)
-- 5 slow breaths each side (switch coaching role)
-
-Rest: move continuously.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Log:
-- Top load and reps: __________
-- Best partner cue today: __________
-- Missed rep cause: __________
-
-Next → ⛽🐬➖🔴 — repeat with cleaner handoffs and tighter cues
-Next → ⛽🐬➖🔵 — hold structure and add 2.5-5% if quality stays high
-Next → ⚖🐬➖⚪ — deload with partner tempo control and asymmetry cleanup
-
-═══════════════════════════════════════
-
+> "Push the ceiling. Every set should cost something real."
+═══
+## 1) ♨️ Warm-Up — 🦉 logos
+Subcode: ⛽🐬➖🔴 (Warm-Up | Ultra | Partner | Intense)
+├─ 6 ➖ Partner Toss (Alternating) (high effort, push the pace)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🐬➖🔴 (Primer | Ultra | Partner | Intense)
+├─ 5 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 60s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🐬➖🔴 (Bread & Butter | Ultra | Partner | Intense)
+├─ 5 ➖ Heavy Bag Work (Combinations) (high effort, push the pace)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 90s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🐬➖🔴 (Supplemental | Ultra | Partner | Intense)
+├─ 6 ➖ Plant and Cut (Single-Leg Deceleration) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 60s
+═══
+## 5) 🌋 Gutter
+Subcode: ⛽🐬➖🔴 (Gutter | Ultra | Partner | Intense)
+├─ 6 ➖ Layup Approach (Single-Leg Power) (all-out, leave nothing in reserve)
+│  Set 1: ⛽ 65% × 6 (push to form break)
+│  Set 2: ⛽ 65% × AMRAP (final effort)
+Rest: 45s
+═══
+## 6) 🪫 Release
+Subcode: ⛽🐬➖🔴 (Release | Ultra | Partner | Intense)
+├─ 6 ➖ Layup Approach (Single-Leg Power) (stress out, cathartic discharge)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 7) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🐬➖🔴 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Shared strength only works when both jobs are precise. Keep the same cue language next session so load can rise without losing mechanics.
+Record peak effort. Recovery before next heavy session.

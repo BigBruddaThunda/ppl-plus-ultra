@@ -15,15 +15,15 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 **CODE:** 🖼🔨➖🔵
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Follow the restoration sequence as prescribed. Each position has a purpose."
 ═══
 ## 1) 🎯 Intention
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Follow the restoration sequence as prescribed. Each position has a purpose."
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🔨➖🔵 (Release | Ultra | Functional | Structured)
-├─ 12 ➖ Half Turkish Get-Up (To Elbow) (parasympathetic, tension down)
+├─ 12 ➖ Kettlebell Goblet Squat (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
@@ -36,8 +36,8 @@ Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🔨➖🔵 (Imprint | Ultra | Functional | Structured)
-├─ 17 ➖ Kettlebell Goblet Squat (high rep, low load, neural memory)
-│  Set 1: 🖼 35% × 17 (lock the pattern)
+├─ 15 ➖ Kettlebell Goblet Squat (high rep, low load, neural memory)
+│  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══
 ## 5) 🚂 Junction
@@ -45,4 +45,4 @@ Rest: 60s
 - Next → 🖼🔨➖🔵 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Notice what released. Carry that awareness into the next 24 hours.
+Follow the restoration protocol consistently. Recovery compounds.

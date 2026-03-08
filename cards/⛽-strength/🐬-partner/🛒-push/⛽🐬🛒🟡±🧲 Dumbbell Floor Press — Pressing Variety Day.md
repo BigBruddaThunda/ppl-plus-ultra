@@ -9,99 +9,50 @@ type: 🛒 Push | Partner-context strength emphasis
 color: 🟡 Fun | Partner deployment logic
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🛒 Dumbbell Floor Press — Push Fun 🛒
 
-# 🛒 Dumbbell Floor Press — Pressing Variety Day 🛒
+## Strength Partner — Push focus (Fun) · 50-65 min
 
-Partner strength session | Chest, shoulders, triceps | 55-70 min
+**CODE:** ⛽🐬🛒🟡
 
-CODE: ⛽🐬🛒🟡
-
-> "Trade roles every set: one athlete lifts heavy while one partner protects quality and pace."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🧲 capio — align roles before the first heavy set
-
-Sub-block: ♨️🛒🐬🟡 (Warm-Up | Push | Partner | Fun)
-
-- 🛒 Dynamic prep drill (talk through setup)
-- 🛒 Pattern rehearsal rep (partner mirrors tempo)
-- 🛒 Ramp rep with light load (switch roles each round)
-
-Rest: 60-90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🛒🐬🟡 (Primer | Push | Partner | Fun)
-
-- Set 1: ⛽ 60% × 5 (partner cues brace and path)
-- Set 2: ⛽ 68% × 4 (swap lifter and spotter)
-- Set 3: ⛽ 72% × 3 (final neural wake-up)
-
-Rest: 2 min between primer sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-Primary Pattern: **Dumbbell Floor Press**
-
-🧲 capio — partner-governed heavy work
-
-Sub-block: 🧈🛒🐬🟡 (Bread & Butter | Push | Partner | Fun)
-
-- 5 🛒 Dumbbell Floor Press (partner setup check)
-- 🛒 Secondary partner variation (same muscle focus)
-- 🛒 Assisted or resisted finisher (quality over speed)
-
-├─ Set 1: ⛽ 75% × 5 (find synchronized rhythm)
-├─ Set 2: ⛽ 80% × 5 (partner spot and cue)
-├─ Set 3: ⛽ 82% × 4 (keep form under strain)
-│  Set 4: ⛽ 78% × 6 (clean back-off volume)
-
-Rest: 3-4 min between heavy sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🛒🐬🟡 (Supplemental | Push | Partner | Fun)
-
-- 🛒 Accessory A (partner-resisted final reps)
-- 🛒 Accessory B (alternating side emphasis)
-- 🛒 Accessory C (partner count and quality audit)
-
-Rest: 2-3 min between rounds.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-- 90 sec unloaded mobility reset (partner guides range)
-- 60 sec breathing downshift (one leads cadence)
-- 5 slow breaths each side (switch coaching role)
-
-Rest: move continuously.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Log:
-- Top load and reps: __________
-- Best partner cue today: __________
-- Missed rep cause: __________
-
-Next → ⛽🐬🛒🟡 — repeat with cleaner handoffs and tighter cues
-Next → ⛽🐬🛒🔵 — hold structure and add 2.5-5% if quality stays high
-Next → ⚖🐬🛒⚪ — deload with partner tempo control and asymmetry cleanup
-
-═══════════════════════════════════════
-
+> "Find a movement you have not tried at this load and own it."
+═══
+## 1) ♨️ Warm-Up — 🧲 capio
+Subcode: ⛽🐬🛒🟡 (Warm-Up | Push | Partner | Fun)
+├─ 6 🛒 Incline Barbell Bench Press (30°) (explore, stay within constraints)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽🐬🛒🟡 (Bread & Butter | Push | Partner | Fun)
+├─ 5 🛒 Dumbbell Floor Press (explore, stay within constraints)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 3) 🌎 Exposure
+Subcode: ⛽🐬🛒🟡 (Exposure | Push | Partner | Fun)
+├─ 5 🛒 Plyometric Push-Up (Hands Leave Ground) (try the unfamiliar version, explore the range)
+│  Set 1: ⛽ 65% × 5 (discovery set)
+Rest: 120s
+═══
+## 4) 🏖 Sandbox
+Subcode: ⛽🐬🛒🟡 (Sandbox | Push | Partner | Fun)
+├─ 5 🛒 Diamond Push-Up (Close-Grip) (explore within constraints, choose your variation)
+│  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
+│  Option B: ⛽ 70% × 5 (try a variation you have not used before)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🐬🛒🟡 (Release | Push | Partner | Fun)
+├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🐬🛒🟡 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Shared strength only works when both jobs are precise. Keep the same cue language next session so load can rise without losing mechanics.
+Note what you tried and what surprised you. Build on it next session.

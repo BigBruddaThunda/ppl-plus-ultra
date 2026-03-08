@@ -15,20 +15,19 @@ blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 
 **CODE:** 🐂🪐➕🟣
 
-> "Learn the pattern at sub-maximal load. Own the positions before adding weight."
+> "Quality of position matters more than speed of completion."
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🐂🪐➕🟣 (Warm-Up | Plus | Challenge | Technical)
 ├─ 12 ➕ Zercher Carry (precision, quality over volume)
 │  Set 1: 🐂 45% × 12 (pattern prep)
-Rest: 60s
+Rest: 90s
 ═══
-## 2) 🔢 Fundamentals
-Subcode: 🐂🪐➕🟣 (Fundamentals | Plus | Challenge | Technical)
-├─ 12 ➕ Pull-Up (Overhand Grip) (slow, own each position)
-│  Set 1: 🐂 45% × 12 (grounding)
-│  Set 2: 🐂 50% × 12 (pattern lock)
-Rest: 75s
+## 2) ▶️ Primer
+Subcode: 🐂🪐➕🟣 (Primer | Plus | Challenge | Technical)
+├─ 11 ➕ Pull-Up (Overhand Grip) (tight setup, crisp intent)
+│  Set 1: 🐂 55% × 11 (activation)
+Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🪐➕🟣 (Bread & Butter | Plus | Challenge | Technical)
@@ -36,24 +35,24 @@ Subcode: 🐂🪐➕🟣 (Bread & Butter | Plus | Challenge | Technical)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
-Rest: 75s
+Rest: 112s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🪐➕🟣 (Supplemental | Plus | Challenge | Technical)
 ├─ 13 ➕ Bent-Over Barbell Row (Overhand) (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
-Rest: 60s
+Rest: 90s
 ═══
-## 5) 🧬 Imprint
-Subcode: 🐂🪐➕🟣 (Imprint | Plus | Challenge | Technical)
-├─ 15 ➕ Landmine Press (Anti-Rotation) (high rep, low load, neural memory)
-│  Set 1: 🐂 40% × 15 (lock the pattern)
-Rest: 60s
+## 5) 🪫 Release
+Subcode: 🐂🪐➕🟣 (Release | Plus | Challenge | Technical)
+├─ 12 ➕ Rotational Medicine Ball Throw (smooth tempo, downshift)
+│  Set 1: 🐂 45% × 12 (deload)
+Rest: 90s
 ═══
 ## 6) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🐂🪐➕🟣 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The pattern owns the session. Add load only when positions are automatic.
+Note which positions felt uncertain. Those are your next session's priority.

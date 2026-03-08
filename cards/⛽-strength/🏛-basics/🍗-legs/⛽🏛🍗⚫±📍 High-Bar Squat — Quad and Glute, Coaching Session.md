@@ -1,7 +1,7 @@
 ---
 zip: ⛽🏛🍗⚫
 operator: 📍 pono
-status: GENERATED-V2
+status: GENERATED
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -9,113 +9,51 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: ⚫ Teaching | Tier 2–3 | GOLD: No | Extra rest. Coaching cues. Comprehension over exertion.
 blocks: ♨️ → 🛠 → 🧈 → 🧩 → 🚂 → 🧮
 ---
+# 🍗 High-Bar Squat — Legs Teaching 🍗
 
-# 🍗 High-Bar Squat — Quad and Glute, Coaching Session 🍗
+## Strength Basics — Legs focus (Teaching) · 50-65 min
 
-Coached barbell legs | Quads, glutes, hamstrings | 70–80 min
+**CODE:** ⛽🏛🍗⚫
 
-CODE: ⛽🏛🍗⚫
-
-> "Learn the squat before you load the squat — today you do both."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-📍 pono — set the pattern before the bar touches your back
-
-- 10 Deep Squat Hold (ATG) (sink, breathe, own the bottom)
-- 10/side World's Greatest Stretch
-- 10 Hip CARs (slow, feel the range)
-- 10 Leg Swings (Forward/Back)
-- 10 Air Squat (knees track toes, hips below parallel)
-
-═══════════════════════════════════════
-
-## 2. 🛠 CRAFT
-
-📍 pono — position is the product here. Load stays at 40–55%. Every rep gets a cue.
-
-Rest: unlimited between teaching sets.
-
-**Five setup points for the back squat:**
-
-1. Bar position — high-bar on traps, not neck
-2. Grip width — narrow enough to create upper back tension
-3. Brace — 360-degree pressure before descent, not during
-4. Descent — hips back and down, not just down
-5. Drive — chest up out of the hole, not hips first
-
-Run 3 teaching sets × 4 reps at 45–55%:
-- Set 1: setup points 1–3 (bar position, grip, brace)
-- Set 2: depth check — hips crease below top of knee
-- Set 3: drive phase — knees out, chest leads
-
-After each set: name which setup point broke. Correct it.
-
-Also: 2 sets of Bent-Over Row (55%, 5 reps) — the hinge pattern that will carry into RDL later.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-📍 pono — apply the setup under working load
-
-Rest: 4 min between all sets.
-
-**🍗 Back Squat (High Bar)**
-
-- Set 1: 77% × 5 (brace, hips back, chest up, drive floor)
-- Set 2: 80% × 5 (same pattern — do not change what worked)
-- Set 3: 80% × 5 (if depth breaks, the weight is too heavy)
-- Set 4: 82% × 4 (stay over the bar, not behind it)
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-📍 pono — posterior chain complement to the squat
-
-Rest: 3 min
-
-**🍗 Romanian Deadlift**
-
-- Set 1: 75% × 5 (hinge at hip, not bend at waist — different thing)
-- Set 2: 78% × 5 (bar drags the legs, not swings away)
-- Set 3: 78% × 5 (feel the hamstring load before the bottom)
-
-═══════════════════════════════════════
-
-## 5. 🚂 JUNCTION
-
-Cross-Junction map (current zip at center):
-
-```text
-               ↑ ⛽⌛➕🔵
-                    (convert force into full-body power with timed structure)
-
-← ⛽🏛🛒🔵   •   ⛽🏛🍗⚫   → ⛽🏛🪡🔵
-  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
-
-               ↓ ⛽🏛➖🔵
-                    (build repeatable engine capacity under strength intent)
-```
-
-```
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-Readiness next session (1–5): _________
-```
-
-Next →
-- ⛽⌛➕🔵 — convert force into full-body power with timed structure
-- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
-- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
-- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
-
-═══════════════════════════════════════
-
+> "Learn where the bar sits and how it moves before adding plates."
+═══
+## 1) ♨️ Warm-Up — 📍 pono
+Subcode: ⛽🏛🍗⚫ (Warm-Up | Legs | Basics | Teaching)
+├─ 6 🍗 Deep Squat Hold (Ankle Mobility) (coached, check form before adding load)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 135s
+═══
+## 2) 🛠 Craft
+Subcode: ⛽🏛🍗⚫ (Craft | Legs | Basics | Teaching)
+├─ 5 🍗 Leg Press Calf Raise (coach: check grip width, elbow angle, foot pressure)
+│  Set 1: ⛽ 60% × 5 (practice the pattern, not the load)
+│  Set 2: ⛽ 65% × 5 (same cues, slightly heavier)
+Rest: 180s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🏛🍗⚫ (Bread & Butter | Legs | Basics | Teaching)
+├─ 5 🍗 High-Bar Squat (coached, check form before adding load)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 270s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🏛🍗⚫ (Supplemental | Legs | Basics | Teaching)
+├─ 6 🍗 Walking Lunge (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 180s
+═══
+## 5) 🧬 Imprint
+Subcode: ⛽🏛🍗⚫ (Imprint | Legs | Basics | Teaching)
+├─ 6 🍗 Conventional Deadlift (high rep, low load, neural memory)
+│  Set 1: ⛽ 55% × 6 (lock the pattern)
+Rest: 180s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🏛🍗⚫ — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The squat is not complicated — but it is unforgiving of shortcuts. Every cue absorbed today compounds over years of training. Log what clicked. Return to this card when load or technique breaks down.
+Note the coaching cues that changed the movement. Build from those.

@@ -15,7 +15,7 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 
 **CODE:** 🦋🌹🛒🟢
 
-> "Build tension through volume. Load serves the muscle, not the ego."
+> "Build the muscle with what you have. No equipment is not an excuse."
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: 🦋🌹🛒🟢 (Warm-Up | Push | Aesthetic | Bodyweight)
@@ -62,4 +62,4 @@ Rest: 60s
 - Next → 🦋🌹🛒🟢 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Track the pump and the tension. Volume drives growth; form keeps it honest.
+Bodyweight hypertrophy works when tempo and volume are honest. Log both.

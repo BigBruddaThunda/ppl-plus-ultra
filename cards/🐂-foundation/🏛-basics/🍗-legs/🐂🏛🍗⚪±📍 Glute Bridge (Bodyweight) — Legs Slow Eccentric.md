@@ -10,98 +10,50 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: ⚪ Slow Eccentric | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
+# 🍗 Glute Bridge (Bodyweight) — Legs Mindful 🍗
 
-# 🍗 Glute Bridge (Bodyweight) — Legs Slow Eccentric 🍗
+## Foundation Basics — Legs focus (Mindful) · 40-50 min
 
-Foundation basics session | Quads, hamstrings, glutes, calves | 45-55 min
+**CODE:** 🐂🏛🍗⚪
 
-CODE: 🐂🏛🍗⚪
-
-> "Own every rep shape before adding load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-📍 pono — arrive and groove baseline patterns.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🍗⚪ (Warm-Up | Legs | Basics | Tier-safe)
-
-├─ 8 🍗 Bodyweight Squat (find stance and depth)
-├─ 8 🍗 Dead Bug (brace before moving)
-└─ 10 🍗 Jump Rope (light rhythm, easy breath)
-
-═══════════════════════════════════════
-
-## 2. 🔢 FUNDAMENTALS
-
-📍 pono — pattern rehearsal under control.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🍗⚪ (Fundamentals | Legs | Basics | Foundational load)
-
-├─ 10 🍗 Goblet Squat (sit between hips, chest tall)
-├─ 10 🍗 Band Row (pull elbows to pockets)
-└─ 10 🍗 Standard Push-Up (lock body line)
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-📍 pono — main pattern volume at ≤65% effort.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🍗⚪ (Bread & Butter | Legs | Basics | Primary pattern)
-
-├─ 12 🍗 Glute Bridge (Bodyweight) (clean setup, own the full range)
-│  Set 1: 🐂 55% × 12 (pattern first)
-│  Set 2: 🐂 60% × 10 (same groove)
-│  Set 3: 🐂 65% × 8 (no grind reps)
-└─ 10 🍗 Glute Bridge (Bodyweight) (lock ribs down)
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🍗⚪ (Supplemental | Legs | Basics | Support work)
-
-├─ 10 🍗 Romanian Deadlift (RDL) (hips back, long spine)
-└─ 12 🍗 Split Squat (Rear Foot Flat) (vertical torso)
-
-═══════════════════════════════════════
-
-## 5. 🧬 IMPRINT
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🍗⚪ (Imprint | Legs | Basics | Repeatable form)
-
-└─ 15 🍗 Bodyweight Squat (smooth depth and stance)
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛🍗⚪ (Junction | Legs | Basics | Next-step routing)
-
-Next → 🐂🏛🍗🔵 — repeat the same movement family with tighter set tracking.
-Next → 🐂🔨🍗⚪ — keep foundation loading and add unilateral bias.
-Next → 🖼🏛➖⚪ — downshift into restoration pacing when recovery is low.
-
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-
-═══════════════════════════════════════
-
+> "Slow the pattern down until you can feel every joint in the chain."
+═══
+## 1) ♨️ Warm-Up — 📍 pono
+Subcode: 🐂🏛🍗⚪ (Warm-Up | Legs | Basics | Mindful)
+├─ 12 🍗 Deep Squat Hold (Ankle Mobility) (4s eccentric, breath-paced)
+│  Set 1: 🐂 45% × 12 (pattern prep)
+Rest: 120s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: 🐂🏛🍗⚪ (Bread & Butter | Legs | Basics | Mindful)
+├─ 11 🍗 Glute Bridge (Bodyweight) (4s eccentric, breath-paced)
+│  Set 1: 🐂 60% × 11 (build set)
+│  Set 2: 🐂 65% × 11 (working set)
+│  Set 3: 🐂 65% × 11 (repeat quality)
+Rest: 150s
+═══
+## 3) 🧩 Supplemental
+Subcode: 🐂🏛🍗⚪ (Supplemental | Legs | Basics | Mindful)
+├─ 13 🍗 Walking Lunge (full range, different angle)
+│  Set 1: 🐂 55% × 13 (support volume)
+│  Set 2: 🐂 55% × 13 (non-redundant)
+Rest: 120s
+═══
+## 4) 🪫 Release
+Subcode: 🐂🏛🍗⚪ (Release | Legs | Basics | Mindful)
+├─ 12 🍗 Spanish Squat (Banded VMO) (parasympathetic, tension down, 4s eccentric)
+│  Set 1: 🐂 45% × 12 (deload)
+Rest: 120s
+═══
+## 5) 🧬 Imprint
+Subcode: 🐂🏛🍗⚪ (Imprint | Legs | Basics | Mindful)
+├─ 15 🍗 Conventional Deadlift (high rep, low load, neural memory)
+│  Set 1: 🐂 40% × 15 (lock the pattern)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → 🐂🏛🍗⚪ — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Keep this card until positions feel automatic under the current ceiling. Foundation is where durable technique gets locked in.
+Slow tempo teaches the nervous system. Carry that awareness forward.

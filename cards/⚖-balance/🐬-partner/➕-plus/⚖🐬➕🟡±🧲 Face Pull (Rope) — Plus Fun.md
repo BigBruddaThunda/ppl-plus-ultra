@@ -15,22 +15,15 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 
 **CODE:** ⚖🐬➕🟡
 
-> "Find the weak link and spend time on it. Correction is the session."
+> "Explore movements that challenge your weakest positions."
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: ⚖🐬➕🟡 (Warm-Up | Plus | Partner | Fun)
-├─ 12 ➕ Single-Arm Face Pull (explore, stay within constraints)
+├─ 12 ➕ Aquaman (Alternating Superman) (explore, stay within constraints)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
-## 2) 🏗 Reformance
-Subcode: ⚖🐬➕🟡 (Reformance | Plus | Partner | Fun)
-├─ 11 ➕ Aquaman (Alternating Superman) (corrective, address the weak link)
-│  Set 1: ⚖ 50% × 13 (prehab)
-│  Set 2: ⚖ 55% × 11 (stability)
-Rest: 75s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: ⚖🐬➕🟡 (Bread & Butter | Plus | Partner | Fun)
 ├─ 11 ➕ Face Pull (Rope) (explore, stay within constraints)
 │  Set 1: ⚖ 65% × 11 (build set)
@@ -38,16 +31,22 @@ Subcode: ⚖🐬➕🟡 (Bread & Butter | Plus | Partner | Fun)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
 Rest: 90s
 ═══
-## 4) 🧩 Supplemental
-Subcode: ⚖🐬➕🟡 (Supplemental | Plus | Partner | Fun)
-├─ 13 ➕ Half-Kneeling Cable Chop (full range, different angle)
-│  Set 1: ⚖ 60% × 13 (support volume)
-│  Set 2: ⚖ 60% × 13 (non-redundant)
+## 3) 🌎 Exposure
+Subcode: ⚖🐬➕🟡 (Exposure | Plus | Partner | Fun)
+├─ 11 ➕ Good Morning (Barbell) (try the unfamiliar version, explore the range)
+│  Set 1: ⚖ 55% × 11 (discovery set)
+Rest: 75s
+═══
+## 4) 🏖 Sandbox
+Subcode: ⚖🐬➕🟡 (Sandbox | Plus | Partner | Fun)
+├─ 11 ➕ Face Pull (Rope) (explore within constraints, choose your variation)
+│  Option A: ⚖ 60% × 11 (play with grip, stance, or tempo)
+│  Option B: ⚖ 60% × 11 (try a variation you have not used before)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🐬➕🟡 (Release | Plus | Partner | Fun)
-├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (smooth tempo, downshift)
+├─ 12 ➕ Good Morning (Barbell) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══
@@ -56,4 +55,4 @@ Rest: 75s
 - Next → ⚖🐬➕🟡 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The correction is the progress. Symmetry before load, always.
+Exploring weak positions teaches the body new ranges. Track the discovery.

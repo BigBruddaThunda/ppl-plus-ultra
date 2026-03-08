@@ -15,7 +15,7 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 
 **CODE:** 🦋🪐🛒🟡
 
-> "Build tension through volume. Load serves the muscle, not the ego."
+> "Try exercises you would not normally pick. Variety stimulates growth."
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🦋🪐🛒🟡 (Warm-Up | Push | Challenge | Fun)
@@ -23,13 +23,7 @@ Subcode: 🦋🪐🛒🟡 (Warm-Up | Push | Challenge | Fun)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
-## 2) ▶️ Primer
-Subcode: 🦋🪐🛒🟡 (Primer | Push | Challenge | Fun)
-├─ 10 🛒 Dumbbell Chest Fly (tight setup, crisp intent)
-│  Set 1: 🦋 60% × 10 (activation)
-Rest: 75s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: 🦋🪐🛒🟡 (Bread & Butter | Push | Challenge | Fun)
 ├─ 10 🛒 Cable Chest Fly (Flat) (explore, stay within constraints)
 │  Set 1: 🦋 65% × 10 (build set)
@@ -37,29 +31,28 @@ Subcode: 🦋🪐🛒🟡 (Bread & Butter | Push | Challenge | Fun)
 │  Set 3: 🦋 70% × 10 (repeat quality)
 Rest: 90s
 ═══
-## 4) 🗿 Sculpt
-Subcode: 🦋🪐🛒🟡 (Sculpt | Push | Challenge | Fun)
-├─ 12 🛒 Low-to-High Cable Fly (angles, tension, volume)
-│  Set 1: 🦋 65% × 12 (shaping)
-│  Set 2: 🦋 65% × 12 (carving)
+## 3) 🌎 Exposure
+Subcode: 🦋🪐🛒🟡 (Exposure | Push | Challenge | Fun)
+├─ 10 🛒 Band Pull-Apart (Chest Opener) (try the unfamiliar version, explore the range)
+│  Set 1: 🦋 55% × 10 (discovery set)
 Rest: 60s
 ═══
-## 5) 🧩 Supplemental
-Subcode: 🦋🪐🛒🟡 (Supplemental | Push | Challenge | Fun)
-├─ 12 🛒 Low-to-High Cable Fly (full range, different angle)
-│  Set 1: 🦋 60% × 12 (support volume)
-│  Set 2: 🦋 60% × 12 (non-redundant)
+## 4) 🏖 Sandbox
+Subcode: 🦋🪐🛒🟡 (Sandbox | Push | Challenge | Fun)
+├─ 10 🛒 Preacher Curl Machine (explore within constraints, choose your variation)
+│  Option A: 🦋 60% × 10 (play with grip, stance, or tempo)
+│  Option B: 🦋 60% × 10 (try a variation you have not used before)
 Rest: 60s
 ═══
-## 6) 🪫 Release
+## 5) 🪫 Release
 Subcode: 🦋🪐🛒🟡 (Release | Push | Challenge | Fun)
 ├─ 12 🛒 Band Pull-Apart (Chest Opener) (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══
-## 7) 🚂 Junction
+## 6) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🦋🪐🛒🟡 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Track the pump and the tension. Volume drives growth; form keeps it honest.
+New exercises recruit new motor units. Track what felt different.

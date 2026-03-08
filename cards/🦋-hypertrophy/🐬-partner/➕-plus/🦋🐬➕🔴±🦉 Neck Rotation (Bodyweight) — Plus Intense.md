@@ -15,19 +15,19 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 
 **CODE:** 🦋🐬➕🔴
 
-> "Build tension through volume. Load serves the muscle, not the ego."
+> "High volume, low rest. Chase the pump and earn the fatigue."
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: 🦋🐬➕🔴 (Warm-Up | Plus | Partner | Intense)
 ├─ 12 ➕ Half-Kneeling Cable Chop (high effort, push the pace)
 │  Set 1: 🦋 50% × 12 (pattern prep)
-Rest: 60s
+Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🐬➕🔴 (Primer | Plus | Partner | Intense)
-├─ 10 ➕ Single-Arm Face Pull (tight setup, crisp intent)
+├─ 10 ➕ Aquaman (Alternating Superman) (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
-Rest: 75s
+Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🐬➕🔴 (Bread & Butter | Plus | Partner | Intense)
@@ -35,31 +35,31 @@ Subcode: 🦋🐬➕🔴 (Bread & Butter | Plus | Partner | Intense)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
-Rest: 90s
+Rest: 45s
 ═══
-## 4) 🗿 Sculpt
-Subcode: 🦋🐬➕🔴 (Sculpt | Plus | Partner | Intense)
-├─ 12 ➕ Aquaman (Alternating Superman) (angles, tension, volume)
-│  Set 1: 🦋 65% × 12 (shaping)
-│  Set 2: 🦋 65% × 12 (carving)
-Rest: 60s
+## 4) 🧩 Supplemental
+Subcode: 🦋🐬➕🔴 (Supplemental | Plus | Partner | Intense)
+├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (full range, different angle)
+│  Set 1: 🦋 60% × 12 (support volume)
+│  Set 2: 🦋 60% × 12 (non-redundant)
+Rest: 30s
 ═══
-## 5) 🪞 Vanity
-Subcode: 🦋🐬➕🔴 (Vanity | Plus | Partner | Intense)
-├─ 14 ➕ Wide-Grip Lat Pulldown (Teres Focus) (pump work, mirror muscles, honest)
-│  Set 1: 🦋 60% × 14 (accumulation)
-│  Set 2: 🦋 60% × 14 (chase the pump)
-Rest: 60s
+## 5) 🌋 Gutter
+Subcode: 🦋🐬➕🔴 (Gutter | Plus | Partner | Intense)
+├─ 12 ➕ Good Morning (Barbell) (all-out, leave nothing in reserve)
+│  Set 1: 🦋 55% × 12 (push to form break)
+│  Set 2: 🦋 55% × AMRAP (final effort)
+Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋🐬➕🔴 (Release | Plus | Partner | Intense)
-├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (stress out, cathartic discharge)
+├─ 12 ➕ Good Morning (Barbell) (stress out, cathartic discharge)
 │  Set 1: 🦋 50% × 12 (deload)
-Rest: 60s
+Rest: 30s
 ═══
 ## 7) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🦋🐬➕🔴 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Track the pump and the tension. Volume drives growth; form keeps it honest.
+High volume earned today recovers into growth tomorrow. Eat and sleep.

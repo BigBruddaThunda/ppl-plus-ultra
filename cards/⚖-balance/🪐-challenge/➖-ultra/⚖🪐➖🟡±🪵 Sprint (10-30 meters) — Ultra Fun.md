@@ -15,7 +15,7 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 
 **CODE:** ⚖🪐➖🟡
 
-> "Find the weak link and spend time on it. Correction is the session."
+> "Explore movements that challenge your weakest positions."
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: ⚖🪐➖🟡 (Warm-Up | Ultra | Challenge | Fun)
@@ -23,14 +23,7 @@ Subcode: ⚖🪐➖🟡 (Warm-Up | Ultra | Challenge | Fun)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
-## 2) 🏗 Reformance
-Subcode: ⚖🪐➖🟡 (Reformance | Ultra | Challenge | Fun)
-├─ 11 ➖ Sprint (10-30 meters) (corrective, address the weak link)
-│  Set 1: ⚖ 50% × 13 (prehab)
-│  Set 2: ⚖ 55% × 11 (stability)
-Rest: 75s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: ⚖🪐➖🟡 (Bread & Butter | Ultra | Challenge | Fun)
 ├─ 11 ➖ Sprint (10-30 meters) (explore, stay within constraints)
 │  Set 1: ⚖ 65% × 11 (build set)
@@ -38,11 +31,17 @@ Subcode: ⚖🪐➖🟡 (Bread & Butter | Ultra | Challenge | Fun)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
 Rest: 90s
 ═══
-## 4) 🧩 Supplemental
-Subcode: ⚖🪐➖🟡 (Supplemental | Ultra | Challenge | Fun)
-├─ 13 ➖ Kettlebell Goblet Squat (full range, different angle)
-│  Set 1: ⚖ 60% × 13 (support volume)
-│  Set 2: ⚖ 60% × 13 (non-redundant)
+## 3) 🌎 Exposure
+Subcode: ⚖🪐➖🟡 (Exposure | Ultra | Challenge | Fun)
+├─ 11 ➖ Two Feet In Each Box (Forward) (try the unfamiliar version, explore the range)
+│  Set 1: ⚖ 55% × 11 (discovery set)
+Rest: 75s
+═══
+## 4) 🏖 Sandbox
+Subcode: ⚖🪐➖🟡 (Sandbox | Ultra | Challenge | Fun)
+├─ 11 ➖ Sprint (30-60 meters) (explore within constraints, choose your variation)
+│  Option A: ⚖ 60% × 11 (play with grip, stance, or tempo)
+│  Option B: ⚖ 60% × 11 (try a variation you have not used before)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
@@ -56,4 +55,4 @@ Rest: 75s
 - Next → ⚖🪐➖🟡 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The correction is the progress. Symmetry before load, always.
+Exploring weak positions teaches the body new ranges. Track the discovery.

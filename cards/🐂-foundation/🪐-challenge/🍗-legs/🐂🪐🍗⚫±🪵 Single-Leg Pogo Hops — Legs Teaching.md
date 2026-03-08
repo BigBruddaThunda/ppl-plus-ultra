@@ -15,20 +15,20 @@ blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 
 **CODE:** 🐂🪐🍗⚫
 
-> "Learn the pattern at sub-maximal load. Own the positions before adding weight."
+> "Practice the positions slowly. This is a coaching session, not a workout."
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🐂🪐🍗⚫ (Warm-Up | Legs | Challenge | Teaching)
 ├─ 12 🍗 Pogo Hops (Ankle Bounce) (coached, check form before adding load)
 │  Set 1: 🐂 45% × 12 (pattern prep)
-Rest: 60s
+Rest: 90s
 ═══
-## 2) 🔢 Fundamentals
-Subcode: 🐂🪐🍗⚫ (Fundamentals | Legs | Challenge | Teaching)
-├─ 12 🍗 Deep Squat Hold (Ankle Mobility) (slow, own each position)
-│  Set 1: 🐂 45% × 12 (grounding)
-│  Set 2: 🐂 50% × 12 (pattern lock)
-Rest: 75s
+## 2) 🛠 Craft
+Subcode: 🐂🪐🍗⚫ (Craft | Legs | Challenge | Teaching)
+├─ 11 🍗 Deep Squat Hold (Ankle Mobility) (coach: check grip width, elbow angle, foot pressure)
+│  Set 1: 🐂 45% × 11 (practice the pattern, not the load)
+│  Set 2: 🐂 50% × 11 (same cues, slightly heavier)
+Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🪐🍗⚫ (Bread & Butter | Legs | Challenge | Teaching)
@@ -36,24 +36,24 @@ Subcode: 🐂🪐🍗⚫ (Bread & Butter | Legs | Challenge | Teaching)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
-Rest: 75s
+Rest: 112s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🪐🍗⚫ (Supplemental | Legs | Challenge | Teaching)
 ├─ 13 🍗 Back Squat (High Bar) (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
-Rest: 60s
+Rest: 90s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🪐🍗⚫ (Imprint | Legs | Challenge | Teaching)
 ├─ 15 🍗 Spanish Squat (Banded VMO) (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
-Rest: 60s
+Rest: 90s
 ═══
 ## 6) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🐂🪐🍗⚫ — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The pattern owns the session. Add load only when positions are automatic.
+The positions own the session. Add complexity only when coaching cues become automatic.

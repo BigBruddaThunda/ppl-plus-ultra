@@ -15,13 +15,13 @@ blocks: ♨️ 🪜 🧈 🚂
 
 **CODE:** 🏟🌹🍗🟣
 
-> "Test. Record. Leave. No junk volume after the attempt."
+> "One maximal attempt with perfect setup. The technique is the test."
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🏟🌹🍗🟣 (Warm-Up | Legs | Aesthetic | Technical)
 ├─ 3 🍗 Pogo Hops (Ankle Bounce) (precision, quality over volume)
 │  Set 1: 🏟 72% × 3 (pattern prep)
-Rest: 90s
+Rest: 135s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🌹🍗🟣 (Progression | Legs | Aesthetic | Technical)
@@ -42,4 +42,4 @@ Rest: Full recovery
 - Next → 🏟🌹🍗🟣 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Record the number. That is the session. Come back when recovered.
+Log the attempt and the technique notes. Both are the data.

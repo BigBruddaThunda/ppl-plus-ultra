@@ -11,53 +11,48 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
 # 🍗 Lying Quad Stretch (Prone) — Legs Fun 🍗
 
-## Hypertrophy Basics — Legs focus (Fun) · 45-55 min
+## Hypertrophy Basics — Legs focus (Fun) · 55-70 min
 
 **CODE:** 🦋🏛🍗🟡
 
-> "Drive clean reps inside the hypertrophy ceiling and make every set repeatable."
-
+> "Try exercises you would not normally pick. Variety stimulates growth."
 ═══
-## 1) ♨️ Warm-Up — 📍 pono inline
+## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🦋🏛🍗🟡 (Warm-Up | Legs | Basics | Fun)
-├─ 10 🍗 Standing Quad Stretch (steady tempo, easy ramp)
-│  Set 1: 🦋 60% × 10 (pattern prep)
-Rest: 75s
-
+├─ 12 🍗 Standing Quad Stretch (explore, stay within constraints)
+│  Set 1: 🦋 50% × 12 (pattern prep)
+Rest: 60s
 ═══
-## 2) ▶️ Primer
-Subcode: 🦋🏛🍗🟡 (Primer | Legs | Basics | Fun)
-├─ 8 🍗 Step-Down (Eccentric) (tight setup, crisp intent)
-│  Set 1: 🦋 65% × 8 (activation)
-Rest: 90s
-
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: 🦋🏛🍗🟡 (Bread & Butter | Legs | Basics | Fun)
-├─ 5 🍗 Lying Quad Stretch (Prone) (clean line, own the bottom)
-│  Set 1: 🦋 75% × 5 (build set)
-│  Set 2: 🦋 80% × 5 (working set)
-│  Set 3: 🦋 80% × 5 (repeat quality)
-Rest: 180s
-
+├─ 10 🍗 Lying Quad Stretch (Prone) (explore, stay within constraints)
+│  Set 1: 🦋 65% × 10 (build set)
+│  Set 2: 🦋 70% × 10 (working set)
+│  Set 3: 🦋 70% × 10 (repeat quality)
+Rest: 90s
 ═══
-## 4) 🧩 Supplemental
-Subcode: 🦋🏛🍗🟡 (Supplemental | Legs | Basics | Fun)
-├─ 6 🍗 Leg Extension Machine (full range, no drift)
-│  Set 1: 🦋 70% × 6 (support volume)
-Rest: 120s
-
+## 3) 🌎 Exposure
+Subcode: 🦋🏛🍗🟡 (Exposure | Legs | Basics | Fun)
+├─ 10 🍗 Barbell Good Morning (try the unfamiliar version, explore the range)
+│  Set 1: 🦋 55% × 10 (discovery set)
+Rest: 60s
+═══
+## 4) 🏖 Sandbox
+Subcode: 🦋🏛🍗🟡 (Sandbox | Legs | Basics | Fun)
+├─ 10 🍗 Lying Leg Curl (explore within constraints, choose your variation)
+│  Option A: 🦋 60% × 10 (play with grip, stance, or tempo)
+│  Option B: 🦋 60% × 10 (try a variation you have not used before)
+Rest: 60s
 ═══
 ## 5) 🪫 Release
 Subcode: 🦋🏛🍗🟡 (Release | Legs | Basics | Fun)
 ├─ 12 🍗 Barbell Good Morning (smooth tempo, downshift)
-│  Set 1: 🦋 55% × 12 (tension out)
-Rest: 90s
-
+│  Set 1: 🦋 50% × 12 (deload)
+Rest: 60s
 ═══
 ## 6) 🚂 Junction
 - Log: load, reps, and form break point.
-- Next → 🦋🏛🍗🟡 — repeat and tighten execution under same constraints.
-
+- Next → 🦋🏛🍗🟡 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Keep the same movement standard next session and only add load if bar path and position stay unchanged.
+New exercises recruit new motor units. Track what felt different.

@@ -9,93 +9,40 @@ type: 🍗 Legs
 color: 🟠 Circuit
 blocks: ♨️ ▶️ 🧈 🎱 🪫 🚂
 ---
+# 🍗 Walking Lunge — Legs Circuit 🍗
 
-# 🍗 Walking Lunge — Legs Challenge, Circuit 🍗
+## Strength Challenge — Legs focus (Circuit) · 50-65 min
 
-Strength challenge session | Quads, glutes, hamstrings | 60-74 min
+**CODE:** ⛽🪐🍗🟠
 
-CODE: ⛽🪐🍗🟠
-
-> "Build heavy leg force with pauses, deficits, and strict range control."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🚀 mitto
-
-Sub-block: ♨️🍗🪐🟠 (Warm-Up | Legs | Challenge | Circuit)
-
-├─ 8 🍗 Reverse Lunge (Glute Load) (knee tracks over toes)
-└─ 6 🍗 Cossack Squat (sit deep each side)
-
-Rest: 90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🍗🪐🟠 (Primer | Legs | Challenge | Circuit)
-
-├─ Set 1: ⛽ 60% × 6 on Walking Lunge (controlled depth)
-├─ Set 2: ⛽ 68% × 5 on Walking Lunge (2-second pause)
-└─ Set 3: ⛽ 72% × 4 on Walking Lunge (same strict line)
-
-Rest: 2-3 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🚀
-
-Sub-block: 🧈🍗🪐🟠 (Bread & Butter | Legs | Challenge | Circuit)
-
-├─ 5 🍗 Walking Lunge (hardest clean variation today)
-│  ├─ Set 1: ⛽ 75% × 6 (tempo down, violent up)
-│  ├─ Set 2: ⛽ 78% × 5 (1-second hold in weak point)
-│  ├─ Set 3: ⛽ 82% × 4 (keep shape locked)
-│  └─ Set 4: ⛽ 85% × 4 (no breakdown reps)
-└─ 4 🍗 Bulgarian Split Squat (Front-Foot Elevated) (own the bottom) 
-   ├─ Set 1: ⛽ 75% × 5 (strict path)
-   ├─ Set 2: ⛽ 80% × 4 (pause each rep)
-   └─ Set 3: ⛽ 82% × 4 (same speed target)
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🎱 ARAM
-
-Sub-block: 🎱🍗🪐🟠 (ARAM | Legs | Challenge | Circuit)
-
-├─ 5 🍗 Bulgarian Split Squat (Front-Foot Elevated) (own the bottom)
-└─ 6 🍗 Walking Lunge (long stride, upright torso)
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🍗🪐🟠 (Release | Legs | Challenge | Circuit)
-
-- 5 minutes easy downshift work and nasal breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🍗🪐🟠 (Junction | Legs | Challenge | Circuit)
-
-Log:
-- Load quality: ______________________
-- Hardest sticking point: ____________
-- Recovery readiness (1-5): _________
-
-Next → ⛽🪐🪡🔵 — hinge and pull to reinforce posterior chain
-Next → ⛽🪐➖🔵 — condition recovery while keeping leg drive
-
-═══════════════════════════════════════
-
+> "Rotate stations. Keep the tissues trading off under heavy demand."
+═══
+## 1) ♨️ Warm-Up — 🚀 mitto
+Subcode: ⛽🪐🍗🟠 (Warm-Up | Legs | Challenge | Circuit)
+├─ 6 🍗 Single-Leg Pogo Hops (station rotation, keep moving)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) 🎱 ARAM — Circuit Loop
+Subcode: ⛽🪐🍗🟠 (ARAM | Legs | Challenge | Circuit)
+┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
+│  Station 1: 🍗 Walking Lunge × 5 (station rotation, keep moving)
+│  Station 2: 🍗 Single-Leg Pogo Hops × 5 (station rotation, keep moving)
+│  Station 3: 🍗 Back Squat (High Bar) × 5 (station rotation, keep moving)
+│  Station 4: 🍗 Walking Lunge × 5 (station rotation, keep moving)
+│  Transition: 15s between stations
+│  Round rest: 60s
+Rest: 90s after final round
+═══
+## 3) 🪫 Release
+Subcode: ⛽🪐🍗🟠 (Release | Legs | Challenge | Circuit)
+├─ 6 🍗 Spanish Squat (Banded VMO) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 4) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🪐🍗🟠 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Challenge strength is heavy load plus stricter execution. Keep the same standard next session: no rep counts unless the position stays honest.
+Log station completion times. Consistency matters more than speed.

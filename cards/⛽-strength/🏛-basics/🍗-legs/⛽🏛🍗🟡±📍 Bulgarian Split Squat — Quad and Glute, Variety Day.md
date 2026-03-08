@@ -10,123 +10,50 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟡 Fun | Tier 0–5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ → 🧈 → 🏖 → 🧩 → 🚂 → 🧮
 ---
+# 🍗 Bulgarian Split Squat — Legs Fun 🍗
 
-# 🍗 Bulgarian Split Squat — Quad and Glute, Variety Day 🍗
+## Strength Basics — Legs focus (Fun) · 50-65 min
 
-Exploratory strength | Quads, hamstrings, glutes | 65–75 min
+**CODE:** ⛽🏛🍗🟡
 
-CODE: ⛽🏛🍗🟡
-
-> "Same strength ceiling, different doors — find out which squat pattern works best for you."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-📍 pono — playful doesn't mean sloppy. Position first.
-
-- 10 Air Squat (baseline feel before variations)
-- 10 Deep Squat Hold (sink, breathe, explore the bottom)
-- 10/side Hip CARs
-- 5/side World's Greatest Stretch
-- 10 Goblet Squat Pause (light KB, pause 2 sec at bottom — feel the angles)
-
-Primer: sample each variation at 60–65% before choosing today's anchor.
-
-- 3 Back Squat at 65% (classic feel)
-- 3 Front Squat at 60% (more upright, quad-forward)
-- 3 Zercher Squat at 60% (elbows in, uncomfortable in a good way)
-
-Choose your anchor: ___________________________
-
-Rest: 90 sec after primer.
-
-═══════════════════════════════════════
-
-## 2. 🧈 BREAD & BUTTER
-
-📍 pono — commit to the choice you made in the primer
-
-Rest: 3–4 min between sets — strength ceiling still applies.
-
-**🍗 Bulgarian Split Squat (Dumbbell)**
-
-- Set 1: 77% × 5 (lock in the new pattern)
-- Set 2: 80% × 5 (how does this variation feel under load?)
-- Set 3: 80% × 5 (if front squat: elbows up, not just high / if zercher: breathe against the bar)
-- Set 4: 82% × 4 (hold the pattern as load increases)
-- Set 5: 82% × 4 (log how this compared to your default squat)
-
-═══════════════════════════════════════
-
-## 3. 🏖 SANDBOX
-
-📍 pono — same strength range, new angles on hinge and lunge
-
-Pick two options from the list. Run 3 sets each at 75–80%.
-
-Rules: stay within ⛽ load ceiling (75–85%, 4–6 reps). Stay within 🍗 Legs muscles. No GOLD.
-
-Options:
-- 🍗 Barbell Good Morning (hinge, not bow — hips back, hamstrings are the target)
-- 🍗 Barbell Walking Lunge (long stride, front shin vertical, stay tall through the torso)
-- 🍗 Kang Squat (squat down, hinge forward on the way up — two patterns in one)
-- 🍗 Dumbbell Romanian Deadlift (more feedback than the bar — feel each side)
-
-For each chosen exercise:
-- Set 1: 77% × 5
-- Set 2: 80% × 4
-- Set 3: 80% × 4
-
-Rest: 2–3 min.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-📍 pono — anchor the glute work after the variation play
-
-Rest: 3 min
-
-**🍗 Barbell Hip Thrust**
-
-- Set 1: 78% × 5 (chin tucked, ribs down, drive the hips — not the spine)
-- Set 2: 80% × 5 (glutes are the engine, hamstrings are the guardrails)
-- Set 3: 80% × 5
-- Set 4: 82% × 4 (hard lockout, 1-sec hold at top)
-
-═══════════════════════════════════════
-
-## 5. 🚂 JUNCTION
-
-Cross-Junction map (current zip at center):
-
-```text
-               ↑ ⛽⌛➕🔵
-                    (convert force into full-body power with timed structure)
-
-← ⛽🏛🛒🔵   •   ⛽🏛🍗🟡   → ⛽🏛🪡🔵
-  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
-
-               ↓ ⛽🏛➖🔵
-                    (build repeatable engine capacity under strength intent)
-```
-
-```
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-Readiness next session (1–5): _________
-```
-
-Next →
-- ⛽⌛➕🔵 — convert force into full-body power with timed structure
-- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
-- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
-- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
-
-═══════════════════════════════════════
-
+> "Find a movement you have not tried at this load and own it."
+═══
+## 1) ♨️ Warm-Up — 📍 pono
+Subcode: ⛽🏛🍗🟡 (Warm-Up | Legs | Basics | Fun)
+├─ 6 🍗 Deep Squat Hold (Ankle Mobility) (explore, stay within constraints)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽🏛🍗🟡 (Bread & Butter | Legs | Basics | Fun)
+├─ 5 🍗 Bulgarian Split Squat (explore, stay within constraints)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 3) 🌎 Exposure
+Subcode: ⛽🏛🍗🟡 (Exposure | Legs | Basics | Fun)
+├─ 5 🍗 Spanish Squat (Banded VMO) (try the unfamiliar version, explore the range)
+│  Set 1: ⛽ 65% × 5 (discovery set)
+Rest: 120s
+═══
+## 4) 🏖 Sandbox
+Subcode: ⛽🏛🍗🟡 (Sandbox | Legs | Basics | Fun)
+├─ 5 🍗 Conventional Deadlift (explore within constraints, choose your variation)
+│  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
+│  Option B: ⛽ 70% × 5 (try a variation you have not used before)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🏛🍗🟡 (Release | Legs | Basics | Fun)
+├─ 6 🍗 Spanish Squat (Banded VMO) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🏛🍗🟡 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Variety inside a strength ceiling is not frivolous — it is reconnaissance. You are finding which patterns your body transfers well. That is training intelligence.
+Note what you tried and what surprised you. Build on it next session.
