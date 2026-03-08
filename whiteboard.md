@@ -39,6 +39,7 @@ Self-contained, zero-dependency. Runs in airplane mode.
 | DONE | CX-03 | Zip converter + registry (1,680 JSON) | — | zip_converter.py, zip_registry.py, zip-registry.json |
 | DONE | CX-13 | Exercise library parser (~2,185 JSON) | — | parse_exercise_library.py, exercise-library.json |
 | DONE | CX-36 | Exercise Identity Registry | — | Session 038: `scripts/build-exercise-registry.py` + `middle-math/exercise-registry.json` (2,085 entries, EX-0001–EX-2085) |
+| DONE | — | Fix compile-abacus.py: natural sorting + DLC packs | — | Removed force-assignment, 12 DLC packs from ~89 free-agent zips, --report flag, 100% coverage |
 | OPEN | CX-17 | Ralph Loop validation + batch orchestrator | CX-03 ✓ | validate-pod.py, ralph-batch.sh |
 | OPEN | — | Deck 07 Ralph pod review (prototype approval) | — | Jake must review deck-07-pods.md before batch |
 
@@ -220,6 +221,7 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 - **ACTIVE: Cosmogram enrichment — web research sessions needed for deposits, cross-deck mapping, and subject validation.**
 - **Abacus architecture planted (2026-03-08).** 35 training archetypes × 48 zip codes. Math: 1,680 ÷ 48 = 35 exactly. 35 working slots + 13 bonus/junction zips per abacus. The 35-session super-cycle comes from 7 Orders × 5 Types (coprime). Overlapping zips across abaci collapse on merge. Non-overlapping working slots: 35 × 35 = 1,225 working + 455 bonus = 1,680 exactly. The math may not be a coincidence. Next steps: define the 35 archetype zip assignments, build overlap map, validate coverage. See `seeds/abacus-architecture.md`.
 - **Intercolumniation layer needed.** The abacus rotation needs a middle-math weight system that factors in time-between-sessions. Recovery dynamics differ by Order (⛽ needs more recovery than 🐂). This is the reverse-weight resolution applied to program context. Sports science / ExRx consultation branch.
+- **Abacus sorting fixed (2026-03-08).** compile-abacus.py no longer force-assigns orphan zips. Natural sorting puts ~1,591 zips in the 35 main abaci (94%). ~89 free-agent zips cluster into 12 DLC expansion packs (primarily 🏟 Performance, 🌾 Full Body, ⚖ Balance, 🖼 Restoration niche combos). 100% total coverage. Full sorted report: `reports/abacus-sort-report-2026-03-08.md`. DLC packs in `middle-math/abacus-registry.json`. Next: review DLC pack clustering quality, consider whether some packs need manual curation, wire in exercise library toggle logic, 12× operator layer (deferred).
 
 ---
 

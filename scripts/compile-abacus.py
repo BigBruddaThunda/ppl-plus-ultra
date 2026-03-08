@@ -5,6 +5,7 @@ Usage:
     python scripts/compile-abacus.py              # compile + write JSON + report
     python scripts/compile-abacus.py --stats       # report from existing JSON
     python scripts/compile-abacus.py --dry-run     # compile + report, skip JSON write
+    python scripts/compile-abacus.py --report      # compile + write JSON + markdown report
 """
 
 from __future__ import annotations
@@ -657,12 +658,15 @@ def assign_bonus_slots(
 def coverage_sweep(
     all_zips: list[dict],
     abaci_data: list[dict],
-) -> tuple[int, list[str]]:
-    """Check coverage. Returns (covered_count, orphan_list).
+) -> tuple[int, int, list[str]]:
+    """Check coverage and attempt safe orphan resolution.
 
-    Orphans are reported but NOT force-assigned to bonus pools (that would
-    break the 13-bonus constraint). Instead, orphans are resolved by swapping
-    low-affinity bonus variety zips for orphans in the best-fit archetype.
+    Returns (covered_count, orphans_placed, free_agent_zips).
+
+    Orphans are resolved by swapping low-affinity bonus variety zips
+    for orphans in the best-fit archetype — but ONLY when the evicted
+    zip retains coverage elsewhere. Remaining orphans become free agents
+    (DLC pack candidates), not force-assigned.
     """
     covered = set()
     for ab in abaci_data:
@@ -673,6 +677,7 @@ def coverage_sweep(
 
     all_numeric = {z["numeric_zip"] for z in all_zips}
     orphans = sorted(all_numeric - covered)
+    initial_orphan_count = len(orphans)
 
     if orphans:
         zip_by_num = {z["numeric_zip"]: z for z in all_zips}
@@ -737,8 +742,6 @@ def coverage_sweep(
         remaining_orphans = sorted(all_numeric - covered2)
         for orphan_nz in remaining_orphans:
             z = zip_by_num[orphan_nz]
-            # Try to find any archetype with a bonus zip that appears
-            # in another archetype's WORKING set (safe to evict from bonus)
             placed = False
             for i, ab in enumerate(abaci_data):
                 if placed:
@@ -748,7 +751,6 @@ def coverage_sweep(
                     existing_nz = b["zip"]
                     if existing_nz in working_set_i:
                         continue
-                    # Check if this zip is in any other archetype's working slots
                     in_other_working = False
                     for k, ab2 in enumerate(abaci_data):
                         if k == i:
@@ -772,8 +774,175 @@ def coverage_sweep(
         for b in ab["bonus_zips"]:
             covered.add(b["zip"])
 
-    remaining_orphans = sorted(all_numeric - covered)
-    return len(covered), remaining_orphans
+    free_agents = sorted(all_numeric - covered)
+    orphans_placed = initial_orphan_count - len(free_agents)
+    return len(covered), orphans_placed, free_agents
+
+
+# ---------------------------------------------------------------------------
+# DLC Pack Builder
+# ---------------------------------------------------------------------------
+
+TYPE_NAMES = {
+    "🛒": "Push", "🪡": "Pull", "🍗": "Legs", "➕": "Plus", "➖": "Ultra",
+}
+COLOR_NAMES = {
+    "⚫": "Teaching", "🟢": "Bodyweight", "🔵": "Structured", "🟣": "Technical",
+    "🔴": "Intense", "🟠": "Circuit", "🟡": "Fun", "⚪": "Mindful",
+}
+
+
+def build_dlc_packs(
+    free_agent_zips: list[str],
+    all_zips: list[dict],
+) -> list[dict]:
+    """Cluster free-agent zips into thematic DLC expansion packs.
+
+    Packs are 3-12 zips grouped by Order, then sub-clustered by Axis.
+    Runts (<3) merge into neighboring groups or a Mixed pack.
+    """
+    if not free_agent_zips:
+        return []
+
+    zip_by_num = {z["numeric_zip"]: z for z in all_zips}
+    free_set = set(free_agent_zips)
+
+    # Group by Order
+    by_order: dict[str, list[str]] = defaultdict(list)
+    for nz in free_agent_zips:
+        z = zip_by_num[nz]
+        by_order[z["order"]["emoji"]].append(nz)
+
+    packs: list[dict] = []
+    runts: list[str] = []  # zips from groups too small to form a pack
+    pack_id = 1
+
+    for oe in ORDER_EMOJIS:
+        order_zips = by_order.get(oe, [])
+        if not order_zips:
+            continue
+
+        if len(order_zips) < 3:
+            runts.extend(order_zips)
+            continue
+
+        # Sub-cluster by Axis within this Order
+        by_axis: dict[str, list[str]] = defaultdict(list)
+        for nz in order_zips:
+            z = zip_by_num[nz]
+            by_axis[z["axis"]["emoji"]].append(nz)
+
+        axis_groups: list[tuple[str, list[str]]] = []
+        axis_runts: list[str] = []
+
+        for ae in AXIS_EMOJIS:
+            group = by_axis.get(ae, [])
+            if not group:
+                continue
+            if len(group) < 3:
+                axis_runts.extend(group)
+            else:
+                axis_groups.append((ae, group))
+
+        # If axis runts exist, merge them into the largest axis group or form their own pack
+        if axis_runts:
+            if axis_groups:
+                # Merge into largest existing group
+                axis_groups.sort(key=lambda x: len(x[1]), reverse=True)
+                largest_ae, largest_group = axis_groups[0]
+                largest_group.extend(axis_runts)
+                axis_groups[0] = (largest_ae, largest_group)
+            elif len(axis_runts) >= 3:
+                # All sub-groups were runts but together they form a viable pack
+                axis_groups.append((None, axis_runts))
+            else:
+                runts.extend(axis_runts)
+
+        # Create packs from axis groups, splitting if >12
+        for ae, group in axis_groups:
+            while len(group) > 12:
+                chunk = group[:12]
+                group = group[12:]
+                packs.append(_make_dlc_pack(pack_id, oe, ae, chunk, zip_by_num))
+                pack_id += 1
+
+            if len(group) >= 3:
+                packs.append(_make_dlc_pack(pack_id, oe, ae, group, zip_by_num))
+                pack_id += 1
+            else:
+                runts.extend(group)
+
+    # Handle all runts — merge into one or more Mixed packs
+    while len(runts) >= 3:
+        chunk = runts[:12]
+        runts = runts[12:]
+        packs.append(_make_dlc_pack(pack_id, None, None, chunk, zip_by_num))
+        pack_id += 1
+
+    # If 1-2 runts remain, append to the last pack
+    if runts and packs:
+        packs[-1]["zips"].extend(runts)
+        packs[-1]["size"] = len(packs[-1]["zips"])
+    elif runts:
+        # Edge case: only 1-2 free agents total — still make a pack
+        packs.append(_make_dlc_pack(pack_id, None, None, runts, zip_by_num))
+
+    return packs
+
+
+def _make_dlc_pack(
+    pack_id: int,
+    primary_order: str | None,
+    primary_axis: str | None,
+    zips: list[str],
+    zip_by_num: dict[str, dict],
+) -> dict:
+    """Build a single DLC pack dict."""
+    # Derive name
+    if primary_order and primary_axis:
+        name = f"{ORDER_NAMES[primary_order]} {AXIS_NAMES[primary_axis]} Pack"
+        slug = f"{ORDER_NAMES[primary_order].lower().replace(' ', '-')}-{AXIS_NAMES[primary_axis].lower()}"
+    elif primary_order:
+        name = f"{ORDER_NAMES[primary_order]} Expansion Pack"
+        slug = f"{ORDER_NAMES[primary_order].lower().replace(' ', '-')}-expansion"
+    else:
+        name = f"Mixed Expansion Pack"
+        slug = "mixed-expansion"
+
+    # If slug would collide, append pack_id
+    slug = f"{slug}-{pack_id:02d}"
+
+    # Derive description from zip composition
+    order_counts = Counter()
+    axis_counts = Counter()
+    for nz in zips:
+        z = zip_by_num.get(nz)
+        if z:
+            order_counts[z["order"]["emoji"]] += 1
+            axis_counts[z["axis"]["emoji"]] += 1
+
+    dominant_order = max(order_counts, key=order_counts.get) if order_counts else None
+    dominant_axis = max(axis_counts, key=axis_counts.get) if axis_counts else None
+
+    desc_parts = []
+    if dominant_order:
+        desc_parts.append(f"{dominant_order} {ORDER_NAMES.get(dominant_order, '')} dominant")
+    if dominant_axis:
+        desc_parts.append(f"{dominant_axis} {AXIS_NAMES.get(dominant_axis, '')} emphasis")
+    description = ", ".join(desc_parts) if desc_parts else "Mixed training expansion"
+
+    return {
+        "id": f"dlc-{pack_id:02d}",
+        "name": name,
+        "slug": slug,
+        "description": description,
+        "theme": {
+            "primary_order": primary_order,
+            "primary_axis": primary_axis,
+        },
+        "zips": sorted(zips),
+        "size": len(zips),
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -834,7 +1003,12 @@ def axis_distribution(working_zips: list[str], all_zips: list[dict]) -> dict[str
     return {ae: counts.get(ae, 0) / total for ae in AXIS_EMOJIS}
 
 
-def print_report(abaci_data: list[dict], all_zips: list[dict], coverage: dict):
+def print_report(
+    abaci_data: list[dict],
+    all_zips: list[dict],
+    coverage: dict,
+    dlc_packs: list[dict] | None = None,
+):
     print()
     print("PPL± Abacus Compilation")
     print("══════════════════════════════════════════════════════════════")
@@ -859,9 +1033,13 @@ def print_report(abaci_data: list[dict], all_zips: list[dict], coverage: dict):
             print(f"       ❌ {e}")
 
     print()
-    print(f"Coverage: {coverage['covered']}/{coverage['total']} ({coverage['covered']*100//coverage['total']}%)")
-    if coverage.get("orphans_assigned", 0) > 0:
-        print(f"  ⚠️  {coverage['orphans_assigned']} orphan zips force-assigned")
+    abaci_covered = coverage["covered"]
+    print(f"Abaci coverage: {abaci_covered}/{coverage['total']} ({abaci_covered*100//coverage['total']}%)")
+    if coverage.get("orphans_placed", 0) > 0:
+        print(f"  ✅ {coverage['orphans_placed']} orphans resolved via bonus swap")
+    free_count = coverage.get("free_agents", 0)
+    if free_count > 0:
+        print(f"  📦 {free_count} free-agent zips routed to DLC packs")
     print(f"Overlap: avg {coverage['avg_overlap']:.1f} abaci/zip, max {coverage['max_overlap']}")
 
     # Overlap histogram
@@ -872,20 +1050,33 @@ def print_report(abaci_data: list[dict], all_zips: list[dict], coverage: dict):
             bar = "█" * min(overlap[k] // 10, 50)
             print(f"    {k} abaci: {overlap[k]:>5} zips {bar}")
 
-    # Show uncovered zips if any
-    all_covered = set()
+    # DLC pack summary
+    if dlc_packs:
+        dlc_total = sum(p["size"] for p in dlc_packs)
+        print(f"\nDLC Packs: {len(dlc_packs)} packs, {dlc_total} zips")
+        for p in dlc_packs:
+            print(f"  📦 {p['id']} {p['name']:<35s} {p['size']} zips")
+
+        total_coverage = abaci_covered + dlc_total
+        print(f"\nTotal coverage: {total_coverage}/{coverage['total']} "
+              f"({total_coverage*100//coverage['total']}%)")
+
+    # Show free agents by Order (zips in neither abaci nor DLC)
+    all_assigned = set()
     for ab in abaci_data:
-        all_covered.update(ab["working_zips"])
+        all_assigned.update(ab["working_zips"])
         for b in ab["bonus_zips"]:
-            all_covered.add(b["zip"])
+            all_assigned.add(b["zip"])
+    if dlc_packs:
+        for p in dlc_packs:
+            all_assigned.update(p["zips"])
     all_numeric = {z["numeric_zip"] for z in all_zips}
-    uncovered = sorted(all_numeric - all_covered)
-    if uncovered:
-        print(f"\n⚠️  {len(uncovered)} uncovered zips (appear in no abacus):")
-        # Group by Order for readability
+    unassigned = sorted(all_numeric - all_assigned)
+    if unassigned:
+        print(f"\n⚠️  {len(unassigned)} zips unassigned (in no abacus or DLC pack):")
         by_order = defaultdict(list)
         zip_by_num = {z["numeric_zip"]: z for z in all_zips}
-        for nz in uncovered:
+        for nz in unassigned:
             z = zip_by_num[nz]
             by_order[z["order"]["emoji"]].append(nz)
         for oe in ORDER_EMOJIS:
@@ -903,7 +1094,8 @@ def print_report(abaci_data: list[dict], all_zips: list[dict], coverage: dict):
 # Main compilation
 # ---------------------------------------------------------------------------
 
-def compile_abaci() -> tuple[list[dict], dict]:
+def compile_abaci() -> tuple[list[dict], list[dict], dict]:
+    """Compile all 35 abaci + DLC packs. Returns (abaci_data, dlc_packs, coverage_info)."""
     all_zips = load_zip_registry()
     assert len(all_zips) == 1680, f"Expected 1680 zips, got {len(all_zips)}"
 
@@ -934,7 +1126,10 @@ def compile_abaci() -> tuple[list[dict], dict]:
             "bonus_zips": bonus,
         })
 
-    covered, orphans = coverage_sweep(all_zips, abaci_data)
+    covered, orphans_placed, free_agent_zips = coverage_sweep(all_zips, abaci_data)
+
+    # Build DLC packs from free agents
+    dlc_packs = build_dlc_packs(free_agent_zips, all_zips)
 
     # Compute overlap stats
     zip_abacus_count = Counter()
@@ -952,20 +1147,28 @@ def compile_abaci() -> tuple[list[dict], dict]:
     coverage_info = {
         "total": 1680,
         "covered": covered,
-        "orphans_assigned": len(orphans),
+        "orphans_placed": orphans_placed,
+        "free_agents": len(free_agent_zips),
+        "free_agent_zips": free_agent_zips,
+        "dlc_packs": len(dlc_packs),
+        "dlc_zips": sum(p["size"] for p in dlc_packs),
         "max_overlap": max_overlap,
         "avg_overlap": round(avg_overlap, 2),
         "overlap_histogram": dict(sorted(overlap_histogram.items())),
     }
 
-    return abaci_data, coverage_info
+    return abaci_data, dlc_packs, coverage_info
 
 
-def write_output(abaci_data: list[dict], coverage: dict):
+def write_output(abaci_data: list[dict], dlc_packs: list[dict], coverage: dict):
     output = {
         "generated": str(date.today()),
         "abaci": abaci_data,
-        "coverage": {k: v for k, v in coverage.items() if k != "overlap_histogram"},
+        "dlc_packs": dlc_packs,
+        "coverage": {
+            k: v for k, v in coverage.items()
+            if k not in ("overlap_histogram", "free_agent_zips")
+        },
     }
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(
@@ -975,12 +1178,206 @@ def write_output(abaci_data: list[dict], coverage: dict):
     print(f"📁 Written to {OUTPUT_PATH}")
 
 
+REPORT_DIR = REPO_ROOT / "reports"
+
+
+def write_report(
+    abaci_data: list[dict],
+    dlc_packs: list[dict],
+    all_zips: list[dict],
+    coverage: dict,
+    report_path: Path | None = None,
+):
+    """Write a full markdown report of the abacus sort."""
+    if report_path is None:
+        REPORT_DIR.mkdir(parents=True, exist_ok=True)
+        report_path = REPORT_DIR / f"abacus-sort-report-{date.today()}.md"
+
+    zip_by_num = {z["numeric_zip"]: z for z in all_zips}
+    lines: list[str] = []
+
+    def w(s: str = ""):
+        lines.append(s)
+
+    # --- Header ---
+    abaci_covered = coverage["covered"]
+    dlc_total = sum(p["size"] for p in dlc_packs)
+    total_assigned = abaci_covered + dlc_total
+
+    w(f"# PPL± Abacus Sort Report — {date.today()}")
+    w()
+    w(f"- **Total zips:** {coverage['total']}")
+    w(f"- **Abaci coverage:** {abaci_covered}/{coverage['total']} "
+      f"({abaci_covered*100//coverage['total']}%)")
+    w(f"- **DLC packs:** {len(dlc_packs)} packs, {dlc_total} zips")
+    w(f"- **Total assigned:** {total_assigned}/{coverage['total']} "
+      f"({total_assigned*100//coverage['total']}%)")
+    w(f"- **Orphans resolved via swap:** {coverage.get('orphans_placed', 0)}")
+    w(f"- **Avg overlap:** {coverage['avg_overlap']} abaci/zip")
+    w(f"- **Max overlap:** {coverage['max_overlap']}")
+    w()
+
+    # --- Abaci Summary Table ---
+    w("## Abaci Summary")
+    w()
+    w("| # | Name | Domain | W | B | Axis Distribution |")
+    w("|---|------|--------|---|---|-------------------|")
+    for ab in abaci_data:
+        dist = axis_distribution(ab["working_zips"], all_zips)
+        dist_str = " ".join(
+            f"{ae}{int(pct*100)}%" for ae, pct in dist.items() if pct > 0
+        )
+        w(f"| {ab['id']:02d} | {ab['name']} | {ab['domain']} | "
+          f"{len(ab['working_zips'])} | {len(ab['bonus_zips'])} | {dist_str} |")
+    w()
+
+    # --- Per-Abacus Detail ---
+    w("## Abacus Detail")
+    w()
+    for ab in abaci_data:
+        w(f"### {ab['id']:02d}. {ab['name']}")
+        w(f"*{ab['description']}* | Domain: {ab['domain']} | Bias: {ab['axis_bias']}")
+        w()
+
+        # Working zips
+        w("**Working Slots (35):**")
+        w()
+        w("| # | Zip | Order | Type | Axis | Color |")
+        w("|---|-----|-------|------|------|-------|")
+        for i, nz in enumerate(ab["working_zips"], 1):
+            z = zip_by_num.get(nz)
+            if z:
+                oe = z["order"]["emoji"]
+                te = z["type"]["emoji"]
+                ae = z["axis"]["emoji"]
+                ce = z["color"]["emoji"]
+                w(f"| {i} | {nz} | {oe} {ORDER_NAMES.get(oe,'')} | "
+                  f"{te} {TYPE_NAMES.get(te,'')} | "
+                  f"{ae} {AXIS_NAMES.get(ae,'')} | "
+                  f"{ce} {COLOR_NAMES.get(ce,'')} |")
+        w()
+
+        # Bonus zips
+        w("**Bonus Slots (13):**")
+        w()
+        w("| # | Zip | Role | Order | Type | Axis | Color |")
+        w("|---|-----|------|-------|------|------|-------|")
+        for i, b in enumerate(ab["bonus_zips"], 1):
+            nz = b["zip"]
+            z = zip_by_num.get(nz)
+            if z:
+                oe = z["order"]["emoji"]
+                te = z["type"]["emoji"]
+                ae = z["axis"]["emoji"]
+                ce = z["color"]["emoji"]
+                w(f"| {i} | {nz} | {b['role']} | {oe} {ORDER_NAMES.get(oe,'')} | "
+                  f"{te} {TYPE_NAMES.get(te,'')} | "
+                  f"{ae} {AXIS_NAMES.get(ae,'')} | "
+                  f"{ce} {COLOR_NAMES.get(ce,'')} |")
+        w()
+        w("---")
+        w()
+
+    # --- DLC Packs ---
+    if dlc_packs:
+        w("## DLC Expansion Packs")
+        w()
+        w(f"{len(dlc_packs)} packs, {dlc_total} total zips.")
+        w()
+        for p in dlc_packs:
+            w(f"### {p['id']}: {p['name']}")
+            w(f"*{p['description']}* | {p['size']} zips")
+            w()
+            w("| Zip | Order | Type | Axis | Color |")
+            w("|-----|-------|------|------|-------|")
+            for nz in p["zips"]:
+                z = zip_by_num.get(nz)
+                if z:
+                    oe = z["order"]["emoji"]
+                    te = z["type"]["emoji"]
+                    ae = z["axis"]["emoji"]
+                    ce = z["color"]["emoji"]
+                    w(f"| {nz} | {oe} {ORDER_NAMES.get(oe,'')} | "
+                      f"{te} {TYPE_NAMES.get(te,'')} | "
+                      f"{ae} {AXIS_NAMES.get(ae,'')} | "
+                      f"{ce} {COLOR_NAMES.get(ce,'')} |")
+            w()
+            w("---")
+            w()
+
+    # --- Zip Lookup Index ---
+    w("## Zip Lookup Index")
+    w()
+    w("Every zip code and its assignment.")
+    w()
+    w("| Zip | Emoji | Assignment | Slot |")
+    w("|-----|-------|------------|------|")
+
+    # Build lookup
+    zip_assignment: dict[str, tuple[str, str]] = {}
+    for ab in abaci_data:
+        for nz in ab["working_zips"]:
+            zip_assignment[nz] = (f"{ab['id']:02d} {ab['name']}", "working")
+        for b in ab["bonus_zips"]:
+            nz = b["zip"]
+            if nz not in zip_assignment:
+                zip_assignment[nz] = (f"{ab['id']:02d} {ab['name']}", f"bonus ({b['role']})")
+    for p in dlc_packs:
+        for nz in p["zips"]:
+            if nz not in zip_assignment:
+                zip_assignment[nz] = (p["name"], "dlc")
+
+    for nz in sorted(zip_by_num.keys()):
+        z = zip_by_num[nz]
+        emoji_zip = (z["order"]["emoji"] + z["axis"]["emoji"]
+                     + z["type"]["emoji"] + z["color"]["emoji"])
+        assignment, slot = zip_assignment.get(nz, ("UNASSIGNED", "—"))
+        w(f"| {nz} | {emoji_zip} | {assignment} | {slot} |")
+    w()
+
+    # --- Coverage Statistics ---
+    w("## Coverage Statistics")
+    w()
+    overlap = coverage.get("overlap_histogram", {})
+    if overlap:
+        w("### Overlap Distribution")
+        w()
+        w("| Abaci Count | Zip Count |")
+        w("|-------------|-----------|")
+        for k in sorted(overlap.keys()):
+            w(f"| {k} | {overlap[k]} |")
+        w()
+
+    # Free agent breakdown
+    free_agent_zips = coverage.get("free_agent_zips", [])
+    if free_agent_zips:
+        w("### Free Agent Breakdown (before DLC clustering)")
+        w()
+        w("| Order | Count |")
+        w("|-------|-------|")
+        by_order: dict[str, int] = Counter()
+        for nz in free_agent_zips:
+            z = zip_by_num.get(nz)
+            if z:
+                by_order[z["order"]["emoji"]] += 1
+        for oe in ORDER_EMOJIS:
+            c = by_order.get(oe, 0)
+            if c > 0:
+                w(f"| {oe} {ORDER_NAMES[oe]} | {c} |")
+        w()
+
+    # Write file
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"📄 Report written to {report_path}")
+
+
 def load_existing():
     if not OUTPUT_PATH.exists():
         print(f"❌ No existing registry at {OUTPUT_PATH}")
         sys.exit(1)
     data = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
-    return data["abaci"], data.get("coverage", {})
+    return data["abaci"], data.get("dlc_packs", []), data.get("coverage", {})
 
 
 # ---------------------------------------------------------------------------
@@ -995,12 +1392,14 @@ def main():
                         help="Print report from existing JSON (no recompile)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Compile and report but skip JSON write")
+    parser.add_argument("--report", nargs="?", const="default", default=None,
+                        help="Write full markdown report (optional: path)")
     args = parser.parse_args()
 
     all_zips = load_zip_registry()
 
     if args.stats:
-        abaci_data, coverage = load_existing()
+        abaci_data, dlc_packs, coverage = load_existing()
         # Rebuild overlap histogram from data
         zip_abacus_count = Counter()
         for ab in abaci_data:
@@ -1009,14 +1408,21 @@ def main():
             for b in ab["bonus_zips"]:
                 zip_abacus_count[b["zip"]] += 1
         coverage["overlap_histogram"] = dict(sorted(Counter(zip_abacus_count.values()).items()))
-        print_report(abaci_data, all_zips, coverage)
+        print_report(abaci_data, all_zips, coverage, dlc_packs)
+        if args.report is not None:
+            rp = None if args.report == "default" else Path(args.report)
+            write_report(abaci_data, dlc_packs, all_zips, coverage, rp)
         return
 
-    abaci_data, coverage = compile_abaci()
-    print_report(abaci_data, all_zips, coverage)
+    abaci_data, dlc_packs, coverage = compile_abaci()
+    print_report(abaci_data, all_zips, coverage, dlc_packs)
+
+    if args.report is not None:
+        rp = None if args.report == "default" else Path(args.report)
+        write_report(abaci_data, dlc_packs, all_zips, coverage, rp)
 
     if not args.dry_run:
-        write_output(abaci_data, coverage)
+        write_output(abaci_data, dlc_packs, coverage)
 
 
 if __name__ == "__main__":
