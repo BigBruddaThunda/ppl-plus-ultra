@@ -1,0 +1,3477 @@
+{
+  "generated": "2026-03-08",
+  "abaci": [
+    {
+      "id": 1,
+      "name": "General Strength",
+      "slug": "general-strength",
+      "domain": "strength",
+      "description": "Barbell classics, linear progression, balanced push/pull/legs",
+      "axis_bias": "🏛",
+      "working_zips": [
+        "1113",
+        "1123",
+        "1133",
+        "1143",
+        "1153",
+        "2113",
+        "2123",
+        "2133",
+        "2143",
+        "2153",
+        "3413",
+        "3623",
+        "3433",
+        "3643",
+        "3153",
+        "4613",
+        "4223",
+        "4533",
+        "4243",
+        "4253",
+        "5513",
+        "5223",
+        "5333",
+        "5243",
+        "5253",
+        "6413",
+        "6323",
+        "6433",
+        "6343",
+        "6553",
+        "7113",
+        "7223",
+        "7333",
+        "7443",
+        "7453"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "1631",
+          "role": "variety"
+        },
+        {
+          "zip": "2354",
+          "role": "variety"
+        },
+        {
+          "zip": "1634",
+          "role": "variety"
+        },
+        {
+          "zip": "2413",
+          "role": "variation"
+        },
+        {
+          "zip": "2423",
+          "role": "variation"
+        },
+        {
+          "zip": "7123",
+          "role": "recovery"
+        },
+        {
+          "zip": "7133",
+          "role": "recovery"
+        },
+        {
+          "zip": "3113",
+          "role": "variety"
+        },
+        {
+          "zip": "3123",
+          "role": "variety"
+        },
+        {
+          "zip": "3438",
+          "role": "variety"
+        },
+        {
+          "zip": "3143",
+          "role": "variety"
+        },
+        {
+          "zip": "4113",
+          "role": "variety"
+        },
+        {
+          "zip": "4123",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Powerlifting",
+      "slug": "powerlifting",
+      "domain": "strength",
+      "description": "Squat/bench/deadlift focus, peaking cycles, competition prep",
+      "axis_bias": "🏛",
+      "working_zips": [
+        "1413",
+        "1423",
+        "1433",
+        "1443",
+        "1353",
+        "2114",
+        "2124",
+        "2134",
+        "2144",
+        "2253",
+        "3414",
+        "3423",
+        "3434",
+        "3443",
+        "3553",
+        "4114",
+        "4124",
+        "4133",
+        "4143",
+        "4254",
+        "5113",
+        "5123",
+        "5133",
+        "5143",
+        "5553",
+        "6113",
+        "6123",
+        "6133",
+        "6443",
+        "6353",
+        "7413",
+        "7224",
+        "7233",
+        "7543",
+        "7653"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "1654",
+          "role": "variety"
+        },
+        {
+          "zip": "2418",
+          "role": "variety"
+        },
+        {
+          "zip": "1417",
+          "role": "variety"
+        },
+        {
+          "zip": "2433",
+          "role": "variation"
+        },
+        {
+          "zip": "4413",
+          "role": "variation"
+        },
+        {
+          "zip": "3431",
+          "role": "variety"
+        },
+        {
+          "zip": "7114",
+          "role": "recovery"
+        },
+        {
+          "zip": "4134",
+          "role": "variety"
+        },
+        {
+          "zip": "4423",
+          "role": "variety"
+        },
+        {
+          "zip": "4433",
+          "role": "variety"
+        },
+        {
+          "zip": "2115",
+          "role": "variety"
+        },
+        {
+          "zip": "2125",
+          "role": "variety"
+        },
+        {
+          "zip": "2135",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Strongman / Odd Object",
+      "slug": "strongman",
+      "domain": "strength",
+      "description": "Carries, stones, yokes, implements",
+      "axis_bias": "🔨",
+      "working_zips": [
+        "1415",
+        "1125",
+        "1435",
+        "1245",
+        "1355",
+        "2215",
+        "2225",
+        "2235",
+        "2245",
+        "2555",
+        "3115",
+        "3525",
+        "3435",
+        "3245",
+        "3555",
+        "4415",
+        "4225",
+        "4435",
+        "4245",
+        "4555",
+        "5115",
+        "5425",
+        "5135",
+        "5245",
+        "5655",
+        "6415",
+        "6125",
+        "6435",
+        "6245",
+        "6655",
+        "7415",
+        "7425",
+        "7135",
+        "7245",
+        "7655"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "1614",
+          "role": "variety"
+        },
+        {
+          "zip": "2614",
+          "role": "variety"
+        },
+        {
+          "zip": "3243",
+          "role": "junction"
+        },
+        {
+          "zip": "2445",
+          "role": "variation"
+        },
+        {
+          "zip": "4445",
+          "role": "variation"
+        },
+        {
+          "zip": "7244",
+          "role": "recovery"
+        },
+        {
+          "zip": "7445",
+          "role": "recovery"
+        },
+        {
+          "zip": "2244",
+          "role": "variety"
+        },
+        {
+          "zip": "4244",
+          "role": "variety"
+        },
+        {
+          "zip": "2444",
+          "role": "variety"
+        },
+        {
+          "zip": "2634",
+          "role": "variety"
+        },
+        {
+          "zip": "4215",
+          "role": "variety"
+        },
+        {
+          "zip": "4235",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Calisthenics Strength",
+      "slug": "calisthenics-strength",
+      "domain": "strength",
+      "description": "Advanced bodyweight: muscle-ups, levers, planches",
+      "axis_bias": "🪐",
+      "working_zips": [
+        "1112",
+        "1522",
+        "1232",
+        "1542",
+        "1652",
+        "2412",
+        "2422",
+        "2432",
+        "2442",
+        "2452",
+        "3112",
+        "3622",
+        "3132",
+        "3642",
+        "3452",
+        "4312",
+        "4422",
+        "4332",
+        "4242",
+        "4252",
+        "5512",
+        "5422",
+        "5532",
+        "5442",
+        "5252",
+        "6212",
+        "6122",
+        "6232",
+        "6142",
+        "6352",
+        "7412",
+        "7222",
+        "7132",
+        "7242",
+        "7152"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "1624",
+          "role": "variety"
+        },
+        {
+          "zip": "2344",
+          "role": "variety"
+        },
+        {
+          "zip": "5233",
+          "role": "junction"
+        },
+        {
+          "zip": "1412",
+          "role": "variation"
+        },
+        {
+          "zip": "1422",
+          "role": "variation"
+        },
+        {
+          "zip": "7422",
+          "role": "recovery"
+        },
+        {
+          "zip": "7432",
+          "role": "recovery"
+        },
+        {
+          "zip": "2212",
+          "role": "variety"
+        },
+        {
+          "zip": "2222",
+          "role": "variety"
+        },
+        {
+          "zip": "2232",
+          "role": "variety"
+        },
+        {
+          "zip": "2242",
+          "role": "variety"
+        },
+        {
+          "zip": "2352",
+          "role": "variety"
+        },
+        {
+          "zip": "1432",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Kettlebell Strength",
+      "slug": "kettlebell-strength",
+      "domain": "strength",
+      "description": "KB-first programming, swings, TGUs, complexes",
+      "axis_bias": "🔨",
+      "working_zips": [
+        "1414",
+        "1623",
+        "1434",
+        "1543",
+        "1453",
+        "2213",
+        "2223",
+        "2233",
+        "2243",
+        "2254",
+        "3613",
+        "3323",
+        "3436",
+        "3543",
+        "3154",
+        "4313",
+        "4523",
+        "4633",
+        "4246",
+        "4553",
+        "5213",
+        "5224",
+        "5533",
+        "5244",
+        "5254",
+        "6114",
+        "6423",
+        "6134",
+        "6543",
+        "6153",
+        "7513",
+        "7124",
+        "7433",
+        "7246",
+        "7153"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "2346",
+          "role": "variety"
+        },
+        {
+          "zip": "2448",
+          "role": "variety"
+        },
+        {
+          "zip": "3233",
+          "role": "junction"
+        },
+        {
+          "zip": "2443",
+          "role": "variation"
+        },
+        {
+          "zip": "5443",
+          "role": "variation"
+        },
+        {
+          "zip": "7213",
+          "role": "recovery"
+        },
+        {
+          "zip": "2618",
+          "role": "variety"
+        },
+        {
+          "zip": "2246",
+          "role": "variety"
+        },
+        {
+          "zip": "5246",
+          "role": "variety"
+        },
+        {
+          "zip": "1244",
+          "role": "variety"
+        },
+        {
+          "zip": "1246",
+          "role": "variety"
+        },
+        {
+          "zip": "2214",
+          "role": "variety"
+        },
+        {
+          "zip": "2216",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Senior Strength",
+      "slug": "senior-strength",
+      "domain": "strength",
+      "description": "Joint-friendly loading, machine-assisted, balance integration",
+      "axis_bias": "🏛",
+      "working_zips": [
+        "1111",
+        "1121",
+        "1131",
+        "1141",
+        "1151",
+        "2613",
+        "2623",
+        "2333",
+        "2643",
+        "2353",
+        "3213",
+        "3223",
+        "3333",
+        "3541",
+        "3251",
+        "4513",
+        "4521",
+        "4431",
+        "4543",
+        "4453",
+        "5613",
+        "5323",
+        "5633",
+        "5343",
+        "5353",
+        "6111",
+        "6121",
+        "6131",
+        "6143",
+        "6151",
+        "7211",
+        "7221",
+        "7231",
+        "7241",
+        "7251"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "1657",
+          "role": "variety"
+        },
+        {
+          "zip": "5255",
+          "role": "junction"
+        },
+        {
+          "zip": "5235",
+          "role": "junction"
+        },
+        {
+          "zip": "6453",
+          "role": "variation"
+        },
+        {
+          "zip": "7423",
+          "role": "variation"
+        },
+        {
+          "zip": "2311",
+          "role": "variety"
+        },
+        {
+          "zip": "2321",
+          "role": "variety"
+        },
+        {
+          "zip": "2328",
+          "role": "variety"
+        },
+        {
+          "zip": "2331",
+          "role": "variety"
+        },
+        {
+          "zip": "1158",
+          "role": "variety"
+        },
+        {
+          "zip": "6118",
+          "role": "variety"
+        },
+        {
+          "zip": "6128",
+          "role": "variety"
+        },
+        {
+          "zip": "6138",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Post-Rehab Strength",
+      "slug": "post-rehab-strength",
+      "domain": "strength",
+      "description": "Return-to-training progressions, conservative loading",
+      "axis_bias": "🏛",
+      "working_zips": [
+        "1211",
+        "1221",
+        "1231",
+        "1241",
+        "1251",
+        "2511",
+        "2621",
+        "2531",
+        "2641",
+        "2551",
+        "3311",
+        "3321",
+        "3331",
+        "3548",
+        "3351",
+        "4411",
+        "4621",
+        "4438",
+        "4641",
+        "4451",
+        "5311",
+        "5221",
+        "5331",
+        "5241",
+        "5351",
+        "6112",
+        "6221",
+        "6132",
+        "6141",
+        "6158",
+        "7111",
+        "7121",
+        "7131",
+        "7141",
+        "7151"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "5225",
+          "role": "junction"
+        },
+        {
+          "zip": "2255",
+          "role": "junction"
+        },
+        {
+          "zip": "2341",
+          "role": "variety"
+        },
+        {
+          "zip": "1411",
+          "role": "variation"
+        },
+        {
+          "zip": "1421",
+          "role": "variation"
+        },
+        {
+          "zip": "6148",
+          "role": "recovery"
+        },
+        {
+          "zip": "2651",
+          "role": "variety"
+        },
+        {
+          "zip": "3458",
+          "role": "variety"
+        },
+        {
+          "zip": "3611",
+          "role": "variety"
+        },
+        {
+          "zip": "6241",
+          "role": "variety"
+        },
+        {
+          "zip": "6251",
+          "role": "variety"
+        },
+        {
+          "zip": "1122",
+          "role": "variety"
+        },
+        {
+          "zip": "3618",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bodybuilding",
+      "slug": "bodybuilding",
+      "domain": "hypertrophy",
+      "description": "Isolation-heavy, pump focus, aesthetic dominant",
+      "axis_bias": "🌹",
+      "working_zips": [
+        "1315",
+        "1325",
+        "1235",
+        "1445",
+        "1455",
+        "2515",
+        "2525",
+        "2635",
+        "2645",
+        "2655",
+        "3315",
+        "3325",
+        "3335",
+        "3345",
+        "3355",
+        "4115",
+        "4325",
+        "4535",
+        "4145",
+        "4155",
+        "5315",
+        "5325",
+        "5435",
+        "5145",
+        "5155",
+        "6315",
+        "6325",
+        "6135",
+        "6445",
+        "6255",
+        "7315",
+        "7325",
+        "7235",
+        "7145",
+        "7255"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "2314",
+          "role": "variety"
+        },
+        {
+          "zip": "2317",
+          "role": "variety"
+        },
+        {
+          "zip": "6252",
+          "role": "junction"
+        },
+        {
+          "zip": "3415",
+          "role": "variation"
+        },
+        {
+          "zip": "3425",
+          "role": "variation"
+        },
+        {
+          "zip": "7335",
+          "role": "recovery"
+        },
+        {
+          "zip": "7345",
+          "role": "recovery"
+        },
+        {
+          "zip": "3313",
+          "role": "variety"
+        },
+        {
+          "zip": "3343",
+          "role": "variety"
+        },
+        {
+          "zip": "3353",
+          "role": "variety"
+        },
+        {
+          "zip": "4315",
+          "role": "variety"
+        },
+        {
+          "zip": "1335",
+          "role": "variety"
+        },
+        {
+          "zip": "1345",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Physique / Recomp",
+      "slug": "physique-recomp",
+      "domain": "hypertrophy",
+      "description": "Balanced hypertrophy + conditioning, leaner bias",
+      "axis_bias": "🌹",
+      "working_zips": [
+        "1215",
+        "1225",
+        "1533",
+        "1446",
+        "1155",
+        "2513",
+        "2425",
+        "2533",
+        "2646",
+        "2355",
+        "3215",
+        "3125",
+        "3135",
+        "3145",
+        "3356",
+        "4615",
+        "4125",
+        "4635",
+        "4545",
+        "4353",
+        "5313",
+        "5125",
+        "5335",
+        "5345",
+        "5355",
+        "6215",
+        "6225",
+        "6235",
+        "6446",
+        "6355",
+        "7313",
+        "7125",
+        "7435",
+        "7545",
+        "7353"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "1255",
+          "role": "junction"
+        },
+        {
+          "zip": "1641",
+          "role": "variety"
+        },
+        {
+          "zip": "5215",
+          "role": "junction"
+        },
+        {
+          "zip": "3453",
+          "role": "variation"
+        },
+        {
+          "zip": "3455",
+          "role": "variation"
+        },
+        {
+          "zip": "7355",
+          "role": "recovery"
+        },
+        {
+          "zip": "7323",
+          "role": "recovery"
+        },
+        {
+          "zip": "4355",
+          "role": "variety"
+        },
+        {
+          "zip": "3155",
+          "role": "variety"
+        },
+        {
+          "zip": "1313",
+          "role": "variety"
+        },
+        {
+          "zip": "2334",
+          "role": "variety"
+        },
+        {
+          "zip": "1333",
+          "role": "variety"
+        },
+        {
+          "zip": "1343",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Athletic Hypertrophy",
+      "slug": "athletic-hypertrophy",
+      "domain": "hypertrophy",
+      "description": "Size that transfers: power-building, sport-hybrid",
+      "axis_bias": "🔨",
+      "working_zips": [
+        "1314",
+        "1625",
+        "1135",
+        "1145",
+        "1653",
+        "2415",
+        "2323",
+        "2234",
+        "2145",
+        "2155",
+        "3214",
+        "3225",
+        "3235",
+        "3244",
+        "3255",
+        "4213",
+        "4323",
+        "4233",
+        "4443",
+        "4255",
+        "5413",
+        "5423",
+        "5433",
+        "5445",
+        "5153",
+        "6115",
+        "6523",
+        "6333",
+        "6145",
+        "6653",
+        "7215",
+        "7225",
+        "7533",
+        "7343",
+        "7553"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "6242",
+          "role": "junction"
+        },
+        {
+          "zip": "2336",
+          "role": "variety"
+        },
+        {
+          "zip": "2356",
+          "role": "variety"
+        },
+        {
+          "zip": "3445",
+          "role": "variation"
+        },
+        {
+          "zip": "2453",
+          "role": "variation"
+        },
+        {
+          "zip": "7115",
+          "role": "recovery"
+        },
+        {
+          "zip": "7155",
+          "role": "recovery"
+        },
+        {
+          "zip": "3224",
+          "role": "variety"
+        },
+        {
+          "zip": "3621",
+          "role": "variety"
+        },
+        {
+          "zip": "3254",
+          "role": "variety"
+        },
+        {
+          "zip": "4153",
+          "role": "variety"
+        },
+        {
+          "zip": "2224",
+          "role": "variety"
+        },
+        {
+          "zip": "5214",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Minimalist Hypertrophy",
+      "slug": "minimalist-hypertrophy",
+      "domain": "hypertrophy",
+      "description": "3x/week full compounds, time-efficient muscle gain",
+      "axis_bias": "🏛",
+      "working_zips": [
+        "1212",
+        "1523",
+        "1532",
+        "1643",
+        "1553",
+        "2313",
+        "2523",
+        "2435",
+        "2343",
+        "2152",
+        "3312",
+        "3122",
+        "3332",
+        "3142",
+        "3152",
+        "4212",
+        "4122",
+        "4333",
+        "4142",
+        "4152",
+        "5112",
+        "5122",
+        "5132",
+        "5142",
+        "5152",
+        "6313",
+        "6222",
+        "6234",
+        "6442",
+        "6652",
+        "7112",
+        "7322",
+        "7633",
+        "7247",
+        "7452"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "2337",
+          "role": "variety"
+        },
+        {
+          "zip": "1651",
+          "role": "variety"
+        },
+        {
+          "zip": "3242",
+          "role": "junction"
+        },
+        {
+          "zip": "5453",
+          "role": "variation"
+        },
+        {
+          "zip": "3412",
+          "role": "variation"
+        },
+        {
+          "zip": "2347",
+          "role": "variety"
+        },
+        {
+          "zip": "7142",
+          "role": "recovery"
+        },
+        {
+          "zip": "1115",
+          "role": "variety"
+        },
+        {
+          "zip": "2357",
+          "role": "variety"
+        },
+        {
+          "zip": "3624",
+          "role": "variety"
+        },
+        {
+          "zip": "2112",
+          "role": "variety"
+        },
+        {
+          "zip": "2122",
+          "role": "variety"
+        },
+        {
+          "zip": "2132",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Aesthetic Specialization",
+      "slug": "aesthetic-specialization",
+      "domain": "hypertrophy",
+      "description": "Weak-point targeting, balance + aesthetic cross",
+      "axis_bias": "🌹",
+      "working_zips": [
+        "1515",
+        "1425",
+        "1437",
+        "1645",
+        "1655",
+        "2315",
+        "2325",
+        "2335",
+        "2345",
+        "2154",
+        "3314",
+        "3324",
+        "3334",
+        "3144",
+        "3354",
+        "4614",
+        "4224",
+        "4335",
+        "4345",
+        "4257",
+        "5415",
+        "5124",
+        "5535",
+        "5144",
+        "5257",
+        "6314",
+        "6324",
+        "6335",
+        "6345",
+        "6354",
+        "7117",
+        "7227",
+        "7535",
+        "7248",
+        "7455"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "1627",
+          "role": "variety"
+        },
+        {
+          "zip": "7212",
+          "role": "junction"
+        },
+        {
+          "zip": "1256",
+          "role": "junction"
+        },
+        {
+          "zip": "6425",
+          "role": "variation"
+        },
+        {
+          "zip": "6455",
+          "role": "variation"
+        },
+        {
+          "zip": "3318",
+          "role": "recovery"
+        },
+        {
+          "zip": "3328",
+          "role": "recovery"
+        },
+        {
+          "zip": "4343",
+          "role": "variety"
+        },
+        {
+          "zip": "3317",
+          "role": "variety"
+        },
+        {
+          "zip": "3327",
+          "role": "variety"
+        },
+        {
+          "zip": "3337",
+          "role": "variety"
+        },
+        {
+          "zip": "3338",
+          "role": "variety"
+        },
+        {
+          "zip": "3344",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "General Conditioning",
+      "slug": "general-conditioning",
+      "domain": "conditioning",
+      "description": "Broad aerobic base, mixed modality, Ultra dominant",
+      "axis_bias": "⌛",
+      "working_zips": [
+        "1116",
+        "1626",
+        "1236",
+        "1146",
+        "1556",
+        "2416",
+        "2326",
+        "2436",
+        "2146",
+        "2556",
+        "3416",
+        "3326",
+        "3136",
+        "3246",
+        "3556",
+        "4616",
+        "4226",
+        "4636",
+        "4546",
+        "4556",
+        "5516",
+        "5526",
+        "5536",
+        "5546",
+        "5556",
+        "6216",
+        "6426",
+        "6236",
+        "6246",
+        "6556",
+        "7216",
+        "7226",
+        "7636",
+        "7146",
+        "7556"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "6244",
+          "role": "junction"
+        },
+        {
+          "zip": "5212",
+          "role": "junction"
+        },
+        {
+          "zip": "3232",
+          "role": "junction"
+        },
+        {
+          "zip": "5456",
+          "role": "variation"
+        },
+        {
+          "zip": "5455",
+          "role": "variation"
+        },
+        {
+          "zip": "7555",
+          "role": "recovery"
+        },
+        {
+          "zip": "7552",
+          "role": "recovery"
+        },
+        {
+          "zip": "5555",
+          "role": "variety"
+        },
+        {
+          "zip": "5552",
+          "role": "variety"
+        },
+        {
+          "zip": "1555",
+          "role": "variety"
+        },
+        {
+          "zip": "2553",
+          "role": "variety"
+        },
+        {
+          "zip": "6555",
+          "role": "variety"
+        },
+        {
+          "zip": "5256",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Marathon / Distance Running",
+      "slug": "marathon-distance",
+      "domain": "conditioning",
+      "description": "Zone 2 heavy, running-specific mobility and strength",
+      "axis_bias": "⌛",
+      "working_zips": [
+        "1513",
+        "1228",
+        "1238",
+        "1342",
+        "1552",
+        "2118",
+        "2128",
+        "2238",
+        "2142",
+        "2552",
+        "3212",
+        "3222",
+        "3533",
+        "3442",
+        "3552",
+        "4612",
+        "4623",
+        "4432",
+        "4643",
+        "4452",
+        "5118",
+        "5228",
+        "5238",
+        "5342",
+        "5558",
+        "6312",
+        "6322",
+        "6533",
+        "6448",
+        "6552",
+        "7512",
+        "7523",
+        "7532",
+        "7148",
+        "7558"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "7256",
+          "role": "junction"
+        },
+        {
+          "zip": "6256",
+          "role": "junction"
+        },
+        {
+          "zip": "5236",
+          "role": "junction"
+        },
+        {
+          "zip": "7458",
+          "role": "variation"
+        },
+        {
+          "zip": "1452",
+          "role": "variation"
+        },
+        {
+          "zip": "1558",
+          "role": "recovery"
+        },
+        {
+          "zip": "2558",
+          "role": "recovery"
+        },
+        {
+          "zip": "3558",
+          "role": "variety"
+        },
+        {
+          "zip": "6558",
+          "role": "variety"
+        },
+        {
+          "zip": "7538",
+          "role": "variety"
+        },
+        {
+          "zip": "7522",
+          "role": "variety"
+        },
+        {
+          "zip": "2532",
+          "role": "variety"
+        },
+        {
+          "zip": "3532",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Sprint / Power Conditioning",
+      "slug": "sprint-power-conditioning",
+      "domain": "conditioning",
+      "description": "Short intervals, explosive repeats, plyometrics",
+      "axis_bias": "⌛",
+      "working_zips": [
+        "1114",
+        "1124",
+        "1234",
+        "1545",
+        "1254",
+        "2414",
+        "2424",
+        "2535",
+        "2545",
+        "2455",
+        "3114",
+        "3322",
+        "3134",
+        "3545",
+        "3454",
+        "4515",
+        "4525",
+        "4234",
+        "4446",
+        "4256",
+        "5314",
+        "5625",
+        "5234",
+        "5545",
+        "5454",
+        "6615",
+        "6124",
+        "6535",
+        "6545",
+        "6254",
+        "7414",
+        "7625",
+        "7234",
+        "7444",
+        "7254"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "3256",
+          "role": "junction"
+        },
+        {
+          "zip": "1226",
+          "role": "junction"
+        },
+        {
+          "zip": "5226",
+          "role": "junction"
+        },
+        {
+          "zip": "4455",
+          "role": "variation"
+        },
+        {
+          "zip": "4425",
+          "role": "variation"
+        },
+        {
+          "zip": "7515",
+          "role": "recovery"
+        },
+        {
+          "zip": "7525",
+          "role": "recovery"
+        },
+        {
+          "zip": "1535",
+          "role": "variety"
+        },
+        {
+          "zip": "3535",
+          "role": "variety"
+        },
+        {
+          "zip": "4554",
+          "role": "variety"
+        },
+        {
+          "zip": "1525",
+          "role": "variety"
+        },
+        {
+          "zip": "3515",
+          "role": "variety"
+        },
+        {
+          "zip": "5515",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Sport Conditioning",
+      "slug": "sport-conditioning",
+      "domain": "conditioning",
+      "description": "Field sport energy systems, agility, lateral movement",
+      "axis_bias": "🔨",
+      "working_zips": [
+        "1216",
+        "1126",
+        "1136",
+        "1546",
+        "1456",
+        "2116",
+        "2126",
+        "2236",
+        "2546",
+        "2256",
+        "3216",
+        "3325",
+        "3236",
+        "3546",
+        "3456",
+        "4216",
+        "4526",
+        "4236",
+        "4645",
+        "4456",
+        "5216",
+        "5525",
+        "5436",
+        "5542",
+        "5656",
+        "6616",
+        "6226",
+        "6635",
+        "6546",
+        "6456",
+        "7615",
+        "7626",
+        "7236",
+        "7546",
+        "7456"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "1224",
+          "role": "junction"
+        },
+        {
+          "zip": "6224",
+          "role": "junction"
+        },
+        {
+          "zip": "5543",
+          "role": "junction"
+        },
+        {
+          "zip": "5446",
+          "role": "variation"
+        },
+        {
+          "zip": "2456",
+          "role": "variation"
+        },
+        {
+          "zip": "7516",
+          "role": "recovery"
+        },
+        {
+          "zip": "7526",
+          "role": "recovery"
+        },
+        {
+          "zip": "2226",
+          "role": "variety"
+        },
+        {
+          "zip": "3226",
+          "role": "variety"
+        },
+        {
+          "zip": "4516",
+          "role": "variety"
+        },
+        {
+          "zip": "4536",
+          "role": "variety"
+        },
+        {
+          "zip": "4552",
+          "role": "variety"
+        },
+        {
+          "zip": "4222",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Fasting Cardio + Strength",
+      "slug": "fasting-cardio-strength",
+      "domain": "conditioning",
+      "description": "Low-intensity AM conditioning paired with PM strength",
+      "axis_bias": "🏛",
+      "working_zips": [
+        "1512",
+        "1322",
+        "1538",
+        "1248",
+        "1156",
+        "2312",
+        "2622",
+        "2332",
+        "2543",
+        "2158",
+        "3513",
+        "3523",
+        "3432",
+        "3648",
+        "3158",
+        "4112",
+        "4228",
+        "4132",
+        "4248",
+        "4158",
+        "5612",
+        "5523",
+        "5432",
+        "5248",
+        "5158",
+        "6513",
+        "6422",
+        "6238",
+        "6342",
+        "6152",
+        "7118",
+        "7228",
+        "7238",
+        "7542",
+        "7158"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "1214",
+          "role": "junction"
+        },
+        {
+          "zip": "2338",
+          "role": "variety"
+        },
+        {
+          "zip": "1144",
+          "role": "junction"
+        },
+        {
+          "zip": "1458",
+          "role": "variation"
+        },
+        {
+          "zip": "5452",
+          "role": "variation"
+        },
+        {
+          "zip": "7156",
+          "role": "recovery"
+        },
+        {
+          "zip": "1637",
+          "role": "variety"
+        },
+        {
+          "zip": "4558",
+          "role": "variety"
+        },
+        {
+          "zip": "7128",
+          "role": "variety"
+        },
+        {
+          "zip": "2348",
+          "role": "variety"
+        },
+        {
+          "zip": "2156",
+          "role": "variety"
+        },
+        {
+          "zip": "3156",
+          "role": "variety"
+        },
+        {
+          "zip": "4156",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "General Functional Fitness",
+      "slug": "general-functional",
+      "domain": "functional",
+      "description": "Functional dominant, transfer-focused",
+      "axis_bias": "🔨",
+      "working_zips": [
+        "1516",
+        "1526",
+        "1436",
+        "1247",
+        "1656",
+        "2512",
+        "2322",
+        "2136",
+        "2247",
+        "2652",
+        "3116",
+        "3322",
+        "3536",
+        "3247",
+        "3257",
+        "4512",
+        "4426",
+        "4232",
+        "4247",
+        "4652",
+        "5217",
+        "5227",
+        "5237",
+        "5247",
+        "5156",
+        "6412",
+        "6126",
+        "6432",
+        "6247",
+        "6656",
+        "7217",
+        "7426",
+        "7136",
+        "7442",
+        "7652"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "1611",
+          "role": "variety"
+        },
+        {
+          "zip": "4135",
+          "role": "junction"
+        },
+        {
+          "zip": "6144",
+          "role": "junction"
+        },
+        {
+          "zip": "5412",
+          "role": "variation"
+        },
+        {
+          "zip": "5416",
+          "role": "variation"
+        },
+        {
+          "zip": "7237",
+          "role": "recovery"
+        },
+        {
+          "zip": "7257",
+          "role": "recovery"
+        },
+        {
+          "zip": "1217",
+          "role": "variety"
+        },
+        {
+          "zip": "1227",
+          "role": "variety"
+        },
+        {
+          "zip": "1237",
+          "role": "variety"
+        },
+        {
+          "zip": "1257",
+          "role": "variety"
+        },
+        {
+          "zip": "2217",
+          "role": "variety"
+        },
+        {
+          "zip": "2227",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "CrossFit-Style",
+      "slug": "crossfit-style",
+      "domain": "functional",
+      "description": "Mixed modal, EMOM/AMRAP, Olympic lifts + conditioning",
+      "axis_bias": "⌛",
+      "working_zips": [
+        "1615",
+        "1324",
+        "1134",
+        "1544",
+        "1454",
+        "2615",
+        "2625",
+        "2237",
+        "2544",
+        "2554",
+        "3217",
+        "3124",
+        "3237",
+        "3544",
+        "3655",
+        "4214",
+        "4227",
+        "4237",
+        "4544",
+        "4454",
+        "5414",
+        "5424",
+        "5434",
+        "5544",
+        "5554",
+        "6515",
+        "6525",
+        "6237",
+        "6544",
+        "6257",
+        "7116",
+        "7424",
+        "7134",
+        "7544",
+        "7454"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "1354",
+          "role": "variety"
+        },
+        {
+          "zip": "2647",
+          "role": "variety"
+        },
+        {
+          "zip": "2657",
+          "role": "variety"
+        },
+        {
+          "zip": "5444",
+          "role": "variation"
+        },
+        {
+          "zip": "3417",
+          "role": "variety"
+        },
+        {
+          "zip": "7554",
+          "role": "recovery"
+        },
+        {
+          "zip": "7514",
+          "role": "recovery"
+        },
+        {
+          "zip": "4514",
+          "role": "variety"
+        },
+        {
+          "zip": "4524",
+          "role": "variety"
+        },
+        {
+          "zip": "4534",
+          "role": "variety"
+        },
+        {
+          "zip": "1554",
+          "role": "variety"
+        },
+        {
+          "zip": "2514",
+          "role": "variety"
+        },
+        {
+          "zip": "2524",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Combat Sport Prep",
+      "slug": "combat-sport-prep",
+      "domain": "functional",
+      "description": "Rotational power, grip, neck, conditioning circuits",
+      "axis_bias": "🔨",
+      "working_zips": [
+        "1416",
+        "1426",
+        "1536",
+        "1646",
+        "1356",
+        "2211",
+        "2221",
+        "2231",
+        "2241",
+        "2251",
+        "3516",
+        "3426",
+        "3635",
+        "3241",
+        "3554",
+        "4116",
+        "4221",
+        "4136",
+        "4241",
+        "4251",
+        "5615",
+        "5426",
+        "5635",
+        "5645",
+        "5251",
+        "6416",
+        "6526",
+        "6436",
+        "6542",
+        "6155",
+        "7416",
+        "7524",
+        "7536",
+        "7446",
+        "7656"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "7144",
+          "role": "junction"
+        },
+        {
+          "zip": "1621",
+          "role": "variety"
+        },
+        {
+          "zip": "7358",
+          "role": "junction"
+        },
+        {
+          "zip": "2446",
+          "role": "variation"
+        },
+        {
+          "zip": "3446",
+          "role": "variation"
+        },
+        {
+          "zip": "7645",
+          "role": "recovery"
+        },
+        {
+          "zip": "7436",
+          "role": "recovery"
+        },
+        {
+          "zip": "2426",
+          "role": "variety"
+        },
+        {
+          "zip": "3645",
+          "role": "variety"
+        },
+        {
+          "zip": "6645",
+          "role": "variety"
+        },
+        {
+          "zip": "2526",
+          "role": "variety"
+        },
+        {
+          "zip": "5646",
+          "role": "variety"
+        },
+        {
+          "zip": "4416",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Field Sport Athlete",
+      "slug": "field-sport-athlete",
+      "domain": "functional",
+      "description": "Sprint, jump, cut, decelerate — movement-first",
+      "axis_bias": "🔨",
+      "working_zips": [
+        "1514",
+        "1524",
+        "1534",
+        "1644",
+        "1154",
+        "2117",
+        "2127",
+        "2434",
+        "2542",
+        "2257",
+        "3211",
+        "3227",
+        "3231",
+        "3444",
+        "3654",
+        "4217",
+        "4424",
+        "4231",
+        "4245",
+        "4255",
+        "5211",
+        "5524",
+        "5231",
+        "5644",
+        "5654",
+        "6217",
+        "6227",
+        "6434",
+        "6444",
+        "6554",
+        "7314",
+        "7126",
+        "7434",
+        "7644",
+        "7654"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "2617",
+          "role": "variety"
+        },
+        {
+          "zip": "7348",
+          "role": "junction"
+        },
+        {
+          "zip": "2637",
+          "role": "variety"
+        },
+        {
+          "zip": "4434",
+          "role": "variation"
+        },
+        {
+          "zip": "4414",
+          "role": "variation"
+        },
+        {
+          "zip": "7635",
+          "role": "recovery"
+        },
+        {
+          "zip": "7534",
+          "role": "recovery"
+        },
+        {
+          "zip": "4655",
+          "role": "variety"
+        },
+        {
+          "zip": "1635",
+          "role": "variety"
+        },
+        {
+          "zip": "4625",
+          "role": "variety"
+        },
+        {
+          "zip": "4634",
+          "role": "variety"
+        },
+        {
+          "zip": "4644",
+          "role": "variety"
+        },
+        {
+          "zip": "3615",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Climbing / Grip Sport",
+      "slug": "climbing-grip",
+      "domain": "functional",
+      "description": "Pull dominance, finger strength, shoulder stability",
+      "axis_bias": "🔨",
+      "working_zips": [
+        "1612",
+        "1424",
+        "1332",
+        "1442",
+        "1352",
+        "2612",
+        "2228",
+        "2534",
+        "2248",
+        "2258",
+        "3512",
+        "3228",
+        "3238",
+        "3248",
+        "3258",
+        "4412",
+        "4427",
+        "4238",
+        "4442",
+        "4258",
+        "5114",
+        "5427",
+        "5134",
+        "5146",
+        "5154",
+        "6512",
+        "6424",
+        "6532",
+        "6344",
+        "6452",
+        "7612",
+        "7427",
+        "7332",
+        "7547",
+        "7154"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "7338",
+          "role": "junction"
+        },
+        {
+          "zip": "4144",
+          "role": "junction"
+        },
+        {
+          "zip": "6156",
+          "role": "junction"
+        },
+        {
+          "zip": "3422",
+          "role": "variation"
+        },
+        {
+          "zip": "3424",
+          "role": "variation"
+        },
+        {
+          "zip": "2324",
+          "role": "variety"
+        },
+        {
+          "zip": "1428",
+          "role": "recovery"
+        },
+        {
+          "zip": "2454",
+          "role": "variety"
+        },
+        {
+          "zip": "6454",
+          "role": "variety"
+        },
+        {
+          "zip": "2427",
+          "role": "variety"
+        },
+        {
+          "zip": "2522",
+          "role": "variety"
+        },
+        {
+          "zip": "1427",
+          "role": "variety"
+        },
+        {
+          "zip": "3427",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "New to Gym",
+      "slug": "new-to-gym",
+      "domain": "life-stage",
+      "description": "Foundation heavy, teaching-focused, Teaching dominant",
+      "axis_bias": "🏛",
+      "working_zips": [
+        "1117",
+        "1127",
+        "1137",
+        "1147",
+        "1157",
+        "2611",
+        "2521",
+        "2631",
+        "2642",
+        "2351",
+        "3111",
+        "3121",
+        "3131",
+        "3141",
+        "3151",
+        "4417",
+        "4421",
+        "4531",
+        "4541",
+        "4651",
+        "5111",
+        "5121",
+        "5131",
+        "5141",
+        "5151",
+        "6211",
+        "6321",
+        "6231",
+        "6341",
+        "6351",
+        "7211",
+        "7221",
+        "7231",
+        "7241",
+        "7251"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "7328",
+          "role": "junction"
+        },
+        {
+          "zip": "5522",
+          "role": "junction"
+        },
+        {
+          "zip": "3542",
+          "role": "junction"
+        },
+        {
+          "zip": "1431",
+          "role": "variation"
+        },
+        {
+          "zip": "1441",
+          "role": "variation"
+        },
+        {
+          "zip": "7127",
+          "role": "recovery"
+        },
+        {
+          "zip": "7137",
+          "role": "recovery"
+        },
+        {
+          "zip": "7147",
+          "role": "variety"
+        },
+        {
+          "zip": "7157",
+          "role": "variety"
+        },
+        {
+          "zip": "3117",
+          "role": "variety"
+        },
+        {
+          "zip": "3127",
+          "role": "variety"
+        },
+        {
+          "zip": "3137",
+          "role": "variety"
+        },
+        {
+          "zip": "3147",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Return After Break",
+      "slug": "return-after-break",
+      "domain": "life-stage",
+      "description": "Ramp-back protocol, conservative progression",
+      "axis_bias": "🏛",
+      "working_zips": [
+        "1213",
+        "1223",
+        "1233",
+        "1243",
+        "1253",
+        "2218",
+        "2628",
+        "2538",
+        "2541",
+        "2653",
+        "3118",
+        "3128",
+        "3138",
+        "3148",
+        "3551",
+        "4418",
+        "4428",
+        "4631",
+        "4441",
+        "4653",
+        "5218",
+        "5128",
+        "5138",
+        "5148",
+        "5551",
+        "6116",
+        "6127",
+        "6136",
+        "6146",
+        "6157",
+        "7311",
+        "7321",
+        "7331",
+        "7341",
+        "7351"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "7318",
+          "role": "junction"
+        },
+        {
+          "zip": "6522",
+          "role": "junction"
+        },
+        {
+          "zip": "7352",
+          "role": "junction"
+        },
+        {
+          "zip": "1451",
+          "role": "variation"
+        },
+        {
+          "zip": "6411",
+          "role": "variation"
+        },
+        {
+          "zip": "1318",
+          "role": "recovery"
+        },
+        {
+          "zip": "1328",
+          "role": "recovery"
+        },
+        {
+          "zip": "6117",
+          "role": "variety"
+        },
+        {
+          "zip": "6137",
+          "role": "variety"
+        },
+        {
+          "zip": "6147",
+          "role": "variety"
+        },
+        {
+          "zip": "1311",
+          "role": "variety"
+        },
+        {
+          "zip": "1321",
+          "role": "variety"
+        },
+        {
+          "zip": "1331",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "50+ Active Living",
+      "slug": "fifty-plus",
+      "domain": "life-stage",
+      "description": "Joint health, balance, bone density, functional independence",
+      "axis_bias": "🏛",
+      "working_zips": [
+        "1613",
+        "1628",
+        "1233",
+        "1348",
+        "1358",
+        "2318",
+        "2528",
+        "2138",
+        "2548",
+        "2358",
+        "3218",
+        "3126",
+        "3336",
+        "3146",
+        "3157",
+        "4218",
+        "4528",
+        "4538",
+        "4448",
+        "4458",
+        "5116",
+        "5126",
+        "5136",
+        "5147",
+        "5157",
+        "6213",
+        "6223",
+        "6233",
+        "6243",
+        "6253",
+        "7613",
+        "7623",
+        "7233",
+        "7643",
+        "7658"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "3522",
+          "role": "junction"
+        },
+        {
+          "zip": "7342",
+          "role": "junction"
+        },
+        {
+          "zip": "6414",
+          "role": "junction"
+        },
+        {
+          "zip": "6438",
+          "role": "variation"
+        },
+        {
+          "zip": "1438",
+          "role": "variation"
+        },
+        {
+          "zip": "6638",
+          "role": "recovery"
+        },
+        {
+          "zip": "1638",
+          "role": "recovery"
+        },
+        {
+          "zip": "6633",
+          "role": "variety"
+        },
+        {
+          "zip": "1633",
+          "role": "variety"
+        },
+        {
+          "zip": "6613",
+          "role": "variety"
+        },
+        {
+          "zip": "6623",
+          "role": "variety"
+        },
+        {
+          "zip": "6643",
+          "role": "variety"
+        },
+        {
+          "zip": "7638",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Pre/Post Natal",
+      "slug": "pre-post-natal",
+      "domain": "life-stage",
+      "description": "Pelvic floor, core restoration, modified loading",
+      "axis_bias": "🌹",
+      "working_zips": [
+        "1312",
+        "1228",
+        "1338",
+        "1248",
+        "1258",
+        "2518",
+        "2421",
+        "2638",
+        "2148",
+        "2658",
+        "3118",
+        "3221",
+        "3138",
+        "3348",
+        "3258",
+        "4518",
+        "4522",
+        "4638",
+        "4548",
+        "4658",
+        "5117",
+        "5127",
+        "5137",
+        "5348",
+        "5158",
+        "6318",
+        "6328",
+        "6338",
+        "6348",
+        "6358",
+        "7312",
+        "7228",
+        "7238",
+        "7248",
+        "7258"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "6536",
+          "role": "junction"
+        },
+        {
+          "zip": "6154",
+          "role": "junction"
+        },
+        {
+          "zip": "5643",
+          "role": "junction"
+        },
+        {
+          "zip": "7448",
+          "role": "variation"
+        },
+        {
+          "zip": "1448",
+          "role": "variation"
+        },
+        {
+          "zip": "3358",
+          "role": "recovery"
+        },
+        {
+          "zip": "5318",
+          "role": "recovery"
+        },
+        {
+          "zip": "6332",
+          "role": "variety"
+        },
+        {
+          "zip": "5328",
+          "role": "variety"
+        },
+        {
+          "zip": "5338",
+          "role": "variety"
+        },
+        {
+          "zip": "5358",
+          "role": "variety"
+        },
+        {
+          "zip": "3342",
+          "role": "variety"
+        },
+        {
+          "zip": "3352",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Youth Athletic Development",
+      "slug": "youth-athletic",
+      "domain": "life-stage",
+      "description": "Movement literacy, bodyweight mastery, no maximal loading",
+      "axis_bias": "🔨",
+      "working_zips": [
+        "1212",
+        "1222",
+        "1232",
+        "1242",
+        "1252",
+        "2417",
+        "2327",
+        "2137",
+        "2147",
+        "2157",
+        "3612",
+        "3421",
+        "3632",
+        "3547",
+        "3652",
+        "4317",
+        "4127",
+        "4437",
+        "4147",
+        "4157",
+        "5112",
+        "5222",
+        "5232",
+        "5242",
+        "5252",
+        "6612",
+        "6527",
+        "6632",
+        "6642",
+        "6557",
+        "7517",
+        "7622",
+        "7437",
+        "7642",
+        "7557"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "6516",
+          "role": "junction"
+        },
+        {
+          "zip": "3526",
+          "role": "junction"
+        },
+        {
+          "zip": "5534",
+          "role": "junction"
+        },
+        {
+          "zip": "1447",
+          "role": "variation"
+        },
+        {
+          "zip": "1457",
+          "role": "variation"
+        },
+        {
+          "zip": "7632",
+          "role": "recovery"
+        },
+        {
+          "zip": "7647",
+          "role": "recovery"
+        },
+        {
+          "zip": "1642",
+          "role": "variety"
+        },
+        {
+          "zip": "1622",
+          "role": "variety"
+        },
+        {
+          "zip": "1632",
+          "role": "variety"
+        },
+        {
+          "zip": "5642",
+          "role": "variety"
+        },
+        {
+          "zip": "5652",
+          "role": "variety"
+        },
+        {
+          "zip": "1647",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Active Recovery",
+      "slug": "active-recovery",
+      "domain": "recovery",
+      "description": "Restoration dominant, mobility, somatic, Mindful heavy",
+      "axis_bias": "🌹",
+      "working_zips": [
+        "1218",
+        "1228",
+        "1238",
+        "1248",
+        "1557",
+        "2111",
+        "2627",
+        "2131",
+        "2141",
+        "2151",
+        "3518",
+        "3528",
+        "3538",
+        "3148",
+        "3557",
+        "4618",
+        "4628",
+        "4632",
+        "4648",
+        "4457",
+        "5312",
+        "5322",
+        "5332",
+        "5548",
+        "5352",
+        "6317",
+        "6228",
+        "6337",
+        "6347",
+        "6258",
+        "7317",
+        "7327",
+        "7337",
+        "7347",
+        "7357"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "5653",
+          "role": "junction"
+        },
+        {
+          "zip": "2536",
+          "role": "junction"
+        },
+        {
+          "zip": "3653",
+          "role": "junction"
+        },
+        {
+          "zip": "7418",
+          "role": "variation"
+        },
+        {
+          "zip": "7428",
+          "role": "variation"
+        },
+        {
+          "zip": "7518",
+          "role": "recovery"
+        },
+        {
+          "zip": "7528",
+          "role": "recovery"
+        },
+        {
+          "zip": "7548",
+          "role": "variety"
+        },
+        {
+          "zip": "6327",
+          "role": "variety"
+        },
+        {
+          "zip": "6357",
+          "role": "variety"
+        },
+        {
+          "zip": "6518",
+          "role": "variety"
+        },
+        {
+          "zip": "6528",
+          "role": "variety"
+        },
+        {
+          "zip": "6538",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Stress Management",
+      "slug": "stress-management",
+      "domain": "recovery",
+      "description": "Parasympathetic training, breath work, low-CNS movement",
+      "axis_bias": "🌹",
+      "working_zips": [
+        "1317",
+        "1327",
+        "1337",
+        "1548",
+        "1357",
+        "2218",
+        "2121",
+        "2238",
+        "2248",
+        "2258",
+        "3517",
+        "3628",
+        "3537",
+        "3647",
+        "3357",
+        "4118",
+        "4128",
+        "4138",
+        "4148",
+        "4458",
+        "5317",
+        "5327",
+        "5337",
+        "5347",
+        "5357",
+        "6517",
+        "6628",
+        "6537",
+        "6548",
+        "6658",
+        "7618",
+        "7527",
+        "7537",
+        "7648",
+        "7356"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "5623",
+          "role": "junction"
+        },
+        {
+          "zip": "6534",
+          "role": "junction"
+        },
+        {
+          "zip": "6524",
+          "role": "junction"
+        },
+        {
+          "zip": "7438",
+          "role": "variation"
+        },
+        {
+          "zip": "6458",
+          "role": "variation"
+        },
+        {
+          "zip": "7628",
+          "role": "recovery"
+        },
+        {
+          "zip": "1518",
+          "role": "recovery"
+        },
+        {
+          "zip": "1528",
+          "role": "variety"
+        },
+        {
+          "zip": "5518",
+          "role": "variety"
+        },
+        {
+          "zip": "5528",
+          "role": "variety"
+        },
+        {
+          "zip": "5538",
+          "role": "variety"
+        },
+        {
+          "zip": "1658",
+          "role": "variety"
+        },
+        {
+          "zip": "3658",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Flexibility / Mobility",
+      "slug": "flexibility-mobility",
+      "domain": "recovery",
+      "description": "ROM-focused, somatic aesthetic in Restoration context",
+      "axis_bias": "🌹",
+      "working_zips": [
+        "1316",
+        "1228",
+        "1334",
+        "1347",
+        "1258",
+        "2118",
+        "2428",
+        "2138",
+        "2148",
+        "2158",
+        "3511",
+        "3527",
+        "3531",
+        "3347",
+        "3258",
+        "4617",
+        "4622",
+        "4436",
+        "4447",
+        "4657",
+        "5517",
+        "5228",
+        "5537",
+        "5248",
+        "5258",
+        "6311",
+        "6326",
+        "6331",
+        "6346",
+        "6258",
+        "7316",
+        "7324",
+        "7334",
+        "7344",
+        "7354"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "3633",
+          "role": "junction"
+        },
+        {
+          "zip": "3534",
+          "role": "junction"
+        },
+        {
+          "zip": "5514",
+          "role": "junction"
+        },
+        {
+          "zip": "1418",
+          "role": "variation"
+        },
+        {
+          "zip": "6418",
+          "role": "variation"
+        },
+        {
+          "zip": "7326",
+          "role": "recovery"
+        },
+        {
+          "zip": "7336",
+          "role": "recovery"
+        },
+        {
+          "zip": "7346",
+          "role": "variety"
+        },
+        {
+          "zip": "1326",
+          "role": "variety"
+        },
+        {
+          "zip": "1336",
+          "role": "variety"
+        },
+        {
+          "zip": "1341",
+          "role": "variety"
+        },
+        {
+          "zip": "1344",
+          "role": "variety"
+        },
+        {
+          "zip": "1346",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Injury Prevention / Prehab",
+      "slug": "injury-prevention",
+      "domain": "recovery",
+      "description": "Balance dominant, corrective, Reformance heavy",
+      "axis_bias": "🔨",
+      "working_zips": [
+        "1118",
+        "1128",
+        "1138",
+        "1148",
+        "1351",
+        "2516",
+        "2626",
+        "2633",
+        "2648",
+        "2557",
+        "3316",
+        "3521",
+        "3538",
+        "3341",
+        "3158",
+        "4611",
+        "4428",
+        "4438",
+        "4542",
+        "4458",
+        "5316",
+        "5321",
+        "5336",
+        "5341",
+        "5356",
+        "6218",
+        "6228",
+        "6238",
+        "6248",
+        "6258",
+        "7218",
+        "7228",
+        "7138",
+        "7248",
+        "7258"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "3524",
+          "role": "junction"
+        },
+        {
+          "zip": "6514",
+          "role": "junction"
+        },
+        {
+          "zip": "4154",
+          "role": "junction"
+        },
+        {
+          "zip": "6428",
+          "role": "variation"
+        },
+        {
+          "zip": "3418",
+          "role": "variation"
+        },
+        {
+          "zip": "6618",
+          "role": "recovery"
+        },
+        {
+          "zip": "6648",
+          "role": "recovery"
+        },
+        {
+          "zip": "6316",
+          "role": "variety"
+        },
+        {
+          "zip": "6336",
+          "role": "variety"
+        },
+        {
+          "zip": "6356",
+          "role": "variety"
+        },
+        {
+          "zip": "1618",
+          "role": "variety"
+        },
+        {
+          "zip": "1648",
+          "role": "variety"
+        },
+        {
+          "zip": "6622",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Olympic Lifting",
+      "slug": "olympic-lifting",
+      "domain": "specialty",
+      "description": "Snatch/clean/jerk progression, Technical dominant",
+      "axis_bias": "🪐",
+      "working_zips": [
+        "1114",
+        "1124",
+        "1134",
+        "1444",
+        "1551",
+        "2411",
+        "2124",
+        "2431",
+        "2441",
+        "2654",
+        "3214",
+        "3124",
+        "3234",
+        "3441",
+        "3651",
+        "4111",
+        "4121",
+        "4131",
+        "4444",
+        "4551",
+        "5511",
+        "5421",
+        "5531",
+        "5441",
+        "5354",
+        "6214",
+        "6124",
+        "6234",
+        "6441",
+        "6654",
+        "7214",
+        "7421",
+        "7234",
+        "7441",
+        "7551"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "3514",
+          "role": "junction"
+        },
+        {
+          "zip": "5557",
+          "role": "junction"
+        },
+        {
+          "zip": "4532",
+          "role": "junction"
+        },
+        {
+          "zip": "6421",
+          "role": "variation"
+        },
+        {
+          "zip": "3411",
+          "role": "variation"
+        },
+        {
+          "zip": "7624",
+          "role": "recovery"
+        },
+        {
+          "zip": "7614",
+          "role": "recovery"
+        },
+        {
+          "zip": "2644",
+          "role": "variety"
+        },
+        {
+          "zip": "2624",
+          "role": "variety"
+        },
+        {
+          "zip": "3644",
+          "role": "variety"
+        },
+        {
+          "zip": "6644",
+          "role": "variety"
+        },
+        {
+          "zip": "4141",
+          "role": "variety"
+        },
+        {
+          "zip": "4624",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Endurance Sport Cross-Training",
+      "slug": "endurance-cross-training",
+      "domain": "specialty",
+      "description": "Cyclist/swimmer/runner strength complement",
+      "axis_bias": "🔨",
+      "working_zips": [
+        "1511",
+        "1521",
+        "1233",
+        "1541",
+        "1253",
+        "2316",
+        "2623",
+        "2537",
+        "2342",
+        "2253",
+        "3616",
+        "3428",
+        "3133",
+        "3448",
+        "3253",
+        "4211",
+        "4126",
+        "4537",
+        "4146",
+        "4557",
+        "5418",
+        "5326",
+        "5133",
+        "5346",
+        "5153",
+        "6113",
+        "6626",
+        "6233",
+        "6447",
+        "6253",
+        "7511",
+        "7521",
+        "7233",
+        "7143",
+        "7253"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "5632",
+          "role": "junction"
+        },
+        {
+          "zip": "5622",
+          "role": "junction"
+        },
+        {
+          "zip": "1547",
+          "role": "junction"
+        },
+        {
+          "zip": "2438",
+          "role": "variation"
+        },
+        {
+          "zip": "2458",
+          "role": "variation"
+        },
+        {
+          "zip": "7531",
+          "role": "recovery"
+        },
+        {
+          "zip": "7541",
+          "role": "recovery"
+        },
+        {
+          "zip": "1531",
+          "role": "variety"
+        },
+        {
+          "zip": "1537",
+          "role": "variety"
+        },
+        {
+          "zip": "6531",
+          "role": "variety"
+        },
+        {
+          "zip": "6551",
+          "role": "variety"
+        },
+        {
+          "zip": "1517",
+          "role": "variety"
+        },
+        {
+          "zip": "1527",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Tactical / First Responder",
+      "slug": "tactical-first-responder",
+      "domain": "specialty",
+      "description": "Occupational fitness, carry capacity, sustained output",
+      "axis_bias": "🔨",
+      "working_zips": [
+        "1616",
+        "1323",
+        "1533",
+        "1243",
+        "1153",
+        "2213",
+        "2123",
+        "2233",
+        "2243",
+        "2253",
+        "3614",
+        "3625",
+        "3636",
+        "3447",
+        "3451",
+        "4117",
+        "4527",
+        "4137",
+        "4243",
+        "4151",
+        "5411",
+        "5123",
+        "5431",
+        "5243",
+        "5253",
+        "6511",
+        "6521",
+        "6533",
+        "6243",
+        "6451",
+        "7411",
+        "7523",
+        "7634",
+        "7243",
+        "7451"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "5547",
+          "role": "junction"
+        },
+        {
+          "zip": "6547",
+          "role": "junction"
+        },
+        {
+          "zip": "6625",
+          "role": "junction"
+        },
+        {
+          "zip": "2447",
+          "role": "variation"
+        },
+        {
+          "zip": "2451",
+          "role": "variation"
+        },
+        {
+          "zip": "7646",
+          "role": "recovery"
+        },
+        {
+          "zip": "7616",
+          "role": "recovery"
+        },
+        {
+          "zip": "2656",
+          "role": "variety"
+        },
+        {
+          "zip": "2616",
+          "role": "variety"
+        },
+        {
+          "zip": "2636",
+          "role": "variety"
+        },
+        {
+          "zip": "3646",
+          "role": "variety"
+        },
+        {
+          "zip": "4646",
+          "role": "variety"
+        },
+        {
+          "zip": "6646",
+          "role": "variety"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Explorer / Outdoor Athlete",
+      "slug": "explorer-outdoor",
+      "domain": "specialty",
+      "description": "Hiking, rucking, trail movement, minimal equipment",
+      "axis_bias": "🔨",
+      "working_zips": [
+        "1617",
+        "1322",
+        "1132",
+        "1142",
+        "1152",
+        "2517",
+        "2527",
+        "2437",
+        "2547",
+        "2252",
+        "3617",
+        "3322",
+        "3437",
+        "3346",
+        "3252",
+        "4517",
+        "4627",
+        "4132",
+        "4547",
+        "4252",
+        "5417",
+        "5222",
+        "5232",
+        "5242",
+        "5252",
+        "6417",
+        "6627",
+        "6437",
+        "6541",
+        "6457",
+        "7417",
+        "7122",
+        "7232",
+        "7242",
+        "7252"
+      ],
+      "bonus_zips": [
+        {
+          "zip": "1636",
+          "role": "junction"
+        },
+        {
+          "zip": "5541",
+          "role": "junction"
+        },
+        {
+          "zip": "3656",
+          "role": "junction"
+        },
+        {
+          "zip": "5457",
+          "role": "variation"
+        },
+        {
+          "zip": "5437",
+          "role": "variation"
+        },
+        {
+          "zip": "7457",
+          "role": "recovery"
+        },
+        {
+          "zip": "7447",
+          "role": "recovery"
+        },
+        {
+          "zip": "5447",
+          "role": "variety"
+        },
+        {
+          "zip": "2457",
+          "role": "variety"
+        },
+        {
+          "zip": "3457",
+          "role": "variety"
+        },
+        {
+          "zip": "5527",
+          "role": "variety"
+        },
+        {
+          "zip": "2632",
+          "role": "variety"
+        },
+        {
+          "zip": "4642",
+          "role": "variety"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "total": 1680,
+    "covered": 1583,
+    "orphans_assigned": 97,
+    "max_overlap": 4,
+    "avg_overlap": 1.06
+  }
+}
