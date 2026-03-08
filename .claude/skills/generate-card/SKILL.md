@@ -34,7 +34,7 @@ Folder naming: `[emoji]-[slug]` format. Example: `⛽-strength`, `🏛-basics`, 
 
 Read the stub frontmatter to confirm zip code and parameters.
 
-### 5. Load Exercise Library
+### 5. Load Exercise Library and Verify Type Mapping
 Read `exercise-library.md` — specifically the sections relevant to this Type:
 - 🛒 Push → Sections C (Chest), B (Shoulders), E (Arms — triceps)
 - 🪡 Pull → Sections D (Back), B (Shoulders posterior), E (Arms — biceps), G (Hips — hinges)
@@ -44,6 +44,13 @@ Read `exercise-library.md` — specifically the sections relevant to this Type:
 
 All exercises must come from this library. No invented exercises.
 
+**CRITICAL — Exercise-Type Verification:**
+Before selecting any exercise, verify its Type mapping in `middle-math/exercise-registry.json`.
+Look up the exercise by `canonical_name` and check the `scl_types` field.
+An exercise with `scl_types: ["Pull"]` MUST NOT appear in a 🛒 Push card.
+An exercise with `scl_types: ["Plus"]` MUST NOT appear in a 🍗 Legs card (unless it also lists "Legs").
+This is a hard gate — no exceptions.
+
 ### 6. Generate the Workout
 
 Follow all rules in CLAUDE.md. The constraint hierarchy:
@@ -51,6 +58,21 @@ Follow all rules in CLAUDE.md. The constraint hierarchy:
 2. COLOR — hard filter, equipment is binary
 3. AXIS — soft bias, ranks selection
 4. Equipment — practical filter
+
+**CRITICAL — Color-Specific Block Sequences:**
+Each Color MUST produce a structurally distinct workout. If two Color variants use the same block sequence, same exercises, or same intention — one of them is wrong.
+
+- **⚫ Teaching:** +extended rest between all sets. +🛠 Craft block or coaching cues in every block. Language: "coach", "practice", "pattern", "learn". Rest 2+ min.
+- **🟢 Bodyweight:** NO barbells, NO machines. Tier 0-2 only. Advanced calisthenics for ⛽: muscle-ups, pistol squats, L-sits, archer push-ups.
+- **🔵 Structured:** Prescribed sets/reps/rest. Trackable. Repeatable. 🪜 Progression block prominent.
+- **🟣 Technical:** Fewer blocks. Extended rest. Quality over volume. Precision language: "position", "control", "mechanic". GOLD exercises unlocked.
+- **🔴 Intense:** Reduced rest (30-60s). Supersets permitted. 🌋 Gutter block permitted. High volume. GOLD exercises unlocked.
+- **🟠 Circuit:** MUST use 🎱 ARAM block (replaces 🧈). NO barbells. Station-based timed rotation. Loop logic required — every adjacent station MUST target different tissue. Include "station", "rotation", "round" language.
+- **🟡 Fun:** MUST include 🏖 Sandbox block. 🌎 Exposure permitted. Variety and exploration language: "choose", "explore", "option", "play".
+- **⚪ Mindful:** MUST include 4s eccentric tempo cues throughout. Extended rest (2+ min between all sets). Extended ♨️ and 🪫 blocks. Breathing cues: "inhale", "exhale", "breath". Slow tempo throughout.
+
+**CRITICAL — Unique Intentions:**
+The 🎯 INTENTION must be unique to THIS card. Never reuse a generic intention like "Drive clean reps inside the ceiling." The intention should reflect the specific intersection of this Order × Axis × Type × Color.
 
 Run the full validation checklist from CLAUDE.md mentally before writing.
 
@@ -87,7 +109,9 @@ Derive the operator from the Operator table (Axis × Color polarity).
 
 Rename: `[zip]±.md` → `[zip]±[operator-emoji] [Title].md`
 
-### 9. Validate
+### 9. Validate (two-tier)
+
+**Tier 1 — Structural validation:**
 Run: `python scripts/validate-card.py "[new-file-path]"`
 
 If validation fails:
@@ -95,6 +119,20 @@ If validation fails:
 - Fix the issues
 - Re-run validation
 - Do not proceed until the card passes
+
+**Tier 2 — Quality audit:**
+Run: `python scripts/audit-deck-quality.py "[new-file-path]" --format json`
+
+Check the `scores` object. Every dimension must be ≥ 70:
+- `color_compliance` ≥ 70 — Color-specific rules honored
+- `exercise_type` ≥ 70 — exercises match Type muscle groups
+- `parameter` ≥ 70 — load/reps within Order ceilings
+- `block_sequence` ≥ 70 — block count and required blocks correct
+- `content_depth` ≥ 70 — sufficient exercises, cues, unique intention
+- `format` ≥ 70 — all 15 required elements present
+
+If any dimension < 70, read the `flags` array, fix the issues, and re-run.
+Do not proceed until all dimensions pass.
 
 ### 10. Log
 Append to whiteboard.md session log:
