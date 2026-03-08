@@ -782,6 +782,16 @@ Every session should follow this sequence:
 - **Subagent** = isolated context worker. Use when you don't want to fill the main context.
 - **Hook** = automatic trigger. Use for things that must happen every time without being asked.
 
+### Anti-Pasta — Systems Review Protocol
+
+**Trigger:** "What's the anti-pasta?" at session start or any time during a session.
+
+**What it does:** Generates a structured systems health check at `reports/anti-pasta/YYYY-MM-DD.md`. Reads CLAUDE.md, whiteboard.md, and the most recent Anti-Pasta report, then answers 5 standing architecture questions and produces prioritized next-session recommendations.
+
+**Template:** `reports/anti-pasta/TEMPLATE.md`
+**Protocol docs:** `seeds/anti-pasta-protocol.md`
+**Current status:** On-demand only (not a session-start hook).
+
 ---
 
 ## SYSTEMS LANGUAGE
