@@ -159,6 +159,7 @@ Creative exploration, discovery. Surprising AND useful.
 | DONE | — | Cosmogram contract prompt v1 | — | seeds/cosmogram-contract-prompt-v1.md — replaces domain-based research prompt for v2 format |
 | OPEN | — | Operis editorial voice prototype | — | Write one edition in full creative register |
 | OPEN | — | Deck campaign naming pass (Deck 09 titles) | — | Review operator + title quality across 40 cards |
+| DONE | — | Abacus architecture seed | — | seeds/abacus-architecture.md — 35 training archetypes × 48 zips |
 | OPEN | — | Platform architecture V3 (if V2 needs update) | — | After enough infrastructure lands |
 
 ---
@@ -217,6 +218,8 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 - **Wave 4 unblocked (2026-03-06):** CX-15 (Exercise Selection Prototype) — CX-13 ✓, CX-14 ✓. CX-22 (Floor Routing) — CX-03 ✓, CX-20 ✓, CX-21 ✓. CX-25 (Vote Weight Integration) — CX-20 ✓, CX-14 ✓. CX-30 (Envelope Schema) — CX-08 ✓, CX-14 ✓, CX-03 ✓.
 - **DONE: Cosmogram first pass — 42 v2 files generated via Codex (subject scaffold, no web deposits) [2026-03-07].**
 - **ACTIVE: Cosmogram enrichment — web research sessions needed for deposits, cross-deck mapping, and subject validation.**
+- **Abacus architecture planted (2026-03-08).** 35 training archetypes × 48 zip codes. Math: 1,680 ÷ 48 = 35 exactly. 35 working slots + 13 bonus/junction zips per abacus. The 35-session super-cycle comes from 7 Orders × 5 Types (coprime). Overlapping zips across abaci collapse on merge. Non-overlapping working slots: 35 × 35 = 1,225 working + 455 bonus = 1,680 exactly. The math may not be a coincidence. Next steps: define the 35 archetype zip assignments, build overlap map, validate coverage. See `seeds/abacus-architecture.md`.
+- **Intercolumniation layer needed.** The abacus rotation needs a middle-math weight system that factors in time-between-sessions. Recovery dynamics differ by Order (⛽ needs more recovery than 🐂). This is the reverse-weight resolution applied to program context. Sports science / ExRx consultation branch.
 
 ---
 

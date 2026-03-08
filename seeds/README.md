@@ -38,6 +38,7 @@ Seeds live here rather than in whiteboard.md because they have cleared the ideat
 | voice-parser-architecture.md | Universal building navigation — any speech → zip + floor + content type, no AI model | 2026-02-26 | SEED |
 | wilson-voice-identity.md | Wilson: the PPL± voice — TTS identity, floor-specific register, SSML formatting | 2026-02-26 | SEED |
 | regional-filter-architecture.md | Opt-in region setting — seasonal content, almanac, no GPS/no tracking | 2026-02-26 | SEED |
+| abacus-architecture.md | 35 training archetypes × 48 zip codes = complete workout programming layer | 2026-03-08 | SEED |
 
 ---
 
@@ -57,7 +58,7 @@ Seeds live here rather than in whiteboard.md because they have cleared the ideat
 | 3+ | Validation layer | exercise-attribute-tagging.md |
 | 4 | Design system + HTML scaffold | axis-as-app-floors.md, color-context-vernacular.md, art-direction.md, superposed-order-ui.md, **experience-layer-blueprint.md**, **numeric-zip-system.md**, **mobile-ui-architecture.md** |
 | 5 | Interactive HTML cards | axis-as-app-floors.md, zip-dial-navigation.md, exercise-superscript.md, superposed-order-ui.md, almanac-room-bloom.md, **experience-layer-blueprint.md**, **mobile-ui-architecture.md**, **voice-parser-architecture.md** |
-| 6 | User accounts + Almanac | default-rotation-engine.md, almanac-macro-operators.md, junction-community.md, almanac-room-bloom.md, **stripe-integration-pipeline.md**, **data-ethics-architecture.md**, **claude-code-build-sequence.md**, **regional-filter-architecture.md** |
+| 6 | User accounts + Almanac | default-rotation-engine.md, almanac-macro-operators.md, junction-community.md, almanac-room-bloom.md, **stripe-integration-pipeline.md**, **data-ethics-architecture.md**, **claude-code-build-sequence.md**, **regional-filter-architecture.md**, **abacus-architecture.md** |
 | 7+ | Launch + Automotive | axis-as-app-floors.md (Sociatas floor), junction-community.md, **automotive-layer-architecture.md**, **wilson-voice-identity.md** |
 
 🧮
