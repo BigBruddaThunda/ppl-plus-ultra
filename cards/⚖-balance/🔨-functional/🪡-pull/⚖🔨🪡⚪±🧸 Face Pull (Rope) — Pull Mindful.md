@@ -9,23 +9,25 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🪡 Face Pull (Rope) — Pull Mindful 🪡
+# 🪡 Single-Leg Balance Hold — Pull Mindful 🪡
 
 ## Balance Functional — Pull focus (Mindful) · 40-50 min
 
 **CODE:** ⚖🔨🪡⚪
 
 > "Slow down into the imbalance. Feel where the body compensates."
+
+*Marathon / Distance Running: Zone 2 steady state — conversational pace, extended duration, aerobic base*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: ⚖🔨🪡⚪ (Warm-Up | Pull | Functional | Mindful)
-├─ 12 🪡 Single-Arm Face Pull (4s eccentric, breath-paced)
+├─ 12 🪡 Single-Leg Balance with Perturbation (4s eccentric, breath-paced)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 120s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⚖🔨🪡⚪ (Bread & Butter | Pull | Functional | Mindful)
-├─ 11 🪡 Face Pull (Rope) (4s eccentric, breath-paced)
+├─ 11 🪡 Single-Leg Balance Hold (4s eccentric, breath-paced)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 180s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: ⚖🔨🪡⚪ (Supplemental | Pull | Functional | Mindful)
-├─ 12 🪡 Wide-Grip Lat Pulldown (Teres Focus) (full range, different angle)
+├─ 12 🪡 Single-Leg Balance with Eyes Closed (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 150s
 ═══
 ## 4) 🪫 Release
 Subcode: ⚖🔨🪡⚪ (Release | Pull | Functional | Mindful)
-├─ 12 🪡 Good Morning (Barbell) (parasympathetic, tension down, 4s eccentric)
+├─ 12 🪡 Single-Leg Reach (Multi-Directional) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 150s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⚖🔨🪡⚪ (Imprint | Pull | Functional | Mindful)
-├─ 12 🪡 Alternating Dumbbell Front Raise (high rep, low load, neural memory)
+├─ 12 🪡 Single-Leg Hip Hinge (high rep, low load, neural memory)
 │  Set 1: ⚖ 45% × 12 (lock the pattern)
 Rest: 150s
 ═══

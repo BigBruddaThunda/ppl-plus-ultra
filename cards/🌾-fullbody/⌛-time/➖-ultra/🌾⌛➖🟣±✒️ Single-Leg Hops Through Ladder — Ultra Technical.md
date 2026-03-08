@@ -16,16 +16,18 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 **CODE:** 🌾⌛➖🟣
 
 > "Precision in the transitions. The connection between movements is the skill."
+
+*CrossFit-Style: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🌾⌛➖🟣 (Warm-Up | Ultra | Time | Technical)
-├─ 10 ➖ Single-Leg Hops Through Ladder (precision, quality over volume)
+├─ 10 ➖ Single-Foot In Each Box (Forward) (precision, quality over volume)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🌾⌛➖🟣 (Primer | Ultra | Time | Technical)
-├─ 9 ➖ Turkish Get-Up (Full) (tight setup, crisp intent)
+├─ 9 ➖ Two Feet In Each Box (Forward) (tight setup, crisp intent)
 │  Set 1: 🌾 60% × 9 (activation)
 Rest: 90s
 ═══
@@ -39,14 +41,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾⌛➖🟣 (Supplemental | Ultra | Time | Technical)
-├─ 10 ➖ Kettlebell Goblet Squat (full range, different angle)
+├─ 10 ➖ Lateral Shuffle (In-In-Out-Out) (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 67s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾⌛➖🟣 (Release | Ultra | Time | Technical)
-├─ 10 ➖ Single-Foot In Each Box (Forward) (smooth tempo, downshift)
+├─ 10 ➖ Icky Shuffle (In-In-Out Pattern) (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 67s
 ═══

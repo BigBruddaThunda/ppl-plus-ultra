@@ -16,6 +16,8 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 **CODE:** 🖼🔨➕🟠
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
+
+*Kettlebell Strength: Station rotation with implements — keep tissues trading under heavy demand*
 ═══
 ## 1) 🎯 Intention
 

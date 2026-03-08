@@ -10,23 +10,25 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟡 Variety Day | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
-# 🛒 Landmine Press (Two Arm) — Push Fun 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Fun 🛒
 
 ## Foundation Basics — Push focus (Fun) · 40-50 min
 
 **CODE:** 🐂🏛🛒🟡
 
 > "Explore the movement. Find what feels unfamiliar and stay there."
+
+*New to Gym: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🐂🏛🛒🟡 (Warm-Up | Push | Basics | Fun)
-├─ 12 🛒 Incline Barbell Bench Press (30°) (explore, stay within constraints)
+├─ 12 🛒 Depth Push-Up (Drop to Floor) (explore, stay within constraints)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🐂🏛🛒🟡 (Bread & Butter | Push | Basics | Fun)
-├─ 11 🛒 Landmine Press (Two Arm) (explore, stay within constraints)
+├─ 11 🛒 Plyometric Push-Up (Hands Leave Ground) (explore, stay within constraints)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -34,20 +36,20 @@ Rest: 75s
 ═══
 ## 3) 🌎 Exposure
 Subcode: 🐂🏛🛒🟡 (Exposure | Push | Basics | Fun)
-├─ 11 🛒 Diamond Push-Up (try the unfamiliar version, explore the range)
+├─ 11 🛒 Single-Arm Overhead Dumbbell Hold (try the unfamiliar version, explore the range)
 │  Set 1: 🐂 50% × 11 (discovery set)
 Rest: 60s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: 🐂🏛🛒🟡 (Sandbox | Push | Basics | Fun)
-├─ 11 🛒 Neutral-Grip Pull-Up (Brachialis) (explore within constraints, choose your variation)
+├─ 11 🛒 Single-Arm Cable Chest Fly (explore within constraints, choose your variation)
 │  Option A: 🐂 55% × 11 (play with grip, stance, or tempo)
 │  Option B: 🐂 55% × 11 (try a variation you have not used before)
 Rest: 60s
 ═══
 ## 5) 🪫 Release
 Subcode: 🐂🏛🛒🟡 (Release | Push | Basics | Fun)
-├─ 12 🛒 Diamond Push-Up (smooth tempo, downshift)
+├─ 12 🛒 Single-Arm Overhead Dumbbell Hold (smooth tempo, downshift)
 │  Set 1: 🐂 45% × 12 (deload)
 Rest: 60s
 ═══

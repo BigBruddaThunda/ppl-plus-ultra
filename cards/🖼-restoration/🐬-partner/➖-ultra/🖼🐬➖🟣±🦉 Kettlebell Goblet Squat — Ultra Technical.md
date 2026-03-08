@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➖ Kettlebell Goblet Squat — Ultra Technical ➖
+# ➖ Kettlebell Swing (Two-Hand) — Ultra Technical ➖
 
 ## Restoration Partner — Ultra focus (Technical) · 30-40 min
 
 **CODE:** 🖼🐬➖🟣
 
 > "Precise positioning in each restorative hold. Depth over speed."
+
+*Olympic Lifting: Masterclass — 1-on-1 with a world-class coach at this exact skill*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🐬➖🟣 (Bread & Butter | Ultra | Partner | Technical)
-├─ 13 ➖ Kettlebell Goblet Squat (precision, quality over volume)
+├─ 13 ➖ Kettlebell Swing (Two-Hand) (precision, quality over volume)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 90s
 ═══
 ## 3) 🧬 Imprint
 Subcode: 🖼🐬➖🟣 (Imprint | Ultra | Partner | Technical)
-├─ 15 ➖ Kettlebell Goblet Squat (high rep, low load, neural memory)
+├─ 15 ➖ Swing + Clean (Combo) (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 90s
 ═══

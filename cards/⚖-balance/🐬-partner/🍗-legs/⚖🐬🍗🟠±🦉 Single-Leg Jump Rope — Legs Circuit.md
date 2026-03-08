@@ -16,10 +16,12 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 **CODE:** ⚖🐬🍗🟠
 
 > "Rotate through corrective stations. Each one targets a different deficit."
+
+*Tactical / First Responder: Skill circuit — rotate through craft-specific stations*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: ⚖🐬🍗🟠 (Warm-Up | Legs | Partner | Circuit)
-├─ 12 🍗 Half-Kneeling Hip Flexor Stretch (station rotation, keep moving)
+├─ 12 🍗 Kettlebell Swing (Single-Arm) (station rotation, keep moving)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
@@ -27,16 +29,16 @@ Rest: 30s
 Subcode: ⚖🐬🍗🟠 (ARAM | Legs | Partner | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
 │  Station 1: 🍗 Single-Leg Jump Rope × 11 (station rotation, keep moving)
-│  Station 2: 🍗 Half-Kneeling Hip Flexor Stretch × 11 (station rotation, keep moving)
-│  Station 3: 🍗 Single-Leg Extension × 11 (station rotation, keep moving)
-│  Station 4: 🍗 Single-Leg Good Morning × 11 (station rotation, keep moving)
+│  Station 2: 🍗 Kettlebell Swing (Single-Arm) × 11 (station rotation, keep moving)
+│  Station 3: 🍗 Kettlebell Swing (Alternating Arms) × 11 (station rotation, keep moving)
+│  Station 4: 🍗 Single-Arm American Swing × 11 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⚖🐬🍗🟠 (Release | Legs | Partner | Circuit)
-├─ 12 🍗 Single-Leg Curl (Lying) (smooth tempo, downshift)
+├─ 12 🍗 Single-Leg Swing (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

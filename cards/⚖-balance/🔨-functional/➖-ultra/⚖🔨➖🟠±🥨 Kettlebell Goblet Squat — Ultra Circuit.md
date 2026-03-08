@@ -9,34 +9,36 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➖ Kettlebell Goblet Squat — Ultra Circuit ➖
+# ➖ Rowing Machine (Steady State) — Ultra Circuit ➖
 
 ## Balance Functional — Ultra focus (Circuit) · 40-50 min
 
 **CODE:** ⚖🔨➖🟠
 
 > "Rotate through corrective stations. Each one targets a different deficit."
+
+*Marathon / Distance Running: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: ⚖🔨➖🟠 (Warm-Up | Ultra | Functional | Circuit)
-├─ 12 ➖ Single-Leg Hops Through Ladder (station rotation, keep moving)
+├─ 12 ➖ Rowing Intervals (500m) (station rotation, keep moving)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⚖🔨➖🟠 (ARAM | Ultra | Functional | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➖ Kettlebell Goblet Squat × 11 (station rotation, keep moving)
-│  Station 2: ➖ Single-Leg Hops Through Ladder × 11 (station rotation, keep moving)
-│  Station 3: ➖ Kettlebell Goblet Squat × 11 (station rotation, keep moving)
-│  Station 4: ➖ Single-Foot In Each Box (Forward) × 11 (station rotation, keep moving)
+│  Station 1: ➖ Rowing Machine (Steady State) × 11 (station rotation, keep moving)
+│  Station 2: ➖ Rowing Intervals (500m) × 11 (station rotation, keep moving)
+│  Station 3: ➖ Rowing Intervals (1000m) × 11 (station rotation, keep moving)
+│  Station 4: ➖ Rowing Intervals (2000m) × 11 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⚖🔨➖🟠 (Release | Ultra | Functional | Circuit)
-├─ 12 ➖ Turkish Get-Up (Full) (smooth tempo, downshift)
+├─ 12 ➖ Rowing Sprints (100m Max Effort) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

@@ -9,29 +9,31 @@ type: ➕ Plus | Full body power, core, carries
 color: 🟢 Bodyweight
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# ➕ Bear Crawl — Plus Bodyweight ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Bodyweight ➕
 
 ## Strength Aesthetic — Plus focus (Bodyweight) · 50-65 min
 
 **CODE:** ⛽🌹➕🟢
 
 > "Prove the pattern holds without external load. Bodyweight is the test."
+
+*Fasting Cardio + Strength: Bodyweight conditioning — no gym, no excuses, cardio and movement flow*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: ⛽🌹➕🟢 (Warm-Up | Plus | Aesthetic | Bodyweight)
-├─ 6 ➕ Aquaman (Alternating Superman) (bodyweight, no external load needed)
+├─ 6 ➕ Kettlebell Swing (Two-Hand) (bodyweight, no external load needed)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🌹➕🟢 (Primer | Plus | Aesthetic | Bodyweight)
-├─ 5 ➕ Wide-Grip Lat Pulldown (Teres Focus) (tight setup, crisp intent)
+├─ 5 ➕ American Swing (Overhead) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🌹➕🟢 (Bread & Butter | Plus | Aesthetic | Bodyweight)
-├─ 5 ➕ Bear Crawl (bodyweight, no external load needed)
+├─ 5 ➕ Single-Leg Hops Through Ladder (bodyweight, no external load needed)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🌹➕🟢 (Supplemental | Plus | Aesthetic | Bodyweight)
-├─ 6 ➕ Good Morning (Barbell) (full range, different angle)
+├─ 6 ➕ Heavy Swing (Power Focus) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🌹➕🟢 (Release | Plus | Aesthetic | Bodyweight)
-├─ 6 ➕ Half-Kneeling Cable Chop (smooth tempo, downshift)
+├─ 6 ➕ Dead Stop Swing (Reset Between Reps) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➖ Half Turkish Get-Up (To Elbow) — Ultra Fun ➖
+# ➖ Kettlebell Swing (Two-Hand) — Ultra Fun ➖
 
 ## Performance Time — Ultra focus (Fun) · 25-35 min
 
 **CODE:** 🏟⌛➖🟡
 
 > "Test something unconventional. Find where your capacity surprises you."
+
+*Endurance Sport Cross-Training: Cross-training exploration — adjacent skills that improve the primary craft*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🏟⌛➖🟡 (Warm-Up | Ultra | Time | Fun)
-├─ 3 ➖ Single-Foot In Each Box (Forward) (explore, stay within constraints)
+├─ 3 ➖ American Swing (Overhead) (explore, stay within constraints)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟⌛➖🟡 (Bread & Butter | Ultra | Time | Fun)
-├─ 2 ➖ Half Turkish Get-Up (To Elbow) (explore, stay within constraints)
+├─ 2 ➖ Kettlebell Swing (Two-Hand) (explore, stay within constraints)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🏟⌛➖🟡 (Sandbox | Ultra | Time | Fun)
-├─ 2 ➖ Half Turkish Get-Up (To Elbow) (explore within constraints, choose your variation)
+├─ 2 ➖ Swing + Clean (Combo) (explore within constraints, choose your variation)
 │  Option A: 🏟 82% × 2 (play with grip, stance, or tempo)
 │  Option B: 🏟 82% × 2 (try a variation you have not used before)
 Rest: N/A

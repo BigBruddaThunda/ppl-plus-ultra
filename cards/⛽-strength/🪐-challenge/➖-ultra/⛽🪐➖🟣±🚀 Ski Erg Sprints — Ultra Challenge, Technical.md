@@ -9,29 +9,31 @@ type: ➖ Ultra
 color: 🟣 Technical
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# ➖ Ski Erg Sprints — Ultra Technical ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Technical ➖
 
 ## Strength Challenge — Ultra focus (Technical) · 50-65 min
 
 **CODE:** ⛽🪐➖🟣
 
 > "One clean rep at the right load is worth more than five at the wrong one."
+
+*Sprint / Power Conditioning: Technical conditioning — rowing stroke, cycling cadence, running gait precision*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⛽🪐➖🟣 (Warm-Up | Ultra | Challenge | Technical)
-├─ 6 ➖ Overhead Throw (Medicine Ball) (precision, quality over volume)
+├─ 6 ➖ Kettlebell Swing (Single-Arm) (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 135s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🪐➖🟣 (Primer | Ultra | Challenge | Technical)
-├─ 5 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+├─ 5 ➖ Kettlebell Swing (Alternating Arms) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🪐➖🟣 (Bread & Butter | Ultra | Challenge | Technical)
-├─ 5 ➖ Ski Erg Sprints (precision, quality over volume)
+├─ 5 ➖ Single-Leg Hops Through Ladder (precision, quality over volume)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 270s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🪐➖🟣 (Supplemental | Ultra | Challenge | Technical)
-├─ 6 ➖ Chest Pass Throw (Medicine Ball) (full range, different angle)
+├─ 6 ➖ Single-Arm American Swing (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 180s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🪐➖🟣 (Release | Ultra | Challenge | Technical)
-├─ 6 ➖ Rotational Throw (Side Toss) (smooth tempo, downshift)
+├─ 6 ➖ Single-Leg Swing (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 180s
 ═══

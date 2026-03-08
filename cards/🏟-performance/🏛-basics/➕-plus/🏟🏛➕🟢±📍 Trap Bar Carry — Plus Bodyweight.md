@@ -9,30 +9,32 @@ type: ➕ Plus | Full body power, core
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➕ Trap Bar Carry — Plus Bodyweight ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Bodyweight ➕
 
 ## Performance Basics — Plus focus (Bodyweight) · 25-35 min
 
 **CODE:** 🏟🏛➕🟢
 
 > "Test bodyweight capacity. How many, how fast, how clean."
+
+*Fasting Cardio + Strength: Bodyweight conditioning — no gym, no excuses, cardio and movement flow*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🏟🏛➕🟢 (Warm-Up | Plus | Basics | Bodyweight)
-├─ 3 ➕ Wide-Grip Pull-Up (Teres Focus) (bodyweight, no external load needed)
+├─ 3 ➕ Kettlebell Swing (Two-Hand) (bodyweight, no external load needed)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🏛➕🟢 (Progression | Plus | Basics | Bodyweight)
-├─ 2 ➕ Trap Bar Carry (ramp to test weight)
+├─ 2 ➕ Single-Leg Hops Through Ladder (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🏛➕🟢 (Bread & Butter | Plus | Basics | Bodyweight)
-├─ 2 ➕ Trap Bar Carry (bodyweight, no external load needed)
+├─ 2 ➕ Single-Leg Hops Through Ladder (bodyweight, no external load needed)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➕ Half-Kneeling Band Single-Arm Pulldown — Plus Bodyweight ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Bodyweight ➕
 
 ## Balance Functional — Plus focus (Bodyweight) · 40-50 min
 
 **CODE:** ⚖🔨➕🟢
 
 > "Find asymmetries with bodyweight. No equipment hides the gap."
+
+*Physique / Recomp: Bodyweight hypertrophy — high reps, slow tempo, squeeze and hold patterns*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: ⚖🔨➕🟢 (Warm-Up | Plus | Functional | Bodyweight)
@@ -25,14 +27,14 @@ Rest: 60s
 ═══
 ## 2) 🏗 Reformance
 Subcode: ⚖🔨➕🟢 (Reformance | Plus | Functional | Bodyweight)
-├─ 11 ➕ Single-Leg Hops Through Ladder (corrective, address the weak link)
+├─ 11 ➕ Half-Kneeling Band Single-Arm Pulldown (corrective, address the weak link)
 │  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🔨➕🟢 (Bread & Butter | Plus | Functional | Bodyweight)
-├─ 11 ➕ Half-Kneeling Band Single-Arm Pulldown (bodyweight, no external load needed)
+├─ 11 ➕ Single-Leg Hops Through Ladder (bodyweight, no external load needed)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -47,7 +49,7 @@ Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🔨➕🟢 (Release | Plus | Functional | Bodyweight)
-├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (smooth tempo, downshift)
+├─ 12 ➕ Single-Leg Plank (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

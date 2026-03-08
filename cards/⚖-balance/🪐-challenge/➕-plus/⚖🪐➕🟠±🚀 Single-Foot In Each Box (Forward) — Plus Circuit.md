@@ -16,6 +16,8 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 **CODE:** ⚖🪐➕🟠
 
 > "Rotate through corrective stations. Each one targets a different deficit."
+
+*Combat Sport Prep: Athletic circuit — each station trains a different movement pattern*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⚖🪐➕🟠 (Warm-Up | Plus | Challenge | Circuit)

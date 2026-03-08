@@ -9,29 +9,31 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➖ Single-Leg Jump Rope — Ultra Intense ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Intense ➖
 
 ## Balance Functional — Ultra focus (Intense) · 40-50 min
 
 **CODE:** ⚖🔨➖🔴
 
 > "Attack the weak link with volume. Fatigue exposes the gap."
+
+*Athletic Hypertrophy: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: ⚖🔨➖🔴 (Warm-Up | Ultra | Functional | Intense)
-├─ 12 ➖ Single-Leg Hops Through Ladder (high effort, push the pace)
+├─ 12 ➖ Partner Toss (Alternating) (high effort, push the pace)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖🔨➖🔴 (Primer | Ultra | Functional | Intense)
-├─ 11 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+├─ 11 ➖ Plant and Cut (Single-Leg Deceleration) (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🔨➖🔴 (Bread & Butter | Ultra | Functional | Intense)
-├─ 11 ➖ Single-Leg Jump Rope (high effort, push the pace)
+├─ 11 ➖ Single-Leg Hops Through Ladder (high effort, push the pace)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 45s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🔨➖🔴 (Supplemental | Ultra | Functional | Intense)
-├─ 12 ➖ Single-Foot In Each Box (Forward) (full range, different angle)
+├─ 12 ➖ Layup Approach (Single-Leg Power) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 37s
 ═══
 ## 5) 🌋 Gutter
 Subcode: ⚖🔨➖🔴 (Gutter | Ultra | Functional | Intense)
-├─ 12 ➖ Turkish Get-Up (Full) (all-out, leave nothing in reserve)
+├─ 12 ➖ Overhead Throw (Medicine Ball) (all-out, leave nothing in reserve)
 │  Set 1: ⚖ 55% × 12 (push to form break)
 │  Set 2: ⚖ 55% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: ⚖🔨➖🔴 (Release | Ultra | Functional | Intense)
-├─ 12 ➖ Turkish Get-Up (Full) (stress out, cathartic discharge)
+├─ 12 ➖ Overhead Throw (Medicine Ball) (stress out, cathartic discharge)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

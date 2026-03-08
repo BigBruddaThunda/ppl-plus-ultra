@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🪡 One-Arm Deadlift — Pull Bodyweight 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Bodyweight 🪡
 
 ## Full Body Functional — Pull focus (Bodyweight) · 40-55 min
 
 **CODE:** 🌾🔨🪡🟢
 
 > "Flow through the body using only what you carry. No equipment needed."
+
+*Minimalist Hypertrophy: Bodyweight hypertrophy — high reps, slow tempo, squeeze and hold patterns*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🌾🔨🪡🟢 (Warm-Up | Pull | Functional | Bodyweight)
@@ -25,14 +27,14 @@ Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🔨🪡🟢 (Composition | Pull | Functional | Bodyweight)
-├─ 9 🪡 Aquaman (Alternating Superman) → One-Arm Deadlift (flow without reset)
+├─ 9 🪡 Aquaman (Alternating Superman) → Barbell Overhead Press (Standing) (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🔨🪡🟢 (Bread & Butter | Pull | Functional | Bodyweight)
-├─ 9 🪡 One-Arm Deadlift (bodyweight, no external load needed)
+├─ 9 🪡 Barbell Overhead Press (Standing) (bodyweight, no external load needed)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)

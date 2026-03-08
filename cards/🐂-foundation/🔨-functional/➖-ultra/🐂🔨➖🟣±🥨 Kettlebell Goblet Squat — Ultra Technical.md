@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# ➖ Kettlebell Goblet Squat — Ultra Technical ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Technical ➖
 
 ## Foundation Functional — Ultra focus (Technical) · 40-50 min
 
 **CODE:** 🐂🔨➖🟣
 
 > "Quality of position matters more than speed of completion."
+
+*Sprint / Power Conditioning: Technical conditioning — rowing stroke, cycling cadence, running gait precision*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🐂🔨➖🟣 (Warm-Up | Ultra | Functional | Technical)
@@ -25,13 +27,13 @@ Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🐂🔨➖🟣 (Primer | Ultra | Functional | Technical)
-├─ 11 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+├─ 11 ➖ Kettlebell Swing (Alternating Arms) (tight setup, crisp intent)
 │  Set 1: 🐂 55% × 11 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🔨➖🟣 (Bread & Butter | Ultra | Functional | Technical)
-├─ 11 ➖ Kettlebell Goblet Squat (precision, quality over volume)
+├─ 11 ➖ Single-Leg Hops Through Ladder (precision, quality over volume)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 112s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🔨➖🟣 (Supplemental | Ultra | Functional | Technical)
-├─ 13 ➖ Kettlebell Swing (Alternating Arms) (full range, different angle)
+├─ 13 ➖ Single-Arm American Swing (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🪫 Release
 Subcode: 🐂🔨➖🟣 (Release | Ultra | Functional | Technical)
-├─ 12 ➖ Single-Arm American Swing (smooth tempo, downshift)
+├─ 12 ➖ Single-Leg Swing (smooth tempo, downshift)
 │  Set 1: 🐂 45% × 12 (deload)
 Rest: 90s
 ═══

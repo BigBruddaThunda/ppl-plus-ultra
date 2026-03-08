@@ -1,0 +1,404 @@
+{
+  "date": "2026-03-08",
+  "dry_run": false,
+  "mode": "abacus",
+  "abacus_slug": "general-strength",
+  "cards_processed": 48,
+  "cards_rebuilt": 48,
+  "cards_skipped": 0,
+  "cards_reverted": 0,
+  "filters": {
+    "deck": null,
+    "color": null,
+    "min_score": 100,
+    "abacus": "general-strength",
+    "all_abaci": false,
+    "dlc": false
+  },
+  "results": [
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🌾-fullbody/🪐-challenge/➕-plus/🌾🪐➕🔵±🚀 Overhead Throw (Medicine Ball) — Plus Structured.md",
+      "zip": "🌾🪐➕🔵",
+      "status": "rebuilt",
+      "primary": "Overhead Throw (Medicine Ball)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🌾-fullbody/🪐-challenge/🪡-pull/🌾🪐🪡🔵±🚀 Trap Bar Carry — Pull Structured.md",
+      "zip": "🌾🪐🪡🔵",
+      "status": "rebuilt",
+      "primary": "Barbell Overhead Press (Standing)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🌾-fullbody/⌛-time/🛒-push/🌾⌛🛒🔵±✒️ Depth Push-Up (Drop to Floor) — Push Structured.md",
+      "zip": "🌾⌛🛒🔵",
+      "status": "rebuilt",
+      "primary": "Plyometric Push-Up (Hands Leave Ground)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🌾-fullbody/🌹-aesthetic/➖-ultra/🌾🌹➖🔵±🦢 Single-Leg Hops Through Ladder — Ultra Structured.md",
+      "zip": "🌾🌹➖🔵",
+      "status": "rebuilt",
+      "primary": "Rowing Machine (Steady State)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🌾-fullbody/🐬-partner/🍗-legs/🌾🐬🍗🔵±🦉 Half-Kneeling Hip Flexor Stretch — Legs Structured.md",
+      "zip": "🌾🐬🍗🔵",
+      "status": "rebuilt",
+      "primary": "Back Squat (Glute Focus)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/⚖-balance/🪐-challenge/🍗-legs/⚖🪐🍗🔵±🚀 Lateral Lunge — Legs Structured.md",
+      "zip": "⚖🪐🍗🔵",
+      "status": "rebuilt",
+      "primary": "Back Squat (Glute Focus)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/⚖-balance/🔨-functional/🛒-push/⚖🔨🛒🔵±🥨 Single-Arm Dumbbell Lateral Raise — Push Structured.md",
+      "zip": "⚖🔨🛒🔵",
+      "status": "rebuilt",
+      "primary": "Plyometric Push-Up (Hands Leave Ground)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/⚖-balance/🔨-functional/➖-ultra/⚖🔨➖🔵±🥨 Kettlebell Swing (Single-Arm) — Ultra Structured.md",
+      "zip": "⚖🔨➖🔵",
+      "status": "rebuilt",
+      "primary": "Rowing Machine (Steady State)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/⚖-balance/🐬-partner/➕-plus/⚖🐬➕🔵±🦉 American Swing (Overhead) — Plus Structured.md",
+      "zip": "⚖🐬➕🔵",
+      "status": "rebuilt",
+      "primary": "American Swing (Overhead)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/⚖-balance/🏛-basics/🪡-pull/⚖🏛🪡🔵±🤌 Deadlift (Sumo) — Pull Structured.md",
+      "zip": "⚖🏛🪡🔵",
+      "status": "rebuilt",
+      "primary": "Barbell Overhead Press (Standing)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🖼-restoration/🪐-challenge/🛒-push/🖼🪐🛒🔵±🚀 Incline Cable Fly — Push Structured.md",
+      "zip": "🖼🪐🛒🔵",
+      "status": "rebuilt",
+      "primary": "Plyometric Push-Up (Hands Leave Ground)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🖼-restoration/🌹-aesthetic/🍗-legs/🖼🌹🍗🔵±🦢 Box Jump — Legs Structured.md",
+      "zip": "🖼🌹🍗🔵",
+      "status": "rebuilt",
+      "primary": "Back Squat (Glute Focus)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🖼-restoration/🔨-functional/➖-ultra/🖼🔨➖🔵±🥨 Kettlebell Goblet Squat — Ultra Structured.md",
+      "zip": "🖼🔨➖🔵",
+      "status": "rebuilt",
+      "primary": "Rowing Machine (Steady State)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🖼-restoration/🔨-functional/🪡-pull/🖼🔨🪡🔵±🥨 Single-Leg Hip Thrust (Bodyweight) — Pull Structured.md",
+      "zip": "🖼🔨🪡🔵",
+      "status": "rebuilt",
+      "primary": "Barbell Overhead Press (Standing)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🖼-restoration/🏛-basics/➕-plus/🖼🏛➕🔵±🤌 Behind-the-Neck Lat Pulldown (Teres Focus) — Plus Structured.md",
+      "zip": "🖼🏛➕🔵",
+      "status": "rebuilt",
+      "primary": "Behind-the-Neck Lat Pulldown (Teres Focus)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/⛽-strength/🪐-challenge/🛒-push/⛽🪐🛒🔵±🚀 Barbell Bench Press — Push Challenge, Structured.md",
+      "zip": "⛽🪐🛒🔵",
+      "status": "rebuilt",
+      "primary": "Plyometric Push-Up (Hands Leave Ground)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/⛽-strength/🪐-challenge/🪡-pull/⛽🪐🪡🔵±🚀 Deadlift (Conventional) — Pull Challenge, Structured.md",
+      "zip": "⛽🪐🪡🔵",
+      "status": "rebuilt",
+      "primary": "Barbell Overhead Press (Standing)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/⛽-strength/🏛-basics/🍗-legs/⛽🏛🍗🔵±🤌 Front Squat — Quad and Core, Strength Log.md",
+      "zip": "⛽🏛🍗🔵",
+      "status": "rebuilt",
+      "primary": "Back Squat (Glute Focus)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/⛽-strength/🏛-basics/🛒-push/⛽🏛🛒🔵±🤌 Barbell Overhead Press — Shoulder Strength Log.md",
+      "zip": "⛽🏛🛒🔵",
+      "status": "rebuilt",
+      "primary": "Plyometric Push-Up (Hands Leave Ground)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/⛽-strength/🏛-basics/➖-ultra/⛽🏛➖🔵±🤌 Assault Bike Intervals — Engine Strength Log.md",
+      "zip": "⛽🏛➖🔵",
+      "status": "rebuilt",
+      "primary": "Rowing Machine (Steady State)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/⛽-strength/🏛-basics/➕-plus/⛽🏛➕🔵±🤌 Barbell Push Press — Power Focus, Strength Log.md",
+      "zip": "⛽🏛➕🔵",
+      "status": "rebuilt",
+      "primary": "Barbell Push Press",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/⛽-strength/🏛-basics/🪡-pull/⛽🏛🪡🔵±🤌 Bent-Over Barbell Row — Back Strength Log.md",
+      "zip": "⛽🏛🪡🔵",
+      "status": "rebuilt",
+      "primary": "Barbell Overhead Press (Standing)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🏟-performance/🪐-challenge/🪡-pull/🏟🪐🪡🔵±🚀 Deadlift (Sumo) — Pull Structured.md",
+      "zip": "🏟🪐🪡🔵",
+      "status": "rebuilt",
+      "primary": "Barbell Overhead Press (Standing)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🏟-performance/⌛-time/🛒-push/🏟⌛🛒🔵±✒️ Incline Barbell Bench Press (45°) — Push Structured.md",
+      "zip": "🏟⌛🛒🔵",
+      "status": "rebuilt",
+      "primary": "Plyometric Push-Up (Hands Leave Ground)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🏟-performance/🌹-aesthetic/➖-ultra/🏟🌹➖🔵±🦢 Overhead Athlete Position (OAP) Drill — Ultra Structured.md",
+      "zip": "🏟🌹➖🔵",
+      "status": "rebuilt",
+      "primary": "Rowing Machine (Steady State)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🏟-performance/🔨-functional/➕-plus/🏟🔨➕🔵±🥨 Overhead Throw (Medicine Ball) — Plus Structured.md",
+      "zip": "🏟🔨➕🔵",
+      "status": "rebuilt",
+      "primary": "Overhead Throw (Medicine Ball)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🏟-performance/🐬-partner/🍗-legs/🏟🐬🍗🔵±🦉 Lateral Lunge — Legs Structured.md",
+      "zip": "🏟🐬🍗🔵",
+      "status": "rebuilt",
+      "primary": "Back Squat (Glute Focus)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🏟-performance/🏛-basics/🛒-push/🏟🏛🛒🔵±🤌 Incline Chest Press Machine — Push Structured.md",
+      "zip": "🏟🏛🛒🔵",
+      "status": "rebuilt",
+      "primary": "Plyometric Push-Up (Hands Leave Ground)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/🪐-challenge/➖-ultra/🦋🪐➖⚪±🪵 Hill Sprint (Short) — Ultra Mindful.md",
+      "zip": "🦋🪐➖⚪",
+      "status": "rebuilt",
+      "primary": "Rowing Machine (Steady State)",
+      "color": "Mindful",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/🪐-challenge/🪡-pull/🦋🪐🪡🔵±🚀 Trap Bar Carry — Pull Structured.md",
+      "zip": "🦋🪐🪡🔵",
+      "status": "rebuilt",
+      "primary": "Barbell Overhead Press (Standing)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/⌛-time/🛒-push/🦋⌛🛒🔵±✒️ Cable Chest Fly (Flat) — Push Structured.md",
+      "zip": "🦋⌛🛒🔵",
+      "status": "rebuilt",
+      "primary": "Plyometric Push-Up (Hands Leave Ground)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/🌹-aesthetic/➖-ultra/🦋🌹➖🔵±🦢 Sprint (30-60 meters) — Ultra Structured.md",
+      "zip": "🦋🌹➖🔵",
+      "status": "rebuilt",
+      "primary": "Rowing Machine (Steady State)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/🔨-functional/🍗-legs/🦋🔨🍗🔵±🥨 Single-Leg Jump Rope — Legs Structured.md",
+      "zip": "🦋🔨🍗🔵",
+      "status": "rebuilt",
+      "primary": "Back Squat (Glute Focus)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/🔨-functional/➕-plus/🦋🔨➕🔵±🥨 Neck Rotation (Bodyweight) — Plus Structured.md",
+      "zip": "🦋🔨➕🔵",
+      "status": "rebuilt",
+      "primary": "Neck Rotation (Bodyweight)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/🐬-partner/🍗-legs/🦋🐬🍗⚫±🧲 Single-Leg Toe Raise — Legs Teaching.md",
+      "zip": "🦋🐬🍗⚫",
+      "status": "rebuilt",
+      "primary": "Back Squat (Glute Focus)",
+      "color": "Teaching",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/🐬-partner/🍗-legs/🦋🐬🍗🟠±🦉 Box Jump — Legs Circuit.md",
+      "zip": "🦋🐬🍗🟠",
+      "status": "rebuilt",
+      "primary": "Back Squat (Glute Focus)",
+      "color": "Circuit",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/🐬-partner/🍗-legs/🦋🐬🍗🟣±🦉 Single-Leg Jump Rope — Legs Technical.md",
+      "zip": "🦋🐬🍗🟣",
+      "status": "rebuilt",
+      "primary": "Back Squat (Glute Focus)",
+      "color": "Technical",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/🐬-partner/🪡-pull/🦋🐬🪡🟡±🧲 Alternating Hammer Curl — Pull Fun.md",
+      "zip": "🦋🐬🪡🟡",
+      "status": "rebuilt",
+      "primary": "Barbell Overhead Press (Standing)",
+      "color": "Fun",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/🏛-basics/🍗-legs/🦋🏛🍗🔵±🤌 Back Squat (Low Bar) — Legs Structured.md",
+      "zip": "🦋🏛🍗🔵",
+      "status": "rebuilt",
+      "primary": "Back Squat (Glute Focus)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/🏛-basics/🛒-push/🦋🏛🛒🔵±🤌 Incline Chest Press Machine — Push Structured.md",
+      "zip": "🦋🏛🛒🔵",
+      "status": "rebuilt",
+      "primary": "Plyometric Push-Up (Hands Leave Ground)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/🏛-basics/➕-plus/🦋🏛➕🔵±🤌 Chin-Up (Underhand Grip) — Plus Structured.md",
+      "zip": "🦋🏛➕🔵",
+      "status": "rebuilt",
+      "primary": "Chin-Up (Underhand Grip)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🦋-hypertrophy/🏛-basics/🪡-pull/🦋🏛🪡🔵±🤌 Cable Row (Rhomboid Focus - Elbows In) — Pull Structured.md",
+      "zip": "🦋🏛🪡🔵",
+      "status": "rebuilt",
+      "primary": "Barbell Overhead Press (Standing)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🐂-foundation/🐬-partner/🍗-legs/🐂🐬🍗🟡±🧲 Half-Kneeling Hip Flexor Stretch — Legs Fun.md",
+      "zip": "🐂🐬🍗🟡",
+      "status": "rebuilt",
+      "primary": "Back Squat (Glute Focus)",
+      "color": "Fun",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🐂-foundation/🏛-basics/🍗-legs/🐂🏛🍗🔵±🤌 Goblet Squat — Legs Strength Log.md",
+      "zip": "🐂🏛🍗🔵",
+      "status": "rebuilt",
+      "primary": "Back Squat (Glute Focus)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🐂-foundation/🏛-basics/🛒-push/🐂🏛🛒🔵±🤌 Dumbbell Bench Press — Push Strength Log.md",
+      "zip": "🐂🏛🛒🔵",
+      "status": "rebuilt",
+      "primary": "Plyometric Push-Up (Hands Leave Ground)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🐂-foundation/🏛-basics/➖-ultra/🐂🏛➖🔵±🤌 Rowing Machine (Steady State) — Ultra Strength Log.md",
+      "zip": "🐂🏛➖🔵",
+      "status": "rebuilt",
+      "primary": "Rowing Machine (Steady State)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🐂-foundation/🏛-basics/➕-plus/🐂🏛➕🔵±🤌 Suitcase Carry (Single-Arm) — Plus Strength Log.md",
+      "zip": "🐂🏛➕🔵",
+      "status": "rebuilt",
+      "primary": "Suitcase Carry (Single-Arm)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    },
+    {
+      "path": "/home/user/ppl-plus-ultra/cards/🐂-foundation/🏛-basics/🪡-pull/🐂🏛🪡🔵±🤌 Chest-Supported Dumbbell Row — Pull Strength Log.md",
+      "zip": "🐂🏛🪡🔵",
+      "status": "rebuilt",
+      "primary": "Barbell Overhead Press (Standing)",
+      "color": "Structured",
+      "abacus": "general-strength"
+    }
+  ]
+}

@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🪡 Half-Kneeling Band Single-Arm Pulldown — Pull Bodyweight 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Bodyweight 🪡
 
 ## Hypertrophy Basics — Pull focus (Bodyweight) · 55-70 min
 
 **CODE:** 🦋🏛🪡🟢
 
 > "Build the muscle with what you have. No equipment is not an excuse."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🦋🏛🪡🟢 (Warm-Up | Pull | Basics | Bodyweight)
@@ -31,7 +33,7 @@ Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🏛🪡🟢 (Bread & Butter | Pull | Basics | Bodyweight)
-├─ 10 🪡 Half-Kneeling Band Single-Arm Pulldown (bodyweight, no external load needed)
+├─ 10 🪡 Barbell Overhead Press (Standing) (bodyweight, no external load needed)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)

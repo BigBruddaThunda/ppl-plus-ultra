@@ -9,29 +9,31 @@ type: 🪡 Pull | Partner-context strength emphasis
 color: 🟢 Bodyweight | Partner deployment logic
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🪡 Pull-Up — Pull Bodyweight 🪡
+# 🪡 Kettlebell Swing (Two-Hand) — Pull Bodyweight 🪡
 
 ## Strength Partner — Pull focus (Bodyweight) · 50-65 min
 
 **CODE:** ⛽🐬🪡🟢
 
 > "Prove the pattern holds without external load. Bodyweight is the test."
+
+*Fasting Cardio + Strength: Bodyweight conditioning — no gym, no excuses, cardio and movement flow*
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: ⛽🐬🪡🟢 (Warm-Up | Pull | Partner | Bodyweight)
-├─ 6 🪡 Wide-Grip Pull-Up (Teres Focus) (bodyweight, no external load needed)
+├─ 6 🪡 American Swing (Overhead) (bodyweight, no external load needed)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🐬🪡🟢 (Primer | Pull | Partner | Bodyweight)
-├─ 5 🪡 Chest-Supported Row (Elbow Out) (tight setup, crisp intent)
+├─ 5 🪡 Heavy Swing (Power Focus) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🐬🪡🟢 (Bread & Butter | Pull | Partner | Bodyweight)
-├─ 5 🪡 Pull-Up (bodyweight, no external load needed)
+├─ 5 🪡 Kettlebell Swing (Two-Hand) (bodyweight, no external load needed)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🐬🪡🟢 (Supplemental | Pull | Partner | Bodyweight)
-├─ 6 🪡 Cable Row (High Elbow) (full range, different angle)
+├─ 6 🪡 Dead Stop Swing (Reset Between Reps) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🐬🪡🟢 (Release | Pull | Partner | Bodyweight)
-├─ 6 🪡 Deadlift (Conventional) (smooth tempo, downshift)
+├─ 6 🪡 Double Kettlebell Swing (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

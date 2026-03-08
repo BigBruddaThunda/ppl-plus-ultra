@@ -16,16 +16,18 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 **CODE:** ⚖🔨🍗🔵
 
 > "Prescribed accessory work. Target the specific imbalance."
+
+*50+ Active Living: Structured progression — small increments, clear targets, consistent tracking*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: ⚖🔨🍗🔵 (Warm-Up | Legs | Functional | Structured)
-├─ 12 🍗 Single-Leg Pogo Hops (prescribed, track sets and reps)
+├─ 12 🍗 Single-Leg Balance Hold (prescribed, track sets and reps)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🏗 Reformance
 Subcode: ⚖🔨🍗🔵 (Reformance | Legs | Functional | Structured)
-├─ 11 🍗 Half-Kneeling Hip Flexor Stretch (corrective, address the weak link)
+├─ 11 🍗 Single-Leg Balance with Perturbation (corrective, address the weak link)
 │  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🔨🍗🔵 (Supplemental | Legs | Functional | Structured)
-├─ 12 🍗 Single-Leg Extension (full range, different angle)
+├─ 12 🍗 BOSU Ball Single-Leg Balance (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🔨🍗🔵 (Release | Legs | Functional | Structured)
-├─ 12 🍗 Single-Leg Good Morning (smooth tempo, downshift)
+├─ 12 🍗 Single-Leg Balance with Eyes Closed (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

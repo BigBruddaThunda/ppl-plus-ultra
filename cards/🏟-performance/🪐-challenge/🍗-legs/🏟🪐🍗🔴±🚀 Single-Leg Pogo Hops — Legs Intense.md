@@ -16,10 +16,12 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟🪐🍗🔴
 
 > "All-out effort. Leave everything on the platform."
+
+*Strongman / Odd Object: Heavy working sets with full recovery — push the ceiling, earn every rep*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🏟🪐🍗🔴 (Warm-Up | Legs | Challenge | Intense)
-├─ 3 🍗 Pogo Hops (Ankle Bounce) (high effort, push the pace)
+├─ 3 🍗 Single-Leg Jump Rope (high effort, push the pace)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 45s
 ═══

@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➕ Seated Good Morning — Plus Intense ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Intense ➕
 
 ## Restoration Time — Plus focus (Intense) · 30-40 min
 
 **CODE:** 🖼⌛➕🔴
 
 > "Active recovery. Move enough to flush, not enough to fatigue."
+
+*Sprint / Power Conditioning: All-out intervals — max effort, full recovery, repeat until capacity drops*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼⌛➕🔴 (Bread & Butter | Plus | Time | Intense)
-├─ 13 ➕ Seated Good Morning (high effort, push the pace)
+├─ 13 ➕ Single-Leg Hops Through Ladder (high effort, push the pace)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 30s
 ═══
 ## 3) 🪫 Release
 Subcode: 🖼⌛➕🔴 (Release | Plus | Time | Intense)
-├─ 12 ➕ Good Morning (Barbell) (stress out, cathartic discharge)
+├─ 12 ➕ Alternating Leg Bound (stress out, cathartic discharge)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 30s
 ═══

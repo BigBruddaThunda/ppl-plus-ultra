@@ -9,29 +9,31 @@ type: ➕ Plus | Full body power, core
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# ➕ Bent-Over Barbell Row (Underhand) — Plus Intense ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Intense ➕
 
 ## Hypertrophy Basics — Plus focus (Intense) · 55-70 min
 
 **CODE:** 🦋🏛➕🔴
 
 > "High volume, low rest. Chase the pump and earn the fatigue."
+
+*Physique / Recomp: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🦋🏛➕🔴 (Warm-Up | Plus | Basics | Intense)
-├─ 12 ➕ Zercher Carry (high effort, push the pace)
+├─ 12 ➕ Aquaman (Alternating Superman) (high effort, push the pace)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🏛➕🔴 (Primer | Plus | Basics | Intense)
-├─ 10 ➕ Pull-Up (Overhand Grip) (tight setup, crisp intent)
+├─ 10 ➕ Half-Kneeling Band Single-Arm Pulldown (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🏛➕🔴 (Bread & Butter | Plus | Basics | Intense)
-├─ 10 ➕ Bent-Over Barbell Row (Underhand) (high effort, push the pace)
+├─ 10 ➕ Single-Leg Hops Through Ladder (high effort, push the pace)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 45s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🦋🏛➕🔴 (Supplemental | Plus | Basics | Intense)
-├─ 12 ➕ Bent-Over Barbell Row (Overhand) (full range, different angle)
+├─ 12 ➕ Half-Kneeling Cable Chop (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 30s
 ═══
 ## 5) 🌋 Gutter
 Subcode: 🦋🏛➕🔴 (Gutter | Plus | Basics | Intense)
-├─ 12 ➕ Rotational Medicine Ball Throw (all-out, leave nothing in reserve)
+├─ 12 ➕ Single-Leg Plank (all-out, leave nothing in reserve)
 │  Set 1: 🦋 55% × 12 (push to form break)
 │  Set 2: 🦋 55% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋🏛➕🔴 (Release | Plus | Basics | Intense)
-├─ 12 ➕ Rotational Medicine Ball Throw (stress out, cathartic discharge)
+├─ 12 ➕ Single-Leg Plank (stress out, cathartic discharge)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 30s
 ═══

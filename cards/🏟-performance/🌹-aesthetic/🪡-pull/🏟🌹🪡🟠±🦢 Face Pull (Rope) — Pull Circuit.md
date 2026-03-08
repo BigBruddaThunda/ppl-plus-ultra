@@ -9,27 +9,29 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🪡 Face Pull (Rope) — Pull Circuit 🪡
+# 🪡 Archer Pull-Up — Pull Circuit 🪡
 
 ## Performance Aesthetic — Pull focus (Circuit) · 25-35 min
 
 **CODE:** 🏟🌹🪡🟠
 
 > "Timed circuit test. Complete as many rounds as the clock allows."
+
+*Tactical / First Responder: Skill circuit — rotate through craft-specific stations*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🏟🌹🪡🟠 (Warm-Up | Pull | Aesthetic | Circuit)
-├─ 3 🪡 Single-Arm Face Pull (station rotation, keep moving)
+├─ 3 🪡 Single-Arm Lat Pulldown (station rotation, keep moving)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 45s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🏟🌹🪡🟠 (ARAM | Pull | Aesthetic | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🪡 Face Pull (Rope) × 2 (station rotation, keep moving)
-│  Station 2: 🪡 Single-Arm Face Pull × 2 (station rotation, keep moving)
-│  Station 3: 🪡 Aquaman (Alternating Superman) × 2 (station rotation, keep moving)
-│  Station 4: 🪡 Wide-Grip Lat Pulldown (Teres Focus) × 2 (station rotation, keep moving)
+│  Station 1: 🪡 Archer Pull-Up × 2 (station rotation, keep moving)
+│  Station 2: 🪡 Single-Arm Lat Pulldown × 2 (station rotation, keep moving)
+│  Station 3: 🪡 Single-Arm Dumbbell Row × 2 (station rotation, keep moving)
+│  Station 4: 🪡 Plank Row (Single-Arm) × 2 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 60s
 Rest: 90s after final round

@@ -9,29 +9,31 @@ type: ➕ Plus | Full body power, core
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➕ Atlas Stone Lift — Plus Technical ➕
+# ➕ Single-Leg Box Jump — Plus Technical ➕
 
 ## Balance Time — Plus focus (Technical) · 40-50 min
 
 **CODE:** ⚖⌛➕🟣
 
 > "Precise correction. Small movements, full attention, zero momentum."
+
+*CrossFit-Style: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⚖⌛➕🟣 (Warm-Up | Plus | Time | Technical)
-├─ 12 ➕ Single-Foot In Each Box (Forward) (precision, quality over volume)
+├─ 12 ➕ Split Jump (Alternating) (precision, quality over volume)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖⌛➕🟣 (Primer | Plus | Time | Technical)
-├─ 11 ➕ Yoke Walk (tight setup, crisp intent)
+├─ 11 ➕ Single-Leg Broad Jump (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖⌛➕🟣 (Bread & Butter | Plus | Time | Technical)
-├─ 11 ➕ Atlas Stone Lift (precision, quality over volume)
+├─ 11 ➕ Single-Leg Box Jump (precision, quality over volume)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖⌛➕🟣 (Supplemental | Plus | Time | Technical)
-├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (full range, different angle)
+├─ 12 ➕ Alternating Leg Bound (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖⌛➕🟣 (Release | Plus | Time | Technical)
-├─ 12 ➕ Face Pull (Rope) (smooth tempo, downshift)
+├─ 12 ➕ Single-Leg Bound (Continuous) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 112s
 ═══

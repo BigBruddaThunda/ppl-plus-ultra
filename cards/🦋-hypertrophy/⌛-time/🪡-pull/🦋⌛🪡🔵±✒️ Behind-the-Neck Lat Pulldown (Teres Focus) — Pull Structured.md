@@ -9,29 +9,31 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) — Pull Structured 🪡
+# 🪡 Kettlebell Swing (Two-Hand) — Pull Structured 🪡
 
 ## Hypertrophy Time — Pull focus (Structured) · 55-70 min
 
 **CODE:** 🦋⌛🪡🔵
 
 > "Hit every set at the prescribed rep count. Volume is the driver."
+
+*Fasting Cardio + Strength: Prescribed intervals — zone targets, heart rate windows, timed rest*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🦋⌛🪡🔵 (Warm-Up | Pull | Time | Structured)
-├─ 12 🪡 Wide-Grip Lat Pulldown (Teres Focus) (prescribed, track sets and reps)
+├─ 12 🪡 American Swing (Overhead) (prescribed, track sets and reps)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋⌛🪡🔵 (Primer | Pull | Time | Structured)
-├─ 10 🪡 Face Pull (Rope) (tight setup, crisp intent)
+├─ 10 🪡 Heavy Swing (Power Focus) (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋⌛🪡🔵 (Bread & Butter | Pull | Time | Structured)
-├─ 10 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) (prescribed, track sets and reps)
+├─ 10 🪡 Kettlebell Swing (Two-Hand) (prescribed, track sets and reps)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 90s
 ═══
 ## 4) 🗿 Sculpt
 Subcode: 🦋⌛🪡🔵 (Sculpt | Pull | Time | Structured)
-├─ 12 🪡 Good Morning (Barbell) (angles, tension, volume)
+├─ 12 🪡 Dead Stop Swing (Reset Between Reps) (angles, tension, volume)
 │  Set 1: 🦋 65% × 12 (shaping)
 │  Set 2: 🦋 65% × 12 (carving)
 Rest: 60s
 ═══
 ## 5) 🧩 Supplemental
 Subcode: 🦋⌛🪡🔵 (Supplemental | Pull | Time | Structured)
-├─ 12 🪡 Good Morning (Barbell) (full range, different angle)
+├─ 12 🪡 Dead Stop Swing (Reset Between Reps) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 60s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋⌛🪡🔵 (Release | Pull | Time | Structured)
-├─ 12 🪡 Preacher Curl Machine (smooth tempo, downshift)
+├─ 12 🪡 Double Kettlebell Swing (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══

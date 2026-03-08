@@ -9,23 +9,25 @@ type: ➖ Ultra | Cardiovascular system
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➖ Lateral Shuffle (In-In-Out-Out) — Ultra Mindful ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Mindful ➖
 
 ## Balance Aesthetic — Ultra focus (Mindful) · 40-50 min
 
 **CODE:** ⚖🌹➖⚪
 
 > "Slow down into the imbalance. Feel where the body compensates."
+
+*Pre/Post Natal: Recovery and restoration — breath work, gentle movement, nervous system regulation*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: ⚖🌹➖⚪ (Warm-Up | Ultra | Aesthetic | Mindful)
-├─ 12 ➖ Turkish Get-Up (Full) (4s eccentric, breath-paced)
+├─ 12 ➖ Partner Toss (Alternating) (4s eccentric, breath-paced)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 120s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⚖🌹➖⚪ (Bread & Butter | Ultra | Aesthetic | Mindful)
-├─ 11 ➖ Lateral Shuffle (In-In-Out-Out) (4s eccentric, breath-paced)
+├─ 11 ➖ Single-Leg Hops Through Ladder (4s eccentric, breath-paced)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 180s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: ⚖🌹➖⚪ (Supplemental | Ultra | Aesthetic | Mindful)
-├─ 12 ➖ Kettlebell Goblet Squat (full range, different angle)
+├─ 12 ➖ Layup Approach (Single-Leg Power) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 150s
 ═══
 ## 4) 🪫 Release
 Subcode: ⚖🌹➖⚪ (Release | Ultra | Aesthetic | Mindful)
-├─ 12 ➖ Half Turkish Get-Up (To Elbow) (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➖ Turkish Get-Up (Full) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 150s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⚖🌹➖⚪ (Imprint | Ultra | Aesthetic | Mindful)
-├─ 12 ➖ Two Feet In Each Box (Forward) (high rep, low load, neural memory)
+├─ 12 ➖ Half Turkish Get-Up (To Elbow) (high rep, low load, neural memory)
 │  Set 1: ⚖ 45% × 12 (lock the pattern)
 Rest: 150s
 ═══

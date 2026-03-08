@@ -9,29 +9,31 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🍗 Box Jump — Legs Structured 🍗
+# 🍗 Single-Leg Hip Thrust (Barbell) — Legs Structured 🍗
 
 ## Hypertrophy Aesthetic — Legs focus (Structured) · 55-70 min
 
 **CODE:** 🦋🌹🍗🔵
 
 > "Hit every set at the prescribed rep count. Volume is the driver."
+
+*Bodybuilding: Volume tracking — prescribed sets and reps, progressive overload through logging*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🦋🌹🍗🔵 (Warm-Up | Legs | Aesthetic | Structured)
-├─ 12 🍗 Standing Quad Stretch (prescribed, track sets and reps)
+├─ 12 🍗 Single-Leg Hip Thrust (Bodyweight) (prescribed, track sets and reps)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🌹🍗🔵 (Primer | Legs | Aesthetic | Structured)
-├─ 10 🍗 Step-Down (Eccentric) (tight setup, crisp intent)
+├─ 10 🍗 Single-Leg Glute Bridge (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🌹🍗🔵 (Bread & Butter | Legs | Aesthetic | Structured)
-├─ 10 🍗 Box Jump (prescribed, track sets and reps)
+├─ 10 🍗 Single-Leg Hip Thrust (Barbell) (prescribed, track sets and reps)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 90s
 ═══
 ## 4) 🗿 Sculpt
 Subcode: 🦋🌹🍗🔵 (Sculpt | Legs | Aesthetic | Structured)
-├─ 12 🍗 Leg Extension Machine (angles, tension, volume)
+├─ 12 🍗 Single-Leg Balance Hold (angles, tension, volume)
 │  Set 1: 🦋 65% × 12 (shaping)
 │  Set 2: 🦋 65% × 12 (carving)
 Rest: 60s
 ═══
 ## 5) 🧩 Supplemental
 Subcode: 🦋🌹🍗🔵 (Supplemental | Legs | Aesthetic | Structured)
-├─ 12 🍗 Leg Extension Machine (full range, different angle)
+├─ 12 🍗 Single-Leg Balance Hold (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 60s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋🌹🍗🔵 (Release | Legs | Aesthetic | Structured)
-├─ 12 🍗 Barbell Good Morning (smooth tempo, downshift)
+├─ 12 🍗 Single-Leg Balance with Perturbation (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══

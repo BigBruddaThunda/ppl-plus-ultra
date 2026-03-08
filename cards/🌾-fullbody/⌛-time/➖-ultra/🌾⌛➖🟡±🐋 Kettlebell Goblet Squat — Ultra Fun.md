@@ -9,23 +9,25 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# ➖ Kettlebell Goblet Squat — Ultra Fun ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Fun ➖
 
 ## Full Body Time — Ultra focus (Fun) · 40-55 min
 
 **CODE:** 🌾⌛➖🟡
 
 > "Explore compound movements that link upper and lower body."
+
+*Flexibility / Mobility: Somatic exploration — movements you would not normally try, body awareness*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🌾⌛➖🟡 (Warm-Up | Ultra | Time | Fun)
-├─ 10 ➖ Single-Leg Hops Through Ladder (explore, stay within constraints)
+├─ 10 ➖ Sprint (10-30 meters) (explore, stay within constraints)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🌾⌛➖🟡 (Bread & Butter | Ultra | Time | Fun)
-├─ 9 ➖ Kettlebell Goblet Squat (explore, stay within constraints)
+├─ 9 ➖ Single-Leg Hops Through Ladder (explore, stay within constraints)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 60s
 ═══
 ## 3) 🌎 Exposure
 Subcode: 🌾⌛➖🟡 (Exposure | Ultra | Time | Fun)
-├─ 9 ➖ Single-Foot In Each Box (Forward) (try the unfamiliar version, explore the range)
+├─ 9 ➖ Hill Sprint (Short) (try the unfamiliar version, explore the range)
 │  Set 1: 🌾 55% × 9 (discovery set)
 Rest: 45s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: 🌾⌛➖🟡 (Sandbox | Ultra | Time | Fun)
-├─ 9 ➖ Half Turkish Get-Up (To Elbow) (explore within constraints, choose your variation)
+├─ 9 ➖ Hill Sprint (Long) (explore within constraints, choose your variation)
 │  Option A: 🌾 60% × 9 (play with grip, stance, or tempo)
 │  Option B: 🌾 60% × 9 (try a variation you have not used before)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾⌛➖🟡 (Release | Ultra | Time | Fun)
-├─ 10 ➖ Single-Foot In Each Box (Forward) (smooth tempo, downshift)
+├─ 10 ➖ Hill Sprint (Short) (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══

@@ -9,29 +9,31 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🛒 Depth Push-Up (Drop to Floor) — Push Intense 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Intense 🛒
 
 ## Full Body Basics — Push focus (Intense) · 40-55 min
 
 **CODE:** 🌾🏛🛒🔴
 
 > "Drive through the integrated pattern with intent. No wasted motion."
+
+*Strongman / Odd Object: Heavy working sets with full recovery — push the ceiling, earn every rep*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🌾🏛🛒🔴 (Warm-Up | Push | Basics | Intense)
-├─ 10 🛒 Plyometric Push-Up (Hands Leave Ground) (high effort, push the pace)
+├─ 10 🛒 Depth Push-Up (Drop to Floor) (high effort, push the pace)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🌾🏛🛒🔴 (Primer | Push | Basics | Intense)
-├─ 9 🛒 Bamboo Bar Bench Press (tight setup, crisp intent)
+├─ 9 🛒 Banded Speed Bench Press (tight setup, crisp intent)
 │  Set 1: 🌾 60% × 9 (activation)
 Rest: 30s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🏛🛒🔴 (Bread & Butter | Push | Basics | Intense)
-├─ 9 🛒 Depth Push-Up (Drop to Floor) (high effort, push the pace)
+├─ 9 🛒 Plyometric Push-Up (Hands Leave Ground) (high effort, push the pace)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -46,14 +48,14 @@ Rest: 30s
 ═══
 ## 5) 🌋 Gutter
 Subcode: 🌾🏛🛒🔴 (Gutter | Push | Basics | Intense)
-├─ 10 🛒 Barbell Bench Press (all-out, leave nothing in reserve)
+├─ 10 🛒 Log Press (all-out, leave nothing in reserve)
 │  Set 1: 🌾 55% × 10 (push to form break)
 │  Set 2: 🌾 55% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: 🌾🏛🛒🔴 (Release | Push | Basics | Intense)
-├─ 10 🛒 Barbell Bench Press (stress out, cathartic discharge)
+├─ 10 🛒 Log Press (stress out, cathartic discharge)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 30s
 ═══

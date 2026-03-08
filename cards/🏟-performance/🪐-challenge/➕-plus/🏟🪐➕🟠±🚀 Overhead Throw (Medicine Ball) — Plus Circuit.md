@@ -16,6 +16,8 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟🪐➕🟠
 
 > "Timed circuit test. Complete as many rounds as the clock allows."
+
+*Combat Sport Prep: Athletic circuit — each station trains a different movement pattern*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🏟🪐➕🟠 (Warm-Up | Plus | Challenge | Circuit)

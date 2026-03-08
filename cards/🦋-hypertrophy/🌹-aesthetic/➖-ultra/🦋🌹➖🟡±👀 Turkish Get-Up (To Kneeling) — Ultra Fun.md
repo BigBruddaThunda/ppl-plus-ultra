@@ -9,23 +9,25 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# ➖ Turkish Get-Up (To Kneeling) — Ultra Fun ➖
+# ➖ Sprint (10-30 meters) — Ultra Fun ➖
 
 ## Hypertrophy Aesthetic — Ultra focus (Fun) · 55-70 min
 
 **CODE:** 🦋🌹➖🟡
 
 > "Try exercises you would not normally pick. Variety stimulates growth."
+
+*Aesthetic Specialization: Novel exercises for new stimulus — variety drives adaptation when volume plateaus*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: 🦋🌹➖🟡 (Warm-Up | Ultra | Aesthetic | Fun)
-├─ 12 ➖ Turkish Get-Up (Full) (explore, stay within constraints)
+├─ 12 ➖ Sprint (30-60 meters) (explore, stay within constraints)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🦋🌹➖🟡 (Bread & Butter | Ultra | Aesthetic | Fun)
-├─ 10 ➖ Turkish Get-Up (To Kneeling) (explore, stay within constraints)
+├─ 10 ➖ Sprint (10-30 meters) (explore, stay within constraints)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 90s
 ═══
 ## 3) 🌎 Exposure
 Subcode: 🦋🌹➖🟡 (Exposure | Ultra | Aesthetic | Fun)
-├─ 10 ➖ Turkish Get-Up (To Seated) (try the unfamiliar version, explore the range)
+├─ 10 ➖ Hill Sprint (Long) (try the unfamiliar version, explore the range)
 │  Set 1: 🦋 55% × 10 (discovery set)
 Rest: 60s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: 🦋🌹➖🟡 (Sandbox | Ultra | Aesthetic | Fun)
-├─ 10 ➖ Turkish Get-Up (To Kneeling) (explore within constraints, choose your variation)
+├─ 10 ➖ Tempo Run (Moderate Pace) (explore within constraints, choose your variation)
 │  Option A: 🦋 60% × 10 (play with grip, stance, or tempo)
 │  Option B: 🦋 60% × 10 (try a variation you have not used before)
 Rest: 60s
 ═══
 ## 5) 🪫 Release
 Subcode: 🦋🌹➖🟡 (Release | Ultra | Aesthetic | Fun)
-├─ 12 ➖ Turkish Get-Up (To Seated) (smooth tempo, downshift)
+├─ 12 ➖ Hill Sprint (Long) (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══

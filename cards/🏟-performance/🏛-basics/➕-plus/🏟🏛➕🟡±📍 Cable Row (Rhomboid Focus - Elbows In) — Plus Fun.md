@@ -9,30 +9,32 @@ type: ➕ Plus | Full body power, core
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➕ Cable Row (Rhomboid Focus - Elbows In) — Plus Fun ➕
+# ➕ Hip Flexor Stretch (Half-Kneeling) — Plus Fun ➕
 
 ## Performance Basics — Plus focus (Fun) · 25-35 min
 
 **CODE:** 🏟🏛➕🟡
 
 > "Test something unconventional. Find where your capacity surprises you."
+
+*Youth Athletic Development: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🏟🏛➕🟡 (Warm-Up | Plus | Basics | Fun)
-├─ 3 ➕ Side Plank with Hip Dip (explore, stay within constraints)
+├─ 3 ➕ Leg Swings (Forward/Backward) (explore, stay within constraints)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟🏛➕🟡 (Bread & Butter | Plus | Basics | Fun)
-├─ 2 ➕ Cable Row (Rhomboid Focus - Elbows In) (explore, stay within constraints)
+├─ 2 ➕ Hip Flexor Stretch (Half-Kneeling) (explore, stay within constraints)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🏟🏛➕🟡 (Sandbox | Plus | Basics | Fun)
-├─ 2 ➕ Deadlift (Conventional) (explore within constraints, choose your variation)
+├─ 2 ➕ Single-Leg Hops Through Ladder (explore within constraints, choose your variation)
 │  Option A: 🏟 82% × 2 (play with grip, stance, or tempo)
 │  Option B: 🏟 82% × 2 (try a variation you have not used before)
 Rest: N/A

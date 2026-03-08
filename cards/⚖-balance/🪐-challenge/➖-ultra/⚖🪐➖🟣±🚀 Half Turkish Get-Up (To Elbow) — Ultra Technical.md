@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➖ Half Turkish Get-Up (To Elbow) — Ultra Technical ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Technical ➖
 
 ## Balance Challenge — Ultra focus (Technical) · 40-50 min
 
 **CODE:** ⚖🪐➖🟣
 
 > "Precise correction. Small movements, full attention, zero momentum."
+
+*CrossFit-Style: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⚖🪐➖🟣 (Warm-Up | Ultra | Challenge | Technical)
@@ -25,13 +27,13 @@ Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖🪐➖🟣 (Primer | Ultra | Challenge | Technical)
-├─ 11 ➖ Turkish Get-Up (Full) (tight setup, crisp intent)
+├─ 11 ➖ Two Feet In Each Box (Forward) (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🪐➖🟣 (Bread & Butter | Ultra | Challenge | Technical)
-├─ 11 ➖ Half Turkish Get-Up (To Elbow) (precision, quality over volume)
+├─ 11 ➖ Single-Leg Hops Through Ladder (precision, quality over volume)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🪐➖🟣 (Supplemental | Ultra | Challenge | Technical)
-├─ 12 ➖ Kettlebell Goblet Squat (full range, different angle)
+├─ 12 ➖ Lateral Shuffle (In-In-Out-Out) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🪐➖🟣 (Release | Ultra | Challenge | Technical)
-├─ 12 ➖ Two Feet In Each Box (Forward) (smooth tempo, downshift)
+├─ 12 ➖ Icky Shuffle (In-In-Out Pattern) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 112s
 ═══

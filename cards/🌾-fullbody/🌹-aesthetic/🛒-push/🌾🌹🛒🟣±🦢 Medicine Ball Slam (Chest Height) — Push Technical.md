@@ -9,29 +9,31 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🛒 Medicine Ball Slam (Chest Height) — Push Technical 🛒
+# 🛒 Kettlebell Swing (Single-Arm) — Push Technical 🛒
 
 ## Full Body Aesthetic — Push focus (Technical) · 40-55 min
 
 **CODE:** 🌾🌹🛒🟣
 
 > "Precision in the transitions. The connection between movements is the skill."
+
+*Sprint / Power Conditioning: Technical conditioning — rowing stroke, cycling cadence, running gait precision*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🌾🌹🛒🟣 (Warm-Up | Push | Aesthetic | Technical)
-├─ 10 🛒 Single-Arm Cable Chest Fly (precision, quality over volume)
+├─ 10 🛒 Kettlebell Swing (Alternating Arms) (precision, quality over volume)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🌾🌹🛒🟣 (Primer | Push | Aesthetic | Technical)
-├─ 9 🛒 Medicine Ball Chest Pass (tight setup, crisp intent)
+├─ 9 🛒 Single-Arm American Swing (tight setup, crisp intent)
 │  Set 1: 🌾 60% × 9 (activation)
 Rest: 90s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🌹🛒🟣 (Bread & Butter | Push | Aesthetic | Technical)
-├─ 9 🛒 Medicine Ball Slam (Chest Height) (precision, quality over volume)
+├─ 9 🛒 Kettlebell Swing (Single-Arm) (precision, quality over volume)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🌹🛒🟣 (Supplemental | Push | Aesthetic | Technical)
-├─ 10 🛒 Low-to-High Cable Fly (full range, different angle)
+├─ 10 🛒 Single-Leg Swing (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 67s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🌹🛒🟣 (Release | Push | Aesthetic | Technical)
-├─ 10 🛒 Band Pull-Apart (Chest Opener) (smooth tempo, downshift)
+├─ 10 🛒 Alternating Kettlebell Snatch (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 67s
 ═══

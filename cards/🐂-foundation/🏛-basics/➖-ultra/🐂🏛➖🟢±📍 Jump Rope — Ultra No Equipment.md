@@ -10,30 +10,32 @@ type: ➖ Ultra | Cardiovascular system and conditioning engine
 color: 🟢 No Equipment | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
-# ➖ Jump Rope — Ultra Bodyweight ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Bodyweight ➖
 
 ## Foundation Basics — Ultra focus (Bodyweight) · 40-50 min
 
 **CODE:** 🐂🏛➖🟢
 
 > "Learn the pattern with your own body first. External load comes later."
+
+*Explorer / Outdoor Athlete: Bodyweight drills for the discipline — positional strength without load*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🐂🏛➖🟢 (Warm-Up | Ultra | Basics | Bodyweight)
-├─ 12 ➖ Kettlebell Goblet Squat (bodyweight, no external load needed)
+├─ 12 ➖ Kettlebell Swing (Single-Arm) (bodyweight, no external load needed)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🔢 Fundamentals
 Subcode: 🐂🏛➖🟢 (Fundamentals | Ultra | Basics | Bodyweight)
-├─ 12 ➖ Rowing Machine (Steady State) (slow, own each position)
+├─ 12 ➖ Kettlebell Swing (Alternating Arms) (slow, own each position)
 │  Set 1: 🐂 45% × 12 (grounding)
 │  Set 2: 🐂 50% × 12 (pattern lock)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🏛➖🟢 (Bread & Butter | Ultra | Basics | Bodyweight)
-├─ 11 ➖ Jump Rope (bodyweight, no external load needed)
+├─ 11 ➖ Single-Leg Hops Through Ladder (bodyweight, no external load needed)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -41,14 +43,14 @@ Rest: 75s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🏛➖🟢 (Supplemental | Ultra | Basics | Bodyweight)
-├─ 13 ➖ Rowing Intervals (500m) (full range, different angle)
+├─ 13 ➖ Single-Arm American Swing (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 60s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🏛➖🟢 (Imprint | Ultra | Basics | Bodyweight)
-├─ 15 ➖ Jump Rope (high rep, low load, neural memory)
+├─ 15 ➖ Alternating Kettlebell Snatch (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 60s
 ═══

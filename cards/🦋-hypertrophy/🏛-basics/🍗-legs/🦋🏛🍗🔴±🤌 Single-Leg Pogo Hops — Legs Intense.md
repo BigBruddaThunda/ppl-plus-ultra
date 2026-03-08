@@ -16,16 +16,18 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 **CODE:** 🦋🏛🍗🔴
 
 > "High volume, low rest. Chase the pump and earn the fatigue."
+
+*Physique / Recomp: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🦋🏛🍗🔴 (Warm-Up | Legs | Basics | Intense)
-├─ 12 🍗 Pogo Hops (Ankle Bounce) (high effort, push the pace)
+├─ 12 🍗 Single-Leg Jump Rope (high effort, push the pace)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🏛🍗🔴 (Primer | Legs | Basics | Intense)
-├─ 10 🍗 Back Squat (High Bar) (tight setup, crisp intent)
+├─ 10 🍗 Pogo Hops (Ankle Bounce) (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 37s
 ═══
@@ -39,21 +41,21 @@ Rest: 45s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🦋🏛🍗🔴 (Supplemental | Legs | Basics | Intense)
-├─ 12 🍗 Walking Lunge (full range, different angle)
+├─ 12 🍗 Box Jump (Calf Power) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 30s
 ═══
 ## 5) 🌋 Gutter
 Subcode: 🦋🏛🍗🔴 (Gutter | Legs | Basics | Intense)
-├─ 12 🍗 Spanish Squat (Banded VMO) (all-out, leave nothing in reserve)
+├─ 12 🍗 Depth Drop (Reactive Calf) (all-out, leave nothing in reserve)
 │  Set 1: 🦋 55% × 12 (push to form break)
 │  Set 2: 🦋 55% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋🏛🍗🔴 (Release | Legs | Basics | Intense)
-├─ 12 🍗 Spanish Squat (Banded VMO) (stress out, cathartic discharge)
+├─ 12 🍗 Depth Drop (Reactive Calf) (stress out, cathartic discharge)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 30s
 ═══

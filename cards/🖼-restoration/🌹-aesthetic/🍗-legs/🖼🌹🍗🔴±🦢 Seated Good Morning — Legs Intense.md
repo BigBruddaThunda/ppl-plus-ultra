@@ -9,13 +9,15 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🍗 Seated Good Morning — Legs Intense 🍗
+# 🍗 Single-Leg Hip Thrust (Barbell) — Legs Intense 🍗
 
 ## Restoration Aesthetic — Legs focus (Intense) · 30-40 min
 
 **CODE:** 🖼🌹🍗🔴
 
 > "Active recovery. Move enough to flush, not enough to fatigue."
+
+*Bodybuilding: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🌹🍗🔴 (Bread & Butter | Legs | Aesthetic | Intense)
-├─ 13 🍗 Seated Good Morning (high effort, push the pace)
+├─ 13 🍗 Single-Leg Hip Thrust (Barbell) (high effort, push the pace)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 30s
 ═══
 ## 3) 🪫 Release
 Subcode: 🖼🌹🍗🔴 (Release | Legs | Aesthetic | Intense)
-├─ 12 🍗 Barbell Good Morning (stress out, cathartic discharge)
+├─ 12 🍗 Single-Leg Balance with Perturbation (stress out, cathartic discharge)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 30s
 ═══

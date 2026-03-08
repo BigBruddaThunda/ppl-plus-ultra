@@ -9,29 +9,31 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🍗 Single-Leg Jump Rope — Legs Structured 🍗
+# 🍗 Back Squat (Glute Focus) — Legs Structured 🍗
 
 ## Hypertrophy Functional — Legs focus (Structured) · 55-70 min
 
 **CODE:** 🦋🔨🍗🔵
 
 > "Hit every set at the prescribed rep count. Volume is the driver."
+
+*General Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🦋🔨🍗🔵 (Warm-Up | Legs | Functional | Structured)
-├─ 12 🍗 Single-Leg Pogo Hops (prescribed, track sets and reps)
+├─ 12 🍗 Front Squat (Glute Activation) (prescribed, track sets and reps)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🔨🍗🔵 (Primer | Legs | Functional | Structured)
-├─ 10 🍗 Half-Kneeling Hip Flexor Stretch (tight setup, crisp intent)
+├─ 10 🍗 Sumo Squat (Wide-Stance Glute) (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🔨🍗🔵 (Bread & Butter | Legs | Functional | Structured)
-├─ 10 🍗 Single-Leg Jump Rope (prescribed, track sets and reps)
+├─ 10 🍗 Back Squat (Glute Focus) (prescribed, track sets and reps)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 90s
 ═══
 ## 4) 🗿 Sculpt
 Subcode: 🦋🔨🍗🔵 (Sculpt | Legs | Functional | Structured)
-├─ 12 🍗 Single-Leg Extension (angles, tension, volume)
+├─ 12 🍗 Goblet Squat (Deep Glute Stretch) (angles, tension, volume)
 │  Set 1: 🦋 65% × 12 (shaping)
 │  Set 2: 🦋 65% × 12 (carving)
 Rest: 60s
 ═══
 ## 5) 🧩 Supplemental
 Subcode: 🦋🔨🍗🔵 (Supplemental | Legs | Functional | Structured)
-├─ 12 🍗 Single-Leg Extension (full range, different angle)
+├─ 12 🍗 Goblet Squat (Deep Glute Stretch) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 60s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋🔨🍗🔵 (Release | Legs | Functional | Structured)
-├─ 12 🍗 Single-Leg Good Morning (smooth tempo, downshift)
+├─ 12 🍗 Conventional Deadlift (Glute Load) (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══

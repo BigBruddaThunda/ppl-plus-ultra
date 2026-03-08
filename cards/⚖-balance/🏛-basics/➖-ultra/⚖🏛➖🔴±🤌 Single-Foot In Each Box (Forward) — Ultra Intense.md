@@ -9,29 +9,31 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➖ Single-Foot In Each Box (Forward) — Ultra Intense ➖
+# ➖ Turkish Get-Up (Full) — Ultra Intense ➖
 
 ## Balance Basics — Ultra focus (Intense) · 40-50 min
 
 **CODE:** ⚖🏛➖🔴
 
 > "Attack the weak link with volume. Fatigue exposes the gap."
+
+*Bodybuilding: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: ⚖🏛➖🔴 (Warm-Up | Ultra | Basics | Intense)
-├─ 12 ➖ Rowing Machine (Steady State) (high effort, push the pace)
+├─ 12 ➖ Half Turkish Get-Up (To Elbow) (high effort, push the pace)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖🏛➖🔴 (Primer | Ultra | Basics | Intense)
-├─ 11 ➖ Single-Foot In Each Box (Forward) (tight setup, crisp intent)
+├─ 11 ➖ Turkish Get-Up (To Seated) (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🏛➖🔴 (Bread & Butter | Ultra | Basics | Intense)
-├─ 11 ➖ Single-Foot In Each Box (Forward) (high effort, push the pace)
+├─ 11 ➖ Turkish Get-Up (Full) (high effort, push the pace)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 45s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🏛➖🔴 (Supplemental | Ultra | Basics | Intense)
-├─ 12 ➖ Kettlebell Goblet Squat (full range, different angle)
+├─ 12 ➖ Turkish Get-Up (To Kneeling) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 37s
 ═══
 ## 5) 🌋 Gutter
 Subcode: ⚖🏛➖🔴 (Gutter | Ultra | Basics | Intense)
-├─ 12 ➖ Rowing Intervals (500m) (all-out, leave nothing in reserve)
+├─ 12 ➖ Bottoms-Up Turkish Get-Up (all-out, leave nothing in reserve)
 │  Set 1: ⚖ 55% × 12 (push to form break)
 │  Set 2: ⚖ 55% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: ⚖🏛➖🔴 (Release | Ultra | Basics | Intense)
-├─ 12 ➖ Rowing Intervals (500m) (stress out, cathartic discharge)
+├─ 12 ➖ Bottoms-Up Turkish Get-Up (stress out, cathartic discharge)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

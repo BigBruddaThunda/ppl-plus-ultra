@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🪡 Cable Row (Rhomboid Focus - Elbows In) — Pull Bodyweight 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Bodyweight 🪡
 
 ## Full Body Basics — Pull focus (Bodyweight) · 40-55 min
 
 **CODE:** 🌾🏛🪡🟢
 
 > "Flow through the body using only what you carry. No equipment needed."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🌾🏛🪡🟢 (Warm-Up | Pull | Basics | Bodyweight)
@@ -25,14 +27,14 @@ Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🏛🪡🟢 (Composition | Pull | Basics | Bodyweight)
-├─ 9 🪡 Chest-Supported Row (Elbow Out) → Cable Row (Rhomboid Focus - Elbows In) (flow without reset)
+├─ 9 🪡 Chest-Supported Row (Elbow Out) → Barbell Overhead Press (Standing) (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🏛🪡🟢 (Bread & Butter | Pull | Basics | Bodyweight)
-├─ 9 🪡 Cable Row (Rhomboid Focus - Elbows In) (bodyweight, no external load needed)
+├─ 9 🪡 Barbell Overhead Press (Standing) (bodyweight, no external load needed)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)

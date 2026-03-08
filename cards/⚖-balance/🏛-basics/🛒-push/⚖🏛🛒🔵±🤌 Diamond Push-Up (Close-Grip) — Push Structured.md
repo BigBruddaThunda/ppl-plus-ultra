@@ -9,30 +9,32 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🛒 Diamond Push-Up (Close-Grip) — Push Structured 🛒
+# 🛒 Barbell Overhead Press (Standing) — Push Structured 🛒
 
 ## Balance Basics — Push focus (Structured) · 40-50 min
 
 **CODE:** ⚖🏛🛒🔵
 
 > "Prescribed accessory work. Target the specific imbalance."
+
+*Powerlifting: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: ⚖🏛🛒🔵 (Warm-Up | Push | Basics | Structured)
-├─ 12 🛒 Incline Barbell Bench Press (30°) (prescribed, track sets and reps)
+├─ 12 🛒 Barbell Overhead Press (Seated) (prescribed, track sets and reps)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🏗 Reformance
 Subcode: ⚖🏛🛒🔵 (Reformance | Push | Basics | Structured)
-├─ 11 🛒 Smith Machine Incline Press (corrective, address the weak link)
+├─ 11 🛒 Dumbbell Overhead Press (Standing) (corrective, address the weak link)
 │  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🏛🛒🔵 (Bread & Butter | Push | Basics | Structured)
-├─ 11 🛒 Diamond Push-Up (Close-Grip) (prescribed, track sets and reps)
+├─ 11 🛒 Barbell Overhead Press (Standing) (prescribed, track sets and reps)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🏛🛒🔵 (Supplemental | Push | Basics | Structured)
-├─ 12 🛒 Landmine Press (Two-Arm, Chest Focus) (full range, different angle)
+├─ 12 🛒 Barbell Overhead Press (Standing) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🏛🛒🔵 (Release | Push | Basics | Structured)
-├─ 12 🛒 Diamond Push-Up (smooth tempo, downshift)
+├─ 12 🛒 Barbell Overhead Press (Standing) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

@@ -9,29 +9,31 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# 🪡 Keg Carry — Pull Technical 🪡
+# 🪡 Kettlebell Swing (Single-Arm) — Pull Technical 🪡
 
 ## Foundation Functional — Pull focus (Technical) · 40-50 min
 
 **CODE:** 🐂🔨🪡🟣
 
 > "Quality of position matters more than speed of completion."
+
+*Sport Conditioning: Technical conditioning — rowing stroke, cycling cadence, running gait precision*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🐂🔨🪡🟣 (Warm-Up | Pull | Functional | Technical)
-├─ 12 🪡 Zercher Carry (precision, quality over volume)
+├─ 12 🪡 Kettlebell Swing (Alternating Arms) (precision, quality over volume)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🐂🔨🪡🟣 (Primer | Pull | Functional | Technical)
-├─ 11 🪡 Wide-Grip Pull-Up (Teres Focus) (tight setup, crisp intent)
+├─ 11 🪡 Single-Arm American Swing (tight setup, crisp intent)
 │  Set 1: 🐂 55% × 11 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🔨🪡🟣 (Bread & Butter | Pull | Functional | Technical)
-├─ 11 🪡 Keg Carry (precision, quality over volume)
+├─ 11 🪡 Kettlebell Swing (Single-Arm) (precision, quality over volume)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 112s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🔨🪡🟣 (Supplemental | Pull | Functional | Technical)
-├─ 13 🪡 Cable Row (High Elbow) (full range, different angle)
+├─ 13 🪡 Single-Leg Swing (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🪫 Release
 Subcode: 🐂🔨🪡🟣 (Release | Pull | Functional | Technical)
-├─ 12 🪡 Deadlift (Conventional) (smooth tempo, downshift)
+├─ 12 🪡 Suitcase Carry (Single-Arm) (smooth tempo, downshift)
 │  Set 1: 🐂 45% × 12 (deload)
 Rest: 90s
 ═══

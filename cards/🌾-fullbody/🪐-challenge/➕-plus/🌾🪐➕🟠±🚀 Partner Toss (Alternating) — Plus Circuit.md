@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# ➕ Partner Toss (Alternating) — Plus Circuit ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Circuit ➕
 
 ## Full Body Challenge — Plus focus (Circuit) · 40-55 min
 
 **CODE:** 🌾🪐➕🟠
 
 > "Rotate through full-body stations. Every station moves a different chain."
+
+*Sport Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🌾🪐➕🟠 (Warm-Up | Plus | Challenge | Circuit)
@@ -26,7 +28,7 @@ Rest: 30s
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🌾🪐➕🟠 (ARAM | Plus | Challenge | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➕ Partner Toss (Alternating) × 9 (station rotation, keep moving)
+│  Station 1: ➕ Single-Leg Hops Through Ladder × 9 (station rotation, keep moving)
 │  Station 2: ➕ Single-Leg Hops Through Ladder × 9 (station rotation, keep moving)
 │  Station 3: ➕ Shot Put Throw (Single-Arm) × 9 (station rotation, keep moving)
 │  Station 4: ➕ Archer Pull-Up × 9 (station rotation, keep moving)

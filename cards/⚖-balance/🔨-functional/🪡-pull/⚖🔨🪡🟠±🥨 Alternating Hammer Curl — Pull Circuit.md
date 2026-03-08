@@ -9,34 +9,36 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🪡 Alternating Hammer Curl — Pull Circuit 🪡
+# 🪡 Kettlebell Swing (Two-Hand) — Pull Circuit 🪡
 
 ## Balance Functional — Pull focus (Circuit) · 40-50 min
 
 **CODE:** ⚖🔨🪡🟠
 
 > "Rotate through corrective stations. Each one targets a different deficit."
+
+*General Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: ⚖🔨🪡🟠 (Warm-Up | Pull | Functional | Circuit)
-├─ 12 🪡 Single-Arm Face Pull (station rotation, keep moving)
+├─ 12 🪡 American Swing (Overhead) (station rotation, keep moving)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⚖🔨🪡🟠 (ARAM | Pull | Functional | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🪡 Alternating Hammer Curl × 11 (station rotation, keep moving)
-│  Station 2: 🪡 Single-Arm Face Pull × 11 (station rotation, keep moving)
-│  Station 3: 🪡 Aquaman (Alternating Superman) × 11 (station rotation, keep moving)
-│  Station 4: 🪡 Single-Leg Hip Thrust (Barbell) × 11 (station rotation, keep moving)
+│  Station 1: 🪡 Kettlebell Swing (Two-Hand) × 11 (station rotation, keep moving)
+│  Station 2: 🪡 American Swing (Overhead) × 11 (station rotation, keep moving)
+│  Station 3: 🪡 Heavy Swing (Power Focus) × 11 (station rotation, keep moving)
+│  Station 4: 🪡 Dead Stop Swing (Reset Between Reps) × 11 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⚖🔨🪡🟠 (Release | Pull | Functional | Circuit)
-├─ 12 🪡 Alternating Dumbbell Front Raise (smooth tempo, downshift)
+├─ 12 🪡 Double Kettlebell Swing (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➕ Neck Rotation with Band — Plus Fun ➕
+# ➕ Leg Swings (Forward/Backward) — Plus Fun ➕
 
 ## Restoration Basics — Plus focus (Fun) · 30-40 min
 
 **CODE:** 🖼🏛➕🟡
 
 > "Explore somatic movements you would not normally try."
+
+*New to Gym: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🏛➕🟡 (Bread & Butter | Plus | Basics | Fun)
-├─ 13 ➕ Neck Rotation with Band (explore, stay within constraints)
+├─ 13 ➕ Leg Swings (Forward/Backward) (explore, stay within constraints)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🖼🏛➕🟡 (Sandbox | Plus | Basics | Fun)
-├─ 13 ➕ Neck CARs (Controlled Circles) (explore within constraints, choose your variation)
+├─ 13 ➕ Walking High Knees (explore within constraints, choose your variation)
 │  Option A: 🖼 45% × 13 (play with grip, stance, or tempo)
 │  Option B: 🖼 45% × 13 (try a variation you have not used before)
 Rest: 60s

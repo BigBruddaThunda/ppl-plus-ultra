@@ -17,6 +17,8 @@ blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 **CODE:** ⛽🏛➕🔵
 
 > "Same weight, same reps, same rest. Build the base one session at a time."
+
+*General Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: ⛽🏛➕🔵 (Warm-Up | Plus | Basics | Structured)

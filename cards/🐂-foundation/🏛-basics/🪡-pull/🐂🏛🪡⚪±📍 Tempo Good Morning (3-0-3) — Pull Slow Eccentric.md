@@ -10,23 +10,25 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: ⚪ Slow Eccentric | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
-# 🪡 Tempo Good Morning (3-0-3) — Pull Mindful 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Mindful 🪡
 
 ## Foundation Basics — Pull focus (Mindful) · 40-50 min
 
 **CODE:** 🐂🏛🪡⚪
 
 > "Slow the pattern down until you can feel every joint in the chain."
+
+*Injury Prevention / Prehab: Deep parasympathetic work — breathe into each position, leave fresher than you entered*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🐂🏛🪡⚪ (Warm-Up | Pull | Basics | Mindful)
-├─ 12 🪡 Wide-Grip Pull-Up (Teres Focus) (4s eccentric, breath-paced)
+├─ 12 🪡 Single-Arm Overhead Dumbbell Hold (4s eccentric, breath-paced)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 120s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🐂🏛🪡⚪ (Bread & Butter | Pull | Basics | Mindful)
-├─ 11 🪡 Tempo Good Morning (3-0-3) (4s eccentric, breath-paced)
+├─ 11 🪡 Single-Arm Cable Rear Delt Fly (4s eccentric, breath-paced)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -34,20 +36,20 @@ Rest: 150s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🐂🏛🪡⚪ (Supplemental | Pull | Basics | Mindful)
-├─ 13 🪡 Cable Row (High Elbow) (full range, different angle)
+├─ 13 🪡 Aquaman (Alternating Superman) (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 120s
 ═══
 ## 4) 🪫 Release
 Subcode: 🐂🏛🪡⚪ (Release | Pull | Basics | Mindful)
-├─ 12 🪡 Deadlift (Conventional) (parasympathetic, tension down, 4s eccentric)
+├─ 12 🪡 Half-Kneeling Band Single-Arm Pulldown (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🐂 45% × 12 (deload)
 Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🏛🪡⚪ (Imprint | Pull | Basics | Mindful)
-├─ 15 🪡 Scapular Push-Up (high rep, low load, neural memory)
+├─ 15 🪡 One-Arm Dead Hang (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 120s
 ═══

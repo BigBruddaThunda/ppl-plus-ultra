@@ -16,6 +16,8 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 **CODE:** 🖼🌹🛒🟢
 
 > "Restore with what your body provides. Floor work, breath, gentle movement."
+
+*Pre/Post Natal: Bodyweight only — safe, accessible, no equipment barrier to entry*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,7 +25,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🌹🛒🟢 (Release | Push | Aesthetic | Bodyweight)
-├─ 12 🛒 Preacher Curl Machine (parasympathetic, tension down, 4s eccentric)
+├─ 12 🛒 Alternating Dumbbell Front Raise (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
@@ -36,7 +38,7 @@ Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🌹🛒🟢 (Imprint | Push | Aesthetic | Bodyweight)
-├─ 15 🛒 Alternating Dumbbell Front Raise (high rep, low load, neural memory)
+├─ 15 🛒 Single-Arm Dumbbell Lateral Raise (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══

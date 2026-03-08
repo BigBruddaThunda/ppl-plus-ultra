@@ -9,30 +9,32 @@ type: ➕ Plus | Full body power, core
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➕ Cable Row (Rhomboid Focus - Elbows In) — Plus Bodyweight ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Bodyweight ➕
 
 ## Balance Basics — Plus focus (Bodyweight) · 40-50 min
 
 **CODE:** ⚖🏛➕🟢
 
 > "Find asymmetries with bodyweight. No equipment hides the gap."
+
+*Marathon / Distance Running: Bodyweight conditioning — no gym, no excuses, cardio and movement flow*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: ⚖🏛➕🟢 (Warm-Up | Plus | Basics | Bodyweight)
-├─ 12 ➕ Wide-Grip Pull-Up (Teres Focus) (bodyweight, no external load needed)
+├─ 12 ➕ Kettlebell Swing (Two-Hand) (bodyweight, no external load needed)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🏗 Reformance
 Subcode: ⚖🏛➕🟢 (Reformance | Plus | Basics | Bodyweight)
-├─ 11 ➕ Chest-Supported Row (Elbow Out) (corrective, address the weak link)
+├─ 11 ➕ American Swing (Overhead) (corrective, address the weak link)
 │  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🏛➕🟢 (Bread & Butter | Plus | Basics | Bodyweight)
-├─ 11 ➕ Cable Row (Rhomboid Focus - Elbows In) (bodyweight, no external load needed)
+├─ 11 ➕ Single-Leg Hops Through Ladder (bodyweight, no external load needed)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🏛➕🟢 (Supplemental | Plus | Basics | Bodyweight)
-├─ 12 ➕ Cable Row (High Elbow) (full range, different angle)
+├─ 12 ➕ Heavy Swing (Power Focus) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🏛➕🟢 (Release | Plus | Basics | Bodyweight)
-├─ 12 ➕ Deadlift (Conventional) (smooth tempo, downshift)
+├─ 12 ➕ Dead Stop Swing (Reset Between Reps) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

@@ -9,30 +9,32 @@ type: ➕ Plus | Full body power, core
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➕ Single-Arm Kettlebell Swing — Plus Structured ➕
+# ➕ Hip Flexor Stretch (Half-Kneeling) — Plus Structured ➕
 
 ## Balance Functional — Plus focus (Structured) · 40-50 min
 
 **CODE:** ⚖🔨➕🔵
 
 > "Prescribed accessory work. Target the specific imbalance."
+
+*50+ Active Living: Structured progression — small increments, clear targets, consistent tracking*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: ⚖🔨➕🔵 (Warm-Up | Plus | Functional | Structured)
-├─ 12 ➕ Single-Leg Hops Through Ladder (prescribed, track sets and reps)
+├─ 12 ➕ Leg Swings (Forward/Backward) (prescribed, track sets and reps)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🏗 Reformance
 Subcode: ⚖🔨➕🔵 (Reformance | Plus | Functional | Structured)
-├─ 11 ➕ Single-Arm Row (Rhomboid Emphasis) (corrective, address the weak link)
+├─ 11 ➕ Leg Swings (Lateral/Side-to-Side) (corrective, address the weak link)
 │  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🔨➕🔵 (Bread & Butter | Plus | Functional | Structured)
-├─ 11 ➕ Single-Arm Kettlebell Swing (prescribed, track sets and reps)
+├─ 11 ➕ Hip Flexor Stretch (Half-Kneeling) (prescribed, track sets and reps)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🔨➕🔵 (Supplemental | Plus | Functional | Structured)
-├─ 12 ➕ Single-Leg Romanian Deadlift (full range, different angle)
+├─ 12 ➕ Walking Lunge with Twist (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🔨➕🔵 (Release | Plus | Functional | Structured)
-├─ 12 ➕ Half-Kneeling Cable Chop (smooth tempo, downshift)
+├─ 12 ➕ Spiderman Lunge (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

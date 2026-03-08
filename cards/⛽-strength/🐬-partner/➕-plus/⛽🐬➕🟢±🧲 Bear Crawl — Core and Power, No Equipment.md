@@ -16,6 +16,8 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 **CODE:** ⛽🐬➕🟢
 
 > "Prove the pattern holds without external load. Bodyweight is the test."
+
+*Tactical / First Responder: Bodyweight drills for the discipline — positional strength without load*
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: ⛽🐬➕🟢 (Warm-Up | Plus | Partner | Bodyweight)

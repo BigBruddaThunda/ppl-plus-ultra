@@ -9,30 +9,32 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🪡 Close-Grip Bench Press — Pull Fun 🪡
+# 🪡 Kettlebell Swing (Single-Arm) — Pull Fun 🪡
 
 ## Performance Functional — Pull focus (Fun) · 25-35 min
 
 **CODE:** 🏟🔨🪡🟡
 
 > "Test something unconventional. Find where your capacity surprises you."
+
+*Field Sport Athlete: Movement exploration — unconventional patterns, play with load and position*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🏟🔨🪡🟡 (Warm-Up | Pull | Functional | Fun)
-├─ 3 🪡 Single-Arm Row (Rhomboid Emphasis) (explore, stay within constraints)
+├─ 3 🪡 Kettlebell Swing (Alternating Arms) (explore, stay within constraints)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟🔨🪡🟡 (Bread & Butter | Pull | Functional | Fun)
-├─ 2 🪡 Close-Grip Bench Press (explore, stay within constraints)
+├─ 2 🪡 Kettlebell Swing (Single-Arm) (explore, stay within constraints)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🏟🔨🪡🟡 (Sandbox | Pull | Functional | Fun)
-├─ 2 🪡 Scapular Push-Up (explore within constraints, choose your variation)
+├─ 2 🪡 Alternating Kettlebell Snatch (explore within constraints, choose your variation)
 │  Option A: 🏟 82% × 2 (play with grip, stance, or tempo)
 │  Option B: 🏟 82% × 2 (try a variation you have not used before)
 Rest: N/A

@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➖ Sprint (30-60 meters) — Ultra Mindful ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Mindful ➖
 
 ## Restoration Partner — Ultra focus (Mindful) · 30-40 min
 
 **CODE:** 🖼🐬➖⚪
 
 > "Breathe into each position. Leave fresher than you entered."
+
+*Stress Management: Deep parasympathetic work — breathe into each position, leave fresher than you entered*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,20 +25,20 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🐬➖⚪ (Release | Ultra | Partner | Mindful)
-├─ 12 ➖ Sprint (30-60 meters) (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➖ Hill Sprint (Short) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🐬➖⚪ (Bread & Butter | Ultra | Partner | Mindful)
-├─ 13 ➖ Sprint (30-60 meters) (4s eccentric, breath-paced)
+├─ 13 ➖ Single-Leg Hops Through Ladder (4s eccentric, breath-paced)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 120s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🐬➖⚪ (Imprint | Ultra | Partner | Mindful)
-├─ 15 ➖ Sprint (30-60 meters) (high rep, low load, neural memory)
+├─ 15 ➖ Hill Sprint (Long) (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 120s
 ═══

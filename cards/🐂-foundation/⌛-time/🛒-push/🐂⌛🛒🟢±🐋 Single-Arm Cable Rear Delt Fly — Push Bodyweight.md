@@ -9,30 +9,32 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# 🛒 Single-Arm Cable Rear Delt Fly — Push Bodyweight 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Bodyweight 🛒
 
 ## Foundation Time — Push focus (Bodyweight) · 40-50 min
 
 **CODE:** 🐂⌛🛒🟢
 
 > "Learn the pattern with your own body first. External load comes later."
+
+*Fasting Cardio + Strength: Bodyweight conditioning — no gym, no excuses, cardio and movement flow*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🐂⌛🛒🟢 (Warm-Up | Push | Time | Bodyweight)
-├─ 12 🛒 Single-Arm Cable Chest Fly (bodyweight, no external load needed)
+├─ 12 🛒 Depth Push-Up (Drop to Floor) (bodyweight, no external load needed)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🔢 Fundamentals
 Subcode: 🐂⌛🛒🟢 (Fundamentals | Push | Time | Bodyweight)
-├─ 12 🛒 Low-to-High Cable Fly (slow, own each position)
+├─ 12 🛒 Banded Speed Bench Press (slow, own each position)
 │  Set 1: 🐂 45% × 12 (grounding)
 │  Set 2: 🐂 50% × 12 (pattern lock)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂⌛🛒🟢 (Bread & Butter | Push | Time | Bodyweight)
-├─ 11 🛒 Single-Arm Cable Rear Delt Fly (bodyweight, no external load needed)
+├─ 11 🛒 Plyometric Push-Up (Hands Leave Ground) (bodyweight, no external load needed)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 75s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂⌛🛒🟢 (Supplemental | Push | Time | Bodyweight)
-├─ 13 🛒 Band Pull-Apart (Chest Opener) (full range, different angle)
+├─ 13 🛒 Kettlebell Swing (Two-Hand) (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 60s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂⌛🛒🟢 (Imprint | Push | Time | Bodyweight)
-├─ 15 🛒 Preacher Curl Machine (high rep, low load, neural memory)
+├─ 15 🛒 Heavy Swing (Power Focus) (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 60s
 ═══

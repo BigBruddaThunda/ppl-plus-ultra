@@ -9,29 +9,31 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# ➖ Kettlebell Goblet Squat — Ultra Technical ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Technical ➖
 
 ## Full Body Basics — Ultra focus (Technical) · 40-55 min
 
 **CODE:** 🌾🏛➖🟣
 
 > "Precision in the transitions. The connection between movements is the skill."
+
+*Climbing / Grip Sport: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🌾🏛➖🟣 (Warm-Up | Ultra | Basics | Technical)
-├─ 10 ➖ Rowing Machine (Steady State) (precision, quality over volume)
+├─ 10 ➖ Partner Toss (Alternating) (precision, quality over volume)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🌾🏛➖🟣 (Primer | Ultra | Basics | Technical)
-├─ 9 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+├─ 9 ➖ Plant and Cut (Single-Leg Deceleration) (tight setup, crisp intent)
 │  Set 1: 🌾 60% × 9 (activation)
 Rest: 90s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🏛➖🟣 (Bread & Butter | Ultra | Basics | Technical)
-├─ 9 ➖ Kettlebell Goblet Squat (precision, quality over volume)
+├─ 9 ➖ Single-Leg Hops Through Ladder (precision, quality over volume)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🏛➖🟣 (Supplemental | Ultra | Basics | Technical)
-├─ 10 ➖ Single-Leg Hops Through Ladder (full range, different angle)
+├─ 10 ➖ Layup Approach (Single-Leg Power) (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 67s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🏛➖🟣 (Release | Ultra | Basics | Technical)
-├─ 10 ➖ Rowing Intervals (500m) (smooth tempo, downshift)
+├─ 10 ➖ Shot Put Throw (Single-Arm) (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 67s
 ═══

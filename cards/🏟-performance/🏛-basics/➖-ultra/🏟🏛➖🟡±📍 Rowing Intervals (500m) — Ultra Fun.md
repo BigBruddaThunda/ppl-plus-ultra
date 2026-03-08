@@ -9,23 +9,25 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➖ Rowing Intervals (500m) — Ultra Fun ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Fun ➖
 
 ## Performance Basics — Ultra focus (Fun) · 25-35 min
 
 **CODE:** 🏟🏛➖🟡
 
 > "Test something unconventional. Find where your capacity surprises you."
+
+*Youth Athletic Development: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🏟🏛➖🟡 (Warm-Up | Ultra | Basics | Fun)
-├─ 3 ➖ Rowing Machine (Steady State) (explore, stay within constraints)
+├─ 3 ➖ Partner Toss (Alternating) (explore, stay within constraints)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟🏛➖🟡 (Bread & Butter | Ultra | Basics | Fun)
-├─ 2 ➖ Rowing Intervals (500m) (explore, stay within constraints)
+├─ 2 ➖ Single-Leg Hops Through Ladder (explore, stay within constraints)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

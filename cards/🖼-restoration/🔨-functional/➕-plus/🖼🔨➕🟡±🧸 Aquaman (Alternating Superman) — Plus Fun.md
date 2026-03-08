@@ -16,6 +16,8 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 **CODE:** 🖼🔨➕🟡
 
 > "Explore somatic movements you would not normally try."
+
+*General Functional Fitness: Movement exploration — unconventional patterns, play with load and position*
 ═══
 ## 1) 🎯 Intention
 

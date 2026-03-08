@@ -9,30 +9,32 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) — Pull Intense 🪡
+# 🪡 Kettlebell Swing (Single-Arm) — Pull Intense 🪡
 
 ## Foundation Time — Pull focus (Intense) · 40-50 min
 
 **CODE:** 🐂⌛🪡🔴
 
 > "Sub-maximal load, high effort. Earn every rep with form."
+
+*Sprint / Power Conditioning: All-out intervals — max effort, full recovery, repeat until capacity drops*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🐂⌛🪡🔴 (Warm-Up | Pull | Time | Intense)
-├─ 12 🪡 Wide-Grip Lat Pulldown (Teres Focus) (high effort, push the pace)
+├─ 12 🪡 Kettlebell Swing (Alternating Arms) (high effort, push the pace)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🔢 Fundamentals
 Subcode: 🐂⌛🪡🔴 (Fundamentals | Pull | Time | Intense)
-├─ 12 🪡 Face Pull (Rope) (slow, own each position)
+├─ 12 🪡 Single-Arm American Swing (slow, own each position)
 │  Set 1: 🐂 45% × 12 (grounding)
 │  Set 2: 🐂 50% × 12 (pattern lock)
 Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂⌛🪡🔴 (Bread & Butter | Pull | Time | Intense)
-├─ 11 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) (high effort, push the pace)
+├─ 11 🪡 Kettlebell Swing (Single-Arm) (high effort, push the pace)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 37s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂⌛🪡🔴 (Supplemental | Pull | Time | Intense)
-├─ 13 🪡 Good Morning (Barbell) (full range, different angle)
+├─ 13 🪡 Single-Leg Swing (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 30s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂⌛🪡🔴 (Imprint | Pull | Time | Intense)
-├─ 15 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) (high rep, low load, neural memory)
+├─ 15 🪡 Alternating Kettlebell Snatch (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 30s
 ═══

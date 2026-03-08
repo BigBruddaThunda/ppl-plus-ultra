@@ -9,34 +9,36 @@ type: ➖ Ultra | Cardiovascular system and conditioning
 color: 🟠 Circuit | Tier 0-5 | GOLD: No | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🎱 🧩 🪫 🚂
 ---
-# ➖ Jump Rope Rotation — Ultra Circuit ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Circuit ➖
 
 ## Strength Time — Ultra focus (Circuit) · 50-65 min
 
 **CODE:** ⛽⌛➖🟠
 
 > "Rotate stations. Keep the tissues trading off under heavy demand."
+
+*General Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⛽⌛➖🟠 (Warm-Up | Ultra | Time | Circuit)
-├─ 6 ➖ Kettlebell Swing (Single-Arm) (station rotation, keep moving)
+├─ 6 ➖ Single-Foot In Each Box (Forward) (station rotation, keep moving)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 45s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⛽⌛➖🟠 (ARAM | Ultra | Time | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➖ Jump Rope Rotation × 5 (station rotation, keep moving)
-│  Station 2: ➖ Kettlebell Swing (Single-Arm) × 5 (station rotation, keep moving)
-│  Station 3: ➖ Kettlebell Goblet Squat × 5 (station rotation, keep moving)
-│  Station 4: ➖ Kettlebell Swing (Alternating Arms) × 5 (station rotation, keep moving)
+│  Station 1: ➖ Single-Leg Hops Through Ladder × 5 (station rotation, keep moving)
+│  Station 2: ➖ Single-Foot In Each Box (Forward) × 5 (station rotation, keep moving)
+│  Station 3: ➖ Two Feet In Each Box (Forward) × 5 (station rotation, keep moving)
+│  Station 4: ➖ Lateral Shuffle (In-In-Out-Out) × 5 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 60s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⛽⌛➖🟠 (Release | Ultra | Time | Circuit)
-├─ 6 ➖ Single-Arm American Swing (smooth tempo, downshift)
+├─ 6 ➖ Icky Shuffle (In-In-Out Pattern) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 60s
 ═══

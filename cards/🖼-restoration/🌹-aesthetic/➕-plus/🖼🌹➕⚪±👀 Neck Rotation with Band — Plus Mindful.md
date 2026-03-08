@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➕ Neck Rotation with Band — Plus Mindful ➕
+# ➕ Aquaman (Alternating Superman) — Plus Mindful ➕
 
 ## Restoration Aesthetic — Plus focus (Mindful) · 30-40 min
 
 **CODE:** 🖼🌹➕⚪
 
 > "Breathe into each position. Leave fresher than you entered."
+
+*Climbing / Grip Sport: Controlled functional movement — slow transitions, balance holds, proprioception*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,20 +25,20 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🌹➕⚪ (Release | Plus | Aesthetic | Mindful)
-├─ 12 ➕ Neck CARs (Controlled Circles) (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➕ Aquaman (Alternating Superman) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🌹➕⚪ (Bread & Butter | Plus | Aesthetic | Mindful)
-├─ 13 ➕ Neck Rotation with Band (4s eccentric, breath-paced)
+├─ 13 ➕ Aquaman (Alternating Superman) (4s eccentric, breath-paced)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 120s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🌹➕⚪ (Imprint | Plus | Aesthetic | Mindful)
-├─ 15 ➕ Neck Rotation with Band (high rep, low load, neural memory)
+├─ 15 ➕ Aquaman (Alternating Superman) (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 120s
 ═══

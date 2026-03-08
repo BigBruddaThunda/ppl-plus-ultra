@@ -9,23 +9,25 @@ type: ➖ Ultra | Cardiovascular system
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# ➖ Half Turkish Get-Up (To Elbow) — Ultra Mindful ➖
+# ➖ Sprint (10-30 meters) — Ultra Mindful ➖
 
 ## Foundation Functional — Ultra focus (Mindful) · 40-50 min
 
 **CODE:** 🐂🔨➖⚪
 
 > "Slow the pattern down until you can feel every joint in the chain."
+
+*Active Recovery: Deep parasympathetic work — breathe into each position, leave fresher than you entered*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🐂🔨➖⚪ (Warm-Up | Ultra | Functional | Mindful)
-├─ 12 ➖ Kettlebell Goblet Squat (4s eccentric, breath-paced)
+├─ 12 ➖ Sprint (30-60 meters) (4s eccentric, breath-paced)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 120s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🐂🔨➖⚪ (Bread & Butter | Ultra | Functional | Mindful)
-├─ 11 ➖ Half Turkish Get-Up (To Elbow) (4s eccentric, breath-paced)
+├─ 11 ➖ Sprint (10-30 meters) (4s eccentric, breath-paced)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 150s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🐂🔨➖⚪ (Supplemental | Ultra | Functional | Mindful)
-├─ 13 ➖ Half Turkish Get-Up (To Elbow) (full range, different angle)
+├─ 13 ➖ Hill Sprint (Short) (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 120s
 ═══
 ## 4) 🪫 Release
 Subcode: 🐂🔨➖⚪ (Release | Ultra | Functional | Mindful)
-├─ 12 ➖ Turkish Get-Up (To Seated) (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➖ Hill Sprint (Long) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🐂 45% × 12 (deload)
 Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🔨➖⚪ (Imprint | Ultra | Functional | Mindful)
-├─ 15 ➖ Half Turkish Get-Up (To Elbow) (high rep, low load, neural memory)
+├─ 15 ➖ Tempo Run (Moderate Pace) (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 120s
 ═══

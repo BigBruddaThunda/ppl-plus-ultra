@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🍗 Single-Leg Pogo Hops — Legs Structured 🍗
+# 🍗 Single-Leg Jump Rope — Legs Structured 🍗
 
 ## Balance Time — Legs focus (Structured) · 40-50 min
 
 **CODE:** ⚖⌛🍗🔵
 
 > "Prescribed accessory work. Target the specific imbalance."
+
+*Marathon / Distance Running: Prescribed intervals — zone targets, heart rate windows, timed rest*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⚖⌛🍗🔵 (Warm-Up | Legs | Time | Structured)
-├─ 12 🍗 Standing Quad Stretch (prescribed, track sets and reps)
+├─ 12 🍗 Box Jump (Calf Power) (prescribed, track sets and reps)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🏗 Reformance
 Subcode: ⚖⌛🍗🔵 (Reformance | Legs | Time | Structured)
-├─ 11 🍗 Pogo Hops (Ankle Bounce) (corrective, address the weak link)
+├─ 11 🍗 Depth Drop (Reactive Calf) (corrective, address the weak link)
 │  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖⌛🍗🔵 (Bread & Butter | Legs | Time | Structured)
-├─ 11 🍗 Single-Leg Pogo Hops (prescribed, track sets and reps)
+├─ 11 🍗 Single-Leg Jump Rope (prescribed, track sets and reps)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖⌛🍗🔵 (Supplemental | Legs | Time | Structured)
-├─ 12 🍗 Step-Down (Eccentric) (full range, different angle)
+├─ 12 🍗 Jump Rope (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖⌛🍗🔵 (Release | Legs | Time | Structured)
-├─ 12 🍗 Leg Extension Machine (smooth tempo, downshift)
+├─ 12 🍗 Double-Unders (Jump Rope) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

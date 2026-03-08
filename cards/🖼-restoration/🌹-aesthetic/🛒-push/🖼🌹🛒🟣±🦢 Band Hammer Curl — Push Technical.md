@@ -9,13 +9,15 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🛒 Band Hammer Curl — Push Technical 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Technical 🛒
 
 ## Restoration Aesthetic — Push focus (Technical) · 30-40 min
 
 **CODE:** 🖼🌹🛒🟣
 
 > "Precise positioning in each restorative hold. Depth over speed."
+
+*CrossFit-Style: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🌹🛒🟣 (Bread & Butter | Push | Aesthetic | Technical)
-├─ 13 🛒 Band Hammer Curl (precision, quality over volume)
+├─ 13 🛒 Plyometric Push-Up (Hands Leave Ground) (precision, quality over volume)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 90s
 ═══
 ## 3) 🧬 Imprint
 Subcode: 🖼🌹🛒🟣 (Imprint | Push | Aesthetic | Technical)
-├─ 15 🛒 Dumbbell Front Raise (high rep, low load, neural memory)
+├─ 15 🛒 Single-Arm American Swing (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 90s
 ═══

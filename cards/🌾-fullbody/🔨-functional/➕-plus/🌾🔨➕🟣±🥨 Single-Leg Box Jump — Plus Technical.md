@@ -16,16 +16,18 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 **CODE:** 🌾🔨➕🟣
 
 > "Precision in the transitions. The connection between movements is the skill."
+
+*Kettlebell Strength: Single-rep quality at competition-relevant loads — bar path, timing, setup*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🌾🔨➕🟣 (Warm-Up | Plus | Functional | Technical)
-├─ 10 ➕ Single-Arm Medicine Ball Throw (precision, quality over volume)
+├─ 10 ➕ Split Jump (Alternating) (precision, quality over volume)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🌾🔨➕🟣 (Primer | Plus | Functional | Technical)
-├─ 9 ➕ Sandbag Shouldering (Alternating) (tight setup, crisp intent)
+├─ 9 ➕ Single-Leg Broad Jump (tight setup, crisp intent)
 │  Set 1: 🌾 60% × 9 (activation)
 Rest: 90s
 ═══
@@ -39,14 +41,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🔨➕🟣 (Supplemental | Plus | Functional | Technical)
-├─ 10 ➕ Single-Leg Hops Through Ladder (full range, different angle)
+├─ 10 ➕ Alternating Leg Bound (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 67s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🔨➕🟣 (Release | Plus | Functional | Technical)
-├─ 10 ➕ Sandbag Good Morning (smooth tempo, downshift)
+├─ 10 ➕ Single-Leg Bound (Continuous) (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 67s
 ═══

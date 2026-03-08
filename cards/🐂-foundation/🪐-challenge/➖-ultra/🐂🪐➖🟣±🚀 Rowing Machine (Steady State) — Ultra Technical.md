@@ -9,29 +9,31 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# ➖ Rowing Machine (Steady State) — Ultra Technical ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Technical ➖
 
 ## Foundation Challenge — Ultra focus (Technical) · 40-50 min
 
 **CODE:** 🐂🪐➖🟣
 
 > "Quality of position matters more than speed of completion."
+
+*CrossFit-Style: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🐂🪐➖🟣 (Warm-Up | Ultra | Challenge | Technical)
-├─ 12 ➖ Rowing Machine (Steady State) (precision, quality over volume)
+├─ 12 ➖ Single-Foot In Each Box (Forward) (precision, quality over volume)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🐂🪐➖🟣 (Primer | Ultra | Challenge | Technical)
-├─ 11 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+├─ 11 ➖ Two Feet In Each Box (Forward) (tight setup, crisp intent)
 │  Set 1: 🐂 55% × 11 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🪐➖🟣 (Bread & Butter | Ultra | Challenge | Technical)
-├─ 11 ➖ Rowing Machine (Steady State) (precision, quality over volume)
+├─ 11 ➖ Single-Leg Hops Through Ladder (precision, quality over volume)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 112s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🪐➖🟣 (Supplemental | Ultra | Challenge | Technical)
-├─ 13 ➖ Rowing Intervals (500m) (full range, different angle)
+├─ 13 ➖ Lateral Shuffle (In-In-Out-Out) (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🪫 Release
 Subcode: 🐂🪐➖🟣 (Release | Ultra | Challenge | Technical)
-├─ 12 ➖ Rowing Intervals (1000m) (smooth tempo, downshift)
+├─ 12 ➖ Icky Shuffle (In-In-Out Pattern) (smooth tempo, downshift)
 │  Set 1: 🐂 45% × 12 (deload)
 Rest: 90s
 ═══

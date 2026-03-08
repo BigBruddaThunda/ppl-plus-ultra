@@ -9,29 +9,31 @@ type: ➕ Plus
 color: 🟣 Technical
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# ➕ Clean Pull (From Floor) — Plus Technical ➕
+# ➕ Zercher Carry — Plus Technical ➕
 
 ## Strength Challenge — Plus focus (Technical) · 50-65 min
 
 **CODE:** ⛽🪐➕🟣
 
 > "One clean rep at the right load is worth more than five at the wrong one."
+
+*Strongman / Odd Object: Single-rep quality at competition-relevant loads — bar path, timing, setup*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⛽🪐➕🟣 (Warm-Up | Plus | Challenge | Technical)
-├─ 6 ➕ Push Jerk (precision, quality over volume)
+├─ 6 ➕ Keg Carry (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 135s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🪐➕🟣 (Primer | Plus | Challenge | Technical)
-├─ 5 ➕ Clean Deadlift (Olympic Stance) (tight setup, crisp intent)
+├─ 5 ➕ Single-Arm Medicine Ball Throw (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🪐➕🟣 (Bread & Butter | Plus | Challenge | Technical)
-├─ 5 ➕ Clean Pull (From Floor) (precision, quality over volume)
+├─ 5 ➕ Zercher Carry (precision, quality over volume)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -46,7 +48,7 @@ Rest: 180s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🪐➕🟣 (Release | Plus | Challenge | Technical)
-├─ 6 ➕ Full Clean (Squat Clean) (smooth tempo, downshift)
+├─ 6 ➕ Overhead Medicine Ball Throw (Slam) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 180s
 ═══

@@ -9,34 +9,36 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🪡 Single-Leg Hip Thrust (Bodyweight) — Pull Circuit 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Circuit 🪡
 
 ## Full Body Aesthetic — Pull focus (Circuit) · 40-55 min
 
 **CODE:** 🌾🌹🪡🟠
 
 > "Rotate through full-body stations. Every station moves a different chain."
+
+*Injury Prevention / Prehab: Restoration circuit — each station addresses a different tissue or system*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🌾🌹🪡🟠 (Warm-Up | Pull | Aesthetic | Circuit)
-├─ 10 🪡 Single-Arm Face Pull (station rotation, keep moving)
+├─ 10 🪡 Single-Arm Overhead Dumbbell Hold (station rotation, keep moving)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🌾🌹🪡🟠 (ARAM | Pull | Aesthetic | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🪡 Single-Leg Hip Thrust (Bodyweight) × 9 (station rotation, keep moving)
-│  Station 2: 🪡 Single-Arm Face Pull × 9 (station rotation, keep moving)
-│  Station 3: 🪡 Aquaman (Alternating Superman) × 9 (station rotation, keep moving)
-│  Station 4: 🪡 Single-Leg Hip Thrust (Barbell) × 9 (station rotation, keep moving)
+│  Station 1: 🪡 Single-Arm Cable Rear Delt Fly × 9 (station rotation, keep moving)
+│  Station 2: 🪡 Single-Arm Overhead Dumbbell Hold × 9 (station rotation, keep moving)
+│  Station 3: 🪡 Single-Arm Face Pull × 9 (station rotation, keep moving)
+│  Station 4: 🪡 Aquaman (Alternating Superman) × 9 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 30s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🌾🌹🪡🟠 (Release | Pull | Aesthetic | Circuit)
-├─ 10 🪡 Alternating Dumbbell Front Raise (smooth tempo, downshift)
+├─ 10 🪡 Half-Kneeling Band Single-Arm Pulldown (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 30s
 ═══

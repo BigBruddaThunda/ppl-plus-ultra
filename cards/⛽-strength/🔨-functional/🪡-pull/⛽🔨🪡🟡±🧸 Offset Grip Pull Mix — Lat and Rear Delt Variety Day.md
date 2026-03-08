@@ -9,23 +9,25 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟡 Fun | Tier 0–5 | GOLD: No | Exploration and variety. Structured play within functional pull constraints.
 blocks: ♨️ → ▶️ → 🧈 → 🏖 → 🚂
 ---
-# 🪡 Offset Grip Pull Mix — Pull Fun 🪡
+# 🪡 Single-Arm Face Pull — Pull Fun 🪡
 
 ## Strength Functional — Pull focus (Fun) · 50-65 min
 
 **CODE:** ⛽🔨🪡🟡
 
 > "Find a movement you have not tried at this load and own it."
+
+*General Functional Fitness: Movement exploration — unconventional patterns, play with load and position*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero (carry, transfer, channel)
 Subcode: ⛽🔨🪡🟡 (Warm-Up | Pull | Functional | Fun)
-├─ 6 🪡 Single-Arm Face Pull (explore, stay within constraints)
+├─ 6 🪡 Aquaman (Alternating Superman) (explore, stay within constraints)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⛽🔨🪡🟡 (Bread & Butter | Pull | Functional | Fun)
-├─ 5 🪡 Offset Grip Pull Mix (explore, stay within constraints)
+├─ 5 🪡 Single-Arm Face Pull (explore, stay within constraints)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 180s
 ═══
 ## 3) 🌎 Exposure
 Subcode: ⛽🔨🪡🟡 (Exposure | Pull | Functional | Fun)
-├─ 5 🪡 Wide-Grip Pull-Up (Teres Focus) (try the unfamiliar version, explore the range)
+├─ 5 🪡 Single-Arm Lat Pulldown (try the unfamiliar version, explore the range)
 │  Set 1: ⛽ 65% × 5 (discovery set)
 Rest: 120s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⛽🔨🪡🟡 (Sandbox | Pull | Functional | Fun)
-├─ 5 🪡 Alternating Dumbbell Front Raise (explore within constraints, choose your variation)
+├─ 5 🪡 Single-Arm Dumbbell Row (explore within constraints, choose your variation)
 │  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
 │  Option B: ⛽ 70% × 5 (try a variation you have not used before)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🔨🪡🟡 (Release | Pull | Functional | Fun)
-├─ 6 🪡 Wide-Grip Pull-Up (Teres Focus) (smooth tempo, downshift)
+├─ 6 🪡 Single-Arm Lat Pulldown (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

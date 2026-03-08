@@ -9,23 +9,25 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# ➖ Bottoms-Up Turkish Get-Up — Ultra Fun ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Fun ➖
 
 ## Hypertrophy Time — Ultra focus (Fun) · 55-70 min
 
 **CODE:** 🦋⌛➖🟡
 
 > "Try exercises you would not normally pick. Variety stimulates growth."
+
+*Stress Management: Somatic exploration — movements you would not normally try, body awareness*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🦋⌛➖🟡 (Warm-Up | Ultra | Time | Fun)
-├─ 12 ➖ Turkish Get-Up (Full) (explore, stay within constraints)
+├─ 12 ➖ Sprint (10-30 meters) (explore, stay within constraints)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🦋⌛➖🟡 (Bread & Butter | Ultra | Time | Fun)
-├─ 10 ➖ Bottoms-Up Turkish Get-Up (explore, stay within constraints)
+├─ 10 ➖ Single-Leg Hops Through Ladder (explore, stay within constraints)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 90s
 ═══
 ## 3) 🌎 Exposure
 Subcode: 🦋⌛➖🟡 (Exposure | Ultra | Time | Fun)
-├─ 10 ➖ Turkish Get-Up (To Seated) (try the unfamiliar version, explore the range)
+├─ 10 ➖ Hill Sprint (Short) (try the unfamiliar version, explore the range)
 │  Set 1: 🦋 55% × 10 (discovery set)
 Rest: 60s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: 🦋⌛➖🟡 (Sandbox | Ultra | Time | Fun)
-├─ 10 ➖ Turkish Get-Up (To Kneeling) (explore within constraints, choose your variation)
+├─ 10 ➖ Hill Sprint (Long) (explore within constraints, choose your variation)
 │  Option A: 🦋 60% × 10 (play with grip, stance, or tempo)
 │  Option B: 🦋 60% × 10 (try a variation you have not used before)
 Rest: 60s
 ═══
 ## 5) 🪫 Release
 Subcode: 🦋⌛➖🟡 (Release | Ultra | Time | Fun)
-├─ 12 ➖ Turkish Get-Up (To Seated) (smooth tempo, downshift)
+├─ 12 ➖ Hill Sprint (Short) (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══

@@ -16,16 +16,18 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 **CODE:** 🌾🏛➖🟢
 
 > "Flow through the body using only what you carry. No equipment needed."
+
+*Minimalist Hypertrophy: Bodyweight hypertrophy — high reps, slow tempo, squeeze and hold patterns*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🌾🏛➖🟢 (Warm-Up | Ultra | Basics | Bodyweight)
-├─ 10 ➖ Single-Leg Hops Through Ladder (bodyweight, no external load needed)
+├─ 10 ➖ Rowing Intervals (500m) (bodyweight, no external load needed)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🏛➖🟢 (Composition | Ultra | Basics | Bodyweight)
-├─ 9 ➖ Kettlebell Goblet Squat → Rowing Machine (Steady State) (flow without reset)
+├─ 9 ➖ Rowing Intervals (1000m) → Rowing Machine (Steady State) (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
@@ -40,14 +42,14 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🏛➖🟢 (Supplemental | Ultra | Basics | Bodyweight)
-├─ 10 ➖ Rowing Machine (Steady State) (full range, different angle)
+├─ 10 ➖ Rowing Intervals (2000m) (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🏛➖🟢 (Release | Ultra | Basics | Bodyweight)
-├─ 10 ➖ Single-Foot In Each Box (Forward) (smooth tempo, downshift)
+├─ 10 ➖ Rowing Sprints (100m Max Effort) (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══

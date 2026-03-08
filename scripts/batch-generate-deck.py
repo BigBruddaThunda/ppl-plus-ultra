@@ -982,7 +982,12 @@ def _structured_blocks(ctx: dict[str, Any], p: dict[str, Any], order_e: str) -> 
 
 
 def fallback_template(context: dict[str, Any]) -> str:
-    """Generate Order×Color aware workout card template with Color-first dispatch."""
+    """Generate Order×Color aware workout card template with Color-first dispatch.
+
+    When abacus context is present (context["abacus_color_posture"]), adds a
+    posture line after the intention to contextualize the workout within its
+    archetype.
+    """
     zip_code = context["zip"]
     t = context.get("type_emoji", TYPE_EMOJI.get(context["type_name"], "🛒"))
     order_e = context["order_emoji"]
@@ -994,6 +999,13 @@ def fallback_template(context: dict[str, Any]) -> str:
     key = (order_e, color_e)
     intention = INTENTIONS.get(key, INTENTIONS.get((order_e, "🔵"), "Work with purpose."))
 
+    # Abacus posture line (if available)
+    posture_line = ""
+    abacus_name = context.get("abacus_name", "")
+    abacus_posture = context.get("abacus_color_posture", "")
+    if abacus_name and abacus_posture:
+        posture_line = f"\n*{abacus_name}: {abacus_posture}*\n"
+
     header = f"""# {t} {title} {t}
 
 ## {context['order_name']} {context['axis_name']} — {context['type_name']} focus ({context['color_name']}) · {time_est}
@@ -1001,7 +1013,7 @@ def fallback_template(context: dict[str, Any]) -> str:
 **CODE:** {zip_code}
 
 > \"{intention}\"
-"""
+{posture_line}"""
 
     # --- Color-first block dispatch ---
     if color_e == "🟠":

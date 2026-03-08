@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🍗 Deep Squat Hold (Ankle Mobility) — Legs Bodyweight 🍗
+# 🍗 Single-Leg Jump Rope — Legs Bodyweight 🍗
 
 ## Performance Partner — Legs focus (Bodyweight) · 25-35 min
 
 **CODE:** 🏟🐬🍗🟢
 
 > "Test bodyweight capacity. How many, how fast, how clean."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: 🏟🐬🍗🟢 (Warm-Up | Legs | Partner | Bodyweight)
-├─ 3 🍗 Cossack Squat (bodyweight, no external load needed)
+├─ 3 🍗 Box Jump (Calf Power) (bodyweight, no external load needed)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🐬🍗🟢 (Progression | Legs | Partner | Bodyweight)
-├─ 2 🍗 Deep Squat Hold (Ankle Mobility) (ramp to test weight)
+├─ 2 🍗 Single-Leg Jump Rope (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🐬🍗🟢 (Bread & Butter | Legs | Partner | Bodyweight)
-├─ 2 🍗 Deep Squat Hold (Ankle Mobility) (bodyweight, no external load needed)
+├─ 2 🍗 Single-Leg Jump Rope (bodyweight, no external load needed)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

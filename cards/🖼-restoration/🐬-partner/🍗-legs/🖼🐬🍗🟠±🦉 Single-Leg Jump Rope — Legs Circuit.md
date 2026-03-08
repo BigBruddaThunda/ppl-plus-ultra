@@ -16,6 +16,8 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 **CODE:** 🖼🐬🍗🟠
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
+
+*Tactical / First Responder: Skill circuit — rotate through craft-specific stations*
 ═══
 ## 1) 🎯 Intention
 
@@ -25,16 +27,16 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 Subcode: 🖼🐬🍗🟠 (ARAM | Legs | Partner | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
 │  Station 1: 🍗 Single-Leg Jump Rope × 13 (station rotation, keep moving)
-│  Station 2: 🍗 Half-Kneeling Hip Flexor Stretch × 13 (station rotation, keep moving)
-│  Station 3: 🍗 Single-Leg Extension × 13 (station rotation, keep moving)
-│  Station 4: 🍗 Single-Leg Good Morning × 13 (station rotation, keep moving)
+│  Station 2: 🍗 Kettlebell Swing (Single-Arm) × 13 (station rotation, keep moving)
+│  Station 3: 🍗 Kettlebell Swing (Alternating Arms) × 13 (station rotation, keep moving)
+│  Station 4: 🍗 Single-Arm American Swing × 13 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 30s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🖼🐬🍗🟠 (Release | Legs | Partner | Circuit)
-├─ 12 🍗 Single-Leg Curl (Lying) (parasympathetic, tension down, 4s eccentric)
+├─ 12 🍗 Single-Leg Swing (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 30s
 ═══

@@ -9,29 +9,31 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🔵 Structured
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🍗 Dumbbell Romanian Deadlift — Legs Structured 🍗
+# 🍗 Single-Leg Jump Rope — Legs Structured 🍗
 
 ## Strength Aesthetic — Legs focus (Structured) · 50-65 min
 
 **CODE:** ⛽🌹🍗🔵
 
 > "Same weight, same reps, same rest. Build the base one session at a time."
+
+*Athletic Hypertrophy: Volume tracking — prescribed sets and reps, progressive overload through logging*
 ═══
 ## 1) ♨️ Warm-Up — 🪢 plico
 Subcode: ⛽🌹🍗🔵 (Warm-Up | Legs | Aesthetic | Structured)
-├─ 6 🍗 Pogo Hops (Ankle Bounce) (prescribed, track sets and reps)
+├─ 6 🍗 Single-Leg Hip Thrust (Barbell) (prescribed, track sets and reps)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🌹🍗🔵 (Primer | Legs | Aesthetic | Structured)
-├─ 5 🍗 Standing Quad Stretch (tight setup, crisp intent)
+├─ 5 🍗 Single-Leg Hip Thrust (Bodyweight) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🌹🍗🔵 (Bread & Butter | Legs | Aesthetic | Structured)
-├─ 5 🍗 Dumbbell Romanian Deadlift (prescribed, track sets and reps)
+├─ 5 🍗 Single-Leg Jump Rope (prescribed, track sets and reps)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🌹🍗🔵 (Supplemental | Legs | Aesthetic | Structured)
-├─ 6 🍗 Step-Down (Eccentric) (full range, different angle)
+├─ 6 🍗 Single-Leg Glute Bridge (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🌹🍗🔵 (Release | Legs | Aesthetic | Structured)
-├─ 6 🍗 Leg Extension Machine (smooth tempo, downshift)
+├─ 6 🍗 Single-Leg Balance Hold (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

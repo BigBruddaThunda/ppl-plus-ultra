@@ -9,27 +9,29 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🛒 Single-Arm Dumbbell Lateral Raise — Push Circuit 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Circuit 🛒
 
 ## Hypertrophy Aesthetic — Push focus (Circuit) · 55-70 min
 
 **CODE:** 🦋🌹🛒🟠
 
 > "Circuit the muscle group from every angle. Each station is a new stimulus."
+
+*Injury Prevention / Prehab: Restoration circuit — each station addresses a different tissue or system*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🦋🌹🛒🟠 (Warm-Up | Push | Aesthetic | Circuit)
-├─ 12 🛒 Single-Arm Cable Chest Fly (station rotation, keep moving)
+├─ 12 🛒 Single-Arm Overhead Dumbbell Hold (station rotation, keep moving)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🦋🌹🛒🟠 (ARAM | Push | Aesthetic | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🛒 Single-Arm Dumbbell Lateral Raise × 10 (station rotation, keep moving)
-│  Station 2: 🛒 Single-Arm Cable Chest Fly × 10 (station rotation, keep moving)
-│  Station 3: 🛒 Low-to-High Cable Fly × 10 (station rotation, keep moving)
-│  Station 4: 🛒 Band Pull-Apart (Chest Opener) × 10 (station rotation, keep moving)
+│  Station 1: 🛒 Single-Arm Cable Rear Delt Fly × 10 (station rotation, keep moving)
+│  Station 2: 🛒 Single-Arm Overhead Dumbbell Hold × 10 (station rotation, keep moving)
+│  Station 3: 🛒 Single-Arm Cable Chest Fly × 10 (station rotation, keep moving)
+│  Station 4: 🛒 One-Arm Dead Hang × 10 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round

@@ -10,23 +10,25 @@ type: ➕ Plus | Full-body power and core control
 color: 🟡 Variety Day | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
-# ➕ Medicine Ball Slam — Plus Fun ➕
+# ➕ Leg Swings (Forward/Backward) — Plus Fun ➕
 
 ## Foundation Basics — Plus focus (Fun) · 40-50 min
 
 **CODE:** 🐂🏛➕🟡
 
 > "Explore the movement. Find what feels unfamiliar and stay there."
+
+*New to Gym: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🐂🏛➕🟡 (Warm-Up | Plus | Basics | Fun)
-├─ 12 ➕ Side Plank with Hip Dip (explore, stay within constraints)
+├─ 12 ➕ Leg Swings (Lateral/Side-to-Side) (explore, stay within constraints)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🐂🏛➕🟡 (Bread & Butter | Plus | Basics | Fun)
-├─ 11 ➕ Medicine Ball Slam (explore, stay within constraints)
+├─ 11 ➕ Leg Swings (Forward/Backward) (explore, stay within constraints)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -34,20 +36,20 @@ Rest: 75s
 ═══
 ## 3) 🌎 Exposure
 Subcode: 🐂🏛➕🟡 (Exposure | Plus | Basics | Fun)
-├─ 11 ➕ Cable Row (High Elbow) (try the unfamiliar version, explore the range)
+├─ 11 ➕ Hip Flexor Stretch (Half-Kneeling) (try the unfamiliar version, explore the range)
 │  Set 1: 🐂 50% × 11 (discovery set)
 Rest: 60s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: 🐂🏛➕🟡 (Sandbox | Plus | Basics | Fun)
-├─ 11 ➕ Deadlift (Conventional) (explore within constraints, choose your variation)
+├─ 11 ➕ Walking High Knees (explore within constraints, choose your variation)
 │  Option A: 🐂 55% × 11 (play with grip, stance, or tempo)
 │  Option B: 🐂 55% × 11 (try a variation you have not used before)
 Rest: 60s
 ═══
 ## 5) 🪫 Release
 Subcode: 🐂🏛➕🟡 (Release | Plus | Basics | Fun)
-├─ 12 ➕ Cable Row (High Elbow) (smooth tempo, downshift)
+├─ 12 ➕ Hip Flexor Stretch (Half-Kneeling) (smooth tempo, downshift)
 │  Set 1: 🐂 45% × 12 (deload)
 Rest: 60s
 ═══

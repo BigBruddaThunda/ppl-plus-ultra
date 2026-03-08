@@ -9,23 +9,25 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🪡 Face Pull (Rope) — Pull Fun 🪡
+# 🪡 Archer Pull-Up — Pull Fun 🪡
 
 ## Hypertrophy Functional — Pull focus (Fun) · 55-70 min
 
 **CODE:** 🦋🔨🪡🟡
 
 > "Try exercises you would not normally pick. Variety stimulates growth."
+
+*CrossFit-Style: Movement exploration — unconventional patterns, play with load and position*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🦋🔨🪡🟡 (Warm-Up | Pull | Functional | Fun)
-├─ 12 🪡 Single-Arm Face Pull (explore, stay within constraints)
+├─ 12 🪡 Single-Arm Lat Pulldown (explore, stay within constraints)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🦋🔨🪡🟡 (Bread & Butter | Pull | Functional | Fun)
-├─ 10 🪡 Face Pull (Rope) (explore, stay within constraints)
+├─ 10 🪡 Archer Pull-Up (explore, stay within constraints)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 90s
 ═══
 ## 3) 🌎 Exposure
 Subcode: 🦋🔨🪡🟡 (Exposure | Pull | Functional | Fun)
-├─ 10 🪡 Alternating Dumbbell Front Raise (try the unfamiliar version, explore the range)
+├─ 10 🪡 Single-Arm Cable Row (try the unfamiliar version, explore the range)
 │  Set 1: 🦋 55% × 10 (discovery set)
 Rest: 60s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: 🦋🔨🪡🟡 (Sandbox | Pull | Functional | Fun)
-├─ 10 🪡 Alternating Dumbbell Curl (explore within constraints, choose your variation)
+├─ 10 🪡 Archer Pull-Up (explore within constraints, choose your variation)
 │  Option A: 🦋 60% × 10 (play with grip, stance, or tempo)
 │  Option B: 🦋 60% × 10 (try a variation you have not used before)
 Rest: 60s
 ═══
 ## 5) 🪫 Release
 Subcode: 🦋🔨🪡🟡 (Release | Pull | Functional | Fun)
-├─ 12 🪡 Alternating Dumbbell Front Raise (smooth tempo, downshift)
+├─ 12 🪡 Single-Arm Cable Row (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══

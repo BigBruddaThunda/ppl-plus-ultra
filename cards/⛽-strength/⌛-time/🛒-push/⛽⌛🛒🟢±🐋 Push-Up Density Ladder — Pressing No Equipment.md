@@ -9,29 +9,31 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟢 Bodyweight | Tier 0-5 | GOLD: No | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🛒 Push-Up Density Ladder — Push Bodyweight 🛒
+# 🛒 Alternating Dumbbell Front Raise — Push Bodyweight 🛒
 
 ## Strength Time — Push focus (Bodyweight) · 50-65 min
 
 **CODE:** ⛽⌛🛒🟢
 
 > "Prove the pattern holds without external load. Bodyweight is the test."
+
+*Climbing / Grip Sport: Bodyweight functional — park, field, living room — prove the pattern works anywhere*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: ⛽⌛🛒🟢 (Warm-Up | Push | Time | Bodyweight)
-├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (bodyweight, no external load needed)
+├─ 6 🛒 Single-Arm Dumbbell Lateral Raise (bodyweight, no external load needed)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽⌛🛒🟢 (Primer | Push | Time | Bodyweight)
-├─ 5 🛒 Incline Barbell Bench Press (30°) (tight setup, crisp intent)
+├─ 5 🛒 Single-Arm Cable Rear Delt Fly (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽⌛🛒🟢 (Bread & Butter | Push | Time | Bodyweight)
-├─ 5 🛒 Push-Up Density Ladder (bodyweight, no external load needed)
+├─ 5 🛒 Alternating Dumbbell Front Raise (bodyweight, no external load needed)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽⌛🛒🟢 (Supplemental | Push | Time | Bodyweight)
-├─ 6 🛒 Smith Machine Incline Press (full range, different angle)
+├─ 6 🛒 Alternating Dumbbell Front Raise (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽⌛🛒🟢 (Release | Push | Time | Bodyweight)
-├─ 6 🛒 Landmine Press (Two-Arm, Chest Focus) (smooth tempo, downshift)
+├─ 6 🛒 Alternating Dumbbell Front Raise (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

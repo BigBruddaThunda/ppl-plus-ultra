@@ -9,23 +9,25 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🍗 Seated Leg Curl — Legs Fun 🍗
+# 🍗 Single-Leg Jump Rope — Legs Fun 🍗
 
 ## Balance Basics — Legs focus (Fun) · 40-50 min
 
 **CODE:** ⚖🏛🍗🟡
 
 > "Explore movements that challenge your weakest positions."
+
+*Return After Break: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: ⚖🏛🍗🟡 (Warm-Up | Legs | Basics | Fun)
-├─ 12 🍗 Deep Squat Hold (Ankle Mobility) (explore, stay within constraints)
+├─ 12 🍗 Single-Leg Balance Hold (explore, stay within constraints)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⚖🏛🍗🟡 (Bread & Butter | Legs | Basics | Fun)
-├─ 11 🍗 Seated Leg Curl (explore, stay within constraints)
+├─ 11 🍗 Single-Leg Jump Rope (explore, stay within constraints)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 90s
 ═══
 ## 3) 🌎 Exposure
 Subcode: ⚖🏛🍗🟡 (Exposure | Legs | Basics | Fun)
-├─ 11 🍗 Spanish Squat (Banded VMO) (try the unfamiliar version, explore the range)
+├─ 11 🍗 Single-Leg Balance with Eyes Closed (try the unfamiliar version, explore the range)
 │  Set 1: ⚖ 55% × 11 (discovery set)
 Rest: 75s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⚖🏛🍗🟡 (Sandbox | Legs | Basics | Fun)
-├─ 11 🍗 Conventional Deadlift (explore within constraints, choose your variation)
+├─ 11 🍗 Single-Leg Reach (Multi-Directional) (explore within constraints, choose your variation)
 │  Option A: ⚖ 60% × 11 (play with grip, stance, or tempo)
 │  Option B: ⚖ 60% × 11 (try a variation you have not used before)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🏛🍗🟡 (Release | Legs | Basics | Fun)
-├─ 12 🍗 Spanish Squat (Banded VMO) (smooth tempo, downshift)
+├─ 12 🍗 Single-Leg Balance with Eyes Closed (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

@@ -9,29 +9,31 @@ type: 🍗 Legs
 color: 🟣 Technical
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🍗 Front Squat (Core Bracing) — Legs Technical 🍗
+# 🍗 Single-Leg Pogo Hops — Legs Technical 🍗
 
 ## Strength Challenge — Legs focus (Technical) · 50-65 min
 
 **CODE:** ⛽🪐🍗🟣
 
 > "One clean rep at the right load is worth more than five at the wrong one."
+
+*Field Sport Athlete: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⛽🪐🍗🟣 (Warm-Up | Legs | Challenge | Technical)
-├─ 6 🍗 Back Squat (High Bar) (precision, quality over volume)
+├─ 6 🍗 Single-Leg Jump Rope (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 135s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🪐🍗🟣 (Primer | Legs | Challenge | Technical)
-├─ 5 🍗 Walking Lunge (tight setup, crisp intent)
+├─ 5 🍗 Kettlebell Swing (Single-Arm) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🪐🍗🟣 (Bread & Butter | Legs | Challenge | Technical)
-├─ 5 🍗 Front Squat (Core Bracing) (precision, quality over volume)
+├─ 5 🍗 Single-Leg Pogo Hops (precision, quality over volume)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 270s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🪐🍗🟣 (Supplemental | Legs | Challenge | Technical)
-├─ 6 🍗 Spanish Squat (Banded VMO) (full range, different angle)
+├─ 6 🍗 Kettlebell Swing (Alternating Arms) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 180s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🪐🍗🟣 (Release | Legs | Challenge | Technical)
-├─ 6 🍗 Conventional Deadlift (smooth tempo, downshift)
+├─ 6 🍗 Single-Arm American Swing (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 180s
 ═══

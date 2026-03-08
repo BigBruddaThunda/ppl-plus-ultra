@@ -16,10 +16,12 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 **CODE:** 🦋🔨➕⚪
 
 > "Slow eccentrics under moderate load. Time under tension is the stimulus."
+
+*Climbing / Grip Sport: Controlled functional movement — slow transitions, balance holds, proprioception*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🦋🔨➕⚪ (Warm-Up | Plus | Functional | Mindful)
-├─ 12 ➕ Aquaman (Alternating Superman) (4s eccentric, breath-paced)
+├─ 12 ➕ Half-Kneeling Band Single-Arm Pulldown (4s eccentric, breath-paced)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 120s
 ═══
@@ -33,14 +35,14 @@ Rest: 180s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🦋🔨➕⚪ (Supplemental | Plus | Functional | Mindful)
-├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (full range, different angle)
+├─ 12 ➕ Single-Arm Lat Pulldown (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 120s
 ═══
 ## 4) 🪫 Release
 Subcode: 🦋🔨➕⚪ (Release | Plus | Functional | Mindful)
-├─ 12 ➕ Good Morning (Barbell) (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➕ Aquaman (Alternating Superman) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 120s
 ═══

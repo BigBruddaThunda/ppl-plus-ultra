@@ -16,6 +16,8 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟🔨➕⚫
 
 > "Rehearse the test protocol. Know the standards before test day."
+
+*Combat Sport Prep: Teaches movement quality, ground-based patterns, and transfer mechanics*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🏟🔨➕⚫ (Warm-Up | Plus | Functional | Teaching)

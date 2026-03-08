@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➖ Kettlebell Swing (Alternating Arms) — Ultra Structured ➖
+# ➖ Rowing Machine (Steady State) — Ultra Structured ➖
 
 ## Performance Time — Ultra focus (Structured) · 25-35 min
 
 **CODE:** 🏟⌛➖🔵
 
 > "Execute the test exactly as prescribed. Record the number."
+
+*Senior Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🏟⌛➖🔵 (Warm-Up | Ultra | Time | Structured)
-├─ 3 ➖ Single-Foot In Each Box (Forward) (prescribed, track sets and reps)
+├─ 3 ➖ Rowing Intervals (500m) (prescribed, track sets and reps)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟⌛➖🔵 (Progression | Ultra | Time | Structured)
-├─ 2 ➖ Kettlebell Swing (Alternating Arms) (ramp to test weight)
+├─ 2 ➖ Rowing Machine (Steady State) (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟⌛➖🔵 (Bread & Butter | Ultra | Time | Structured)
-├─ 2 ➖ Kettlebell Swing (Alternating Arms) (prescribed, track sets and reps)
+├─ 2 ➖ Rowing Machine (Steady State) (prescribed, track sets and reps)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

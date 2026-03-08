@@ -9,23 +9,25 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟡 Fun | Tier 0–5 | GOLD: No | Exploration and variety — structured play within constraints
 blocks: ♨️ → ▶️ → 🧈 → 🏖 → 🚂
 ---
-# 🍗 Lateral and Reverse Lunge Mix — Legs Fun 🍗
+# 🍗 Single-Leg Jump Rope — Legs Fun 🍗
 
 ## Strength Functional — Legs focus (Fun) · 50-65 min
 
 **CODE:** ⛽🔨🍗🟡
 
 > "Find a movement you have not tried at this load and own it."
+
+*CrossFit-Style: Movement exploration — unconventional patterns, play with load and position*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero (carry/transfer)
 Subcode: ⛽🔨🍗🟡 (Warm-Up | Legs | Functional | Fun)
-├─ 6 🍗 Single-Leg Pogo Hops (explore, stay within constraints)
+├─ 6 🍗 Kettlebell Swing (Single-Arm) (explore, stay within constraints)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⛽🔨🍗🟡 (Bread & Butter | Legs | Functional | Fun)
-├─ 5 🍗 Lateral and Reverse Lunge Mix (explore, stay within constraints)
+├─ 5 🍗 Single-Leg Jump Rope (explore, stay within constraints)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 180s
 ═══
 ## 3) 🌎 Exposure
 Subcode: ⛽🔨🍗🟡 (Exposure | Legs | Functional | Fun)
-├─ 5 🍗 Single-Leg Good Morning (try the unfamiliar version, explore the range)
+├─ 5 🍗 Single-Leg Swing (try the unfamiliar version, explore the range)
 │  Set 1: ⛽ 65% × 5 (discovery set)
 Rest: 120s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⛽🔨🍗🟡 (Sandbox | Legs | Functional | Fun)
-├─ 5 🍗 Single-Leg Curl (Lying) (explore within constraints, choose your variation)
+├─ 5 🍗 Alternating Kettlebell Snatch (explore within constraints, choose your variation)
 │  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
 │  Option B: ⛽ 70% × 5 (try a variation you have not used before)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🔨🍗🟡 (Release | Legs | Functional | Fun)
-├─ 6 🍗 Single-Leg Good Morning (smooth tempo, downshift)
+├─ 6 🍗 Single-Leg Swing (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

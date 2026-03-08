@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🍗 Single-Leg Toe Raise — Legs Teaching 🍗
+# 🍗 Single-Leg Jump Rope — Legs Teaching 🍗
 
 ## Full Body Aesthetic — Legs focus (Teaching) · 40-55 min
 
 **CODE:** 🌾🌹🍗⚫
 
 > "Connect the chain. Coach each transition between movements."
+
+*Injury Prevention / Prehab: Teaches what recovery feels like — coaching the nervous system, not the muscles*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: 🌾🌹🍗⚫ (Warm-Up | Legs | Aesthetic | Teaching)
-├─ 10 🍗 Half-Kneeling Hip Flexor Stretch (coached, check form before adding load)
+├─ 10 🍗 Single-Leg Balance Hold (coached, check form before adding load)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: 🌾🌹🍗⚫ (Craft | Legs | Aesthetic | Teaching)
-├─ 9 🍗 Single-Leg Extension (coach: check grip width, elbow angle, foot pressure)
+├─ 9 🍗 Single-Leg Balance with Perturbation (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🌾 50% × 9 (practice the pattern, not the load)
 │  Set 2: 🌾 55% × 9 (same cues, slightly heavier)
 Rest: 90s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🌹🍗⚫ (Bread & Butter | Legs | Aesthetic | Teaching)
-├─ 9 🍗 Single-Leg Toe Raise (coached, check form before adding load)
+├─ 9 🍗 Single-Leg Jump Rope (coached, check form before adding load)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🌹🍗⚫ (Supplemental | Legs | Aesthetic | Teaching)
-├─ 10 🍗 Single-Leg Good Morning (full range, different angle)
+├─ 10 🍗 BOSU Ball Single-Leg Balance (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 67s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🌾🌹🍗⚫ (Imprint | Legs | Aesthetic | Teaching)
-├─ 10 🍗 Single-Leg Pogo Hops (high rep, low load, neural memory)
+├─ 10 🍗 Single-Leg Reach (Multi-Directional) (high rep, low load, neural memory)
 │  Set 1: 🌾 45% × 10 (lock the pattern)
 Rest: 67s
 ═══

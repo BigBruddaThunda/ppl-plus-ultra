@@ -9,29 +9,31 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🔵 Structured
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🛒 Incline Dumbbell Bench Press — Push Structured 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Structured 🛒
 
 ## Strength Aesthetic — Push focus (Structured) · 50-65 min
 
 **CODE:** ⛽🌹🛒🔵
 
 > "Same weight, same reps, same rest. Build the base one session at a time."
+
+*Athletic Hypertrophy: Volume tracking — prescribed sets and reps, progressive overload through logging*
 ═══
 ## 1) ♨️ Warm-Up — 🪢 plico
 Subcode: ⛽🌹🛒🔵 (Warm-Up | Push | Aesthetic | Structured)
-├─ 6 🛒 Medicine Ball Chest Pass (prescribed, track sets and reps)
+├─ 6 🛒 Depth Push-Up (Drop to Floor) (prescribed, track sets and reps)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🌹🛒🔵 (Primer | Push | Aesthetic | Structured)
-├─ 5 🛒 Dumbbell Chest Fly (tight setup, crisp intent)
+├─ 5 🛒 Banded Speed Bench Press (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🌹🛒🔵 (Bread & Butter | Push | Aesthetic | Structured)
-├─ 5 🛒 Incline Dumbbell Bench Press (prescribed, track sets and reps)
+├─ 5 🛒 Plyometric Push-Up (Hands Leave Ground) (prescribed, track sets and reps)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🌹🛒🔵 (Supplemental | Push | Aesthetic | Structured)
-├─ 6 🛒 Low-to-High Cable Fly (full range, different angle)
+├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🌹🛒🔵 (Release | Push | Aesthetic | Structured)
-├─ 6 🛒 Band Pull-Apart (Chest Opener) (smooth tempo, downshift)
+├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

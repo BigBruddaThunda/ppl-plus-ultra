@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# ➖ Turkish Get-Up (Full) — Ultra Bodyweight ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Bodyweight ➖
 
 ## Full Body Time — Ultra focus (Bodyweight) · 40-55 min
 
 **CODE:** 🌾⌛➖🟢
 
 > "Flow through the body using only what you carry. No equipment needed."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🌾⌛➖🟢 (Warm-Up | Ultra | Time | Bodyweight)
-├─ 10 ➖ Single-Leg Hops Through Ladder (bodyweight, no external load needed)
+├─ 10 ➖ Rowing Machine (Steady State) (bodyweight, no external load needed)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾⌛➖🟢 (Composition | Ultra | Time | Bodyweight)
-├─ 9 ➖ Kettlebell Goblet Squat → Turkish Get-Up (Full) (flow without reset)
+├─ 9 ➖ Rowing Intervals (500m) → Single-Leg Hops Through Ladder (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾⌛➖🟢 (Bread & Butter | Ultra | Time | Bodyweight)
-├─ 9 ➖ Turkish Get-Up (Full) (bodyweight, no external load needed)
+├─ 9 ➖ Single-Leg Hops Through Ladder (bodyweight, no external load needed)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾⌛➖🟢 (Supplemental | Ultra | Time | Bodyweight)
-├─ 10 ➖ Single-Foot In Each Box (Forward) (full range, different angle)
+├─ 10 ➖ Rowing Intervals (1000m) (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾⌛➖🟢 (Release | Ultra | Time | Bodyweight)
-├─ 10 ➖ Turkish Get-Up (Full) (smooth tempo, downshift)
+├─ 10 ➖ Rowing Intervals (2000m) (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══

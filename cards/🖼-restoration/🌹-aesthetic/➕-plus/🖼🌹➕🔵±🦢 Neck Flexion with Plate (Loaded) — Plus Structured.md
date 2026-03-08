@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➕ Neck Flexion with Plate (Loaded) — Plus Structured ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Structured ➕
 
 ## Restoration Aesthetic — Plus focus (Structured) · 30-40 min
 
 **CODE:** 🖼🌹➕🔵
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
+
+*Physique / Recomp: Volume tracking — prescribed sets and reps, progressive overload through logging*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,20 +25,20 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🌹➕🔵 (Release | Plus | Aesthetic | Structured)
-├─ 12 ➕ Neck CARs (Controlled Circles) (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➕ Single-Leg Plank (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🌹➕🔵 (Bread & Butter | Plus | Aesthetic | Structured)
-├─ 13 ➕ Neck Flexion with Plate (Loaded) (prescribed, track sets and reps)
+├─ 13 ➕ Single-Leg Hops Through Ladder (prescribed, track sets and reps)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🌹➕🔵 (Imprint | Plus | Aesthetic | Structured)
-├─ 15 ➕ Neck Flexion with Plate (Loaded) (high rep, low load, neural memory)
+├─ 15 ➕ Single-Arm Plank (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══

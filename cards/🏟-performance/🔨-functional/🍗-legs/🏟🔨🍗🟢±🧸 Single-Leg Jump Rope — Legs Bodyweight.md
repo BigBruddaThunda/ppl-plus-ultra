@@ -16,10 +16,12 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟🔨🍗🟢
 
 > "Test bodyweight capacity. How many, how fast, how clean."
+
+*Minimalist Hypertrophy: Bodyweight hypertrophy — high reps, slow tempo, squeeze and hold patterns*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🏟🔨🍗🟢 (Warm-Up | Legs | Functional | Bodyweight)
-├─ 3 🍗 Cossack Squat (bodyweight, no external load needed)
+├─ 3 🍗 Back Squat (Glute Focus) (bodyweight, no external load needed)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══

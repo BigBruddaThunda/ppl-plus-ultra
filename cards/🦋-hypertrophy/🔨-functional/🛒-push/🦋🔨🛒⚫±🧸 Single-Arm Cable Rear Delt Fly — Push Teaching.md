@@ -16,16 +16,18 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 **CODE:** 🦋🔨🛒⚫
 
 > "Learn what tension feels like in the target muscle before chasing volume."
+
+*Pre/Post Natal: Teaching session — learn the movement, understand the cues, build confidence*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🦋🔨🛒⚫ (Warm-Up | Push | Functional | Teaching)
-├─ 12 🛒 Single-Arm Cable Chest Fly (coached, check form before adding load)
+├─ 12 🛒 Single-Arm Overhead Dumbbell Hold (coached, check form before adding load)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: 🦋🔨🛒⚫ (Craft | Push | Functional | Teaching)
-├─ 10 🛒 Alternating Dumbbell Front Raise (coach: check grip width, elbow angle, foot pressure)
+├─ 10 🛒 Single-Arm Cable Chest Fly (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🦋 50% × 10 (practice the pattern, not the load)
 │  Set 2: 🦋 55% × 10 (same cues, slightly heavier)
 Rest: 112s
@@ -40,14 +42,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🦋🔨🛒⚫ (Supplemental | Push | Functional | Teaching)
-├─ 12 🛒 Alternating Dumbbell Curl (full range, different angle)
+├─ 12 🛒 One-Arm Dead Hang (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🦋🔨🛒⚫ (Imprint | Push | Functional | Teaching)
-├─ 12 🛒 Low-to-High Cable Fly (high rep, low load, neural memory)
+├─ 12 🛒 Single-Arm Dumbbell Lateral Raise (high rep, low load, neural memory)
 │  Set 1: 🦋 45% × 12 (lock the pattern)
 Rest: 90s
 ═══

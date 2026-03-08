@@ -9,29 +9,31 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➖ Kettlebell Goblet Squat — Ultra Intense ➖
+# ➖ Shot Put Throw (Single-Arm) — Ultra Intense ➖
 
 ## Balance Time — Ultra focus (Intense) · 40-50 min
 
 **CODE:** ⚖⌛➖🔴
 
 > "Attack the weak link with volume. Fatigue exposes the gap."
+
+*Strongman / Odd Object: Heavy working sets with full recovery — push the ceiling, earn every rep*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⚖⌛➖🔴 (Warm-Up | Ultra | Time | Intense)
-├─ 12 ➖ Single-Foot In Each Box (Forward) (high effort, push the pace)
+├─ 12 ➖ Overhead Throw (Medicine Ball) (high effort, push the pace)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖⌛➖🔴 (Primer | Ultra | Time | Intense)
-├─ 11 ➖ Turkish Get-Up (Full) (tight setup, crisp intent)
+├─ 11 ➖ Chest Pass Throw (Medicine Ball) (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖⌛➖🔴 (Bread & Butter | Ultra | Time | Intense)
-├─ 11 ➖ Kettlebell Goblet Squat (high effort, push the pace)
+├─ 11 ➖ Shot Put Throw (Single-Arm) (high effort, push the pace)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 45s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖⌛➖🔴 (Supplemental | Ultra | Time | Intense)
-├─ 12 ➖ Kettlebell Goblet Squat (full range, different angle)
+├─ 12 ➖ Rotational Throw (Side Toss) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 37s
 ═══
 ## 5) 🌋 Gutter
 Subcode: ⚖⌛➖🔴 (Gutter | Ultra | Time | Intense)
-├─ 12 ➖ Two Feet In Each Box (Forward) (all-out, leave nothing in reserve)
+├─ 12 ➖ Step and Throw (Forward) (all-out, leave nothing in reserve)
 │  Set 1: ⚖ 55% × 12 (push to form break)
 │  Set 2: ⚖ 55% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: ⚖⌛➖🔴 (Release | Ultra | Time | Intense)
-├─ 12 ➖ Two Feet In Each Box (Forward) (stress out, cathartic discharge)
+├─ 12 ➖ Step and Throw (Forward) (stress out, cathartic discharge)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

@@ -9,23 +9,25 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🍗 Seated Good Morning — Legs Fun 🍗
+# 🍗 Single-Leg Jump Rope — Legs Fun 🍗
 
 ## Balance Aesthetic — Legs focus (Fun) · 40-50 min
 
 **CODE:** ⚖🌹🍗🟡
 
 > "Explore movements that challenge your weakest positions."
+
+*Active Recovery: Somatic exploration — movements you would not normally try, body awareness*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: ⚖🌹🍗🟡 (Warm-Up | Legs | Aesthetic | Fun)
-├─ 12 🍗 Standing Quad Stretch (explore, stay within constraints)
+├─ 12 🍗 Single-Leg Balance Hold (explore, stay within constraints)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⚖🌹🍗🟡 (Bread & Butter | Legs | Aesthetic | Fun)
-├─ 11 🍗 Seated Good Morning (explore, stay within constraints)
+├─ 11 🍗 Single-Leg Jump Rope (explore, stay within constraints)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 90s
 ═══
 ## 3) 🌎 Exposure
 Subcode: ⚖🌹🍗🟡 (Exposure | Legs | Aesthetic | Fun)
-├─ 11 🍗 Barbell Good Morning (try the unfamiliar version, explore the range)
+├─ 11 🍗 Single-Leg Balance with Eyes Closed (try the unfamiliar version, explore the range)
 │  Set 1: ⚖ 55% × 11 (discovery set)
 Rest: 75s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⚖🌹🍗🟡 (Sandbox | Legs | Aesthetic | Fun)
-├─ 11 🍗 Lying Leg Curl (explore within constraints, choose your variation)
+├─ 11 🍗 Single-Leg Reach (Multi-Directional) (explore within constraints, choose your variation)
 │  Option A: ⚖ 60% × 11 (play with grip, stance, or tempo)
 │  Option B: ⚖ 60% × 11 (try a variation you have not used before)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🌹🍗🟡 (Release | Legs | Aesthetic | Fun)
-├─ 12 🍗 Barbell Good Morning (smooth tempo, downshift)
+├─ 12 🍗 Single-Leg Balance with Eyes Closed (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

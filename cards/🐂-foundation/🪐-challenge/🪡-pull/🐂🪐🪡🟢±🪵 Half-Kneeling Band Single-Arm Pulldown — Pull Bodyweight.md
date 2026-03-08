@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# 🪡 Half-Kneeling Band Single-Arm Pulldown — Pull Bodyweight 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Bodyweight 🪡
 
 ## Foundation Challenge — Pull focus (Bodyweight) · 40-50 min
 
 **CODE:** 🐂🪐🪡🟢
 
 > "Learn the pattern with your own body first. External load comes later."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🐂🪐🪡🟢 (Warm-Up | Pull | Challenge | Bodyweight)
@@ -32,7 +34,7 @@ Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🪐🪡🟢 (Bread & Butter | Pull | Challenge | Bodyweight)
-├─ 11 🪡 Half-Kneeling Band Single-Arm Pulldown (bodyweight, no external load needed)
+├─ 11 🪡 Barbell Overhead Press (Standing) (bodyweight, no external load needed)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)

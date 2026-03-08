@@ -9,29 +9,31 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) — Pull Structured 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Structured 🪡
 
 ## Hypertrophy Aesthetic — Pull focus (Structured) · 55-70 min
 
 **CODE:** 🦋🌹🪡🔵
 
 > "Hit every set at the prescribed rep count. Volume is the driver."
+
+*Senior Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🦋🌹🪡🔵 (Warm-Up | Pull | Aesthetic | Structured)
-├─ 12 🪡 Wide-Grip Lat Pulldown (Teres Focus) (prescribed, track sets and reps)
+├─ 12 🪡 Single-Arm Overhead Dumbbell Hold (prescribed, track sets and reps)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🌹🪡🔵 (Primer | Pull | Aesthetic | Structured)
-├─ 10 🪡 Face Pull (Rope) (tight setup, crisp intent)
+├─ 10 🪡 Single-Arm Face Pull (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🌹🪡🔵 (Bread & Butter | Pull | Aesthetic | Structured)
-├─ 10 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) (prescribed, track sets and reps)
+├─ 10 🪡 Single-Arm Cable Rear Delt Fly (prescribed, track sets and reps)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 90s
 ═══
 ## 4) 🗿 Sculpt
 Subcode: 🦋🌹🪡🔵 (Sculpt | Pull | Aesthetic | Structured)
-├─ 12 🪡 Good Morning (Barbell) (angles, tension, volume)
+├─ 12 🪡 Aquaman (Alternating Superman) (angles, tension, volume)
 │  Set 1: 🦋 65% × 12 (shaping)
 │  Set 2: 🦋 65% × 12 (carving)
 Rest: 60s
 ═══
 ## 5) 🧩 Supplemental
 Subcode: 🦋🌹🪡🔵 (Supplemental | Pull | Aesthetic | Structured)
-├─ 12 🪡 Good Morning (Barbell) (full range, different angle)
+├─ 12 🪡 Aquaman (Alternating Superman) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 60s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋🌹🪡🔵 (Release | Pull | Aesthetic | Structured)
-├─ 12 🪡 Preacher Curl Machine (smooth tempo, downshift)
+├─ 12 🪡 Half-Kneeling Band Single-Arm Pulldown (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══

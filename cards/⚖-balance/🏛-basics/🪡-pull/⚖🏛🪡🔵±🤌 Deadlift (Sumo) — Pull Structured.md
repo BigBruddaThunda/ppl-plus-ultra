@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🪡 Deadlift (Sumo) — Pull Structured 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Structured 🪡
 
 ## Balance Basics — Pull focus (Structured) · 40-50 min
 
 **CODE:** ⚖🏛🪡🔵
 
 > "Prescribed accessory work. Target the specific imbalance."
+
+*General Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: ⚖🏛🪡🔵 (Warm-Up | Pull | Basics | Structured)
@@ -32,7 +34,7 @@ Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🏛🪡🔵 (Bread & Butter | Pull | Basics | Structured)
-├─ 11 🪡 Deadlift (Sumo) (prescribed, track sets and reps)
+├─ 11 🪡 Barbell Overhead Press (Standing) (prescribed, track sets and reps)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)

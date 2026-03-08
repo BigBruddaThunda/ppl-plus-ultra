@@ -9,29 +9,31 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟣 Technical
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🛒 Single-Arm Cable Chest Fly — Push Technical 🛒
+# 🛒 Medicine Ball Chest Pass — Push Technical 🛒
 
 ## Strength Aesthetic — Push focus (Technical) · 50-65 min
 
 **CODE:** ⛽🌹🛒🟣
 
 > "One clean rep at the right load is worth more than five at the wrong one."
+
+*Aesthetic Specialization: Precision isolation — feel every fiber, full ROM, cable and machine emphasis*
 ═══
 ## 1) ♨️ Warm-Up — 🪢 plico
 Subcode: ⛽🌹🛒🟣 (Warm-Up | Push | Aesthetic | Technical)
-├─ 6 🛒 Sandbag Shouldering (precision, quality over volume)
+├─ 6 🛒 Medicine Ball Slam (Chest Height) (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 135s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🌹🛒🟣 (Primer | Push | Aesthetic | Technical)
-├─ 5 🛒 Medicine Ball Chest Pass (tight setup, crisp intent)
+├─ 5 🛒 Single-Arm Cable Rear Delt Fly (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🌹🛒🟣 (Bread & Butter | Push | Aesthetic | Technical)
-├─ 5 🛒 Single-Arm Cable Chest Fly (precision, quality over volume)
+├─ 5 🛒 Medicine Ball Chest Pass (precision, quality over volume)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 270s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🌹🛒🟣 (Supplemental | Push | Aesthetic | Technical)
-├─ 6 🛒 Push Jerk (Barbell) (full range, different angle)
+├─ 6 🛒 Sandbag Shouldering (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 180s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🌹🛒🟣 (Release | Push | Aesthetic | Technical)
-├─ 6 🛒 Low-to-High Cable Fly (smooth tempo, downshift)
+├─ 6 🛒 Atlas Stone Load (Shoulder Position) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 180s
 ═══

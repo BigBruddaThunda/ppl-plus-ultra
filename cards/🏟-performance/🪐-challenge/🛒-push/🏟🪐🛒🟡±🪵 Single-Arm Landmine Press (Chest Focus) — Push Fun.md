@@ -9,30 +9,32 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🛒 Single-Arm Landmine Press (Chest Focus) — Push Fun 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Fun 🛒
 
 ## Performance Challenge — Push focus (Fun) · 25-35 min
 
 **CODE:** 🏟🪐🛒🟡
 
 > "Test something unconventional. Find where your capacity surprises you."
+
+*Return After Break: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🏟🪐🛒🟡 (Warm-Up | Push | Challenge | Fun)
-├─ 3 🛒 Plyometric Push-Up (Hands Leave Ground) (explore, stay within constraints)
+├─ 3 🛒 Single-Arm Overhead Dumbbell Hold (explore, stay within constraints)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟🪐🛒🟡 (Bread & Butter | Push | Challenge | Fun)
-├─ 2 🛒 Single-Arm Landmine Press (Chest Focus) (explore, stay within constraints)
+├─ 2 🛒 Single-Arm Cable Rear Delt Fly (explore, stay within constraints)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🏟🪐🛒🟡 (Sandbox | Push | Challenge | Fun)
-├─ 2 🛒 Diamond Push-Up (explore within constraints, choose your variation)
+├─ 2 🛒 Depth Push-Up (Drop to Floor) (explore within constraints, choose your variation)
 │  Option A: 🏟 82% × 2 (play with grip, stance, or tempo)
 │  Option B: 🏟 82% × 2 (try a variation you have not used before)
 Rest: N/A

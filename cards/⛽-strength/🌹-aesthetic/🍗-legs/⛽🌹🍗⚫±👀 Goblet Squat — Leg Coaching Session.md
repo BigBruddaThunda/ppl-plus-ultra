@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: ⚫ Teaching
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🍗 Goblet Squat — Legs Teaching 🍗
+# 🍗 Single-Leg Jump Rope — Legs Teaching 🍗
 
 ## Strength Aesthetic — Legs focus (Teaching) · 50-65 min
 
 **CODE:** ⛽🌹🍗⚫
 
 > "Learn where the bar sits and how it moves before adding plates."
+
+*New to Gym: Teaching session — learn the movement, understand the cues, build confidence*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: ⛽🌹🍗⚫ (Warm-Up | Legs | Aesthetic | Teaching)
-├─ 6 🍗 Standing Quad Stretch (coached, check form before adding load)
+├─ 6 🍗 Single-Leg Balance Hold (coached, check form before adding load)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 135s
 ═══
 ## 2) 🛠 Craft
 Subcode: ⛽🌹🍗⚫ (Craft | Legs | Aesthetic | Teaching)
-├─ 5 🍗 Pogo Hops (Ankle Bounce) (coach: check grip width, elbow angle, foot pressure)
+├─ 5 🍗 Single-Leg Balance with Perturbation (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: ⛽ 60% × 5 (practice the pattern, not the load)
 │  Set 2: ⛽ 65% × 5 (same cues, slightly heavier)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🌹🍗⚫ (Bread & Butter | Legs | Aesthetic | Teaching)
-├─ 5 🍗 Goblet Squat (coached, check form before adding load)
+├─ 5 🍗 Single-Leg Jump Rope (coached, check form before adding load)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 270s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🌹🍗⚫ (Supplemental | Legs | Aesthetic | Teaching)
-├─ 6 🍗 Step-Down (Eccentric) (full range, different angle)
+├─ 6 🍗 BOSU Ball Single-Leg Balance (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 180s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⛽🌹🍗⚫ (Imprint | Legs | Aesthetic | Teaching)
-├─ 6 🍗 Barbell Good Morning (high rep, low load, neural memory)
+├─ 6 🍗 Single-Leg Reach (Multi-Directional) (high rep, low load, neural memory)
 │  Set 1: ⛽ 55% × 6 (lock the pattern)
 Rest: 180s
 ═══

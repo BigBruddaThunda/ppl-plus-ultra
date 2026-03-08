@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➕ Half-Kneeling Band Single-Arm Pulldown — Plus Bodyweight ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Bodyweight ➕
 
 ## Restoration Time — Plus focus (Bodyweight) · 30-40 min
 
 **CODE:** 🖼⌛➕🟢
 
 > "Restore with what your body provides. Floor work, breath, gentle movement."
+
+*Fasting Cardio + Strength: Bodyweight conditioning — no gym, no excuses, cardio and movement flow*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,20 +25,20 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼⌛➕🟢 (Release | Plus | Time | Bodyweight)
-├─ 12 ➕ Neck CARs (Controlled Circles) (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➕ Dead Stop Swing (Reset Between Reps) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼⌛➕🟢 (Bread & Butter | Plus | Time | Bodyweight)
-├─ 13 ➕ Half-Kneeling Band Single-Arm Pulldown (bodyweight, no external load needed)
+├─ 13 ➕ Single-Leg Hops Through Ladder (bodyweight, no external load needed)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼⌛➕🟢 (Imprint | Plus | Time | Bodyweight)
-├─ 15 ➕ Half-Kneeling Band Single-Arm Pulldown (high rep, low load, neural memory)
+├─ 15 ➕ Double Kettlebell Swing (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══

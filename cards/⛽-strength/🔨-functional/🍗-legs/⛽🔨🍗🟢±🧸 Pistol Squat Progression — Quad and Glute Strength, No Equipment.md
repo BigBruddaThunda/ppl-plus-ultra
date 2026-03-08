@@ -9,29 +9,31 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟢 Bodyweight | Tier 0–2 | GOLD: No | No gym required — park, hotel, living room
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🪫 → 🚂
 ---
-# 🍗 Pistol Squat Progression — Legs Bodyweight 🍗
+# 🍗 Single-Leg Jump Rope — Legs Bodyweight 🍗
 
 ## Strength Functional — Legs focus (Bodyweight) · 50-65 min
 
 **CODE:** ⛽🔨🍗🟢
 
 > "Prove the pattern holds without external load. Bodyweight is the test."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero (carry/transfer)
 Subcode: ⛽🔨🍗🟢 (Warm-Up | Legs | Functional | Bodyweight)
-├─ 6 🍗 Single-Leg Pogo Hops (bodyweight, no external load needed)
+├─ 6 🍗 Box Jump (Calf Power) (bodyweight, no external load needed)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🔨🍗🟢 (Primer | Legs | Functional | Bodyweight)
-├─ 5 🍗 Half-Kneeling Hip Flexor Stretch (tight setup, crisp intent)
+├─ 5 🍗 Depth Drop (Reactive Calf) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🔨🍗🟢 (Bread & Butter | Legs | Functional | Bodyweight)
-├─ 5 🍗 Pistol Squat Progression (bodyweight, no external load needed)
+├─ 5 🍗 Single-Leg Jump Rope (bodyweight, no external load needed)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🔨🍗🟢 (Supplemental | Legs | Functional | Bodyweight)
-├─ 6 🍗 Single-Leg Deadlift (Glute Med Stability) (full range, different angle)
+├─ 6 🍗 Jump Rope (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🔨🍗🟢 (Release | Legs | Functional | Bodyweight)
-├─ 6 🍗 Single-Leg Extension (smooth tempo, downshift)
+├─ 6 🍗 Double-Unders (Jump Rope) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

@@ -9,34 +9,36 @@ type: ➕ Plus | Full body power, core
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➕ One-Arm Deadlift — Plus Circuit ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Circuit ➕
 
 ## Balance Partner — Plus focus (Circuit) · 40-50 min
 
 **CODE:** ⚖🐬➕🟠
 
 > "Rotate through corrective stations. Each one targets a different deficit."
+
+*Explorer / Outdoor Athlete: Skill circuit — rotate through craft-specific stations*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: ⚖🐬➕🟠 (Warm-Up | Plus | Partner | Circuit)
-├─ 12 ➕ Aquaman (Alternating Superman) (station rotation, keep moving)
+├─ 12 ➕ Kettlebell Swing (Single-Arm) (station rotation, keep moving)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⚖🐬➕🟠 (ARAM | Plus | Partner | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➕ One-Arm Deadlift × 11 (station rotation, keep moving)
-│  Station 2: ➕ Aquaman (Alternating Superman) × 11 (station rotation, keep moving)
-│  Station 3: ➕ Single-Leg Hops Through Ladder × 11 (station rotation, keep moving)
-│  Station 4: ➕ Half-Kneeling Cable Chop × 11 (station rotation, keep moving)
+│  Station 1: ➕ Single-Leg Hops Through Ladder × 11 (station rotation, keep moving)
+│  Station 2: ➕ Kettlebell Swing (Single-Arm) × 11 (station rotation, keep moving)
+│  Station 3: ➕ Kettlebell Swing (Alternating Arms) × 11 (station rotation, keep moving)
+│  Station 4: ➕ Single-Arm American Swing × 11 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⚖🐬➕🟠 (Release | Plus | Partner | Circuit)
-├─ 12 ➕ Single-Leg Romanian Deadlift (smooth tempo, downshift)
+├─ 12 ➕ Single-Leg Swing (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

@@ -9,23 +9,25 @@ type: ➕ Plus | Full body power, core
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➕ Band Face Pull — Plus Fun ➕
+# ➕ Hip Flexor Stretch (Half-Kneeling) — Plus Fun ➕
 
 ## Balance Time — Plus focus (Fun) · 40-50 min
 
 **CODE:** ⚖⌛➕🟡
 
 > "Explore movements that challenge your weakest positions."
+
+*Youth Athletic Development: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: ⚖⌛➕🟡 (Warm-Up | Plus | Time | Fun)
-├─ 12 ➕ Single-Foot In Each Box (Forward) (explore, stay within constraints)
+├─ 12 ➕ Leg Swings (Forward/Backward) (explore, stay within constraints)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⚖⌛➕🟡 (Bread & Butter | Plus | Time | Fun)
-├─ 11 ➕ Band Face Pull (explore, stay within constraints)
+├─ 11 ➕ Hip Flexor Stretch (Half-Kneeling) (explore, stay within constraints)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 90s
 ═══
 ## 3) 🌎 Exposure
 Subcode: ⚖⌛➕🟡 (Exposure | Plus | Time | Fun)
-├─ 11 ➕ Face Pull (Rope) (try the unfamiliar version, explore the range)
+├─ 11 ➕ Spiderman Lunge (try the unfamiliar version, explore the range)
 │  Set 1: ⚖ 55% × 11 (discovery set)
 Rest: 75s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⚖⌛➕🟡 (Sandbox | Plus | Time | Fun)
-├─ 11 ➕ Good Morning (Barbell) (explore within constraints, choose your variation)
+├─ 11 ➕ Single-Leg Hops Through Ladder (explore within constraints, choose your variation)
 │  Option A: ⚖ 60% × 11 (play with grip, stance, or tempo)
 │  Option B: ⚖ 60% × 11 (try a variation you have not used before)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖⌛➕🟡 (Release | Plus | Time | Fun)
-├─ 12 ➕ Face Pull (Rope) (smooth tempo, downshift)
+├─ 12 ➕ Spiderman Lunge (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

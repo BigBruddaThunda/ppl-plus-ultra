@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➖ Overhead Athlete Position (OAP) Drill — Ultra Structured ➖
+# ➖ Rowing Machine (Steady State) — Ultra Structured ➖
 
 ## Performance Aesthetic — Ultra focus (Structured) · 25-35 min
 
 **CODE:** 🏟🌹➖🔵
 
 > "Execute the test exactly as prescribed. Record the number."
+
+*General Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🏟🌹➖🔵 (Warm-Up | Ultra | Aesthetic | Structured)
-├─ 3 ➖ Single-Foot In Each Box (Forward) (prescribed, track sets and reps)
+├─ 3 ➖ Rowing Intervals (500m) (prescribed, track sets and reps)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🌹➖🔵 (Progression | Ultra | Aesthetic | Structured)
-├─ 2 ➖ Overhead Athlete Position (OAP) Drill (ramp to test weight)
+├─ 2 ➖ Rowing Machine (Steady State) (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🌹➖🔵 (Bread & Butter | Ultra | Aesthetic | Structured)
-├─ 2 ➖ Overhead Athlete Position (OAP) Drill (prescribed, track sets and reps)
+├─ 2 ➖ Rowing Machine (Steady State) (prescribed, track sets and reps)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

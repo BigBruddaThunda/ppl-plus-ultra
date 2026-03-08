@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➖ Overhead Throw (Medicine Ball) — Ultra Technical ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Technical ➖
 
 ## Performance Challenge — Ultra focus (Technical) · 25-35 min
 
 **CODE:** 🏟🪐➖🟣
 
 > "One maximal attempt with perfect setup. The technique is the test."
+
+*CrossFit-Style: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🏟🪐➖🟣 (Warm-Up | Ultra | Challenge | Technical)
@@ -25,14 +27,14 @@ Rest: 135s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🪐➖🟣 (Progression | Ultra | Challenge | Technical)
-├─ 2 ➖ Overhead Throw (Medicine Ball) (ramp to test weight)
+├─ 2 ➖ Single-Leg Hops Through Ladder (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🪐➖🟣 (Bread & Butter | Ultra | Challenge | Technical)
-├─ 2 ➖ Overhead Throw (Medicine Ball) (precision, quality over volume)
+├─ 2 ➖ Single-Leg Hops Through Ladder (precision, quality over volume)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

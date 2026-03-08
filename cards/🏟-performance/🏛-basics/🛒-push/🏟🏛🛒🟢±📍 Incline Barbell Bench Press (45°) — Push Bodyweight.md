@@ -9,30 +9,32 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🛒 Incline Barbell Bench Press (45°) — Push Bodyweight 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Bodyweight 🛒
 
 ## Performance Basics — Push focus (Bodyweight) · 25-35 min
 
 **CODE:** 🏟🏛🛒🟢
 
 > "Test bodyweight capacity. How many, how fast, how clean."
+
+*Minimalist Hypertrophy: Bodyweight hypertrophy — high reps, slow tempo, squeeze and hold patterns*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🏟🏛🛒🟢 (Warm-Up | Push | Basics | Bodyweight)
-├─ 3 🛒 Incline Barbell Bench Press (30°) (bodyweight, no external load needed)
+├─ 3 🛒 Depth Push-Up (Drop to Floor) (bodyweight, no external load needed)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🏛🛒🟢 (Progression | Push | Basics | Bodyweight)
-├─ 2 🛒 Incline Barbell Bench Press (45°) (ramp to test weight)
+├─ 2 🛒 Plyometric Push-Up (Hands Leave Ground) (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🏛🛒🟢 (Bread & Butter | Push | Basics | Bodyweight)
-├─ 2 🛒 Incline Barbell Bench Press (45°) (bodyweight, no external load needed)
+├─ 2 🛒 Plyometric Push-Up (Hands Leave Ground) (bodyweight, no external load needed)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

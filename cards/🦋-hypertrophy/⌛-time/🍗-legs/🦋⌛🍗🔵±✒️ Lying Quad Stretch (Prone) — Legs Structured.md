@@ -9,29 +9,31 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🍗 Lying Quad Stretch (Prone) — Legs Structured 🍗
+# 🍗 Single-Leg Jump Rope — Legs Structured 🍗
 
 ## Hypertrophy Time — Legs focus (Structured) · 55-70 min
 
 **CODE:** 🦋⌛🍗🔵
 
 > "Hit every set at the prescribed rep count. Volume is the driver."
+
+*Marathon / Distance Running: Prescribed intervals — zone targets, heart rate windows, timed rest*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🦋⌛🍗🔵 (Warm-Up | Legs | Time | Structured)
-├─ 12 🍗 Pogo Hops (Ankle Bounce) (prescribed, track sets and reps)
+├─ 12 🍗 Box Jump (Calf Power) (prescribed, track sets and reps)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋⌛🍗🔵 (Primer | Legs | Time | Structured)
-├─ 10 🍗 Standing Quad Stretch (tight setup, crisp intent)
+├─ 10 🍗 Depth Drop (Reactive Calf) (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋⌛🍗🔵 (Bread & Butter | Legs | Time | Structured)
-├─ 10 🍗 Lying Quad Stretch (Prone) (prescribed, track sets and reps)
+├─ 10 🍗 Single-Leg Jump Rope (prescribed, track sets and reps)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 90s
 ═══
 ## 4) 🗿 Sculpt
 Subcode: 🦋⌛🍗🔵 (Sculpt | Legs | Time | Structured)
-├─ 12 🍗 Step-Down (Eccentric) (angles, tension, volume)
+├─ 12 🍗 Jump Rope (angles, tension, volume)
 │  Set 1: 🦋 65% × 12 (shaping)
 │  Set 2: 🦋 65% × 12 (carving)
 Rest: 60s
 ═══
 ## 5) 🧩 Supplemental
 Subcode: 🦋⌛🍗🔵 (Supplemental | Legs | Time | Structured)
-├─ 12 🍗 Step-Down (Eccentric) (full range, different angle)
+├─ 12 🍗 Jump Rope (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 60s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋⌛🍗🔵 (Release | Legs | Time | Structured)
-├─ 12 🍗 Leg Extension Machine (smooth tempo, downshift)
+├─ 12 🍗 Double-Unders (Jump Rope) (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══

@@ -9,29 +9,31 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🔵 Structured | Tier 0-5 | GOLD: No | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🛒 Barbell Overhead Press EMOM — Push Structured 🛒
+# 🛒 Kettlebell Swing (Two-Hand) — Push Structured 🛒
 
 ## Strength Time — Push focus (Structured) · 50-65 min
 
 **CODE:** ⛽⌛🛒🔵
 
 > "Same weight, same reps, same rest. Build the base one session at a time."
+
+*Marathon / Distance Running: Prescribed intervals — zone targets, heart rate windows, timed rest*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⛽⌛🛒🔵 (Warm-Up | Push | Time | Structured)
-├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (prescribed, track sets and reps)
+├─ 6 🛒 American Swing (Overhead) (prescribed, track sets and reps)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽⌛🛒🔵 (Primer | Push | Time | Structured)
-├─ 5 🛒 Incline Barbell Bench Press (30°) (tight setup, crisp intent)
+├─ 5 🛒 Heavy Swing (Power Focus) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽⌛🛒🔵 (Bread & Butter | Push | Time | Structured)
-├─ 5 🛒 Barbell Overhead Press EMOM (prescribed, track sets and reps)
+├─ 5 🛒 Kettlebell Swing (Two-Hand) (prescribed, track sets and reps)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽⌛🛒🔵 (Supplemental | Push | Time | Structured)
-├─ 6 🛒 Smith Machine Incline Press (full range, different angle)
+├─ 6 🛒 Dead Stop Swing (Reset Between Reps) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽⌛🛒🔵 (Release | Push | Time | Structured)
-├─ 6 🛒 Landmine Press (Two-Arm, Chest Focus) (smooth tempo, downshift)
+├─ 6 🛒 Swing to High Pull (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

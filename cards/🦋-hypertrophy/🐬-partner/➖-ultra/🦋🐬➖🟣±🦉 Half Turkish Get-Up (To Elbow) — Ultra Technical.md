@@ -9,29 +9,31 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# ➖ Half Turkish Get-Up (To Elbow) — Ultra Technical ➖
+# ➖ Kettlebell Swing (Two-Hand) — Ultra Technical ➖
 
 ## Hypertrophy Partner — Ultra focus (Technical) · 55-70 min
 
 **CODE:** 🦋🐬➖🟣
 
 > "Feel the muscle work through the full range. Precision builds tissue."
+
+*Olympic Lifting: Masterclass — 1-on-1 with a world-class coach at this exact skill*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: 🦋🐬➖🟣 (Warm-Up | Ultra | Partner | Technical)
-├─ 12 ➖ Kettlebell Goblet Squat (precision, quality over volume)
+├─ 12 ➖ American Swing (Overhead) (precision, quality over volume)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🐬➖🟣 (Primer | Ultra | Partner | Technical)
-├─ 10 ➖ Turkish Get-Up (Full) (tight setup, crisp intent)
+├─ 10 ➖ Heavy Swing (Power Focus) (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🐬➖🟣 (Bread & Butter | Ultra | Partner | Technical)
-├─ 10 ➖ Half Turkish Get-Up (To Elbow) (precision, quality over volume)
+├─ 10 ➖ Kettlebell Swing (Two-Hand) (precision, quality over volume)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🦋🐬➖🟣 (Supplemental | Ultra | Partner | Technical)
-├─ 12 ➖ Half Turkish Get-Up (To Elbow) (full range, different angle)
+├─ 12 ➖ Dead Stop Swing (Reset Between Reps) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🪫 Release
 Subcode: 🦋🐬➖🟣 (Release | Ultra | Partner | Technical)
-├─ 12 ➖ Turkish Get-Up (To Seated) (smooth tempo, downshift)
+├─ 12 ➖ Swing to High Pull (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 90s
 ═══

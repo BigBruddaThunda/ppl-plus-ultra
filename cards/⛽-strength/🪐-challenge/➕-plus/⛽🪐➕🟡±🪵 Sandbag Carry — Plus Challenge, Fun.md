@@ -16,6 +16,8 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 **CODE:** ⛽🪐➕🟡
 
 > "Find a movement you have not tried at this load and own it."
+
+*Tactical / First Responder: Cross-training exploration — adjacent skills that improve the primary craft*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: ⛽🪐➕🟡 (Warm-Up | Plus | Challenge | Fun)

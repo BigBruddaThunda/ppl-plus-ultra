@@ -16,16 +16,18 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 **CODE:** ⚖🌹🍗🟣
 
 > "Precise correction. Small movements, full attention, zero momentum."
+
+*Flexibility / Mobility: Precise positioning in restorative holds — depth over speed, accuracy over range*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: ⚖🌹🍗🟣 (Warm-Up | Legs | Aesthetic | Technical)
-├─ 12 🍗 Standing Quad Stretch (precision, quality over volume)
+├─ 12 🍗 Single-Leg Jump Rope (precision, quality over volume)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖🌹🍗🟣 (Primer | Legs | Aesthetic | Technical)
-├─ 11 🍗 Pogo Hops (Ankle Bounce) (tight setup, crisp intent)
+├─ 11 🍗 Single-Leg Balance Hold (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 112s
 ═══
@@ -39,14 +41,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🌹🍗🟣 (Supplemental | Legs | Aesthetic | Technical)
-├─ 12 🍗 Step-Down (Eccentric) (full range, different angle)
+├─ 12 🍗 Single-Leg Balance with Perturbation (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🌹🍗🟣 (Release | Legs | Aesthetic | Technical)
-├─ 12 🍗 Leg Extension Machine (smooth tempo, downshift)
+├─ 12 🍗 BOSU Ball Single-Leg Balance (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 112s
 ═══

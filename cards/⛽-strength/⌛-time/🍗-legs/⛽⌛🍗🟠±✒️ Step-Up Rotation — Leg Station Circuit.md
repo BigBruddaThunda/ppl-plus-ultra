@@ -9,34 +9,36 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟠 Circuit | Tier 0-5 | GOLD: No | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🎱 🧩 🪫 🚂
 ---
-# 🍗 Step-Up Rotation — Legs Circuit 🍗
+# 🍗 Kettlebell Swing (Single-Arm) — Legs Circuit 🍗
 
 ## Strength Time — Legs focus (Circuit) · 50-65 min
 
 **CODE:** ⛽⌛🍗🟠
 
 > "Rotate stations. Keep the tissues trading off under heavy demand."
+
+*Combat Sport Prep: Athletic circuit — each station trains a different movement pattern*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⛽⌛🍗🟠 (Warm-Up | Legs | Time | Circuit)
-├─ 6 🍗 Single-Leg Pogo Hops (station rotation, keep moving)
+├─ 6 🍗 Kettlebell Swing (Alternating Arms) (station rotation, keep moving)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 45s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⛽⌛🍗🟠 (ARAM | Legs | Time | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🍗 Step-Up Rotation × 5 (station rotation, keep moving)
-│  Station 2: 🍗 Single-Leg Pogo Hops × 5 (station rotation, keep moving)
-│  Station 3: 🍗 Deep Squat Hold (Ankle Mobility) × 5 (station rotation, keep moving)
-│  Station 4: 🍗 Back Squat (High Bar) × 5 (station rotation, keep moving)
+│  Station 1: 🍗 Kettlebell Swing (Single-Arm) × 5 (station rotation, keep moving)
+│  Station 2: 🍗 Kettlebell Swing (Alternating Arms) × 5 (station rotation, keep moving)
+│  Station 3: 🍗 Single-Arm American Swing × 5 (station rotation, keep moving)
+│  Station 4: 🍗 Single-Leg Swing × 5 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 60s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⛽⌛🍗🟠 (Release | Legs | Time | Circuit)
-├─ 6 🍗 Walking Lunge (smooth tempo, downshift)
+├─ 6 🍗 Alternating Kettlebell Snatch (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 60s
 ═══

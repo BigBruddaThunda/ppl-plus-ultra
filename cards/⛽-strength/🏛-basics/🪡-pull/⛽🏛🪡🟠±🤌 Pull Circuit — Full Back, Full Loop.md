@@ -9,34 +9,36 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟠 Circuit | Tier 0–3 | GOLD: No | Station rotation. No barbells. Loop logic required.
 blocks: ♨️ → 🎱 → 🪫 → 🚂 → 🧮
 ---
-# 🪡 Pull Circuit — Pull Circuit 🪡
+# 🪡 Kettlebell Swing (Single-Arm) — Pull Circuit 🪡
 
 ## Strength Basics — Pull focus (Circuit) · 50-65 min
 
 **CODE:** ⛽🏛🪡🟠
 
 > "Rotate stations. Keep the tissues trading off under heavy demand."
+
+*Sport Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: ⛽🏛🪡🟠 (Warm-Up | Pull | Basics | Circuit)
-├─ 6 🪡 Pull-Up (Overhand Grip) (station rotation, keep moving)
+├─ 6 🪡 Kettlebell Swing (Alternating Arms) (station rotation, keep moving)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 45s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⛽🏛🪡🟠 (ARAM | Pull | Basics | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🪡 Pull Circuit × 5 (station rotation, keep moving)
-│  Station 2: 🪡 Pull-Up (Overhand Grip) × 5 (station rotation, keep moving)
-│  Station 3: 🪡 Bent-Over Barbell Row (Overhand) × 5 (station rotation, keep moving)
-│  Station 4: 🪡 Chest-Supported Row (Elbow Out) × 5 (station rotation, keep moving)
+│  Station 1: 🪡 Kettlebell Swing (Single-Arm) × 5 (station rotation, keep moving)
+│  Station 2: 🪡 Kettlebell Swing (Alternating Arms) × 5 (station rotation, keep moving)
+│  Station 3: 🪡 Single-Arm American Swing × 5 (station rotation, keep moving)
+│  Station 4: 🪡 Single-Leg Swing × 5 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 60s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⛽🏛🪡🟠 (Release | Pull | Basics | Circuit)
-├─ 6 🪡 Deadlift (Conventional) (smooth tempo, downshift)
+├─ 6 🪡 Suitcase Carry (Single-Arm) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 60s
 ═══

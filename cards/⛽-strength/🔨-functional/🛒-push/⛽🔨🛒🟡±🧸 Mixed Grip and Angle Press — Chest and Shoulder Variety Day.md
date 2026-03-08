@@ -9,23 +9,25 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟡 Fun | Tier 0–5 | GOLD: No | Exploration and variety. Structured play within functional push constraints.
 blocks: ♨️ → ▶️ → 🧈 → 🏖 → 🚂
 ---
-# 🛒 Mixed Grip and Angle Press — Push Fun 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Fun 🛒
 
 ## Strength Functional — Push focus (Fun) · 50-65 min
 
 **CODE:** ⛽🔨🛒🟡
 
 > "Find a movement you have not tried at this load and own it."
+
+*General Functional Fitness: Movement exploration — unconventional patterns, play with load and position*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: ⛽🔨🛒🟡 (Warm-Up | Push | Functional | Fun)
-├─ 6 🛒 Single-Arm Cable Chest Fly (explore, stay within constraints)
+├─ 6 🛒 Depth Push-Up (Drop to Floor) (explore, stay within constraints)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⛽🔨🛒🟡 (Bread & Butter | Push | Functional | Fun)
-├─ 5 🛒 Mixed Grip and Angle Press (explore, stay within constraints)
+├─ 5 🛒 Plyometric Push-Up (Hands Leave Ground) (explore, stay within constraints)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,7 +41,7 @@ Rest: 120s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⛽🔨🛒🟡 (Sandbox | Push | Functional | Fun)
-├─ 5 🛒 Alternating Dumbbell Curl (explore within constraints, choose your variation)
+├─ 5 🛒 Plyometric Push-Up (Hands Leave Ground) (explore within constraints, choose your variation)
 │  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
 │  Option B: ⛽ 70% × 5 (try a variation you have not used before)
 Rest: 120s

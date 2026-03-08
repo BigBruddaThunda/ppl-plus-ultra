@@ -9,23 +9,25 @@ type: ➕ Plus | Full body power, core
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➕ One-Arm Deadlift — Plus Mindful ➕
+# ➕ Hip Flexor Stretch (Half-Kneeling) — Plus Mindful ➕
 
 ## Performance Partner — Plus focus (Mindful) · 25-35 min
 
 **CODE:** 🏟🐬➕⚪
 
 > "Test movement quality under minimal load. Patience is the metric."
+
+*Active Recovery: Deep parasympathetic work — breathe into each position, leave fresher than you entered*
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: 🏟🐬➕⚪ (Warm-Up | Plus | Partner | Mindful)
-├─ 3 ➕ Single-Arm Row (Rhomboid Emphasis) (4s eccentric, breath-paced)
+├─ 3 ➕ Walking High Knees (4s eccentric, breath-paced)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 180s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟🐬➕⚪ (Bread & Butter | Plus | Partner | Mindful)
-├─ 2 ➕ One-Arm Deadlift (4s eccentric, breath-paced)
+├─ 2 ➕ Hip Flexor Stretch (Half-Kneeling) (4s eccentric, breath-paced)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➖ Scoop Toss (Low to High) — Ultra Intense ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Intense ➖
 
 ## Performance Challenge — Ultra focus (Intense) · 25-35 min
 
 **CODE:** 🏟🪐➖🔴
 
 > "All-out effort. Leave everything on the platform."
+
+*Sprint / Power Conditioning: All-out intervals — max effort, full recovery, repeat until capacity drops*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🏟🪐➖🔴 (Warm-Up | Ultra | Challenge | Intense)
-├─ 3 ➖ Single-Foot In Each Box (Forward) (high effort, push the pace)
+├─ 3 ➖ Kettlebell Swing (Single-Arm) (high effort, push the pace)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 45s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🪐➖🔴 (Progression | Ultra | Challenge | Intense)
-├─ 2 ➖ Scoop Toss (Low to High) (ramp to test weight)
+├─ 2 ➖ Single-Leg Hops Through Ladder (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🪐➖🔴 (Bread & Butter | Ultra | Challenge | Intense)
-├─ 2 ➖ Scoop Toss (Low to High) (high effort, push the pace)
+├─ 2 ➖ Single-Leg Hops Through Ladder (high effort, push the pace)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

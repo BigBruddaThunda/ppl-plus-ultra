@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🍗 Single-Leg Pogo Hops — Legs Structured 🍗
+# 🍗 Single-Leg Jump Rope — Legs Structured 🍗
 
 ## Performance Aesthetic — Legs focus (Structured) · 25-35 min
 
 **CODE:** 🏟🌹🍗🔵
 
 > "Execute the test exactly as prescribed. Record the number."
+
+*Kettlebell Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🏟🌹🍗🔵 (Warm-Up | Legs | Aesthetic | Structured)
-├─ 3 🍗 Pogo Hops (Ankle Bounce) (prescribed, track sets and reps)
+├─ 3 🍗 Kettlebell Swing (Single-Arm) (prescribed, track sets and reps)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🌹🍗🔵 (Progression | Legs | Aesthetic | Structured)
-├─ 2 🍗 Single-Leg Pogo Hops (ramp to test weight)
+├─ 2 🍗 Single-Leg Jump Rope (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🌹🍗🔵 (Bread & Butter | Legs | Aesthetic | Structured)
-├─ 2 🍗 Single-Leg Pogo Hops (prescribed, track sets and reps)
+├─ 2 🍗 Single-Leg Jump Rope (prescribed, track sets and reps)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

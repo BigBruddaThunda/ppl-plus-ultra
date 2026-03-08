@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🪡 Trap Bar Carry — Pull Structured 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Structured 🪡
 
 ## Full Body Challenge — Pull focus (Structured) · 40-55 min
 
 **CODE:** 🌾🪐🪡🔵
 
 > "Prescribed flow. Each movement connects to the next without reset."
+
+*General Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🌾🪐🪡🔵 (Warm-Up | Pull | Challenge | Structured)
@@ -25,14 +27,14 @@ Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🪐🪡🔵 (Composition | Pull | Challenge | Structured)
-├─ 9 🪡 Chest-Supported Row (Elbow Out) → Trap Bar Carry (flow without reset)
+├─ 9 🪡 Chest-Supported Row (Elbow Out) → Barbell Overhead Press (Standing) (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🪐🪡🔵 (Bread & Butter | Pull | Challenge | Structured)
-├─ 9 🪡 Trap Bar Carry (prescribed, track sets and reps)
+├─ 9 🪡 Barbell Overhead Press (Standing) (prescribed, track sets and reps)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)

@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🪡 Standing Hip Internal Rotation (Band) — Pull Mindful 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Mindful 🪡
 
 ## Restoration Challenge — Pull focus (Mindful) · 30-40 min
 
 **CODE:** 🖼🪐🪡⚪
 
 > "Breathe into each position. Leave fresher than you entered."
+
+*Active Recovery: Deep parasympathetic work — breathe into each position, leave fresher than you entered*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,20 +25,20 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🪐🪡⚪ (Release | Pull | Challenge | Mindful)
-├─ 12 🪡 Preacher Curl Machine (parasympathetic, tension down, 4s eccentric)
+├─ 12 🪡 Half-Kneeling Band Single-Arm Pulldown (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🪐🪡⚪ (Bread & Butter | Pull | Challenge | Mindful)
-├─ 13 🪡 Standing Hip Internal Rotation (Band) (4s eccentric, breath-paced)
+├─ 13 🪡 Single-Arm Cable Rear Delt Fly (4s eccentric, breath-paced)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 120s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🪐🪡⚪ (Imprint | Pull | Challenge | Mindful)
-├─ 15 🪡 Standing Hip Internal Rotation (Band) (high rep, low load, neural memory)
+├─ 15 🪡 One-Arm Dead Hang (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 120s
 ═══

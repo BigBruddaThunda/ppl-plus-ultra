@@ -9,30 +9,32 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🛒 Incline Barbell Bench Press (45°) — Push Bodyweight 🛒
+# 🛒 Alternating Dumbbell Front Raise — Push Bodyweight 🛒
 
 ## Performance Challenge — Push focus (Bodyweight) · 25-35 min
 
 **CODE:** 🏟🪐🛒🟢
 
 > "Test bodyweight capacity. How many, how fast, how clean."
+
+*Climbing / Grip Sport: Bodyweight functional — park, field, living room — prove the pattern works anywhere*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🏟🪐🛒🟢 (Warm-Up | Push | Challenge | Bodyweight)
-├─ 3 🛒 Incline Barbell Bench Press (30°) (bodyweight, no external load needed)
+├─ 3 🛒 Single-Arm Dumbbell Lateral Raise (bodyweight, no external load needed)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🪐🛒🟢 (Progression | Push | Challenge | Bodyweight)
-├─ 2 🛒 Incline Barbell Bench Press (45°) (ramp to test weight)
+├─ 2 🛒 Alternating Dumbbell Front Raise (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🪐🛒🟢 (Bread & Butter | Push | Challenge | Bodyweight)
-├─ 2 🛒 Incline Barbell Bench Press (45°) (bodyweight, no external load needed)
+├─ 2 🛒 Alternating Dumbbell Front Raise (bodyweight, no external load needed)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

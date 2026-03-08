@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🪡 Half-Kneeling Band Single-Arm Pulldown — Pull Bodyweight 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Bodyweight 🪡
 
 ## Restoration Challenge — Pull focus (Bodyweight) · 30-40 min
 
 **CODE:** 🖼🪐🪡🟢
 
 > "Restore with what your body provides. Floor work, breath, gentle movement."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) 🎯 Intention
 
@@ -29,7 +31,7 @@ Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🪐🪡🟢 (Bread & Butter | Pull | Challenge | Bodyweight)
-├─ 13 🪡 Half-Kneeling Band Single-Arm Pulldown (bodyweight, no external load needed)
+├─ 13 🪡 Barbell Overhead Press (Standing) (bodyweight, no external load needed)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s

@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➕ Half-Kneeling Band Single-Arm Pulldown — Plus Bodyweight ➕
+# ➕ Pull-Up (Overhand Grip) — Plus Bodyweight ➕
 
 ## Restoration Basics — Plus focus (Bodyweight) · 30-40 min
 
 **CODE:** 🖼🏛➕🟢
 
 > "Restore with what your body provides. Floor work, breath, gentle movement."
+
+*Minimalist Hypertrophy: Bodyweight hypertrophy — high reps, slow tempo, squeeze and hold patterns*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,20 +25,20 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🏛➕🟢 (Release | Plus | Basics | Bodyweight)
-├─ 12 ➕ Neck CARs (Controlled Circles) (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➕ Neutral-Grip Pull-Up (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🏛➕🟢 (Bread & Butter | Plus | Basics | Bodyweight)
-├─ 13 ➕ Half-Kneeling Band Single-Arm Pulldown (bodyweight, no external load needed)
+├─ 13 ➕ Pull-Up (Overhand Grip) (bodyweight, no external load needed)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🏛➕🟢 (Imprint | Plus | Basics | Bodyweight)
-├─ 15 ➕ Half-Kneeling Band Single-Arm Pulldown (high rep, low load, neural memory)
+├─ 15 ➕ Mixed-Grip Pull-Up (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══

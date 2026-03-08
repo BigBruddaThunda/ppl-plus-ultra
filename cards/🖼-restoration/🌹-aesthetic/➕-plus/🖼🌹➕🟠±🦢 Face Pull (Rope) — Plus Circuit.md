@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➕ Face Pull (Rope) — Plus Circuit ➕
+# ➕ Hip Flexor Stretch (Half-Kneeling) — Plus Circuit ➕
 
 ## Restoration Aesthetic — Plus focus (Circuit) · 30-40 min
 
 **CODE:** 🖼🌹➕🟠
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
+
+*Stress Management: Restoration circuit — each station addresses a different tissue or system*
 ═══
 ## 1) 🎯 Intention
 
@@ -24,17 +26,17 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🖼🌹➕🟠 (ARAM | Plus | Aesthetic | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➕ Face Pull (Rope) × 13 (station rotation, keep moving)
-│  Station 2: ➕ Hip Flexor Stretch (Half-Kneeling) × 13 (station rotation, keep moving)
-│  Station 3: ➕ Wide-Grip Lat Pulldown (Teres Focus) × 13 (station rotation, keep moving)
-│  Station 4: ➕ Good Morning (Barbell) × 13 (station rotation, keep moving)
+│  Station 1: ➕ Hip Flexor Stretch (Half-Kneeling) × 13 (station rotation, keep moving)
+│  Station 2: ➕ Walking High Knees × 13 (station rotation, keep moving)
+│  Station 3: ➕ Walking Butt Kicks × 13 (station rotation, keep moving)
+│  Station 4: ➕ Walking Leg Cradle × 13 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 30s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🖼🌹➕🟠 (Release | Plus | Aesthetic | Circuit)
-├─ 12 ➕ Half-Kneeling Cable Chop (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➕ Walking Quad Stretch (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 30s
 ═══

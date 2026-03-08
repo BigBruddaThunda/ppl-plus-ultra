@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# ➕ Atlas Stone Lift — Plus Technical ➕
+# ➕ Aquaman (Alternating Superman) — Plus Technical ➕
 
 ## Hypertrophy Aesthetic — Plus focus (Technical) · 55-70 min
 
 **CODE:** 🦋🌹➕🟣
 
 > "Feel the muscle work through the full range. Precision builds tissue."
+
+*Aesthetic Specialization: Precision isolation — feel every fiber, full ROM, cable and machine emphasis*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🦋🌹➕🟣 (Warm-Up | Plus | Aesthetic | Technical)
@@ -25,13 +27,13 @@ Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🌹➕🟣 (Primer | Plus | Aesthetic | Technical)
-├─ 10 ➕ Wide-Grip Lat Pulldown (Teres Focus) (tight setup, crisp intent)
+├─ 10 ➕ Atlas Stone Lift (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🌹➕🟣 (Bread & Butter | Plus | Aesthetic | Technical)
-├─ 10 ➕ Atlas Stone Lift (precision, quality over volume)
+├─ 10 ➕ Aquaman (Alternating Superman) (precision, quality over volume)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🦋🌹➕🟣 (Supplemental | Plus | Aesthetic | Technical)
-├─ 12 ➕ Face Pull (Rope) (full range, different angle)
+├─ 12 ➕ Tire Flip (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🪫 Release
 Subcode: 🦋🌹➕🟣 (Release | Plus | Aesthetic | Technical)
-├─ 12 ➕ Good Morning (Barbell) (smooth tempo, downshift)
+├─ 12 ➕ Half-Kneeling Band Single-Arm Pulldown (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 90s
 ═══

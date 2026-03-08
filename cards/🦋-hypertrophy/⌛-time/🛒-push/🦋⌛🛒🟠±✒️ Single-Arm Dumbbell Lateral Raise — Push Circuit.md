@@ -9,34 +9,35 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🛒 Single-Arm Dumbbell Lateral Raise — Push Circuit 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Circuit 🛒
 
 ## Hypertrophy Time — Push focus (Circuit) · 55-70 min
 
 **CODE:** 🦋⌛🛒🟠
 
 > "Circuit the muscle group from every angle. Each station is a new stimulus."
+
+*General Functional Fitness: Athletic circuit — each station trains a different movement pattern*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🦋⌛🛒🟠 (Warm-Up | Push | Time | Circuit)
-├─ 12 🛒 Medicine Ball Chest Pass (station rotation, keep moving)
+├─ 12 🛒 Depth Push-Up (Drop to Floor) (station rotation, keep moving)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🦋⌛🛒🟠 (ARAM | Push | Time | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🛒 Single-Arm Dumbbell Lateral Raise × 10 (station rotation, keep moving)
-│  Station 2: 🛒 Medicine Ball Chest Pass × 10 (station rotation, keep moving)
-│  Station 3: 🛒 Single-Arm Cable Chest Fly × 10 (station rotation, keep moving)
-│  Station 4: 🛒 Low-to-High Cable Fly × 10 (station rotation, keep moving)
+│  Station 1: 🛒 Plyometric Push-Up (Hands Leave Ground) × 10 (station rotation, keep moving)
+│  Station 2: 🛒 Depth Push-Up (Drop to Floor) × 10 (station rotation, keep moving)
+│  Station 3: 🛒 Banded Speed Bench Press × 10 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🦋⌛🛒🟠 (Release | Push | Time | Circuit)
-├─ 12 🛒 Band Pull-Apart (Chest Opener) (smooth tempo, downshift)
+├─ 12 🛒 Plyometric Push-Up (Hands Leave Ground) (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 30s
 ═══

@@ -9,23 +9,25 @@ type: ➖ Ultra | Cardiovascular system
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# ➖ Bottoms-Up Turkish Get-Up — Ultra Mindful ➖
+# ➖ Sprint (10-30 meters) — Ultra Mindful ➖
 
 ## Hypertrophy Aesthetic — Ultra focus (Mindful) · 55-70 min
 
 **CODE:** 🦋🌹➖⚪
 
 > "Slow eccentrics under moderate load. Time under tension is the stimulus."
+
+*50+ Active Living: Recovery and restoration — breath work, gentle movement, nervous system regulation*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: 🦋🌹➖⚪ (Warm-Up | Ultra | Aesthetic | Mindful)
-├─ 12 ➖ Turkish Get-Up (Full) (4s eccentric, breath-paced)
+├─ 12 ➖ Sprint (30-60 meters) (4s eccentric, breath-paced)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 120s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🦋🌹➖⚪ (Bread & Butter | Ultra | Aesthetic | Mindful)
-├─ 10 ➖ Bottoms-Up Turkish Get-Up (4s eccentric, breath-paced)
+├─ 10 ➖ Sprint (10-30 meters) (4s eccentric, breath-paced)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 180s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🦋🌹➖⚪ (Supplemental | Ultra | Aesthetic | Mindful)
-├─ 12 ➖ Half Turkish Get-Up (To Elbow) (full range, different angle)
+├─ 12 ➖ Hill Sprint (Short) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 120s
 ═══
 ## 4) 🪫 Release
 Subcode: 🦋🌹➖⚪ (Release | Ultra | Aesthetic | Mindful)
-├─ 12 ➖ Turkish Get-Up (To Seated) (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➖ Hill Sprint (Long) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🦋🌹➖⚪ (Imprint | Ultra | Aesthetic | Mindful)
-├─ 12 ➖ Turkish Get-Up (To Kneeling) (high rep, low load, neural memory)
+├─ 12 ➖ Tempo Run (Moderate Pace) (high rep, low load, neural memory)
 │  Set 1: 🦋 45% × 12 (lock the pattern)
 Rest: 120s
 ═══

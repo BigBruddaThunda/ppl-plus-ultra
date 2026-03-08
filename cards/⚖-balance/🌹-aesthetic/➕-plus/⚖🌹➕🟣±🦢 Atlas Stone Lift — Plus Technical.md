@@ -9,29 +9,31 @@ type: ➕ Plus | Full body power, core
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➕ Atlas Stone Lift — Plus Technical ➕
+# ➕ Hip Flexor Stretch (Half-Kneeling) — Plus Technical ➕
 
 ## Balance Aesthetic — Plus focus (Technical) · 40-50 min
 
 **CODE:** ⚖🌹➕🟣
 
 > "Precise correction. Small movements, full attention, zero momentum."
+
+*Flexibility / Mobility: Precise positioning in restorative holds — depth over speed, accuracy over range*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: ⚖🌹➕🟣 (Warm-Up | Plus | Aesthetic | Technical)
-├─ 12 ➕ Yoke Walk (precision, quality over volume)
+├─ 12 ➕ Walking High Knees (precision, quality over volume)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖🌹➕🟣 (Primer | Plus | Aesthetic | Technical)
-├─ 11 ➕ Wide-Grip Lat Pulldown (Teres Focus) (tight setup, crisp intent)
+├─ 11 ➕ Walking Butt Kicks (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🌹➕🟣 (Bread & Butter | Plus | Aesthetic | Technical)
-├─ 11 ➕ Atlas Stone Lift (precision, quality over volume)
+├─ 11 ➕ Hip Flexor Stretch (Half-Kneeling) (precision, quality over volume)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🌹➕🟣 (Supplemental | Plus | Aesthetic | Technical)
-├─ 12 ➕ Face Pull (Rope) (full range, different angle)
+├─ 12 ➕ Walking Leg Cradle (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🌹➕🟣 (Release | Plus | Aesthetic | Technical)
-├─ 12 ➕ Good Morning (Barbell) (smooth tempo, downshift)
+├─ 12 ➕ Walking Quad Stretch (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 112s
 ═══

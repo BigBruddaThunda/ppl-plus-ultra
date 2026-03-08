@@ -9,30 +9,32 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🪡 Cable Row (Rhomboid Focus - Elbows In) — Pull Structured 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Structured 🪡
 
 ## Performance Time — Pull focus (Structured) · 25-35 min
 
 **CODE:** 🏟⌛🪡🔵
 
 > "Execute the test exactly as prescribed. Record the number."
+
+*Senior Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🏟⌛🪡🔵 (Warm-Up | Pull | Time | Structured)
-├─ 3 🪡 Wide-Grip Pull-Up (Teres Focus) (prescribed, track sets and reps)
+├─ 3 🪡 Single-Arm Overhead Dumbbell Hold (prescribed, track sets and reps)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟⌛🪡🔵 (Progression | Pull | Time | Structured)
-├─ 2 🪡 Cable Row (Rhomboid Focus - Elbows In) (ramp to test weight)
+├─ 2 🪡 Single-Arm Cable Rear Delt Fly (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟⌛🪡🔵 (Bread & Butter | Pull | Time | Structured)
-├─ 2 🪡 Cable Row (Rhomboid Focus - Elbows In) (prescribed, track sets and reps)
+├─ 2 🪡 Single-Arm Cable Rear Delt Fly (prescribed, track sets and reps)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

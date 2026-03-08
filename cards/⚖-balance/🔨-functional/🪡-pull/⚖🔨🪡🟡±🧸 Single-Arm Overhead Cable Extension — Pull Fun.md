@@ -9,23 +9,25 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🪡 Single-Arm Overhead Cable Extension — Pull Fun 🪡
+# 🪡 Single-Arm Face Pull — Pull Fun 🪡
 
 ## Balance Functional — Pull focus (Fun) · 40-50 min
 
 **CODE:** ⚖🔨🪡🟡
 
 > "Explore movements that challenge your weakest positions."
+
+*General Functional Fitness: Movement exploration — unconventional patterns, play with load and position*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: ⚖🔨🪡🟡 (Warm-Up | Pull | Functional | Fun)
-├─ 12 🪡 Single-Arm Face Pull (explore, stay within constraints)
+├─ 12 🪡 Aquaman (Alternating Superman) (explore, stay within constraints)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⚖🔨🪡🟡 (Bread & Butter | Pull | Functional | Fun)
-├─ 11 🪡 Single-Arm Overhead Cable Extension (explore, stay within constraints)
+├─ 11 🪡 Single-Arm Face Pull (explore, stay within constraints)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 90s
 ═══
 ## 3) 🌎 Exposure
 Subcode: ⚖🔨🪡🟡 (Exposure | Pull | Functional | Fun)
-├─ 11 🪡 Alternating Dumbbell Front Raise (try the unfamiliar version, explore the range)
+├─ 11 🪡 Single-Arm Lat Pulldown (try the unfamiliar version, explore the range)
 │  Set 1: ⚖ 55% × 11 (discovery set)
 Rest: 75s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⚖🔨🪡🟡 (Sandbox | Pull | Functional | Fun)
-├─ 11 🪡 Alternating Dumbbell Curl (explore within constraints, choose your variation)
+├─ 11 🪡 Single-Arm Dumbbell Row (explore within constraints, choose your variation)
 │  Option A: ⚖ 60% × 11 (play with grip, stance, or tempo)
 │  Option B: ⚖ 60% × 11 (try a variation you have not used before)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🔨🪡🟡 (Release | Pull | Functional | Fun)
-├─ 12 🪡 Alternating Dumbbell Front Raise (smooth tempo, downshift)
+├─ 12 🪡 Single-Arm Lat Pulldown (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

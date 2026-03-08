@@ -16,6 +16,8 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟🔨➕🔵
 
 > "Execute the test exactly as prescribed. Record the number."
+
+*General Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🏟🔨➕🔵 (Warm-Up | Plus | Functional | Structured)

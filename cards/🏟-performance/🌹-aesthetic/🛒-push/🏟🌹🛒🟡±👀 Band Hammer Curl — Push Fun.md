@@ -9,30 +9,32 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🛒 Band Hammer Curl — Push Fun 🛒
+# 🛒 Kettlebell Swing (Single-Arm) — Push Fun 🛒
 
 ## Performance Aesthetic — Push focus (Fun) · 25-35 min
 
 **CODE:** 🏟🌹🛒🟡
 
 > "Test something unconventional. Find where your capacity surprises you."
+
+*Explorer / Outdoor Athlete: Cross-training exploration — adjacent skills that improve the primary craft*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: 🏟🌹🛒🟡 (Warm-Up | Push | Aesthetic | Fun)
-├─ 3 🛒 Dumbbell Chest Fly (explore, stay within constraints)
+├─ 3 🛒 Kettlebell Swing (Alternating Arms) (explore, stay within constraints)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟🌹🛒🟡 (Bread & Butter | Push | Aesthetic | Fun)
-├─ 2 🛒 Band Hammer Curl (explore, stay within constraints)
+├─ 2 🛒 Kettlebell Swing (Single-Arm) (explore, stay within constraints)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🏟🌹🛒🟡 (Sandbox | Push | Aesthetic | Fun)
-├─ 2 🛒 Preacher Curl Machine (explore within constraints, choose your variation)
+├─ 2 🛒 Kettlebell Swing (Two-Hand) (explore within constraints, choose your variation)
 │  Option A: 🏟 82% × 2 (play with grip, stance, or tempo)
 │  Option B: 🏟 82% × 2 (try a variation you have not used before)
 Rest: N/A

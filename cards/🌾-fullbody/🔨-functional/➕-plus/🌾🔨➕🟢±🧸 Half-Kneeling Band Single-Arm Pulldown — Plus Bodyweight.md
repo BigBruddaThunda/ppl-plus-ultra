@@ -16,6 +16,8 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 **CODE:** 🌾🔨➕🟢
 
 > "Flow through the body using only what you carry. No equipment needed."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🌾🔨➕🟢 (Warm-Up | Plus | Functional | Bodyweight)

@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) — Pull Bodyweight 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Bodyweight 🪡
 
 ## Balance Functional — Pull focus (Bodyweight) · 40-50 min
 
 **CODE:** ⚖🔨🪡🟢
 
 > "Find asymmetries with bodyweight. No equipment hides the gap."
+
+*Minimalist Hypertrophy: Bodyweight hypertrophy — high reps, slow tempo, squeeze and hold patterns*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: ⚖🔨🪡🟢 (Warm-Up | Pull | Functional | Bodyweight)
@@ -32,7 +34,7 @@ Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🔨🪡🟢 (Bread & Butter | Pull | Functional | Bodyweight)
-├─ 11 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) (bodyweight, no external load needed)
+├─ 11 🪡 Barbell Overhead Press (Standing) (bodyweight, no external load needed)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)

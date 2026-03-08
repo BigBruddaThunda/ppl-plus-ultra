@@ -16,6 +16,8 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 **CODE:** 🦋🐬➕🟠
 
 > "Circuit the muscle group from every angle. Each station is a new stimulus."
+
+*Tactical / First Responder: Skill circuit — rotate through craft-specific stations*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: 🦋🐬➕🟠 (Warm-Up | Plus | Partner | Circuit)

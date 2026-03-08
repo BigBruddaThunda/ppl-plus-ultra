@@ -9,34 +9,36 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🛒 Single-Arm Dumbbell Lateral Raise — Push Circuit 🛒
+# 🛒 Kettlebell Swing (Two-Hand) — Push Circuit 🛒
 
 ## Full Body Time — Push focus (Circuit) · 40-55 min
 
 **CODE:** 🌾⌛🛒🟠
 
 > "Rotate through full-body stations. Every station moves a different chain."
+
+*General Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🌾⌛🛒🟠 (Warm-Up | Push | Time | Circuit)
-├─ 10 🛒 Single-Arm Cable Chest Fly (station rotation, keep moving)
+├─ 10 🛒 American Swing (Overhead) (station rotation, keep moving)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🌾⌛🛒🟠 (ARAM | Push | Time | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🛒 Single-Arm Dumbbell Lateral Raise × 9 (station rotation, keep moving)
-│  Station 2: 🛒 Single-Arm Cable Chest Fly × 9 (station rotation, keep moving)
-│  Station 3: 🛒 Medicine Ball Chest Pass × 9 (station rotation, keep moving)
-│  Station 4: 🛒 Alternating Dumbbell Front Raise × 9 (station rotation, keep moving)
+│  Station 1: 🛒 Kettlebell Swing (Two-Hand) × 9 (station rotation, keep moving)
+│  Station 2: 🛒 American Swing (Overhead) × 9 (station rotation, keep moving)
+│  Station 3: 🛒 Heavy Swing (Power Focus) × 9 (station rotation, keep moving)
+│  Station 4: 🛒 Dead Stop Swing (Reset Between Reps) × 9 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 30s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🌾⌛🛒🟠 (Release | Push | Time | Circuit)
-├─ 10 🛒 Alternating Dumbbell Curl (smooth tempo, downshift)
+├─ 10 🛒 Swing to High Pull (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 30s
 ═══

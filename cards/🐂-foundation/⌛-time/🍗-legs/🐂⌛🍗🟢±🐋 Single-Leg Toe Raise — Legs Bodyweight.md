@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# 🍗 Single-Leg Toe Raise — Legs Bodyweight 🍗
+# 🍗 Single-Leg Jump Rope — Legs Bodyweight 🍗
 
 ## Foundation Time — Legs focus (Bodyweight) · 40-50 min
 
 **CODE:** 🐂⌛🍗🟢
 
 > "Learn the pattern with your own body first. External load comes later."
+
+*Marathon / Distance Running: Bodyweight conditioning — no gym, no excuses, cardio and movement flow*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🐂⌛🍗🟢 (Warm-Up | Legs | Time | Bodyweight)
-├─ 12 🍗 Half-Kneeling Hip Flexor Stretch (bodyweight, no external load needed)
+├─ 12 🍗 Box Jump (Calf Power) (bodyweight, no external load needed)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🔢 Fundamentals
 Subcode: 🐂⌛🍗🟢 (Fundamentals | Legs | Time | Bodyweight)
-├─ 12 🍗 Single-Leg Pogo Hops (slow, own each position)
+├─ 12 🍗 Depth Drop (Reactive Calf) (slow, own each position)
 │  Set 1: 🐂 45% × 12 (grounding)
 │  Set 2: 🐂 50% × 12 (pattern lock)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂⌛🍗🟢 (Bread & Butter | Legs | Time | Bodyweight)
-├─ 11 🍗 Single-Leg Toe Raise (bodyweight, no external load needed)
+├─ 11 🍗 Single-Leg Jump Rope (bodyweight, no external load needed)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 75s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂⌛🍗🟢 (Supplemental | Legs | Time | Bodyweight)
-├─ 13 🍗 Single-Leg Extension (full range, different angle)
+├─ 13 🍗 Jump Rope (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 60s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂⌛🍗🟢 (Imprint | Legs | Time | Bodyweight)
-├─ 15 🍗 Single-Leg Curl (Lying) (high rep, low load, neural memory)
+├─ 15 🍗 Farmer's Walk on Toes (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 60s
 ═══

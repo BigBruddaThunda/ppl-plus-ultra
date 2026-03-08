@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🪡 Seated Good Morning — Pull Technical 🪡
+# 🪡 Zercher Carry — Pull Technical 🪡
 
 ## Restoration Partner — Pull focus (Technical) · 30-40 min
 
 **CODE:** 🖼🐬🪡🟣
 
 > "Precise positioning in each restorative hold. Depth over speed."
+
+*CrossFit-Style: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🐬🪡🟣 (Bread & Butter | Pull | Partner | Technical)
-├─ 13 🪡 Seated Good Morning (precision, quality over volume)
+├─ 13 🪡 Zercher Carry (precision, quality over volume)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 90s
 ═══
 ## 3) 🧬 Imprint
 Subcode: 🖼🐬🪡🟣 (Imprint | Pull | Partner | Technical)
-├─ 15 🪡 Preacher Curl Machine (high rep, low load, neural memory)
+├─ 15 🪡 Archer Pull-Up (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 90s
 ═══

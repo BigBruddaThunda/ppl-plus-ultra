@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➖ Single-Foot In Each Box (Forward) — Ultra Teaching ➖
+# ➖ Rowing Machine (Steady State) — Ultra Teaching ➖
 
 ## Balance Functional — Ultra focus (Teaching) · 40-50 min
 
 **CODE:** ⚖🔨➖⚫
 
 > "Identify the weak link. Coach the correction before adding load."
+
+*New to Gym: Teaching session — learn the movement, understand the cues, build confidence*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: ⚖🔨➖⚫ (Warm-Up | Ultra | Functional | Teaching)
-├─ 12 ➖ Single-Leg Hops Through Ladder (coached, check form before adding load)
+├─ 12 ➖ Rowing Intervals (500m) (coached, check form before adding load)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: ⚖🔨➖⚫ (Craft | Ultra | Functional | Teaching)
-├─ 11 ➖ Kettlebell Goblet Squat (coach: check grip width, elbow angle, foot pressure)
+├─ 11 ➖ Rowing Intervals (1000m) (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: ⚖ 50% × 11 (practice the pattern, not the load)
 │  Set 2: ⚖ 55% × 11 (same cues, slightly heavier)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🔨➖⚫ (Bread & Butter | Ultra | Functional | Teaching)
-├─ 11 ➖ Single-Foot In Each Box (Forward) (coached, check form before adding load)
+├─ 11 ➖ Rowing Machine (Steady State) (coached, check form before adding load)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🔨➖⚫ (Supplemental | Ultra | Functional | Teaching)
-├─ 12 ➖ Single-Foot In Each Box (Forward) (full range, different angle)
+├─ 12 ➖ Rowing Intervals (2000m) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⚖🔨➖⚫ (Imprint | Ultra | Functional | Teaching)
-├─ 12 ➖ Single-Foot In Each Box (Forward) (high rep, low load, neural memory)
+├─ 12 ➖ Rowing Sprints (250m) (high rep, low load, neural memory)
 │  Set 1: ⚖ 45% × 12 (lock the pattern)
 Rest: 112s
 ═══

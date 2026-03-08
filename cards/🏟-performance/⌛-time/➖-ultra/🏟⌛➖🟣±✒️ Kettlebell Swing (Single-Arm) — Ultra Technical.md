@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➖ Kettlebell Swing (Single-Arm) — Ultra Technical ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Technical ➖
 
 ## Performance Time — Ultra focus (Technical) · 25-35 min
 
 **CODE:** 🏟⌛➖🟣
 
 > "One maximal attempt with perfect setup. The technique is the test."
+
+*Sprint / Power Conditioning: Technical conditioning — rowing stroke, cycling cadence, running gait precision*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🏟⌛➖🟣 (Warm-Up | Ultra | Time | Technical)
-├─ 3 ➖ Single-Foot In Each Box (Forward) (precision, quality over volume)
+├─ 3 ➖ Kettlebell Swing (Single-Arm) (precision, quality over volume)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 135s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟⌛➖🟣 (Progression | Ultra | Time | Technical)
-├─ 2 ➖ Kettlebell Swing (Single-Arm) (ramp to test weight)
+├─ 2 ➖ Single-Leg Hops Through Ladder (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟⌛➖🟣 (Bread & Butter | Ultra | Time | Technical)
-├─ 2 ➖ Kettlebell Swing (Single-Arm) (precision, quality over volume)
+├─ 2 ➖ Single-Leg Hops Through Ladder (precision, quality over volume)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

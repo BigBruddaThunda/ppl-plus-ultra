@@ -9,29 +9,31 @@ type: ➕ Plus | Full body power and core
 color: 🟣 Technical | Tier 0-5 | GOLD: Yes | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# ➕ Turkish Get-Up Timed Singles — Plus Technical ➕
+# ➕ Single-Leg Box Jump — Plus Technical ➕
 
 ## Strength Time — Plus focus (Technical) · 50-65 min
 
 **CODE:** ⛽⌛➕🟣
 
 > "One clean rep at the right load is worth more than five at the wrong one."
+
+*CrossFit-Style: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⛽⌛➕🟣 (Warm-Up | Plus | Time | Technical)
-├─ 6 ➕ Squat Jump (No Countermovement) (precision, quality over volume)
+├─ 6 ➕ Split Jump (Alternating) (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 135s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽⌛➕🟣 (Primer | Plus | Time | Technical)
-├─ 5 ➕ Full Clean (Squat Clean) (tight setup, crisp intent)
+├─ 5 ➕ Single-Leg Broad Jump (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽⌛➕🟣 (Bread & Butter | Plus | Time | Technical)
-├─ 5 ➕ Turkish Get-Up Timed Singles (precision, quality over volume)
+├─ 5 ➕ Single-Leg Box Jump (precision, quality over volume)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 270s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽⌛➕🟣 (Supplemental | Plus | Time | Technical)
-├─ 6 ➕ Snatch Grip Deadlift (Wide Grip) (full range, different angle)
+├─ 6 ➕ Alternating Leg Bound (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 180s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽⌛➕🟣 (Release | Plus | Time | Technical)
-├─ 6 ➕ Push Jerk (smooth tempo, downshift)
+├─ 6 ➕ Single-Leg Bound (Continuous) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 180s
 ═══

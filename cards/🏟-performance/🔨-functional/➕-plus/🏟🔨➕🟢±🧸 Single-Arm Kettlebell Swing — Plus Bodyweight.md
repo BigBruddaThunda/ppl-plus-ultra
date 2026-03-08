@@ -16,6 +16,8 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟🔨➕🟢
 
 > "Test bodyweight capacity. How many, how fast, how clean."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🏟🔨➕🟢 (Warm-Up | Plus | Functional | Bodyweight)

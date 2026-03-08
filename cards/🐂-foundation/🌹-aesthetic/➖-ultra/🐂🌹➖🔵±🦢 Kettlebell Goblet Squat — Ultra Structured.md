@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# ➖ Kettlebell Goblet Squat — Ultra Structured ➖
+# ➖ Kettlebell Swing (Two-Hand) — Ultra Structured ➖
 
 ## Foundation Aesthetic — Ultra focus (Structured) · 40-50 min
 
 **CODE:** 🐂🌹➖🔵
 
 > "Follow the prescription. The numbers build the habit."
+
+*Powerlifting: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🐂🌹➖🔵 (Warm-Up | Ultra | Aesthetic | Structured)
-├─ 12 ➖ Sprint (10-30 meters) (prescribed, track sets and reps)
+├─ 12 ➖ American Swing (Overhead) (prescribed, track sets and reps)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🔢 Fundamentals
 Subcode: 🐂🌹➖🔵 (Fundamentals | Ultra | Aesthetic | Structured)
-├─ 12 ➖ Kettlebell Goblet Squat (slow, own each position)
+├─ 12 ➖ Heavy Swing (Power Focus) (slow, own each position)
 │  Set 1: 🐂 45% × 12 (grounding)
 │  Set 2: 🐂 50% × 12 (pattern lock)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🌹➖🔵 (Bread & Butter | Ultra | Aesthetic | Structured)
-├─ 11 ➖ Kettlebell Goblet Squat (prescribed, track sets and reps)
+├─ 11 ➖ Kettlebell Swing (Two-Hand) (prescribed, track sets and reps)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 75s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🌹➖🔵 (Supplemental | Ultra | Aesthetic | Structured)
-├─ 13 ➖ Sprint (30-60 meters) (full range, different angle)
+├─ 13 ➖ Dead Stop Swing (Reset Between Reps) (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 60s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🌹➖🔵 (Imprint | Ultra | Aesthetic | Structured)
-├─ 15 ➖ Hill Sprint (Short) (high rep, low load, neural memory)
+├─ 15 ➖ Swing + Clean (Combo) (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 60s
 ═══

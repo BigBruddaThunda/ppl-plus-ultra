@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➖ Two Feet In Each Box (Forward) — Ultra Teaching ➖
+# ➖ Kettlebell Swing (Two-Hand) — Ultra Teaching ➖
 
 ## Balance Time — Ultra focus (Teaching) · 40-50 min
 
 **CODE:** ⚖⌛➖⚫
 
 > "Identify the weak link. Coach the correction before adding load."
+
+*Olympic Lifting: Teaches the craft-specific positions, timing, and coordination demands*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: ⚖⌛➖⚫ (Warm-Up | Ultra | Time | Teaching)
-├─ 12 ➖ Single-Foot In Each Box (Forward) (coached, check form before adding load)
+├─ 12 ➖ American Swing (Overhead) (coached, check form before adding load)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: ⚖⌛➖⚫ (Craft | Ultra | Time | Teaching)
-├─ 11 ➖ Turkish Get-Up (Full) (coach: check grip width, elbow angle, foot pressure)
+├─ 11 ➖ Heavy Swing (Power Focus) (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: ⚖ 50% × 11 (practice the pattern, not the load)
 │  Set 2: ⚖ 55% × 11 (same cues, slightly heavier)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖⌛➖⚫ (Bread & Butter | Ultra | Time | Teaching)
-├─ 11 ➖ Two Feet In Each Box (Forward) (coached, check form before adding load)
+├─ 11 ➖ Kettlebell Swing (Two-Hand) (coached, check form before adding load)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖⌛➖⚫ (Supplemental | Ultra | Time | Teaching)
-├─ 12 ➖ Kettlebell Goblet Squat (full range, different angle)
+├─ 12 ➖ Dead Stop Swing (Reset Between Reps) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⚖⌛➖⚫ (Imprint | Ultra | Time | Teaching)
-├─ 12 ➖ Half Turkish Get-Up (To Elbow) (high rep, low load, neural memory)
+├─ 12 ➖ Swing + Clean (Combo) (high rep, low load, neural memory)
 │  Set 1: ⚖ 45% × 12 (lock the pattern)
 Rest: 112s
 ═══

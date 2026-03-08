@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟢 Bodyweight | Tier 0–2 | GOLD: No | No gym required. Advanced calisthenics.
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
-# 🪡 Bar Strength — Pull Bodyweight 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Bodyweight 🪡
 
 ## Strength Basics — Pull focus (Bodyweight) · 50-65 min
 
 **CODE:** ⛽🏛🪡🟢
 
 > "Prove the pattern holds without external load. Bodyweight is the test."
+
+*Minimalist Hypertrophy: Bodyweight hypertrophy — high reps, slow tempo, squeeze and hold patterns*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: ⛽🏛🪡🟢 (Warm-Up | Pull | Basics | Bodyweight)
@@ -31,7 +33,7 @@ Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🏛🪡🟢 (Bread & Butter | Pull | Basics | Bodyweight)
-├─ 5 🪡 Bar Strength (bodyweight, no external load needed)
+├─ 5 🪡 Barbell Overhead Press (Standing) (bodyweight, no external load needed)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)

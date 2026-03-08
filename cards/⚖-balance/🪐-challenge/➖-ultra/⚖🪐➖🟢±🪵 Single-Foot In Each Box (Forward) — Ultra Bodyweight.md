@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➖ Single-Foot In Each Box (Forward) — Ultra Bodyweight ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Bodyweight ➖
 
 ## Balance Challenge — Ultra focus (Bodyweight) · 40-50 min
 
 **CODE:** ⚖🪐➖🟢
 
 > "Find asymmetries with bodyweight. No equipment hides the gap."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: ⚖🪐➖🟢 (Warm-Up | Ultra | Challenge | Bodyweight)
-├─ 12 ➖ Single-Leg Hops Through Ladder (bodyweight, no external load needed)
+├─ 12 ➖ Rowing Machine (Steady State) (bodyweight, no external load needed)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🏗 Reformance
 Subcode: ⚖🪐➖🟢 (Reformance | Ultra | Challenge | Bodyweight)
-├─ 11 ➖ Kettlebell Goblet Squat (corrective, address the weak link)
+├─ 11 ➖ Rowing Intervals (500m) (corrective, address the weak link)
 │  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🪐➖🟢 (Bread & Butter | Ultra | Challenge | Bodyweight)
-├─ 11 ➖ Single-Foot In Each Box (Forward) (bodyweight, no external load needed)
+├─ 11 ➖ Single-Leg Hops Through Ladder (bodyweight, no external load needed)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🪐➖🟢 (Supplemental | Ultra | Challenge | Bodyweight)
-├─ 12 ➖ Single-Foot In Each Box (Forward) (full range, different angle)
+├─ 12 ➖ Rowing Intervals (1000m) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🪐➖🟢 (Release | Ultra | Challenge | Bodyweight)
-├─ 12 ➖ Sprint (10-30 meters) (smooth tempo, downshift)
+├─ 12 ➖ Rowing Intervals (2000m) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

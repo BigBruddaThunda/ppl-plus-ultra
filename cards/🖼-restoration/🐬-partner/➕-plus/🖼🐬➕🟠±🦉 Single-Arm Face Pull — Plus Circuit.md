@@ -16,6 +16,8 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 **CODE:** 🖼🐬➕🟠
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
+
+*Combat Sport Prep: Athletic circuit — each station trains a different movement pattern*
 ═══
 ## 1) 🎯 Intention
 

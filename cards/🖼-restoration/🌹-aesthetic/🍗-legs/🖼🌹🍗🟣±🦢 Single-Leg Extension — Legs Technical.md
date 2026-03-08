@@ -9,13 +9,15 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🍗 Single-Leg Extension — Legs Technical 🍗
+# 🍗 Single-Leg Pogo Hops — Legs Technical 🍗
 
 ## Restoration Aesthetic — Legs focus (Technical) · 30-40 min
 
 **CODE:** 🖼🌹🍗🟣
 
 > "Precise positioning in each restorative hold. Depth over speed."
+
+*Flexibility / Mobility: Precise positioning in restorative holds — depth over speed, accuracy over range*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🌹🍗🟣 (Bread & Butter | Legs | Aesthetic | Technical)
-├─ 13 🍗 Single-Leg Extension (precision, quality over volume)
+├─ 13 🍗 Single-Leg Pogo Hops (precision, quality over volume)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 90s
 ═══
 ## 3) 🧬 Imprint
 Subcode: 🖼🌹🍗🟣 (Imprint | Legs | Aesthetic | Technical)
-├─ 15 🍗 Lying Leg Curl (high rep, low load, neural memory)
+├─ 15 🍗 Single-Leg Balance with Eyes Closed (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 90s
 ═══

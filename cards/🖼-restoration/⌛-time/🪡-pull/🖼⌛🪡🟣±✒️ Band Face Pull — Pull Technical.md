@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🪡 Band Face Pull — Pull Technical 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Technical 🪡
 
 ## Restoration Time — Pull focus (Technical) · 30-40 min
 
 **CODE:** 🖼⌛🪡🟣
 
 > "Precise positioning in each restorative hold. Depth over speed."
+
+*Stress Management: Precise positioning in restorative holds — depth over speed, accuracy over range*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼⌛🪡🟣 (Bread & Butter | Pull | Time | Technical)
-├─ 13 🪡 Band Face Pull (precision, quality over volume)
+├─ 13 🪡 Single-Arm Cable Rear Delt Fly (precision, quality over volume)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 90s
 ═══
 ## 3) 🧬 Imprint
 Subcode: 🖼⌛🪡🟣 (Imprint | Pull | Time | Technical)
-├─ 15 🪡 Band Face Pull (high rep, low load, neural memory)
+├─ 15 🪡 One-Arm Dead Hang (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 90s
 ═══

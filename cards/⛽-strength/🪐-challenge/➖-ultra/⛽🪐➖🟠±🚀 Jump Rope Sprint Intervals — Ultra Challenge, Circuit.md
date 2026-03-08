@@ -9,34 +9,36 @@ type: ➖ Ultra
 color: 🟠 Circuit
 blocks: ♨️ ▶️ 🧈 🎱 🪫 🚂
 ---
-# ➖ Jump Rope Sprint Intervals — Ultra Circuit ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Circuit ➖
 
 ## Strength Challenge — Ultra focus (Circuit) · 50-65 min
 
 **CODE:** ⛽🪐➖🟠
 
 > "Rotate stations. Keep the tissues trading off under heavy demand."
+
+*Combat Sport Prep: Athletic circuit — each station trains a different movement pattern*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⛽🪐➖🟠 (Warm-Up | Ultra | Challenge | Circuit)
-├─ 6 ➖ Shot Put Throw (Single-Arm) (station rotation, keep moving)
+├─ 6 ➖ Kettlebell Swing (Single-Arm) (station rotation, keep moving)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 45s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⛽🪐➖🟠 (ARAM | Ultra | Challenge | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➖ Jump Rope Sprint Intervals × 5 (station rotation, keep moving)
-│  Station 2: ➖ Shot Put Throw (Single-Arm) × 5 (station rotation, keep moving)
-│  Station 3: ➖ Kettlebell Goblet Squat × 5 (station rotation, keep moving)
-│  Station 4: ➖ Partner Toss (Alternating) × 5 (station rotation, keep moving)
+│  Station 1: ➖ Single-Leg Hops Through Ladder × 5 (station rotation, keep moving)
+│  Station 2: ➖ Kettlebell Swing (Single-Arm) × 5 (station rotation, keep moving)
+│  Station 3: ➖ Kettlebell Swing (Alternating Arms) × 5 (station rotation, keep moving)
+│  Station 4: ➖ Single-Arm American Swing × 5 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 60s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⛽🪐➖🟠 (Release | Ultra | Challenge | Circuit)
-├─ 6 ➖ Plant and Cut (Single-Leg Deceleration) (smooth tempo, downshift)
+├─ 6 ➖ Single-Leg Swing (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 60s
 ═══

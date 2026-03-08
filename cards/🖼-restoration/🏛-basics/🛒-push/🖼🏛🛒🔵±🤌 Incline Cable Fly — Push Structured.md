@@ -9,13 +9,15 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🛒 Incline Cable Fly — Push Structured 🛒
+# 🛒 Kettlebell Swing (Two-Hand) — Push Structured 🛒
 
 ## Restoration Basics — Push focus (Structured) · 30-40 min
 
 **CODE:** 🖼🏛🛒🔵
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
+
+*Endurance Sport Cross-Training: Prescribed progression in the discipline — structured path to mastery*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,20 +25,20 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🏛🛒🔵 (Release | Push | Basics | Structured)
-├─ 12 🛒 Preacher Curl Machine (parasympathetic, tension down, 4s eccentric)
+├─ 12 🛒 Swing to High Pull (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🏛🛒🔵 (Bread & Butter | Push | Basics | Structured)
-├─ 13 🛒 Incline Cable Fly (prescribed, track sets and reps)
+├─ 13 🛒 Kettlebell Swing (Two-Hand) (prescribed, track sets and reps)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🏛🛒🔵 (Imprint | Push | Basics | Structured)
-├─ 15 🛒 Landmine Press (Two-Arm, Chest Focus) (high rep, low load, neural memory)
+├─ 15 🛒 Swing + Clean (Combo) (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══

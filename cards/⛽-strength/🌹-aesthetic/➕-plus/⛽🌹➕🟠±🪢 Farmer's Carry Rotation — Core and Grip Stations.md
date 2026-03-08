@@ -9,34 +9,36 @@ type: ➕ Plus | Full body power, core, carries
 color: 🟠 Circuit
 blocks: ♨️ ▶️ 🧈 🎱 🪫 🚂
 ---
-# ➕ Farmer's Carry Rotation — Plus Circuit ➕
+# ➕ Kettlebell Swing (Two-Hand) — Plus Circuit ➕
 
 ## Strength Aesthetic — Plus focus (Circuit) · 50-65 min
 
 **CODE:** ⛽🌹➕🟠
 
 > "Rotate stations. Keep the tissues trading off under heavy demand."
+
+*Endurance Sport Cross-Training: Skill circuit — rotate through craft-specific stations*
 ═══
 ## 1) ♨️ Warm-Up — 🪢 plico
 Subcode: ⛽🌹➕🟠 (Warm-Up | Plus | Aesthetic | Circuit)
-├─ 6 ➕ Half-Kneeling Cable Chop (station rotation, keep moving)
+├─ 6 ➕ American Swing (Overhead) (station rotation, keep moving)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 45s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⛽🌹➕🟠 (ARAM | Plus | Aesthetic | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➕ Farmer's Carry Rotation × 5 (station rotation, keep moving)
-│  Station 2: ➕ Half-Kneeling Cable Chop × 5 (station rotation, keep moving)
-│  Station 3: ➕ Partner Toss (Alternating) × 5 (station rotation, keep moving)
-│  Station 4: ➕ Wide-Grip Lat Pulldown (Teres Focus) × 5 (station rotation, keep moving)
+│  Station 1: ➕ Kettlebell Swing (Two-Hand) × 5 (station rotation, keep moving)
+│  Station 2: ➕ American Swing (Overhead) × 5 (station rotation, keep moving)
+│  Station 3: ➕ Heavy Swing (Power Focus) × 5 (station rotation, keep moving)
+│  Station 4: ➕ Dead Stop Swing (Reset Between Reps) × 5 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 60s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⛽🌹➕🟠 (Release | Plus | Aesthetic | Circuit)
-├─ 6 ➕ Good Morning (Barbell) (smooth tempo, downshift)
+├─ 6 ➕ Double Kettlebell Swing (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 60s
 ═══

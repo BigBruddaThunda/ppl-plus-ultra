@@ -16,6 +16,8 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 **CODE:** ⚖🐬➕🟢
 
 > "Find asymmetries with bodyweight. No equipment hides the gap."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: ⚖🐬➕🟢 (Warm-Up | Plus | Partner | Bodyweight)

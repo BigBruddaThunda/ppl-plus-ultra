@@ -9,23 +9,25 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🪡 Neutral-Grip Pull-Up (Brachialis) — Pull Mindful 🪡
+# 🪡 Single-Leg Balance Hold — Pull Mindful 🪡
 
 ## Full Body Basics — Pull focus (Mindful) · 40-55 min
 
 **CODE:** 🌾🏛🪡⚪
 
 > "Breathe through the full chain. Each movement flows into the next."
+
+*Marathon / Distance Running: Zone 2 steady state — conversational pace, extended duration, aerobic base*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🌾🏛🪡⚪ (Warm-Up | Pull | Basics | Mindful)
-├─ 10 🪡 Wide-Grip Pull-Up (Teres Focus) (4s eccentric, breath-paced)
+├─ 10 🪡 Single-Leg Balance with Perturbation (4s eccentric, breath-paced)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 120s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🌾🏛🪡⚪ (Bread & Butter | Pull | Basics | Mindful)
-├─ 9 🪡 Neutral-Grip Pull-Up (Brachialis) (4s eccentric, breath-paced)
+├─ 9 🪡 Single-Leg Balance Hold (4s eccentric, breath-paced)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 120s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🌾🏛🪡⚪ (Supplemental | Pull | Basics | Mindful)
-├─ 10 🪡 Cable Row (High Elbow) (full range, different angle)
+├─ 10 🪡 Single-Leg Balance with Eyes Closed (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 120s
 ═══
 ## 4) 🪫 Release
 Subcode: 🌾🏛🪡⚪ (Release | Pull | Basics | Mindful)
-├─ 10 🪡 Deadlift (Conventional) (parasympathetic, tension down, 4s eccentric)
+├─ 10 🪡 Single-Leg Reach (Multi-Directional) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🌾🏛🪡⚪ (Imprint | Pull | Basics | Mindful)
-├─ 10 🪡 Scapular Push-Up (high rep, low load, neural memory)
+├─ 10 🪡 Single-Leg Hip Hinge (high rep, low load, neural memory)
 │  Set 1: 🌾 45% × 10 (lock the pattern)
 Rest: 120s
 ═══

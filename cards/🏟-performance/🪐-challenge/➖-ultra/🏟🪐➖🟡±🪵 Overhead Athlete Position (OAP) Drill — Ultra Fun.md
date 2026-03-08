@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➖ Overhead Athlete Position (OAP) Drill — Ultra Fun ➖
+# ➖ Sprint (10-30 meters) — Ultra Fun ➖
 
 ## Performance Challenge — Ultra focus (Fun) · 25-35 min
 
 **CODE:** 🏟🪐➖🟡
 
 > "Test something unconventional. Find where your capacity surprises you."
+
+*Active Recovery: Somatic exploration — movements you would not normally try, body awareness*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🏟🪐➖🟡 (Warm-Up | Ultra | Challenge | Fun)
-├─ 3 ➖ Single-Foot In Each Box (Forward) (explore, stay within constraints)
+├─ 3 ➖ Sprint (30-60 meters) (explore, stay within constraints)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟🪐➖🟡 (Bread & Butter | Ultra | Challenge | Fun)
-├─ 2 ➖ Overhead Athlete Position (OAP) Drill (explore, stay within constraints)
+├─ 2 ➖ Sprint (10-30 meters) (explore, stay within constraints)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🏟🪐➖🟡 (Sandbox | Ultra | Challenge | Fun)
-├─ 2 ➖ Overhead Athlete Position (OAP) Drill (explore within constraints, choose your variation)
+├─ 2 ➖ Tempo Run (Moderate Pace) (explore within constraints, choose your variation)
 │  Option A: 🏟 82% × 2 (play with grip, stance, or tempo)
 │  Option B: 🏟 82% × 2 (try a variation you have not used before)
 Rest: N/A

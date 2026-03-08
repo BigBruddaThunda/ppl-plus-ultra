@@ -9,17 +9,19 @@ type: 🛒 Push | Chest, front delts, triceps
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🛒 Medicine Ball Slam (Chest Height) — Push Teaching 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Teaching 🛒
 
 ## Full Body Time — Push focus (Teaching) · 40-55 min
 
 **CODE:** 🌾⌛🛒⚫
 
 > "Connect the chain. Coach each transition between movements."
+
+*Injury Prevention / Prehab: Teaches what recovery feels like — coaching the nervous system, not the muscles*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🌾⌛🛒⚫ (Warm-Up | Push | Time | Teaching)
-├─ 10 🛒 Medicine Ball Chest Pass (coached, check form before adding load)
+├─ 10 🛒 Single-Arm Overhead Dumbbell Hold (coached, check form before adding load)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 90s
 ═══
@@ -32,7 +34,7 @@ Rest: 90s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾⌛🛒⚫ (Bread & Butter | Push | Time | Teaching)
-├─ 9 🛒 Medicine Ball Slam (Chest Height) (coached, check form before adding load)
+├─ 9 🛒 Single-Arm Cable Rear Delt Fly (coached, check form before adding load)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾⌛🛒⚫ (Supplemental | Push | Time | Teaching)
-├─ 10 🛒 Low-to-High Cable Fly (full range, different angle)
+├─ 10 🛒 One-Arm Dead Hang (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 67s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🌾⌛🛒⚫ (Imprint | Push | Time | Teaching)
-├─ 10 🛒 Single-Arm Landmine Press (Chest Focus) (high rep, low load, neural memory)
+├─ 10 🛒 Single-Arm Dumbbell Lateral Raise (high rep, low load, neural memory)
 │  Set 1: 🌾 45% × 10 (lock the pattern)
 Rest: 67s
 ═══

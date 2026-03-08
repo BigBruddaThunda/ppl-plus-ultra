@@ -9,29 +9,31 @@ type: 🪡 Pull | Partner-context strength emphasis
 color: 🔴 Intense | Partner deployment logic
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🪡 Single-Arm Dumbbell Row — Pull Intense 🪡
+# 🪡 Zercher Carry — Pull Intense 🪡
 
 ## Strength Partner — Pull focus (Intense) · 50-65 min
 
 **CODE:** ⛽🐬🪡🔴
 
 > "Push the ceiling. Every set should cost something real."
+
+*CrossFit-Style: High-output functional work — explosive repeats, full effort, game-speed*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: ⛽🐬🪡🔴 (Warm-Up | Pull | Partner | Intense)
-├─ 6 🪡 Zercher Carry (high effort, push the pace)
+├─ 6 🪡 Keg Carry (high effort, push the pace)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 45s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🐬🪡🔴 (Primer | Pull | Partner | Intense)
-├─ 5 🪡 Push Jerk (Barbell) (tight setup, crisp intent)
+├─ 5 🪡 Yoke Walk (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🐬🪡🔴 (Bread & Butter | Pull | Partner | Intense)
-├─ 5 🪡 Single-Arm Dumbbell Row (high effort, push the pace)
+├─ 5 🪡 Zercher Carry (high effort, push the pace)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🐬🪡🔴 (Supplemental | Pull | Partner | Intense)
-├─ 6 🪡 Pull-Up (Overhand Grip) (full range, different angle)
+├─ 6 🪡 Atlas Stone Lift (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 60s
 ═══
 ## 5) 🌋 Gutter
 Subcode: ⛽🐬🪡🔴 (Gutter | Pull | Partner | Intense)
-├─ 6 🪡 Bent-Over Barbell Row (Overhand) (all-out, leave nothing in reserve)
+├─ 6 🪡 Tire Flip (all-out, leave nothing in reserve)
 │  Set 1: ⛽ 65% × 6 (push to form break)
 │  Set 2: ⛽ 65% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: ⛽🐬🪡🔴 (Release | Pull | Partner | Intense)
-├─ 6 🪡 Bent-Over Barbell Row (Overhand) (stress out, cathartic discharge)
+├─ 6 🪡 Tire Flip (stress out, cathartic discharge)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 60s
 ═══

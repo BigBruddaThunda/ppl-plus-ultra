@@ -9,29 +9,31 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# ➖ Partner Toss (Alternating) — Ultra Technical ➖
+# ➖ Kettlebell Swing (Two-Hand) — Ultra Technical ➖
 
 ## Full Body Aesthetic — Ultra focus (Technical) · 40-55 min
 
 **CODE:** 🌾🌹➖🟣
 
 > "Precision in the transitions. The connection between movements is the skill."
+
+*Powerlifting: Single-rep quality at competition-relevant loads — bar path, timing, setup*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🌾🌹➖🟣 (Warm-Up | Ultra | Aesthetic | Technical)
-├─ 10 ➖ Single-Leg Hops Through Ladder (precision, quality over volume)
+├─ 10 ➖ American Swing (Overhead) (precision, quality over volume)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🌾🌹➖🟣 (Primer | Ultra | Aesthetic | Technical)
-├─ 9 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+├─ 9 ➖ Heavy Swing (Power Focus) (tight setup, crisp intent)
 │  Set 1: 🌾 60% × 9 (activation)
 Rest: 90s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🌹➖🟣 (Bread & Butter | Ultra | Aesthetic | Technical)
-├─ 9 ➖ Partner Toss (Alternating) (precision, quality over volume)
+├─ 9 ➖ Kettlebell Swing (Two-Hand) (precision, quality over volume)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🌹➖🟣 (Supplemental | Ultra | Aesthetic | Technical)
-├─ 10 ➖ Single-Foot In Each Box (Forward) (full range, different angle)
+├─ 10 ➖ Dead Stop Swing (Reset Between Reps) (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 67s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🌹➖🟣 (Release | Ultra | Aesthetic | Technical)
-├─ 10 ➖ Partner Toss (Alternating) (smooth tempo, downshift)
+├─ 10 ➖ Swing to High Pull (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 67s
 ═══

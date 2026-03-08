@@ -9,30 +9,32 @@ type: 🛒 Push | Chest, front delts, triceps
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🛒 Incline Barbell Bench Press (45°) — Push Teaching 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Teaching 🛒
 
 ## Performance Partner — Push focus (Teaching) · 25-35 min
 
 **CODE:** 🏟🐬🛒⚫
 
 > "Rehearse the test protocol. Know the standards before test day."
+
+*New to Gym: Teaching session — learn the movement, understand the cues, build confidence*
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: 🏟🐬🛒⚫ (Warm-Up | Push | Partner | Teaching)
-├─ 3 🛒 Incline Barbell Bench Press (30°) (coached, check form before adding load)
+├─ 3 🛒 Depth Push-Up (Drop to Floor) (coached, check form before adding load)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 135s
 ═══
 ## 2) 🛠 Craft
 Subcode: 🏟🐬🛒⚫ (Craft | Push | Partner | Teaching)
-├─ 2 🛒 Smith Machine Incline Press (coach: check grip width, elbow angle, foot pressure)
+├─ 2 🛒 Banded Speed Bench Press (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🏟 72% × 2 (practice the pattern, not the load)
 │  Set 2: 🏟 77% × 2 (same cues, slightly heavier)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🐬🛒⚫ (Bread & Butter | Push | Partner | Teaching)
-├─ 2 🛒 Incline Barbell Bench Press (45°) (coached, check form before adding load)
+├─ 2 🛒 Plyometric Push-Up (Hands Leave Ground) (coached, check form before adding load)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

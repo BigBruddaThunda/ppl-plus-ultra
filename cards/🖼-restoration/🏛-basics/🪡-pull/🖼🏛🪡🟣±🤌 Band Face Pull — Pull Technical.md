@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🪡 Band Face Pull — Pull Technical 🪡
+# 🪡 Zercher Carry — Pull Technical 🪡
 
 ## Restoration Basics — Pull focus (Technical) · 30-40 min
 
 **CODE:** 🖼🏛🪡🟣
 
 > "Precise positioning in each restorative hold. Depth over speed."
+
+*Kettlebell Strength: Single-rep quality at competition-relevant loads — bar path, timing, setup*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🏛🪡🟣 (Bread & Butter | Pull | Basics | Technical)
-├─ 13 🪡 Band Face Pull (precision, quality over volume)
+├─ 13 🪡 Zercher Carry (precision, quality over volume)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 90s
 ═══
 ## 3) 🧬 Imprint
 Subcode: 🖼🏛🪡🟣 (Imprint | Pull | Basics | Technical)
-├─ 15 🪡 Band Face Pull (high rep, low load, neural memory)
+├─ 15 🪡 Plank Row (Single-Arm) (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 90s
 ═══

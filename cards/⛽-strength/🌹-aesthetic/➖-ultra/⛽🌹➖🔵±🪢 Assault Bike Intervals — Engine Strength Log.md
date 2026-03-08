@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system, conditioning
 color: 🔵 Structured
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# ➖ Assault Bike Intervals — Ultra Structured ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Structured ➖
 
 ## Strength Aesthetic — Ultra focus (Structured) · 50-65 min
 
 **CODE:** ⛽🌹➖🔵
 
 > "Same weight, same reps, same rest. Build the base one session at a time."
+
+*Physique / Recomp: Volume tracking — prescribed sets and reps, progressive overload through logging*
 ═══
 ## 1) ♨️ Warm-Up — 🪢 plico
 Subcode: ⛽🌹➖🔵 (Warm-Up | Ultra | Aesthetic | Structured)
@@ -25,13 +27,13 @@ Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🌹➖🔵 (Primer | Ultra | Aesthetic | Structured)
-├─ 5 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+├─ 5 ➖ Sprint (30-60 meters) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🌹➖🔵 (Bread & Butter | Ultra | Aesthetic | Structured)
-├─ 5 ➖ Assault Bike Intervals (prescribed, track sets and reps)
+├─ 5 ➖ Single-Leg Hops Through Ladder (prescribed, track sets and reps)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🌹➖🔵 (Supplemental | Ultra | Aesthetic | Structured)
-├─ 6 ➖ Sprint (30-60 meters) (full range, different angle)
+├─ 6 ➖ Sprint (60-100 meters) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🌹➖🔵 (Release | Ultra | Aesthetic | Structured)
-├─ 6 ➖ Sprint (60-100 meters) (smooth tempo, downshift)
+├─ 6 ➖ Hill Sprint (Short) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

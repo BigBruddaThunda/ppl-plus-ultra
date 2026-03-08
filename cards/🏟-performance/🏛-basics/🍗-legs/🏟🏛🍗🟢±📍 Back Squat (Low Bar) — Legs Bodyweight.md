@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🍗 Back Squat (Low Bar) — Legs Bodyweight 🍗
+# 🍗 Single-Leg Jump Rope — Legs Bodyweight 🍗
 
 ## Performance Basics — Legs focus (Bodyweight) · 25-35 min
 
 **CODE:** 🏟🏛🍗🟢
 
 > "Test bodyweight capacity. How many, how fast, how clean."
+
+*Fasting Cardio + Strength: Bodyweight conditioning — no gym, no excuses, cardio and movement flow*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🏟🏛🍗🟢 (Warm-Up | Legs | Basics | Bodyweight)
-├─ 3 🍗 Deep Squat Hold (Ankle Mobility) (bodyweight, no external load needed)
+├─ 3 🍗 Kettlebell Swing (Two-Hand) (bodyweight, no external load needed)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🏛🍗🟢 (Progression | Legs | Basics | Bodyweight)
-├─ 2 🍗 Back Squat (Low Bar) (ramp to test weight)
+├─ 2 🍗 Single-Leg Jump Rope (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🏛🍗🟢 (Bread & Butter | Legs | Basics | Bodyweight)
-├─ 2 🍗 Back Squat (Low Bar) (bodyweight, no external load needed)
+├─ 2 🍗 Single-Leg Jump Rope (bodyweight, no external load needed)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

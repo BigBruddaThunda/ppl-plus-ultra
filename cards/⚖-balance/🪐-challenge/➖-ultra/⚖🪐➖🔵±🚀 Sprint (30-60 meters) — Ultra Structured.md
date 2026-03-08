@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➖ Sprint (30-60 meters) — Ultra Structured ➖
+# ➖ Rowing Machine (Steady State) — Ultra Structured ➖
 
 ## Balance Challenge — Ultra focus (Structured) · 40-50 min
 
 **CODE:** ⚖🪐➖🔵
 
 > "Prescribed accessory work. Target the specific imbalance."
+
+*Minimalist Hypertrophy: Volume tracking — prescribed sets and reps, progressive overload through logging*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⚖🪐➖🔵 (Warm-Up | Ultra | Challenge | Structured)
-├─ 12 ➖ Single-Foot In Each Box (Forward) (prescribed, track sets and reps)
+├─ 12 ➖ Rowing Intervals (500m) (prescribed, track sets and reps)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🏗 Reformance
 Subcode: ⚖🪐➖🔵 (Reformance | Ultra | Challenge | Structured)
-├─ 11 ➖ Sprint (10-30 meters) (corrective, address the weak link)
+├─ 11 ➖ Rowing Intervals (1000m) (corrective, address the weak link)
 │  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🪐➖🔵 (Bread & Butter | Ultra | Challenge | Structured)
-├─ 11 ➖ Sprint (30-60 meters) (prescribed, track sets and reps)
+├─ 11 ➖ Rowing Machine (Steady State) (prescribed, track sets and reps)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🪐➖🔵 (Supplemental | Ultra | Challenge | Structured)
-├─ 12 ➖ Kettlebell Goblet Squat (full range, different angle)
+├─ 12 ➖ Rowing Intervals (2000m) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🪐➖🔵 (Release | Ultra | Challenge | Structured)
-├─ 12 ➖ Two Feet In Each Box (Forward) (smooth tempo, downshift)
+├─ 12 ➖ Rowing Sprints (100m Max Effort) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

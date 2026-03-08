@@ -9,29 +9,31 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟣 Technical | Tier 2–5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂
 ---
-# 🛒 Landmine Press Mechanics — Push Technical 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Technical 🛒
 
 ## Strength Functional — Push focus (Technical) · 50-65 min
 
 **CODE:** ⛽🔨🛒🟣
 
 > "One clean rep at the right load is worth more than five at the wrong one."
+
+*Kettlebell Strength: Single-rep quality at competition-relevant loads — bar path, timing, setup*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: ⛽🔨🛒🟣 (Warm-Up | Push | Functional | Technical)
-├─ 6 🛒 Bamboo Bar Bench Press (precision, quality over volume)
+├─ 6 🛒 Depth Push-Up (Drop to Floor) (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 135s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🔨🛒🟣 (Primer | Push | Functional | Technical)
-├─ 5 🛒 Plyometric Push-Up (Hands Leave Ground) (tight setup, crisp intent)
+├─ 5 🛒 Banded Speed Bench Press (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🔨🛒🟣 (Bread & Butter | Push | Functional | Technical)
-├─ 5 🛒 Landmine Press Mechanics (precision, quality over volume)
+├─ 5 🛒 Plyometric Push-Up (Hands Leave Ground) (precision, quality over volume)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -46,7 +48,7 @@ Rest: 180s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🔨🛒🟣 (Release | Push | Functional | Technical)
-├─ 6 🛒 Single-Arm Incline Dumbbell Press (smooth tempo, downshift)
+├─ 6 🛒 Log Press (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 180s
 ═══
