@@ -351,4 +351,14 @@ The Archideck kernel can express this: any domain that has a multi-dimensional a
 
 ---
 
+## The Abacus as Neighborhood
+
+The abacus is a neighborhood in the digital city. When a user selects their training abaci, they are choosing where they live — which streets they walk, which rooms they frequent, which community they belong to. A powerlifting abacus is a different neighborhood than a yoga-and-mobility abacus, even though they exist in the same city and share the same infrastructure (the SCL, the Operis, the cosmograms, the envelope system).
+
+This is the connection between the workout programming layer and the broader city architecture. The 35 archetypes are 35 neighborhoods. Each has its own character, its own regulars, its own daily rhythm. But all neighborhoods share the same 7 buildings (Orders), the same 6 floors (Axes), the same civic services (Operis, almanac, community). The abacus is what makes the city personal — it's your address within the address system.
+
+Selecting multiple abaci is living in multiple neighborhoods. A user running both "Powerlifting" and "Calisthenics" abaci is splitting their time between two parts of the city with different cultures but shared infrastructure. The rotation engine handles the commute — which neighborhood are you in today?
+
+---
+
 🧮
