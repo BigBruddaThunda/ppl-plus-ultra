@@ -6,18 +6,18 @@ The sum of negotiation. The living state of all work across all Archideck projec
 
 ## ACTIVE
 
-### PPL± — Workout Generation
-- **Scope:** Phase 2 deck generation. 280/1,680 cards complete. 7 decks done (01, 07–12).
-- **Current:** See `whiteboard.md` (Negotiosum) for task board. See `CLAUDE.md` for generation rules.
-- **Next physical action:** Generate next card in active deck per whiteboard.md instructions.
+### PPL± — Quality Rebuild Campaign (Phase 3.1)
+- **Scope:** 1,680/1,680 cards generated. Avg quality score: 88/100. Rebuild campaign targeting Color blindness, Exercise-Type misroutes, parameter violations, and content depth gaps.
+- **Current:** Audit pipeline complete. Coverage database generated. Rebuild queue prioritized by score. See `whiteboard.md` for task board.
+- **Next physical action:** Rebuild worst-scoring Color categories (🟠 Circuit, 🟡 Fun, ⚪ Mindful) using upgraded card-generator skill.
 - **Location:** Repository root `/` (PPL± predates Archideck layer)
 
 ```
-zip: 🦋 🤌 🟢
-weight-vector-bias: {order: ionic, modifier: facio, color: growth}
+zip: 🦋 🤌 🔴
+weight-vector-bias: {order: ionic, modifier: facio, color: intense}
 depends-on: []
 blocks: [ppl-experience-layer, ppl-operis-pipeline]
-milestone: M3 (Hypertrophy Order Sweep — next in sequence)
+milestone: M3.1 (Quality Rebuild — before Hypertrophy Order Sweep)
 ```
 
 ### GSD × SCL Orchestration Layer
@@ -156,6 +156,7 @@ milestone: (precedes M10)
 
 ## COMPLETED (recent)
 
+- ✅ PPL± All 42 decks generated (1,680/1,680 — PR #116 batch generation)
 - ✅ PPL± Decks 07, 08, 09, 10, 11, 12 generated (all ⛽ Strength Axes)
 - ✅ PPL± Deck 01 generated (🐂🏛 Foundation Basics)
 - ✅ PPL± infrastructure sprint (scripts, hooks, subagents, skills — Session 18)

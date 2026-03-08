@@ -1,8 +1,8 @@
 # Negotiosum — PPL± Active Work Board
 
-Last updated: 2026-03-07
-Phase: 3 — System Integration + Library Canonicalization
-Cards: 1,680 / 1,680 (ALL 42 DECKS COMPLETE ✅)
+Last updated: 2026-03-08
+Phase: 3.1 — Quality Rebuild Campaign
+Cards: 1,680 / 1,680 (ALL 42 DECKS COMPLETE ✅ — audit score: 88/100 avg, rebuild in progress)
 Exercise Library: v.1 (2,085 exercises, 18 movement patterns, 21/21 integration checks)
 Seeds: 49 | Scripts: 31
 CX Containers: 44 defined, 40 complete, 4 open
@@ -114,6 +114,14 @@ Maximum output, full capacity. Measure throughput.
 | DONE | — | Deck 12 generation (40 cards) | — | ⛽🐬 Strength Partner complete (40/40) |
 | OPEN | — | Historical events population (366 dates) | CX-02 ✓ | Research-intensive — ~180 hours total, builds incrementally |
 | DONE | — | All 42 decks generated (1,680/1,680) | — | 100% room coverage — PR #116 batch generation |
+| DONE | — | Layer 3 quality audit script | — | scripts/audit-deck-quality.py — 6 dimensions, CSV/JSON output |
+| DONE | — | Quality audit baseline report | — | reports/deck-quality-audit-2026-03-08.csv + .json — 88/100 avg |
+| OPEN | — | Rebuild 🟠 Circuit cards (all decks) | audit-deck-quality.py | Missing 🎱 ARAM, barbell violations, no loop logic |
+| OPEN | — | Rebuild 🟡 Fun cards (all decks) | audit-deck-quality.py | Missing 🏖 Sandbox, no variety language |
+| OPEN | — | Rebuild ⚪ Mindful cards (all decks) | audit-deck-quality.py | Missing tempo cues, rest too short |
+| OPEN | — | Fix Exercise-Type misroutes (824 flags) | audit-deck-quality.py | Push exercises in Pull cards, etc. |
+| OPEN | — | Fix Parameter violations (reps/load out of range) | audit-deck-quality.py | 1,881 rep-range flags, 81 load-ceiling flags |
+| OPEN | — | Deduplicate identical Intentions across decks | audit-deck-quality.py | Generic "Drive clean reps" in 40+ cards |
 
 ---
 
@@ -129,6 +137,8 @@ Sweep, audit, report, deliver. Touch everything, miss nothing.
 | DONE | — | Run exercise-usage-report.py on 102 cards | — | reports/exercise-usage-2026-03-06.md committed. Session 037. |
 | OPEN | — | Ralph Loop batch: populate 41 remaining deck pods | Deck 07 pod review | Blocked on Jake approval of prototype |
 | DONE | — | Exercise library version bump to v.1 | — | v.1: 18 patterns, 1,163 reclassified, card index (99.2%), 21/21 integration |
+| DONE | — | Audit pipeline: audit-deck-quality.py | — | Layer 3 quality scorer — Color, Type, Params, Blocks, Depth, Format |
+| DONE | — | Coverage database: CSV + JSON reports | — | reports/deck-quality-audit-2026-03-08.{csv,json} — 1,680 rows |
 | OPEN | — | Whiteboard DONE-task archive pass | — | Periodic ⚪ task: trim completed rows |
 
 ---
