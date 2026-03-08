@@ -9,29 +9,31 @@ type: ➕ Plus | Full body power, core
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➕ Kettlebell Swing (Alternating Arms) — Plus Technical ➕
+# ➕ Zercher Carry — Plus Technical ➕
 
 ## Balance Partner — Plus focus (Technical) · 40-50 min
 
 **CODE:** ⚖🐬➕🟣
 
 > "Precise correction. Small movements, full attention, zero momentum."
+
+*Olympic Lifting: Masterclass — 1-on-1 with a world-class coach at this exact skill*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: ⚖🐬➕🟣 (Warm-Up | Plus | Partner | Technical)
-├─ 12 ➕ Kettlebell Swing (Single-Arm) (precision, quality over volume)
+├─ 12 ➕ Keg Carry (precision, quality over volume)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖🐬➕🟣 (Primer | Plus | Partner | Technical)
-├─ 11 ➕ Single-Leg Romanian Deadlift (tight setup, crisp intent)
+├─ 11 ➕ Pull-Up (Overhand Grip) (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🐬➕🟣 (Bread & Butter | Plus | Partner | Technical)
-├─ 11 ➕ Kettlebell Swing (Alternating Arms) (precision, quality over volume)
+├─ 11 ➕ Zercher Carry (precision, quality over volume)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🐬➕🟣 (Supplemental | Plus | Partner | Technical)
-├─ 12 ➕ Kettlebell Goblet Squat (full range, different angle)
+├─ 12 ➕ Chin-Up (Underhand Grip) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🐬➕🟣 (Release | Plus | Partner | Technical)
-├─ 12 ➕ Half-Kneeling Cable Chop (smooth tempo, downshift)
+├─ 12 ➕ Wide-Grip Pull-Up (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 112s
 ═══

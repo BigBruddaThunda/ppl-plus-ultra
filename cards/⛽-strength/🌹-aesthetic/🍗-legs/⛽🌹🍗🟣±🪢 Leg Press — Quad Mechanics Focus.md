@@ -9,29 +9,31 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟣 Technical
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🍗 Leg Press — Legs Technical 🍗
+# 🍗 Single-Leg Hip Thrust (Barbell) — Legs Technical 🍗
 
 ## Strength Aesthetic — Legs focus (Technical) · 50-65 min
 
 **CODE:** ⛽🌹🍗🟣
 
 > "One clean rep at the right load is worth more than five at the wrong one."
+
+*Bodybuilding: Precision isolation — feel every fiber, full ROM, cable and machine emphasis*
 ═══
 ## 1) ♨️ Warm-Up — 🪢 plico
 Subcode: ⛽🌹🍗🟣 (Warm-Up | Legs | Aesthetic | Technical)
-├─ 6 🍗 Pogo Hops (Ankle Bounce) (precision, quality over volume)
+├─ 6 🍗 Single-Leg Hip Thrust (Bodyweight) (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 135s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🌹🍗🟣 (Primer | Legs | Aesthetic | Technical)
-├─ 5 🍗 Standing Quad Stretch (tight setup, crisp intent)
+├─ 5 🍗 Single-Leg Glute Bridge (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🌹🍗🟣 (Bread & Butter | Legs | Aesthetic | Technical)
-├─ 5 🍗 Leg Press (precision, quality over volume)
+├─ 5 🍗 Single-Leg Hip Thrust (Barbell) (precision, quality over volume)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 270s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🌹🍗🟣 (Supplemental | Legs | Aesthetic | Technical)
-├─ 6 🍗 Step-Down (Eccentric) (full range, different angle)
+├─ 6 🍗 Single-Leg Balance Hold (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 180s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🌹🍗🟣 (Release | Legs | Aesthetic | Technical)
-├─ 6 🍗 Leg Extension Machine (smooth tempo, downshift)
+├─ 6 🍗 Single-Leg Balance with Perturbation (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 180s
 ═══

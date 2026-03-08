@@ -16,16 +16,18 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 **CODE:** 🌾🪐➖🔵
 
 > "Prescribed flow. Each movement connects to the next without reset."
+
+*Physique / Recomp: Volume tracking — prescribed sets and reps, progressive overload through logging*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🌾🪐➖🔵 (Warm-Up | Ultra | Challenge | Structured)
-├─ 10 ➖ Single-Leg Hops Through Ladder (prescribed, track sets and reps)
+├─ 10 ➖ Sprint (10-30 meters) (prescribed, track sets and reps)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🪐➖🔵 (Composition | Ultra | Challenge | Structured)
-├─ 9 ➖ Partner Toss (Alternating) → Single-Leg Hops Through Ladder (flow without reset)
+├─ 9 ➖ Sprint (30-60 meters) → Single-Leg Hops Through Ladder (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
@@ -40,14 +42,14 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🪐➖🔵 (Supplemental | Ultra | Challenge | Structured)
-├─ 10 ➖ Kettlebell Goblet Squat (full range, different angle)
+├─ 10 ➖ Sprint (60-100 meters) (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🪐➖🔵 (Release | Ultra | Challenge | Structured)
-├─ 10 ➖ Single-Foot In Each Box (Forward) (smooth tempo, downshift)
+├─ 10 ➖ Hill Sprint (Short) (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══

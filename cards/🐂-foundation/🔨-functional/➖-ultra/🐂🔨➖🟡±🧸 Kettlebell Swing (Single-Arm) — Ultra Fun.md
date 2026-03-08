@@ -9,23 +9,25 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# ➖ Kettlebell Swing (Single-Arm) — Ultra Fun ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Fun ➖
 
 ## Foundation Functional — Ultra focus (Fun) · 40-50 min
 
 **CODE:** 🐂🔨➖🟡
 
 > "Explore the movement. Find what feels unfamiliar and stay there."
+
+*General Functional Fitness: Movement exploration — unconventional patterns, play with load and position*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🐂🔨➖🟡 (Warm-Up | Ultra | Functional | Fun)
-├─ 12 ➖ Kettlebell Goblet Squat (explore, stay within constraints)
+├─ 12 ➖ Partner Toss (Alternating) (explore, stay within constraints)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🐂🔨➖🟡 (Bread & Butter | Ultra | Functional | Fun)
-├─ 11 ➖ Kettlebell Swing (Single-Arm) (explore, stay within constraints)
+├─ 11 ➖ Single-Leg Hops Through Ladder (explore, stay within constraints)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -33,7 +35,7 @@ Rest: 75s
 ═══
 ## 3) 🌎 Exposure
 Subcode: 🐂🔨➖🟡 (Exposure | Ultra | Functional | Fun)
-├─ 11 ➖ Single-Arm American Swing (try the unfamiliar version, explore the range)
+├─ 11 ➖ Shot Put Throw (Single-Arm) (try the unfamiliar version, explore the range)
 │  Set 1: 🐂 50% × 11 (discovery set)
 Rest: 60s
 ═══
@@ -46,7 +48,7 @@ Rest: 60s
 ═══
 ## 5) 🪫 Release
 Subcode: 🐂🔨➖🟡 (Release | Ultra | Functional | Fun)
-├─ 12 ➖ Single-Arm American Swing (smooth tempo, downshift)
+├─ 12 ➖ Shot Put Throw (Single-Arm) (smooth tempo, downshift)
 │  Set 1: 🐂 45% × 12 (deload)
 Rest: 60s
 ═══

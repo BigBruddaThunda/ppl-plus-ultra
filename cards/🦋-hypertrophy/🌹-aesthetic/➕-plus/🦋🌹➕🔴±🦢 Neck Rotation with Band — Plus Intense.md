@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# ➕ Neck Rotation with Band — Plus Intense ➕
+# ➕ Aquaman (Alternating Superman) — Plus Intense ➕
 
 ## Hypertrophy Aesthetic — Plus focus (Intense) · 55-70 min
 
 **CODE:** 🦋🌹➕🔴
 
 > "High volume, low rest. Chase the pump and earn the fatigue."
+
+*Bodybuilding: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🦋🌹➕🔴 (Warm-Up | Plus | Aesthetic | Intense)
@@ -25,13 +27,13 @@ Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🌹➕🔴 (Primer | Plus | Aesthetic | Intense)
-├─ 10 ➕ Neck Rotation (Bodyweight) (tight setup, crisp intent)
+├─ 10 ➕ Atlas Stone Lift (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🌹➕🔴 (Bread & Butter | Plus | Aesthetic | Intense)
-├─ 10 ➕ Neck Rotation with Band (high effort, push the pace)
+├─ 10 ➕ Aquaman (Alternating Superman) (high effort, push the pace)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 45s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🦋🌹➕🔴 (Supplemental | Plus | Aesthetic | Intense)
-├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (full range, different angle)
+├─ 12 ➕ Tire Flip (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 30s
 ═══
 ## 5) 🌋 Gutter
 Subcode: 🦋🌹➕🔴 (Gutter | Plus | Aesthetic | Intense)
-├─ 12 ➕ Face Pull (Rope) (all-out, leave nothing in reserve)
+├─ 12 ➕ Half-Kneeling Band Single-Arm Pulldown (all-out, leave nothing in reserve)
 │  Set 1: 🦋 55% × 12 (push to form break)
 │  Set 2: 🦋 55% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋🌹➕🔴 (Release | Plus | Aesthetic | Intense)
-├─ 12 ➕ Face Pull (Rope) (stress out, cathartic discharge)
+├─ 12 ➕ Half-Kneeling Band Single-Arm Pulldown (stress out, cathartic discharge)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 30s
 ═══

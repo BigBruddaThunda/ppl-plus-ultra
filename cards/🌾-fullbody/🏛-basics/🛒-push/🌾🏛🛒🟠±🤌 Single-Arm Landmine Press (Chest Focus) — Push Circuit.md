@@ -9,34 +9,36 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🛒 Single-Arm Landmine Press (Chest Focus) — Push Circuit 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Circuit 🛒
 
 ## Full Body Basics — Push focus (Circuit) · 40-55 min
 
 **CODE:** 🌾🏛🛒🟠
 
 > "Rotate through full-body stations. Every station moves a different chain."
+
+*50+ Active Living: Gentle circuit — station rotation with manageable transitions*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🌾🏛🛒🟠 (Warm-Up | Push | Basics | Circuit)
-├─ 10 🛒 Incline Barbell Bench Press (30°) (station rotation, keep moving)
+├─ 10 🛒 Single-Arm Overhead Dumbbell Hold (station rotation, keep moving)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🌾🏛🛒🟠 (ARAM | Push | Basics | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🛒 Single-Arm Landmine Press (Chest Focus) × 9 (station rotation, keep moving)
-│  Station 2: 🛒 Incline Barbell Bench Press (30°) × 9 (station rotation, keep moving)
-│  Station 3: 🛒 Smith Machine Incline Press × 9 (station rotation, keep moving)
-│  Station 4: 🛒 Landmine Press (Two-Arm, Chest Focus) × 9 (station rotation, keep moving)
+│  Station 1: 🛒 Single-Arm Cable Rear Delt Fly × 9 (station rotation, keep moving)
+│  Station 2: 🛒 Single-Arm Overhead Dumbbell Hold × 9 (station rotation, keep moving)
+│  Station 3: 🛒 Single-Arm Cable Chest Fly × 9 (station rotation, keep moving)
+│  Station 4: 🛒 One-Arm Dead Hang × 9 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 30s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🌾🏛🛒🟠 (Release | Push | Basics | Circuit)
-├─ 10 🛒 Diamond Push-Up (Close-Grip) (smooth tempo, downshift)
+├─ 10 🛒 Alternating Dumbbell Front Raise (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 30s
 ═══

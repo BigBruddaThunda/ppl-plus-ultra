@@ -10,23 +10,25 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟡 Fun | Tier 0–5 | GOLD: No | Exploration and variety within constraints.
 blocks: ♨️ → 🧈 → 🏖 → 🚂 → 🧮
 ---
-# 🛒 Decline Barbell Press — Push Fun 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Fun 🛒
 
 ## Strength Basics — Push focus (Fun) · 50-65 min
 
 **CODE:** ⛽🏛🛒🟡
 
 > "Find a movement you have not tried at this load and own it."
+
+*Active Recovery: Somatic exploration — movements you would not normally try, body awareness*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: ⛽🏛🛒🟡 (Warm-Up | Push | Basics | Fun)
-├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (explore, stay within constraints)
+├─ 6 🛒 Single-Arm Overhead Dumbbell Hold (explore, stay within constraints)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⛽🏛🛒🟡 (Bread & Butter | Push | Basics | Fun)
-├─ 5 🛒 Decline Barbell Press (explore, stay within constraints)
+├─ 5 🛒 Single-Arm Cable Rear Delt Fly (explore, stay within constraints)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -34,20 +36,20 @@ Rest: 180s
 ═══
 ## 3) 🌎 Exposure
 Subcode: ⛽🏛🛒🟡 (Exposure | Push | Basics | Fun)
-├─ 5 🛒 Landmine Press (Two-Arm, Chest Focus) (try the unfamiliar version, explore the range)
+├─ 5 🛒 Medicine Ball Chest Pass (try the unfamiliar version, explore the range)
 │  Set 1: ⛽ 65% × 5 (discovery set)
 Rest: 120s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⛽🏛🛒🟡 (Sandbox | Push | Basics | Fun)
-├─ 5 🛒 Diamond Push-Up (Close-Grip) (explore within constraints, choose your variation)
+├─ 5 🛒 Medicine Ball Slam (Chest Height) (explore within constraints, choose your variation)
 │  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
 │  Option B: ⛽ 70% × 5 (try a variation you have not used before)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🏛🛒🟡 (Release | Push | Basics | Fun)
-├─ 6 🛒 Landmine Press (Two-Arm, Chest Focus) (smooth tempo, downshift)
+├─ 6 🛒 Medicine Ball Chest Pass (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

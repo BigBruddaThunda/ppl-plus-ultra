@@ -16,16 +16,18 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 **CODE:** ⚖🌹🛒🟢
 
 > "Find asymmetries with bodyweight. No equipment hides the gap."
+
+*Pre/Post Natal: Bodyweight only — safe, accessible, no equipment barrier to entry*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: ⚖🌹🛒🟢 (Warm-Up | Push | Aesthetic | Bodyweight)
-├─ 12 🛒 Single-Arm Cable Chest Fly (bodyweight, no external load needed)
+├─ 12 🛒 Single-Arm Overhead Dumbbell Hold (bodyweight, no external load needed)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🏗 Reformance
 Subcode: ⚖🌹🛒🟢 (Reformance | Push | Aesthetic | Bodyweight)
-├─ 11 🛒 Low-to-High Cable Fly (corrective, address the weak link)
+├─ 11 🛒 Single-Arm Cable Chest Fly (corrective, address the weak link)
 │  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🌹🛒🟢 (Supplemental | Push | Aesthetic | Bodyweight)
-├─ 12 🛒 Band Pull-Apart (Chest Opener) (full range, different angle)
+├─ 12 🛒 One-Arm Dead Hang (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🌹🛒🟢 (Release | Push | Aesthetic | Bodyweight)
-├─ 12 🛒 Preacher Curl Machine (smooth tempo, downshift)
+├─ 12 🛒 Alternating Dumbbell Front Raise (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

@@ -9,30 +9,32 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🪡 Half-Kneeling Band Single-Arm Pulldown — Pull Teaching 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Teaching 🪡
 
 ## Full Body Aesthetic — Pull focus (Teaching) · 40-55 min
 
 **CODE:** 🌾🌹🪡⚫
 
 > "Connect the chain. Coach each transition between movements."
+
+*Post-Rehab Strength: Teaches barbell setup, loading sequence, and safety positions for heavy compound lifts*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: 🌾🌹🪡⚫ (Warm-Up | Pull | Aesthetic | Teaching)
-├─ 10 🪡 Single-Arm Face Pull (coached, check form before adding load)
+├─ 10 🪡 Single-Arm Overhead Dumbbell Hold (coached, check form before adding load)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: 🌾🌹🪡⚫ (Craft | Pull | Aesthetic | Teaching)
-├─ 9 🪡 Aquaman (Alternating Superman) (coach: check grip width, elbow angle, foot pressure)
+├─ 9 🪡 Single-Arm Face Pull (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🌾 50% × 9 (practice the pattern, not the load)
 │  Set 2: 🌾 55% × 9 (same cues, slightly heavier)
 Rest: 90s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🌹🪡⚫ (Bread & Butter | Pull | Aesthetic | Teaching)
-├─ 9 🪡 Half-Kneeling Band Single-Arm Pulldown (coached, check form before adding load)
+├─ 9 🪡 Single-Arm Cable Rear Delt Fly (coached, check form before adding load)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🌹🪡⚫ (Supplemental | Pull | Aesthetic | Teaching)
-├─ 10 🪡 Wide-Grip Lat Pulldown (Teres Focus) (full range, different angle)
+├─ 10 🪡 Aquaman (Alternating Superman) (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 67s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🌾🌹🪡⚫ (Imprint | Pull | Aesthetic | Teaching)
-├─ 10 🪡 Preacher Curl Machine (high rep, low load, neural memory)
+├─ 10 🪡 One-Arm Dead Hang (high rep, low load, neural memory)
 │  Set 1: 🌾 45% × 10 (lock the pattern)
 Rest: 67s
 ═══

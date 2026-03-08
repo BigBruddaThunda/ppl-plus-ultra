@@ -16,16 +16,18 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 **CODE:** ⛽🪐🍗🔵
 
 > "Same weight, same reps, same rest. Build the base one session at a time."
+
+*Powerlifting: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⛽🪐🍗🔵 (Warm-Up | Legs | Challenge | Structured)
-├─ 6 🍗 Back Squat (High Bar) (prescribed, track sets and reps)
+├─ 6 🍗 Front Squat (Glute Activation) (prescribed, track sets and reps)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🪐🍗🔵 (Primer | Legs | Challenge | Structured)
-├─ 5 🍗 Walking Lunge (tight setup, crisp intent)
+├─ 5 🍗 Sumo Squat (Wide-Stance Glute) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
@@ -39,14 +41,14 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🪐🍗🔵 (Supplemental | Legs | Challenge | Structured)
-├─ 6 🍗 Spanish Squat (Banded VMO) (full range, different angle)
+├─ 6 🍗 Goblet Squat (Deep Glute Stretch) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🪐🍗🔵 (Release | Legs | Challenge | Structured)
-├─ 6 🍗 Conventional Deadlift (smooth tempo, downshift)
+├─ 6 🍗 Conventional Deadlift (Glute Load) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

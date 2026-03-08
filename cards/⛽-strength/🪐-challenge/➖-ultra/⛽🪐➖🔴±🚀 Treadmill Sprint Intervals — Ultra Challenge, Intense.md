@@ -9,29 +9,31 @@ type: ➖ Ultra
 color: 🔴 Intense
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# ➖ Treadmill Sprint Intervals — Ultra Intense ➖
+# ➖ Rowing Machine (Steady State) — Ultra Intense ➖
 
 ## Strength Challenge — Ultra focus (Intense) · 50-65 min
 
 **CODE:** ⛽🪐➖🔴
 
 > "Push the ceiling. Every set should cost something real."
+
+*Minimalist Hypertrophy: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⛽🪐➖🔴 (Warm-Up | Ultra | Challenge | Intense)
-├─ 6 ➖ Overhead Throw (Medicine Ball) (high effort, push the pace)
+├─ 6 ➖ Rowing Intervals (500m) (high effort, push the pace)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 45s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🪐➖🔴 (Primer | Ultra | Challenge | Intense)
-├─ 5 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+├─ 5 ➖ Rowing Intervals (1000m) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🪐➖🔴 (Bread & Butter | Ultra | Challenge | Intense)
-├─ 5 ➖ Treadmill Sprint Intervals (high effort, push the pace)
+├─ 5 ➖ Rowing Machine (Steady State) (high effort, push the pace)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🪐➖🔴 (Supplemental | Ultra | Challenge | Intense)
-├─ 6 ➖ Chest Pass Throw (Medicine Ball) (full range, different angle)
+├─ 6 ➖ Rowing Intervals (2000m) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 60s
 ═══
 ## 5) 🌋 Gutter
 Subcode: ⛽🪐➖🔴 (Gutter | Ultra | Challenge | Intense)
-├─ 6 ➖ Rotational Throw (Side Toss) (all-out, leave nothing in reserve)
+├─ 6 ➖ Rowing Sprints (100m Max Effort) (all-out, leave nothing in reserve)
 │  Set 1: ⛽ 65% × 6 (push to form break)
 │  Set 2: ⛽ 65% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: ⛽🪐➖🔴 (Release | Ultra | Challenge | Intense)
-├─ 6 ➖ Rotational Throw (Side Toss) (stress out, cathartic discharge)
+├─ 6 ➖ Rowing Sprints (100m Max Effort) (stress out, cathartic discharge)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 60s
 ═══

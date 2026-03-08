@@ -16,6 +16,8 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 **CODE:** 🖼🪐➕🟢
 
 > "Restore with what your body provides. Floor work, breath, gentle movement."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) 🎯 Intention
 

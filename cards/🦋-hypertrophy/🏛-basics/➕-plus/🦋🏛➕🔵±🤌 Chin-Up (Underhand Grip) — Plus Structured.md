@@ -16,6 +16,8 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 **CODE:** 🦋🏛➕🔵
 
 > "Hit every set at the prescribed rep count. Volume is the driver."
+
+*General Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🦋🏛➕🔵 (Warm-Up | Plus | Basics | Structured)

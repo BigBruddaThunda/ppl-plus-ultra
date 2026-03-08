@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# 🍗 Back Squat (Low Bar) — Legs Structured 🍗
+# 🍗 Back Squat (Glute Focus) — Legs Structured 🍗
 
 ## Foundation Challenge — Legs focus (Structured) · 40-50 min
 
 **CODE:** 🐂🪐🍗🔵
 
 > "Follow the prescription. The numbers build the habit."
+
+*Powerlifting: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🐂🪐🍗🔵 (Warm-Up | Legs | Challenge | Structured)
-├─ 12 🍗 Deep Squat Hold (Ankle Mobility) (prescribed, track sets and reps)
+├─ 12 🍗 Front Squat (Glute Activation) (prescribed, track sets and reps)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🔢 Fundamentals
 Subcode: 🐂🪐🍗🔵 (Fundamentals | Legs | Challenge | Structured)
-├─ 12 🍗 Back Squat (High Bar) (slow, own each position)
+├─ 12 🍗 Sumo Squat (Wide-Stance Glute) (slow, own each position)
 │  Set 1: 🐂 45% × 12 (grounding)
 │  Set 2: 🐂 50% × 12 (pattern lock)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🪐🍗🔵 (Bread & Butter | Legs | Challenge | Structured)
-├─ 11 🍗 Back Squat (Low Bar) (prescribed, track sets and reps)
+├─ 11 🍗 Back Squat (Glute Focus) (prescribed, track sets and reps)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 75s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🪐🍗🔵 (Supplemental | Legs | Challenge | Structured)
-├─ 13 🍗 Walking Lunge (full range, different angle)
+├─ 13 🍗 Goblet Squat (Deep Glute Stretch) (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 60s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🪐🍗🔵 (Imprint | Legs | Challenge | Structured)
-├─ 15 🍗 Conventional Deadlift (high rep, low load, neural memory)
+├─ 15 🍗 Sumo Deadlift (Glute Emphasis) (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 60s
 ═══

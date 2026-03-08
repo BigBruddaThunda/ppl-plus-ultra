@@ -9,23 +9,25 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🍗 Single-Leg Wall Sit — Legs Mindful 🍗
+# 🍗 Single-Leg Jump Rope — Legs Mindful 🍗
 
 ## Performance Partner — Legs focus (Mindful) · 25-35 min
 
 **CODE:** 🏟🐬🍗⚪
 
 > "Test movement quality under minimal load. Patience is the metric."
+
+*Active Recovery: Deep parasympathetic work — breathe into each position, leave fresher than you entered*
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: 🏟🐬🍗⚪ (Warm-Up | Legs | Partner | Mindful)
-├─ 3 🍗 Deep Squat Hold (Ankle Mobility) (4s eccentric, breath-paced)
+├─ 3 🍗 Single-Leg Balance Hold (4s eccentric, breath-paced)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 180s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟🐬🍗⚪ (Bread & Butter | Legs | Partner | Mindful)
-├─ 2 🍗 Single-Leg Wall Sit (4s eccentric, breath-paced)
+├─ 2 🍗 Single-Leg Jump Rope (4s eccentric, breath-paced)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

@@ -9,29 +9,31 @@ type: 🛒 Push | Partner-context strength emphasis
 color: 🔵 Structured | Partner deployment logic
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🛒 Barbell Overhead Press (Standing) — Push Structured 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Structured 🛒
 
 ## Strength Partner — Push focus (Structured) · 50-65 min
 
 **CODE:** ⛽🐬🛒🔵
 
 > "Same weight, same reps, same rest. Build the base one session at a time."
+
+*Senior Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: ⛽🐬🛒🔵 (Warm-Up | Push | Partner | Structured)
-├─ 6 🛒 Incline Barbell Bench Press (30°) (prescribed, track sets and reps)
+├─ 6 🛒 Single-Arm Overhead Dumbbell Hold (prescribed, track sets and reps)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🐬🛒🔵 (Primer | Push | Partner | Structured)
-├─ 5 🛒 Smith Machine Incline Press (tight setup, crisp intent)
+├─ 5 🛒 Single-Arm Cable Chest Fly (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🐬🛒🔵 (Bread & Butter | Push | Partner | Structured)
-├─ 5 🛒 Barbell Overhead Press (Standing) (prescribed, track sets and reps)
+├─ 5 🛒 Single-Arm Cable Rear Delt Fly (prescribed, track sets and reps)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,7 +41,7 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🐬🛒🔵 (Supplemental | Push | Partner | Structured)
-├─ 6 🛒 Landmine Press (Two-Arm, Chest Focus) (full range, different angle)
+├─ 6 🛒 One-Arm Dead Hang (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s

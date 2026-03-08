@@ -9,29 +9,31 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🍗 Box Jump — Legs Technical 🍗
+# 🍗 Single-Leg Pogo Hops — Legs Technical 🍗
 
 ## Balance Time — Legs focus (Technical) · 40-50 min
 
 **CODE:** ⚖⌛🍗🟣
 
 > "Precise correction. Small movements, full attention, zero momentum."
+
+*Field Sport Athlete: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⚖⌛🍗🟣 (Warm-Up | Legs | Time | Technical)
-├─ 12 🍗 Pogo Hops (Ankle Bounce) (precision, quality over volume)
+├─ 12 🍗 Single-Leg Jump Rope (precision, quality over volume)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖⌛🍗🟣 (Primer | Legs | Time | Technical)
-├─ 11 🍗 Standing Quad Stretch (tight setup, crisp intent)
+├─ 11 🍗 Kettlebell Swing (Single-Arm) (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖⌛🍗🟣 (Bread & Butter | Legs | Time | Technical)
-├─ 11 🍗 Box Jump (precision, quality over volume)
+├─ 11 🍗 Single-Leg Pogo Hops (precision, quality over volume)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖⌛🍗🟣 (Supplemental | Legs | Time | Technical)
-├─ 12 🍗 Step-Down (Eccentric) (full range, different angle)
+├─ 12 🍗 Kettlebell Swing (Alternating Arms) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖⌛🍗🟣 (Release | Legs | Time | Technical)
-├─ 12 🍗 Leg Extension Machine (smooth tempo, downshift)
+├─ 12 🍗 Single-Arm American Swing (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 112s
 ═══

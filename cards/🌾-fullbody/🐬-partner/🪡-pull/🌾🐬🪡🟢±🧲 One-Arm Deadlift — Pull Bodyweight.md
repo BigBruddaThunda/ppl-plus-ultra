@@ -9,30 +9,32 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🪡 One-Arm Deadlift — Pull Bodyweight 🪡
+# 🪡 Kettlebell Swing (Two-Hand) — Pull Bodyweight 🪡
 
 ## Full Body Partner — Pull focus (Bodyweight) · 40-55 min
 
 **CODE:** 🌾🐬🪡🟢
 
 > "Flow through the body using only what you carry. No equipment needed."
+
+*Endurance Sport Cross-Training: Bodyweight drills for the discipline — positional strength without load*
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: 🌾🐬🪡🟢 (Warm-Up | Pull | Partner | Bodyweight)
-├─ 10 🪡 Single-Arm Face Pull (bodyweight, no external load needed)
+├─ 10 🪡 American Swing (Overhead) (bodyweight, no external load needed)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🐬🪡🟢 (Composition | Pull | Partner | Bodyweight)
-├─ 9 🪡 Aquaman (Alternating Superman) → One-Arm Deadlift (flow without reset)
+├─ 9 🪡 Heavy Swing (Power Focus) → Kettlebell Swing (Two-Hand) (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🐬🪡🟢 (Bread & Butter | Pull | Partner | Bodyweight)
-├─ 9 🪡 One-Arm Deadlift (bodyweight, no external load needed)
+├─ 9 🪡 Kettlebell Swing (Two-Hand) (bodyweight, no external load needed)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🐬🪡🟢 (Supplemental | Pull | Partner | Bodyweight)
-├─ 10 🪡 Single-Leg Romanian Deadlift (full range, different angle)
+├─ 10 🪡 Dead Stop Swing (Reset Between Reps) (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🐬🪡🟢 (Release | Pull | Partner | Bodyweight)
-├─ 10 🪡 Wide-Grip Lat Pulldown (Teres Focus) (smooth tempo, downshift)
+├─ 10 🪡 Double Kettlebell Swing (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══

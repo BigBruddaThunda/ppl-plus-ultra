@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# ➕ Face Pull (Rope) — Plus Circuit ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Circuit ➕
 
 ## Hypertrophy Time — Plus focus (Circuit) · 55-70 min
 
 **CODE:** 🦋⌛➕🟠
 
 > "Circuit the muscle group from every angle. Each station is a new stimulus."
+
+*Sport Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🦋⌛➕🟠 (Warm-Up | Plus | Time | Circuit)
@@ -26,7 +28,7 @@ Rest: 30s
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🦋⌛➕🟠 (ARAM | Plus | Time | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➕ Face Pull (Rope) × 10 (station rotation, keep moving)
+│  Station 1: ➕ Single-Leg Hops Through Ladder × 10 (station rotation, keep moving)
 │  Station 2: ➕ Aquaman (Alternating Superman) × 10 (station rotation, keep moving)
 │  Station 3: ➕ Half-Kneeling Cable Chop × 10 (station rotation, keep moving)
 │  Station 4: ➕ Wide-Grip Lat Pulldown (Teres Focus) × 10 (station rotation, keep moving)

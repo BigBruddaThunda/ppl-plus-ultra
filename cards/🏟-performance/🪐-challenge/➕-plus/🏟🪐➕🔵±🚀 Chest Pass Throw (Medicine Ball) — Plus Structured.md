@@ -16,6 +16,8 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟🪐➕🔵
 
 > "Execute the test exactly as prescribed. Record the number."
+
+*Athletic Hypertrophy: Volume tracking — prescribed sets and reps, progressive overload through logging*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🏟🪐➕🔵 (Warm-Up | Plus | Challenge | Structured)

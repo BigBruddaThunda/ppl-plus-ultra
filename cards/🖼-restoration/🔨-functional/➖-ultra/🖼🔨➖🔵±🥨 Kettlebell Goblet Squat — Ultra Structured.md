@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➖ Kettlebell Goblet Squat — Ultra Structured ➖
+# ➖ Rowing Machine (Steady State) — Ultra Structured ➖
 
 ## Restoration Functional — Ultra focus (Structured) · 30-40 min
 
 **CODE:** 🖼🔨➖🔵
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
+
+*General Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,20 +25,20 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🔨➖🔵 (Release | Ultra | Functional | Structured)
-├─ 12 ➖ Kettlebell Goblet Squat (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➖ Rowing Sprints (100m Max Effort) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🔨➖🔵 (Bread & Butter | Ultra | Functional | Structured)
-├─ 13 ➖ Kettlebell Goblet Squat (prescribed, track sets and reps)
+├─ 13 ➖ Rowing Machine (Steady State) (prescribed, track sets and reps)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🔨➖🔵 (Imprint | Ultra | Functional | Structured)
-├─ 15 ➖ Kettlebell Goblet Squat (high rep, low load, neural memory)
+├─ 15 ➖ Rowing Sprints (250m) (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══

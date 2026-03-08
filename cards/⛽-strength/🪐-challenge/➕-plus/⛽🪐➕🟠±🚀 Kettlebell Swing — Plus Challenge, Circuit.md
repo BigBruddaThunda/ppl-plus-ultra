@@ -16,6 +16,8 @@ blocks: ♨️ ▶️ 🧈 🎱 🪫 🚂
 **CODE:** ⛽🪐➕🟠
 
 > "Rotate stations. Keep the tissues trading off under heavy demand."
+
+*Kettlebell Strength: Station rotation with implements — keep tissues trading under heavy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⛽🪐➕🟠 (Warm-Up | Plus | Challenge | Circuit)

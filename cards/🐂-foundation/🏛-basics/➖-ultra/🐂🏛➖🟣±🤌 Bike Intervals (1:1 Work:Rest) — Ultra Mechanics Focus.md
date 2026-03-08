@@ -10,29 +10,31 @@ type: ➖ Ultra | Cardiovascular system and conditioning engine
 color: 🟣 Mechanics Focus | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
-# ➖ Bike Intervals (1:1 Work:Rest) — Ultra Technical ➖
+# ➖ Kettlebell Swing (Single-Arm) — Ultra Technical ➖
 
 ## Foundation Basics — Ultra focus (Technical) · 40-50 min
 
 **CODE:** 🐂🏛➖🟣
 
 > "Quality of position matters more than speed of completion."
+
+*Field Sport Athlete: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🐂🏛➖🟣 (Warm-Up | Ultra | Basics | Technical)
-├─ 12 ➖ Rowing Machine (Steady State) (precision, quality over volume)
+├─ 12 ➖ Kettlebell Swing (Alternating Arms) (precision, quality over volume)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🐂🏛➖🟣 (Primer | Ultra | Basics | Technical)
-├─ 11 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+├─ 11 ➖ Single-Arm American Swing (tight setup, crisp intent)
 │  Set 1: 🐂 55% × 11 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🏛➖🟣 (Bread & Butter | Ultra | Basics | Technical)
-├─ 11 ➖ Bike Intervals (1:1 Work:Rest) (precision, quality over volume)
+├─ 11 ➖ Kettlebell Swing (Single-Arm) (precision, quality over volume)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 112s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🏛➖🟣 (Supplemental | Ultra | Basics | Technical)
-├─ 13 ➖ Rowing Intervals (500m) (full range, different angle)
+├─ 13 ➖ Single-Leg Swing (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🪫 Release
 Subcode: 🐂🏛➖🟣 (Release | Ultra | Basics | Technical)
-├─ 12 ➖ Rowing Intervals (1000m) (smooth tempo, downshift)
+├─ 12 ➖ Alternating Kettlebell Snatch (smooth tempo, downshift)
 │  Set 1: 🐂 45% × 12 (deload)
 Rest: 90s
 ═══

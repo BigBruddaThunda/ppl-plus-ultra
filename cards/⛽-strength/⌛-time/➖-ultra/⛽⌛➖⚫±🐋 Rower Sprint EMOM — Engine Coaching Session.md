@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system and conditioning
 color: ⚫ Teaching | Tier 0-5 | GOLD: No | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# ➖ Rower Sprint EMOM — Ultra Teaching ➖
+# ➖ Rowing Machine (Steady State) — Ultra Teaching ➖
 
 ## Strength Time — Ultra focus (Teaching) · 50-65 min
 
 **CODE:** ⛽⌛➖⚫
 
 > "Learn where the bar sits and how it moves before adding plates."
+
+*New to Gym: Teaching session — learn the movement, understand the cues, build confidence*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: ⛽⌛➖⚫ (Warm-Up | Ultra | Time | Teaching)
-├─ 6 ➖ Kettlebell Swing (Single-Arm) (coached, check form before adding load)
+├─ 6 ➖ Rowing Intervals (500m) (coached, check form before adding load)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 135s
 ═══
 ## 2) 🛠 Craft
 Subcode: ⛽⌛➖⚫ (Craft | Ultra | Time | Teaching)
-├─ 5 ➖ Kettlebell Goblet Squat (coach: check grip width, elbow angle, foot pressure)
+├─ 5 ➖ Rowing Intervals (1000m) (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: ⛽ 60% × 5 (practice the pattern, not the load)
 │  Set 2: ⛽ 65% × 5 (same cues, slightly heavier)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽⌛➖⚫ (Bread & Butter | Ultra | Time | Teaching)
-├─ 5 ➖ Rower Sprint EMOM (coached, check form before adding load)
+├─ 5 ➖ Rowing Machine (Steady State) (coached, check form before adding load)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 270s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽⌛➖⚫ (Supplemental | Ultra | Time | Teaching)
-├─ 6 ➖ Kettlebell Swing (Alternating Arms) (full range, different angle)
+├─ 6 ➖ Rowing Intervals (2000m) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 180s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⛽⌛➖⚫ (Imprint | Ultra | Time | Teaching)
-├─ 6 ➖ Single-Leg Swing (high rep, low load, neural memory)
+├─ 6 ➖ Rowing Sprints (250m) (high rep, low load, neural memory)
 │  Set 1: ⛽ 55% × 6 (lock the pattern)
 Rest: 180s
 ═══

@@ -9,23 +9,25 @@ type: ➖ Ultra | Cardiovascular system
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➖ Turkish Get-Up (Full) — Ultra Mindful ➖
+# ➖ Rowing Machine (Steady State) — Ultra Mindful ➖
 
 ## Performance Time — Ultra focus (Mindful) · 25-35 min
 
 **CODE:** 🏟⌛➖⚪
 
 > "Test movement quality under minimal load. Patience is the metric."
+
+*Fasting Cardio + Strength: Zone 2 steady state — conversational pace, extended duration, aerobic base*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🏟⌛➖⚪ (Warm-Up | Ultra | Time | Mindful)
-├─ 3 ➖ Single-Foot In Each Box (Forward) (4s eccentric, breath-paced)
+├─ 3 ➖ Rowing Intervals (500m) (4s eccentric, breath-paced)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 180s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟⌛➖⚪ (Bread & Butter | Ultra | Time | Mindful)
-├─ 2 ➖ Turkish Get-Up (Full) (4s eccentric, breath-paced)
+├─ 2 ➖ Rowing Machine (Steady State) (4s eccentric, breath-paced)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

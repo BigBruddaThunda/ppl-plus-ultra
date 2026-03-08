@@ -9,23 +9,25 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🍗 Standing Hip Internal Rotation (Band) — Legs Fun 🍗
+# 🍗 Single-Leg Jump Rope — Legs Fun 🍗
 
 ## Hypertrophy Functional — Legs focus (Fun) · 55-70 min
 
 **CODE:** 🦋🔨🍗🟡
 
 > "Try exercises you would not normally pick. Variety stimulates growth."
+
+*CrossFit-Style: Movement exploration — unconventional patterns, play with load and position*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🦋🔨🍗🟡 (Warm-Up | Legs | Functional | Fun)
-├─ 12 🍗 Half-Kneeling Hip Flexor Stretch (explore, stay within constraints)
+├─ 12 🍗 Kettlebell Swing (Single-Arm) (explore, stay within constraints)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🦋🔨🍗🟡 (Bread & Butter | Legs | Functional | Fun)
-├─ 10 🍗 Standing Hip Internal Rotation (Band) (explore, stay within constraints)
+├─ 10 🍗 Single-Leg Jump Rope (explore, stay within constraints)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 90s
 ═══
 ## 3) 🌎 Exposure
 Subcode: 🦋🔨🍗🟡 (Exposure | Legs | Functional | Fun)
-├─ 10 🍗 Single-Leg Curl (Lying) (try the unfamiliar version, explore the range)
+├─ 10 🍗 Single-Leg Swing (try the unfamiliar version, explore the range)
 │  Set 1: 🦋 55% × 10 (discovery set)
 Rest: 60s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: 🦋🔨🍗🟡 (Sandbox | Legs | Functional | Fun)
-├─ 10 🍗 Single-Leg Pogo Hops (explore within constraints, choose your variation)
+├─ 10 🍗 Alternating Kettlebell Snatch (explore within constraints, choose your variation)
 │  Option A: 🦋 60% × 10 (play with grip, stance, or tempo)
 │  Option B: 🦋 60% × 10 (try a variation you have not used before)
 Rest: 60s
 ═══
 ## 5) 🪫 Release
 Subcode: 🦋🔨🍗🟡 (Release | Legs | Functional | Fun)
-├─ 12 🍗 Single-Leg Curl (Lying) (smooth tempo, downshift)
+├─ 12 🍗 Single-Leg Swing (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══

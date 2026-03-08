@@ -16,16 +16,18 @@ blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 **CODE:** 🐂🪐🍗🟢
 
 > "Learn the pattern with your own body first. External load comes later."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🐂🪐🍗🟢 (Warm-Up | Legs | Challenge | Bodyweight)
-├─ 12 🍗 Single-Leg Pogo Hops (bodyweight, no external load needed)
+├─ 12 🍗 Box Jump (Calf Power) (bodyweight, no external load needed)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🔢 Fundamentals
 Subcode: 🐂🪐🍗🟢 (Fundamentals | Legs | Challenge | Bodyweight)
-├─ 12 🍗 Half-Kneeling Hip Flexor Stretch (slow, own each position)
+├─ 12 🍗 Depth Drop (Reactive Calf) (slow, own each position)
 │  Set 1: 🐂 45% × 12 (grounding)
 │  Set 2: 🐂 50% × 12 (pattern lock)
 Rest: 75s
@@ -40,14 +42,14 @@ Rest: 75s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🪐🍗🟢 (Supplemental | Legs | Challenge | Bodyweight)
-├─ 13 🍗 Single-Leg Extension (full range, different angle)
+├─ 13 🍗 Jump Rope (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 60s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🪐🍗🟢 (Imprint | Legs | Challenge | Bodyweight)
-├─ 15 🍗 Single-Leg Curl (Lying) (high rep, low load, neural memory)
+├─ 15 🍗 Farmer's Walk on Toes (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 60s
 ═══

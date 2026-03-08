@@ -9,29 +9,31 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟢 Bodyweight | Tier 0-5 | GOLD: No | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🪡 Pull-Up Density Clusters — Pull Bodyweight 🪡
+# 🪡 Single-Arm Face Pull — Pull Bodyweight 🪡
 
 ## Strength Time — Pull focus (Bodyweight) · 50-65 min
 
 **CODE:** ⛽⌛🪡🟢
 
 > "Prove the pattern holds without external load. Bodyweight is the test."
+
+*General Functional Fitness: Bodyweight functional — park, field, living room — prove the pattern works anywhere*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: ⛽⌛🪡🟢 (Warm-Up | Pull | Time | Bodyweight)
-├─ 6 🪡 Wide-Grip Pull-Up (Teres Focus) (bodyweight, no external load needed)
+├─ 6 🪡 Aquaman (Alternating Superman) (bodyweight, no external load needed)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽⌛🪡🟢 (Primer | Pull | Time | Bodyweight)
-├─ 5 🪡 Chest-Supported Row (Elbow Out) (tight setup, crisp intent)
+├─ 5 🪡 Half-Kneeling Band Single-Arm Pulldown (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽⌛🪡🟢 (Bread & Butter | Pull | Time | Bodyweight)
-├─ 5 🪡 Pull-Up Density Clusters (bodyweight, no external load needed)
+├─ 5 🪡 Single-Arm Face Pull (bodyweight, no external load needed)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽⌛🪡🟢 (Supplemental | Pull | Time | Bodyweight)
-├─ 6 🪡 Cable Row (High Elbow) (full range, different angle)
+├─ 6 🪡 Archer Pull-Up (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽⌛🪡🟢 (Release | Pull | Time | Bodyweight)
-├─ 6 🪡 Deadlift (Conventional) (smooth tempo, downshift)
+├─ 6 🪡 Single-Arm Lat Pulldown (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

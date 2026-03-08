@@ -9,30 +9,32 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🪡 Keg Carry — Pull Technical 🪡
+# 🪡 Zercher Carry — Pull Technical 🪡
 
 ## Performance Time — Pull focus (Technical) · 25-35 min
 
 **CODE:** 🏟⌛🪡🟣
 
 > "One maximal attempt with perfect setup. The technique is the test."
+
+*CrossFit-Style: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🏟⌛🪡🟣 (Warm-Up | Pull | Time | Technical)
-├─ 3 🪡 Zercher Carry (precision, quality over volume)
+├─ 3 🪡 Keg Carry (precision, quality over volume)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 135s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟⌛🪡🟣 (Progression | Pull | Time | Technical)
-├─ 2 🪡 Keg Carry (ramp to test weight)
+├─ 2 🪡 Zercher Carry (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟⌛🪡🟣 (Bread & Butter | Pull | Time | Technical)
-├─ 2 🪡 Keg Carry (precision, quality over volume)
+├─ 2 🪡 Zercher Carry (precision, quality over volume)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

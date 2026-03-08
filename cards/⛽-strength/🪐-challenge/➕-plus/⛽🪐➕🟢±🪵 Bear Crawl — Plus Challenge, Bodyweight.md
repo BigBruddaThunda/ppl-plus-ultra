@@ -16,6 +16,8 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 **CODE:** ⛽🪐➕🟢
 
 > "Prove the pattern holds without external load. Bodyweight is the test."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: ⛽🪐➕🟢 (Warm-Up | Plus | Challenge | Bodyweight)

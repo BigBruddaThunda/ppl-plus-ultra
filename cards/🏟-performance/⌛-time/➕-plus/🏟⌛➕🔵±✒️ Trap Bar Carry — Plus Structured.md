@@ -9,30 +9,32 @@ type: ➕ Plus | Full body power, core
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➕ Trap Bar Carry — Plus Structured ➕
+# ➕ Hip Flexor Stretch (Half-Kneeling) — Plus Structured ➕
 
 ## Performance Time — Plus focus (Structured) · 25-35 min
 
 **CODE:** 🏟⌛➕🔵
 
 > "Execute the test exactly as prescribed. Record the number."
+
+*Senior Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🏟⌛➕🔵 (Warm-Up | Plus | Time | Structured)
-├─ 3 ➕ Single-Foot In Each Box (Forward) (prescribed, track sets and reps)
+├─ 3 ➕ Aquaman (Alternating Superman) (prescribed, track sets and reps)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟⌛➕🔵 (Progression | Plus | Time | Structured)
-├─ 2 ➕ Trap Bar Carry (ramp to test weight)
+├─ 2 ➕ Hip Flexor Stretch (Half-Kneeling) (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟⌛➕🔵 (Bread & Butter | Plus | Time | Structured)
-├─ 2 ➕ Trap Bar Carry (prescribed, track sets and reps)
+├─ 2 ➕ Hip Flexor Stretch (Half-Kneeling) (prescribed, track sets and reps)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

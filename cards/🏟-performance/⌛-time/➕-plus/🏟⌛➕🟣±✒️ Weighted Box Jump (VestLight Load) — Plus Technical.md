@@ -9,30 +9,32 @@ type: ➕ Plus | Full body power, core
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➕ Weighted Box Jump (Vest/Light Load) — Plus Technical ➕
+# ➕ Single-Leg Box Jump — Plus Technical ➕
 
 ## Performance Time — Plus focus (Technical) · 25-35 min
 
 **CODE:** 🏟⌛➕🟣
 
 > "One maximal attempt with perfect setup. The technique is the test."
+
+*CrossFit-Style: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🏟⌛➕🟣 (Warm-Up | Plus | Time | Technical)
-├─ 3 ➕ Single-Arm Dumbbell Clean (precision, quality over volume)
+├─ 3 ➕ Split Jump (Alternating) (precision, quality over volume)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 135s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟⌛➕🟣 (Progression | Plus | Time | Technical)
-├─ 2 ➕ Weighted Box Jump (Vest/Light Load) (ramp to test weight)
+├─ 2 ➕ Single-Leg Box Jump (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟⌛➕🟣 (Bread & Butter | Plus | Time | Technical)
-├─ 2 ➕ Weighted Box Jump (Vest/Light Load) (precision, quality over volume)
+├─ 2 ➕ Single-Leg Box Jump (precision, quality over volume)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

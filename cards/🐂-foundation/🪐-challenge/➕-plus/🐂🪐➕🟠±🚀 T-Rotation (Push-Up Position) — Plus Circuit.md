@@ -16,6 +16,8 @@ blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 **CODE:** 🐂🪐➕🟠
 
 > "Rotate through stations at learning pace. Each one is a fresh pattern."
+
+*Combat Sport Prep: Athletic circuit — each station trains a different movement pattern*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🐂🪐➕🟠 (Warm-Up | Plus | Challenge | Circuit)

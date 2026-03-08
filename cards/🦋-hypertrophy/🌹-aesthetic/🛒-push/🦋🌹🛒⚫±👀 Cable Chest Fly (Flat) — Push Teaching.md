@@ -9,30 +9,32 @@ type: 🛒 Push | Chest, front delts, triceps
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🛒 Cable Chest Fly (Flat) — Push Teaching 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Teaching 🛒
 
 ## Hypertrophy Aesthetic — Push focus (Teaching) · 55-70 min
 
 **CODE:** 🦋🌹🛒⚫
 
 > "Learn what tension feels like in the target muscle before chasing volume."
+
+*Post-Rehab Strength: Teaches barbell setup, loading sequence, and safety positions for heavy compound lifts*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: 🦋🌹🛒⚫ (Warm-Up | Push | Aesthetic | Teaching)
-├─ 12 🛒 Dumbbell Chest Fly (coached, check form before adding load)
+├─ 12 🛒 Single-Arm Overhead Dumbbell Hold (coached, check form before adding load)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: 🦋🌹🛒⚫ (Craft | Push | Aesthetic | Teaching)
-├─ 10 🛒 Low-to-High Cable Fly (coach: check grip width, elbow angle, foot pressure)
+├─ 10 🛒 Single-Arm Cable Chest Fly (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🦋 50% × 10 (practice the pattern, not the load)
 │  Set 2: 🦋 55% × 10 (same cues, slightly heavier)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🌹🛒⚫ (Bread & Butter | Push | Aesthetic | Teaching)
-├─ 10 🛒 Cable Chest Fly (Flat) (coached, check form before adding load)
+├─ 10 🛒 Single-Arm Cable Rear Delt Fly (coached, check form before adding load)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🦋🌹🛒⚫ (Supplemental | Push | Aesthetic | Teaching)
-├─ 12 🛒 Band Pull-Apart (Chest Opener) (full range, different angle)
+├─ 12 🛒 One-Arm Dead Hang (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🦋🌹🛒⚫ (Imprint | Push | Aesthetic | Teaching)
-├─ 12 🛒 Medicine Ball Chest Pass (high rep, low load, neural memory)
+├─ 12 🛒 Single-Arm Dumbbell Lateral Raise (high rep, low load, neural memory)
 │  Set 1: 🦋 45% × 12 (lock the pattern)
 Rest: 90s
 ═══

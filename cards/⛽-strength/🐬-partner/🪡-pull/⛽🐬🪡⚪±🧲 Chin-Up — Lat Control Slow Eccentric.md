@@ -9,23 +9,25 @@ type: 🪡 Pull | Partner-context strength emphasis
 color: ⚪ Mindful | Partner deployment logic
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🪡 Chin-Up — Pull Mindful 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Mindful 🪡
 
 ## Strength Partner — Pull focus (Mindful) · 50-65 min
 
 **CODE:** ⛽🐬🪡⚪
 
 > "Four seconds down. Feel every degree of the range before you earn the drive."
+
+*Return After Break: Recovery and restoration — breath work, gentle movement, nervous system regulation*
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: ⛽🐬🪡⚪ (Warm-Up | Pull | Partner | Mindful)
-├─ 6 🪡 Wide-Grip Pull-Up (Teres Focus) (4s eccentric, breath-paced)
+├─ 6 🪡 Single-Arm Overhead Dumbbell Hold (4s eccentric, breath-paced)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 180s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⛽🐬🪡⚪ (Bread & Butter | Pull | Partner | Mindful)
-├─ 5 🪡 Chin-Up (4s eccentric, breath-paced)
+├─ 5 🪡 Single-Arm Cable Rear Delt Fly (4s eccentric, breath-paced)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 360s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: ⛽🐬🪡⚪ (Supplemental | Pull | Partner | Mindful)
-├─ 6 🪡 Cable Row (High Elbow) (full range, different angle)
+├─ 6 🪡 Aquaman (Alternating Superman) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 240s
 ═══
 ## 4) 🪫 Release
 Subcode: ⛽🐬🪡⚪ (Release | Pull | Partner | Mindful)
-├─ 6 🪡 Deadlift (Conventional) (parasympathetic, tension down, 4s eccentric)
+├─ 6 🪡 Half-Kneeling Band Single-Arm Pulldown (parasympathetic, tension down, 4s eccentric)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 240s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⛽🐬🪡⚪ (Imprint | Pull | Partner | Mindful)
-├─ 6 🪡 Scapular Push-Up (high rep, low load, neural memory)
+├─ 6 🪡 One-Arm Dead Hang (high rep, low load, neural memory)
 │  Set 1: ⛽ 55% × 6 (lock the pattern)
 Rest: 240s
 ═══

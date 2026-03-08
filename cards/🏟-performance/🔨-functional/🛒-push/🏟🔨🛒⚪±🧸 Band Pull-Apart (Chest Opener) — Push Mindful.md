@@ -9,23 +9,25 @@ type: 🛒 Push | Chest, front delts, triceps
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🛒 Band Pull-Apart (Chest Opener) — Push Mindful 🛒
+# 🛒 Kettlebell Swing (Two-Hand) — Push Mindful 🛒
 
 ## Performance Functional — Push focus (Mindful) · 25-35 min
 
 **CODE:** 🏟🔨🛒⚪
 
 > "Test movement quality under minimal load. Patience is the metric."
+
+*Endurance Sport Cross-Training: Recovery within the discipline — slow, mindful practice of the core positions*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🏟🔨🛒⚪ (Warm-Up | Push | Functional | Mindful)
-├─ 3 🛒 Single-Arm Incline Dumbbell Press (4s eccentric, breath-paced)
+├─ 3 🛒 American Swing (Overhead) (4s eccentric, breath-paced)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 180s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟🔨🛒⚪ (Bread & Butter | Push | Functional | Mindful)
-├─ 2 🛒 Band Pull-Apart (Chest Opener) (4s eccentric, breath-paced)
+├─ 2 🛒 Kettlebell Swing (Two-Hand) (4s eccentric, breath-paced)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

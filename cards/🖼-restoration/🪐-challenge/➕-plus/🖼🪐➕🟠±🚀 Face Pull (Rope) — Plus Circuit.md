@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➕ Face Pull (Rope) — Plus Circuit ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Circuit ➕
 
 ## Restoration Challenge — Plus focus (Circuit) · 30-40 min
 
 **CODE:** 🖼🪐➕🟠
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
+
+*Sport Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) 🎯 Intention
 
@@ -24,7 +26,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🖼🪐➕🟠 (ARAM | Plus | Challenge | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➕ Face Pull (Rope) × 13 (station rotation, keep moving)
+│  Station 1: ➕ Single-Leg Hops Through Ladder × 13 (station rotation, keep moving)
 │  Station 2: ➕ Hip Flexor Stretch (Half-Kneeling) × 13 (station rotation, keep moving)
 │  Station 3: ➕ Neck CARs (Controlled Circles) × 13 (station rotation, keep moving)
 │  Station 4: ➕ Wide-Grip Lat Pulldown (Teres Focus) × 13 (station rotation, keep moving)

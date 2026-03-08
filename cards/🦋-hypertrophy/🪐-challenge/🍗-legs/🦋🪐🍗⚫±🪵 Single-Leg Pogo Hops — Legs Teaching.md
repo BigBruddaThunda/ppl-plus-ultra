@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🍗 Single-Leg Pogo Hops — Legs Teaching 🍗
+# 🍗 Back Squat (Glute Focus) — Legs Teaching 🍗
 
 ## Hypertrophy Challenge — Legs focus (Teaching) · 55-70 min
 
 **CODE:** 🦋🪐🍗⚫
 
 > "Learn what tension feels like in the target muscle before chasing volume."
+
+*Powerlifting: Teaches barbell setup, loading sequence, and safety positions for heavy compound lifts*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🦋🪐🍗⚫ (Warm-Up | Legs | Challenge | Teaching)
-├─ 12 🍗 Pogo Hops (Ankle Bounce) (coached, check form before adding load)
+├─ 12 🍗 Front Squat (Glute Activation) (coached, check form before adding load)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: 🦋🪐🍗⚫ (Craft | Legs | Challenge | Teaching)
-├─ 10 🍗 Standing Quad Stretch (coach: check grip width, elbow angle, foot pressure)
+├─ 10 🍗 Sumo Squat (Wide-Stance Glute) (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🦋 50% × 10 (practice the pattern, not the load)
 │  Set 2: 🦋 55% × 10 (same cues, slightly heavier)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🪐🍗⚫ (Bread & Butter | Legs | Challenge | Teaching)
-├─ 10 🍗 Single-Leg Pogo Hops (coached, check form before adding load)
+├─ 10 🍗 Back Squat (Glute Focus) (coached, check form before adding load)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🦋🪐🍗⚫ (Supplemental | Legs | Challenge | Teaching)
-├─ 12 🍗 Step-Down (Eccentric) (full range, different angle)
+├─ 12 🍗 Goblet Squat (Deep Glute Stretch) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🦋🪐🍗⚫ (Imprint | Legs | Challenge | Teaching)
-├─ 12 🍗 Barbell Good Morning (high rep, low load, neural memory)
+├─ 12 🍗 Sumo Deadlift (Glute Emphasis) (high rep, low load, neural memory)
 │  Set 1: 🦋 45% × 12 (lock the pattern)
 Rest: 90s
 ═══

@@ -9,13 +9,15 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🛒 Neutral-Grip Lat Pulldown (Brachialis) — Push Circuit 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Circuit 🛒
 
 ## Restoration Functional — Push focus (Circuit) · 30-40 min
 
 **CODE:** 🖼🔨🛒🟠
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
+
+*Kettlebell Strength: Station rotation with implements — keep tissues trading under heavy demand*
 ═══
 ## 1) 🎯 Intention
 
@@ -24,17 +26,16 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🖼🔨🛒🟠 (ARAM | Push | Functional | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🛒 Neutral-Grip Lat Pulldown (Brachialis) × 13 (station rotation, keep moving)
-│  Station 2: 🛒 Single-Arm Cable Chest Fly × 13 (station rotation, keep moving)
-│  Station 3: 🛒 Alternating Dumbbell Front Raise × 13 (station rotation, keep moving)
-│  Station 4: 🛒 Low-to-High Cable Fly × 13 (station rotation, keep moving)
+│  Station 1: 🛒 Plyometric Push-Up (Hands Leave Ground) × 13 (station rotation, keep moving)
+│  Station 2: 🛒 Depth Push-Up (Drop to Floor) × 13 (station rotation, keep moving)
+│  Station 3: 🛒 Banded Speed Bench Press × 13 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 30s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🖼🔨🛒🟠 (Release | Push | Functional | Circuit)
-├─ 12 🛒 Band Pull-Apart (Chest Opener) (parasympathetic, tension down, 4s eccentric)
+├─ 12 🛒 Plyometric Push-Up (Hands Leave Ground) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 30s
 ═══

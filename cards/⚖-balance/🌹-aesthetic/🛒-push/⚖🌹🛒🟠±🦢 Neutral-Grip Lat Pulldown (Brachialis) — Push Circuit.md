@@ -9,34 +9,36 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🛒 Neutral-Grip Lat Pulldown (Brachialis) — Push Circuit 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Circuit 🛒
 
 ## Balance Aesthetic — Push focus (Circuit) · 40-50 min
 
 **CODE:** ⚖🌹🛒🟠
 
 > "Rotate through corrective stations. Each one targets a different deficit."
+
+*Injury Prevention / Prehab: Restoration circuit — each station addresses a different tissue or system*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: ⚖🌹🛒🟠 (Warm-Up | Push | Aesthetic | Circuit)
-├─ 12 🛒 Single-Arm Cable Chest Fly (station rotation, keep moving)
+├─ 12 🛒 Single-Arm Overhead Dumbbell Hold (station rotation, keep moving)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⚖🌹🛒🟠 (ARAM | Push | Aesthetic | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🛒 Neutral-Grip Lat Pulldown (Brachialis) × 11 (station rotation, keep moving)
-│  Station 2: 🛒 Single-Arm Cable Chest Fly × 11 (station rotation, keep moving)
-│  Station 3: 🛒 Low-to-High Cable Fly × 11 (station rotation, keep moving)
-│  Station 4: 🛒 Band Pull-Apart (Chest Opener) × 11 (station rotation, keep moving)
+│  Station 1: 🛒 Single-Arm Cable Rear Delt Fly × 11 (station rotation, keep moving)
+│  Station 2: 🛒 Single-Arm Overhead Dumbbell Hold × 11 (station rotation, keep moving)
+│  Station 3: 🛒 Single-Arm Cable Chest Fly × 11 (station rotation, keep moving)
+│  Station 4: 🛒 One-Arm Dead Hang × 11 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⚖🌹🛒🟠 (Release | Push | Aesthetic | Circuit)
-├─ 12 🛒 Preacher Curl Machine (smooth tempo, downshift)
+├─ 12 🛒 Alternating Dumbbell Front Raise (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

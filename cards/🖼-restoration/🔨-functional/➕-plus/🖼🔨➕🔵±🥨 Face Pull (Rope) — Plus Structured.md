@@ -16,6 +16,8 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 **CODE:** 🖼🔨➕🔵
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
+
+*Tactical / First Responder: Prescribed progression in the discipline — structured path to mastery*
 ═══
 ## 1) 🎯 Intention
 

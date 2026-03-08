@@ -16,16 +16,18 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 **CODE:** 🦋🌹🍗🟣
 
 > "Feel the muscle work through the full range. Precision builds tissue."
+
+*Aesthetic Specialization: Precision isolation — feel every fiber, full ROM, cable and machine emphasis*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🦋🌹🍗🟣 (Warm-Up | Legs | Aesthetic | Technical)
-├─ 12 🍗 Pogo Hops (Ankle Bounce) (precision, quality over volume)
+├─ 12 🍗 Single-Leg Jump Rope (precision, quality over volume)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🌹🍗🟣 (Primer | Legs | Aesthetic | Technical)
-├─ 10 🍗 Standing Quad Stretch (tight setup, crisp intent)
+├─ 10 🍗 Pogo Hops (Ankle Bounce) (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 112s
 ═══
@@ -39,14 +41,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🦋🌹🍗🟣 (Supplemental | Legs | Aesthetic | Technical)
-├─ 12 🍗 Step-Down (Eccentric) (full range, different angle)
+├─ 12 🍗 Box Jump (Calf Power) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🪫 Release
 Subcode: 🦋🌹🍗🟣 (Release | Legs | Aesthetic | Technical)
-├─ 12 🍗 Leg Extension Machine (smooth tempo, downshift)
+├─ 12 🍗 Depth Drop (Reactive Calf) (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 90s
 ═══

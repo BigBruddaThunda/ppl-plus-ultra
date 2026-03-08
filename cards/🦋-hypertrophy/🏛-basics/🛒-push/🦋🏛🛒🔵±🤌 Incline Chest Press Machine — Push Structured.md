@@ -9,29 +9,31 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🛒 Incline Chest Press Machine — Push Structured 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Structured 🛒
 
 ## Hypertrophy Basics — Push focus (Structured) · 55-70 min
 
 **CODE:** 🦋🏛🛒🔵
 
 > "Hit every set at the prescribed rep count. Volume is the driver."
+
+*General Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🦋🏛🛒🔵 (Warm-Up | Push | Basics | Structured)
-├─ 12 🛒 Incline Barbell Bench Press (30°) (prescribed, track sets and reps)
+├─ 12 🛒 Depth Push-Up (Drop to Floor) (prescribed, track sets and reps)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🏛🛒🔵 (Primer | Push | Basics | Structured)
-├─ 10 🛒 Smith Machine Incline Press (tight setup, crisp intent)
+├─ 10 🛒 Banded Speed Bench Press (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🏛🛒🔵 (Bread & Butter | Push | Basics | Structured)
-├─ 10 🛒 Incline Chest Press Machine (prescribed, track sets and reps)
+├─ 10 🛒 Plyometric Push-Up (Hands Leave Ground) (prescribed, track sets and reps)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 90s
 ═══
 ## 4) 🗿 Sculpt
 Subcode: 🦋🏛🛒🔵 (Sculpt | Push | Basics | Structured)
-├─ 12 🛒 Landmine Press (Two-Arm, Chest Focus) (angles, tension, volume)
+├─ 12 🛒 Plyometric Push-Up (Hands Leave Ground) (angles, tension, volume)
 │  Set 1: 🦋 65% × 12 (shaping)
 │  Set 2: 🦋 65% × 12 (carving)
 Rest: 60s
 ═══
 ## 5) 🧩 Supplemental
 Subcode: 🦋🏛🛒🔵 (Supplemental | Push | Basics | Structured)
-├─ 12 🛒 Landmine Press (Two-Arm, Chest Focus) (full range, different angle)
+├─ 12 🛒 Plyometric Push-Up (Hands Leave Ground) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 60s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋🏛🛒🔵 (Release | Push | Basics | Structured)
-├─ 12 🛒 Diamond Push-Up (Close-Grip) (smooth tempo, downshift)
+├─ 12 🛒 Plyometric Push-Up (Hands Leave Ground) (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══

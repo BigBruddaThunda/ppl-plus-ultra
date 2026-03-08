@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🪡 Face Pull (Rope) — Pull Structured 🪡
+# 🪡 Single-Leg Balance Hold — Pull Structured 🪡
 
 ## Restoration Partner — Pull focus (Structured) · 30-40 min
 
 **CODE:** 🖼🐬🪡🔵
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
+
+*50+ Active Living: Structured progression — small increments, clear targets, consistent tracking*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,20 +25,20 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🐬🪡🔵 (Release | Pull | Partner | Structured)
-├─ 12 🪡 Good Morning (Barbell) (parasympathetic, tension down, 4s eccentric)
+├─ 12 🪡 Single-Leg Reach (Multi-Directional) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🐬🪡🔵 (Bread & Butter | Pull | Partner | Structured)
-├─ 13 🪡 Face Pull (Rope) (prescribed, track sets and reps)
+├─ 13 🪡 Single-Leg Balance Hold (prescribed, track sets and reps)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🐬🪡🔵 (Imprint | Pull | Partner | Structured)
-├─ 15 🪡 Preacher Curl Machine (high rep, low load, neural memory)
+├─ 15 🪡 Single-Leg Hip Hinge (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══

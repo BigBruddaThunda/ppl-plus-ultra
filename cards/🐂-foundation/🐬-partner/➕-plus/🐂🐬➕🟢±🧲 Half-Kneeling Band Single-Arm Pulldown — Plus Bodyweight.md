@@ -9,30 +9,32 @@ type: ➕ Plus | Full body power, core
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# ➕ Half-Kneeling Band Single-Arm Pulldown — Plus Bodyweight ➕
+# ➕ Aquaman (Alternating Superman) — Plus Bodyweight ➕
 
 ## Foundation Partner — Plus focus (Bodyweight) · 40-50 min
 
 **CODE:** 🐂🐬➕🟢
 
 > "Learn the pattern with your own body first. External load comes later."
+
+*Climbing / Grip Sport: Bodyweight functional — park, field, living room — prove the pattern works anywhere*
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: 🐂🐬➕🟢 (Warm-Up | Plus | Partner | Bodyweight)
-├─ 12 ➕ Hip Flexor Stretch (Half-Kneeling) (bodyweight, no external load needed)
+├─ 12 ➕ Half-Kneeling Band Single-Arm Pulldown (bodyweight, no external load needed)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🔢 Fundamentals
 Subcode: 🐂🐬➕🟢 (Fundamentals | Plus | Partner | Bodyweight)
-├─ 12 ➕ Half-Kneeling Cable Chop (slow, own each position)
+├─ 12 ➕ Archer Pull-Up (slow, own each position)
 │  Set 1: 🐂 45% × 12 (grounding)
 │  Set 2: 🐂 50% × 12 (pattern lock)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🐬➕🟢 (Bread & Butter | Plus | Partner | Bodyweight)
-├─ 11 ➕ Half-Kneeling Band Single-Arm Pulldown (bodyweight, no external load needed)
+├─ 11 ➕ Aquaman (Alternating Superman) (bodyweight, no external load needed)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 75s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🐬➕🟢 (Supplemental | Plus | Partner | Bodyweight)
-├─ 13 ➕ Kettlebell Goblet Squat (full range, different angle)
+├─ 13 ➕ Single-Arm Lat Pulldown (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 60s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🐬➕🟢 (Imprint | Plus | Partner | Bodyweight)
-├─ 15 ➕ Half-Kneeling Band Single-Arm Pulldown (high rep, low load, neural memory)
+├─ 15 ➕ Aquaman (Alternating Superman) (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 60s
 ═══

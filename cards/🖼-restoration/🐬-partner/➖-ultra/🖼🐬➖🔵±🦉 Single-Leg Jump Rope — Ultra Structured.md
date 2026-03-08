@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➖ Single-Leg Jump Rope — Ultra Structured ➖
+# ➖ Kettlebell Swing (Two-Hand) — Ultra Structured ➖
 
 ## Restoration Partner — Ultra focus (Structured) · 30-40 min
 
 **CODE:** 🖼🐬➖🔵
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
+
+*Powerlifting: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,20 +25,20 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🐬➖🔵 (Release | Ultra | Partner | Structured)
-├─ 12 ➖ Single-Leg Jump Rope (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➖ Swing to High Pull (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🐬➖🔵 (Bread & Butter | Ultra | Partner | Structured)
-├─ 13 ➖ Single-Leg Jump Rope (prescribed, track sets and reps)
+├─ 13 ➖ Kettlebell Swing (Two-Hand) (prescribed, track sets and reps)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🐬➖🔵 (Imprint | Ultra | Partner | Structured)
-├─ 15 ➖ Single-Leg Jump Rope (high rep, low load, neural memory)
+├─ 15 ➖ Swing + Clean (Combo) (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══

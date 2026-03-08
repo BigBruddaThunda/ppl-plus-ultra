@@ -9,30 +9,32 @@ type: ➕ Plus | Full body power, core
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➕ Weighted Box Jump (Vest/Light Load) — Plus Intense ➕
+# ➕ Aquaman (Alternating Superman) — Plus Intense ➕
 
 ## Performance Aesthetic — Plus focus (Intense) · 25-35 min
 
 **CODE:** 🏟🌹➕🔴
 
 > "All-out effort. Leave everything on the platform."
+
+*Aesthetic Specialization: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🏟🌹➕🔴 (Warm-Up | Plus | Aesthetic | Intense)
-├─ 3 ➕ Atlas Stone Load (To Platform) (high effort, push the pace)
+├─ 3 ➕ Yoke Walk (high effort, push the pace)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 45s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🌹➕🔴 (Progression | Plus | Aesthetic | Intense)
-├─ 2 ➕ Weighted Box Jump (Vest/Light Load) (ramp to test weight)
+├─ 2 ➕ Aquaman (Alternating Superman) (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🌹➕🔴 (Bread & Butter | Plus | Aesthetic | Intense)
-├─ 2 ➕ Weighted Box Jump (Vest/Light Load) (high effort, push the pace)
+├─ 2 ➕ Aquaman (Alternating Superman) (high effort, push the pace)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

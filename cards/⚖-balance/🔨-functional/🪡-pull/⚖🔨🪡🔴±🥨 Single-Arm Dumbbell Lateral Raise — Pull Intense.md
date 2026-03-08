@@ -9,29 +9,31 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🪡 Single-Arm Dumbbell Lateral Raise — Pull Intense 🪡
+# 🪡 Zercher Carry — Pull Intense 🪡
 
 ## Balance Functional — Pull focus (Intense) · 40-50 min
 
 **CODE:** ⚖🔨🪡🔴
 
 > "Attack the weak link with volume. Fatigue exposes the gap."
+
+*Athletic Hypertrophy: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: ⚖🔨🪡🔴 (Warm-Up | Pull | Functional | Intense)
-├─ 12 🪡 Single-Arm Face Pull (high effort, push the pace)
+├─ 12 🪡 Keg Carry (high effort, push the pace)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖🔨🪡🔴 (Primer | Pull | Functional | Intense)
-├─ 11 🪡 Aquaman (Alternating Superman) (tight setup, crisp intent)
+├─ 11 🪡 Single-Arm Face Pull (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🔨🪡🔴 (Bread & Butter | Pull | Functional | Intense)
-├─ 11 🪡 Single-Arm Dumbbell Lateral Raise (high effort, push the pace)
+├─ 11 🪡 Zercher Carry (high effort, push the pace)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 45s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🔨🪡🔴 (Supplemental | Pull | Functional | Intense)
-├─ 12 🪡 Single-Leg Hip Thrust (Barbell) (full range, different angle)
+├─ 12 🪡 Aquaman (Alternating Superman) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 37s
 ═══
 ## 5) 🌋 Gutter
 Subcode: ⚖🔨🪡🔴 (Gutter | Pull | Functional | Intense)
-├─ 12 🪡 Alternating Dumbbell Front Raise (all-out, leave nothing in reserve)
+├─ 12 🪡 Half-Kneeling Band Single-Arm Pulldown (all-out, leave nothing in reserve)
 │  Set 1: ⚖ 55% × 12 (push to form break)
 │  Set 2: ⚖ 55% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: ⚖🔨🪡🔴 (Release | Pull | Functional | Intense)
-├─ 12 🪡 Alternating Dumbbell Front Raise (stress out, cathartic discharge)
+├─ 12 🪡 Half-Kneeling Band Single-Arm Pulldown (stress out, cathartic discharge)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

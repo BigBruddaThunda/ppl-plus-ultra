@@ -10,34 +10,36 @@ type: ➖ Ultra | Cardiovascular system and conditioning engine
 color: 🟠 Station Rotation | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🎱 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
-# ➖ Rowing Sprints (100m Max Effort) — Ultra Circuit ➖
+# ➖ Rowing Machine (Steady State) — Ultra Circuit ➖
 
 ## Foundation Basics — Ultra focus (Circuit) · 40-50 min
 
 **CODE:** 🐂🏛➖🟠
 
 > "Rotate through stations at learning pace. Each one is a fresh pattern."
+
+*Fasting Cardio + Strength: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🐂🏛➖🟠 (Warm-Up | Ultra | Basics | Circuit)
-├─ 12 ➖ Rowing Machine (Steady State) (station rotation, keep moving)
+├─ 12 ➖ Rowing Intervals (500m) (station rotation, keep moving)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🐂🏛➖🟠 (ARAM | Ultra | Basics | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➖ Rowing Sprints (100m Max Effort) × 11 (station rotation, keep moving)
-│  Station 2: ➖ Rowing Machine (Steady State) × 11 (station rotation, keep moving)
-│  Station 3: ➖ Kettlebell Goblet Squat × 11 (station rotation, keep moving)
-│  Station 4: ➖ Rowing Intervals (500m) × 11 (station rotation, keep moving)
+│  Station 1: ➖ Rowing Machine (Steady State) × 11 (station rotation, keep moving)
+│  Station 2: ➖ Rowing Intervals (500m) × 11 (station rotation, keep moving)
+│  Station 3: ➖ Rowing Intervals (1000m) × 11 (station rotation, keep moving)
+│  Station 4: ➖ Rowing Intervals (2000m) × 11 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🐂🏛➖🟠 (Release | Ultra | Basics | Circuit)
-├─ 12 ➖ Rowing Intervals (1000m) (smooth tempo, downshift)
+├─ 12 ➖ Rowing Sprints (100m Max Effort) (smooth tempo, downshift)
 │  Set 1: 🐂 45% × 12 (deload)
 Rest: 30s
 ═══

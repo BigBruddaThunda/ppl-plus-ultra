@@ -9,30 +9,32 @@ type: 🛒 Push | Chest, front delts, triceps
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🛒 Medicine Ball Slam (Chest Height) — Push Teaching 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Teaching 🛒
 
 ## Balance Challenge — Push focus (Teaching) · 40-50 min
 
 **CODE:** ⚖🪐🛒⚫
 
 > "Identify the weak link. Coach the correction before adding load."
+
+*Return After Break: Teaching session — learn the movement, understand the cues, build confidence*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: ⚖🪐🛒⚫ (Warm-Up | Push | Challenge | Teaching)
-├─ 12 🛒 Medicine Ball Chest Pass (coached, check form before adding load)
+├─ 12 🛒 Single-Arm Overhead Dumbbell Hold (coached, check form before adding load)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: ⚖🪐🛒⚫ (Craft | Push | Challenge | Teaching)
-├─ 11 🛒 Dumbbell Chest Fly (coach: check grip width, elbow angle, foot pressure)
+├─ 11 🛒 Single-Arm Cable Chest Fly (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: ⚖ 50% × 11 (practice the pattern, not the load)
 │  Set 2: ⚖ 55% × 11 (same cues, slightly heavier)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🪐🛒⚫ (Bread & Butter | Push | Challenge | Teaching)
-├─ 11 🛒 Medicine Ball Slam (Chest Height) (coached, check form before adding load)
+├─ 11 🛒 Single-Arm Cable Rear Delt Fly (coached, check form before adding load)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🪐🛒⚫ (Supplemental | Push | Challenge | Teaching)
-├─ 12 🛒 Low-to-High Cable Fly (full range, different angle)
+├─ 12 🛒 One-Arm Dead Hang (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⚖🪐🛒⚫ (Imprint | Push | Challenge | Teaching)
-├─ 12 🛒 Preacher Curl Machine (high rep, low load, neural memory)
+├─ 12 🛒 Depth Push-Up (Drop to Floor) (high rep, low load, neural memory)
 │  Set 1: ⚖ 45% × 12 (lock the pattern)
 Rest: 112s
 ═══

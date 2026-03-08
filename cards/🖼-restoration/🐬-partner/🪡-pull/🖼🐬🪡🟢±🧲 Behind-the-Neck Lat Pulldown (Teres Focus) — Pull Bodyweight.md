@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) — Pull Bodyweight 🪡
+# 🪡 Single-Arm Face Pull — Pull Bodyweight 🪡
 
 ## Restoration Partner — Pull focus (Bodyweight) · 30-40 min
 
 **CODE:** 🖼🐬🪡🟢
 
 > "Restore with what your body provides. Floor work, breath, gentle movement."
+
+*Youth Athletic Development: Bodyweight only — safe, accessible, no equipment barrier to entry*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,20 +25,20 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🐬🪡🟢 (Release | Pull | Partner | Bodyweight)
-├─ 12 🪡 Good Morning (Barbell) (parasympathetic, tension down, 4s eccentric)
+├─ 12 🪡 Single-Arm Dumbbell Lateral Raise (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🐬🪡🟢 (Bread & Butter | Pull | Partner | Bodyweight)
-├─ 13 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) (bodyweight, no external load needed)
+├─ 13 🪡 Single-Arm Face Pull (bodyweight, no external load needed)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🐬🪡🟢 (Imprint | Pull | Partner | Bodyweight)
-├─ 15 🪡 Alternating Dumbbell Front Raise (high rep, low load, neural memory)
+├─ 15 🪡 Single-Arm Cable Rear Delt Fly (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══

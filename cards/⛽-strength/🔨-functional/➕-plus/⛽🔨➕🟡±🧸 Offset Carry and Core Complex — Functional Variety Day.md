@@ -16,6 +16,8 @@ blocks: ♨️ → ▶️ → 🧈 → 🏖 → 🚂
 **CODE:** ⛽🔨➕🟡
 
 > "Find a movement you have not tried at this load and own it."
+
+*General Functional Fitness: Movement exploration — unconventional patterns, play with load and position*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero (carry, transfer, channel)
 Subcode: ⛽🔨➕🟡 (Warm-Up | Plus | Functional | Fun)

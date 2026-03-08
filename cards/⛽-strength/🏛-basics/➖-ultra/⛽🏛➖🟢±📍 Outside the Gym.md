@@ -9,29 +9,31 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟢 Bodyweight | Tier 0–2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ → 🧈 → 🧩 → 🪫 → 🚂 → 🧮
 ---
-# ➖ Outside the Gym — Ultra Bodyweight ➖
+# ➖ Rowing Machine (Steady State) — Ultra Bodyweight ➖
 
 ## Strength Basics — Ultra focus (Bodyweight) · 50-65 min
 
 **CODE:** ⛽🏛➖🟢
 
 > "Prove the pattern holds without external load. Bodyweight is the test."
+
+*Minimalist Hypertrophy: Bodyweight hypertrophy — high reps, slow tempo, squeeze and hold patterns*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: ⛽🏛➖🟢 (Warm-Up | Ultra | Basics | Bodyweight)
-├─ 6 ➖ Rowing Machine (Steady State) (bodyweight, no external load needed)
+├─ 6 ➖ Rowing Intervals (500m) (bodyweight, no external load needed)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🏛➖🟢 (Primer | Ultra | Basics | Bodyweight)
-├─ 5 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+├─ 5 ➖ Rowing Intervals (1000m) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🏛➖🟢 (Bread & Butter | Ultra | Basics | Bodyweight)
-├─ 5 ➖ Outside the Gym (bodyweight, no external load needed)
+├─ 5 ➖ Rowing Machine (Steady State) (bodyweight, no external load needed)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🏛➖🟢 (Supplemental | Ultra | Basics | Bodyweight)
-├─ 6 ➖ Rowing Intervals (500m) (full range, different angle)
+├─ 6 ➖ Rowing Intervals (2000m) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🏛➖🟢 (Release | Ultra | Basics | Bodyweight)
-├─ 6 ➖ Rowing Intervals (1000m) (smooth tempo, downshift)
+├─ 6 ➖ Rowing Sprints (100m Max Effort) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

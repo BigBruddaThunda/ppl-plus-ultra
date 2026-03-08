@@ -16,6 +16,8 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 **CODE:** 🌾🔨➕🔵
 
 > "Prescribed flow. Each movement connects to the next without reset."
+
+*Tactical / First Responder: Prescribed progression in the discipline — structured path to mastery*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🌾🔨➕🔵 (Warm-Up | Plus | Functional | Structured)

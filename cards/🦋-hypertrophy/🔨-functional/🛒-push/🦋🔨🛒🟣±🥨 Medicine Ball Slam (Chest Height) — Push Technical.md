@@ -9,29 +9,31 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🛒 Medicine Ball Slam (Chest Height) — Push Technical 🛒
+# 🛒 Push Jerk (Barbell) — Push Technical 🛒
 
 ## Hypertrophy Functional — Push focus (Technical) · 55-70 min
 
 **CODE:** 🦋🔨🛒🟣
 
 > "Feel the muscle work through the full range. Precision builds tissue."
+
+*Olympic Lifting: Masterclass — 1-on-1 with a world-class coach at this exact skill*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🦋🔨🛒🟣 (Warm-Up | Push | Functional | Technical)
-├─ 12 🛒 Single-Arm Cable Chest Fly (precision, quality over volume)
+├─ 12 🛒 Log Press (precision, quality over volume)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🔨🛒🟣 (Primer | Push | Functional | Technical)
-├─ 10 🛒 Medicine Ball Chest Pass (tight setup, crisp intent)
+├─ 10 🛒 Barbell Snatch (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🔨🛒🟣 (Bread & Butter | Push | Functional | Technical)
-├─ 10 🛒 Medicine Ball Slam (Chest Height) (precision, quality over volume)
+├─ 10 🛒 Push Jerk (Barbell) (precision, quality over volume)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🦋🔨🛒🟣 (Supplemental | Push | Functional | Technical)
-├─ 12 🛒 Alternating Dumbbell Front Raise (full range, different angle)
+├─ 12 🛒 Hang Snatch (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🪫 Release
 Subcode: 🦋🔨🛒🟣 (Release | Push | Functional | Technical)
-├─ 12 🛒 Alternating Dumbbell Curl (smooth tempo, downshift)
+├─ 12 🛒 Power Snatch (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 90s
 ═══

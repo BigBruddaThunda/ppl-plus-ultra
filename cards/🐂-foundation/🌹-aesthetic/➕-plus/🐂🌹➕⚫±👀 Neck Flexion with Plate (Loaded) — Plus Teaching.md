@@ -9,30 +9,32 @@ type: ➕ Plus | Full body power, core
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# ➕ Neck Flexion with Plate (Loaded) — Plus Teaching ➕
+# ➕ Hip Flexor Stretch (Half-Kneeling) — Plus Teaching ➕
 
 ## Foundation Aesthetic — Plus focus (Teaching) · 40-50 min
 
 **CODE:** 🐂🌹➕⚫
 
 > "Practice the positions slowly. This is a coaching session, not a workout."
+
+*Flexibility / Mobility: Teaches what recovery feels like — coaching the nervous system, not the muscles*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: 🐂🌹➕⚫ (Warm-Up | Plus | Aesthetic | Teaching)
-├─ 12 ➕ Neck Flexion (Bodyweight) (coached, check form before adding load)
+├─ 12 ➕ Walking High Knees (coached, check form before adding load)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: 🐂🌹➕⚫ (Craft | Plus | Aesthetic | Teaching)
-├─ 11 ➕ Wide-Grip Lat Pulldown (Teres Focus) (coach: check grip width, elbow angle, foot pressure)
+├─ 11 ➕ Walking Butt Kicks (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🐂 45% × 11 (practice the pattern, not the load)
 │  Set 2: 🐂 50% × 11 (same cues, slightly heavier)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🌹➕⚫ (Bread & Butter | Plus | Aesthetic | Teaching)
-├─ 11 ➕ Neck Flexion with Plate (Loaded) (coached, check form before adding load)
+├─ 11 ➕ Hip Flexor Stretch (Half-Kneeling) (coached, check form before adding load)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 112s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🌹➕⚫ (Supplemental | Plus | Aesthetic | Teaching)
-├─ 13 ➕ Face Pull (Rope) (full range, different angle)
+├─ 13 ➕ Walking Leg Cradle (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🌹➕⚫ (Imprint | Plus | Aesthetic | Teaching)
-├─ 15 ➕ Neck Rotation (Bodyweight) (high rep, low load, neural memory)
+├─ 15 ➕ Inchworm Walkout (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 90s
 ═══

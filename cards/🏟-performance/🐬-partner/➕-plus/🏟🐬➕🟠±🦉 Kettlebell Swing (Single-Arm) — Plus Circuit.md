@@ -16,6 +16,8 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟🐬➕🟠
 
 > "Timed circuit test. Complete as many rounds as the clock allows."
+
+*Tactical / First Responder: Skill circuit — rotate through craft-specific stations*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: 🏟🐬➕🟠 (Warm-Up | Plus | Partner | Circuit)

@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➖ Half Turkish Get-Up (To Elbow) — Ultra Fun ➖
+# ➖ Sprint (10-30 meters) — Ultra Fun ➖
 
 ## Restoration Aesthetic — Ultra focus (Fun) · 30-40 min
 
 **CODE:** 🖼🌹➖🟡
 
 > "Explore somatic movements you would not normally try."
+
+*Active Recovery: Somatic exploration — movements you would not normally try, body awareness*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🌹➖🟡 (Bread & Butter | Ultra | Aesthetic | Fun)
-├─ 13 ➖ Half Turkish Get-Up (To Elbow) (explore, stay within constraints)
+├─ 13 ➖ Sprint (10-30 meters) (explore, stay within constraints)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🖼🌹➖🟡 (Sandbox | Ultra | Aesthetic | Fun)
-├─ 13 ➖ Half Turkish Get-Up (To Elbow) (explore within constraints, choose your variation)
+├─ 13 ➖ Tempo Run (Moderate Pace) (explore within constraints, choose your variation)
 │  Option A: 🖼 45% × 13 (play with grip, stance, or tempo)
 │  Option B: 🖼 45% × 13 (try a variation you have not used before)
 Rest: 60s

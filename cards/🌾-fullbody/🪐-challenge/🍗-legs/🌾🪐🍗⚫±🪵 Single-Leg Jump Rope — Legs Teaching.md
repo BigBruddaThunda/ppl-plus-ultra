@@ -16,16 +16,18 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 **CODE:** 🌾🪐🍗⚫
 
 > "Connect the chain. Coach each transition between movements."
+
+*Tactical / First Responder: Teaches the craft-specific positions, timing, and coordination demands*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🌾🪐🍗⚫ (Warm-Up | Legs | Challenge | Teaching)
-├─ 10 🍗 Single-Leg Pogo Hops (coached, check form before adding load)
+├─ 10 🍗 Kettlebell Swing (Single-Arm) (coached, check form before adding load)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: 🌾🪐🍗⚫ (Craft | Legs | Challenge | Teaching)
-├─ 9 🍗 Half-Kneeling Hip Flexor Stretch (coach: check grip width, elbow angle, foot pressure)
+├─ 9 🍗 Kettlebell Swing (Alternating Arms) (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🌾 50% × 9 (practice the pattern, not the load)
 │  Set 2: 🌾 55% × 9 (same cues, slightly heavier)
 Rest: 90s
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🪐🍗⚫ (Supplemental | Legs | Challenge | Teaching)
-├─ 10 🍗 Single-Leg Extension (full range, different angle)
+├─ 10 🍗 Single-Arm American Swing (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 67s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🌾🪐🍗⚫ (Imprint | Legs | Challenge | Teaching)
-├─ 10 🍗 Single-Leg Curl (Lying) (high rep, low load, neural memory)
+├─ 10 🍗 Alternating Kettlebell Snatch (high rep, low load, neural memory)
 │  Set 1: 🌾 45% × 10 (lock the pattern)
 Rest: 67s
 ═══

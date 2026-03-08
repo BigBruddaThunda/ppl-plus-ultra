@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power and core
 color: 🟠 Circuit | Tier 0-5 | GOLD: No | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🎱 🧩 🪫 🚂
 ---
-# ➕ Slam and Carry Rotation — Plus Circuit ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Circuit ➕
 
 ## Strength Time — Plus focus (Circuit) · 50-65 min
 
 **CODE:** ⛽⌛➕🟠
 
 > "Rotate stations. Keep the tissues trading off under heavy demand."
+
+*Sport Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⛽⌛➕🟠 (Warm-Up | Plus | Time | Circuit)
@@ -26,7 +28,7 @@ Rest: 45s
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⛽⌛➕🟠 (ARAM | Plus | Time | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➕ Slam and Carry Rotation × 5 (station rotation, keep moving)
+│  Station 1: ➕ Single-Leg Hops Through Ladder × 5 (station rotation, keep moving)
 │  Station 2: ➕ Archer Pull-Up × 5 (station rotation, keep moving)
 │  Station 3: ➕ Single-Arm Dumbbell Row × 5 (station rotation, keep moving)
 │  Station 4: ➕ Single-Arm Row (Rhomboid Emphasis) × 5 (station rotation, keep moving)

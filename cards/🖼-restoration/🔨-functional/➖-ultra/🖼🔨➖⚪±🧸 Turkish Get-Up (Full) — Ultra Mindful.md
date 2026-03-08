@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➖ Turkish Get-Up (Full) — Ultra Mindful ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Mindful ➖
 
 ## Restoration Functional — Ultra focus (Mindful) · 30-40 min
 
 **CODE:** 🖼🔨➖⚪
 
 > "Breathe into each position. Leave fresher than you entered."
+
+*Pre/Post Natal: Recovery and restoration — breath work, gentle movement, nervous system regulation*
 ═══
 ## 1) 🎯 Intention
 
@@ -29,14 +31,14 @@ Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🔨➖⚪ (Bread & Butter | Ultra | Functional | Mindful)
-├─ 13 ➖ Turkish Get-Up (Full) (4s eccentric, breath-paced)
+├─ 13 ➖ Single-Leg Hops Through Ladder (4s eccentric, breath-paced)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 120s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🔨➖⚪ (Imprint | Ultra | Functional | Mindful)
-├─ 15 ➖ Turkish Get-Up (Full) (high rep, low load, neural memory)
+├─ 15 ➖ Half Turkish Get-Up (To Elbow) (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 120s
 ═══

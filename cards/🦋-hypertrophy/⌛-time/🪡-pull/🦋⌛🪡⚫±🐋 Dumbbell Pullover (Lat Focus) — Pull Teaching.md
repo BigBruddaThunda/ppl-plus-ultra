@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🪡 Dumbbell Pullover (Lat Focus) — Pull Teaching 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Teaching 🪡
 
 ## Hypertrophy Time — Pull focus (Teaching) · 55-70 min
 
 **CODE:** 🦋⌛🪡⚫
 
 > "Learn what tension feels like in the target muscle before chasing volume."
+
+*Minimalist Hypertrophy: Teaches mind-muscle connection, tempo awareness, and tension quality under moderate load*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🦋⌛🪡⚫ (Warm-Up | Pull | Time | Teaching)
@@ -32,7 +34,7 @@ Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋⌛🪡⚫ (Bread & Butter | Pull | Time | Teaching)
-├─ 10 🪡 Dumbbell Pullover (Lat Focus) (coached, check form before adding load)
+├─ 10 🪡 Barbell Overhead Press (Standing) (coached, check form before adding load)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -47,7 +49,7 @@ Rest: 90s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🦋⌛🪡⚫ (Imprint | Pull | Time | Teaching)
-├─ 12 🪡 Dumbbell Pullover (Lat Focus) (high rep, low load, neural memory)
+├─ 12 🪡 Barbell Overhead Press (Standing) (high rep, low load, neural memory)
 │  Set 1: 🦋 45% × 12 (lock the pattern)
 Rest: 90s
 ═══

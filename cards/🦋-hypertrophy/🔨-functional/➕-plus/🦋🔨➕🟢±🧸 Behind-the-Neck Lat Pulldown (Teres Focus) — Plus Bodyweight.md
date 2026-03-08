@@ -16,6 +16,8 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 **CODE:** 🦋🔨➕🟢
 
 > "Build the muscle with what you have. No equipment is not an excuse."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🦋🔨➕🟢 (Warm-Up | Plus | Functional | Bodyweight)

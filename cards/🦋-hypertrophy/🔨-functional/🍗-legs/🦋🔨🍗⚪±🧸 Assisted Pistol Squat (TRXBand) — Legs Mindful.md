@@ -9,23 +9,25 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🍗 Assisted Pistol Squat (TRX/Band) — Legs Mindful 🍗
+# 🍗 Single-Leg Jump Rope — Legs Mindful 🍗
 
 ## Hypertrophy Functional — Legs focus (Mindful) · 55-70 min
 
 **CODE:** 🦋🔨🍗⚪
 
 > "Slow eccentrics under moderate load. Time under tension is the stimulus."
+
+*Fasting Cardio + Strength: Zone 2 steady state — conversational pace, extended duration, aerobic base*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🦋🔨🍗⚪ (Warm-Up | Legs | Functional | Mindful)
-├─ 12 🍗 Half-Kneeling Hip Flexor Stretch (4s eccentric, breath-paced)
+├─ 12 🍗 Kettlebell Swing (Two-Hand) (4s eccentric, breath-paced)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 120s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🦋🔨🍗⚪ (Bread & Butter | Legs | Functional | Mindful)
-├─ 10 🍗 Assisted Pistol Squat (TRX/Band) (4s eccentric, breath-paced)
+├─ 10 🍗 Single-Leg Jump Rope (4s eccentric, breath-paced)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 180s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🦋🔨🍗⚪ (Supplemental | Legs | Functional | Mindful)
-├─ 12 🍗 Single-Leg Good Morning (full range, different angle)
+├─ 12 🍗 Heavy Swing (Power Focus) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 120s
 ═══
 ## 4) 🪫 Release
 Subcode: 🦋🔨🍗⚪ (Release | Legs | Functional | Mindful)
-├─ 12 🍗 Single-Leg Curl (Lying) (parasympathetic, tension down, 4s eccentric)
+├─ 12 🍗 Dead Stop Swing (Reset Between Reps) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🦋🔨🍗⚪ (Imprint | Legs | Functional | Mindful)
-├─ 12 🍗 Single-Leg Pogo Hops (high rep, low load, neural memory)
+├─ 12 🍗 Swing to High Pull (high rep, low load, neural memory)
 │  Set 1: 🦋 45% × 12 (lock the pattern)
 Rest: 120s
 ═══

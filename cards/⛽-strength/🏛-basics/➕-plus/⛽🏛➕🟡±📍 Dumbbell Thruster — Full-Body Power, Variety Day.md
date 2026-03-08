@@ -10,23 +10,25 @@ type: ➕ Plus | Full body power, core
 color: 🟡 Fun | Tier 0–5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ → 🧈 → 🏖 → 🧩 → 🚂 → 🧮
 ---
-# ➕ Dumbbell Thruster — Plus Fun ➕
+# ➕ Hip Flexor Stretch (Half-Kneeling) — Plus Fun ➕
 
 ## Strength Basics — Plus focus (Fun) · 50-65 min
 
 **CODE:** ⛽🏛➕🟡
 
 > "Find a movement you have not tried at this load and own it."
+
+*Youth Athletic Development: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: ⛽🏛➕🟡 (Warm-Up | Plus | Basics | Fun)
-├─ 6 ➕ Rotational Medicine Ball Throw (explore, stay within constraints)
+├─ 6 ➕ Leg Swings (Forward/Backward) (explore, stay within constraints)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⛽🏛➕🟡 (Bread & Butter | Plus | Basics | Fun)
-├─ 5 ➕ Dumbbell Thruster (explore, stay within constraints)
+├─ 5 ➕ Hip Flexor Stretch (Half-Kneeling) (explore, stay within constraints)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -34,20 +36,20 @@ Rest: 180s
 ═══
 ## 3) 🌎 Exposure
 Subcode: ⛽🏛➕🟡 (Exposure | Plus | Basics | Fun)
-├─ 5 ➕ Landmine Press (Anti-Rotation) (try the unfamiliar version, explore the range)
+├─ 5 ➕ Spiderman Lunge (try the unfamiliar version, explore the range)
 │  Set 1: ⛽ 65% × 5 (discovery set)
 Rest: 120s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⛽🏛➕🟡 (Sandbox | Plus | Basics | Fun)
-├─ 5 ➕ Pull-Up (Overhand Grip) (explore within constraints, choose your variation)
+├─ 5 ➕ Single-Leg Hops Through Ladder (explore within constraints, choose your variation)
 │  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
 │  Option B: ⛽ 70% × 5 (try a variation you have not used before)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🏛➕🟡 (Release | Plus | Basics | Fun)
-├─ 6 ➕ Landmine Press (Anti-Rotation) (smooth tempo, downshift)
+├─ 6 ➕ Spiderman Lunge (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

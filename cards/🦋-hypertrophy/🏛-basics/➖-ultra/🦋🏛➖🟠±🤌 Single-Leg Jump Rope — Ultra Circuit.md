@@ -9,34 +9,36 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# ➖ Single-Leg Jump Rope — Ultra Circuit ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Circuit ➖
 
 ## Hypertrophy Basics — Ultra focus (Circuit) · 55-70 min
 
 **CODE:** 🦋🏛➖🟠
 
 > "Circuit the muscle group from every angle. Each station is a new stimulus."
+
+*General Functional Fitness: Athletic circuit — each station trains a different movement pattern*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🦋🏛➖🟠 (Warm-Up | Ultra | Basics | Circuit)
-├─ 12 ➖ Kettlebell Goblet Squat (station rotation, keep moving)
+├─ 12 ➖ Partner Toss (Alternating) (station rotation, keep moving)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🦋🏛➖🟠 (ARAM | Ultra | Basics | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➖ Single-Leg Jump Rope × 10 (station rotation, keep moving)
-│  Station 2: ➖ Kettlebell Goblet Squat × 10 (station rotation, keep moving)
-│  Station 3: ➖ Sprint (10-30 meters) × 10 (station rotation, keep moving)
-│  Station 4: ➖ Sprint (30-60 meters) × 10 (station rotation, keep moving)
+│  Station 1: ➖ Single-Leg Hops Through Ladder × 10 (station rotation, keep moving)
+│  Station 2: ➖ Partner Toss (Alternating) × 10 (station rotation, keep moving)
+│  Station 3: ➖ Plant and Cut (Single-Leg Deceleration) × 10 (station rotation, keep moving)
+│  Station 4: ➖ Layup Approach (Single-Leg Power) × 10 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🦋🏛➖🟠 (Release | Ultra | Basics | Circuit)
-├─ 12 ➖ Sprint (60-100 meters) (smooth tempo, downshift)
+├─ 12 ➖ Shot Put Throw (Single-Arm) (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 30s
 ═══

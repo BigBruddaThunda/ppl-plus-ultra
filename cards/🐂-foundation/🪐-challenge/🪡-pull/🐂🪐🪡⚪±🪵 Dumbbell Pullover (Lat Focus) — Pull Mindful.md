@@ -9,23 +9,25 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# 🪡 Dumbbell Pullover (Lat Focus) — Pull Mindful 🪡
+# 🪡 Single-Arm Face Pull — Pull Mindful 🪡
 
 ## Foundation Challenge — Pull focus (Mindful) · 40-50 min
 
 **CODE:** 🐂🪐🪡⚪
 
 > "Slow the pattern down until you can feel every joint in the chain."
+
+*Climbing / Grip Sport: Controlled functional movement — slow transitions, balance holds, proprioception*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🐂🪐🪡⚪ (Warm-Up | Pull | Challenge | Mindful)
-├─ 12 🪡 Wide-Grip Lat Pulldown (Teres Focus) (4s eccentric, breath-paced)
+├─ 12 🪡 Aquaman (Alternating Superman) (4s eccentric, breath-paced)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 120s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🐂🪐🪡⚪ (Bread & Butter | Pull | Challenge | Mindful)
-├─ 11 🪡 Dumbbell Pullover (Lat Focus) (4s eccentric, breath-paced)
+├─ 11 🪡 Single-Arm Face Pull (4s eccentric, breath-paced)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 150s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🐂🪐🪡⚪ (Supplemental | Pull | Challenge | Mindful)
-├─ 13 🪡 Good Morning (Barbell) (full range, different angle)
+├─ 13 🪡 Archer Pull-Up (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 120s
 ═══
 ## 4) 🪫 Release
 Subcode: 🐂🪐🪡⚪ (Release | Pull | Challenge | Mindful)
-├─ 12 🪡 Preacher Curl Machine (parasympathetic, tension down, 4s eccentric)
+├─ 12 🪡 Single-Arm Lat Pulldown (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🐂 45% × 12 (deload)
 Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🪐🪡⚪ (Imprint | Pull | Challenge | Mindful)
-├─ 15 🪡 Dumbbell Pullover (Lat Focus) (high rep, low load, neural memory)
+├─ 15 🪡 Single-Arm Face Pull (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 120s
 ═══

@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🍗 Single-Leg Wall Sit — Legs Bodyweight 🍗
+# 🍗 Single-Leg Jump Rope — Legs Bodyweight 🍗
 
 ## Full Body Aesthetic — Legs focus (Bodyweight) · 40-55 min
 
 **CODE:** 🌾🌹🍗🟢
 
 > "Flow through the body using only what you carry. No equipment needed."
+
+*Active Recovery: Floor work, breath, gentle movement — restore with what your body provides*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: 🌾🌹🍗🟢 (Warm-Up | Legs | Aesthetic | Bodyweight)
-├─ 10 🍗 Half-Kneeling Hip Flexor Stretch (bodyweight, no external load needed)
+├─ 10 🍗 Single-Leg Balance Hold (bodyweight, no external load needed)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🌹🍗🟢 (Composition | Legs | Aesthetic | Bodyweight)
-├─ 9 🍗 Single-Leg Extension → Single-Leg Wall Sit (flow without reset)
+├─ 9 🍗 Single-Leg Balance with Perturbation → Single-Leg Jump Rope (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🌹🍗🟢 (Bread & Butter | Legs | Aesthetic | Bodyweight)
-├─ 9 🍗 Single-Leg Wall Sit (bodyweight, no external load needed)
+├─ 9 🍗 Single-Leg Jump Rope (bodyweight, no external load needed)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🌹🍗🟢 (Supplemental | Legs | Aesthetic | Bodyweight)
-├─ 10 🍗 Single-Leg Good Morning (full range, different angle)
+├─ 10 🍗 BOSU Ball Single-Leg Balance (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🌹🍗🟢 (Release | Legs | Aesthetic | Bodyweight)
-├─ 10 🍗 Single-Leg Curl (Lying) (smooth tempo, downshift)
+├─ 10 🍗 Single-Leg Balance with Eyes Closed (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══

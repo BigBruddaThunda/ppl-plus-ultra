@@ -9,29 +9,31 @@ type: ➕ Plus | Full body power, core
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# ➕ Keg Carry — Plus Technical ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Technical ➕
 
 ## Foundation Challenge — Plus focus (Technical) · 40-50 min
 
 **CODE:** 🐂🪐➕🟣
 
 > "Quality of position matters more than speed of completion."
+
+*Sprint / Power Conditioning: Technical conditioning — rowing stroke, cycling cadence, running gait precision*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🐂🪐➕🟣 (Warm-Up | Plus | Challenge | Technical)
-├─ 12 ➕ Zercher Carry (precision, quality over volume)
+├─ 12 ➕ Single-Leg Box Jump (precision, quality over volume)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🐂🪐➕🟣 (Primer | Plus | Challenge | Technical)
-├─ 11 ➕ Pull-Up (Overhand Grip) (tight setup, crisp intent)
+├─ 11 ➕ Split Jump (Alternating) (tight setup, crisp intent)
 │  Set 1: 🐂 55% × 11 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🪐➕🟣 (Bread & Butter | Plus | Challenge | Technical)
-├─ 11 ➕ Keg Carry (precision, quality over volume)
+├─ 11 ➕ Single-Leg Hops Through Ladder (precision, quality over volume)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 112s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🪐➕🟣 (Supplemental | Plus | Challenge | Technical)
-├─ 13 ➕ Bent-Over Barbell Row (Overhand) (full range, different angle)
+├─ 13 ➕ Single-Leg Broad Jump (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🪫 Release
 Subcode: 🐂🪐➕🟣 (Release | Plus | Challenge | Technical)
-├─ 12 ➕ Rotational Medicine Ball Throw (smooth tempo, downshift)
+├─ 12 ➕ Alternating Leg Bound (smooth tempo, downshift)
 │  Set 1: 🐂 45% × 12 (deload)
 Rest: 90s
 ═══

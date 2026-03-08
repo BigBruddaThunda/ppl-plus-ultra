@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🍗 Weighted Walking Lunge (Dumbbells) — Legs Technical 🍗
+# 🍗 Single-Leg Pogo Hops — Legs Technical 🍗
 
 ## Performance Challenge — Legs focus (Technical) · 25-35 min
 
 **CODE:** 🏟🪐🍗🟣
 
 > "One maximal attempt with perfect setup. The technique is the test."
+
+*Field Sport Athlete: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🏟🪐🍗🟣 (Warm-Up | Legs | Challenge | Technical)
-├─ 3 🍗 Deep Squat Hold (Ankle Mobility) (precision, quality over volume)
+├─ 3 🍗 Single-Leg Jump Rope (precision, quality over volume)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 135s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🪐🍗🟣 (Progression | Legs | Challenge | Technical)
-├─ 2 🍗 Weighted Walking Lunge (Dumbbells) (ramp to test weight)
+├─ 2 🍗 Single-Leg Pogo Hops (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🪐🍗🟣 (Bread & Butter | Legs | Challenge | Technical)
-├─ 2 🍗 Weighted Walking Lunge (Dumbbells) (precision, quality over volume)
+├─ 2 🍗 Single-Leg Pogo Hops (precision, quality over volume)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

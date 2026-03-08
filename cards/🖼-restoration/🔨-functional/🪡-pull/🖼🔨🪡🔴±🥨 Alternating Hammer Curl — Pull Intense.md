@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🪡 Alternating Hammer Curl — Pull Intense 🪡
+# 🪡 Zercher Carry — Pull Intense 🪡
 
 ## Restoration Functional — Pull focus (Intense) · 30-40 min
 
 **CODE:** 🖼🔨🪡🔴
 
 > "Active recovery. Move enough to flush, not enough to fatigue."
+
+*Athletic Hypertrophy: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🔨🪡🔴 (Bread & Butter | Pull | Functional | Intense)
-├─ 13 🪡 Alternating Hammer Curl (high effort, push the pace)
+├─ 13 🪡 Zercher Carry (high effort, push the pace)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 30s
 ═══
 ## 3) 🪫 Release
 Subcode: 🖼🔨🪡🔴 (Release | Pull | Functional | Intense)
-├─ 12 🪡 Alternating Dumbbell Front Raise (stress out, cathartic discharge)
+├─ 12 🪡 Half-Kneeling Band Single-Arm Pulldown (stress out, cathartic discharge)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 30s
 ═══

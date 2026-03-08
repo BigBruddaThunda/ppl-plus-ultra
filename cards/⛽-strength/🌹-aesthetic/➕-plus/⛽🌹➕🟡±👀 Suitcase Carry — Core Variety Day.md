@@ -9,23 +9,25 @@ type: ➕ Plus | Full body power, core, carries
 color: 🟡 Fun
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# ➕ Suitcase Carry — Plus Fun ➕
+# ➕ Pull-Up (Overhand Grip) — Plus Fun ➕
 
 ## Strength Aesthetic — Plus focus (Fun) · 50-65 min
 
 **CODE:** ⛽🌹➕🟡
 
 > "Find a movement you have not tried at this load and own it."
+
+*Minimalist Hypertrophy: Novel exercises for new stimulus — variety drives adaptation when volume plateaus*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: ⛽🌹➕🟡 (Warm-Up | Plus | Aesthetic | Fun)
-├─ 6 ➕ Neck Flexion (Bodyweight) (explore, stay within constraints)
+├─ 6 ➕ Chin-Up (Underhand Grip) (explore, stay within constraints)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⛽🌹➕🟡 (Bread & Butter | Plus | Aesthetic | Fun)
-├─ 5 ➕ Suitcase Carry (explore, stay within constraints)
+├─ 5 ➕ Pull-Up (Overhand Grip) (explore, stay within constraints)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 180s
 ═══
 ## 3) 🌎 Exposure
 Subcode: ⛽🌹➕🟡 (Exposure | Plus | Aesthetic | Fun)
-├─ 5 ➕ Good Morning (Barbell) (try the unfamiliar version, explore the range)
+├─ 5 ➕ Neutral-Grip Pull-Up (try the unfamiliar version, explore the range)
 │  Set 1: ⛽ 65% × 5 (discovery set)
 Rest: 120s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⛽🌹➕🟡 (Sandbox | Plus | Aesthetic | Fun)
-├─ 5 ➕ Neck Rotation (Bodyweight) (explore within constraints, choose your variation)
+├─ 5 ➕ Mixed-Grip Pull-Up (explore within constraints, choose your variation)
 │  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
 │  Option B: ⛽ 70% × 5 (try a variation you have not used before)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🌹➕🟡 (Release | Plus | Aesthetic | Fun)
-├─ 6 ➕ Good Morning (Barbell) (smooth tempo, downshift)
+├─ 6 ➕ Neutral-Grip Pull-Up (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

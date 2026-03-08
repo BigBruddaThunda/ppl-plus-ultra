@@ -9,34 +9,36 @@ type: ➕ Plus | Full body power, core
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# ➕ Seated Good Morning — Plus Circuit ➕
+# ➕ Kettlebell Swing (Two-Hand) — Plus Circuit ➕
 
 ## Full Body Aesthetic — Plus focus (Circuit) · 40-55 min
 
 **CODE:** 🌾🌹➕🟠
 
 > "Rotate through full-body stations. Every station moves a different chain."
+
+*Endurance Sport Cross-Training: Skill circuit — rotate through craft-specific stations*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🌾🌹➕🟠 (Warm-Up | Plus | Aesthetic | Circuit)
-├─ 10 ➕ Single-Leg Hops Through Ladder (station rotation, keep moving)
+├─ 10 ➕ American Swing (Overhead) (station rotation, keep moving)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🌾🌹➕🟠 (ARAM | Plus | Aesthetic | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➕ Seated Good Morning × 9 (station rotation, keep moving)
-│  Station 2: ➕ Single-Leg Hops Through Ladder × 9 (station rotation, keep moving)
-│  Station 3: ➕ Aquaman (Alternating Superman) × 9 (station rotation, keep moving)
-│  Station 4: ➕ Half-Kneeling Cable Chop × 9 (station rotation, keep moving)
+│  Station 1: ➕ Kettlebell Swing (Two-Hand) × 9 (station rotation, keep moving)
+│  Station 2: ➕ American Swing (Overhead) × 9 (station rotation, keep moving)
+│  Station 3: ➕ Heavy Swing (Power Focus) × 9 (station rotation, keep moving)
+│  Station 4: ➕ Dead Stop Swing (Reset Between Reps) × 9 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 30s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🌾🌹➕🟠 (Release | Plus | Aesthetic | Circuit)
-├─ 10 ➕ Wide-Grip Lat Pulldown (Teres Focus) (smooth tempo, downshift)
+├─ 10 ➕ Double Kettlebell Swing (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 30s
 ═══

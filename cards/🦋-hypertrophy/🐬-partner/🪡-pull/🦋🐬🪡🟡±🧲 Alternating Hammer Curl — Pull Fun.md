@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🪡 Alternating Hammer Curl — Pull Fun 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Fun 🪡
 
 ## Hypertrophy Partner — Pull focus (Fun) · 55-70 min
 
 **CODE:** 🦋🐬🪡🟡
 
 > "Try exercises you would not normally pick. Variety stimulates growth."
+
+*General Strength: Unconventional loading patterns — grip variations, odd positions, new challenges*
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: 🦋🐬🪡🟡 (Warm-Up | Pull | Partner | Fun)
@@ -25,7 +27,7 @@ Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🦋🐬🪡🟡 (Bread & Butter | Pull | Partner | Fun)
-├─ 10 🪡 Alternating Hammer Curl (explore, stay within constraints)
+├─ 10 🪡 Barbell Overhead Press (Standing) (explore, stay within constraints)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)

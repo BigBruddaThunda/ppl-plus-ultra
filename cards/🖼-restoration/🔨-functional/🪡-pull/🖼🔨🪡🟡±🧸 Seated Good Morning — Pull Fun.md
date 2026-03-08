@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🪡 Seated Good Morning — Pull Fun 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Fun 🪡
 
 ## Restoration Functional — Pull focus (Fun) · 30-40 min
 
 **CODE:** 🖼🔨🪡🟡
 
 > "Explore somatic movements you would not normally try."
+
+*Aesthetic Specialization: Novel exercises for new stimulus — variety drives adaptation when volume plateaus*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🔨🪡🟡 (Bread & Butter | Pull | Functional | Fun)
-├─ 13 🪡 Seated Good Morning (explore, stay within constraints)
+├─ 13 🪡 Single-Arm Cable Rear Delt Fly (explore, stay within constraints)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🖼🔨🪡🟡 (Sandbox | Pull | Functional | Fun)
-├─ 13 🪡 Alternating Dumbbell Front Raise (explore within constraints, choose your variation)
+├─ 13 🪡 Single-Arm Cable Rear Delt Fly (explore within constraints, choose your variation)
 │  Option A: 🖼 45% × 13 (play with grip, stance, or tempo)
 │  Option B: 🖼 45% × 13 (try a variation you have not used before)
 Rest: 60s

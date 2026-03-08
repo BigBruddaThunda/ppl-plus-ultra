@@ -9,34 +9,36 @@ type: 🪡 Pull | Partner-context strength emphasis
 color: 🟠 Circuit | Partner deployment logic
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🪡 Ring Row — Pull Circuit 🪡
+# 🪡 Kettlebell Swing (Two-Hand) — Pull Circuit 🪡
 
 ## Strength Partner — Pull focus (Circuit) · 50-65 min
 
 **CODE:** ⛽🐬🪡🟠
 
 > "Rotate stations. Keep the tissues trading off under heavy demand."
+
+*General Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: ⛽🐬🪡🟠 (Warm-Up | Pull | Partner | Circuit)
-├─ 6 🪡 Wide-Grip Pull-Up (Teres Focus) (station rotation, keep moving)
+├─ 6 🪡 American Swing (Overhead) (station rotation, keep moving)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 45s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⛽🐬🪡🟠 (ARAM | Pull | Partner | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🪡 Ring Row × 5 (station rotation, keep moving)
-│  Station 2: 🪡 Wide-Grip Pull-Up (Teres Focus) × 5 (station rotation, keep moving)
-│  Station 3: 🪡 Chest-Supported Row (Elbow Out) × 5 (station rotation, keep moving)
-│  Station 4: 🪡 Cable Row (High Elbow) × 5 (station rotation, keep moving)
+│  Station 1: 🪡 Kettlebell Swing (Two-Hand) × 5 (station rotation, keep moving)
+│  Station 2: 🪡 American Swing (Overhead) × 5 (station rotation, keep moving)
+│  Station 3: 🪡 Heavy Swing (Power Focus) × 5 (station rotation, keep moving)
+│  Station 4: 🪡 Dead Stop Swing (Reset Between Reps) × 5 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 60s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⛽🐬🪡🟠 (Release | Pull | Partner | Circuit)
-├─ 6 🪡 Deadlift (Conventional) (smooth tempo, downshift)
+├─ 6 🪡 Double Kettlebell Swing (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 60s
 ═══

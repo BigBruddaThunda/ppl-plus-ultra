@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➖ Turkish Get-Up (To Seated) — Ultra Intense ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Intense ➖
 
 ## Restoration Time — Ultra focus (Intense) · 30-40 min
 
 **CODE:** 🖼⌛➖🔴
 
 > "Active recovery. Move enough to flush, not enough to fatigue."
+
+*General Conditioning: All-out intervals — max effort, full recovery, repeat until capacity drops*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼⌛➖🔴 (Bread & Butter | Ultra | Time | Intense)
-├─ 13 ➖ Turkish Get-Up (To Seated) (high effort, push the pace)
+├─ 13 ➖ Single-Leg Hops Through Ladder (high effort, push the pace)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 30s
 ═══
 ## 3) 🪫 Release
 Subcode: 🖼⌛➖🔴 (Release | Ultra | Time | Intense)
-├─ 12 ➖ Turkish Get-Up (To Seated) (stress out, cathartic discharge)
+├─ 12 ➖ Icky Shuffle (In-In-Out Pattern) (stress out, cathartic discharge)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 30s
 ═══

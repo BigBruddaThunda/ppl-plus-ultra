@@ -16,6 +16,8 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 **CODE:** 🖼🪐➕🔵
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
+
+*Athletic Hypertrophy: Volume tracking — prescribed sets and reps, progressive overload through logging*
 ═══
 ## 1) 🎯 Intention
 

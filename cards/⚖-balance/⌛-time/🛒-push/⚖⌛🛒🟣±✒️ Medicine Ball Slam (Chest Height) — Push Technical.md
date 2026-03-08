@@ -9,29 +9,31 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🛒 Medicine Ball Slam (Chest Height) — Push Technical 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Technical 🛒
 
 ## Balance Time — Push focus (Technical) · 40-50 min
 
 **CODE:** ⚖⌛🛒🟣
 
 > "Precise correction. Small movements, full attention, zero momentum."
+
+*Injury Prevention / Prehab: Precise positioning in restorative holds — depth over speed, accuracy over range*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⚖⌛🛒🟣 (Warm-Up | Push | Time | Technical)
-├─ 12 🛒 Medicine Ball Chest Pass (precision, quality over volume)
+├─ 12 🛒 Single-Arm Overhead Dumbbell Hold (precision, quality over volume)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖⌛🛒🟣 (Primer | Push | Time | Technical)
-├─ 11 🛒 Sandbag Shouldering (tight setup, crisp intent)
+├─ 11 🛒 Single-Arm Cable Chest Fly (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖⌛🛒🟣 (Bread & Butter | Push | Time | Technical)
-├─ 11 🛒 Medicine Ball Slam (Chest Height) (precision, quality over volume)
+├─ 11 🛒 Single-Arm Cable Rear Delt Fly (precision, quality over volume)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖⌛🛒🟣 (Supplemental | Push | Time | Technical)
-├─ 12 🛒 Low-to-High Cable Fly (full range, different angle)
+├─ 12 🛒 One-Arm Dead Hang (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖⌛🛒🟣 (Release | Push | Time | Technical)
-├─ 12 🛒 Band Pull-Apart (Chest Opener) (smooth tempo, downshift)
+├─ 12 🛒 Alternating Dumbbell Front Raise (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 112s
 ═══

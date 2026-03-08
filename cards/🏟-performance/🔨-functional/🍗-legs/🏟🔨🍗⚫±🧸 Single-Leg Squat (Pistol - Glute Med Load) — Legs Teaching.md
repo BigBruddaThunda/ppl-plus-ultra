@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🍗 Single-Leg Squat (Pistol - Glute Med Load) — Legs Teaching 🍗
+# 🍗 Single-Leg Jump Rope — Legs Teaching 🍗
 
 ## Performance Functional — Legs focus (Teaching) · 25-35 min
 
 **CODE:** 🏟🔨🍗⚫
 
 > "Rehearse the test protocol. Know the standards before test day."
+
+*Field Sport Athlete: Teaches movement quality, ground-based patterns, and transfer mechanics*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🏟🔨🍗⚫ (Warm-Up | Legs | Functional | Teaching)
-├─ 3 🍗 Cossack Squat (coached, check form before adding load)
+├─ 3 🍗 Kettlebell Swing (Single-Arm) (coached, check form before adding load)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 135s
 ═══
 ## 2) 🛠 Craft
 Subcode: 🏟🔨🍗⚫ (Craft | Legs | Functional | Teaching)
-├─ 2 🍗 Single-Leg Deadlift (Glute Med Stability) (coach: check grip width, elbow angle, foot pressure)
+├─ 2 🍗 Kettlebell Swing (Alternating Arms) (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🏟 72% × 2 (practice the pattern, not the load)
 │  Set 2: 🏟 77% × 2 (same cues, slightly heavier)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🔨🍗⚫ (Bread & Butter | Legs | Functional | Teaching)
-├─ 2 🍗 Single-Leg Squat (Pistol - Glute Med Load) (coached, check form before adding load)
+├─ 2 🍗 Single-Leg Jump Rope (coached, check form before adding load)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

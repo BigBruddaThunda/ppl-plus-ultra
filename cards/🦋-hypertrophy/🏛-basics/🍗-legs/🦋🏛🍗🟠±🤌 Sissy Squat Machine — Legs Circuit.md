@@ -9,34 +9,36 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
-# 🍗 Sissy Squat Machine — Legs Circuit 🍗
+# 🍗 Kettlebell Swing (Two-Hand) — Legs Circuit 🍗
 
 ## Hypertrophy Basics — Legs focus (Circuit) · 55-70 min
 
 **CODE:** 🦋🏛🍗🟠
 
 > "Circuit the muscle group from every angle. Each station is a new stimulus."
+
+*General Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🦋🏛🍗🟠 (Warm-Up | Legs | Basics | Circuit)
-├─ 12 🍗 Deep Squat Hold (Ankle Mobility) (station rotation, keep moving)
+├─ 12 🍗 American Swing (Overhead) (station rotation, keep moving)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🦋🏛🍗🟠 (ARAM | Legs | Basics | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🍗 Sissy Squat Machine × 10 (station rotation, keep moving)
-│  Station 2: 🍗 Deep Squat Hold (Ankle Mobility) × 10 (station rotation, keep moving)
-│  Station 3: 🍗 Back Squat (High Bar) × 10 (station rotation, keep moving)
-│  Station 4: 🍗 Walking Lunge × 10 (station rotation, keep moving)
+│  Station 1: 🍗 Kettlebell Swing (Two-Hand) × 10 (station rotation, keep moving)
+│  Station 2: 🍗 American Swing (Overhead) × 10 (station rotation, keep moving)
+│  Station 3: 🍗 Heavy Swing (Power Focus) × 10 (station rotation, keep moving)
+│  Station 4: 🍗 Dead Stop Swing (Reset Between Reps) × 10 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🦋🏛🍗🟠 (Release | Legs | Basics | Circuit)
-├─ 12 🍗 Spanish Squat (Banded VMO) (smooth tempo, downshift)
+├─ 12 🍗 Swing to High Pull (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 30s
 ═══

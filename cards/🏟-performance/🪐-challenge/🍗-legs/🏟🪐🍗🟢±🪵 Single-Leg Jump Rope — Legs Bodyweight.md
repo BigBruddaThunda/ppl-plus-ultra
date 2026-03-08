@@ -16,10 +16,12 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟🪐🍗🟢
 
 > "Test bodyweight capacity. How many, how fast, how clean."
+
+*Marathon / Distance Running: Bodyweight conditioning — no gym, no excuses, cardio and movement flow*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🏟🪐🍗🟢 (Warm-Up | Legs | Challenge | Bodyweight)
-├─ 3 🍗 Single-Leg Pogo Hops (bodyweight, no external load needed)
+├─ 3 🍗 Box Jump (Calf Power) (bodyweight, no external load needed)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══

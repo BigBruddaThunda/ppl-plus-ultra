@@ -9,29 +9,31 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟢 Bodyweight | Tier 0–2 | GOLD: No | No gym required. Advanced calisthenics apply.
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🪫 → 🚂
 ---
-# 🛒 Single-Arm Push-Up Progression — Push Bodyweight 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Bodyweight 🛒
 
 ## Strength Functional — Push focus (Bodyweight) · 50-65 min
 
 **CODE:** ⛽🔨🛒🟢
 
 > "Prove the pattern holds without external load. Bodyweight is the test."
+
+*Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: ⛽🔨🛒🟢 (Warm-Up | Push | Functional | Bodyweight)
-├─ 6 🛒 Single-Arm Cable Chest Fly (bodyweight, no external load needed)
+├─ 6 🛒 Depth Push-Up (Drop to Floor) (bodyweight, no external load needed)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🔨🛒🟢 (Primer | Push | Functional | Bodyweight)
-├─ 5 🛒 Single-Arm Incline Dumbbell Press (tight setup, crisp intent)
+├─ 5 🛒 Banded Speed Bench Press (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🔨🛒🟢 (Bread & Butter | Push | Functional | Bodyweight)
-├─ 5 🛒 Single-Arm Push-Up Progression (bodyweight, no external load needed)
+├─ 5 🛒 Plyometric Push-Up (Hands Leave Ground) (bodyweight, no external load needed)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🔨🛒🟢 (Supplemental | Push | Functional | Bodyweight)
-├─ 6 🛒 Single-Arm Landmine Press (Chest Focus) (full range, different angle)
+├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🔨🛒🟢 (Release | Push | Functional | Bodyweight)
-├─ 6 🛒 Diamond Push-Up (smooth tempo, downshift)
+├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

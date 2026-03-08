@@ -9,30 +9,32 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🛒 Earthquake Bar Bench Press — Push Technical 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Technical 🛒
 
 ## Performance Challenge — Push focus (Technical) · 25-35 min
 
 **CODE:** 🏟🪐🛒🟣
 
 > "One maximal attempt with perfect setup. The technique is the test."
+
+*Return After Break: Quality focus — fewer movements, more attention, technique over load*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🏟🪐🛒🟣 (Warm-Up | Push | Challenge | Technical)
-├─ 3 🛒 Bamboo Bar Bench Press (precision, quality over volume)
+├─ 3 🛒 Single-Arm Overhead Dumbbell Hold (precision, quality over volume)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 135s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🪐🛒🟣 (Progression | Push | Challenge | Technical)
-├─ 2 🛒 Earthquake Bar Bench Press (ramp to test weight)
+├─ 2 🛒 Single-Arm Cable Rear Delt Fly (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🪐🛒🟣 (Bread & Butter | Push | Challenge | Technical)
-├─ 2 🛒 Earthquake Bar Bench Press (precision, quality over volume)
+├─ 2 🛒 Single-Arm Cable Rear Delt Fly (precision, quality over volume)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

@@ -9,30 +9,32 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🪡 Face Pull (Rope) — Pull Structured 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Structured 🪡
 
 ## Full Body Aesthetic — Pull focus (Structured) · 40-55 min
 
 **CODE:** 🌾🌹🪡🔵
 
 > "Prescribed flow. Each movement connects to the next without reset."
+
+*Senior Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🌾🌹🪡🔵 (Warm-Up | Pull | Aesthetic | Structured)
-├─ 10 🪡 Single-Arm Face Pull (prescribed, track sets and reps)
+├─ 10 🪡 Single-Arm Overhead Dumbbell Hold (prescribed, track sets and reps)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🌹🪡🔵 (Composition | Pull | Aesthetic | Structured)
-├─ 9 🪡 Aquaman (Alternating Superman) → Face Pull (Rope) (flow without reset)
+├─ 9 🪡 Single-Arm Face Pull → Single-Arm Cable Rear Delt Fly (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🌹🪡🔵 (Bread & Butter | Pull | Aesthetic | Structured)
-├─ 9 🪡 Face Pull (Rope) (prescribed, track sets and reps)
+├─ 9 🪡 Single-Arm Cable Rear Delt Fly (prescribed, track sets and reps)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🌹🪡🔵 (Supplemental | Pull | Aesthetic | Structured)
-├─ 10 🪡 Wide-Grip Lat Pulldown (Teres Focus) (full range, different angle)
+├─ 10 🪡 Aquaman (Alternating Superman) (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🌹🪡🔵 (Release | Pull | Aesthetic | Structured)
-├─ 10 🪡 Good Morning (Barbell) (smooth tempo, downshift)
+├─ 10 🪡 Half-Kneeling Band Single-Arm Pulldown (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══

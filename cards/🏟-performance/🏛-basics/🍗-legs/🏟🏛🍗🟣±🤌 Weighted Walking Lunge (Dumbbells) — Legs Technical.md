@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🍗 Weighted Walking Lunge (Dumbbells) — Legs Technical 🍗
+# 🍗 Back Squat (Glute Focus) — Legs Technical 🍗
 
 ## Performance Basics — Legs focus (Technical) · 25-35 min
 
 **CODE:** 🏟🏛🍗🟣
 
 > "One maximal attempt with perfect setup. The technique is the test."
+
+*Powerlifting: Single-rep quality at competition-relevant loads — bar path, timing, setup*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🏟🏛🍗🟣 (Warm-Up | Legs | Basics | Technical)
-├─ 3 🍗 Deep Squat Hold (Ankle Mobility) (precision, quality over volume)
+├─ 3 🍗 Front Squat (Glute Activation) (precision, quality over volume)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 135s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🏛🍗🟣 (Progression | Legs | Basics | Technical)
-├─ 2 🍗 Weighted Walking Lunge (Dumbbells) (ramp to test weight)
+├─ 2 🍗 Back Squat (Glute Focus) (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🏛🍗🟣 (Bread & Butter | Legs | Basics | Technical)
-├─ 2 🍗 Weighted Walking Lunge (Dumbbells) (precision, quality over volume)
+├─ 2 🍗 Back Squat (Glute Focus) (precision, quality over volume)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

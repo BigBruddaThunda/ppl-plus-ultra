@@ -9,23 +9,25 @@ type: ➕ Plus | Full body power, core
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# ➕ Cable Row (High Elbow) — Plus Fun ➕
+# ➕ Hip Flexor Stretch (Half-Kneeling) — Plus Fun ➕
 
 ## Foundation Partner — Plus focus (Fun) · 40-50 min
 
 **CODE:** 🐂🐬➕🟡
 
 > "Explore the movement. Find what feels unfamiliar and stay there."
+
+*Youth Athletic Development: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: 🐂🐬➕🟡 (Warm-Up | Plus | Partner | Fun)
-├─ 12 ➕ Kettlebell Swing (Two-Hand) (explore, stay within constraints)
+├─ 12 ➕ Leg Swings (Forward/Backward) (explore, stay within constraints)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🐂🐬➕🟡 (Bread & Butter | Plus | Partner | Fun)
-├─ 11 ➕ Cable Row (High Elbow) (explore, stay within constraints)
+├─ 11 ➕ Hip Flexor Stretch (Half-Kneeling) (explore, stay within constraints)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 75s
 ═══
 ## 3) 🌎 Exposure
 Subcode: 🐂🐬➕🟡 (Exposure | Plus | Partner | Fun)
-├─ 11 ➕ Wide-Grip Pull-Up (Teres Focus) (try the unfamiliar version, explore the range)
+├─ 11 ➕ Spiderman Lunge (try the unfamiliar version, explore the range)
 │  Set 1: 🐂 50% × 11 (discovery set)
 Rest: 60s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: 🐂🐬➕🟡 (Sandbox | Plus | Partner | Fun)
-├─ 11 ➕ Cable Row (High Elbow) (explore within constraints, choose your variation)
+├─ 11 ➕ Single-Leg Hops Through Ladder (explore within constraints, choose your variation)
 │  Option A: 🐂 55% × 11 (play with grip, stance, or tempo)
 │  Option B: 🐂 55% × 11 (try a variation you have not used before)
 Rest: 60s
 ═══
 ## 5) 🪫 Release
 Subcode: 🐂🐬➕🟡 (Release | Plus | Partner | Fun)
-├─ 12 ➕ Wide-Grip Pull-Up (Teres Focus) (smooth tempo, downshift)
+├─ 12 ➕ Spiderman Lunge (smooth tempo, downshift)
 │  Set 1: 🐂 45% × 12 (deload)
 Rest: 60s
 ═══

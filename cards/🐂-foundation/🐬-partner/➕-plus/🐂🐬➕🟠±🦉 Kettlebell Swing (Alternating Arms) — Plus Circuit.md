@@ -16,6 +16,8 @@ blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 **CODE:** 🐂🐬➕🟠
 
 > "Rotate through stations at learning pace. Each one is a fresh pattern."
+
+*Tactical / First Responder: Skill circuit — rotate through craft-specific stations*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: 🐂🐬➕🟠 (Warm-Up | Plus | Partner | Circuit)

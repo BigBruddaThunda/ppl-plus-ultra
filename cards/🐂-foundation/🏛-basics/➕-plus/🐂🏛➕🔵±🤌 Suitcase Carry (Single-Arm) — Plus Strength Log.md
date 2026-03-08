@@ -17,6 +17,8 @@ blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 **CODE:** 🐂🏛➕🔵
 
 > "Follow the prescription. The numbers build the habit."
+
+*General Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🐂🏛➕🔵 (Warm-Up | Plus | Basics | Structured)

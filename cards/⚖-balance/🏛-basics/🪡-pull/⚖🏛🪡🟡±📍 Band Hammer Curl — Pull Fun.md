@@ -9,23 +9,25 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🪡 Band Hammer Curl — Pull Fun 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Fun 🪡
 
 ## Balance Basics — Pull focus (Fun) · 40-50 min
 
 **CODE:** ⚖🏛🪡🟡
 
 > "Explore movements that challenge your weakest positions."
+
+*Return After Break: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: ⚖🏛🪡🟡 (Warm-Up | Pull | Basics | Fun)
-├─ 12 🪡 Wide-Grip Pull-Up (Teres Focus) (explore, stay within constraints)
+├─ 12 🪡 Single-Arm Overhead Dumbbell Hold (explore, stay within constraints)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⚖🏛🪡🟡 (Bread & Butter | Pull | Basics | Fun)
-├─ 11 🪡 Band Hammer Curl (explore, stay within constraints)
+├─ 11 🪡 Single-Arm Cable Rear Delt Fly (explore, stay within constraints)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 90s
 ═══
 ## 3) 🌎 Exposure
 Subcode: ⚖🏛🪡🟡 (Exposure | Pull | Basics | Fun)
-├─ 11 🪡 Deadlift (Conventional) (try the unfamiliar version, explore the range)
+├─ 11 🪡 Half-Kneeling Band Single-Arm Pulldown (try the unfamiliar version, explore the range)
 │  Set 1: ⚖ 55% × 11 (discovery set)
 Rest: 75s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⚖🏛🪡🟡 (Sandbox | Pull | Basics | Fun)
-├─ 11 🪡 Scapular Push-Up (explore within constraints, choose your variation)
+├─ 11 🪡 One-Arm Dead Hang (explore within constraints, choose your variation)
 │  Option A: ⚖ 60% × 11 (play with grip, stance, or tempo)
 │  Option B: ⚖ 60% × 11 (try a variation you have not used before)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🏛🪡🟡 (Release | Pull | Basics | Fun)
-├─ 12 🪡 Deadlift (Conventional) (smooth tempo, downshift)
+├─ 12 🪡 Half-Kneeling Band Single-Arm Pulldown (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

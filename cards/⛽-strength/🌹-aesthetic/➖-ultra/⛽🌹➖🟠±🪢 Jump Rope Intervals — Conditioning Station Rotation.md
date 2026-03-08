@@ -9,34 +9,36 @@ type: ➖ Ultra | Cardiovascular system, conditioning
 color: 🟠 Circuit
 blocks: ♨️ ▶️ 🧈 🎱 🪫 🚂
 ---
-# ➖ Jump Rope Intervals — Ultra Circuit ➖
+# ➖ Rowing Machine (Steady State) — Ultra Circuit ➖
 
 ## Strength Aesthetic — Ultra focus (Circuit) · 50-65 min
 
 **CODE:** ⛽🌹➖🟠
 
 > "Rotate stations. Keep the tissues trading off under heavy demand."
+
+*Fasting Cardio + Strength: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🪢 plico
 Subcode: ⛽🌹➖🟠 (Warm-Up | Ultra | Aesthetic | Circuit)
-├─ 6 ➖ Kettlebell Goblet Squat (station rotation, keep moving)
+├─ 6 ➖ Rowing Intervals (500m) (station rotation, keep moving)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 45s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⛽🌹➖🟠 (ARAM | Ultra | Aesthetic | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: ➖ Jump Rope Intervals × 5 (station rotation, keep moving)
-│  Station 2: ➖ Kettlebell Goblet Squat × 5 (station rotation, keep moving)
-│  Station 3: ➖ Partner Toss (Alternating) × 5 (station rotation, keep moving)
-│  Station 4: ➖ Plant and Cut (Single-Leg Deceleration) × 5 (station rotation, keep moving)
+│  Station 1: ➖ Rowing Machine (Steady State) × 5 (station rotation, keep moving)
+│  Station 2: ➖ Rowing Intervals (500m) × 5 (station rotation, keep moving)
+│  Station 3: ➖ Rowing Intervals (1000m) × 5 (station rotation, keep moving)
+│  Station 4: ➖ Rowing Intervals (2000m) × 5 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 60s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⛽🌹➖🟠 (Release | Ultra | Aesthetic | Circuit)
-├─ 6 ➖ Layup Approach (Single-Leg Power) (smooth tempo, downshift)
+├─ 6 ➖ Rowing Sprints (100m Max Effort) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 60s
 ═══

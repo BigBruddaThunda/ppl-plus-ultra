@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🍗 Back Squat (Low Bar) — Legs Bodyweight 🍗
+# 🍗 Single-Leg Jump Rope — Legs Bodyweight 🍗
 
 ## Full Body Basics — Legs focus (Bodyweight) · 40-55 min
 
 **CODE:** 🌾🏛🍗🟢
 
 > "Flow through the body using only what you carry. No equipment needed."
+
+*Minimalist Hypertrophy: Bodyweight hypertrophy — high reps, slow tempo, squeeze and hold patterns*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🌾🏛🍗🟢 (Warm-Up | Legs | Basics | Bodyweight)
-├─ 10 🍗 Deep Squat Hold (Ankle Mobility) (bodyweight, no external load needed)
+├─ 10 🍗 Back Squat (Glute Focus) (bodyweight, no external load needed)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🏛🍗🟢 (Composition | Legs | Basics | Bodyweight)
-├─ 9 🍗 Single-Leg Deadlift (Glute Med Stability) → Back Squat (Low Bar) (flow without reset)
+├─ 9 🍗 Front Squat (Glute Activation) → Single-Leg Jump Rope (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🏛🍗🟢 (Bread & Butter | Legs | Basics | Bodyweight)
-├─ 9 🍗 Back Squat (Low Bar) (bodyweight, no external load needed)
+├─ 9 🍗 Single-Leg Jump Rope (bodyweight, no external load needed)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🏛🍗🟢 (Supplemental | Legs | Basics | Bodyweight)
-├─ 10 🍗 Back Squat (High Bar) (full range, different angle)
+├─ 10 🍗 Sumo Squat (Wide-Stance Glute) (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🏛🍗🟢 (Release | Legs | Basics | Bodyweight)
-├─ 10 🍗 Walking Lunge (smooth tempo, downshift)
+├─ 10 🍗 Goblet Squat (Deep Glute Stretch) (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══

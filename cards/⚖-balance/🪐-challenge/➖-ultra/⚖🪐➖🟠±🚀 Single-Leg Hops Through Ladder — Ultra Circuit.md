@@ -16,10 +16,12 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 **CODE:** ⚖🪐➖🟠
 
 > "Rotate through corrective stations. Each one targets a different deficit."
+
+*Sport Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⚖🪐➖🟠 (Warm-Up | Ultra | Challenge | Circuit)
-├─ 12 ➖ Single-Leg Hops Through Ladder (station rotation, keep moving)
+├─ 12 ➖ Kettlebell Swing (Single-Arm) (station rotation, keep moving)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
@@ -27,16 +29,16 @@ Rest: 30s
 Subcode: ⚖🪐➖🟠 (ARAM | Ultra | Challenge | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
 │  Station 1: ➖ Single-Leg Hops Through Ladder × 11 (station rotation, keep moving)
-│  Station 2: ➖ Single-Leg Hops Through Ladder × 11 (station rotation, keep moving)
-│  Station 3: ➖ Kettlebell Goblet Squat × 11 (station rotation, keep moving)
-│  Station 4: ➖ Single-Foot In Each Box (Forward) × 11 (station rotation, keep moving)
+│  Station 2: ➖ Kettlebell Swing (Single-Arm) × 11 (station rotation, keep moving)
+│  Station 3: ➖ Kettlebell Swing (Alternating Arms) × 11 (station rotation, keep moving)
+│  Station 4: ➖ Single-Arm American Swing × 11 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⚖🪐➖🟠 (Release | Ultra | Challenge | Circuit)
-├─ 12 ➖ Turkish Get-Up (Full) (smooth tempo, downshift)
+├─ 12 ➖ Single-Leg Swing (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

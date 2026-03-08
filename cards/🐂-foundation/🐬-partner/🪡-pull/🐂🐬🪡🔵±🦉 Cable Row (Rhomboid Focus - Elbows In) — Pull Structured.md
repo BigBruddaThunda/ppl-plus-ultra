@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# 🪡 Cable Row (Rhomboid Focus - Elbows In) — Pull Structured 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Structured 🪡
 
 ## Foundation Partner — Pull focus (Structured) · 40-50 min
 
 **CODE:** 🐂🐬🪡🔵
 
 > "Follow the prescription. The numbers build the habit."
+
+*Minimalist Hypertrophy: Volume tracking — prescribed sets and reps, progressive overload through logging*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: 🐂🐬🪡🔵 (Warm-Up | Pull | Partner | Structured)
@@ -32,7 +34,7 @@ Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🐬🪡🔵 (Bread & Butter | Pull | Partner | Structured)
-├─ 11 🪡 Cable Row (Rhomboid Focus - Elbows In) (prescribed, track sets and reps)
+├─ 11 🪡 Barbell Overhead Press (Standing) (prescribed, track sets and reps)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)

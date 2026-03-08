@@ -16,16 +16,18 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 **CODE:** 🌾🔨🍗🔵
 
 > "Prescribed flow. Each movement connects to the next without reset."
+
+*Calisthenics Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🌾🔨🍗🔵 (Warm-Up | Legs | Functional | Structured)
-├─ 10 🍗 Single-Leg Pogo Hops (prescribed, track sets and reps)
+├─ 10 🍗 Box Jump (Calf Power) (prescribed, track sets and reps)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🔨🍗🔵 (Composition | Legs | Functional | Structured)
-├─ 9 🍗 Half-Kneeling Hip Flexor Stretch → Single-Leg Jump Rope (flow without reset)
+├─ 9 🍗 Depth Drop (Reactive Calf) → Single-Leg Jump Rope (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
@@ -40,14 +42,14 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🔨🍗🔵 (Supplemental | Legs | Functional | Structured)
-├─ 10 🍗 Single-Leg Extension (full range, different angle)
+├─ 10 🍗 Jump Rope (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🔨🍗🔵 (Release | Legs | Functional | Structured)
-├─ 10 🍗 Single-Leg Good Morning (smooth tempo, downshift)
+├─ 10 🍗 Double-Unders (Jump Rope) (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══

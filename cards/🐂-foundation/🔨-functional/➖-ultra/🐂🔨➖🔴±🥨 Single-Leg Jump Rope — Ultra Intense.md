@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ---
-# ➖ Single-Leg Jump Rope — Ultra Intense ➖
+# ➖ Turkish Get-Up (Full) — Ultra Intense ➖
 
 ## Foundation Functional — Ultra focus (Intense) · 40-50 min
 
 **CODE:** 🐂🔨➖🔴
 
 > "Sub-maximal load, high effort. Earn every rep with form."
+
+*Bodybuilding: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🐂🔨➖🔴 (Warm-Up | Ultra | Functional | Intense)
-├─ 12 ➖ Kettlebell Goblet Squat (high effort, push the pace)
+├─ 12 ➖ Half Turkish Get-Up (To Elbow) (high effort, push the pace)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🔢 Fundamentals
 Subcode: 🐂🔨➖🔴 (Fundamentals | Ultra | Functional | Intense)
-├─ 12 ➖ Kettlebell Swing (Single-Arm) (slow, own each position)
+├─ 12 ➖ Turkish Get-Up (To Seated) (slow, own each position)
 │  Set 1: 🐂 45% × 12 (grounding)
 │  Set 2: 🐂 50% × 12 (pattern lock)
 Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🔨➖🔴 (Bread & Butter | Ultra | Functional | Intense)
-├─ 11 ➖ Single-Leg Jump Rope (high effort, push the pace)
+├─ 11 ➖ Turkish Get-Up (Full) (high effort, push the pace)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 37s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🔨➖🔴 (Supplemental | Ultra | Functional | Intense)
-├─ 13 ➖ Kettlebell Swing (Alternating Arms) (full range, different angle)
+├─ 13 ➖ Turkish Get-Up (To Kneeling) (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 30s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🔨➖🔴 (Imprint | Ultra | Functional | Intense)
-├─ 15 ➖ Single-Leg Jump Rope (high rep, low load, neural memory)
+├─ 15 ➖ Double Kettlebell Get-Up (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 30s
 ═══

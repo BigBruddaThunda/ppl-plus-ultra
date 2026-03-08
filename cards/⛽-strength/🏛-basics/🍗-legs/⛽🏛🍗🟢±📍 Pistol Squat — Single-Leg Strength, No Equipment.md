@@ -9,29 +9,31 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟢 Bodyweight | Tier 0–2 | GOLD: No | No gym required. Advanced calisthenics.
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
-# 🍗 Pistol Squat — Legs Bodyweight 🍗
+# 🍗 Single-Leg Jump Rope — Legs Bodyweight 🍗
 
 ## Strength Basics — Legs focus (Bodyweight) · 50-65 min
 
 **CODE:** ⛽🏛🍗🟢
 
 > "Prove the pattern holds without external load. Bodyweight is the test."
+
+*Minimalist Hypertrophy: Bodyweight hypertrophy — high reps, slow tempo, squeeze and hold patterns*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: ⛽🏛🍗🟢 (Warm-Up | Legs | Basics | Bodyweight)
-├─ 6 🍗 Deep Squat Hold (Ankle Mobility) (bodyweight, no external load needed)
+├─ 6 🍗 Back Squat (Glute Focus) (bodyweight, no external load needed)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🏛🍗🟢 (Primer | Legs | Basics | Bodyweight)
-├─ 5 🍗 Back Squat (High Bar) (tight setup, crisp intent)
+├─ 5 🍗 Front Squat (Glute Activation) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🏛🍗🟢 (Bread & Butter | Legs | Basics | Bodyweight)
-├─ 5 🍗 Pistol Squat (bodyweight, no external load needed)
+├─ 5 🍗 Single-Leg Jump Rope (bodyweight, no external load needed)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 180s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🏛🍗🟢 (Supplemental | Legs | Basics | Bodyweight)
-├─ 6 🍗 Walking Lunge (full range, different angle)
+├─ 6 🍗 Sumo Squat (Wide-Stance Glute) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🏛🍗🟢 (Release | Legs | Basics | Bodyweight)
-├─ 6 🍗 Spanish Squat (Banded VMO) (smooth tempo, downshift)
+├─ 6 🍗 Goblet Squat (Deep Glute Stretch) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

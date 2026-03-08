@@ -9,30 +9,32 @@ type: ➕ Plus | Full body power, core
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# ➕ Kettlebell Swing (Alternating Arms) — Plus Structured ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Structured ➕
 
 ## Full Body Time — Plus focus (Structured) · 40-55 min
 
 **CODE:** 🌾⌛➕🔵
 
 > "Prescribed flow. Each movement connects to the next without reset."
+
+*General Conditioning: Prescribed intervals — zone targets, heart rate windows, timed rest*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🌾⌛➕🔵 (Warm-Up | Plus | Time | Structured)
-├─ 10 ➕ Single-Leg Hops Through Ladder (prescribed, track sets and reps)
+├─ 10 ➕ Single-Foot In Each Box (Forward) (prescribed, track sets and reps)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾⌛➕🔵 (Composition | Plus | Time | Structured)
-├─ 9 ➕ Kettlebell Swing (Single-Arm) → Kettlebell Swing (Alternating Arms) (flow without reset)
+├─ 9 ➕ Two Feet In Each Box (Forward) → Single-Leg Hops Through Ladder (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾⌛➕🔵 (Bread & Butter | Plus | Time | Structured)
-├─ 9 ➕ Kettlebell Swing (Alternating Arms) (prescribed, track sets and reps)
+├─ 9 ➕ Single-Leg Hops Through Ladder (prescribed, track sets and reps)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾⌛➕🔵 (Supplemental | Plus | Time | Structured)
-├─ 10 ➕ Single-Leg Romanian Deadlift (full range, different angle)
+├─ 10 ➕ Lateral Shuffle (In-In-Out-Out) (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾⌛➕🔵 (Release | Plus | Time | Structured)
-├─ 10 ➕ Archer Pull-Up (smooth tempo, downshift)
+├─ 10 ➕ Icky Shuffle (In-In-Out Pattern) (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══

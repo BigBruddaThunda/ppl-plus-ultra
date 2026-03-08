@@ -16,6 +16,8 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 **CODE:** ⛽🐬➕🟡
 
 > "Find a movement you have not tried at this load and own it."
+
+*Strongman / Odd Object: Unconventional loading patterns — grip variations, odd positions, new challenges*
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: ⛽🐬➕🟡 (Warm-Up | Plus | Partner | Fun)

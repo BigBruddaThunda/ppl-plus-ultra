@@ -9,23 +9,25 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟡 Fun | Tier 0–5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ → 🧈 → 🏖 → 🧩 → 🚂 → 🧮
 ---
-# ➖ Multi-Modality Intervals — Ultra Fun ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Fun ➖
 
 ## Strength Basics — Ultra focus (Fun) · 50-65 min
 
 **CODE:** ⛽🏛➖🟡
 
 > "Find a movement you have not tried at this load and own it."
+
+*Youth Athletic Development: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: ⛽🏛➖🟡 (Warm-Up | Ultra | Basics | Fun)
-├─ 6 ➖ Rowing Machine (Steady State) (explore, stay within constraints)
+├─ 6 ➖ Partner Toss (Alternating) (explore, stay within constraints)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⛽🏛➖🟡 (Bread & Butter | Ultra | Basics | Fun)
-├─ 5 ➖ Multi-Modality Intervals (explore, stay within constraints)
+├─ 5 ➖ Single-Leg Hops Through Ladder (explore, stay within constraints)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 180s
 ═══
 ## 3) 🌎 Exposure
 Subcode: ⛽🏛➖🟡 (Exposure | Ultra | Basics | Fun)
-├─ 5 ➖ Rowing Intervals (1000m) (try the unfamiliar version, explore the range)
+├─ 5 ➖ Single-Foot In Each Box (Forward) (try the unfamiliar version, explore the range)
 │  Set 1: ⛽ 65% × 5 (discovery set)
 Rest: 120s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⛽🏛➖🟡 (Sandbox | Ultra | Basics | Fun)
-├─ 5 ➖ Rowing Intervals (2000m) (explore within constraints, choose your variation)
+├─ 5 ➖ Two Feet In Each Box (Forward) (explore within constraints, choose your variation)
 │  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
 │  Option B: ⛽ 70% × 5 (try a variation you have not used before)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🏛➖🟡 (Release | Ultra | Basics | Fun)
-├─ 6 ➖ Rowing Intervals (1000m) (smooth tempo, downshift)
+├─ 6 ➖ Single-Foot In Each Box (Forward) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

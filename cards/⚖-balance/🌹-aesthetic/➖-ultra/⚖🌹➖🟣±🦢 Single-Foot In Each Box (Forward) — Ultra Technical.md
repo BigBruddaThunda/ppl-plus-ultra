@@ -9,29 +9,31 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➖ Single-Foot In Each Box (Forward) — Ultra Technical ➖
+# ➖ Sprint (10-30 meters) — Ultra Technical ➖
 
 ## Balance Aesthetic — Ultra focus (Technical) · 40-50 min
 
 **CODE:** ⚖🌹➖🟣
 
 > "Precise correction. Small movements, full attention, zero momentum."
+
+*Aesthetic Specialization: Precision isolation — feel every fiber, full ROM, cable and machine emphasis*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: ⚖🌹➖🟣 (Warm-Up | Ultra | Aesthetic | Technical)
-├─ 12 ➖ Single-Foot In Each Box (Forward) (precision, quality over volume)
+├─ 12 ➖ Sprint (30-60 meters) (precision, quality over volume)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖🌹➖🟣 (Primer | Ultra | Aesthetic | Technical)
-├─ 11 ➖ Turkish Get-Up (Full) (tight setup, crisp intent)
+├─ 11 ➖ Sprint (60-100 meters) (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🌹➖🟣 (Bread & Butter | Ultra | Aesthetic | Technical)
-├─ 11 ➖ Single-Foot In Each Box (Forward) (precision, quality over volume)
+├─ 11 ➖ Sprint (10-30 meters) (precision, quality over volume)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🌹➖🟣 (Supplemental | Ultra | Aesthetic | Technical)
-├─ 12 ➖ Kettlebell Goblet Squat (full range, different angle)
+├─ 12 ➖ Hill Sprint (Short) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🌹➖🟣 (Release | Ultra | Aesthetic | Technical)
-├─ 12 ➖ Two Feet In Each Box (Forward) (smooth tempo, downshift)
+├─ 12 ➖ Hill Sprint (Long) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 112s
 ═══

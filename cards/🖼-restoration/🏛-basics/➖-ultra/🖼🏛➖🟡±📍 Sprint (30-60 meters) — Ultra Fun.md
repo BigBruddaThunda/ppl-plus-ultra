@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➖ Sprint (30-60 meters) — Ultra Fun ➖
+# ➖ Rowing Machine (Steady State) — Ultra Fun ➖
 
 ## Restoration Basics — Ultra focus (Fun) · 30-40 min
 
 **CODE:** 🖼🏛➖🟡
 
 > "Explore somatic movements you would not normally try."
+
+*New to Gym: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🏛➖🟡 (Bread & Butter | Ultra | Basics | Fun)
-├─ 13 ➖ Sprint (30-60 meters) (explore, stay within constraints)
+├─ 13 ➖ Rowing Machine (Steady State) (explore, stay within constraints)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🖼🏛➖🟡 (Sandbox | Ultra | Basics | Fun)
-├─ 13 ➖ Sprint (30-60 meters) (explore within constraints, choose your variation)
+├─ 13 ➖ Rowing Sprints (250m) (explore within constraints, choose your variation)
 │  Option A: 🖼 45% × 13 (play with grip, stance, or tempo)
 │  Option B: 🖼 45% × 13 (try a variation you have not used before)
 Rest: 60s

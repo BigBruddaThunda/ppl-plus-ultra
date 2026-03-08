@@ -9,23 +9,25 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🍗 Split Squat Time Trial — Legs Fun 🍗
+# 🍗 Single-Leg Jump Rope — Legs Fun 🍗
 
 ## Strength Time — Legs focus (Fun) · 50-65 min
 
 **CODE:** ⛽⌛🍗🟡
 
 > "Find a movement you have not tried at this load and own it."
+
+*Injury Prevention / Prehab: Somatic exploration — movements you would not normally try, body awareness*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: ⛽⌛🍗🟡 (Warm-Up | Legs | Time | Fun)
-├─ 6 🍗 Pogo Hops (Ankle Bounce) (explore, stay within constraints)
+├─ 6 🍗 Single-Leg Balance Hold (explore, stay within constraints)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⛽⌛🍗🟡 (Bread & Butter | Legs | Time | Fun)
-├─ 5 🍗 Split Squat Time Trial (explore, stay within constraints)
+├─ 5 🍗 Single-Leg Jump Rope (explore, stay within constraints)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 180s
 ═══
 ## 3) 🌎 Exposure
 Subcode: ⛽⌛🍗🟡 (Exposure | Legs | Time | Fun)
-├─ 5 🍗 Walking Lunge (try the unfamiliar version, explore the range)
+├─ 5 🍗 Single-Leg Balance with Eyes Closed (try the unfamiliar version, explore the range)
 │  Set 1: ⛽ 65% × 5 (discovery set)
 Rest: 120s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⛽⌛🍗🟡 (Sandbox | Legs | Time | Fun)
-├─ 5 🍗 Spanish Squat (Banded VMO) (explore within constraints, choose your variation)
+├─ 5 🍗 Single-Leg Reach (Multi-Directional) (explore within constraints, choose your variation)
 │  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
 │  Option B: ⛽ 70% × 5 (try a variation you have not used before)
 Rest: 120s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽⌛🍗🟡 (Release | Legs | Time | Fun)
-├─ 6 🍗 Walking Lunge (smooth tempo, downshift)
+├─ 6 🍗 Single-Leg Balance with Eyes Closed (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 120s
 ═══

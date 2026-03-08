@@ -9,30 +9,32 @@ type: 🪡 Pull
 color: ⚫ Teaching
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🪡 Chest-Supported Dumbbell Row — Pull Teaching 🪡
+# 🪡 Pull-Up (Overhand Grip) — Pull Teaching 🪡
 
 ## Strength Challenge — Pull focus (Teaching) · 50-65 min
 
 **CODE:** ⛽🪐🪡⚫
 
 > "Learn where the bar sits and how it moves before adding plates."
+
+*Olympic Lifting: Teaches the craft-specific positions, timing, and coordination demands*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: ⛽🪐🪡⚫ (Warm-Up | Pull | Challenge | Teaching)
-├─ 6 🪡 Wide-Grip Pull-Up (Teres Focus) (coached, check form before adding load)
+├─ 6 🪡 Chin-Up (Underhand Grip) (coached, check form before adding load)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 135s
 ═══
 ## 2) 🛠 Craft
 Subcode: ⛽🪐🪡⚫ (Craft | Pull | Challenge | Teaching)
-├─ 5 🪡 Chest-Supported Row (Elbow Out) (coach: check grip width, elbow angle, foot pressure)
+├─ 5 🪡 Wide-Grip Pull-Up (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: ⛽ 60% × 5 (practice the pattern, not the load)
 │  Set 2: ⛽ 65% × 5 (same cues, slightly heavier)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🪐🪡⚫ (Bread & Butter | Pull | Challenge | Teaching)
-├─ 5 🪡 Chest-Supported Dumbbell Row (coached, check form before adding load)
+├─ 5 🪡 Pull-Up (Overhand Grip) (coached, check form before adding load)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 270s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🪐🪡⚫ (Supplemental | Pull | Challenge | Teaching)
-├─ 6 🪡 Cable Row (High Elbow) (full range, different angle)
+├─ 6 🪡 Close-Grip Pull-Up (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 180s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⛽🪐🪡⚫ (Imprint | Pull | Challenge | Teaching)
-├─ 6 🪡 Scapular Push-Up (high rep, low load, neural memory)
+├─ 6 🪡 Mixed-Grip Pull-Up (high rep, low load, neural memory)
 │  Set 1: ⛽ 55% × 6 (lock the pattern)
 Rest: 180s
 ═══

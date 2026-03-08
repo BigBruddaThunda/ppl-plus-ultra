@@ -9,29 +9,31 @@ type: 🛒 Push
 color: 🟣 Technical
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🛒 Close-Grip Floor Press — Push Technical 🛒
+# 🛒 Kettlebell Swing (Single-Arm) — Push Technical 🛒
 
 ## Strength Challenge — Push focus (Technical) · 50-65 min
 
 **CODE:** ⛽🪐🛒🟣
 
 > "One clean rep at the right load is worth more than five at the wrong one."
+
+*Sprint / Power Conditioning: Technical conditioning — rowing stroke, cycling cadence, running gait precision*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⛽🪐🛒🟣 (Warm-Up | Push | Challenge | Technical)
-├─ 6 🛒 Bamboo Bar Bench Press (precision, quality over volume)
+├─ 6 🛒 Kettlebell Swing (Alternating Arms) (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 135s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🪐🛒🟣 (Primer | Push | Challenge | Technical)
-├─ 5 🛒 Push Jerk (Barbell) (tight setup, crisp intent)
+├─ 5 🛒 Single-Arm American Swing (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🪐🛒🟣 (Bread & Butter | Push | Challenge | Technical)
-├─ 5 🛒 Close-Grip Floor Press (precision, quality over volume)
+├─ 5 🛒 Kettlebell Swing (Single-Arm) (precision, quality over volume)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 270s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🪐🛒🟣 (Supplemental | Push | Challenge | Technical)
-├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (full range, different angle)
+├─ 6 🛒 Single-Leg Swing (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 180s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🪐🛒🟣 (Release | Push | Challenge | Technical)
-├─ 6 🛒 Barbell Bench Press (smooth tempo, downshift)
+├─ 6 🛒 Alternating Kettlebell Snatch (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 180s
 ═══

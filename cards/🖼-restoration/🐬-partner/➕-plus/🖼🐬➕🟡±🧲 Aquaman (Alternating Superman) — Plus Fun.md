@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➕ Aquaman (Alternating Superman) — Plus Fun ➕
+# ➕ Hip Flexor Stretch (Half-Kneeling) — Plus Fun ➕
 
 ## Restoration Partner — Plus focus (Fun) · 30-40 min
 
 **CODE:** 🖼🐬➕🟡
 
 > "Explore somatic movements you would not normally try."
+
+*Youth Athletic Development: Fun and discovery — explore movements that feel good and build capability*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🐬➕🟡 (Bread & Butter | Plus | Partner | Fun)
-├─ 13 ➕ Aquaman (Alternating Superman) (explore, stay within constraints)
+├─ 13 ➕ Hip Flexor Stretch (Half-Kneeling) (explore, stay within constraints)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🖼🐬➕🟡 (Sandbox | Plus | Partner | Fun)
-├─ 13 ➕ Aquaman (Alternating Superman) (explore within constraints, choose your variation)
+├─ 13 ➕ Single-Leg Hops Through Ladder (explore within constraints, choose your variation)
 │  Option A: 🖼 45% × 13 (play with grip, stance, or tempo)
 │  Option B: 🖼 45% × 13 (try a variation you have not used before)
 Rest: 60s

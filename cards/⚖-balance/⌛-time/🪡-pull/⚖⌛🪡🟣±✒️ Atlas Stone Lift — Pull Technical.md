@@ -9,29 +9,31 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🪡 Atlas Stone Lift — Pull Technical 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Technical 🪡
 
 ## Balance Time — Pull focus (Technical) · 40-50 min
 
 **CODE:** ⚖⌛🪡🟣
 
 > "Precise correction. Small movements, full attention, zero momentum."
+
+*Stress Management: Precise positioning in restorative holds — depth over speed, accuracy over range*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⚖⌛🪡🟣 (Warm-Up | Pull | Time | Technical)
-├─ 12 🪡 Yoke Walk (precision, quality over volume)
+├─ 12 🪡 Single-Arm Overhead Dumbbell Hold (precision, quality over volume)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖⌛🪡🟣 (Primer | Pull | Time | Technical)
-├─ 11 🪡 Wide-Grip Lat Pulldown (Teres Focus) (tight setup, crisp intent)
+├─ 11 🪡 Single-Arm Face Pull (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖⌛🪡🟣 (Bread & Butter | Pull | Time | Technical)
-├─ 11 🪡 Atlas Stone Lift (precision, quality over volume)
+├─ 11 🪡 Single-Arm Cable Rear Delt Fly (precision, quality over volume)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖⌛🪡🟣 (Supplemental | Pull | Time | Technical)
-├─ 12 🪡 Face Pull (Rope) (full range, different angle)
+├─ 12 🪡 Aquaman (Alternating Superman) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖⌛🪡🟣 (Release | Pull | Time | Technical)
-├─ 12 🪡 Good Morning (Barbell) (smooth tempo, downshift)
+├─ 12 🪡 Half-Kneeling Band Single-Arm Pulldown (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 112s
 ═══

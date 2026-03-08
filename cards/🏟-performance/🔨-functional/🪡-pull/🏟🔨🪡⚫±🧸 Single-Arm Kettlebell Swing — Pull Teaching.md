@@ -9,30 +9,32 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🪡 Single-Arm Kettlebell Swing — Pull Teaching 🪡
+# 🪡 Archer Pull-Up — Pull Teaching 🪡
 
 ## Performance Functional — Pull focus (Teaching) · 25-35 min
 
 **CODE:** 🏟🔨🪡⚫
 
 > "Rehearse the test protocol. Know the standards before test day."
+
+*Combat Sport Prep: Teaches movement quality, ground-based patterns, and transfer mechanics*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🏟🔨🪡⚫ (Warm-Up | Pull | Functional | Teaching)
-├─ 3 🪡 Single-Arm Row (Rhomboid Emphasis) (coached, check form before adding load)
+├─ 3 🪡 Single-Arm Lat Pulldown (coached, check form before adding load)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 135s
 ═══
 ## 2) 🛠 Craft
 Subcode: 🏟🔨🪡⚫ (Craft | Pull | Functional | Teaching)
-├─ 2 🪡 Single-Leg Romanian Deadlift (coach: check grip width, elbow angle, foot pressure)
+├─ 2 🪡 Single-Arm Dumbbell Row (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🏟 72% × 2 (practice the pattern, not the load)
 │  Set 2: 🏟 77% × 2 (same cues, slightly heavier)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🔨🪡⚫ (Bread & Butter | Pull | Functional | Teaching)
-├─ 2 🪡 Single-Arm Kettlebell Swing (coached, check form before adding load)
+├─ 2 🪡 Archer Pull-Up (coached, check form before adding load)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

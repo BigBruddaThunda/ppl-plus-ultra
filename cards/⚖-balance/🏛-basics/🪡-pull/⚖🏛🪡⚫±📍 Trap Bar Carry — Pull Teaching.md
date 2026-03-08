@@ -9,30 +9,32 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🪡 Trap Bar Carry — Pull Teaching 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Teaching 🪡
 
 ## Balance Basics — Pull focus (Teaching) · 40-50 min
 
 **CODE:** ⚖🏛🪡⚫
 
 > "Identify the weak link. Coach the correction before adding load."
+
+*Senior Strength: Teaches barbell setup, loading sequence, and safety positions for heavy compound lifts*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: ⚖🏛🪡⚫ (Warm-Up | Pull | Basics | Teaching)
-├─ 12 🪡 Wide-Grip Pull-Up (Teres Focus) (coached, check form before adding load)
+├─ 12 🪡 Single-Arm Overhead Dumbbell Hold (coached, check form before adding load)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: ⚖🏛🪡⚫ (Craft | Pull | Basics | Teaching)
-├─ 11 🪡 Chest-Supported Row (Elbow Out) (coach: check grip width, elbow angle, foot pressure)
+├─ 11 🪡 Single-Arm Face Pull (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: ⚖ 50% × 11 (practice the pattern, not the load)
 │  Set 2: ⚖ 55% × 11 (same cues, slightly heavier)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🏛🪡⚫ (Bread & Butter | Pull | Basics | Teaching)
-├─ 11 🪡 Trap Bar Carry (coached, check form before adding load)
+├─ 11 🪡 Single-Arm Cable Rear Delt Fly (coached, check form before adding load)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🏛🪡⚫ (Supplemental | Pull | Basics | Teaching)
-├─ 12 🪡 Cable Row (High Elbow) (full range, different angle)
+├─ 12 🪡 Aquaman (Alternating Superman) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⚖🏛🪡⚫ (Imprint | Pull | Basics | Teaching)
-├─ 12 🪡 Scapular Push-Up (high rep, low load, neural memory)
+├─ 12 🪡 One-Arm Dead Hang (high rep, low load, neural memory)
 │  Set 1: ⚖ 45% × 12 (lock the pattern)
 Rest: 112s
 ═══

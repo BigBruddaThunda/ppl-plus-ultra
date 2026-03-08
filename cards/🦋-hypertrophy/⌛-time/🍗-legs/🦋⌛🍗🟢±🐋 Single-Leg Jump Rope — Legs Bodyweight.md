@@ -16,16 +16,18 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 **CODE:** 🦋⌛🍗🟢
 
 > "Build the muscle with what you have. No equipment is not an excuse."
+
+*Marathon / Distance Running: Bodyweight conditioning — no gym, no excuses, cardio and movement flow*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🦋⌛🍗🟢 (Warm-Up | Legs | Time | Bodyweight)
-├─ 12 🍗 Single-Leg Pogo Hops (bodyweight, no external load needed)
+├─ 12 🍗 Box Jump (Calf Power) (bodyweight, no external load needed)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋⌛🍗🟢 (Primer | Legs | Time | Bodyweight)
-├─ 10 🍗 Half-Kneeling Hip Flexor Stretch (tight setup, crisp intent)
+├─ 10 🍗 Depth Drop (Reactive Calf) (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 75s
 ═══
@@ -39,21 +41,21 @@ Rest: 90s
 ═══
 ## 4) 🗿 Sculpt
 Subcode: 🦋⌛🍗🟢 (Sculpt | Legs | Time | Bodyweight)
-├─ 12 🍗 Single-Leg Extension (angles, tension, volume)
+├─ 12 🍗 Jump Rope (angles, tension, volume)
 │  Set 1: 🦋 65% × 12 (shaping)
 │  Set 2: 🦋 65% × 12 (carving)
 Rest: 60s
 ═══
 ## 5) 🧩 Supplemental
 Subcode: 🦋⌛🍗🟢 (Supplemental | Legs | Time | Bodyweight)
-├─ 12 🍗 Single-Leg Extension (full range, different angle)
+├─ 12 🍗 Jump Rope (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 60s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋⌛🍗🟢 (Release | Legs | Time | Bodyweight)
-├─ 12 🍗 Single-Leg Good Morning (smooth tempo, downshift)
+├─ 12 🍗 Double-Unders (Jump Rope) (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══

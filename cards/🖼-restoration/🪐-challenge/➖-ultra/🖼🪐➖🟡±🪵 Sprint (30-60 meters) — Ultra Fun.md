@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➖ Sprint (30-60 meters) — Ultra Fun ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Fun ➖
 
 ## Restoration Challenge — Ultra focus (Fun) · 30-40 min
 
 **CODE:** 🖼🪐➖🟡
 
 > "Explore somatic movements you would not normally try."
+
+*Explorer / Outdoor Athlete: Cross-training exploration — adjacent skills that improve the primary craft*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🪐➖🟡 (Bread & Butter | Ultra | Challenge | Fun)
-├─ 13 ➖ Sprint (30-60 meters) (explore, stay within constraints)
+├─ 13 ➖ Single-Leg Hops Through Ladder (explore, stay within constraints)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🖼🪐➖🟡 (Sandbox | Ultra | Challenge | Fun)
-├─ 13 ➖ Sprint (30-60 meters) (explore within constraints, choose your variation)
+├─ 13 ➖ Alternating Kettlebell Snatch (explore within constraints, choose your variation)
 │  Option A: 🖼 45% × 13 (play with grip, stance, or tempo)
 │  Option B: 🖼 45% × 13 (try a variation you have not used before)
 Rest: 60s

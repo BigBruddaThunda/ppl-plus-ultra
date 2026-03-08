@@ -16,10 +16,12 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟🔨➖🟣
 
 > "One maximal attempt with perfect setup. The technique is the test."
+
+*Sprint / Power Conditioning: Technical conditioning — rowing stroke, cycling cadence, running gait precision*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🏟🔨➖🟣 (Warm-Up | Ultra | Functional | Technical)
-├─ 3 ➖ Single-Leg Hops Through Ladder (precision, quality over volume)
+├─ 3 ➖ Kettlebell Swing (Single-Arm) (precision, quality over volume)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 135s
 ═══

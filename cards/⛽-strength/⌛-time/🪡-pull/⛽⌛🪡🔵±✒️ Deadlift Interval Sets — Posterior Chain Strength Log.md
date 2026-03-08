@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔵 Structured | Tier 0-5 | GOLD: No | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🪡 Deadlift Interval Sets — Pull Structured 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Structured 🪡
 
 ## Strength Time — Pull focus (Structured) · 50-65 min
 
 **CODE:** ⛽⌛🪡🔵
 
 > "Same weight, same reps, same rest. Build the base one session at a time."
+
+*Minimalist Hypertrophy: Volume tracking — prescribed sets and reps, progressive overload through logging*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⛽⌛🪡🔵 (Warm-Up | Pull | Time | Structured)
@@ -31,7 +33,7 @@ Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽⌛🪡🔵 (Bread & Butter | Pull | Time | Structured)
-├─ 5 🪡 Deadlift Interval Sets (prescribed, track sets and reps)
+├─ 5 🪡 Barbell Overhead Press (Standing) (prescribed, track sets and reps)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)

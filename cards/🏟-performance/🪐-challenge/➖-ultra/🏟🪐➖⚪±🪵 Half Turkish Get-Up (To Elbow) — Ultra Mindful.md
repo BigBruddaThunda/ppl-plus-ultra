@@ -9,23 +9,25 @@ type: ➖ Ultra | Cardiovascular system
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➖ Half Turkish Get-Up (To Elbow) — Ultra Mindful ➖
+# ➖ Sprint (10-30 meters) — Ultra Mindful ➖
 
 ## Performance Challenge — Ultra focus (Mindful) · 25-35 min
 
 **CODE:** 🏟🪐➖⚪
 
 > "Test movement quality under minimal load. Patience is the metric."
+
+*50+ Active Living: Recovery and restoration — breath work, gentle movement, nervous system regulation*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🏟🪐➖⚪ (Warm-Up | Ultra | Challenge | Mindful)
-├─ 3 ➖ Single-Foot In Each Box (Forward) (4s eccentric, breath-paced)
+├─ 3 ➖ Sprint (30-60 meters) (4s eccentric, breath-paced)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 180s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟🪐➖⚪ (Bread & Butter | Ultra | Challenge | Mindful)
-├─ 2 ➖ Half Turkish Get-Up (To Elbow) (4s eccentric, breath-paced)
+├─ 2 ➖ Sprint (10-30 meters) (4s eccentric, breath-paced)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

@@ -16,16 +16,18 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 **CODE:** 🌾🌹🛒⚫
 
 > "Connect the chain. Coach each transition between movements."
+
+*Post-Rehab Strength: Teaches barbell setup, loading sequence, and safety positions for heavy compound lifts*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: 🌾🌹🛒⚫ (Warm-Up | Push | Aesthetic | Teaching)
-├─ 10 🛒 Single-Arm Cable Chest Fly (coached, check form before adding load)
+├─ 10 🛒 Single-Arm Overhead Dumbbell Hold (coached, check form before adding load)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: 🌾🌹🛒⚫ (Craft | Push | Aesthetic | Teaching)
-├─ 9 🛒 Low-to-High Cable Fly (coach: check grip width, elbow angle, foot pressure)
+├─ 9 🛒 Single-Arm Cable Chest Fly (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🌾 50% × 9 (practice the pattern, not the load)
 │  Set 2: 🌾 55% × 9 (same cues, slightly heavier)
 Rest: 90s
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🌹🛒⚫ (Supplemental | Push | Aesthetic | Teaching)
-├─ 10 🛒 Band Pull-Apart (Chest Opener) (full range, different angle)
+├─ 10 🛒 One-Arm Dead Hang (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 67s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🌾🌹🛒⚫ (Imprint | Push | Aesthetic | Teaching)
-├─ 10 🛒 Alternating Dumbbell Front Raise (high rep, low load, neural memory)
+├─ 10 🛒 Single-Arm Dumbbell Lateral Raise (high rep, low load, neural memory)
 │  Set 1: 🌾 45% × 10 (lock the pattern)
 Rest: 67s
 ═══

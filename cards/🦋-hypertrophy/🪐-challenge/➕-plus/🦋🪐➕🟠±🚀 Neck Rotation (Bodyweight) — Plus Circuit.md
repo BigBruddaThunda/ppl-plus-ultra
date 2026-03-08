@@ -16,6 +16,8 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 **CODE:** 🦋🪐➕🟠
 
 > "Circuit the muscle group from every angle. Each station is a new stimulus."
+
+*Combat Sport Prep: Athletic circuit — each station trains a different movement pattern*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🦋🪐➕🟠 (Warm-Up | Plus | Challenge | Circuit)

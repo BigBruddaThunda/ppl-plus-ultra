@@ -9,13 +9,15 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🍗 Seated Good Morning — Legs Fun 🍗
+# 🍗 Single-Leg Jump Rope — Legs Fun 🍗
 
 ## Restoration Time — Legs focus (Fun) · 30-40 min
 
 **CODE:** 🖼⌛🍗🟡
 
 > "Explore somatic movements you would not normally try."
+
+*Stress Management: Somatic exploration — movements you would not normally try, body awareness*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼⌛🍗🟡 (Bread & Butter | Legs | Time | Fun)
-├─ 13 🍗 Seated Good Morning (explore, stay within constraints)
+├─ 13 🍗 Single-Leg Jump Rope (explore, stay within constraints)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🖼⌛🍗🟡 (Sandbox | Legs | Time | Fun)
-├─ 13 🍗 Barbell Good Morning (explore within constraints, choose your variation)
+├─ 13 🍗 Single-Leg Reach (Multi-Directional) (explore within constraints, choose your variation)
 │  Option A: 🖼 45% × 13 (play with grip, stance, or tempo)
 │  Option B: 🖼 45% × 13 (try a variation you have not used before)
 Rest: 60s

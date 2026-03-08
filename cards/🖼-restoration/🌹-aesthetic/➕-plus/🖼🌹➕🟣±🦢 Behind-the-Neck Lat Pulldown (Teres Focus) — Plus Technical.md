@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🟣 Technical | Tier 2-5 | GOLD: Yes | Precision. Lower volume, extended rest, quality focus.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➕ Behind-the-Neck Lat Pulldown (Teres Focus) — Plus Technical ➕
+# ➕ Hip Flexor Stretch (Half-Kneeling) — Plus Technical ➕
 
 ## Restoration Aesthetic — Plus focus (Technical) · 30-40 min
 
 **CODE:** 🖼🌹➕🟣
 
 > "Precise positioning in each restorative hold. Depth over speed."
+
+*Flexibility / Mobility: Precise positioning in restorative holds — depth over speed, accuracy over range*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🌹➕🟣 (Bread & Butter | Plus | Aesthetic | Technical)
-├─ 13 ➕ Behind-the-Neck Lat Pulldown (Teres Focus) (precision, quality over volume)
+├─ 13 ➕ Hip Flexor Stretch (Half-Kneeling) (precision, quality over volume)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 90s
 ═══
 ## 3) 🧬 Imprint
 Subcode: 🖼🌹➕🟣 (Imprint | Plus | Aesthetic | Technical)
-├─ 15 ➕ Behind-the-Neck Lat Pulldown (Teres Focus) (high rep, low load, neural memory)
+├─ 15 ➕ Inchworm Walkout (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 90s
 ═══

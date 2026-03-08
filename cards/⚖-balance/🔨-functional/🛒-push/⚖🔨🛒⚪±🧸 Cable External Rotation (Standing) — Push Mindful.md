@@ -9,23 +9,25 @@ type: 🛒 Push | Chest, front delts, triceps
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🛒 Cable External Rotation (Standing) — Push Mindful 🛒
+# 🛒 Kettlebell Swing (Two-Hand) — Push Mindful 🛒
 
 ## Balance Functional — Push focus (Mindful) · 40-50 min
 
 **CODE:** ⚖🔨🛒⚪
 
 > "Slow down into the imbalance. Feel where the body compensates."
+
+*Marathon / Distance Running: Zone 2 steady state — conversational pace, extended duration, aerobic base*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: ⚖🔨🛒⚪ (Warm-Up | Push | Functional | Mindful)
-├─ 12 🛒 Single-Arm Cable Chest Fly (4s eccentric, breath-paced)
+├─ 12 🛒 American Swing (Overhead) (4s eccentric, breath-paced)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 120s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⚖🔨🛒⚪ (Bread & Butter | Push | Functional | Mindful)
-├─ 11 🛒 Cable External Rotation (Standing) (4s eccentric, breath-paced)
+├─ 11 🛒 Kettlebell Swing (Two-Hand) (4s eccentric, breath-paced)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 180s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: ⚖🔨🛒⚪ (Supplemental | Push | Functional | Mindful)
-├─ 12 🛒 Band Pull-Apart (Chest Opener) (full range, different angle)
+├─ 12 🛒 Dead Stop Swing (Reset Between Reps) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 150s
 ═══
 ## 4) 🪫 Release
 Subcode: ⚖🔨🛒⚪ (Release | Push | Functional | Mindful)
-├─ 12 🛒 Alternating Dumbbell Front Raise (parasympathetic, tension down, 4s eccentric)
+├─ 12 🛒 Swing to High Pull (parasympathetic, tension down, 4s eccentric)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 150s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⚖🔨🛒⚪ (Imprint | Push | Functional | Mindful)
-├─ 12 🛒 Alternating Dumbbell Curl (high rep, low load, neural memory)
+├─ 12 🛒 Swing + Clean (Combo) (high rep, low load, neural memory)
 │  Set 1: ⚖ 45% × 12 (lock the pattern)
 Rest: 150s
 ═══

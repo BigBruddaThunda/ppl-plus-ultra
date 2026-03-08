@@ -9,34 +9,36 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🪡 Neutral-Grip Pull-Up (Brachialis) — Pull Circuit 🪡
+# 🪡 Single-Arm Cable Rear Delt Fly — Pull Circuit 🪡
 
 ## Balance Basics — Pull focus (Circuit) · 40-50 min
 
 **CODE:** ⚖🏛🪡🟠
 
 > "Rotate through corrective stations. Each one targets a different deficit."
+
+*Return After Break: Gentle circuit — station rotation with manageable transitions*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: ⚖🏛🪡🟠 (Warm-Up | Pull | Basics | Circuit)
-├─ 12 🪡 Wide-Grip Pull-Up (Teres Focus) (station rotation, keep moving)
+├─ 12 🪡 Single-Arm Overhead Dumbbell Hold (station rotation, keep moving)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⚖🏛🪡🟠 (ARAM | Pull | Basics | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🪡 Neutral-Grip Pull-Up (Brachialis) × 11 (station rotation, keep moving)
-│  Station 2: 🪡 Wide-Grip Pull-Up (Teres Focus) × 11 (station rotation, keep moving)
-│  Station 3: 🪡 Chest-Supported Row (Elbow Out) × 11 (station rotation, keep moving)
-│  Station 4: 🪡 Cable Row (High Elbow) × 11 (station rotation, keep moving)
+│  Station 1: 🪡 Single-Arm Cable Rear Delt Fly × 11 (station rotation, keep moving)
+│  Station 2: 🪡 Single-Arm Overhead Dumbbell Hold × 11 (station rotation, keep moving)
+│  Station 3: 🪡 Single-Arm Face Pull × 11 (station rotation, keep moving)
+│  Station 4: 🪡 Aquaman (Alternating Superman) × 11 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⚖🏛🪡🟠 (Release | Pull | Basics | Circuit)
-├─ 12 🪡 Deadlift (Conventional) (smooth tempo, downshift)
+├─ 12 🪡 Half-Kneeling Band Single-Arm Pulldown (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

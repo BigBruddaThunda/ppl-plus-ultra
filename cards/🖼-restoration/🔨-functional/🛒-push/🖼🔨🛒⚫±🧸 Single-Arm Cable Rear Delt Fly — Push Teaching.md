@@ -16,6 +16,8 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 **CODE:** 🖼🔨🛒⚫
 
 > "Learn what recovery feels like. This is a teaching session for your nervous system."
+
+*Senior Strength: Teaches barbell setup, loading sequence, and safety positions for heavy compound lifts*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,7 +25,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🛠 Craft
 Subcode: 🖼🔨🛒⚫ (Craft | Push | Functional | Teaching)
-├─ 13 🛒 Low-to-High Cable Fly (coach: check grip width, elbow angle, foot pressure)
+├─ 13 🛒 Single-Arm Cable Chest Fly (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🖼 40% × 13 (practice the pattern, not the load)
 │  Set 2: 🖼 45% × 13 (same cues, slightly heavier)
 Rest: 90s

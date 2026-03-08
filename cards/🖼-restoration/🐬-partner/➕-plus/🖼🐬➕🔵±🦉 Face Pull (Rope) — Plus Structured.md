@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➕ Face Pull (Rope) — Plus Structured ➕
+# ➕ Kettlebell Swing (Single-Arm) — Plus Structured ➕
 
 ## Restoration Partner — Plus focus (Structured) · 30-40 min
 
 **CODE:** 🖼🐬➕🔵
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
+
+*Field Sport Athlete: Prescribed functional progressions — track load, complexity, and movement quality*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,20 +25,20 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🐬➕🔵 (Release | Plus | Partner | Structured)
-├─ 12 ➕ Neck CARs (Controlled Circles) (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➕ Suitcase Carry (Single-Arm) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🐬➕🔵 (Bread & Butter | Plus | Partner | Structured)
-├─ 13 ➕ Face Pull (Rope) (prescribed, track sets and reps)
+├─ 13 ➕ Kettlebell Swing (Single-Arm) (prescribed, track sets and reps)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🐬➕🔵 (Imprint | Plus | Partner | Structured)
-├─ 15 ➕ Face Pull (Rope) (high rep, low load, neural memory)
+├─ 15 ➕ Alternating Kettlebell Snatch (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══

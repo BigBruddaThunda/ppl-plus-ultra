@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# ➖ Single-Foot In Each Box (Forward) — Ultra Structured ➖
+# ➖ Rowing Machine (Steady State) — Ultra Structured ➖
 
 ## Full Body Partner — Ultra focus (Structured) · 40-55 min
 
 **CODE:** 🌾🐬➖🔵
 
 > "Prescribed flow. Each movement connects to the next without reset."
+
+*Senior Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: 🌾🐬➖🔵 (Warm-Up | Ultra | Partner | Structured)
-├─ 10 ➖ Single-Leg Hops Through Ladder (prescribed, track sets and reps)
+├─ 10 ➖ Rowing Intervals (500m) (prescribed, track sets and reps)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🐬➖🔵 (Composition | Ultra | Partner | Structured)
-├─ 9 ➖ Kettlebell Swing (Single-Arm) → Single-Foot In Each Box (Forward) (flow without reset)
+├─ 9 ➖ Rowing Intervals (1000m) → Rowing Machine (Steady State) (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🐬➖🔵 (Bread & Butter | Ultra | Partner | Structured)
-├─ 9 ➖ Single-Foot In Each Box (Forward) (prescribed, track sets and reps)
+├─ 9 ➖ Rowing Machine (Steady State) (prescribed, track sets and reps)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🐬➖🔵 (Supplemental | Ultra | Partner | Structured)
-├─ 10 ➖ Kettlebell Goblet Squat (full range, different angle)
+├─ 10 ➖ Rowing Intervals (2000m) (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🐬➖🔵 (Release | Ultra | Partner | Structured)
-├─ 10 ➖ Kettlebell Swing (Alternating Arms) (smooth tempo, downshift)
+├─ 10 ➖ Rowing Sprints (100m Max Effort) (smooth tempo, downshift)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══

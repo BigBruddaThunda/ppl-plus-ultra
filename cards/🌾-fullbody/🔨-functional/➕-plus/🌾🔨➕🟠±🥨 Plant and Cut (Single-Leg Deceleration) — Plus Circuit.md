@@ -16,6 +16,8 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 **CODE:** 🌾🔨➕🟠
 
 > "Rotate through full-body stations. Every station moves a different chain."
+
+*Kettlebell Strength: Station rotation with implements — keep tissues trading under heavy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🌾🔨➕🟠 (Warm-Up | Plus | Functional | Circuit)

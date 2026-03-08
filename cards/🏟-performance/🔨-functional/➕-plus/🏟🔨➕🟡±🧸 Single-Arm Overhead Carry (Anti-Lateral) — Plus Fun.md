@@ -16,6 +16,8 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟🔨➕🟡
 
 > "Test something unconventional. Find where your capacity surprises you."
+
+*General Functional Fitness: Movement exploration — unconventional patterns, play with load and position*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🏟🔨➕🟡 (Warm-Up | Plus | Functional | Fun)

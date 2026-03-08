@@ -16,6 +16,8 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 **CODE:** ⛽🪐➕🔵
 
 > "Same weight, same reps, same rest. Build the base one session at a time."
+
+*Kettlebell Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⛽🪐➕🔵 (Warm-Up | Plus | Challenge | Structured)

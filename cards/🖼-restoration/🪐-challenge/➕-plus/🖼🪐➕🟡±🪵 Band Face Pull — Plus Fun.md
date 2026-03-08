@@ -16,6 +16,8 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 **CODE:** 🖼🪐➕🟡
 
 > "Explore somatic movements you would not normally try."
+
+*Tactical / First Responder: Cross-training exploration — adjacent skills that improve the primary craft*
 ═══
 ## 1) 🎯 Intention
 

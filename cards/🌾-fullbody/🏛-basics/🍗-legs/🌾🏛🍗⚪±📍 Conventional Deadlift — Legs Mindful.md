@@ -9,23 +9,25 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: ⚪ Mindful | Tier 0-3 | GOLD: No | Slow tempo (4s eccentrics). Extended rest (2+ min). Breathing cues.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# 🍗 Conventional Deadlift — Legs Mindful 🍗
+# 🍗 Single-Leg Jump Rope — Legs Mindful 🍗
 
 ## Full Body Basics — Legs focus (Mindful) · 40-55 min
 
 **CODE:** 🌾🏛🍗⚪
 
 > "Breathe through the full chain. Each movement flows into the next."
+
+*Return After Break: Recovery and restoration — breath work, gentle movement, nervous system regulation*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🌾🏛🍗⚪ (Warm-Up | Legs | Basics | Mindful)
-├─ 10 🍗 Deep Squat Hold (Ankle Mobility) (4s eccentric, breath-paced)
+├─ 10 🍗 Single-Leg Balance Hold (4s eccentric, breath-paced)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 120s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🌾🏛🍗⚪ (Bread & Butter | Legs | Basics | Mindful)
-├─ 9 🍗 Conventional Deadlift (4s eccentric, breath-paced)
+├─ 9 🍗 Single-Leg Jump Rope (4s eccentric, breath-paced)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 120s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🌾🏛🍗⚪ (Supplemental | Legs | Basics | Mindful)
-├─ 10 🍗 Kettlebell Goblet Squat (full range, different angle)
+├─ 10 🍗 BOSU Ball Single-Leg Balance (full range, different angle)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 120s
 ═══
 ## 4) 🪫 Release
 Subcode: 🌾🏛🍗⚪ (Release | Legs | Basics | Mindful)
-├─ 10 🍗 Walking Lunge (parasympathetic, tension down, 4s eccentric)
+├─ 10 🍗 Single-Leg Balance with Eyes Closed (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🌾 50% × 10 (deload)
 Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🌾🏛🍗⚪ (Imprint | Legs | Basics | Mindful)
-├─ 10 🍗 Spanish Squat (Banded VMO) (high rep, low load, neural memory)
+├─ 10 🍗 Single-Leg Reach (Multi-Directional) (high rep, low load, neural memory)
 │  Set 1: 🌾 45% × 10 (lock the pattern)
 Rest: 120s
 ═══

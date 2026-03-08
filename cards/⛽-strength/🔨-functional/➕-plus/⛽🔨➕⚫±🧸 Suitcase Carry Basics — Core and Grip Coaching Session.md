@@ -16,6 +16,8 @@ blocks: ♨️ → ▶️ → 🛠 → 🧈 → 🧩 → 🚂
 **CODE:** ⛽🔨➕⚫
 
 > "Learn where the bar sits and how it moves before adding plates."
+
+*Combat Sport Prep: Teaches movement quality, ground-based patterns, and transfer mechanics*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero (carry, transfer, channel)
 Subcode: ⛽🔨➕⚫ (Warm-Up | Plus | Functional | Teaching)

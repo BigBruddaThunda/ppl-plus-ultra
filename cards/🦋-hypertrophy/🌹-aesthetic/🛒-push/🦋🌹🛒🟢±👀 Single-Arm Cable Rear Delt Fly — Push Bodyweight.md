@@ -16,16 +16,18 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 **CODE:** 🦋🌹🛒🟢
 
 > "Build the muscle with what you have. No equipment is not an excuse."
+
+*Active Recovery: Floor work, breath, gentle movement — restore with what your body provides*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: 🦋🌹🛒🟢 (Warm-Up | Push | Aesthetic | Bodyweight)
-├─ 12 🛒 Single-Arm Cable Chest Fly (bodyweight, no external load needed)
+├─ 12 🛒 Single-Arm Overhead Dumbbell Hold (bodyweight, no external load needed)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🌹🛒🟢 (Primer | Push | Aesthetic | Bodyweight)
-├─ 10 🛒 Low-to-High Cable Fly (tight setup, crisp intent)
+├─ 10 🛒 Single-Arm Cable Chest Fly (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 75s
 ═══
@@ -39,21 +41,21 @@ Rest: 90s
 ═══
 ## 4) 🗿 Sculpt
 Subcode: 🦋🌹🛒🟢 (Sculpt | Push | Aesthetic | Bodyweight)
-├─ 12 🛒 Band Pull-Apart (Chest Opener) (angles, tension, volume)
+├─ 12 🛒 One-Arm Dead Hang (angles, tension, volume)
 │  Set 1: 🦋 65% × 12 (shaping)
 │  Set 2: 🦋 65% × 12 (carving)
 Rest: 60s
 ═══
 ## 5) 🧩 Supplemental
 Subcode: 🦋🌹🛒🟢 (Supplemental | Push | Aesthetic | Bodyweight)
-├─ 12 🛒 Band Pull-Apart (Chest Opener) (full range, different angle)
+├─ 12 🛒 One-Arm Dead Hang (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 60s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋🌹🛒🟢 (Release | Push | Aesthetic | Bodyweight)
-├─ 12 🛒 Preacher Curl Machine (smooth tempo, downshift)
+├─ 12 🛒 Medicine Ball Chest Pass (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══

@@ -9,29 +9,31 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔴 Intense | Tier 2–4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ → ▶️ → 🧈 → 🌋 → 🧩 → 🪫 → 🚂 → 🧮
 ---
-# ➖ Maximum Engine — Ultra Intense ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Intense ➖
 
 ## Strength Basics — Ultra focus (Intense) · 50-65 min
 
 **CODE:** ⛽🏛➖🔴
 
 > "Push the ceiling. Every set should cost something real."
+
+*Athletic Hypertrophy: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: ⛽🏛➖🔴 (Warm-Up | Ultra | Basics | Intense)
-├─ 6 ➖ Rowing Machine (Steady State) (high effort, push the pace)
+├─ 6 ➖ Partner Toss (Alternating) (high effort, push the pace)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 45s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🏛➖🔴 (Primer | Ultra | Basics | Intense)
-├─ 5 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+├─ 5 ➖ Plant and Cut (Single-Leg Deceleration) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🏛➖🔴 (Bread & Butter | Ultra | Basics | Intense)
-├─ 5 ➖ Maximum Engine (high effort, push the pace)
+├─ 5 ➖ Single-Leg Hops Through Ladder (high effort, push the pace)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🏛➖🔴 (Supplemental | Ultra | Basics | Intense)
-├─ 6 ➖ Rowing Intervals (500m) (full range, different angle)
+├─ 6 ➖ Layup Approach (Single-Leg Power) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 60s
 ═══
 ## 5) 🌋 Gutter
 Subcode: ⛽🏛➖🔴 (Gutter | Ultra | Basics | Intense)
-├─ 6 ➖ Rowing Intervals (1000m) (all-out, leave nothing in reserve)
+├─ 6 ➖ Overhead Throw (Medicine Ball) (all-out, leave nothing in reserve)
 │  Set 1: ⛽ 65% × 6 (push to form break)
 │  Set 2: ⛽ 65% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: ⛽🏛➖🔴 (Release | Ultra | Basics | Intense)
-├─ 6 ➖ Rowing Intervals (1000m) (stress out, cathartic discharge)
+├─ 6 ➖ Overhead Throw (Medicine Ball) (stress out, cathartic discharge)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 60s
 ═══

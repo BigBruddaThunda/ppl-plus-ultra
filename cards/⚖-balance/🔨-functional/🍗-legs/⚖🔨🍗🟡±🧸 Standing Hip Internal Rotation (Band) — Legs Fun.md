@@ -9,23 +9,25 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🍗 Standing Hip Internal Rotation (Band) — Legs Fun 🍗
+# 🍗 Single-Leg Jump Rope — Legs Fun 🍗
 
 ## Balance Functional — Legs focus (Fun) · 40-50 min
 
 **CODE:** ⚖🔨🍗🟡
 
 > "Explore movements that challenge your weakest positions."
+
+*CrossFit-Style: Movement exploration — unconventional patterns, play with load and position*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: ⚖🔨🍗🟡 (Warm-Up | Legs | Functional | Fun)
-├─ 12 🍗 Half-Kneeling Hip Flexor Stretch (explore, stay within constraints)
+├─ 12 🍗 Kettlebell Swing (Single-Arm) (explore, stay within constraints)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⚖🔨🍗🟡 (Bread & Butter | Legs | Functional | Fun)
-├─ 11 🍗 Standing Hip Internal Rotation (Band) (explore, stay within constraints)
+├─ 11 🍗 Single-Leg Jump Rope (explore, stay within constraints)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 90s
 ═══
 ## 3) 🌎 Exposure
 Subcode: ⚖🔨🍗🟡 (Exposure | Legs | Functional | Fun)
-├─ 11 🍗 Single-Leg Curl (Lying) (try the unfamiliar version, explore the range)
+├─ 11 🍗 Single-Leg Swing (try the unfamiliar version, explore the range)
 │  Set 1: ⚖ 55% × 11 (discovery set)
 Rest: 75s
 ═══
 ## 4) 🏖 Sandbox
 Subcode: ⚖🔨🍗🟡 (Sandbox | Legs | Functional | Fun)
-├─ 11 🍗 Single-Leg Pogo Hops (explore within constraints, choose your variation)
+├─ 11 🍗 Alternating Kettlebell Snatch (explore within constraints, choose your variation)
 │  Option A: ⚖ 60% × 11 (play with grip, stance, or tempo)
 │  Option B: ⚖ 60% × 11 (try a variation you have not used before)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🔨🍗🟡 (Release | Legs | Functional | Fun)
-├─ 12 🍗 Single-Leg Curl (Lying) (smooth tempo, downshift)
+├─ 12 🍗 Single-Leg Swing (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

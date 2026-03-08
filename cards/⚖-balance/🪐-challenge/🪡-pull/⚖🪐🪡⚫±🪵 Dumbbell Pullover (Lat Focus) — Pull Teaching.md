@@ -9,30 +9,32 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🪡 Dumbbell Pullover (Lat Focus) — Pull Teaching 🪡
+# 🪡 Pull-Up (Overhand Grip) — Pull Teaching 🪡
 
 ## Balance Challenge — Pull focus (Teaching) · 40-50 min
 
 **CODE:** ⚖🪐🪡⚫
 
 > "Identify the weak link. Coach the correction before adding load."
+
+*Olympic Lifting: Teaches the craft-specific positions, timing, and coordination demands*
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: ⚖🪐🪡⚫ (Warm-Up | Pull | Challenge | Teaching)
-├─ 12 🪡 Wide-Grip Lat Pulldown (Teres Focus) (coached, check form before adding load)
+├─ 12 🪡 Chin-Up (Underhand Grip) (coached, check form before adding load)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: ⚖🪐🪡⚫ (Craft | Pull | Challenge | Teaching)
-├─ 11 🪡 Face Pull (Rope) (coach: check grip width, elbow angle, foot pressure)
+├─ 11 🪡 Wide-Grip Pull-Up (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: ⚖ 50% × 11 (practice the pattern, not the load)
 │  Set 2: ⚖ 55% × 11 (same cues, slightly heavier)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🪐🪡⚫ (Bread & Butter | Pull | Challenge | Teaching)
-├─ 11 🪡 Dumbbell Pullover (Lat Focus) (coached, check form before adding load)
+├─ 11 🪡 Pull-Up (Overhand Grip) (coached, check form before adding load)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🪐🪡⚫ (Supplemental | Pull | Challenge | Teaching)
-├─ 12 🪡 Good Morning (Barbell) (full range, different angle)
+├─ 12 🪡 Close-Grip Pull-Up (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 112s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⚖🪐🪡⚫ (Imprint | Pull | Challenge | Teaching)
-├─ 12 🪡 Dumbbell Pullover (Lat Focus) (high rep, low load, neural memory)
+├─ 12 🪡 Mixed-Grip Pull-Up (high rep, low load, neural memory)
 │  Set 1: ⚖ 45% × 12 (lock the pattern)
 Rest: 112s
 ═══

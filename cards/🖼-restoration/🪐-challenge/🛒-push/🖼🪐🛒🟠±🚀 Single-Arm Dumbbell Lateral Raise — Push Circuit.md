@@ -9,13 +9,15 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🛒 Single-Arm Dumbbell Lateral Raise — Push Circuit 🛒
+# 🛒 Kettlebell Swing (Single-Arm) — Push Circuit 🛒
 
 ## Restoration Challenge — Push focus (Circuit) · 30-40 min
 
 **CODE:** 🖼🪐🛒🟠
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
+
+*Combat Sport Prep: Athletic circuit — each station trains a different movement pattern*
 ═══
 ## 1) 🎯 Intention
 
@@ -24,17 +26,17 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: 🖼🪐🛒🟠 (ARAM | Push | Challenge | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🛒 Single-Arm Dumbbell Lateral Raise × 13 (station rotation, keep moving)
-│  Station 2: 🛒 Single-Arm Cable Chest Fly × 13 (station rotation, keep moving)
-│  Station 3: 🛒 Low-to-High Cable Fly × 13 (station rotation, keep moving)
-│  Station 4: 🛒 Band Pull-Apart (Chest Opener) × 13 (station rotation, keep moving)
+│  Station 1: 🛒 Kettlebell Swing (Single-Arm) × 13 (station rotation, keep moving)
+│  Station 2: 🛒 Kettlebell Swing (Alternating Arms) × 13 (station rotation, keep moving)
+│  Station 3: 🛒 Single-Arm American Swing × 13 (station rotation, keep moving)
+│  Station 4: 🛒 Single-Leg Swing × 13 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 30s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🖼🪐🛒🟠 (Release | Push | Challenge | Circuit)
-├─ 12 🛒 Preacher Curl Machine (parasympathetic, tension down, 4s eccentric)
+├─ 12 🛒 Alternating Kettlebell Snatch (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 30s
 ═══

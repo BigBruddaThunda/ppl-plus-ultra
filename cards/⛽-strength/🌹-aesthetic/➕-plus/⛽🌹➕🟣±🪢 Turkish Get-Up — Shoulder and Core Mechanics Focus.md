@@ -9,29 +9,31 @@ type: ➕ Plus | Full body power, core, carries
 color: 🟣 Technical
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# ➕ Turkish Get-Up — Plus Technical ➕
+# ➕ Zercher Carry — Plus Technical ➕
 
 ## Strength Aesthetic — Plus focus (Technical) · 50-65 min
 
 **CODE:** ⛽🌹➕🟣
 
 > "One clean rep at the right load is worth more than five at the wrong one."
+
+*Athletic Hypertrophy: Precision isolation — feel every fiber, full ROM, cable and machine emphasis*
 ═══
 ## 1) ♨️ Warm-Up — 🪢 plico
 Subcode: ⛽🌹➕🟣 (Warm-Up | Plus | Aesthetic | Technical)
-├─ 6 ➕ Yoke Walk (precision, quality over volume)
+├─ 6 ➕ Keg Carry (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 135s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🌹➕🟣 (Primer | Plus | Aesthetic | Technical)
-├─ 5 ➕ Sandbag Good Morning (tight setup, crisp intent)
+├─ 5 ➕ Single-Leg Box Jump (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🌹➕🟣 (Bread & Butter | Plus | Aesthetic | Technical)
-├─ 5 ➕ Turkish Get-Up (precision, quality over volume)
+├─ 5 ➕ Zercher Carry (precision, quality over volume)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 270s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🌹➕🟣 (Supplemental | Plus | Aesthetic | Technical)
-├─ 6 ➕ Neck Rotation (Bodyweight) (full range, different angle)
+├─ 6 ➕ Split Jump (Alternating) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 180s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🌹➕🟣 (Release | Plus | Aesthetic | Technical)
-├─ 6 ➕ Wide-Grip Lat Pulldown (Teres Focus) (smooth tempo, downshift)
+├─ 6 ➕ Single-Leg Broad Jump (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 180s
 ═══

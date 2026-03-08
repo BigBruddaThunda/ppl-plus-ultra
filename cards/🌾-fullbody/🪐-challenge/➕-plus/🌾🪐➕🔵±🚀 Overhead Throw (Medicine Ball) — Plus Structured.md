@@ -16,6 +16,8 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 **CODE:** 🌾🪐➕🔵
 
 > "Prescribed flow. Each movement connects to the next without reset."
+
+*General Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🌾🪐➕🔵 (Warm-Up | Plus | Challenge | Structured)

@@ -9,34 +9,36 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟠 Circuit | Tier 0-3 | GOLD: No | Station-based timed rotation. No barbells. Loop logic required.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🪡 Single-Leg Hip Thrust (Bodyweight) — Pull Circuit 🪡
+# 🪡 Archer Pull-Up — Pull Circuit 🪡
 
 ## Balance Challenge — Pull focus (Circuit) · 40-50 min
 
 **CODE:** ⚖🪐🪡🟠
 
 > "Rotate through corrective stations. Each one targets a different deficit."
+
+*Combat Sport Prep: Athletic circuit — each station trains a different movement pattern*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⚖🪐🪡🟠 (Warm-Up | Pull | Challenge | Circuit)
-├─ 12 🪡 Single-Arm Face Pull (station rotation, keep moving)
+├─ 12 🪡 Single-Arm Lat Pulldown (station rotation, keep moving)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⚖🪐🪡🟠 (ARAM | Pull | Challenge | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🪡 Single-Leg Hip Thrust (Bodyweight) × 11 (station rotation, keep moving)
-│  Station 2: 🪡 Single-Arm Face Pull × 11 (station rotation, keep moving)
-│  Station 3: 🪡 Aquaman (Alternating Superman) × 11 (station rotation, keep moving)
-│  Station 4: 🪡 Single-Leg Hip Thrust (Barbell) × 11 (station rotation, keep moving)
+│  Station 1: 🪡 Archer Pull-Up × 11 (station rotation, keep moving)
+│  Station 2: 🪡 Single-Arm Lat Pulldown × 11 (station rotation, keep moving)
+│  Station 3: 🪡 Single-Arm Dumbbell Row × 11 (station rotation, keep moving)
+│  Station 4: 🪡 Plank Row (Single-Arm) × 11 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⚖🪐🪡🟠 (Release | Pull | Challenge | Circuit)
-├─ 12 🪡 Alternating Dumbbell Front Raise (smooth tempo, downshift)
+├─ 12 🪡 Single-Arm Cable Row (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

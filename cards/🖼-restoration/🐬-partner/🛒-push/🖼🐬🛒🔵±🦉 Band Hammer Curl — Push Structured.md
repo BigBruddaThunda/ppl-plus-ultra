@@ -9,13 +9,15 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🛒 Band Hammer Curl — Push Structured 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Structured 🛒
 
 ## Restoration Partner — Push focus (Structured) · 30-40 min
 
 **CODE:** 🖼🐬🛒🔵
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
+
+*50+ Active Living: Structured progression — small increments, clear targets, consistent tracking*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,20 +25,20 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🐬🛒🔵 (Release | Push | Partner | Structured)
-├─ 12 🛒 Preacher Curl Machine (parasympathetic, tension down, 4s eccentric)
+├─ 12 🛒 Alternating Dumbbell Front Raise (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🐬🛒🔵 (Bread & Butter | Push | Partner | Structured)
-├─ 13 🛒 Band Hammer Curl (prescribed, track sets and reps)
+├─ 13 🛒 Single-Arm Cable Rear Delt Fly (prescribed, track sets and reps)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🐬🛒🔵 (Imprint | Push | Partner | Structured)
-├─ 15 🛒 Alternating Dumbbell Front Raise (high rep, low load, neural memory)
+├─ 15 🛒 Single-Arm Dumbbell Lateral Raise (high rep, low load, neural memory)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══

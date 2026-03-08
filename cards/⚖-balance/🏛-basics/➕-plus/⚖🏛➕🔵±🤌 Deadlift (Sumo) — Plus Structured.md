@@ -9,30 +9,32 @@ type: ➕ Plus | Full body power, core
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➕ Deadlift (Sumo) — Plus Structured ➕
+# ➕ Pull-Up (Overhand Grip) — Plus Structured ➕
 
 ## Balance Basics — Plus focus (Structured) · 40-50 min
 
 **CODE:** ⚖🏛➕🔵
 
 > "Prescribed accessory work. Target the specific imbalance."
+
+*Powerlifting: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: ⚖🏛➕🔵 (Warm-Up | Plus | Basics | Structured)
-├─ 12 ➕ Wide-Grip Pull-Up (Teres Focus) (prescribed, track sets and reps)
+├─ 12 ➕ Chin-Up (Underhand Grip) (prescribed, track sets and reps)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🏗 Reformance
 Subcode: ⚖🏛➕🔵 (Reformance | Plus | Basics | Structured)
-├─ 11 ➕ Chest-Supported Row (Elbow Out) (corrective, address the weak link)
+├─ 11 ➕ Wide-Grip Pull-Up (corrective, address the weak link)
 │  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🏛➕🔵 (Bread & Butter | Plus | Basics | Structured)
-├─ 11 ➕ Deadlift (Sumo) (prescribed, track sets and reps)
+├─ 11 ➕ Pull-Up (Overhand Grip) (prescribed, track sets and reps)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🏛➕🔵 (Supplemental | Plus | Basics | Structured)
-├─ 12 ➕ Cable Row (High Elbow) (full range, different angle)
+├─ 12 ➕ Close-Grip Pull-Up (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🏛➕🔵 (Release | Plus | Basics | Structured)
-├─ 12 ➕ Deadlift (Conventional) (smooth tempo, downshift)
+├─ 12 ➕ Neutral-Grip Pull-Up (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

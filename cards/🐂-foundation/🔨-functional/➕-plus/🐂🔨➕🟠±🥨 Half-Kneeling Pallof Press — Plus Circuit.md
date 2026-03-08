@@ -16,6 +16,8 @@ blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 **CODE:** 🐂🔨➕🟠
 
 > "Rotate through stations at learning pace. Each one is a fresh pattern."
+
+*Kettlebell Strength: Station rotation with implements — keep tissues trading under heavy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🐂🔨➕🟠 (Warm-Up | Plus | Functional | Circuit)

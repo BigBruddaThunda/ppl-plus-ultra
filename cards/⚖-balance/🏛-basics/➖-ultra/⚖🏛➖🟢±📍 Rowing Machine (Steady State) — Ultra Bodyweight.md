@@ -16,16 +16,18 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 **CODE:** ⚖🏛➖🟢
 
 > "Find asymmetries with bodyweight. No equipment hides the gap."
+
+*Minimalist Hypertrophy: Bodyweight hypertrophy — high reps, slow tempo, squeeze and hold patterns*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: ⚖🏛➖🟢 (Warm-Up | Ultra | Basics | Bodyweight)
-├─ 12 ➖ Kettlebell Goblet Squat (bodyweight, no external load needed)
+├─ 12 ➖ Rowing Intervals (500m) (bodyweight, no external load needed)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🏗 Reformance
 Subcode: ⚖🏛➖🟢 (Reformance | Ultra | Basics | Bodyweight)
-├─ 11 ➖ Single-Leg Hops Through Ladder (corrective, address the weak link)
+├─ 11 ➖ Rowing Intervals (1000m) (corrective, address the weak link)
 │  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
@@ -40,14 +42,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🏛➖🟢 (Supplemental | Ultra | Basics | Bodyweight)
-├─ 12 ➖ Rowing Machine (Steady State) (full range, different angle)
+├─ 12 ➖ Rowing Intervals (2000m) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🏛➖🟢 (Release | Ultra | Basics | Bodyweight)
-├─ 12 ➖ Single-Foot In Each Box (Forward) (smooth tempo, downshift)
+├─ 12 ➖ Rowing Sprints (100m Max Effort) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

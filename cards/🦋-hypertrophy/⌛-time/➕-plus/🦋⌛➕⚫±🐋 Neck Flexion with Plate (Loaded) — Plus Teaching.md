@@ -16,6 +16,8 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 **CODE:** 🦋⌛➕⚫
 
 > "Learn what tension feels like in the target muscle before chasing volume."
+
+*Athletic Hypertrophy: Teaches mind-muscle connection, tempo awareness, and tension quality under moderate load*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🦋⌛➕⚫ (Warm-Up | Plus | Time | Teaching)

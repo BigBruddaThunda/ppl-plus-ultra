@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🍗 Weighted Walking Lunge (Dumbbells) — Legs Fun 🍗
+# 🍗 Single-Leg Jump Rope — Legs Fun 🍗
 
 ## Performance Time — Legs focus (Fun) · 25-35 min
 
 **CODE:** 🏟⌛🍗🟡
 
 > "Test something unconventional. Find where your capacity surprises you."
+
+*Explorer / Outdoor Athlete: Cross-training exploration — adjacent skills that improve the primary craft*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🏟⌛🍗🟡 (Warm-Up | Legs | Time | Fun)
-├─ 3 🍗 Pogo Hops (Ankle Bounce) (explore, stay within constraints)
+├─ 3 🍗 Kettlebell Swing (Single-Arm) (explore, stay within constraints)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟⌛🍗🟡 (Bread & Butter | Legs | Time | Fun)
-├─ 2 🍗 Weighted Walking Lunge (Dumbbells) (explore, stay within constraints)
+├─ 2 🍗 Single-Leg Jump Rope (explore, stay within constraints)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🏟⌛🍗🟡 (Sandbox | Legs | Time | Fun)
-├─ 2 🍗 Walking Lunge (explore within constraints, choose your variation)
+├─ 2 🍗 Alternating Kettlebell Snatch (explore within constraints, choose your variation)
 │  Option A: 🏟 82% × 2 (play with grip, stance, or tempo)
 │  Option B: 🏟 82% × 2 (try a variation you have not used before)
 Rest: N/A

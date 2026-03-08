@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: 🟢 Bodyweight | Tier 0-2 | GOLD: No | No gym required. Park, hotel, living room.
 blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 ---
-# ➕ Half-Kneeling Band Single-Arm Pulldown — Plus Bodyweight ➕
+# ➕ Single-Leg Hops Through Ladder — Plus Bodyweight ➕
 
 ## Full Body Time — Plus focus (Bodyweight) · 40-55 min
 
 **CODE:** 🌾⌛➕🟢
 
 > "Flow through the body using only what you carry. No equipment needed."
+
+*Sport Conditioning: Bodyweight conditioning — no gym, no excuses, cardio and movement flow*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🌾⌛➕🟢 (Warm-Up | Plus | Time | Bodyweight)
@@ -25,14 +27,14 @@ Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾⌛➕🟢 (Composition | Plus | Time | Bodyweight)
-├─ 9 ➕ Aquaman (Alternating Superman) → Half-Kneeling Band Single-Arm Pulldown (flow without reset)
+├─ 9 ➕ Aquaman (Alternating Superman) → Single-Leg Hops Through Ladder (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾⌛➕🟢 (Bread & Butter | Plus | Time | Bodyweight)
-├─ 9 ➕ Half-Kneeling Band Single-Arm Pulldown (bodyweight, no external load needed)
+├─ 9 ➕ Single-Leg Hops Through Ladder (bodyweight, no external load needed)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)

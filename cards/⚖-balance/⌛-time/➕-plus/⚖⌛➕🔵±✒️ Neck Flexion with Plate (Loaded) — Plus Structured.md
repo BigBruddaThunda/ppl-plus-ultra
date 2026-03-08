@@ -16,6 +16,8 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 **CODE:** ⚖⌛➕🔵
 
 > "Prescribed accessory work. Target the specific imbalance."
+
+*Kettlebell Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: ⚖⌛➕🔵 (Warm-Up | Plus | Time | Structured)

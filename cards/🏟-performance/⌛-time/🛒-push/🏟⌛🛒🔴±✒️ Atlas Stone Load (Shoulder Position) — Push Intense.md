@@ -9,30 +9,32 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🛒 Atlas Stone Load (Shoulder Position) — Push Intense 🛒
+# 🛒 Kettlebell Swing (Single-Arm) — Push Intense 🛒
 
 ## Performance Time — Push focus (Intense) · 25-35 min
 
 **CODE:** 🏟⌛🛒🔴
 
 > "All-out effort. Leave everything on the platform."
+
+*Sprint / Power Conditioning: All-out intervals — max effort, full recovery, repeat until capacity drops*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🏟⌛🛒🔴 (Warm-Up | Push | Time | Intense)
-├─ 3 🛒 Plyometric Push-Up (Hands Leave Ground) (high effort, push the pace)
+├─ 3 🛒 Kettlebell Swing (Alternating Arms) (high effort, push the pace)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 45s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟⌛🛒🔴 (Progression | Push | Time | Intense)
-├─ 2 🛒 Atlas Stone Load (Shoulder Position) (ramp to test weight)
+├─ 2 🛒 Kettlebell Swing (Single-Arm) (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟⌛🛒🔴 (Bread & Butter | Push | Time | Intense)
-├─ 2 🛒 Atlas Stone Load (Shoulder Position) (high effort, push the pace)
+├─ 2 🛒 Kettlebell Swing (Single-Arm) (high effort, push the pace)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

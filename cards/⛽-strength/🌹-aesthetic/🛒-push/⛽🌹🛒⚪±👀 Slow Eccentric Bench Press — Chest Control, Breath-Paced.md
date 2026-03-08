@@ -9,23 +9,25 @@ type: 🛒 Push | Chest, front delts, triceps
 color: ⚪ Mindful
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🛒 Slow Eccentric Bench Press — Push Mindful 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Mindful 🛒
 
 ## Strength Aesthetic — Push focus (Mindful) · 50-65 min
 
 **CODE:** ⛽🌹🛒⚪
 
 > "Four seconds down. Feel every degree of the range before you earn the drive."
+
+*Senior Strength: 4s eccentrics under moderate barbell load — tendon adaptation, breath-paced*
 ═══
 ## 1) ♨️ Warm-Up — 👀 specio
 Subcode: ⛽🌹🛒⚪ (Warm-Up | Push | Aesthetic | Mindful)
-├─ 6 🛒 Dumbbell Chest Fly (4s eccentric, breath-paced)
+├─ 6 🛒 Single-Arm Overhead Dumbbell Hold (4s eccentric, breath-paced)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 180s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: ⛽🌹🛒⚪ (Bread & Butter | Push | Aesthetic | Mindful)
-├─ 5 🛒 Slow Eccentric Bench Press (4s eccentric, breath-paced)
+├─ 5 🛒 Single-Arm Cable Rear Delt Fly (4s eccentric, breath-paced)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -33,20 +35,20 @@ Rest: 360s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: ⛽🌹🛒⚪ (Supplemental | Push | Aesthetic | Mindful)
-├─ 6 🛒 Band Pull-Apart (Chest Opener) (full range, different angle)
+├─ 6 🛒 One-Arm Dead Hang (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 240s
 ═══
 ## 4) 🪫 Release
 Subcode: ⛽🌹🛒⚪ (Release | Push | Aesthetic | Mindful)
-├─ 6 🛒 Preacher Curl Machine (parasympathetic, tension down, 4s eccentric)
+├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 240s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⛽🌹🛒⚪ (Imprint | Push | Aesthetic | Mindful)
-├─ 6 🛒 Medicine Ball Chest Pass (high rep, low load, neural memory)
+├─ 6 🛒 Depth Push-Up (Drop to Floor) (high rep, low load, neural memory)
 │  Set 1: ⛽ 55% × 6 (lock the pattern)
 Rest: 240s
 ═══

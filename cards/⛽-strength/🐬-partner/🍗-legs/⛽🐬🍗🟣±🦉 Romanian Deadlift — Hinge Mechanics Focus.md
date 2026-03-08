@@ -9,29 +9,31 @@ type: 🍗 Legs | Partner-context strength emphasis
 color: 🟣 Technical | Partner deployment logic
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🍗 Romanian Deadlift — Legs Technical 🍗
+# 🍗 Single-Leg Pogo Hops — Legs Technical 🍗
 
 ## Strength Partner — Legs focus (Technical) · 50-65 min
 
 **CODE:** ⛽🐬🍗🟣
 
 > "One clean rep at the right load is worth more than five at the wrong one."
+
+*Strongman / Odd Object: Single-rep quality at competition-relevant loads — bar path, timing, setup*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: ⛽🐬🍗🟣 (Warm-Up | Legs | Partner | Technical)
-├─ 6 🍗 Deep Squat Hold (Ankle Mobility) (precision, quality over volume)
+├─ 6 🍗 Single-Leg Jump Rope (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 135s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🐬🍗🟣 (Primer | Legs | Partner | Technical)
-├─ 5 🍗 Leg Press Calf Raise (tight setup, crisp intent)
+├─ 5 🍗 Bulgarian Split Squat (Glute Emphasis) (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🐬🍗🟣 (Bread & Butter | Legs | Partner | Technical)
-├─ 5 🍗 Romanian Deadlift (precision, quality over volume)
+├─ 5 🍗 Single-Leg Pogo Hops (precision, quality over volume)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,14 +41,14 @@ Rest: 270s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🐬🍗🟣 (Supplemental | Legs | Partner | Technical)
-├─ 6 🍗 Walking Lunge (full range, different angle)
+├─ 6 🍗 Skater Squat (Pistol Variation) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 180s
 ═══
 ## 5) 🪫 Release
 Subcode: ⛽🐬🍗🟣 (Release | Legs | Partner | Technical)
-├─ 6 🍗 Spanish Squat (Banded VMO) (smooth tempo, downshift)
+├─ 6 🍗 Single-Leg Squat (Pistol - Glute Med Load) (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 180s
 ═══

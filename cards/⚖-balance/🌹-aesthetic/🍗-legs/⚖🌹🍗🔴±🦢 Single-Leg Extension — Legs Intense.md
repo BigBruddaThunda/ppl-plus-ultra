@@ -9,17 +9,19 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🍗 Single-Leg Extension — Legs Intense 🍗
+# 🍗 Single-Leg Pogo Hops — Legs Intense 🍗
 
 ## Balance Aesthetic — Legs focus (Intense) · 40-50 min
 
 **CODE:** ⚖🌹🍗🔴
 
 > "Attack the weak link with volume. Fatigue exposes the gap."
+
+*Aesthetic Specialization: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: ⚖🌹🍗🔴 (Warm-Up | Legs | Aesthetic | Intense)
-├─ 12 🍗 Standing Quad Stretch (high effort, push the pace)
+├─ 12 🍗 Single-Leg Jump Rope (high effort, push the pace)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
@@ -31,7 +33,7 @@ Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🌹🍗🔴 (Bread & Butter | Legs | Aesthetic | Intense)
-├─ 11 🍗 Single-Leg Extension (high effort, push the pace)
+├─ 11 🍗 Single-Leg Pogo Hops (high effort, push the pace)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 45s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🌹🍗🔴 (Supplemental | Legs | Aesthetic | Intense)
-├─ 12 🍗 Step-Down (Eccentric) (full range, different angle)
+├─ 12 🍗 Box Jump (Calf Power) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 37s
 ═══
 ## 5) 🌋 Gutter
 Subcode: ⚖🌹🍗🔴 (Gutter | Legs | Aesthetic | Intense)
-├─ 12 🍗 Leg Extension Machine (all-out, leave nothing in reserve)
+├─ 12 🍗 Depth Drop (Reactive Calf) (all-out, leave nothing in reserve)
 │  Set 1: ⚖ 55% × 12 (push to form break)
 │  Set 2: ⚖ 55% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: ⚖🌹🍗🔴 (Release | Legs | Aesthetic | Intense)
-├─ 12 🍗 Leg Extension Machine (stress out, cathartic discharge)
+├─ 12 🍗 Depth Drop (Reactive Calf) (stress out, cathartic discharge)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

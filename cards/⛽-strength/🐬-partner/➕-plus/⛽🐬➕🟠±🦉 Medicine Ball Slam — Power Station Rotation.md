@@ -16,6 +16,8 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 **CODE:** ⛽🐬➕🟠
 
 > "Rotate stations. Keep the tissues trading off under heavy demand."
+
+*Tactical / First Responder: Skill circuit — rotate through craft-specific stations*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: ⛽🐬➕🟠 (Warm-Up | Plus | Partner | Circuit)

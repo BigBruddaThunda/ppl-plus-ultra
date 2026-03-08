@@ -9,29 +9,31 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🛒 Medicine Ball Slam (Chest Height) — Push Intense 🛒
+# 🛒 Alternating Dumbbell Front Raise — Push Intense 🛒
 
 ## Balance Aesthetic — Push focus (Intense) · 40-50 min
 
 **CODE:** ⚖🌹🛒🔴
 
 > "Attack the weak link with volume. Fatigue exposes the gap."
+
+*Bodybuilding: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: ⚖🌹🛒🔴 (Warm-Up | Push | Aesthetic | Intense)
-├─ 12 🛒 Dumbbell Chest Fly (high effort, push the pace)
+├─ 12 🛒 Single-Arm Dumbbell Lateral Raise (high effort, push the pace)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖🌹🛒🔴 (Primer | Push | Aesthetic | Intense)
-├─ 11 🛒 Low-to-High Cable Fly (tight setup, crisp intent)
+├─ 11 🛒 Single-Arm Cable Rear Delt Fly (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🌹🛒🔴 (Bread & Butter | Push | Aesthetic | Intense)
-├─ 11 🛒 Medicine Ball Slam (Chest Height) (high effort, push the pace)
+├─ 11 🛒 Alternating Dumbbell Front Raise (high effort, push the pace)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 45s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🌹🛒🔴 (Supplemental | Push | Aesthetic | Intense)
-├─ 12 🛒 Band Pull-Apart (Chest Opener) (full range, different angle)
+├─ 12 🛒 Sandbag Shouldering (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 37s
 ═══
 ## 5) 🌋 Gutter
 Subcode: ⚖🌹🛒🔴 (Gutter | Push | Aesthetic | Intense)
-├─ 12 🛒 Medicine Ball Chest Pass (all-out, leave nothing in reserve)
+├─ 12 🛒 Atlas Stone Load (Shoulder Position) (all-out, leave nothing in reserve)
 │  Set 1: ⚖ 55% × 12 (push to form break)
 │  Set 2: ⚖ 55% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: ⚖🌹🛒🔴 (Release | Push | Aesthetic | Intense)
-├─ 12 🛒 Medicine Ball Chest Pass (stress out, cathartic discharge)
+├─ 12 🛒 Atlas Stone Load (Shoulder Position) (stress out, cathartic discharge)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

@@ -16,10 +16,12 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟⌛🍗🟢
 
 > "Test bodyweight capacity. How many, how fast, how clean."
+
+*General Functional Fitness: Bodyweight functional — park, field, living room — prove the pattern works anywhere*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🏟⌛🍗🟢 (Warm-Up | Legs | Time | Bodyweight)
-├─ 3 🍗 Single-Leg Pogo Hops (bodyweight, no external load needed)
+├─ 3 🍗 Single-Leg Hip Thrust (Barbell) (bodyweight, no external load needed)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══

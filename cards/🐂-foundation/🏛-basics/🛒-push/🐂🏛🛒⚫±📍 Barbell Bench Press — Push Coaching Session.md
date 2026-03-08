@@ -10,30 +10,32 @@ type: 🛒 Push | Chest, front delts, triceps
 color: ⚫ Coaching Session | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
-# 🛒 Barbell Bench Press — Push Teaching 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Teaching 🛒
 
 ## Foundation Basics — Push focus (Teaching) · 40-50 min
 
 **CODE:** 🐂🏛🛒⚫
 
 > "Practice the positions slowly. This is a coaching session, not a workout."
+
+*Senior Strength: Teaches barbell setup, loading sequence, and safety positions for heavy compound lifts*
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🐂🏛🛒⚫ (Warm-Up | Push | Basics | Teaching)
-├─ 12 🛒 Incline Barbell Bench Press (30°) (coached, check form before adding load)
+├─ 12 🛒 Single-Arm Overhead Dumbbell Hold (coached, check form before adding load)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🛠 Craft
 Subcode: 🐂🏛🛒⚫ (Craft | Push | Basics | Teaching)
-├─ 11 🛒 Smith Machine Incline Press (coach: check grip width, elbow angle, foot pressure)
+├─ 11 🛒 Single-Arm Cable Chest Fly (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🐂 45% × 11 (practice the pattern, not the load)
 │  Set 2: 🐂 50% × 11 (same cues, slightly heavier)
 Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🏛🛒⚫ (Bread & Butter | Push | Basics | Teaching)
-├─ 11 🛒 Barbell Bench Press (coached, check form before adding load)
+├─ 11 🛒 Single-Arm Cable Rear Delt Fly (coached, check form before adding load)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)
@@ -41,14 +43,14 @@ Rest: 112s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🏛🛒⚫ (Supplemental | Push | Basics | Teaching)
-├─ 13 🛒 Landmine Press (Two-Arm, Chest Focus) (full range, different angle)
+├─ 13 🛒 One-Arm Dead Hang (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 90s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🏛🛒⚫ (Imprint | Push | Basics | Teaching)
-├─ 15 🛒 Neutral-Grip Pull-Up (Brachialis) (high rep, low load, neural memory)
+├─ 15 🛒 Depth Push-Up (Drop to Floor) (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 90s
 ═══

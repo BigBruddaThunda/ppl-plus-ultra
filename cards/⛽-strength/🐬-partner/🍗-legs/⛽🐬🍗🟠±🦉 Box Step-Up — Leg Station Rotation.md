@@ -9,34 +9,36 @@ type: 🍗 Legs | Partner-context strength emphasis
 color: 🟠 Circuit | Partner deployment logic
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
-# 🍗 Box Step-Up — Legs Circuit 🍗
+# 🍗 Kettlebell Swing (Single-Arm) — Legs Circuit 🍗
 
 ## Strength Partner — Legs focus (Circuit) · 50-65 min
 
 **CODE:** ⛽🐬🍗🟠
 
 > "Rotate stations. Keep the tissues trading off under heavy demand."
+
+*Sport Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: ⛽🐬🍗🟠 (Warm-Up | Legs | Partner | Circuit)
-├─ 6 🍗 Deep Squat Hold (Ankle Mobility) (station rotation, keep moving)
+├─ 6 🍗 Kettlebell Swing (Alternating Arms) (station rotation, keep moving)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 45s
 ═══
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⛽🐬🍗🟠 (ARAM | Legs | Partner | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🍗 Box Step-Up × 5 (station rotation, keep moving)
-│  Station 2: 🍗 Deep Squat Hold (Ankle Mobility) × 5 (station rotation, keep moving)
-│  Station 3: 🍗 Leg Press Calf Raise × 5 (station rotation, keep moving)
-│  Station 4: 🍗 Walking Lunge × 5 (station rotation, keep moving)
+│  Station 1: 🍗 Kettlebell Swing (Single-Arm) × 5 (station rotation, keep moving)
+│  Station 2: 🍗 Kettlebell Swing (Alternating Arms) × 5 (station rotation, keep moving)
+│  Station 3: 🍗 Single-Arm American Swing × 5 (station rotation, keep moving)
+│  Station 4: 🍗 Single-Leg Swing × 5 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 60s
 Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: ⛽🐬🍗🟠 (Release | Legs | Partner | Circuit)
-├─ 6 🍗 Spanish Squat (Banded VMO) (smooth tempo, downshift)
+├─ 6 🍗 Alternating Kettlebell Snatch (smooth tempo, downshift)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 60s
 ═══

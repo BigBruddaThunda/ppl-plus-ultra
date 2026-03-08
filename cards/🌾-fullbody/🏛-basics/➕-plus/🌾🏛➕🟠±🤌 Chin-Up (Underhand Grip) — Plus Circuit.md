@@ -16,6 +16,8 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 **CODE:** 🌾🏛➕🟠
 
 > "Rotate through full-body stations. Every station moves a different chain."
+
+*General Functional Fitness: Athletic circuit — each station trains a different movement pattern*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🌾🏛➕🟠 (Warm-Up | Plus | Basics | Circuit)

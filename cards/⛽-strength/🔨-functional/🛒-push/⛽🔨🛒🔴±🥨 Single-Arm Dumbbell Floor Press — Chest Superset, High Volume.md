@@ -9,29 +9,31 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🔴 Intense | Tier 2–4 | GOLD: Yes | Maximum effort. High volume. Supersets OK. 🌋 Gutter possible.
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🌋 → 🪫 → 🚂
 ---
-# 🛒 Single-Arm Dumbbell Floor Press — Push Intense 🛒
+# 🛒 Plyometric Push-Up (Hands Leave Ground) — Push Intense 🛒
 
 ## Strength Functional — Push focus (Intense) · 50-65 min
 
 **CODE:** ⛽🔨🛒🔴
 
 > "Push the ceiling. Every set should cost something real."
+
+*Strongman / Odd Object: Heavy working sets with full recovery — push the ceiling, earn every rep*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: ⛽🔨🛒🔴 (Warm-Up | Push | Functional | Intense)
-├─ 6 🛒 Bamboo Bar Bench Press (high effort, push the pace)
+├─ 6 🛒 Depth Push-Up (Drop to Floor) (high effort, push the pace)
 │  Set 1: ⛽ 60% × 6 (pattern prep)
 Rest: 45s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⛽🔨🛒🔴 (Primer | Push | Functional | Intense)
-├─ 5 🛒 Plyometric Push-Up (Hands Leave Ground) (tight setup, crisp intent)
+├─ 5 🛒 Banded Speed Bench Press (tight setup, crisp intent)
 │  Set 1: ⛽ 70% × 5 (activation)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🔨🛒🔴 (Bread & Butter | Push | Functional | Intense)
-├─ 5 🛒 Single-Arm Dumbbell Floor Press (high effort, push the pace)
+├─ 5 🛒 Plyometric Push-Up (Hands Leave Ground) (high effort, push the pace)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⛽🔨🛒🔴 (Supplemental | Push | Functional | Intense)
-├─ 6 🛒 Alternating Dumbbell Front Raise (full range, different angle)
+├─ 6 🛒 Push Jerk (Barbell) (full range, different angle)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 60s
 ═══
 ## 5) 🌋 Gutter
 Subcode: ⛽🔨🛒🔴 (Gutter | Push | Functional | Intense)
-├─ 6 🛒 Alternating Dumbbell Curl (all-out, leave nothing in reserve)
+├─ 6 🛒 Log Press (all-out, leave nothing in reserve)
 │  Set 1: ⛽ 65% × 6 (push to form break)
 │  Set 2: ⛽ 65% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: ⛽🔨🛒🔴 (Release | Push | Functional | Intense)
-├─ 6 🛒 Alternating Dumbbell Curl (stress out, cathartic discharge)
+├─ 6 🛒 Log Press (stress out, cathartic discharge)
 │  Set 1: ⛽ 60% × 6 (deload)
 Rest: 60s
 ═══

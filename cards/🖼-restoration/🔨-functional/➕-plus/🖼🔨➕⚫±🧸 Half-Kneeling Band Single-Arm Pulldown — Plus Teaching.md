@@ -9,13 +9,15 @@ type: ➕ Plus | Full body power, core
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➕ Half-Kneeling Band Single-Arm Pulldown — Plus Teaching ➕
+# ➕ Hip Flexor Stretch (Half-Kneeling) — Plus Teaching ➕
 
 ## Restoration Functional — Plus focus (Teaching) · 30-40 min
 
 **CODE:** 🖼🔨➕⚫
 
 > "Learn what recovery feels like. This is a teaching session for your nervous system."
+
+*Senior Strength: Teaches barbell setup, loading sequence, and safety positions for heavy compound lifts*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🛠 Craft
 Subcode: 🖼🔨➕⚫ (Craft | Plus | Functional | Teaching)
-├─ 13 ➕ Half-Kneeling Cable Chop (coach: check grip width, elbow angle, foot pressure)
+├─ 13 ➕ Half-Kneeling Band Single-Arm Pulldown (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🖼 40% × 13 (practice the pattern, not the load)
 │  Set 2: 🖼 45% × 13 (same cues, slightly heavier)
 Rest: 90s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🔨➕⚫ (Bread & Butter | Plus | Functional | Teaching)
-├─ 13 ➕ Half-Kneeling Band Single-Arm Pulldown (coached, check form before adding load)
+├─ 13 ➕ Hip Flexor Stretch (Half-Kneeling) (coached, check form before adding load)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 90s

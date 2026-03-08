@@ -16,6 +16,8 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟🔨➕🟠
 
 > "Timed circuit test. Complete as many rounds as the clock allows."
+
+*Kettlebell Strength: Station rotation with implements — keep tissues trading under heavy demand*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🏟🔨➕🟠 (Warm-Up | Plus | Functional | Circuit)

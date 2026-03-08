@@ -9,29 +9,31 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# 🪡 Atlas Stone Lift — Pull Intense 🪡
+# 🪡 Zercher Carry — Pull Intense 🪡
 
 ## Balance Challenge — Pull focus (Intense) · 40-50 min
 
 **CODE:** ⚖🪐🪡🔴
 
 > "Attack the weak link with volume. Fatigue exposes the gap."
+
+*Strongman / Odd Object: Heavy working sets with full recovery — push the ceiling, earn every rep*
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: ⚖🪐🪡🔴 (Warm-Up | Pull | Challenge | Intense)
-├─ 12 🪡 Yoke Walk (high effort, push the pace)
+├─ 12 🪡 Keg Carry (high effort, push the pace)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖🪐🪡🔴 (Primer | Pull | Challenge | Intense)
-├─ 11 🪡 Push Jerk (Barbell) (tight setup, crisp intent)
+├─ 11 🪡 Archer Pull-Up (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🪐🪡🔴 (Bread & Butter | Pull | Challenge | Intense)
-├─ 11 🪡 Atlas Stone Lift (high effort, push the pace)
+├─ 11 🪡 Zercher Carry (high effort, push the pace)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 45s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🪐🪡🔴 (Supplemental | Pull | Challenge | Intense)
-├─ 12 🪡 Wide-Grip Lat Pulldown (Teres Focus) (full range, different angle)
+├─ 12 🪡 Single-Arm Lat Pulldown (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 37s
 ═══
 ## 5) 🌋 Gutter
 Subcode: ⚖🪐🪡🔴 (Gutter | Pull | Challenge | Intense)
-├─ 12 🪡 Face Pull (Rope) (all-out, leave nothing in reserve)
+├─ 12 🪡 Single-Arm Dumbbell Row (all-out, leave nothing in reserve)
 │  Set 1: ⚖ 55% × 12 (push to form break)
 │  Set 2: ⚖ 55% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: ⚖🪐🪡🔴 (Release | Pull | Challenge | Intense)
-├─ 12 🪡 Face Pull (Rope) (stress out, cathartic discharge)
+├─ 12 🪡 Single-Arm Dumbbell Row (stress out, cathartic discharge)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

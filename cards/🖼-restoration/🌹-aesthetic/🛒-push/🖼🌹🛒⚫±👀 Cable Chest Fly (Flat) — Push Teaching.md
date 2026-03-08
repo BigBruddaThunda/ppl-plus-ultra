@@ -9,13 +9,15 @@ type: 🛒 Push | Chest, front delts, triceps
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🛒 Cable Chest Fly (Flat) — Push Teaching 🛒
+# 🛒 Single-Arm Cable Rear Delt Fly — Push Teaching 🛒
 
 ## Restoration Aesthetic — Push focus (Teaching) · 30-40 min
 
 **CODE:** 🖼🌹🛒⚫
 
 > "Learn what recovery feels like. This is a teaching session for your nervous system."
+
+*Return After Break: Teaching session — learn the movement, understand the cues, build confidence*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🛠 Craft
 Subcode: 🖼🌹🛒⚫ (Craft | Push | Aesthetic | Teaching)
-├─ 13 🛒 Low-to-High Cable Fly (coach: check grip width, elbow angle, foot pressure)
+├─ 13 🛒 Single-Arm Cable Chest Fly (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🖼 40% × 13 (practice the pattern, not the load)
 │  Set 2: 🖼 45% × 13 (same cues, slightly heavier)
 Rest: 90s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🌹🛒⚫ (Bread & Butter | Push | Aesthetic | Teaching)
-├─ 13 🛒 Cable Chest Fly (Flat) (coached, check form before adding load)
+├─ 13 🛒 Single-Arm Cable Rear Delt Fly (coached, check form before adding load)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 90s

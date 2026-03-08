@@ -9,30 +9,32 @@ type: ➖ Ultra | Cardiovascular system
 color: ⚫ Teaching | Tier 2-3 | GOLD: No | Extra rest, coaching cues, comprehension over exertion.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# ➖ Two Feet In Each Box (Forward) — Ultra Teaching ➖
+# ➖ Kettlebell Swing (Two-Hand) — Ultra Teaching ➖
 
 ## Performance Time — Ultra focus (Teaching) · 25-35 min
 
 **CODE:** 🏟⌛➖⚫
 
 > "Rehearse the test protocol. Know the standards before test day."
+
+*Olympic Lifting: Teaches the craft-specific positions, timing, and coordination demands*
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🏟⌛➖⚫ (Warm-Up | Ultra | Time | Teaching)
-├─ 3 ➖ Single-Foot In Each Box (Forward) (coached, check form before adding load)
+├─ 3 ➖ American Swing (Overhead) (coached, check form before adding load)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 135s
 ═══
 ## 2) 🛠 Craft
 Subcode: 🏟⌛➖⚫ (Craft | Ultra | Time | Teaching)
-├─ 2 ➖ Kettlebell Swing (Single-Arm) (coach: check grip width, elbow angle, foot pressure)
+├─ 2 ➖ Heavy Swing (Power Focus) (coach: check grip width, elbow angle, foot pressure)
 │  Set 1: 🏟 72% × 2 (practice the pattern, not the load)
 │  Set 2: 🏟 77% × 2 (same cues, slightly heavier)
 Rest: 180s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟⌛➖⚫ (Bread & Butter | Ultra | Time | Teaching)
-├─ 2 ➖ Two Feet In Each Box (Forward) (coached, check form before adding load)
+├─ 2 ➖ Kettlebell Swing (Two-Hand) (coached, check form before adding load)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

@@ -9,30 +9,32 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Exploration and variety. Structured play within constraints.
 blocks: ♨️ 🪜 🧈 🚂
 ---
-# 🍗 Single-Leg Wall Sit — Legs Fun 🍗
+# 🍗 Single-Leg Jump Rope — Legs Fun 🍗
 
 ## Performance Functional — Legs focus (Fun) · 25-35 min
 
 **CODE:** 🏟🔨🍗🟡
 
 > "Test something unconventional. Find where your capacity surprises you."
+
+*CrossFit-Style: Movement exploration — unconventional patterns, play with load and position*
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🏟🔨🍗🟡 (Warm-Up | Legs | Functional | Fun)
-├─ 3 🍗 Cossack Squat (explore, stay within constraints)
+├─ 3 🍗 Kettlebell Swing (Single-Arm) (explore, stay within constraints)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🏟🔨🍗🟡 (Bread & Butter | Legs | Functional | Fun)
-├─ 2 🍗 Single-Leg Wall Sit (explore, stay within constraints)
+├─ 2 🍗 Single-Leg Jump Rope (explore, stay within constraints)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery
 ═══
 ## 3) 🏖 Sandbox
 Subcode: 🏟🔨🍗🟡 (Sandbox | Legs | Functional | Fun)
-├─ 2 🍗 Single-Leg Extension (explore within constraints, choose your variation)
+├─ 2 🍗 Alternating Kettlebell Snatch (explore within constraints, choose your variation)
 │  Option A: 🏟 82% × 2 (play with grip, stance, or tempo)
 │  Option B: 🏟 82% × 2 (try a variation you have not used before)
 Rest: N/A

@@ -9,13 +9,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔵 Structured | Tier 2-3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# 🪡 Single-Leg Hip Thrust (Bodyweight) — Pull Structured 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Structured 🪡
 
 ## Restoration Functional — Pull focus (Structured) · 30-40 min
 
 **CODE:** 🖼🔨🪡🔵
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
+
+*General Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) 🎯 Intention
 
@@ -29,7 +31,7 @@ Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🔨🪡🔵 (Bread & Butter | Pull | Functional | Structured)
-├─ 13 🪡 Single-Leg Hip Thrust (Bodyweight) (prescribed, track sets and reps)
+├─ 13 🪡 Barbell Overhead Press (Standing) (prescribed, track sets and reps)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s

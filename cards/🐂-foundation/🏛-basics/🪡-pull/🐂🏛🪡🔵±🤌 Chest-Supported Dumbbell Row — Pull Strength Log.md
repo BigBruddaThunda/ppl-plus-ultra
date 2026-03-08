@@ -10,13 +10,15 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔵 Strength Log | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
-# 🪡 Chest-Supported Dumbbell Row — Pull Structured 🪡
+# 🪡 Barbell Overhead Press (Standing) — Pull Structured 🪡
 
 ## Foundation Basics — Pull focus (Structured) · 40-50 min
 
 **CODE:** 🐂🏛🪡🔵
 
 > "Follow the prescription. The numbers build the habit."
+
+*General Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
 ## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🐂🏛🪡🔵 (Warm-Up | Pull | Basics | Structured)
@@ -33,7 +35,7 @@ Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🐂🏛🪡🔵 (Bread & Butter | Pull | Basics | Structured)
-├─ 11 🪡 Chest-Supported Dumbbell Row (prescribed, track sets and reps)
+├─ 11 🪡 Barbell Overhead Press (Standing) (prescribed, track sets and reps)
 │  Set 1: 🐂 60% × 11 (build set)
 │  Set 2: 🐂 65% × 11 (working set)
 │  Set 3: 🐂 65% × 11 (repeat quality)

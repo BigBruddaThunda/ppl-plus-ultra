@@ -9,29 +9,31 @@ type: ➕ Plus | Full body power, core
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 ---
-# ➕ Single-Foot In Each Box (Forward) — Plus Intense ➕
+# ➕ Zercher Carry — Plus Intense ➕
 
 ## Balance Functional — Plus focus (Intense) · 40-50 min
 
 **CODE:** ⚖🔨➕🔴
 
 > "Attack the weak link with volume. Fatigue exposes the gap."
+
+*Strongman / Odd Object: Heavy working sets with full recovery — push the ceiling, earn every rep*
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: ⚖🔨➕🔴 (Warm-Up | Plus | Functional | Intense)
-├─ 12 ➕ Single-Leg Hops Through Ladder (high effort, push the pace)
+├─ 12 ➕ Keg Carry (high effort, push the pace)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 30s
 ═══
 ## 2) ▶️ Primer
 Subcode: ⚖🔨➕🔴 (Primer | Plus | Functional | Intense)
-├─ 11 ➕ Half-Kneeling Cable Chop (tight setup, crisp intent)
+├─ 11 ➕ Single-Arm Medicine Ball Throw (tight setup, crisp intent)
 │  Set 1: ⚖ 60% × 11 (activation)
 Rest: 37s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🔨➕🔴 (Bread & Butter | Plus | Functional | Intense)
-├─ 11 ➕ Single-Foot In Each Box (Forward) (high effort, push the pace)
+├─ 11 ➕ Zercher Carry (high effort, push the pace)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -39,21 +41,21 @@ Rest: 45s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🔨➕🔴 (Supplemental | Plus | Functional | Intense)
-├─ 12 ➕ Aquaman (Alternating Superman) (full range, different angle)
+├─ 12 ➕ Squat Jump (No Countermovement) (full range, different angle)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 37s
 ═══
 ## 5) 🌋 Gutter
 Subcode: ⚖🔨➕🔴 (Gutter | Plus | Functional | Intense)
-├─ 12 ➕ Single-Leg Romanian Deadlift (all-out, leave nothing in reserve)
+├─ 12 ➕ Overhead Medicine Ball Throw (Slam) (all-out, leave nothing in reserve)
 │  Set 1: ⚖ 55% × 12 (push to form break)
 │  Set 2: ⚖ 55% × AMRAP (final effort)
 Rest: 45s
 ═══
 ## 6) 🪫 Release
 Subcode: ⚖🔨➕🔴 (Release | Plus | Functional | Intense)
-├─ 12 ➕ Single-Leg Romanian Deadlift (stress out, cathartic discharge)
+├─ 12 ➕ Overhead Medicine Ball Throw (Slam) (stress out, cathartic discharge)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 37s
 ═══

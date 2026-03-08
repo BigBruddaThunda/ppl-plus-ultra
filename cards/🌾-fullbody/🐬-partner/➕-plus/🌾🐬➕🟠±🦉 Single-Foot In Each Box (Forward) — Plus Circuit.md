@@ -16,6 +16,8 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 **CODE:** 🌾🐬➕🟠
 
 > "Rotate through full-body stations. Every station moves a different chain."
+
+*Tactical / First Responder: Skill circuit — rotate through craft-specific stations*
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: 🌾🐬➕🟠 (Warm-Up | Plus | Partner | Circuit)

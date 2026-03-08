@@ -16,10 +16,12 @@ blocks: ♨️ 🪜 🧈 🚂
 **CODE:** 🏟⌛➖🟠
 
 > "Timed circuit test. Complete as many rounds as the clock allows."
+
+*General Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
 ## 1) ♨️ Warm-Up — ✒️ grapho
 Subcode: 🏟⌛➖🟠 (Warm-Up | Ultra | Time | Circuit)
-├─ 3 ➖ Single-Leg Hops Through Ladder (station rotation, keep moving)
+├─ 3 ➖ Single-Foot In Each Box (Forward) (station rotation, keep moving)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 45s
 ═══
@@ -27,9 +29,9 @@ Rest: 45s
 Subcode: 🏟⌛➖🟠 (ARAM | Ultra | Time | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
 │  Station 1: ➖ Single-Leg Hops Through Ladder × 2 (station rotation, keep moving)
-│  Station 2: ➖ Single-Leg Hops Through Ladder × 2 (station rotation, keep moving)
-│  Station 3: ➖ Kettlebell Swing (Single-Arm) × 2 (station rotation, keep moving)
-│  Station 4: ➖ Kettlebell Goblet Squat × 2 (station rotation, keep moving)
+│  Station 2: ➖ Single-Foot In Each Box (Forward) × 2 (station rotation, keep moving)
+│  Station 3: ➖ Two Feet In Each Box (Forward) × 2 (station rotation, keep moving)
+│  Station 4: ➖ Lateral Shuffle (In-In-Out-Out) × 2 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 60s
 Rest: 90s after final round

@@ -9,13 +9,15 @@ type: ➖ Ultra | Cardiovascular system
 color: 🔴 Intense | Tier 2-4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: 🎯 🪫 🧈 🧬 🚂
 ---
-# ➖ Turkish Get-Up (Full) — Ultra Intense ➖
+# ➖ Single-Leg Hops Through Ladder — Ultra Intense ➖
 
 ## Restoration Functional — Ultra focus (Intense) · 30-40 min
 
 **CODE:** 🖼🔨➖🔴
 
 > "Active recovery. Move enough to flush, not enough to fatigue."
+
+*Athletic Hypertrophy: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
 ## 1) 🎯 Intention
 
@@ -23,14 +25,14 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 ═══
 ## 2) 🧈 Bread & Butter
 Subcode: 🖼🔨➖🔴 (Bread & Butter | Ultra | Functional | Intense)
-├─ 13 ➖ Turkish Get-Up (Full) (high effort, push the pace)
+├─ 13 ➖ Single-Leg Hops Through Ladder (high effort, push the pace)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 30s
 ═══
 ## 3) 🪫 Release
 Subcode: 🖼🔨➖🔴 (Release | Ultra | Functional | Intense)
-├─ 12 ➖ Turkish Get-Up (Full) (stress out, cathartic discharge)
+├─ 12 ➖ Overhead Throw (Medicine Ball) (stress out, cathartic discharge)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 30s
 ═══
