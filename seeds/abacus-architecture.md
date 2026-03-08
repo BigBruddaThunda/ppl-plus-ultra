@@ -211,6 +211,52 @@ An abacus with 48 zips and a 35-session rotation means:
 - After completing the cycle, the same 35 sessions return but with progressive load from logging
 - The program never ends. It just rotates. The user improves within the structure.
 
+## Operis Discovery → Personal Library
+
+The daily Operis features zip codes the user may never have encountered in their selected abaci. The Operis is the newspaper — it shows the full 1,680-room building, not just the user's floor. This makes it a discovery surface.
+
+**Save-to-Abacus flow:**
+1. User reads the daily Operis
+2. A featured zip code catches their interest — a training style, exercise, or format they want to try
+3. They tap **Save** (🧮) on that zip code
+4. The zip is added to their personal library — a holding area outside any specific abacus
+5. From their library, they can assign saved zips into any of their custom abaci
+6. The saved zip enters their rotation on the next cycle
+
+This is the Operis-to-training pipeline. Editorial content becomes personal programming. The Operis is not just reading material — it is a feeder system for the abacus layer.
+
+**What "Save" means technically:**
+- The zip code is bookmarked to the user's `saved_zips` collection
+- It does NOT automatically enter active rotation (that would disrupt their program)
+- The user decides when and where to slot it: into an existing abacus, into a new custom abacus, or just held for later
+- Saved zips that never get assigned still appear in the user's personal library as "unslotted" — available but not rotating
+
+## Custom Abaci and Zip Editing
+
+The 35 system abaci are starting points. Users build on top of them.
+
+**Custom abacus creation:**
+- A user can create a custom abacus from scratch (empty frame, add zips manually)
+- A user can fork a system abacus (copies all 48 zips, then edit)
+- A user can merge two system abaci into a custom one (union, collapse duplicates, then edit)
+
+**Zip editing within an abacus:**
+- **Add:** Pull zips from saved library, from other abaci, or browse the full 1,680 catalog
+- **Remove:** Tap a zip to remove it from this abacus. The zip still exists in the system and in any other abacus that contains it. Removing is per-abacus, not global deletion.
+- **Swap:** Replace a working slot zip with a bonus zip or a saved zip. The removed zip moves to the bonus pool or leaves the abacus entirely (user's choice).
+
+**Seasonal profiles:**
+- Custom abaci save to the user's profile
+- A user can have multiple custom abaci and switch between them
+- Use case: "Winter Indoor" abacus (🟢 and 🟠 heavy, no outdoor work), "Summer Athlete" abacus (🔨 Functional heavy, outdoor conditioning), "Competition Prep" abacus (🏟 Performance heavy, peaking focus)
+- Switching abaci changes what the rotation engine draws from — same engine, different pool
+- Historical data is per-zip, not per-abacus. If you did ⛽🏛🪡🔵 in your winter abacus and it appears in your summer abacus, your logged history carries over. The zip is the zip.
+
+**Sharing (future):**
+- A custom abacus could be shared as a link or template
+- A coach could build an abacus and assign it to clients
+- The 🐬 Partner axis and community features connect here (seeds/junction-community.md)
+
 ## Data Model Implications
 
 ```
@@ -234,10 +280,28 @@ abacus_zip
 
 user_abacus
 ├── user_id: UUID → profiles.id
-├── abacus_id: INT → abacus.id
+├── abacus_id: INT → abacus.id (NULL for custom)
+├── custom_name: VARCHAR — NULL for system abaci, user-defined for custom
+├── is_custom: BOOLEAN DEFAULT false
 ├── active: BOOLEAN
 ├── selected_at: TIMESTAMPTZ
-└── UNIQUE(user_id, abacus_id)
+├── season_tag: VARCHAR — optional ("winter", "competition", etc.)
+└── UNIQUE(user_id, abacus_id) — for system abaci
+
+user_custom_abacus_zip
+├── user_abacus_id: INT → user_abacus.id (custom abaci only)
+├── zip_numeric: CHAR(4) → zip_metadata.zip_numeric
+├── slot_type: ENUM('working', 'bonus')
+└── added_at: TIMESTAMPTZ
+
+saved_zips
+├── user_id: UUID → profiles.id
+├── zip_numeric: CHAR(4) → zip_metadata.zip_numeric
+├── source: ENUM('operis', 'junction', 'browse', 'share')
+├── saved_at: TIMESTAMPTZ
+├── operis_date: DATE — NULL unless source = 'operis'
+├── assigned: BOOLEAN DEFAULT false — true once slotted into an abacus
+└── UNIQUE(user_id, zip_numeric)
 
 user_type_toggle
 ├── user_id: UUID
@@ -262,9 +326,14 @@ user_color_toggle
 6. **Build rotation filter** — engine output filtered by user's abacus union
 7. **Build toggle system** — Type and Color suppression within the filtered pool
 8. **Junction routing update** — prefer in-abacus targets in 🚂 blocks
+9. **Operis save button** — 🧮 tap on featured zips adds to saved_zips
+10. **Personal library UI** — saved zips view, assign-to-abacus flow
+11. **Custom abacus builder** — create/fork/merge, add/remove/swap zips
+12. **Seasonal profile switcher** — load different abaci by season or phase
 
 Steps 1–4 are scriptable from the existing zip registry and card data.
 Steps 5–8 require the experience layer (Phase 4+).
+Steps 9–12 require the experience layer + user accounts (Phase 5–6).
 
 ## Open Questions
 
