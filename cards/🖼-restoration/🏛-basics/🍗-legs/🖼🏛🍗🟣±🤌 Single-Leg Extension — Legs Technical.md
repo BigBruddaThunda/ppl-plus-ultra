@@ -15,34 +15,28 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 **CODE:** 🖼🏛🍗🟣
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Precise positioning in each restorative hold. Depth over speed."
 ═══
 ## 1) 🎯 Intention
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Precise positioning in each restorative hold. Depth over speed."
 ═══
-## 2) 🪫 Release
-Subcode: 🖼🏛🍗🟣 (Release | Legs | Basics | Technical)
-├─ 12 🍗 Barbell Good Morning (parasympathetic, tension down)
-│  Set 1: 🖼 40% × 12 (deload)
-Rest: 60s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: 🖼🏛🍗🟣 (Bread & Butter | Legs | Basics | Technical)
 ├─ 13 🍗 Single-Leg Extension (precision, quality over volume)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
-Rest: 60s
+Rest: 90s
 ═══
-## 4) 🧬 Imprint
+## 3) 🧬 Imprint
 Subcode: 🖼🏛🍗🟣 (Imprint | Legs | Basics | Technical)
-├─ 17 🍗 Lying Leg Curl (high rep, low load, neural memory)
-│  Set 1: 🖼 35% × 17 (lock the pattern)
-Rest: 60s
+├─ 15 🍗 Lying Leg Curl (high rep, low load, neural memory)
+│  Set 1: 🖼 35% × 15 (lock the pattern)
+Rest: 90s
 ═══
-## 5) 🚂 Junction
+## 4) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🖼🏛🍗🟣 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Notice what released. Carry that awareness into the next 24 hours.
+Precise positioning in restorative holds teaches the body to let go.

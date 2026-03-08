@@ -57,25 +57,145 @@ ORDER_REST = {
     "🖼": {"warmup": "60s", "working": "60s", "main": "60s", "supplemental": "60s"},
 }
 
-ORDER_INTENTIONS = {
-    "🐂": "Learn the pattern at sub-maximal load. Own the positions before adding weight.",
-    "⛽": "Drive clean reps inside the strength ceiling and make every set repeatable.",
-    "🦋": "Build tension through volume. Load serves the muscle, not the ego.",
-    "🏟": "Test. Record. Leave. No junk volume after the attempt.",
-    "🌾": "Flow through the full body as one integrated pattern.",
-    "⚖": "Find the weak link and spend time on it. Correction is the session.",
-    "🖼": "Leave fresher than you entered. Recovery is the work.",
+# --- Order×Color Intention Bank (56 unique intentions) ---
+
+INTENTIONS = {
+    # 🐂 Foundation
+    ("🐂", "⚫"): "Practice the positions slowly. This is a coaching session, not a workout.",
+    ("🐂", "🟢"): "Learn the pattern with your own body first. External load comes later.",
+    ("🐂", "🔵"): "Follow the prescription. The numbers build the habit.",
+    ("🐂", "🟣"): "Quality of position matters more than speed of completion.",
+    ("🐂", "🔴"): "Sub-maximal load, high effort. Earn every rep with form.",
+    ("🐂", "🟠"): "Rotate through stations at learning pace. Each one is a fresh pattern.",
+    ("🐂", "🟡"): "Explore the movement. Find what feels unfamiliar and stay there.",
+    ("🐂", "⚪"): "Slow the pattern down until you can feel every joint in the chain.",
+    # ⛽ Strength
+    ("⛽", "⚫"): "Learn where the bar sits and how it moves before adding plates.",
+    ("⛽", "🟢"): "Prove the pattern holds without external load. Bodyweight is the test.",
+    ("⛽", "🔵"): "Same weight, same reps, same rest. Build the base one session at a time.",
+    ("⛽", "🟣"): "One clean rep at the right load is worth more than five at the wrong one.",
+    ("⛽", "🔴"): "Push the ceiling. Every set should cost something real.",
+    ("⛽", "🟠"): "Rotate stations. Keep the tissues trading off under heavy demand.",
+    ("⛽", "🟡"): "Find a movement you have not tried at this load and own it.",
+    ("⛽", "⚪"): "Four seconds down. Feel every degree of the range before you earn the drive.",
+    # 🦋 Hypertrophy
+    ("🦋", "⚫"): "Learn what tension feels like in the target muscle before chasing volume.",
+    ("🦋", "🟢"): "Build the muscle with what you have. No equipment is not an excuse.",
+    ("🦋", "🔵"): "Hit every set at the prescribed rep count. Volume is the driver.",
+    ("🦋", "🟣"): "Feel the muscle work through the full range. Precision builds tissue.",
+    ("🦋", "🔴"): "High volume, low rest. Chase the pump and earn the fatigue.",
+    ("🦋", "🟠"): "Circuit the muscle group from every angle. Each station is a new stimulus.",
+    ("🦋", "🟡"): "Try exercises you would not normally pick. Variety stimulates growth.",
+    ("🦋", "⚪"): "Slow eccentrics under moderate load. Time under tension is the stimulus.",
+    # 🏟 Performance
+    ("🏟", "⚫"): "Rehearse the test protocol. Know the standards before test day.",
+    ("🏟", "🟢"): "Test bodyweight capacity. How many, how fast, how clean.",
+    ("🏟", "🔵"): "Execute the test exactly as prescribed. Record the number.",
+    ("🏟", "🟣"): "One maximal attempt with perfect setup. The technique is the test.",
+    ("🏟", "🔴"): "All-out effort. Leave everything on the platform.",
+    ("🏟", "🟠"): "Timed circuit test. Complete as many rounds as the clock allows.",
+    ("🏟", "🟡"): "Test something unconventional. Find where your capacity surprises you.",
+    ("🏟", "⚪"): "Test movement quality under minimal load. Patience is the metric.",
+    # 🌾 Full Body
+    ("🌾", "⚫"): "Connect the chain. Coach each transition between movements.",
+    ("🌾", "🟢"): "Flow through the body using only what you carry. No equipment needed.",
+    ("🌾", "🔵"): "Prescribed flow. Each movement connects to the next without reset.",
+    ("🌾", "🟣"): "Precision in the transitions. The connection between movements is the skill.",
+    ("🌾", "🔴"): "Drive through the integrated pattern with intent. No wasted motion.",
+    ("🌾", "🟠"): "Rotate through full-body stations. Every station moves a different chain.",
+    ("🌾", "🟡"): "Explore compound movements that link upper and lower body.",
+    ("🌾", "⚪"): "Breathe through the full chain. Each movement flows into the next.",
+    # ⚖ Balance
+    ("⚖", "⚫"): "Identify the weak link. Coach the correction before adding load.",
+    ("⚖", "🟢"): "Find asymmetries with bodyweight. No equipment hides the gap.",
+    ("⚖", "🔵"): "Prescribed accessory work. Target the specific imbalance.",
+    ("⚖", "🟣"): "Precise correction. Small movements, full attention, zero momentum.",
+    ("⚖", "🔴"): "Attack the weak link with volume. Fatigue exposes the gap.",
+    ("⚖", "🟠"): "Rotate through corrective stations. Each one targets a different deficit.",
+    ("⚖", "🟡"): "Explore movements that challenge your weakest positions.",
+    ("⚖", "⚪"): "Slow down into the imbalance. Feel where the body compensates.",
+    # 🖼 Restoration
+    ("🖼", "⚫"): "Learn what recovery feels like. This is a teaching session for your nervous system.",
+    ("🖼", "🟢"): "Restore with what your body provides. Floor work, breath, gentle movement.",
+    ("🖼", "🔵"): "Follow the restoration sequence as prescribed. Each position has a purpose.",
+    ("🖼", "🟣"): "Precise positioning in each restorative hold. Depth over speed.",
+    ("🖼", "🔴"): "Active recovery. Move enough to flush, not enough to fatigue.",
+    ("🖼", "🟠"): "Rotate through restoration stations. Each one addresses a different tissue.",
+    ("🖼", "🟡"): "Explore somatic movements you would not normally try.",
+    ("🖼", "⚪"): "Breathe into each position. Leave fresher than you entered.",
 }
 
-ORDER_SAVE = {
-    "🐂": "The pattern owns the session. Add load only when positions are automatic.",
-    "⛽": "Keep the same movement standard and only add load if bar path stays unchanged.",
-    "🦋": "Track the pump and the tension. Volume drives growth; form keeps it honest.",
-    "🏟": "Record the number. That is the session. Come back when recovered.",
-    "🌾": "The flow is the measure. If movements disconnected, simplify next session.",
-    "⚖": "The correction is the progress. Symmetry before load, always.",
-    "🖼": "Notice what released. Carry that awareness into the next 24 hours.",
+# --- Order×Color SAVE Bank (56 unique closings) ---
+
+SAVE_MESSAGES = {
+    # 🐂 Foundation
+    ("🐂", "⚫"): "The positions own the session. Add complexity only when coaching cues become automatic.",
+    ("🐂", "🟢"): "If the pattern held at bodyweight, it will hold under load. Graduate when ready.",
+    ("🐂", "🔵"): "Log the numbers. Consistency at sub-maximal load builds the strongest base.",
+    ("🐂", "🟣"): "Note which positions felt uncertain. Those are your next session's priority.",
+    ("🐂", "🔴"): "Effort at low load reveals form breaks. Fix them before adding weight.",
+    ("🐂", "🟠"): "Review which station felt least stable. That pattern needs more reps.",
+    ("🐂", "🟡"): "What felt unfamiliar today becomes familiar next session. Return to it.",
+    ("🐂", "⚪"): "Slow tempo teaches the nervous system. Carry that awareness forward.",
+    # ⛽ Strength
+    ("⛽", "⚫"): "Note the coaching cues that changed the movement. Build from those.",
+    ("⛽", "🟢"): "Bodyweight strength is the transfer test. If it held, the gym work is real.",
+    ("⛽", "🔵"): "Keep the same movement standard. Only add load if bar path stays unchanged.",
+    ("⛽", "🟣"): "Log bar path quality, not just the weight. The how matters as much as the how much.",
+    ("⛽", "🔴"): "Record peak effort. Recovery before next heavy session.",
+    ("⛽", "🟠"): "Log station completion times. Consistency matters more than speed.",
+    ("⛽", "🟡"): "Note what you tried and what surprised you. Build on it next session.",
+    ("⛽", "⚪"): "Slow strength builds tendons, not just muscles. Trust the tempo.",
+    # 🦋 Hypertrophy
+    ("🦋", "⚫"): "Track the pump and the tension. Learning to feel the muscle is the skill.",
+    ("🦋", "🟢"): "Bodyweight hypertrophy works when tempo and volume are honest. Log both.",
+    ("🦋", "🔵"): "Volume drives growth; form keeps it honest. Log sets, reps, and load.",
+    ("🦋", "🟣"): "Note which reps had the best mind-muscle connection. Chase that feeling.",
+    ("🦋", "🔴"): "High volume earned today recovers into growth tomorrow. Eat and sleep.",
+    ("🦋", "🟠"): "Circuit hypertrophy works through cumulative fatigue. Note which station failed first.",
+    ("🦋", "🟡"): "New exercises recruit new motor units. Track what felt different.",
+    ("🦋", "⚪"): "Slow eccentrics build tissue that fast reps miss. Trust the tempo.",
+    # 🏟 Performance
+    ("🏟", "⚫"): "Understand the test protocol. Next session is the real attempt.",
+    ("🏟", "🟢"): "Record the bodyweight test number. That is the session.",
+    ("🏟", "🔵"): "Record the number. That is the session. Come back when recovered.",
+    ("🏟", "🟣"): "Log the attempt and the technique notes. Both are the data.",
+    ("🏟", "🔴"): "The test is complete. Recovery is the next priority.",
+    ("🏟", "🟠"): "Record rounds completed and form break point. That is the benchmark.",
+    ("🏟", "🟡"): "Note what you tested and the result. New benchmarks start here.",
+    ("🏟", "⚪"): "Movement quality under observation is its own test. Log what you saw.",
+    # 🌾 Full Body
+    ("🌾", "⚫"): "Note which transitions felt disconnected. Coach those links next session.",
+    ("🌾", "🟢"): "Flow at bodyweight reveals coordination. Log the movement quality.",
+    ("🌾", "🔵"): "The flow is the measure. If movements disconnected, simplify next session.",
+    ("🌾", "🟣"): "Note the weakest transition. That is where the chain needs work.",
+    ("🌾", "🔴"): "Integrated effort under fatigue reveals the real pattern. Log the breakdown point.",
+    ("🌾", "🟠"): "Full-body circuit hits every chain. Note which station caused the most fatigue.",
+    ("🌾", "🟡"): "Compound discovery teaches the body new links. Track what connected.",
+    ("🌾", "⚪"): "Breathe through the chain. The flow improves as the nervous system calms.",
+    # ⚖ Balance
+    ("⚖", "⚫"): "The coaching eye found the weak link. Now the correction begins.",
+    ("⚖", "🟢"): "Bodyweight exposed the asymmetry. Note which side lagged.",
+    ("⚖", "🔵"): "The correction is the progress. Symmetry before load, always.",
+    ("⚖", "🟣"): "Precision in correction builds the foundation. Note what changed.",
+    ("⚖", "🔴"): "Volume on the weak side closes the gap. Log the difference between sides.",
+    ("⚖", "🟠"): "Corrective circuit attacked the deficit from every angle. Note what improved.",
+    ("⚖", "🟡"): "Exploring weak positions teaches the body new ranges. Track the discovery.",
+    ("⚖", "⚪"): "Slow correction lets the nervous system rewrite the pattern. Trust the process.",
+    # 🖼 Restoration
+    ("🖼", "⚫"): "Learning to recover is a skill. Note which positions brought the most relief.",
+    ("🖼", "🟢"): "Floor work and breath are always available. Use them daily.",
+    ("🖼", "🔵"): "Follow the restoration protocol consistently. Recovery compounds.",
+    ("🖼", "🟣"): "Precise positioning in restorative holds teaches the body to let go.",
+    ("🖼", "🔴"): "Active recovery flushes fatigue. Note what felt better after moving.",
+    ("🖼", "🟠"): "Each restoration station addressed a different tissue. Note what released.",
+    ("🖼", "🟡"): "Somatic exploration teaches the body things the gym never will.",
+    ("🖼", "⚪"): "Notice what released. Carry that awareness into the next 24 hours.",
 }
+
+# Legacy accessors — kept for backward compatibility with external tools
+ORDER_INTENTIONS = {k[0]: v for k, v in INTENTIONS.items() if k[1] == "🔵"}
+ORDER_SAVE = {k[0]: v for k, v in SAVE_MESSAGES.items() if k[1] == "🔵"}
 
 ORDER_TIME = {
     "🐂": "40-50 min",
@@ -266,14 +386,84 @@ def run_generator(prompt: str, generator_cmd: str | None, context: dict[str, Any
     return fallback_template(context)
 
 
+COLOR_REST_MODIFIER = {
+    "⚫": 1.5,   # Teaching: +50% rest
+    "⚪": 2.0,   # Mindful: double rest (minimum 120s)
+    "🟣": 1.5,   # Technical: +50% rest
+    "🔴": 0.5,   # Intense: halve rest
+    "🟠": 0.5,   # Circuit: half rest
+}
+
+# --- Exercise registry cache ---
+_EXERCISE_REGISTRY: list[dict] | None = None
+
+def _load_registry() -> list[dict]:
+    global _EXERCISE_REGISTRY
+    if _EXERCISE_REGISTRY is None:
+        path = ROOT / "middle-math" / "exercise-registry.json"
+        _EXERCISE_REGISTRY = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    return _EXERCISE_REGISTRY
+
+def _exercise_matches_type(name: str, expected_type: str) -> bool:
+    """Check if an exercise's scl_types includes the expected Type."""
+    name_lower = name.lower().strip()
+    for entry in _load_registry():
+        if entry.get("canonical_name", "").lower() == name_lower:
+            return expected_type in entry.get("scl_types", [])
+    return True  # Not found → allow (avoid false negatives)
+
+def _filter_exercises_for_type(exercises: list[str], expected_type: str) -> list[str]:
+    """Remove exercises that don't match the expected Type."""
+    return [e for e in exercises if _exercise_matches_type(e, expected_type)]
+
+def _has_barbell(name: str) -> bool:
+    """Check if an exercise uses a barbell."""
+    name_lower = name.lower().strip()
+    for entry in _load_registry():
+        if entry.get("canonical_name", "").lower() == name_lower:
+            equip = entry.get("equipment_primary", "").lower()
+            return "barbell" in equip
+    return "barbell" in name_lower  # Fallback: string check
+
+def _filter_no_barbell(exercises: list[str]) -> list[str]:
+    """Remove barbell exercises from candidate list."""
+    return [e for e in exercises if not _has_barbell(e)]
+
+
+def _clamp_reps(reps: int, order_e: str) -> int:
+    """Clamp reps to Order's allowed range."""
+    c = ORDER_CEILINGS[order_e]
+    return max(c["reps_min"], min(reps, c["reps_max"]))
+
+def _clamp_load(load: float, order_e: str) -> float:
+    """Clamp load to Order's max ceiling."""
+    c = ORDER_CEILINGS[order_e]
+    return min(load, c.get("load_max", c.get("load", 100)))
+
+def _apply_rest(rest_str: str, color_e: str) -> str:
+    """Apply Color rest modifier to a rest string like '90s'."""
+    modifier = COLOR_REST_MODIFIER.get(color_e, 1.0)
+    match = re.match(r"(\d+)s?", rest_str)
+    if not match:
+        return rest_str
+    base = int(match.group(1))
+    adjusted = max(30, int(base * modifier))
+    # Mindful minimum 120s
+    if color_e == "⚪":
+        adjusted = max(120, adjusted)
+    return f"{adjusted}s"
+
+
 def _get_order_params(ctx: dict[str, Any]) -> dict[str, Any]:
-    """Extract working load, reps, rest from Order ceiling."""
+    """Extract working load, reps, rest from Order ceiling with Color modifications."""
     c = ctx["order_ceiling"]
     load = c.get("load", (c.get("load_min", 70) + c.get("load_max", 80)) // 2)
     reps = (c["reps_min"] + c["reps_max"]) // 2
     warmup_load = max(load - 20, 40)
     warmup_reps = min(c["reps_max"], 12)
-    rest = ORDER_REST[ctx["order_emoji"]]
+    color_e = ctx.get("color_emoji", "🔵")
+    base_rest = ORDER_REST[ctx["order_emoji"]]
+    rest = {k: _apply_rest(v, color_e) for k, v in base_rest.items()}
     return {"load": load, "reps": reps, "warmup_load": warmup_load, "warmup_reps": warmup_reps, "rest": rest}
 
 
@@ -287,19 +477,34 @@ def _ex(ctx: dict[str, Any], idx: int) -> str:
     return sups[idx] if idx < len(sups) else ctx["primary_exercise"]
 
 
+def _warmup_exercise(ctx: dict[str, Any]) -> str:
+    """Get warm-up exercise, respecting barbell restrictions."""
+    ex = _ex(ctx, 0)
+    if ctx.get("no_barbell") and _has_barbell(ex):
+        # Try other supplementals
+        for i in range(1, 5):
+            alt = _ex(ctx, i)
+            if not _has_barbell(alt):
+                return alt
+        return ctx["primary_exercise"]  # fallback (should already be filtered)
+    return ex
+
+
 def _block_warmup(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
     t = ctx["type_emoji"]
     cue = COLOR_CUES.get(ctx["color_emoji"], "(steady tempo)")
+    exercise = _warmup_exercise(ctx)
     return f"""═══
 ## {num}) ♨️ Warm-Up — {ctx['operator']}
 Subcode: {_sub(ctx, 'Warm-Up')}
-├─ {p['warmup_reps']} {t} {_ex(ctx, 0)} {cue}
+├─ {p['warmup_reps']} {t} {exercise} {cue}
 │  Set 1: {ctx['order_emoji']} {p['warmup_load']}% × {p['warmup_reps']} (pattern prep)
 Rest: {p['rest']['warmup']}"""
 
 
 def _block_intention(ctx: dict[str, Any]) -> str:
-    intention = ORDER_INTENTIONS.get(ctx["order_emoji"], "Work with purpose.")
+    key = (ctx["order_emoji"], ctx["color_emoji"])
+    intention = INTENTIONS.get(key, INTENTIONS.get((ctx["order_emoji"], "🔵"), "Work with purpose."))
     return f"""═══
 ## 1) 🎯 Intention
 
@@ -329,11 +534,12 @@ Rest: {p['rest']['working']}"""
 
 def _block_progression(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
     t = ctx["type_emoji"]
+    opener_reps = _clamp_reps(p['reps'] + 1, ctx["order_emoji"])
     return f"""═══
 ## {num}) 🪜 Progression
 Subcode: {_sub(ctx, 'Progression')}
 ├─ {p['reps']} {t} {ctx['primary_exercise']} (ramp to test weight)
-│  Set 1: {ctx['order_emoji']} {p['load'] - 15}% × {p['reps'] + 1} (opener)
+│  Set 1: {ctx['order_emoji']} {p['load'] - 15}% × {opener_reps} (opener)
 │  Set 2: {ctx['order_emoji']} {p['load'] - 5}% × {p['reps']} (bridge)
 Rest: {p['rest']['main']}"""
 
@@ -351,11 +557,12 @@ Rest: {p['rest']['working']}"""
 
 def _block_reformance(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
     t = ctx["type_emoji"]
+    reps = _clamp_reps(p['reps'] + 2, ctx["order_emoji"])
     return f"""═══
 ## {num}) 🏗 Reformance
 Subcode: {_sub(ctx, 'Reformance')}
 ├─ {p['reps']} {t} {_ex(ctx, 1)} (corrective, address the weak link)
-│  Set 1: {ctx['order_emoji']} {p['warmup_load']}% × {p['reps'] + 2} (prehab)
+│  Set 1: {ctx['order_emoji']} {p['warmup_load']}% × {reps} (prehab)
 │  Set 2: {ctx['order_emoji']} {p['warmup_load'] + 5}% × {p['reps']} (stability)
 Rest: {p['rest']['working']}"""
 
@@ -366,8 +573,9 @@ def _block_bread_butter(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str
     sets = []
     order = ctx["order_emoji"]
     if ctx["order_emoji"] == "🏟":
+        max_load = int(_clamp_load(p['load'] + 5, ctx["order_emoji"]))
         sets.append(f"│  Set 1: {order} {p['load']}% × {p['reps']} (test attempt)")
-        sets.append(f"│  Set 2: {order} {p['load'] + 5}% × {p['reps']} (max attempt)")
+        sets.append(f"│  Set 2: {order} {max_load}% × {p['reps']} (max attempt)")
     elif ctx["order_emoji"] == "🖼":
         sets.append(f"│  Set 1: {order} {p['load']}% × {p['reps']} (slow, feel each rep)")
         sets.append(f"│  Set 2: {order} {p['load']}% × {p['reps']} (same tempo, same breath)")
@@ -385,61 +593,72 @@ Rest: {p['rest']['main']}"""
 
 def _block_sculpt(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
     t = ctx["type_emoji"]
+    reps = _clamp_reps(p['reps'] + 2, ctx["order_emoji"])
+    load = _clamp_load(p['load'] - 5, ctx["order_emoji"])
     return f"""═══
 ## {num}) 🗿 Sculpt
 Subcode: {_sub(ctx, 'Sculpt')}
-├─ {p['reps'] + 2} {t} {_ex(ctx, 2)} (angles, tension, volume)
-│  Set 1: {ctx['order_emoji']} {p['load'] - 5}% × {p['reps'] + 2} (shaping)
-│  Set 2: {ctx['order_emoji']} {p['load'] - 5}% × {p['reps'] + 2} (carving)
+├─ {reps} {t} {_ex(ctx, 2)} (angles, tension, volume)
+│  Set 1: {ctx['order_emoji']} {load}% × {reps} (shaping)
+│  Set 2: {ctx['order_emoji']} {load}% × {reps} (carving)
 Rest: {p['rest']['supplemental']}"""
 
 
 def _block_vanity(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
     t = ctx["type_emoji"]
+    reps = _clamp_reps(p['reps'] + 4, ctx["order_emoji"])
+    load = _clamp_load(max(p['load'] - 10, 40), ctx["order_emoji"])
     return f"""═══
 ## {num}) 🪞 Vanity
 Subcode: {_sub(ctx, 'Vanity')}
-├─ {p['reps'] + 4} {t} {_ex(ctx, 3)} (pump work, mirror muscles, honest)
-│  Set 1: {ctx['order_emoji']} {p['load'] - 10}% × {p['reps'] + 4} (accumulation)
-│  Set 2: {ctx['order_emoji']} {p['load'] - 10}% × {p['reps'] + 4} (chase the pump)
+├─ {reps} {t} {_ex(ctx, 3)} (pump work, mirror muscles, honest)
+│  Set 1: {ctx['order_emoji']} {load}% × {reps} (accumulation)
+│  Set 2: {ctx['order_emoji']} {load}% × {reps} (chase the pump)
 Rest: {p['rest']['supplemental']}"""
 
 
 def _block_supplemental(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
     t = ctx["type_emoji"]
+    reps = _clamp_reps(p['reps'] + 2, ctx["order_emoji"])
+    load = _clamp_load(max(p['load'] - 10, 40), ctx["order_emoji"])
     return f"""═══
 ## {num}) 🧩 Supplemental
 Subcode: {_sub(ctx, 'Supplemental')}
-├─ {p['reps'] + 2} {t} {_ex(ctx, 2)} (full range, different angle)
-│  Set 1: {ctx['order_emoji']} {p['load'] - 10}% × {p['reps'] + 2} (support volume)
-│  Set 2: {ctx['order_emoji']} {p['load'] - 10}% × {p['reps'] + 2} (non-redundant)
+├─ {reps} {t} {_ex(ctx, 2)} (full range, different angle)
+│  Set 1: {ctx['order_emoji']} {load}% × {reps} (support volume)
+│  Set 2: {ctx['order_emoji']} {load}% × {reps} (non-redundant)
 Rest: {p['rest']['supplemental']}"""
 
 
 def _block_release(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
     t = ctx["type_emoji"]
     order = ctx["order_emoji"]
-    if order == "🔴" or ctx["color_emoji"] == "🔴":
+    color = ctx["color_emoji"]
+    if color == "🔴":
         cue = "(stress out, cathartic discharge)"
-    elif order == "🖼" or ctx["color_emoji"] == "⚪":
-        cue = "(parasympathetic, tension down)"
+    elif color == "⚪" or order == "🖼":
+        cue = "(parasympathetic, tension down, 4s eccentric)"
     else:
         cue = "(smooth tempo, downshift)"
+    reps = _clamp_reps(12, order)
+    load = _clamp_load(max(p['load'] - 20, 40), order)
     return f"""═══
 ## {num}) 🪫 Release
 Subcode: {_sub(ctx, 'Release')}
-├─ 12 {t} {_ex(ctx, 3)} {cue}
-│  Set 1: {order} {max(p['load'] - 20, 40)}% × 12 (deload)
+├─ {reps} {t} {_ex(ctx, 3)} {cue}
+│  Set 1: {order} {load}% × {reps} (deload)
 Rest: {p['rest']['supplemental']}"""
 
 
 def _block_imprint(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
     t = ctx["type_emoji"]
+    reps = _clamp_reps(p['reps'] + 4, ctx["order_emoji"])
+    load = _clamp_load(max(p['load'] - 25, 35), ctx["order_emoji"])
     return f"""═══
 ## {num}) 🧬 Imprint
 Subcode: {_sub(ctx, 'Imprint')}
-├─ {p['reps'] + 4} {t} {_ex(ctx, 4)} (high rep, low load, neural memory)
-│  Set 1: {ctx['order_emoji']} {max(p['load'] - 25, 35)}% × {p['reps'] + 4} (lock the pattern)
+├─ {reps} {t} {_ex(ctx, 4)} (high rep, low load, neural memory)
+│  Set 1: {ctx['order_emoji']} {load}% × {reps} (lock the pattern)
 Rest: {p['rest']['supplemental']}"""
 
 
@@ -463,11 +682,54 @@ Rest: 90s after final round"""
 
 def _block_sandbox(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
     t = ctx["type_emoji"]
+    reps = _clamp_reps(p['reps'], ctx["order_emoji"])
+    load = _clamp_load(max(p['load'] - 10, 40), ctx["order_emoji"])
     return f"""═══
 ## {num}) 🏖 Sandbox
 Subcode: {_sub(ctx, 'Sandbox')}
-├─ {p['reps']} {t} {_ex(ctx, 4)} (explore within constraints, structured play)
-│  Set 1: {ctx['order_emoji']} {p['load'] - 10}% × {p['reps']} (discovery)
+├─ {reps} {t} {_ex(ctx, 4)} (explore within constraints, choose your variation)
+│  Option A: {ctx['order_emoji']} {load}% × {reps} (play with grip, stance, or tempo)
+│  Option B: {ctx['order_emoji']} {load}% × {reps} (try a variation you have not used before)
+Rest: {p['rest']['supplemental']}"""
+
+
+def _block_craft(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    """🛠 Craft block for ⚫ Teaching — skill acquisition with coaching cues."""
+    t = ctx["type_emoji"]
+    reps = _clamp_reps(p['reps'], ctx["order_emoji"])
+    return f"""═══
+## {num}) 🛠 Craft
+Subcode: {_sub(ctx, 'Craft')}
+├─ {reps} {t} {_ex(ctx, 1)} (coach: check grip width, elbow angle, foot pressure)
+│  Set 1: {ctx['order_emoji']} {p['warmup_load']}% × {reps} (practice the pattern, not the load)
+│  Set 2: {ctx['order_emoji']} {p['warmup_load'] + 5}% × {reps} (same cues, slightly heavier)
+Rest: {p['rest']['working']}"""
+
+
+def _block_gutter(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    """🌋 Gutter block for 🔴 Intense — all-out effort."""
+    t = ctx["type_emoji"]
+    reps = _clamp_reps(p['reps'] + 4, ctx["order_emoji"])
+    load = _clamp_load(max(p['load'] - 15, 40), ctx["order_emoji"])
+    return f"""═══
+## {num}) 🌋 Gutter
+Subcode: {_sub(ctx, 'Gutter')}
+├─ {reps} {t} {_ex(ctx, 3)} (all-out, leave nothing in reserve)
+│  Set 1: {ctx['order_emoji']} {load}% × {reps} (push to form break)
+│  Set 2: {ctx['order_emoji']} {load}% × AMRAP (final effort)
+Rest: 45s"""
+
+
+def _block_exposure(ctx: dict[str, Any], p: dict[str, Any], num: int) -> str:
+    """🌎 Exposure block for 🟡 Fun — reveal weaknesses, expand vocabulary."""
+    t = ctx["type_emoji"]
+    reps = _clamp_reps(p['reps'], ctx["order_emoji"])
+    load = _clamp_load(max(p['load'] - 15, 40), ctx["order_emoji"])
+    return f"""═══
+## {num}) 🌎 Exposure
+Subcode: {_sub(ctx, 'Exposure')}
+├─ {reps} {t} {_ex(ctx, 3)} (try the unfamiliar version, explore the range)
+│  Set 1: {ctx['order_emoji']} {load}% × {reps} (discovery set)
 Rest: {p['rest']['supplemental']}"""
 
 
@@ -480,14 +742,247 @@ def _block_junction(ctx: dict[str, Any], num: int) -> str:
 
 
 def _block_save(ctx: dict[str, Any]) -> str:
-    save_msg = ORDER_SAVE.get(ctx["order_emoji"], "Log the session and carry the standard forward.")
+    key = (ctx["order_emoji"], ctx["color_emoji"])
+    save_msg = SAVE_MESSAGES.get(key, SAVE_MESSAGES.get((ctx["order_emoji"], "🔵"), "Log the session and carry the standard forward."))
     return f"""
 ## 🧮 SAVE
 {save_msg}"""
 
 
+def _default_blocks(ctx: dict[str, Any], p: dict[str, Any], order_e: str) -> list[str]:
+    """Build the default Order-specific block sequence."""
+    blocks: list[str] = []
+    n = 1
+    if order_e == "🐂":
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_fundamentals(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_supplemental(ctx, p, n)); n += 1
+        blocks.append(_block_imprint(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    elif order_e == "⛽":
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_primer(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_supplemental(ctx, p, n)); n += 1
+        blocks.append(_block_release(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    elif order_e == "🦋":
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_primer(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_sculpt(ctx, p, n)); n += 1
+        blocks.append(_block_supplemental(ctx, p, n)); n += 1
+        blocks.append(_block_release(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    elif order_e == "🏟":
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_progression(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    elif order_e == "🌾":
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_composition(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_supplemental(ctx, p, n)); n += 1
+        blocks.append(_block_release(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    elif order_e == "⚖":
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_reformance(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_supplemental(ctx, p, n)); n += 1
+        blocks.append(_block_release(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    elif order_e == "🖼":
+        blocks.append(_block_intention(ctx)); n = 2
+        blocks.append(_block_release(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_imprint(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    else:
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_supplemental(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    return blocks
+
+
+def _circuit_blocks(ctx: dict[str, Any], p: dict[str, Any], order_e: str) -> list[str]:
+    """🟠 Circuit: ARAM replaces 🧈. No barbells. Station rotation."""
+    blocks: list[str] = []
+    n = 1
+    if order_e == "🏟":
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_aram(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    elif order_e == "🖼":
+        blocks.append(_block_intention(ctx)); n = 2
+        blocks.append(_block_aram(ctx, p, n)); n += 1
+        blocks.append(_block_release(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    else:
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_aram(ctx, p, n)); n += 1
+        blocks.append(_block_release(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    return blocks
+
+
+def _fun_blocks(ctx: dict[str, Any], p: dict[str, Any], order_e: str) -> list[str]:
+    """🟡 Fun: Always includes 🏖 Sandbox + 🌎 Exposure where possible."""
+    blocks: list[str] = []
+    n = 1
+    if order_e == "🏟":
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_sandbox(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    elif order_e == "🖼":
+        blocks.append(_block_intention(ctx)); n = 2
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_sandbox(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    else:
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_exposure(ctx, p, n)); n += 1
+        blocks.append(_block_sandbox(ctx, p, n)); n += 1
+        blocks.append(_block_release(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    return blocks
+
+
+def _mindful_blocks(ctx: dict[str, Any], p: dict[str, Any], order_e: str) -> list[str]:
+    """⚪ Mindful: Extended warm-up/release. 4s eccentric. 120s+ rest. Breathing cues."""
+    blocks: list[str] = []
+    n = 1
+    if order_e == "🏟":
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    elif order_e == "🖼":
+        blocks.append(_block_intention(ctx)); n = 2
+        blocks.append(_block_release(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_imprint(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    else:
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_supplemental(ctx, p, n)); n += 1
+        blocks.append(_block_release(ctx, p, n)); n += 1
+        blocks.append(_block_imprint(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    return blocks
+
+
+def _teaching_blocks(ctx: dict[str, Any], p: dict[str, Any], order_e: str) -> list[str]:
+    """⚫ Teaching: +🛠 Craft block. Coaching cues. Extended rest."""
+    blocks: list[str] = []
+    n = 1
+    if order_e == "🏟":
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_craft(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    elif order_e == "🖼":
+        blocks.append(_block_intention(ctx)); n = 2
+        blocks.append(_block_craft(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    else:
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_craft(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_supplemental(ctx, p, n)); n += 1
+        blocks.append(_block_imprint(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    return blocks
+
+
+def _bodyweight_blocks(ctx: dict[str, Any], p: dict[str, Any], order_e: str) -> list[str]:
+    """🟢 Bodyweight: Standard Order sequence. No barbells, no machines."""
+    return _default_blocks(ctx, p, order_e)
+
+
+def _intense_blocks(ctx: dict[str, Any], p: dict[str, Any], order_e: str) -> list[str]:
+    """🔴 Intense: Reduced rest. +🌋 Gutter (not in 🖼/🐂). Supersets in 🧩."""
+    blocks: list[str] = []
+    n = 1
+    if order_e == "🏟":
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_progression(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    elif order_e == "🖼":
+        blocks.append(_block_intention(ctx)); n = 2
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_release(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    elif order_e in ("🐂",):  # No gutter in Foundation
+        return _default_blocks(ctx, p, order_e)
+    else:
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_primer(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_supplemental(ctx, p, n)); n += 1
+        blocks.append(_block_gutter(ctx, p, n)); n += 1
+        blocks.append(_block_release(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    return blocks
+
+
+def _technical_blocks(ctx: dict[str, Any], p: dict[str, Any], order_e: str) -> list[str]:
+    """🟣 Technical: Fewer blocks (minimum for Order). Extended rest. Quality over volume."""
+    blocks: list[str] = []
+    n = 1
+    min_blocks = ORDER_CEILINGS.get(order_e, {}).get("blocks_min", 4)
+    if order_e == "🏟":
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_progression(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    elif order_e == "🖼":
+        blocks.append(_block_intention(ctx)); n = 2
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_imprint(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    else:
+        blocks.append(_block_warmup(ctx, p, n)); n += 1
+        blocks.append(_block_primer(ctx, p, n)); n += 1
+        blocks.append(_block_bread_butter(ctx, p, n)); n += 1
+        blocks.append(_block_supplemental(ctx, p, n)); n += 1
+        blocks.append(_block_release(ctx, p, n)); n += 1
+        blocks.append(_block_junction(ctx, n))
+    # Ensure we meet minimum block count for the Order
+    # (Technical aims for min, not max — quality over volume)
+    return blocks
+
+
+def _structured_blocks(ctx: dict[str, Any], p: dict[str, Any], order_e: str) -> list[str]:
+    """🔵 Structured: Default Order sequence + 🪜 Progression prominent."""
+    blocks = _default_blocks(ctx, p, order_e)
+    # Add Progression before 🧈 if not already present (for non-🏟 Orders)
+    if order_e not in ("🏟", "🖼") and not any("🪜 Progression" in b for b in blocks):
+        new_blocks = []
+        for blk in blocks:
+            if "🧈 Bread & Butter" in blk:
+                prog_num = int(blk.split(")")[0].split("##")[-1].strip())
+                new_blocks.append(_block_progression(ctx, p, prog_num))
+                # Renumber remaining blocks
+                new_blocks.append(blk.replace(f"## {prog_num})", f"## {prog_num + 1})"))
+            else:
+                new_blocks.append(blk)
+        # Only use if within block count limits
+        max_blocks = ORDER_CEILINGS[order_e].get("blocks_max", 7)
+        if len(new_blocks) <= max_blocks:
+            blocks = new_blocks
+    return blocks
+
+
 def fallback_template(context: dict[str, Any]) -> str:
-    """Generate Order×Color aware workout card template."""
+    """Generate Order×Color aware workout card template with Color-first dispatch."""
     zip_code = context["zip"]
     t = context.get("type_emoji", TYPE_EMOJI.get(context["type_name"], "🛒"))
     order_e = context["order_emoji"]
@@ -496,7 +991,8 @@ def fallback_template(context: dict[str, Any]) -> str:
     time_est = ORDER_TIME.get(order_e, "45-55 min")
 
     title = f"{context['primary_exercise']} — {context['type_name']} {context['color_name']}"
-    intention = ORDER_INTENTIONS.get(order_e, "Work with purpose.")
+    key = (order_e, color_e)
+    intention = INTENTIONS.get(key, INTENTIONS.get((order_e, "🔵"), "Work with purpose."))
 
     header = f"""# {t} {title} {t}
 
@@ -507,102 +1003,23 @@ def fallback_template(context: dict[str, Any]) -> str:
 > \"{intention}\"
 """
 
-    blocks: list[str] = []
-    n = 1
-
-    # --- Order-specific block assembly ---
-
-    if order_e == "🐂":  # Foundation: 4-6 blocks
-        blocks.append(_block_warmup(context, p, n)); n += 1
-        blocks.append(_block_fundamentals(context, p, n)); n += 1
-        blocks.append(_block_bread_butter(context, p, n)); n += 1
-        if color_e not in ("🟠",):
-            blocks.append(_block_supplemental(context, p, n)); n += 1
-        blocks.append(_block_imprint(context, p, n)); n += 1
-        blocks.append(_block_junction(context, n)); n += 1
-
-    elif order_e == "⛽":  # Strength: 5-6 blocks
-        blocks.append(_block_warmup(context, p, n)); n += 1
-        blocks.append(_block_primer(context, p, n)); n += 1
-        blocks.append(_block_bread_butter(context, p, n)); n += 1
-        blocks.append(_block_supplemental(context, p, n)); n += 1
-        blocks.append(_block_release(context, p, n)); n += 1
-        blocks.append(_block_junction(context, n)); n += 1
-
-    elif order_e == "🦋":  # Hypertrophy: 6-7 blocks
-        blocks.append(_block_warmup(context, p, n)); n += 1
-        blocks.append(_block_primer(context, p, n)); n += 1
-        blocks.append(_block_bread_butter(context, p, n)); n += 1
-        blocks.append(_block_sculpt(context, p, n)); n += 1
-        if color_e == "🔴":
-            blocks.append(_block_vanity(context, p, n)); n += 1
-        else:
-            blocks.append(_block_supplemental(context, p, n)); n += 1
-        blocks.append(_block_release(context, p, n)); n += 1
-        blocks.append(_block_junction(context, n)); n += 1
-
-    elif order_e == "🏟":  # Performance: 3-4 blocks ONLY
-        blocks.append(_block_warmup(context, p, n)); n += 1
-        blocks.append(_block_progression(context, p, n)); n += 1
-        blocks.append(_block_bread_butter(context, p, n)); n += 1
-        blocks.append(_block_junction(context, n)); n += 1
-
-    elif order_e == "🌾":  # Full Body: 5-6 blocks
-        blocks.append(_block_warmup(context, p, n)); n += 1
-        blocks.append(_block_composition(context, p, n)); n += 1
-        blocks.append(_block_bread_butter(context, p, n)); n += 1
-        blocks.append(_block_supplemental(context, p, n)); n += 1
-        blocks.append(_block_release(context, p, n)); n += 1
-        blocks.append(_block_junction(context, n)); n += 1
-
-    elif order_e == "⚖":  # Balance: 5-6 blocks
-        blocks.append(_block_warmup(context, p, n)); n += 1
-        blocks.append(_block_reformance(context, p, n)); n += 1
-        blocks.append(_block_bread_butter(context, p, n)); n += 1
-        blocks.append(_block_supplemental(context, p, n)); n += 1
-        blocks.append(_block_release(context, p, n)); n += 1
-        blocks.append(_block_junction(context, n)); n += 1
-
-    elif order_e == "🖼":  # Restoration: 4-5 blocks
-        blocks.append(_block_intention(context))
-        n = 2
-        blocks.append(_block_release(context, p, n)); n += 1
-        blocks.append(_block_bread_butter(context, p, n)); n += 1
-        blocks.append(_block_imprint(context, p, n)); n += 1
-        blocks.append(_block_junction(context, n)); n += 1
-
-    else:  # Fallback for unknown Order
-        blocks.append(_block_warmup(context, p, n)); n += 1
-        blocks.append(_block_bread_butter(context, p, n)); n += 1
-        blocks.append(_block_supplemental(context, p, n)); n += 1
-        blocks.append(_block_junction(context, n)); n += 1
-
-    # --- Color overrides ---
-    # 🟠 Circuit: replace 🧈 Bread & Butter with 🎱 ARAM (validator requires this)
-    if color_e == "🟠" and order_e != "🏟":
-        new_blocks = []
-        for blk in blocks:
-            if "🧈 Bread & Butter" in blk:
-                aram_num = int(blk.split(")")[0].split("##")[-1].strip())
-                new_blocks.append(_block_aram(context, p, aram_num))
-            elif "🧩 Supplemental" in blk or "🗿 Sculpt" in blk or "🪞 Vanity" in blk:
-                continue  # Drop extra transformation blocks — ARAM absorbs them
-            else:
-                new_blocks.append(blk)
-        blocks = new_blocks
-
-    # 🟡 Fun: add Sandbox before Junction only if block count stays within Order max
-    order_blocks_max = ORDER_CEILINGS[order_e].get("blocks_max", 6)
-    if color_e == "🟡" and order_e not in ("🏟",) and len(blocks) < order_blocks_max:
-        new_blocks = []
-        for blk in blocks:
-            if "🚂 Junction" in blk:
-                sandbox_num = int(blk.split(")")[0].split("##")[-1].strip())
-                new_blocks.append(_block_sandbox(context, p, sandbox_num))
-                new_blocks.append(blk.replace(f"## {sandbox_num})", f"## {sandbox_num + 1})"))
-            else:
-                new_blocks.append(blk)
-        blocks = new_blocks
+    # --- Color-first block dispatch ---
+    if color_e == "🟠":
+        blocks = _circuit_blocks(context, p, order_e)
+    elif color_e == "🟡":
+        blocks = _fun_blocks(context, p, order_e)
+    elif color_e == "⚪":
+        blocks = _mindful_blocks(context, p, order_e)
+    elif color_e == "⚫":
+        blocks = _teaching_blocks(context, p, order_e)
+    elif color_e == "🟢":
+        blocks = _bodyweight_blocks(context, p, order_e)
+    elif color_e == "🔴":
+        blocks = _intense_blocks(context, p, order_e)
+    elif color_e == "🟣":
+        blocks = _technical_blocks(context, p, order_e)
+    else:
+        blocks = _structured_blocks(context, p, order_e)
 
     body = header + "\n".join(blocks) + _block_save(context)
     return body
@@ -650,6 +1067,12 @@ def generate_deck(deck: int, generator_cmd: str | None, limit: int | None, dry_r
 
         meta = registry[zip_code]
         supplemental = selector_candidates(zip_code, top=5)
+        # Filter supplemental exercises for Type accuracy
+        type_name = meta["type"]["name"]
+        supplemental = _filter_exercises_for_type(supplemental, type_name)
+        # Filter out barbells for 🟢 and 🟠
+        if meta["color"]["emoji"] in NO_BARBELL:
+            supplemental = _filter_no_barbell(supplemental)
         context = {
             "zip": zip_code,
             "operator": stub.frontmatter.get("operator", meta["operator"]["emoji"] + " " + meta["operator"]["name"]),

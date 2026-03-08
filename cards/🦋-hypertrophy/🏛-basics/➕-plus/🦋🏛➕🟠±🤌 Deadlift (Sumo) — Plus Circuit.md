@@ -11,53 +11,38 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
 # ➕ Deadlift (Sumo) — Plus Circuit ➕
 
-## Hypertrophy Basics — Plus focus (Circuit) · 45-55 min
+## Hypertrophy Basics — Plus focus (Circuit) · 55-70 min
 
 **CODE:** 🦋🏛➕🟠
 
-> "Drive clean reps inside the hypertrophy ceiling and make every set repeatable."
-
+> "Circuit the muscle group from every angle. Each station is a new stimulus."
 ═══
-## 1) ♨️ Warm-Up — 🤌 facio inline
+## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🦋🏛➕🟠 (Warm-Up | Plus | Basics | Circuit)
-├─ 10 ➕ Pull-Up (Overhand Grip) (steady tempo, easy ramp)
-│  Set 1: 🦋 60% × 10 (pattern prep)
-Rest: 75s
-
+├─ 12 ➕ Pull-Up (Overhand Grip) (station rotation, keep moving)
+│  Set 1: 🦋 50% × 12 (pattern prep)
+Rest: 30s
 ═══
-## 2) ▶️ Primer
-Subcode: 🦋🏛➕🟠 (Primer | Plus | Basics | Circuit)
-├─ 8 ➕ Bent-Over Barbell Row (Overhand) (tight setup, crisp intent)
-│  Set 1: 🦋 65% × 8 (activation)
-Rest: 90s
-
+## 2) 🎱 ARAM — Circuit Loop
+Subcode: 🦋🏛➕🟠 (ARAM | Plus | Basics | Circuit)
+┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
+│  Station 1: ➕ Deadlift (Sumo) × 10 (station rotation, keep moving)
+│  Station 2: ➕ Pull-Up (Overhand Grip) × 10 (station rotation, keep moving)
+│  Station 3: ➕ Bent-Over Barbell Row (Overhand) × 10 (station rotation, keep moving)
+│  Station 4: ➕ Chest-Supported Row (Elbow Out) × 10 (station rotation, keep moving)
+│  Transition: 15s between stations
+│  Round rest: 37s
+Rest: 90s after final round
 ═══
-## 3) 🧈 Bread & Butter
-Subcode: 🦋🏛➕🟠 (Bread & Butter | Plus | Basics | Circuit)
-├─ 5 ➕ Deadlift (Sumo) (clean line, own the bottom)
-│  Set 1: 🦋 75% × 5 (build set)
-│  Set 2: 🦋 80% × 5 (working set)
-│  Set 3: 🦋 80% × 5 (repeat quality)
-Rest: 180s
-
-═══
-## 4) 🧩 Supplemental
-Subcode: 🦋🏛➕🟠 (Supplemental | Plus | Basics | Circuit)
-├─ 6 ➕ Chest-Supported Row (Elbow Out) (full range, no drift)
-│  Set 1: 🦋 70% × 6 (support volume)
-Rest: 120s
-
-═══
-## 5) 🪫 Release
+## 3) 🪫 Release
 Subcode: 🦋🏛➕🟠 (Release | Plus | Basics | Circuit)
 ├─ 12 ➕ Deadlift (Conventional) (smooth tempo, downshift)
-│  Set 1: 🦋 55% × 12 (tension out)
-Rest: 90s
-
+│  Set 1: 🦋 50% × 12 (deload)
+Rest: 30s
 ═══
-## 6) 🚂 Junction
+## 4) 🚂 Junction
 - Log: load, reps, and form break point.
-- Next → 🦋🏛➕🟠 — repeat and tighten execution under same constraints.
-
+- Next → 🦋🏛➕🟠 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Keep the same movement standard next session and only add load if bar path and position stay unchanged.
+Circuit hypertrophy works through cumulative fatigue. Note which station failed first.

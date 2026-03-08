@@ -15,7 +15,7 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 
 **CODE:** 🦋🔨🛒🟡
 
-> "Build tension through volume. Load serves the muscle, not the ego."
+> "Try exercises you would not normally pick. Variety stimulates growth."
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🦋🔨🛒🟡 (Warm-Up | Push | Functional | Fun)
@@ -23,13 +23,7 @@ Subcode: 🦋🔨🛒🟡 (Warm-Up | Push | Functional | Fun)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
-## 2) ▶️ Primer
-Subcode: 🦋🔨🛒🟡 (Primer | Push | Functional | Fun)
-├─ 10 🛒 Alternating Dumbbell Front Raise (tight setup, crisp intent)
-│  Set 1: 🦋 60% × 10 (activation)
-Rest: 75s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: 🦋🔨🛒🟡 (Bread & Butter | Push | Functional | Fun)
 ├─ 10 🛒 Neutral-Grip Lat Pulldown (Brachialis) (explore, stay within constraints)
 │  Set 1: 🦋 65% × 10 (build set)
@@ -37,29 +31,28 @@ Subcode: 🦋🔨🛒🟡 (Bread & Butter | Push | Functional | Fun)
 │  Set 3: 🦋 70% × 10 (repeat quality)
 Rest: 90s
 ═══
-## 4) 🗿 Sculpt
-Subcode: 🦋🔨🛒🟡 (Sculpt | Push | Functional | Fun)
-├─ 12 🛒 Alternating Dumbbell Curl (angles, tension, volume)
-│  Set 1: 🦋 65% × 12 (shaping)
-│  Set 2: 🦋 65% × 12 (carving)
+## 3) 🌎 Exposure
+Subcode: 🦋🔨🛒🟡 (Exposure | Push | Functional | Fun)
+├─ 10 🛒 Single-Arm Overhead Dumbbell Extension (try the unfamiliar version, explore the range)
+│  Set 1: 🦋 55% × 10 (discovery set)
 Rest: 60s
 ═══
-## 5) 🧩 Supplemental
-Subcode: 🦋🔨🛒🟡 (Supplemental | Push | Functional | Fun)
-├─ 12 🛒 Alternating Dumbbell Curl (full range, different angle)
-│  Set 1: 🦋 60% × 12 (support volume)
-│  Set 2: 🦋 60% × 12 (non-redundant)
+## 4) 🏖 Sandbox
+Subcode: 🦋🔨🛒🟡 (Sandbox | Push | Functional | Fun)
+├─ 10 🛒 Low-to-High Cable Fly (explore within constraints, choose your variation)
+│  Option A: 🦋 60% × 10 (play with grip, stance, or tempo)
+│  Option B: 🦋 60% × 10 (try a variation you have not used before)
 Rest: 60s
 ═══
-## 6) 🪫 Release
+## 5) 🪫 Release
 Subcode: 🦋🔨🛒🟡 (Release | Push | Functional | Fun)
 ├─ 12 🛒 Single-Arm Overhead Dumbbell Extension (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══
-## 7) 🚂 Junction
+## 6) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🦋🔨🛒🟡 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Track the pump and the tension. Volume drives growth; form keeps it honest.
+New exercises recruit new motor units. Track what felt different.

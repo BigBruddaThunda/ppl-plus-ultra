@@ -9,98 +9,50 @@ type: ➖ Ultra | Cardiovascular system, conditioning
 color: ⚪ Mindful
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➖ Treadmill Incline Walk — Ultra Mindful ➖
 
-# ➖ Treadmill Incline Walk — Breath-Paced Conditioning ➖
+## Strength Aesthetic — Ultra focus (Mindful) · 50-65 min
 
-Strength aesthetic session | Engine, pacing, repeat output | 48-65 min
+**CODE:** ⛽🌹➖⚪
 
-CODE: ⛽🌹➖⚪
-
-> "Hold strong interval output while keeping pace mechanics clean from first effort to last."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 👀 specio
-
-Sub-block: ♨️➖🌹⚪ (Warm-Up | Ultra | Aesthetic | Mindful)
-
-├─ 5 ➖ Treadmill Incline Walk (steady nasal breath)
-├─ 5 ➖ Jump Rope Intervals (1 minute on/off) (light contacts)
-└─ 5 ➖ Mountain Climber (smooth rhythm)
-
-Rest: 90 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➖🌹⚪ (Primer | Ultra | Aesthetic | Mindful)
-
-├─ Set 1: ⛽ 55% × 6 efforts on Treadmill Incline Walk (find pace)
-├─ Set 2: ⛽ 65% × 5 efforts on Treadmill Incline Walk (steady split)
-└─ Set 3: ⛽ 72% × 4 efforts on Treadmill Incline Walk (hard but controlled)
-
-Rest: 2 min 30 sec between efforts.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 👀 specio
-
-Sub-block: 🧈➖🌹⚪ (Bread & Butter | Ultra | Aesthetic | Mindful)
-
-├─ 5 ➖ Treadmill Incline Walk (breath-paced and quiet)
-│  ├─ Set 1: ⛽ 75% × 5 efforts
-│  ├─ Set 2: ⛽ 78% × 5 efforts
-│  ├─ Set 3: ⛽ 82% × 4 efforts
-│  └─ Set 4: ⛽ 85% × 4 efforts
-└─ 4 ➖ Slow Mountain Climber (same pace target)
-   ├─ Set 1: ⛽ 76% × 4 efforts
-   ├─ Set 2: ⛽ 78% × 4 efforts
-   └─ Set 3: ⛽ 80% × 4 efforts
-
-Rest: 3 min between efforts.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➖🌹⚪ (Supplemental | Ultra | Aesthetic | Mindful)
-
-├─ 5 ➖ Plank Walkout (stay smooth under fatigue)
-│  ├─ Set 1: ⛽ 75% × 5 efforts
-│  ├─ Set 2: ⛽ 78% × 4 efforts
-│  └─ Set 3: ⛽ 80% × 4 efforts
-└─ 5 ➖ Dead Bug (finish each interval clean)
-   ├─ Set 1: ⛽ 74% × 5 efforts
-   ├─ Set 2: ⛽ 76% × 5 efforts
-   └─ Set 3: ⛽ 78% × 4 efforts
-
-Rest: 2 min 30 sec between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫➖🌹⚪ (Release | Ultra | Aesthetic | Mindful)
-
-- 5 minutes easy walk and downshift breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂➖🌹⚪ (Junction | Ultra | Aesthetic | Mindful)
-
-Next → ⛽🌹🍗⚪ — leg strength day after engine demand.
-Next → ⛽🌹🪡⚪ — pull session restores posterior focus.
-Next → 🖼🌹➖⚪ — low-load recovery to keep CNS fresh.
-
-Log: pace ______ | best interval ______ | note ______
-
-═══════════════════════════════════════
-
+> "Four seconds down. Feel every degree of the range before you earn the drive."
+═══
+## 1) ♨️ Warm-Up — 👀 specio
+Subcode: ⛽🌹➖⚪ (Warm-Up | Ultra | Aesthetic | Mindful)
+├─ 6 ➖ Sprint (10-30 meters) (4s eccentric, breath-paced)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 180s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽🌹➖⚪ (Bread & Butter | Ultra | Aesthetic | Mindful)
+├─ 5 ➖ Treadmill Incline Walk (4s eccentric, breath-paced)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 360s
+═══
+## 3) 🧩 Supplemental
+Subcode: ⛽🌹➖⚪ (Supplemental | Ultra | Aesthetic | Mindful)
+├─ 6 ➖ Sprint (30-60 meters) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 240s
+═══
+## 4) 🪫 Release
+Subcode: ⛽🌹➖⚪ (Release | Ultra | Aesthetic | Mindful)
+├─ 6 ➖ Sprint (60-100 meters) (parasympathetic, tension down, 4s eccentric)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 240s
+═══
+## 5) 🧬 Imprint
+Subcode: ⛽🌹➖⚪ (Imprint | Ultra | Aesthetic | Mindful)
+├─ 6 ➖ Hill Sprint (Short) (high rep, low load, neural memory)
+│  Set 1: ⛽ 55% × 6 (lock the pattern)
+Rest: 240s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹➖⚪ — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Engine strength is repeatability under fatigue. Keep interval quality and breathing control stable before progressing speed or resistance.
+Slow strength builds tendons, not just muscles. Trust the tempo.

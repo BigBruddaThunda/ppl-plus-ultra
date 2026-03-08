@@ -15,7 +15,7 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🔨➕🔵
 
-> "Flow through the full body as one integrated pattern."
+> "Prescribed flow. Each movement connects to the next without reset."
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🌾🔨➕🔵 (Warm-Up | Plus | Functional | Structured)
@@ -40,15 +40,15 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🔨➕🔵 (Supplemental | Plus | Functional | Structured)
-├─ 11 ➕ Single-Leg Romanian Deadlift (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
+├─ 10 ➕ Single-Leg Romanian Deadlift (full range, different angle)
+│  Set 1: 🌾 60% × 10 (support volume)
+│  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🔨➕🔵 (Release | Plus | Functional | Structured)
-├─ 12 ➕ Half-Kneeling Pallof Press (smooth tempo, downshift)
-│  Set 1: 🌾 50% × 12 (deload)
+├─ 10 ➕ Half-Kneeling Pallof Press (smooth tempo, downshift)
+│  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══
 ## 6) 🚂 Junction

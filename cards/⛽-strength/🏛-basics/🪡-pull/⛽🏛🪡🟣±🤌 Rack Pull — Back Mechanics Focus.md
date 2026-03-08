@@ -10,117 +10,50 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟣 Technical | Tier 2–5 | GOLD: Yes | Precision. Fewer blocks. Extended rest. Quality focus.
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
+# 🪡 Rack Pull — Pull Technical 🪡
 
-# 🪡 Rack Pull — Back Mechanics Focus 🪡
+## Strength Basics — Pull focus (Technical) · 50-65 min
 
-Technical barbell pull, low volume, extended rest | Lats, erectors, traps | 70–80 min
+**CODE:** ⛽🏛🪡🟣
 
-CODE: ⛽🏛🪡🟣
-
-> "Less volume. More information per rep."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🤌 facio — technical sessions need a longer warm-up
-
-- 60 sec Dead Hang (passive, decompress the spine)
-- 10 Scapular Pull-Up (feel the full range clearly)
-- 10 Band Pull-Apart (scapular retraction focus)
-- 8/side Prone Y-Raise (thoracic extension at full Y angle)
-- 8 Cat-Cow (rib cage leads)
-- 6 Thoracic Extension over foam roller (if available)
-
-Rest: 60 sec between movements.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-🤌 facio — ramp with intention, quality at every step
-
-- Set 1: 50% × 4 (build the position — hips aligned, flat back, every point checked)
-- Set 2: 60% × 3 (drive through the floor)
-- Set 3: 70% × 2 (full setup ritual — no casual reps here)
-
-Rest: 2 min between ramp sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-🤌 facio — execute with precision, not volume
-
-Rest: 4–5 min between all sets. Non-negotiable in 🟣.
-
-**A. 🪡 Rack Pull (Below Knee)**
-
-- Set 1: 80% × 5 (film this set if possible — this is the data set)
-- Set 2: 82.5% × 4 (correct whatever you saw — adjust grip, stance, brace)
-- Set 3: 85% × 3 (top end — does technique hold as load increases?)
-- Set 4: 80% × 4 (back-off — technique check at moderate load after the heavy work)
-
-**B. 🪡 Paused Deadlift (Conventional)**
-
-Two-second pause below the knee. The pause is the diagnostic.
-
-- Set 1: 75% × 4 (pause at the knee — back flat? lats engaged? bar path vertical?)
-- Set 2: 77.5% × 3 (this is where most people lose the hinge)
-- Set 3: 77.5% × 3 (pause, breathe, reset the brace before pulling through)
-
-Rest: 4 min. Two deadlift movements is high CNS demand — treat it accordingly.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-🤌 facio — one supplemental movement, honest and short
-
-Rest: 4 min
-
-**🪡 Pendlay Row**
-
-Every rep resets to the floor. No momentum. The most honest version of the row.
-
-- Set 1: 77.5% × 5 (dead stop on the floor, pull to the lower sternum)
-- Set 2: 80% × 4 (torso horizontal throughout — lock it in)
-- Set 3: 80% × 4 (elbows close, lats engaged before the pull)
-
-If the chest rises to meet the bar, the load is too heavy or the brace has failed.
-
-═══════════════════════════════════════
-
-## 5. 🚂 JUNCTION
-
-Cross-Junction map (current zip at center):
-
-```text
-               ↑ ⛽⌛➕🔴
-                    (convert force into full-body power with timed structure)
-
-← ⛽🏛🛒🔴   •   ⛽🏛🪡🟣   → ⛽🏛🍗🔴
-  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
-
-               ↓ 🖼⌛➖⚪
-                    (downshift and recover while keeping pattern quality)
-```
-
-```
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-Readiness next session (1–5): _________
-```
-
-Next →
-- ⛽⌛➕🔴 — convert force into full-body power with timed structure
-- ⛽🏛🛒🔴 — pair the main strength pattern with its structural complement
-- ⛽🏛🍗🔴 — pair the main strength pattern with its structural complement
-- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
-
-═══════════════════════════════════════
-
+> "One clean rep at the right load is worth more than five at the wrong one."
+═══
+## 1) ♨️ Warm-Up — 🤌 facio
+Subcode: ⛽🏛🪡🟣 (Warm-Up | Pull | Basics | Technical)
+├─ 6 🪡 Zercher Carry (precision, quality over volume)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 135s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🏛🪡🟣 (Primer | Pull | Basics | Technical)
+├─ 5 🪡 Push Jerk (Barbell) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 180s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🏛🪡🟣 (Bread & Butter | Pull | Basics | Technical)
+├─ 5 🪡 Rack Pull (precision, quality over volume)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 270s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🏛🪡🟣 (Supplemental | Pull | Basics | Technical)
+├─ 6 🪡 Pull-Up (Overhand Grip) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 180s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🏛🪡🟣 (Release | Pull | Basics | Technical)
+├─ 6 🪡 Bent-Over Barbell Row (Overhand) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 180s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🏛🪡🟣 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Technical sessions don't produce more volume — they produce more information. What you learned about your deadlift mechanics today is worth more than two extra sets. Log the observation, not just the numbers.
+Log bar path quality, not just the weight. The how matters as much as the how much.

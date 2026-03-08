@@ -15,20 +15,20 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🏛➖⚫
 
-> "Flow through the full body as one integrated pattern."
+> "Connect the chain. Coach each transition between movements."
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🌾🏛➖⚫ (Warm-Up | Ultra | Basics | Teaching)
 ├─ 10 ➖ Rowing Machine (Steady State) (coached, check form before adding load)
 │  Set 1: 🌾 50% × 10 (pattern prep)
-Rest: 60s
+Rest: 90s
 ═══
-## 2) 🎼 Composition
-Subcode: 🌾🏛➖⚫ (Composition | Ultra | Basics | Teaching)
-├─ 9 ➖ Kettlebell Goblet Squat → Rowing Intervals (500m) (flow without reset)
-│  Set 1: 🌾 70% × 9 (unified pattern)
-│  Set 2: 🌾 70% × 9 (repeat flow)
-Rest: 60s
+## 2) 🛠 Craft
+Subcode: 🌾🏛➖⚫ (Craft | Ultra | Basics | Teaching)
+├─ 9 ➖ Kettlebell Goblet Squat (coach: check grip width, elbow angle, foot pressure)
+│  Set 1: 🌾 50% × 9 (practice the pattern, not the load)
+│  Set 2: 🌾 55% × 9 (same cues, slightly heavier)
+Rest: 90s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🏛➖⚫ (Bread & Butter | Ultra | Basics | Teaching)
@@ -36,24 +36,24 @@ Subcode: 🌾🏛➖⚫ (Bread & Butter | Ultra | Basics | Teaching)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
-Rest: 60s
+Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🏛➖⚫ (Supplemental | Ultra | Basics | Teaching)
-├─ 11 ➖ Single-Leg Hops Through Ladder (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
-Rest: 45s
+├─ 10 ➖ Single-Leg Hops Through Ladder (full range, different angle)
+│  Set 1: 🌾 60% × 10 (support volume)
+│  Set 2: 🌾 60% × 10 (non-redundant)
+Rest: 67s
 ═══
-## 5) 🪫 Release
-Subcode: 🌾🏛➖⚫ (Release | Ultra | Basics | Teaching)
-├─ 12 ➖ Rowing Intervals (500m) (smooth tempo, downshift)
-│  Set 1: 🌾 50% × 12 (deload)
-Rest: 45s
+## 5) 🧬 Imprint
+Subcode: 🌾🏛➖⚫ (Imprint | Ultra | Basics | Teaching)
+├─ 10 ➖ Single-Foot In Each Box (Forward) (high rep, low load, neural memory)
+│  Set 1: 🌾 45% × 10 (lock the pattern)
+Rest: 67s
 ═══
 ## 6) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🌾🏛➖⚫ — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The flow is the measure. If movements disconnected, simplify next session.
+Note which transitions felt disconnected. Coach those links next session.

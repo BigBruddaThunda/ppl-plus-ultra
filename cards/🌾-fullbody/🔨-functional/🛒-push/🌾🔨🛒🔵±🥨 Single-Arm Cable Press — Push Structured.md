@@ -15,7 +15,7 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🔨🛒🔵
 
-> "Flow through the full body as one integrated pattern."
+> "Prescribed flow. Each movement connects to the next without reset."
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🌾🔨🛒🔵 (Warm-Up | Push | Functional | Structured)
@@ -40,15 +40,15 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🔨🛒🔵 (Supplemental | Push | Functional | Structured)
-├─ 11 🛒 Single-Arm Landmine Press (Chest Focus) (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
+├─ 10 🛒 Single-Arm Landmine Press (Chest Focus) (full range, different angle)
+│  Set 1: 🌾 60% × 10 (support volume)
+│  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🔨🛒🔵 (Release | Push | Functional | Structured)
-├─ 12 🛒 Alternating Dumbbell Curl (smooth tempo, downshift)
-│  Set 1: 🌾 50% × 12 (deload)
+├─ 10 🛒 Alternating Dumbbell Curl (smooth tempo, downshift)
+│  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══
 ## 6) 🚂 Junction

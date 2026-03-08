@@ -9,98 +9,50 @@ type: ➖ Ultra | Cardiovascular system, conditioning
 color: 🟣 Technical
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➖ Ski Erg Intervals — Ultra Technical ➖
 
-# ➖ Ski Erg Intervals — Pulling Mechanics Focus ➖
+## Strength Aesthetic — Ultra focus (Technical) · 50-65 min
 
-Strength aesthetic session | Engine, pacing, repeat output | 48-65 min
+**CODE:** ⛽🌹➖🟣
 
-CODE: ⛽🌹➖🟣
-
-> "Hold strong interval output while keeping pace mechanics clean from first effort to last."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🪢 plico
-
-Sub-block: ♨️➖🌹🟣 (Warm-Up | Ultra | Aesthetic | Technical)
-
-├─ 5 ➖ Treadmill Incline Walk (steady nasal breath)
-├─ 5 ➖ Jump Rope Intervals (1 minute on/off) (light contacts)
-└─ 5 ➖ Mountain Climber (smooth rhythm)
-
-Rest: 60 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➖🌹🟣 (Primer | Ultra | Aesthetic | Technical)
-
-├─ Set 1: ⛽ 55% × 6 efforts on Ski Erg Intervals (500m) (find pace)
-├─ Set 2: ⛽ 65% × 5 efforts on Ski Erg Intervals (500m) (steady split)
-└─ Set 3: ⛽ 72% × 4 efforts on Ski Erg Intervals (500m) (hard but controlled)
-
-Rest: 2 min between efforts.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🪢 plico
-
-Sub-block: 🧈➖🌹🟣 (Bread & Butter | Ultra | Aesthetic | Technical)
-
-├─ 5 ➖ Ski Erg Intervals (500m) (repeat hard, hold form)
-│  ├─ Set 1: ⛽ 75% × 5 efforts
-│  ├─ Set 2: ⛽ 78% × 5 efforts
-│  ├─ Set 3: ⛽ 82% × 4 efforts
-│  └─ Set 4: ⛽ 85% × 4 efforts
-└─ 4 ➖ Ski Erg Intervals (1000m) (same pace target)
-   ├─ Set 1: ⛽ 76% × 4 efforts
-   ├─ Set 2: ⛽ 78% × 4 efforts
-   └─ Set 3: ⛽ 80% × 4 efforts
-
-Rest: 3-4 min between efforts.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➖🌹🟣 (Supplemental | Ultra | Aesthetic | Technical)
-
-├─ 5 ➖ Rowing Sprints (100m Max Effort) (stay smooth under fatigue)
-│  ├─ Set 1: ⛽ 75% × 5 efforts
-│  ├─ Set 2: ⛽ 78% × 4 efforts
-│  └─ Set 3: ⛽ 80% × 4 efforts
-└─ 5 ➖ Assault Bike Intervals (2:1) (finish each interval clean)
-   ├─ Set 1: ⛽ 74% × 5 efforts
-   ├─ Set 2: ⛽ 76% × 5 efforts
-   └─ Set 3: ⛽ 78% × 4 efforts
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫➖🌹🟣 (Release | Ultra | Aesthetic | Technical)
-
-- 5 minutes easy walk and downshift breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂➖🌹🟣 (Junction | Ultra | Aesthetic | Technical)
-
-Next → ⛽🌹🍗🟣 — leg strength day after engine demand.
-Next → ⛽🌹🪡🟣 — pull session restores posterior focus.
-Next → 🖼🌹➖⚪ — low-load recovery to keep CNS fresh.
-
-Log: pace ______ | best interval ______ | note ______
-
-═══════════════════════════════════════
-
+> "One clean rep at the right load is worth more than five at the wrong one."
+═══
+## 1) ♨️ Warm-Up — 🪢 plico
+Subcode: ⛽🌹➖🟣 (Warm-Up | Ultra | Aesthetic | Technical)
+├─ 6 ➖ Scoop Toss (Low to High) (precision, quality over volume)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 135s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🌹➖🟣 (Primer | Ultra | Aesthetic | Technical)
+├─ 5 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 180s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🌹➖🟣 (Bread & Butter | Ultra | Aesthetic | Technical)
+├─ 5 ➖ Ski Erg Intervals (precision, quality over volume)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 270s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🌹➖🟣 (Supplemental | Ultra | Aesthetic | Technical)
+├─ 6 ➖ Overhead Athlete Position (OAP) Drill (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 180s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🌹➖🟣 (Release | Ultra | Aesthetic | Technical)
+├─ 6 ➖ Partner Toss (Alternating) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 180s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹➖🟣 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Engine strength is repeatability under fatigue. Keep interval quality and breathing control stable before progressing speed or resistance.
+Log bar path quality, not just the weight. The how matters as much as the how much.

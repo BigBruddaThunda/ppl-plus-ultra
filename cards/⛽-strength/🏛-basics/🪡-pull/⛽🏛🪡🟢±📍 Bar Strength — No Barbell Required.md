@@ -1,7 +1,7 @@
 ---
 zip: ⛽🏛🪡🟢
 operator: 📍 pono
-status: GENERATED-V2
+status: GENERATED
 deck: 07
 order: ⛽ Strength | 75–85% | 4–6 reps | 3–4 min | CNS: High
 axis: 🏛 Basics | Bilateral, barbell-first, proven classics
@@ -9,113 +9,50 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟢 Bodyweight | Tier 0–2 | GOLD: No | No gym required. Advanced calisthenics.
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
+# 🪡 Bar Strength — Pull Bodyweight 🪡
 
-# 🪡 Bar Strength — No Barbell Required 🪡
+## Strength Basics — Pull focus (Bodyweight) · 50-65 min
 
-Advanced calisthenics | Lats, rear delts, biceps, traps, erectors | 55–65 min
+**CODE:** ⛽🏛🪡🟢
 
-CODE: ⛽🏛🪡🟢
-
-> "A pull bar is still a bar. Find out how strong you actually are."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-📍 pono — prep the back and shoulders without equipment
-
-- 10 Cat-Cow
-- 10 Hip Hinge (bodyweight, feel the hamstrings load)
-- 10 Band Pull-Apart (or towel pull-apart)
-- 5 Scapular Pull-Up (hang from bar, depress scapulae without bending elbow)
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-📍 pono — ramp the pattern
-
-- Weighted Pull-Up (bodyweight): 6 reps
-- Weighted Pull-Up (light vest): 4 reps
-- Weighted Pull-Up (working vest): 2 reps
-
-Rest: 90 sec.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-📍 pono — bilateral pulling at strength load, no barbell
-
-Rest: 3–4 min
-
-**A. 🪡 Weighted Pull-Up**
-
-The bilateral lat pull at strength load — the barbell row equivalent here.
-
-- Set 1: working weight × 5 (full extension at bottom, chin clears bar)
-- Set 2: working weight × 5 (same)
-- Set 3: +2–5% × 4 (earn it)
-- Set 4: working weight × 5 (back off)
-
-**B. 🪡 Archer Pull-Up (or Australian Pull-Up)**
-
-One arm loads, one assists. Unilateral back strength without equipment.
-
-- Set 1: 4 each side
-- Set 2: 4 each side
-- Set 3: 3 each side (slow the descent)
-
-Rest: 4 min between main sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-📍 pono — posterior chain without a bar
-
-Rest: 3 min
-
-**🪡 Single-Leg Romanian Deadlift (bodyweight)**
-
-Hip hinge pattern, posterior chain, balance.
-
-- Set 1: 8 each side (feel the hamstring load, hinge not squat)
-- Set 2: 8 each side (add a 2-sec pause at the bottom)
-- Set 3: 6 each side (add a light dumbbell if available — Tier 2)
-
-═══════════════════════════════════════
-
-## 5. 🚂 JUNCTION
-
-Cross-Junction map (current zip at center):
-
-```text
-               ↑ ⛽⌛➕🔵
-                    (convert force into full-body power with timed structure)
-
-← ⛽🏛🛒🔵   •   ⛽🏛🪡🟢   → ⛽🏛🍗🔵
-  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
-
-               ↓ ⛽🏛➖🔵
-                    (build repeatable engine capacity under strength intent)
-```
-
-```
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-Readiness next session (1–5): _________
-```
-
-Next →
-- ⛽⌛➕🔵 — convert force into full-body power with timed structure
-- ⛽🏛🛒🔵 — pair the main strength pattern with its structural complement
-- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
-- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
-
-═══════════════════════════════════════
-
+> "Prove the pattern holds without external load. Bodyweight is the test."
+═══
+## 1) ♨️ Warm-Up — 📍 pono
+Subcode: ⛽🏛🪡🟢 (Warm-Up | Pull | Basics | Bodyweight)
+├─ 6 🪡 Wide-Grip Pull-Up (Teres Focus) (bodyweight, no external load needed)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🏛🪡🟢 (Primer | Pull | Basics | Bodyweight)
+├─ 5 🪡 Chest-Supported Row (Elbow Out) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 120s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🏛🪡🟢 (Bread & Butter | Pull | Basics | Bodyweight)
+├─ 5 🪡 Bar Strength (bodyweight, no external load needed)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🏛🪡🟢 (Supplemental | Pull | Basics | Bodyweight)
+├─ 6 🪡 Cable Row (High Elbow) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🏛🪡🟢 (Release | Pull | Basics | Bodyweight)
+├─ 6 🪡 Deadlift (Conventional) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🏛🪡🟢 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Weighted pull-ups are where back strength becomes honest. No machine to stabilize. No barbell to guide the path. The strength that shows up here is the strength that carries.
+Bodyweight strength is the transfer test. If it held, the gym work is real.

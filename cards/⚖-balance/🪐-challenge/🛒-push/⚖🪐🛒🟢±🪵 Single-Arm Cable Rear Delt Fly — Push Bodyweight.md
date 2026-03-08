@@ -15,7 +15,7 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 
 **CODE:** ⚖🪐🛒🟢
 
-> "Find the weak link and spend time on it. Correction is the session."
+> "Find asymmetries with bodyweight. No equipment hides the gap."
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: ⚖🪐🛒🟢 (Warm-Up | Push | Challenge | Bodyweight)
@@ -26,7 +26,7 @@ Rest: 60s
 ## 2) 🏗 Reformance
 Subcode: ⚖🪐🛒🟢 (Reformance | Push | Challenge | Bodyweight)
 ├─ 11 🛒 Medicine Ball Chest Pass (corrective, address the weak link)
-│  Set 1: ⚖ 50% × 13 (prehab)
+│  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
 ═══
@@ -40,9 +40,9 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🪐🛒🟢 (Supplemental | Push | Challenge | Bodyweight)
-├─ 13 🛒 Low-to-High Cable Fly (full range, different angle)
-│  Set 1: ⚖ 60% × 13 (support volume)
-│  Set 2: ⚖ 60% × 13 (non-redundant)
+├─ 12 🛒 Low-to-High Cable Fly (full range, different angle)
+│  Set 1: ⚖ 60% × 12 (support volume)
+│  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
@@ -56,4 +56,4 @@ Rest: 75s
 - Next → ⚖🪐🛒🟢 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The correction is the progress. Symmetry before load, always.
+Bodyweight exposed the asymmetry. Note which side lagged.

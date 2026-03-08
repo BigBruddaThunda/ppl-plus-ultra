@@ -15,7 +15,7 @@ blocks: ♨️ 🪜 🧈 🚂
 
 **CODE:** 🏟🔨➖🔵
 
-> "Test. Record. Leave. No junk volume after the attempt."
+> "Execute the test exactly as prescribed. Record the number."
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🏟🔨➖🔵 (Warm-Up | Ultra | Functional | Structured)

@@ -15,45 +15,44 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🔨➖⚪
 
-> "Flow through the full body as one integrated pattern."
+> "Breathe through the full chain. Each movement flows into the next."
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🌾🔨➖⚪ (Warm-Up | Ultra | Functional | Mindful)
 ├─ 10 ➖ Single-Leg Hops Through Ladder (4s eccentric, breath-paced)
 │  Set 1: 🌾 50% × 10 (pattern prep)
-Rest: 60s
+Rest: 120s
 ═══
-## 2) 🎼 Composition
-Subcode: 🌾🔨➖⚪ (Composition | Ultra | Functional | Mindful)
-├─ 9 ➖ Turkish Get-Up (Full) → Turkish Get-Up (Full) (flow without reset)
-│  Set 1: 🌾 70% × 9 (unified pattern)
-│  Set 2: 🌾 70% × 9 (repeat flow)
-Rest: 60s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: 🌾🔨➖⚪ (Bread & Butter | Ultra | Functional | Mindful)
 ├─ 9 ➖ Turkish Get-Up (Full) (4s eccentric, breath-paced)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)
-Rest: 60s
+Rest: 120s
 ═══
-## 4) 🧩 Supplemental
+## 3) 🧩 Supplemental
 Subcode: 🌾🔨➖⚪ (Supplemental | Ultra | Functional | Mindful)
-├─ 11 ➖ Kettlebell Goblet Squat (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
-Rest: 45s
+├─ 10 ➖ Kettlebell Goblet Squat (full range, different angle)
+│  Set 1: 🌾 60% × 10 (support volume)
+│  Set 2: 🌾 60% × 10 (non-redundant)
+Rest: 120s
 ═══
-## 5) 🪫 Release
+## 4) 🪫 Release
 Subcode: 🌾🔨➖⚪ (Release | Ultra | Functional | Mindful)
-├─ 12 ➖ Single-Foot In Each Box (Forward) (parasympathetic, tension down)
-│  Set 1: 🌾 50% × 12 (deload)
-Rest: 45s
+├─ 10 ➖ Single-Foot In Each Box (Forward) (parasympathetic, tension down, 4s eccentric)
+│  Set 1: 🌾 50% × 10 (deload)
+Rest: 120s
+═══
+## 5) 🧬 Imprint
+Subcode: 🌾🔨➖⚪ (Imprint | Ultra | Functional | Mindful)
+├─ 10 ➖ Half Turkish Get-Up (To Elbow) (high rep, low load, neural memory)
+│  Set 1: 🌾 45% × 10 (lock the pattern)
+Rest: 120s
 ═══
 ## 6) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🌾🔨➖⚪ — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The flow is the measure. If movements disconnected, simplify next session.
+Breathe through the chain. The flow improves as the nervous system calms.

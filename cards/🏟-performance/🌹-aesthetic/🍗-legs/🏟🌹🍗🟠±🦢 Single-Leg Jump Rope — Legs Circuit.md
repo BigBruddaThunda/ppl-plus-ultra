@@ -15,31 +15,28 @@ blocks: ♨️ 🪜 🧈 🚂
 
 **CODE:** 🏟🌹🍗🟠
 
-> "Test. Record. Leave. No junk volume after the attempt."
+> "Timed circuit test. Complete as many rounds as the clock allows."
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🏟🌹🍗🟠 (Warm-Up | Legs | Aesthetic | Circuit)
 ├─ 3 🍗 Single-Leg Pogo Hops (station rotation, keep moving)
 │  Set 1: 🏟 72% × 3 (pattern prep)
-Rest: 90s
+Rest: 45s
 ═══
-## 2) 🪜 Progression
-Subcode: 🏟🌹🍗🟠 (Progression | Legs | Aesthetic | Circuit)
-├─ 2 🍗 Single-Leg Jump Rope (ramp to test weight)
-│  Set 1: 🏟 77% × 3 (opener)
-│  Set 2: 🏟 87% × 2 (bridge)
-Rest: Full recovery
+## 2) 🎱 ARAM — Circuit Loop
+Subcode: 🏟🌹🍗🟠 (ARAM | Legs | Aesthetic | Circuit)
+┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
+│  Station 1: 🍗 Single-Leg Jump Rope × 2 (station rotation, keep moving)
+│  Station 2: 🍗 Single-Leg Pogo Hops × 2 (station rotation, keep moving)
+│  Station 3: 🍗 Half-Kneeling Hip Flexor Stretch × 2 (station rotation, keep moving)
+│  Station 4: 🍗 Single-Leg Extension × 2 (station rotation, keep moving)
+│  Transition: 15s between stations
+│  Round rest: 60s
+Rest: 90s after final round
 ═══
-## 3) 🧈 Bread & Butter
-Subcode: 🏟🌹🍗🟠 (Bread & Butter | Legs | Aesthetic | Circuit)
-├─ 2 🍗 Single-Leg Jump Rope (station rotation, keep moving)
-│  Set 1: 🏟 92% × 2 (test attempt)
-│  Set 2: 🏟 97% × 2 (max attempt)
-Rest: Full recovery
-═══
-## 4) 🚂 Junction
+## 3) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🏟🌹🍗🟠 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Record the number. That is the session. Come back when recovered.
+Record rounds completed and form break point. That is the benchmark.

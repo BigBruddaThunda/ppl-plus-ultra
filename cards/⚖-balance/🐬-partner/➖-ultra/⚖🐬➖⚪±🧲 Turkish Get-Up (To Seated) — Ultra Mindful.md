@@ -15,45 +15,44 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 
 **CODE:** ⚖🐬➖⚪
 
-> "Find the weak link and spend time on it. Correction is the session."
+> "Slow down into the imbalance. Feel where the body compensates."
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: ⚖🐬➖⚪ (Warm-Up | Ultra | Partner | Mindful)
-├─ 12 ➖ Single-Leg Jump Rope (4s eccentric, breath-paced)
+├─ 12 ➖ Single-Leg Hops Through Ladder (4s eccentric, breath-paced)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
-Rest: 60s
+Rest: 120s
 ═══
-## 2) 🏗 Reformance
-Subcode: ⚖🐬➖⚪ (Reformance | Ultra | Partner | Mindful)
-├─ 11 ➖ Single-Leg Hops Through Ladder (corrective, address the weak link)
-│  Set 1: ⚖ 50% × 13 (prehab)
-│  Set 2: ⚖ 55% × 11 (stability)
-Rest: 75s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: ⚖🐬➖⚪ (Bread & Butter | Ultra | Partner | Mindful)
 ├─ 11 ➖ Turkish Get-Up (To Seated) (4s eccentric, breath-paced)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
-Rest: 90s
+Rest: 180s
 ═══
-## 4) 🧩 Supplemental
+## 3) 🧩 Supplemental
 Subcode: ⚖🐬➖⚪ (Supplemental | Ultra | Partner | Mindful)
-├─ 13 ➖ Kettlebell Goblet Squat (full range, different angle)
-│  Set 1: ⚖ 60% × 13 (support volume)
-│  Set 2: ⚖ 60% × 13 (non-redundant)
-Rest: 75s
+├─ 12 ➖ Turkish Get-Up (Full) (full range, different angle)
+│  Set 1: ⚖ 60% × 12 (support volume)
+│  Set 2: ⚖ 60% × 12 (non-redundant)
+Rest: 150s
 ═══
-## 5) 🪫 Release
+## 4) 🪫 Release
 Subcode: ⚖🐬➖⚪ (Release | Ultra | Partner | Mindful)
-├─ 12 ➖ Turkish Get-Up (Full) (parasympathetic, tension down)
+├─ 12 ➖ Single-Foot In Each Box (Forward) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: ⚖ 50% × 12 (deload)
-Rest: 75s
+Rest: 150s
+═══
+## 5) 🧬 Imprint
+Subcode: ⚖🐬➖⚪ (Imprint | Ultra | Partner | Mindful)
+├─ 12 ➖ Turkish Get-Up (To Seated) (high rep, low load, neural memory)
+│  Set 1: ⚖ 45% × 12 (lock the pattern)
+Rest: 150s
 ═══
 ## 6) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → ⚖🐬➖⚪ — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The correction is the progress. Symmetry before load, always.
+Slow correction lets the nervous system rewrite the pattern. Trust the process.

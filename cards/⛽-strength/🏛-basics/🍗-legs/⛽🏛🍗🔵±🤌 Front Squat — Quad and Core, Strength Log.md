@@ -10,114 +10,50 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🔵 Structured | Tier 2–3 | GOLD: No | Prescribed sets/reps/rest. Trackable and repeatable.
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
+# 🍗 Front Squat — Legs Structured 🍗
 
-# 🍗 Front Squat — Quad and Core, Strength Log 🍗
+## Strength Basics — Legs focus (Structured) · 50-65 min
 
-Barbell strength, prescribed and tracked | Quads, hamstrings, glutes, calves | 65–75 min
+**CODE:** ⛽🏛🍗🔵
 
-CODE: ⛽🏛🍗🔵
-
-> "Put the numbers on the bar, execute the prescribed sets, log everything."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🤌 facio — move deliberately
-
-- 10 Air Squat (hip crease below knee, knees track out)
-- 10/side Hip Flexor Stretch (Kneeling) (30 sec hold)
-- 10 Glute Bridge (squeeze at top, 1-sec hold)
-- 10 Leg Swings (Forward/Back)
-- 10 Deep Squat Hold (3 sec each, breathe at the bottom)
-
-Ramp before working sets:
-- 50% × 5 (lock in bar position and brace)
-- 60% × 4 (speed up the concentric)
-- 70% × 3 (crisp)
-- 77% × 2 (approach weight — if depth breaks here, adjust working weight down)
-
-Rest: 2 min between ramp sets.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-🤌 facio — one bridge set between ramp and working weight
-
-- 80% × 2 (feel the working weight — deliberate descent, aggressive drive out of the hole)
-
-Rest: 3 min.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-🤌 facio — this is the session; everything else supports it
-
-Rest: 3–4 min between sets.
-
-**🍗 Front Squat**
-
-- Set 1: 80% × 5 (brace, hips back, chest up)
-- Set 2: 82% × 5 (same pattern, add 2%)
-- Set 3: 82% × 5 (do not let the hips rise faster than the chest)
-- Set 4: 84% × 4 (every rep is its own attempt — reset the brace)
-- Set 5: 84% × 4 (drive knees out at the bottom)
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-🤌 facio — posterior chain and legs, non-redundant
-
-Rest: 3 min between sets.
-
-**A. 🍗 Romanian Deadlift**
-
-- Set 1: 75% × 5 (bar drags the legs on the way down)
-- Set 2: 78% × 5 (keep lats tight — bar wants to swing out)
-- Set 3: 80% × 5 (hips push back, not down)
-- Set 4: 80% × 4 (squeeze glutes hard at lockout)
-
-**B. 🍗 Standing Barbell Calf Raise**
-
-- Set 1: 6 reps (pause 1 sec at top, full stretch at bottom)
-- Set 2: 6 reps
-- Set 3: 5 reps (no bouncing out of the bottom)
-
-═══════════════════════════════════════
-
-## 5. 🚂 JUNCTION
-
-Cross-Junction map (current zip at center):
-
-```text
-               ↑ ⛽⌛➕🟣
-                    (convert force into full-body power with timed structure)
-
-← ⛽🏛🛒🟣   •   ⛽🏛🍗🔵   → ⛽🏛🪡🟣
-  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
-
-               ↓ 🖼⌛➖⚪
-                    (downshift and recover while keeping pattern quality)
-```
-
-```
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-Readiness next session (1–5): _________
-```
-
-Next →
-- ⛽⌛➕🟣 — convert force into full-body power with timed structure
-- ⛽🏛🛒🟣 — pair the main strength pattern with its structural complement
-- ⛽🏛🪡🟣 — pair the main strength pattern with its structural complement
-- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
-
-═══════════════════════════════════════
-
+> "Same weight, same reps, same rest. Build the base one session at a time."
+═══
+## 1) ♨️ Warm-Up — 🤌 facio
+Subcode: ⛽🏛🍗🔵 (Warm-Up | Legs | Basics | Structured)
+├─ 6 🍗 Leg Press Calf Raise (prescribed, track sets and reps)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🏛🍗🔵 (Primer | Legs | Basics | Structured)
+├─ 5 🍗 Deep Squat Hold (Ankle Mobility) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 120s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🏛🍗🔵 (Bread & Butter | Legs | Basics | Structured)
+├─ 5 🍗 Front Squat (prescribed, track sets and reps)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🏛🍗🔵 (Supplemental | Legs | Basics | Structured)
+├─ 6 🍗 Walking Lunge (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🏛🍗🔵 (Release | Legs | Basics | Structured)
+├─ 6 🍗 Spanish Squat (Banded VMO) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🏛🍗🔵 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-This card is meant to be repeated. The value is in the log, not the single session. Come back to it. Add weight. Track the trend.
+Keep the same movement standard. Only add load if bar path stays unchanged.

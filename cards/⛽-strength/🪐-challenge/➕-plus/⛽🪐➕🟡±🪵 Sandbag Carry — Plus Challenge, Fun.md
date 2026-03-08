@@ -9,93 +9,50 @@ type: ➕ Plus
 color: 🟡 Fun
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➕ Sandbag Carry — Plus Fun ➕
 
-# ➕ Sandbag Carry — Plus Challenge, Fun ➕
+## Strength Challenge — Plus focus (Fun) · 50-65 min
 
-Strength challenge session | Full-body power and core | 55-70 min
+**CODE:** ⛽🪐➕🟡
 
-CODE: ⛽🪐➕🟡
-
-> "Move heavy through unstable demands and keep force transfer clean."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🪵 teneo
-
-Sub-block: ♨️➕🪐🟡 (Warm-Up | Plus | Challenge | Fun)
-
-├─ 6 ➕ Suitcase Carry (Single-Arm) (no side bend)
-└─ 8 ➕ Medicine Ball Slam (full hip snap)
-
-Rest: 90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➕🪐🟡 (Primer | Plus | Challenge | Fun)
-
-├─ Set 1: ⛽ 60% × 6 on Sandbag Carry (controlled depth)
-├─ Set 2: ⛽ 68% × 5 on Sandbag Carry (2-second pause)
-└─ Set 3: ⛽ 72% × 4 on Sandbag Carry (same strict line)
-
-Rest: 2-3 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🪵
-
-Sub-block: 🧈➕🪐🟡 (Bread & Butter | Plus | Challenge | Fun)
-
-├─ 5 ➕ Sandbag Carry (hardest clean variation today)
-│  ├─ Set 1: ⛽ 75% × 6 (tempo down, violent up)
-│  ├─ Set 2: ⛽ 78% × 5 (1-second hold in weak point)
-│  ├─ Set 3: ⛽ 82% × 4 (keep shape locked)
-│  └─ Set 4: ⛽ 85% × 4 (no breakdown reps)
-└─ 4 ➕ Sled Push (Heavy) (short violent steps) 
-   ├─ Set 1: ⛽ 75% × 5 (strict path)
-   ├─ Set 2: ⛽ 80% × 4 (pause each rep)
-   └─ Set 3: ⛽ 82% × 4 (same speed target)
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➕🪐🟡 (SUPPLEMENTAL | Plus | Challenge | Fun)
-
-├─ 5 ➕ Sled Push (Heavy) (short violent steps)
-└─ 4 ➕ Kettlebell Swing (snap then float)
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫➕🪐🟡 (Release | Plus | Challenge | Fun)
-
-- 5 minutes easy downshift work and nasal breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂➕🪐🟡 (Junction | Plus | Challenge | Fun)
-
-Log:
-- Load quality: ______________________
-- Hardest sticking point: ____________
-- Recovery readiness (1-5): _________
-
-Next → ⛽🪐🍗🔵 — keep lower-body force production high
-Next → ⛽🪐➖🔵 — convert force output into repeatable engine work
-
-═══════════════════════════════════════
-
+> "Find a movement you have not tried at this load and own it."
+═══
+## 1) ♨️ Warm-Up — 🪵 teneo
+Subcode: ⛽🪐➕🟡 (Warm-Up | Plus | Challenge | Fun)
+├─ 6 ➕ Wide-Grip Pull-Up (Teres Focus) (explore, stay within constraints)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽🪐➕🟡 (Bread & Butter | Plus | Challenge | Fun)
+├─ 5 ➕ Sandbag Carry (explore, stay within constraints)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 3) 🌎 Exposure
+Subcode: ⛽🪐➕🟡 (Exposure | Plus | Challenge | Fun)
+├─ 5 ➕ Deadlift (Conventional) (try the unfamiliar version, explore the range)
+│  Set 1: ⛽ 65% × 5 (discovery set)
+Rest: 120s
+═══
+## 4) 🏖 Sandbox
+Subcode: ⛽🪐➕🟡 (Sandbox | Plus | Challenge | Fun)
+├─ 5 ➕ Scapular Push-Up (Serratus) (explore within constraints, choose your variation)
+│  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
+│  Option B: ⛽ 70% × 5 (try a variation you have not used before)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🪐➕🟡 (Release | Plus | Challenge | Fun)
+├─ 6 ➕ Deadlift (Conventional) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🪐➕🟡 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Challenge strength is heavy load plus stricter execution. Keep the same standard next session: no rep counts unless the position stays honest.
+Note what you tried and what surprised you. Build on it next session.

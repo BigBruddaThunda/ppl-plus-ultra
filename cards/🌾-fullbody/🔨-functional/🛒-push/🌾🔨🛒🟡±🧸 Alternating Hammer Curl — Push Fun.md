@@ -15,7 +15,7 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🔨🛒🟡
 
-> "Flow through the full body as one integrated pattern."
+> "Explore compound movements that link upper and lower body."
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🌾🔨🛒🟡 (Warm-Up | Push | Functional | Fun)
@@ -23,14 +23,7 @@ Subcode: 🌾🔨🛒🟡 (Warm-Up | Push | Functional | Fun)
 │  Set 1: 🌾 50% × 10 (pattern prep)
 Rest: 60s
 ═══
-## 2) 🎼 Composition
-Subcode: 🌾🔨🛒🟡 (Composition | Push | Functional | Fun)
-├─ 9 🛒 Alternating Dumbbell Front Raise → Alternating Hammer Curl (flow without reset)
-│  Set 1: 🌾 70% × 9 (unified pattern)
-│  Set 2: 🌾 70% × 9 (repeat flow)
-Rest: 60s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: 🌾🔨🛒🟡 (Bread & Butter | Push | Functional | Fun)
 ├─ 9 🛒 Alternating Hammer Curl (explore, stay within constraints)
 │  Set 1: 🌾 65% × 9 (build set)
@@ -38,17 +31,23 @@ Subcode: 🌾🔨🛒🟡 (Bread & Butter | Push | Functional | Fun)
 │  Set 3: 🌾 70% × 9 (repeat quality)
 Rest: 60s
 ═══
-## 4) 🧩 Supplemental
-Subcode: 🌾🔨🛒🟡 (Supplemental | Push | Functional | Fun)
-├─ 11 🛒 Alternating Dumbbell Curl (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
+## 3) 🌎 Exposure
+Subcode: 🌾🔨🛒🟡 (Exposure | Push | Functional | Fun)
+├─ 9 🛒 Single-Arm Overhead Dumbbell Extension (try the unfamiliar version, explore the range)
+│  Set 1: 🌾 55% × 9 (discovery set)
+Rest: 45s
+═══
+## 4) 🏖 Sandbox
+Subcode: 🌾🔨🛒🟡 (Sandbox | Push | Functional | Fun)
+├─ 9 🛒 Single-Arm Incline Dumbbell Press (explore within constraints, choose your variation)
+│  Option A: 🌾 60% × 9 (play with grip, stance, or tempo)
+│  Option B: 🌾 60% × 9 (try a variation you have not used before)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🔨🛒🟡 (Release | Push | Functional | Fun)
-├─ 12 🛒 Single-Arm Overhead Dumbbell Extension (smooth tempo, downshift)
-│  Set 1: 🌾 50% × 12 (deload)
+├─ 10 🛒 Single-Arm Overhead Dumbbell Extension (smooth tempo, downshift)
+│  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══
 ## 6) 🚂 Junction
@@ -56,4 +55,4 @@ Rest: 45s
 - Next → 🌾🔨🛒🟡 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The flow is the measure. If movements disconnected, simplify next session.
+Compound discovery teaches the body new links. Track what connected.

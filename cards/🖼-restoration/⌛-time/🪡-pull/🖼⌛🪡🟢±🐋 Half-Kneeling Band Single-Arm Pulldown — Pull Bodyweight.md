@@ -15,15 +15,15 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 **CODE:** 🖼⌛🪡🟢
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Restore with what your body provides. Floor work, breath, gentle movement."
 ═══
 ## 1) 🎯 Intention
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Restore with what your body provides. Floor work, breath, gentle movement."
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼⌛🪡🟢 (Release | Pull | Time | Bodyweight)
-├─ 12 🪡 Good Morning (Barbell) (parasympathetic, tension down)
+├─ 12 🪡 Good Morning (Barbell) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
@@ -36,8 +36,8 @@ Rest: 60s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼⌛🪡🟢 (Imprint | Pull | Time | Bodyweight)
-├─ 17 🪡 Preacher Curl Machine (high rep, low load, neural memory)
-│  Set 1: 🖼 35% × 17 (lock the pattern)
+├─ 15 🪡 Preacher Curl Machine (high rep, low load, neural memory)
+│  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 60s
 ═══
 ## 5) 🚂 Junction
@@ -45,4 +45,4 @@ Rest: 60s
 - Next → 🖼⌛🪡🟢 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Notice what released. Carry that awareness into the next 24 hours.
+Floor work and breath are always available. Use them daily.

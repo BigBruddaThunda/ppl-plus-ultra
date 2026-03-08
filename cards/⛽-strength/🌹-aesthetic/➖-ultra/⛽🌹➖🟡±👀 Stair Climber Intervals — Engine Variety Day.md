@@ -9,98 +9,50 @@ type: ➖ Ultra | Cardiovascular system, conditioning
 color: 🟡 Fun
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➖ Stair Climber Intervals — Ultra Fun ➖
 
-# ➖ Stair Climber Intervals — Engine Variety Day ➖
+## Strength Aesthetic — Ultra focus (Fun) · 50-65 min
 
-Strength aesthetic session | Engine, pacing, repeat output | 48-65 min
+**CODE:** ⛽🌹➖🟡
 
-CODE: ⛽🌹➖🟡
-
-> "Hold strong interval output while keeping pace mechanics clean from first effort to last."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 👀 specio
-
-Sub-block: ♨️➖🌹🟡 (Warm-Up | Ultra | Aesthetic | Fun)
-
-├─ 5 ➖ Treadmill Incline Walk (steady nasal breath)
-├─ 5 ➖ Jump Rope Intervals (1 minute on/off) (light contacts)
-└─ 5 ➖ Mountain Climber (smooth rhythm)
-
-Rest: 60 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➖🌹🟡 (Primer | Ultra | Aesthetic | Fun)
-
-├─ Set 1: ⛽ 55% × 6 efforts on Stair Climber Intervals (find pace)
-├─ Set 2: ⛽ 65% × 5 efforts on Stair Climber Intervals (steady split)
-└─ Set 3: ⛽ 72% × 4 efforts on Stair Climber Intervals (hard but controlled)
-
-Rest: 2 min between efforts.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 👀 specio
-
-Sub-block: 🧈➖🌹🟡 (Bread & Butter | Ultra | Aesthetic | Fun)
-
-├─ 5 ➖ Stair Climber Intervals (repeat hard, hold form)
-│  ├─ Set 1: ⛽ 75% × 5 efforts
-│  ├─ Set 2: ⛽ 78% × 5 efforts
-│  ├─ Set 3: ⛽ 82% × 4 efforts
-│  └─ Set 4: ⛽ 85% × 4 efforts
-└─ 4 ➖ Treadmill Sprint Intervals (same pace target)
-   ├─ Set 1: ⛽ 76% × 4 efforts
-   ├─ Set 2: ⛽ 78% × 4 efforts
-   └─ Set 3: ⛽ 80% × 4 efforts
-
-Rest: 3-4 min between efforts.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➖🌹🟡 (Supplemental | Ultra | Aesthetic | Fun)
-
-├─ 5 ➖ Rowing Intervals (2000m) (stay smooth under fatigue)
-│  ├─ Set 1: ⛽ 75% × 5 efforts
-│  ├─ Set 2: ⛽ 78% × 4 efforts
-│  └─ Set 3: ⛽ 80% × 4 efforts
-└─ 5 ➖ Jump Rope Sprint Intervals (finish each interval clean)
-   ├─ Set 1: ⛽ 74% × 5 efforts
-   ├─ Set 2: ⛽ 76% × 5 efforts
-   └─ Set 3: ⛽ 78% × 4 efforts
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫➖🌹🟡 (Release | Ultra | Aesthetic | Fun)
-
-- 5 minutes easy walk and downshift breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂➖🌹🟡 (Junction | Ultra | Aesthetic | Fun)
-
-Next → ⛽🌹🍗🟡 — leg strength day after engine demand.
-Next → ⛽🌹🪡🟡 — pull session restores posterior focus.
-Next → 🖼🌹➖⚪ — low-load recovery to keep CNS fresh.
-
-Log: pace ______ | best interval ______ | note ______
-
-═══════════════════════════════════════
-
+> "Find a movement you have not tried at this load and own it."
+═══
+## 1) ♨️ Warm-Up — 👀 specio
+Subcode: ⛽🌹➖🟡 (Warm-Up | Ultra | Aesthetic | Fun)
+├─ 6 ➖ Sprint (10-30 meters) (explore, stay within constraints)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽🌹➖🟡 (Bread & Butter | Ultra | Aesthetic | Fun)
+├─ 5 ➖ Stair Climber Intervals (explore, stay within constraints)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 3) 🌎 Exposure
+Subcode: ⛽🌹➖🟡 (Exposure | Ultra | Aesthetic | Fun)
+├─ 5 ➖ Sprint (60-100 meters) (try the unfamiliar version, explore the range)
+│  Set 1: ⛽ 65% × 5 (discovery set)
+Rest: 120s
+═══
+## 4) 🏖 Sandbox
+Subcode: ⛽🌹➖🟡 (Sandbox | Ultra | Aesthetic | Fun)
+├─ 5 ➖ Hill Sprint (Short) (explore within constraints, choose your variation)
+│  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
+│  Option B: ⛽ 70% × 5 (try a variation you have not used before)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🌹➖🟡 (Release | Ultra | Aesthetic | Fun)
+├─ 6 ➖ Sprint (60-100 meters) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹➖🟡 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Engine strength is repeatability under fatigue. Keep interval quality and breathing control stable before progressing speed or resistance.
+Note what you tried and what surprised you. Build on it next session.

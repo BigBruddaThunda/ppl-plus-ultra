@@ -15,19 +15,20 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 
 **CODE:** 🦋🐬➖⚫
 
-> "Build tension through volume. Load serves the muscle, not the ego."
+> "Learn what tension feels like in the target muscle before chasing volume."
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: 🦋🐬➖⚫ (Warm-Up | Ultra | Partner | Teaching)
-├─ 12 ➖ Single-Leg Jump Rope (coached, check form before adding load)
+├─ 12 ➖ Kettlebell Goblet Squat (coached, check form before adding load)
 │  Set 1: 🦋 50% × 12 (pattern prep)
-Rest: 60s
+Rest: 90s
 ═══
-## 2) ▶️ Primer
-Subcode: 🦋🐬➖⚫ (Primer | Ultra | Partner | Teaching)
-├─ 10 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
-│  Set 1: 🦋 60% × 10 (activation)
-Rest: 75s
+## 2) 🛠 Craft
+Subcode: 🦋🐬➖⚫ (Craft | Ultra | Partner | Teaching)
+├─ 10 ➖ Turkish Get-Up (Full) (coach: check grip width, elbow angle, foot pressure)
+│  Set 1: 🦋 50% × 10 (practice the pattern, not the load)
+│  Set 2: 🦋 55% × 10 (same cues, slightly heavier)
+Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🐬➖⚫ (Bread & Butter | Ultra | Partner | Teaching)
@@ -35,31 +36,24 @@ Subcode: 🦋🐬➖⚫ (Bread & Butter | Ultra | Partner | Teaching)
 │  Set 1: 🦋 65% × 10 (build set)
 │  Set 2: 🦋 70% × 10 (working set)
 │  Set 3: 🦋 70% × 10 (repeat quality)
-Rest: 90s
+Rest: 135s
 ═══
-## 4) 🗿 Sculpt
-Subcode: 🦋🐬➖⚫ (Sculpt | Ultra | Partner | Teaching)
-├─ 12 ➖ Turkish Get-Up (Full) (angles, tension, volume)
-│  Set 1: 🦋 65% × 12 (shaping)
-│  Set 2: 🦋 65% × 12 (carving)
-Rest: 60s
-═══
-## 5) 🧩 Supplemental
+## 4) 🧩 Supplemental
 Subcode: 🦋🐬➖⚫ (Supplemental | Ultra | Partner | Teaching)
-├─ 12 ➖ Turkish Get-Up (Full) (full range, different angle)
+├─ 12 ➖ Half Turkish Get-Up (To Elbow) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
-Rest: 60s
+Rest: 90s
 ═══
-## 6) 🪫 Release
-Subcode: 🦋🐬➖⚫ (Release | Ultra | Partner | Teaching)
-├─ 12 ➖ Half Turkish Get-Up (To Elbow) (smooth tempo, downshift)
-│  Set 1: 🦋 50% × 12 (deload)
-Rest: 60s
+## 5) 🧬 Imprint
+Subcode: 🦋🐬➖⚫ (Imprint | Ultra | Partner | Teaching)
+├─ 12 ➖ Turkish Get-Up (Full) (high rep, low load, neural memory)
+│  Set 1: 🦋 45% × 12 (lock the pattern)
+Rest: 90s
 ═══
-## 7) 🚂 Junction
+## 6) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🦋🐬➖⚫ — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Track the pump and the tension. Volume drives growth; form keeps it honest.
+Track the pump and the tension. Learning to feel the muscle is the skill.

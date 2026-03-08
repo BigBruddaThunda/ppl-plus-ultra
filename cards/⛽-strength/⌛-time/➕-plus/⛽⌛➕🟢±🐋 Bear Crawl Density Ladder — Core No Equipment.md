@@ -9,99 +9,50 @@ type: ➕ Plus | Full body power and core
 color: 🟢 Bodyweight | Tier 0-5 | GOLD: No | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➕ Bear Crawl Density Ladder — Plus Bodyweight ➕
 
-# ➕ Bear Crawl Density Ladder — Core No Equipment ➕
+## Strength Time — Plus focus (Bodyweight) · 50-65 min
 
-Timed strength session | Full body power and core | 50-65 min
+**CODE:** ⛽⌛➕🟢
 
-CODE: ⛽⌛➕🟢
-
-> "Run the clock to pace heavy work, then keep rep quality when fatigue climbs."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🐋 duco — set the session rhythm before heavy sets
-
-Sub-block: ♨️➕⌛🟢 (Warm-Up | Plus | Time | Bodyweight)
-
-- ➕ Dynamic prep drill (steady breathing, no rush)
-- ➕ Pattern rehearsal (own every transition)
-- ➕ Ramp rep with light load (practice the timer start)
-
-Rest: 60 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➕⌛🟢 (Primer | Plus | Time | Bodyweight)
-
-- Set 1: ⛽ 60% × 5 (build speed without grinding)
-- Set 2: ⛽ 68% × 4 (same tempo, cleaner brace)
-- Set 3: ⛽ 72% × 3 (last primer before work sets)
-
-Rest: 2 min between primer sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-Primary Pattern: **Bear Crawl**
-
-🐋 duco — clock-managed heavy work
-
-Sub-block: 🧈➕⌛🟢 (Bread & Butter | Plus | Time | Bodyweight)
-
-- ➕ Bear Crawl (start each minute sharp)
-- ➕ Secondary strength variation (match bar path each round)
-- ➕ Stability finisher under clock (finish before the minute)
-
-├─ Set 1: ⛽ 75% × 5 (find the day)
-├─ Set 2: ⛽ 80% × 5 (same timing window)
-├─ Set 3: ⛽ 82% × 4 (keep position at fatigue)
-│  Set 4: ⛽ 78% × 6 (quality back-off under clock)
-
-Rest: 3-4 min after each heavy round.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➕⌛🟢 (Supplemental | Plus | Time | Bodyweight)
-
-- ➕ Assistance lift A (hold form under the timer)
-- ➕ Assistance lift B (full range, no rushing)
-- ➕ Assistance lift C (last rep should still look clean)
-
-Rest: 2 min 30 sec.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-- 90 sec easy cyclical reset (downshift breathing)
-- 60 sec tissue reset drill (unlock the pattern you trained)
-- 5 slow breaths in final position (drop heart rate)
-
-Rest: move continuously.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Log:
-- Main lift top load: __________
-- Best quality set: __________
-- Clock target hit rate: ______ / ______
-
-Next → ⛽⌛➕🔵 — repeat with tighter timing and cleaner splits
-Next → ⛽⌛➕🟣 — reduce volume and sharpen technical reps
-Next → 🖼⌛➕⚪ — recover the pattern with slower tempo
-
-═══════════════════════════════════════
-
+> "Prove the pattern holds without external load. Bodyweight is the test."
+═══
+## 1) ♨️ Warm-Up — 🐋 duco
+Subcode: ⛽⌛➕🟢 (Warm-Up | Plus | Time | Bodyweight)
+├─ 6 ➕ Single-Arm Row (Rhomboid Emphasis) (bodyweight, no external load needed)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽⌛➕🟢 (Primer | Plus | Time | Bodyweight)
+├─ 5 ➕ Single-Leg Romanian Deadlift (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 120s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽⌛➕🟢 (Bread & Butter | Plus | Time | Bodyweight)
+├─ 5 ➕ Bear Crawl Density Ladder (bodyweight, no external load needed)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽⌛➕🟢 (Supplemental | Plus | Time | Bodyweight)
+├─ 6 ➕ Wide-Grip Pull-Up (Teres Focus) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽⌛➕🟢 (Release | Plus | Time | Bodyweight)
+├─ 6 ➕ Cable Row (High Elbow) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽⌛➕🟢 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The clock is a limiter, not a panic trigger. Keep heavy reps crisp inside the time window, then adjust load next session from what the log proves.
+Bodyweight strength is the transfer test. If it held, the gym work is real.

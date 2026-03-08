@@ -15,7 +15,7 @@ blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 
 **CODE:** 🐂🔨➕🔵
 
-> "Learn the pattern at sub-maximal load. Own the positions before adding weight."
+> "Follow the prescription. The numbers build the habit."
 ═══
 ## 1) ♨️ Warm-Up — 🥨 tendo
 Subcode: 🐂🔨➕🔵 (Warm-Up | Plus | Functional | Structured)
@@ -56,4 +56,4 @@ Rest: 60s
 - Next → 🐂🔨➕🔵 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The pattern owns the session. Add load only when positions are automatic.
+Log the numbers. Consistency at sub-maximal load builds the strongest base.

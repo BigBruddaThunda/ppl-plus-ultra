@@ -15,34 +15,29 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 **CODE:** 🖼🏛🛒🟡
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Explore somatic movements you would not normally try."
 ═══
 ## 1) 🎯 Intention
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Explore somatic movements you would not normally try."
 ═══
-## 2) 🪫 Release
-Subcode: 🖼🏛🛒🟡 (Release | Push | Basics | Fun)
-├─ 12 🛒 Preacher Curl Machine (parasympathetic, tension down)
-│  Set 1: 🖼 40% × 12 (deload)
-Rest: 60s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: 🖼🏛🛒🟡 (Bread & Butter | Push | Basics | Fun)
 ├─ 13 🛒 Dumbbell Front Raise (explore, stay within constraints)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s
 ═══
-## 4) 🧬 Imprint
-Subcode: 🖼🏛🛒🟡 (Imprint | Push | Basics | Fun)
-├─ 17 🛒 Landmine Press (Two-Arm, Chest Focus) (high rep, low load, neural memory)
-│  Set 1: 🖼 35% × 17 (lock the pattern)
+## 3) 🏖 Sandbox
+Subcode: 🖼🏛🛒🟡 (Sandbox | Push | Basics | Fun)
+├─ 13 🛒 Landmine Press (Two-Arm, Chest Focus) (explore within constraints, choose your variation)
+│  Option A: 🖼 45% × 13 (play with grip, stance, or tempo)
+│  Option B: 🖼 45% × 13 (try a variation you have not used before)
 Rest: 60s
 ═══
-## 5) 🚂 Junction
+## 4) 🚂 Junction
 - Log: load, reps, and form break point.
 - Next → 🖼🏛🛒🟡 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Notice what released. Carry that awareness into the next 24 hours.
+Somatic exploration teaches the body things the gym never will.

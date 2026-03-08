@@ -9,99 +9,50 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟣 Technical | Tier 0-5 | GOLD: Yes | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🛒 Paused Incline Bench Singles — Push Technical 🛒
 
-# 🛒 Paused Incline Bench Singles — Press Mechanics Focus 🛒
+## Strength Time — Push focus (Technical) · 50-65 min
 
-Timed strength session | Chest, front delts, triceps | 50-65 min
+**CODE:** ⛽⌛🛒🟣
 
-CODE: ⛽⌛🛒🟣
-
-> "Run the clock to pace heavy work, then keep rep quality when fatigue climbs."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-✒️ grapho — set the session rhythm before heavy sets
-
-Sub-block: ♨️🛒⌛🟣 (Warm-Up | Push | Time | Technical)
-
-- 🛒 Dynamic prep drill (steady breathing, no rush)
-- 🛒 Pattern rehearsal (own every transition)
-- 🛒 Ramp rep with light load (practice the timer start)
-
-Rest: 60 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🛒⌛🟣 (Primer | Push | Time | Technical)
-
-- Set 1: ⛽ 60% × 5 (build speed without grinding)
-- Set 2: ⛽ 68% × 4 (same tempo, cleaner brace)
-- Set 3: ⛽ 72% × 3 (last primer before work sets)
-
-Rest: 2 min between primer sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-Primary Pattern: **Incline Barbell Bench Press**
-
-✒️ grapho — clock-managed heavy work
-
-Sub-block: 🧈🛒⌛🟣 (Bread & Butter | Push | Time | Technical)
-
-- 🛒 Incline Barbell Bench Press (start each minute sharp)
-- 🛒 Secondary strength variation (match bar path each round)
-- 🛒 Stability finisher under clock (finish before the minute)
-
-├─ Set 1: ⛽ 75% × 5 (find the day)
-├─ Set 2: ⛽ 80% × 5 (same timing window)
-├─ Set 3: ⛽ 82% × 4 (keep position at fatigue)
-│  Set 4: ⛽ 78% × 6 (quality back-off under clock)
-
-Rest: 3-4 min after each heavy round.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🛒⌛🟣 (Supplemental | Push | Time | Technical)
-
-- 🛒 Assistance lift A (hold form under the timer)
-- 🛒 Assistance lift B (full range, no rushing)
-- 🛒 Assistance lift C (last rep should still look clean)
-
-Rest: 2 min 30 sec.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-- 90 sec easy cyclical reset (downshift breathing)
-- 60 sec tissue reset drill (unlock the pattern you trained)
-- 5 slow breaths in final position (drop heart rate)
-
-Rest: move continuously.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Log:
-- Main lift top load: __________
-- Best quality set: __________
-- Clock target hit rate: ______ / ______
-
-Next → ⛽⌛🛒🔵 — repeat with tighter timing and cleaner splits
-Next → ⛽⌛🛒🟣 — reduce volume and sharpen technical reps
-Next → 🖼⌛🛒⚪ — recover the pattern with slower tempo
-
-═══════════════════════════════════════
-
+> "One clean rep at the right load is worth more than five at the wrong one."
+═══
+## 1) ♨️ Warm-Up — ✒️ grapho
+Subcode: ⛽⌛🛒🟣 (Warm-Up | Push | Time | Technical)
+├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (precision, quality over volume)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 135s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽⌛🛒🟣 (Primer | Push | Time | Technical)
+├─ 5 🛒 Bamboo Bar Bench Press (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 180s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽⌛🛒🟣 (Bread & Butter | Push | Time | Technical)
+├─ 5 🛒 Paused Incline Bench Singles (precision, quality over volume)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 270s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽⌛🛒🟣 (Supplemental | Push | Time | Technical)
+├─ 6 🛒 Push Jerk (Barbell) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 180s
+═══
+## 5) 🪫 Release
+Subcode: ⛽⌛🛒🟣 (Release | Push | Time | Technical)
+├─ 6 🛒 Incline Barbell Bench Press (30°) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 180s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽⌛🛒🟣 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The clock is a limiter, not a panic trigger. Keep heavy reps crisp inside the time window, then adjust load next session from what the log proves.
+Log bar path quality, not just the weight. The how matters as much as the how much.

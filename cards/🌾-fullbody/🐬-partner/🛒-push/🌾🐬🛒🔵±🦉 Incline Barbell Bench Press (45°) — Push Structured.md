@@ -15,7 +15,7 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🐬🛒🔵
 
-> "Flow through the full body as one integrated pattern."
+> "Prescribed flow. Each movement connects to the next without reset."
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: 🌾🐬🛒🔵 (Warm-Up | Push | Partner | Structured)
@@ -40,15 +40,15 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🐬🛒🔵 (Supplemental | Push | Partner | Structured)
-├─ 11 🛒 Landmine Press (Two-Arm, Chest Focus) (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
+├─ 10 🛒 Landmine Press (Two-Arm, Chest Focus) (full range, different angle)
+│  Set 1: 🌾 60% × 10 (support volume)
+│  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🐬🛒🔵 (Release | Push | Partner | Structured)
-├─ 12 🛒 Kettlebell Goblet Squat (smooth tempo, downshift)
-│  Set 1: 🌾 50% × 12 (deload)
+├─ 10 🛒 Kettlebell Goblet Squat (smooth tempo, downshift)
+│  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══
 ## 6) 🚂 Junction

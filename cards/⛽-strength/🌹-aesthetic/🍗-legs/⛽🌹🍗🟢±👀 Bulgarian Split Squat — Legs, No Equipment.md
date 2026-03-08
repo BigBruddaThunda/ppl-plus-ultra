@@ -9,98 +9,50 @@ type: 🍗 Legs | Quads, hamstrings, glutes, calves
 color: 🟢 Bodyweight
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🍗 Bulgarian Split Squat — Legs Bodyweight 🍗
 
-# 🍗 Bulgarian Split Squat — Legs, No Equipment 🍗
+## Strength Aesthetic — Legs focus (Bodyweight) · 50-65 min
 
-Strength aesthetic session | Quads, glutes, hamstrings, calves | 58-72 min
+**CODE:** ⛽🌹🍗🟢
 
-CODE: ⛽🌹🍗🟢
-
-> "Own each heavy rep with full range so the target leg tissue carries the load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 👀 specio
-
-Sub-block: ♨️🍗🌹🟢 (Warm-Up | Legs | Aesthetic | Bodyweight)
-
-├─ 8 🍗 Bodyweight Squat (hips open, chest tall)
-├─ 8 🍗 Reverse Lunge (knee tracks forward)
-└─ 8 🍗 Glute Bridge (squeeze at top)
-
-Rest: 60 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🍗🌹🟢 (Primer | Legs | Aesthetic | Bodyweight)
-
-├─ Set 1: ⛽ 55% × 6 on Bulgarian Split Squat (find stance)
-├─ Set 2: ⛽ 65% × 5 on Bulgarian Split Squat (steady descent)
-└─ Set 3: ⛽ 72% × 4 on Bulgarian Split Squat (drive hard, no rush)
-
-Rest: 2 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 👀 specio
-
-Sub-block: 🧈🍗🌹🟢 (Bread & Butter | Legs | Aesthetic | Bodyweight)
-
-├─ 5 🍗 Bulgarian Split Squat (deep range, strong finish)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 5
-│  ├─ Set 3: ⛽ 82% × 4
-│  └─ Set 4: ⛽ 85% × 4
-└─ 4 🍗 Split Squat (Rear Foot Flat) (tension never drops)
-   ├─ Set 1: ⛽ 76% × 4
-   ├─ Set 2: ⛽ 78% × 4
-   └─ Set 3: ⛽ 80% × 4
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🍗🌹🟢 (Supplemental | Legs | Aesthetic | Bodyweight)
-
-├─ 5 🍗 Walking Lunge (drive through mid-foot)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 4
-│  └─ Set 3: ⛽ 80% × 4
-└─ 5 🍗 Single-Leg Standing Calf Raise (Bodyweight) (full stretch, full finish)
-   ├─ Set 1: ⛽ 74% × 5
-   ├─ Set 2: ⛽ 76% × 5
-   └─ Set 3: ⛽ 78% × 4
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🍗🌹🟢 (Release | Legs | Aesthetic | Bodyweight)
-
-- 60 sec easy nasal breathing with long exhale.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🍗🌹🟢 (Junction | Legs | Aesthetic | Bodyweight)
-
-Next → ⛽🌹🛒🟢 — upper-body push next while legs recover.
-Next → ⛽🌹🪡🟢 — pull day balances torso loading.
-Next → ⛽🌹➖🟢 — engine work supports next leg session capacity.
-
-Log: top load ______ | clean reps ______ | note ______
-
-═══════════════════════════════════════
-
+> "Prove the pattern holds without external load. Bodyweight is the test."
+═══
+## 1) ♨️ Warm-Up — 👀 specio
+Subcode: ⛽🌹🍗🟢 (Warm-Up | Legs | Aesthetic | Bodyweight)
+├─ 6 🍗 Half-Kneeling Hip Flexor Stretch (bodyweight, no external load needed)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🌹🍗🟢 (Primer | Legs | Aesthetic | Bodyweight)
+├─ 5 🍗 Single-Leg Pogo Hops (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 120s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🌹🍗🟢 (Bread & Butter | Legs | Aesthetic | Bodyweight)
+├─ 5 🍗 Bulgarian Split Squat (bodyweight, no external load needed)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🌹🍗🟢 (Supplemental | Legs | Aesthetic | Bodyweight)
+├─ 6 🍗 Single-Leg Extension (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🌹🍗🟢 (Release | Legs | Aesthetic | Bodyweight)
+├─ 6 🍗 Single-Leg Good Morning (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹🍗🟢 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Heavy aesthetic leg work is controlled force: if depth and line stay consistent, progression is earned. If range shortens, keep load and repeat.
+Bodyweight strength is the transfer test. If it held, the gym work is real.

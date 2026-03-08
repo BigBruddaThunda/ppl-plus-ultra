@@ -9,93 +9,50 @@ type: ➕ Plus
 color: 🔵 Structured
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➕ Farmer's Carry (Heavy) — Plus Structured ➕
 
-# ➕ Farmer's Carry (Heavy) — Plus Challenge, Structured ➕
+## Strength Challenge — Plus focus (Structured) · 50-65 min
 
-Strength challenge session | Full-body power and core | 55-70 min
+**CODE:** ⛽🪐➕🔵
 
-CODE: ⛽🪐➕🔵
-
-> "Move heavy through unstable demands and keep force transfer clean."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🚀 mitto
-
-Sub-block: ♨️➕🪐🔵 (Warm-Up | Plus | Challenge | Structured)
-
-├─ 6 ➕ Suitcase Carry (Single-Arm) (no side bend)
-└─ 8 ➕ Medicine Ball Slam (full hip snap)
-
-Rest: 90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➕🪐🔵 (Primer | Plus | Challenge | Structured)
-
-├─ Set 1: ⛽ 60% × 6 on Farmer's Carry (Heavy) (controlled depth)
-├─ Set 2: ⛽ 68% × 5 on Farmer's Carry (Heavy) (2-second pause)
-└─ Set 3: ⛽ 72% × 4 on Farmer's Carry (Heavy) (same strict line)
-
-Rest: 2-3 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🚀
-
-Sub-block: 🧈➕🪐🔵 (Bread & Butter | Plus | Challenge | Structured)
-
-├─ 5 ➕ Farmer's Carry (Heavy) (hardest clean variation today)
-│  ├─ Set 1: ⛽ 75% × 6 (tempo down, violent up)
-│  ├─ Set 2: ⛽ 78% × 5 (1-second hold in weak point)
-│  ├─ Set 3: ⛽ 82% × 4 (keep shape locked)
-│  └─ Set 4: ⛽ 85% × 4 (no breakdown reps)
-└─ 4 ➕ Sled Push (Heavy) (short violent steps) 
-   ├─ Set 1: ⛽ 75% × 5 (strict path)
-   ├─ Set 2: ⛽ 80% × 4 (pause each rep)
-   └─ Set 3: ⛽ 82% × 4 (same speed target)
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➕🪐🔵 (SUPPLEMENTAL | Plus | Challenge | Structured)
-
-├─ 5 ➕ Sled Push (Heavy) (short violent steps)
-└─ 4 ➕ Kettlebell Swing (snap then float)
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫➕🪐🔵 (Release | Plus | Challenge | Structured)
-
-- 5 minutes easy downshift work and nasal breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂➕🪐🔵 (Junction | Plus | Challenge | Structured)
-
-Log:
-- Load quality: ______________________
-- Hardest sticking point: ____________
-- Recovery readiness (1-5): _________
-
-Next → ⛽🪐🍗🔵 — keep lower-body force production high
-Next → ⛽🪐➖🔵 — convert force output into repeatable engine work
-
-═══════════════════════════════════════
-
+> "Same weight, same reps, same rest. Build the base one session at a time."
+═══
+## 1) ♨️ Warm-Up — 🚀 mitto
+Subcode: ⛽🪐➕🔵 (Warm-Up | Plus | Challenge | Structured)
+├─ 6 ➕ Overhead Throw (Medicine Ball) (prescribed, track sets and reps)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🪐➕🔵 (Primer | Plus | Challenge | Structured)
+├─ 5 ➕ Pull-Up (Overhand Grip) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 120s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🪐➕🔵 (Bread & Butter | Plus | Challenge | Structured)
+├─ 5 ➕ Farmer's Carry (Heavy) (prescribed, track sets and reps)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🪐➕🔵 (Supplemental | Plus | Challenge | Structured)
+├─ 6 ➕ Bent-Over Barbell Row (Overhand) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🪐➕🔵 (Release | Plus | Challenge | Structured)
+├─ 6 ➕ Rotational Medicine Ball Throw (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🪐➕🔵 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Challenge strength is heavy load plus stricter execution. Keep the same standard next session: no rep counts unless the position stays honest.
+Keep the same movement standard. Only add load if bar path stays unchanged.

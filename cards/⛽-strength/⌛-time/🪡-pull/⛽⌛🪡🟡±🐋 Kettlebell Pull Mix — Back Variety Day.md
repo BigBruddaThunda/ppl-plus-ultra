@@ -9,99 +9,50 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟡 Fun | Tier 0-5 | GOLD: No | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🪡 Kettlebell Pull Mix — Pull Fun 🪡
 
-# 🪡 Kettlebell Pull Mix — Back Variety Day 🪡
+## Strength Time — Pull focus (Fun) · 50-65 min
 
-Timed strength session | Lats, rear delts, biceps, traps, erectors | 50-65 min
+**CODE:** ⛽⌛🪡🟡
 
-CODE: ⛽⌛🪡🟡
-
-> "Run the clock to pace heavy work, then keep rep quality when fatigue climbs."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🐋 duco — set the session rhythm before heavy sets
-
-Sub-block: ♨️🪡⌛🟡 (Warm-Up | Pull | Time | Fun)
-
-- 🪡 Dynamic prep drill (steady breathing, no rush)
-- 🪡 Pattern rehearsal (own every transition)
-- 🪡 Ramp rep with light load (practice the timer start)
-
-Rest: 60 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🪡⌛🟡 (Primer | Pull | Time | Fun)
-
-- Set 1: ⛽ 60% × 5 (build speed without grinding)
-- Set 2: ⛽ 68% × 4 (same tempo, cleaner brace)
-- Set 3: ⛽ 72% × 3 (last primer before work sets)
-
-Rest: 2 min between primer sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-Primary Pattern: **Kettlebell High Pull**
-
-🐋 duco — clock-managed heavy work
-
-Sub-block: 🧈🪡⌛🟡 (Bread & Butter | Pull | Time | Fun)
-
-- 🪡 Kettlebell High Pull (start each minute sharp)
-- 🪡 Secondary strength variation (match bar path each round)
-- 🪡 Stability finisher under clock (finish before the minute)
-
-├─ Set 1: ⛽ 75% × 5 (find the day)
-├─ Set 2: ⛽ 80% × 5 (same timing window)
-├─ Set 3: ⛽ 82% × 4 (keep position at fatigue)
-│  Set 4: ⛽ 78% × 6 (quality back-off under clock)
-
-Rest: 3-4 min after each heavy round.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🪡⌛🟡 (Supplemental | Pull | Time | Fun)
-
-- 🪡 Assistance lift A (hold form under the timer)
-- 🪡 Assistance lift B (full range, no rushing)
-- 🪡 Assistance lift C (last rep should still look clean)
-
-Rest: 2 min 30 sec.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-- 90 sec easy cyclical reset (downshift breathing)
-- 60 sec tissue reset drill (unlock the pattern you trained)
-- 5 slow breaths in final position (drop heart rate)
-
-Rest: move continuously.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Log:
-- Main lift top load: __________
-- Best quality set: __________
-- Clock target hit rate: ______ / ______
-
-Next → ⛽⌛🪡🔵 — repeat with tighter timing and cleaner splits
-Next → ⛽⌛🪡🟣 — reduce volume and sharpen technical reps
-Next → 🖼⌛🪡⚪ — recover the pattern with slower tempo
-
-═══════════════════════════════════════
-
+> "Find a movement you have not tried at this load and own it."
+═══
+## 1) ♨️ Warm-Up — 🐋 duco
+Subcode: ⛽⌛🪡🟡 (Warm-Up | Pull | Time | Fun)
+├─ 6 🪡 Wide-Grip Pull-Up (Teres Focus) (explore, stay within constraints)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽⌛🪡🟡 (Bread & Butter | Pull | Time | Fun)
+├─ 5 🪡 Kettlebell Pull Mix (explore, stay within constraints)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 3) 🌎 Exposure
+Subcode: ⛽⌛🪡🟡 (Exposure | Pull | Time | Fun)
+├─ 5 🪡 Deadlift (Conventional) (try the unfamiliar version, explore the range)
+│  Set 1: ⛽ 65% × 5 (discovery set)
+Rest: 120s
+═══
+## 4) 🏖 Sandbox
+Subcode: ⛽⌛🪡🟡 (Sandbox | Pull | Time | Fun)
+├─ 5 🪡 Scapular Push-Up (explore within constraints, choose your variation)
+│  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
+│  Option B: ⛽ 70% × 5 (try a variation you have not used before)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽⌛🪡🟡 (Release | Pull | Time | Fun)
+├─ 6 🪡 Deadlift (Conventional) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽⌛🪡🟡 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The clock is a limiter, not a panic trigger. Keep heavy reps crisp inside the time window, then adjust load next session from what the log proves.
+Note what you tried and what surprised you. Build on it next session.

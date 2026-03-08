@@ -15,17 +15,17 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 
 **CODE:** 🦋🪐➕🟢
 
-> "Build tension through volume. Load serves the muscle, not the ego."
+> "Build the muscle with what you have. No equipment is not an excuse."
 ═══
 ## 1) ♨️ Warm-Up — 🪵 teneo
 Subcode: 🦋🪐➕🟢 (Warm-Up | Plus | Challenge | Bodyweight)
-├─ 12 ➕ Single-Arm Face Pull (bodyweight, no external load needed)
+├─ 12 ➕ Aquaman (Alternating Superman) (bodyweight, no external load needed)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🪐➕🟢 (Primer | Plus | Challenge | Bodyweight)
-├─ 10 ➕ Aquaman (Alternating Superman) (tight setup, crisp intent)
+├─ 10 ➕ Wide-Grip Lat Pulldown (Teres Focus) (tight setup, crisp intent)
 │  Set 1: 🦋 60% × 10 (activation)
 Rest: 75s
 ═══
@@ -39,21 +39,21 @@ Rest: 90s
 ═══
 ## 4) 🗿 Sculpt
 Subcode: 🦋🪐➕🟢 (Sculpt | Plus | Challenge | Bodyweight)
-├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (angles, tension, volume)
+├─ 12 ➕ Good Morning (Barbell) (angles, tension, volume)
 │  Set 1: 🦋 65% × 12 (shaping)
 │  Set 2: 🦋 65% × 12 (carving)
 Rest: 60s
 ═══
 ## 5) 🧩 Supplemental
 Subcode: 🦋🪐➕🟢 (Supplemental | Plus | Challenge | Bodyweight)
-├─ 12 ➕ Wide-Grip Lat Pulldown (Teres Focus) (full range, different angle)
+├─ 12 ➕ Good Morning (Barbell) (full range, different angle)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 60s
 ═══
 ## 6) 🪫 Release
 Subcode: 🦋🪐➕🟢 (Release | Plus | Challenge | Bodyweight)
-├─ 12 ➕ Good Morning (Barbell) (smooth tempo, downshift)
+├─ 12 ➕ Half-Kneeling Cable Chop (smooth tempo, downshift)
 │  Set 1: 🦋 50% × 12 (deload)
 Rest: 60s
 ═══
@@ -62,4 +62,4 @@ Rest: 60s
 - Next → 🦋🪐➕🟢 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Track the pump and the tension. Volume drives growth; form keeps it honest.
+Bodyweight hypertrophy works when tempo and volume are honest. Log both.

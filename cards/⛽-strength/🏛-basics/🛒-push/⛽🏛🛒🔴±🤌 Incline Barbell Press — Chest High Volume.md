@@ -10,136 +10,57 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🔴 Intense | Tier 2–4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🌋 → 🪫 → 🚂 → 🧮
 ---
+# 🛒 Incline Barbell Press — Push Intense 🛒
 
-# 🛒 Incline Barbell Press — Chest High Volume 🛒
+## Strength Basics — Push focus (Intense) · 50-65 min
 
-High-volume barbell strength | Chest, front delts, triceps | 70–80 min
+**CODE:** ⛽🏛🛒🔴
 
-CODE: ⛽🏛🛒🔴
-
-> "Every set goes somewhere. Nothing coasts today."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🤌 facio — activate fast
-
-- 15 Band Pull-Apart
-- 10 Shoulder Dislocations
-- 15 🛒 Barbell Bench Press (empty bar)
-- 2 ramp sets: 55% × 5, 68% × 3
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-🤌 facio — signal max effort
-
-Bench Press: 75% × 3, 80% × 2
-
-Push Jerk (GOLD, 🔴 unlocks):
-- 52% × 3 (CNS signal — dip is small, drive is explosive)
-- 57% × 3 (same — this is not the main event)
-
-Rest: 90 sec.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-🤌 facio — high-volume pressing, density protocol
-
-Rest: 3 min (reduced from standard — push the density).
-
-**A. 🛒 Incline Barbell Bench Press** — 5 working sets
-
-- Set 1: 78% × 5
-- Set 2: 80% × 5
-- Set 3: 82% × 4
-- Set 4: 82% × 4
-- Set 5: 80% × 5 (back-off — volume matters)
-
-**B. 🛒 Barbell Overhead Press (Standing)** — 4 working sets
-
-- Set 1: 75% × 5
-- Set 2: 78% × 5
-- Set 3: 80% × 4
-- Set 4: 78% × 5 (back-off)
-
-Rest: 3 min between all sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-🤌 facio — accessory volume, supersets permitted
-
-Rest: 90 sec between supersets.
-
-**Superset (3 rounds):**
-
-A1: 🛒 Close-Grip Bench Press — 70% × 5
-A2: 🛒 Lying Barbell Tricep Extension (Skull Crusher) — moderate × 6
-
-90 sec after A2, then repeat.
-
-═══════════════════════════════════════
-
-## 5. 🌋 GUTTER
-
-🤌 facio — one all-out set
-
-Full 4 min rest first.
-
-**🛒 Barbell Bench Press — AMRAP at 75%**
-
-One set, all quality reps. Stop the set when form breaks. Count only reps that hit the standard.
-
-Log the rep count.
-
-═══════════════════════════════════════
-
-## 6. 🪫 RELEASE
-
-🔴 context — stress out, not tension down.
-
-- Foam Roll Pecs: 2 min
-- PNF Chest Stretch (Contract-Relax): 2 × 30 sec each side
-- Cross-Body Shoulder Stretch: 45 sec each side
-
-═══════════════════════════════════════
-
-## 7. 🚂 JUNCTION
-
-Cross-Junction map (current zip at center):
-
-```text
-               ↑ ⛽⌛➕⚪
-                    (convert force into full-body power with timed structure)
-
-← ⛽🏛🪡⚪   •   ⛽🏛🛒🔴   → ⛽🏛🍗⚪
-  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
-
-               ↓ 🖼⌛➖⚪
-                    (downshift and recover while keeping pattern quality)
-```
-
-```
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-Readiness next session (1–5): _________
-```
-
-Next →
-- ⛽⌛➕⚪ — convert force into full-body power with timed structure
-- ⛽🏛🪡⚪ — pair the main strength pattern with its structural complement
-- ⛽🏛🍗⚪ — pair the main strength pattern with its structural complement
-- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
-
-═══════════════════════════════════════
-
+> "Push the ceiling. Every set should cost something real."
+═══
+## 1) ♨️ Warm-Up — 🤌 facio
+Subcode: ⛽🏛🛒🔴 (Warm-Up | Push | Basics | Intense)
+├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (high effort, push the pace)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🏛🛒🔴 (Primer | Push | Basics | Intense)
+├─ 5 🛒 Push Jerk (Barbell) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 60s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🏛🛒🔴 (Bread & Butter | Push | Basics | Intense)
+├─ 5 🛒 Incline Barbell Press (high effort, push the pace)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 90s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🏛🛒🔴 (Supplemental | Push | Basics | Intense)
+├─ 6 🛒 Bamboo Bar Bench Press (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 60s
+═══
+## 5) 🌋 Gutter
+Subcode: ⛽🏛🛒🔴 (Gutter | Push | Basics | Intense)
+├─ 6 🛒 Barbell Bench Press (all-out, leave nothing in reserve)
+│  Set 1: ⛽ 65% × 6 (push to form break)
+│  Set 2: ⛽ 65% × AMRAP (final effort)
+Rest: 45s
+═══
+## 6) 🪫 Release
+Subcode: ⛽🏛🛒🔴 (Release | Push | Basics | Intense)
+├─ 6 🛒 Barbell Bench Press (stress out, cathartic discharge)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 7) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🏛🛒🔴 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The Gutter number is the real data. More reps at 75% means the 80–82% sets are getting easier. That is when the floor goes up, not the ceiling.
+Record peak effort. Recovery before next heavy session.

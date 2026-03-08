@@ -10,142 +10,57 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🔴 Intense | Tier 2–4 | GOLD: Yes | Maximum effort. High volume. Reduced rest. Supersets OK.
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🌋 → 🪫 → 🚂 → 🧮
 ---
+# 🪡 Sumo Deadlift — Pull Intense 🪡
 
-# 🪡 Sumo Deadlift — Back and Hip High Volume 🪡
+## Strength Basics — Pull focus (Intense) · 50-65 min
 
-Heavy barbell pull, high volume, max effort | Lats, traps, erectors, biceps, rear delts | 75–90 min
+**CODE:** ⛽🏛🪡🔴
 
-CODE: ⛽🏛🪡🔴
-
-> "This is the heavy pull day. Every muscle in the back is working today — not most of them."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🤌 facio — thorough prep before maximum effort
-
-- 60 sec Dead Hang
-- 10 Scapular Pull-Up
-- 12 Band Pull-Apart
-- 8/side Prone Y-Raise
-- 8 Cat-Cow
-- 8 Bird Dog (alternate sides — contralateral stability)
-
-Rest: 45–60 sec. Don't shortcut this today.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-🤌 facio — prime the CNS before volume
-
-- 5 🪡 Romanian Deadlift at 50% (pattern)
-- 3 🪡 Deadlift at 60% (add breath and brace)
-- 2 🪡 Deadlift at 70% (setup perfect, pull hard)
-- 1 🪡 Deadlift at 77.5% (opener — how does it feel?)
-
-Rest: 90 sec between primer sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-🤌 facio — high volume, maximum effort, no junk sets
-
-Rest: 3–4 min between deadlift sets. 2.5 min between row pairs.
-
-**A. 🪡 Sumo Deadlift**
-
-- Set 1: 80% × 5 (position before tension before pull)
-- Set 2: 82.5% × 5 (hold the position — nothing drifts)
-- Set 3: 85% × 4 (top end — work close to the ceiling)
-- Set 4: 85% × 3 (hold if still dialed, drop if form breaks)
-- Set 5: 80% × 5 (back-off — volume, not grinding)
-
-**B. 🪡 Bent-Over Barbell Row + 🪡 Barbell Shrug (superset)**
-
-Supersets allowed in 🔴. Row pulls horizontal, shrug pulls vertical — same bar, no re-load.
-
-- Pair 1: 80% Row × 5 → Shrug × 5 (straight up, no roll)
-- Pair 2: 82.5% Row × 5 → Shrug × 5 (hold half a sec at top)
-- Pair 3: 82.5% Row × 4 → Shrug × 5
-- Pair 4: 80% Row × 5 (back-off) → Shrug × 6
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-🤌 facio — secondary volume, not a second main workout
-
-Rest: 2–3 min
-
-**🪡 Weighted Pull-Up**
-
-- Set 1: working load × 5 (full hang, chin clears, controlled down)
-- Set 2: working load × 5 (overhand grip, lats dominate)
-- Set 3: working load × 4 (drop to bodyweight if falling below 4)
-- Set 4: bodyweight × 6 (finish strong)
-
-═══════════════════════════════════════
-
-## 5. 🌋 GUTTER
-
-🤌 facio — all-out final effort, earned and optional
-
-**🪡 Rack Pull (from just below the knee)**
-
-One shot. The top half of the deadlift — where the back is mechanically strongest.
-
-- Set 1: 87.5–90% × 3 (as heavy as today allows, no more than 90%)
-- Set 2: same × 2 (only if Set 1 was clean — if it was ugly, you're done)
-
-Rest: 5 min if you do both sets. Skip entirely if the deadlift volume already buried you.
-
-═══════════════════════════════════════
-
-## 6. 🪫 RELEASE
-
-🤌 facio — stress OUT
-
-- 90 sec Hanging Lat Stretch (passive, spine decompresses)
-- 60 sec/side Kneeling Lat Stretch
-- 60 sec Child's Pose (arms extended, breathe into the thoracic)
-- 10 slow Cat-Cow (every vertebra)
-- 30 sec/side Lying Spinal Twist
-
-═══════════════════════════════════════
-
-## 7. 🚂 JUNCTION
-
-Cross-Junction map (current zip at center):
-
-```text
-               ↑ ⛽⌛➕⚪
-                    (convert force into full-body power with timed structure)
-
-← ⛽🏛🛒⚪   •   ⛽🏛🪡🔴   → ⛽🏛🍗⚪
-  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
-
-               ↓ 🖼⌛➖⚪
-                    (downshift and recover while keeping pattern quality)
-```
-
-```
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-Readiness next session (1–5): _________
-```
-
-Next →
-- ⛽⌛➕⚪ — convert force into full-body power with timed structure
-- ⛽🏛🛒⚪ — pair the main strength pattern with its structural complement
-- ⛽🏛🍗⚪ — pair the main strength pattern with its structural complement
-- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
-
-═══════════════════════════════════════
-
+> "Push the ceiling. Every set should cost something real."
+═══
+## 1) ♨️ Warm-Up — 🤌 facio
+Subcode: ⛽🏛🪡🔴 (Warm-Up | Pull | Basics | Intense)
+├─ 6 🪡 Push Jerk (Barbell) (high effort, push the pace)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🏛🪡🔴 (Primer | Pull | Basics | Intense)
+├─ 5 🪡 Zercher Carry (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 60s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🏛🪡🔴 (Bread & Butter | Pull | Basics | Intense)
+├─ 5 🪡 Sumo Deadlift (high effort, push the pace)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 90s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🏛🪡🔴 (Supplemental | Pull | Basics | Intense)
+├─ 6 🪡 Pull-Up (Overhand Grip) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 60s
+═══
+## 5) 🌋 Gutter
+Subcode: ⛽🏛🪡🔴 (Gutter | Pull | Basics | Intense)
+├─ 6 🪡 Bent-Over Barbell Row (Overhand) (all-out, leave nothing in reserve)
+│  Set 1: ⛽ 65% × 6 (push to form break)
+│  Set 2: ⛽ 65% × AMRAP (final effort)
+Rest: 45s
+═══
+## 6) 🪫 Release
+Subcode: ⛽🏛🪡🔴 (Release | Pull | Basics | Intense)
+├─ 6 🪡 Bent-Over Barbell Row (Overhand) (stress out, cathartic discharge)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 7) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🏛🪡🔴 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-High volume and heavy load in the same session takes 48–72 hours to clear. Log it, rest it, return when the nervous system has caught up.
+Record peak effort. Recovery before next heavy session.

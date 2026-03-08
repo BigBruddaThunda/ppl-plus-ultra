@@ -11,53 +11,48 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
 # 🛒 Earthquake Bar Bench Press — Push Technical 🛒
 
-## Hypertrophy Basics — Push focus (Technical) · 45-55 min
+## Hypertrophy Basics — Push focus (Technical) · 55-70 min
 
 **CODE:** 🦋🏛🛒🟣
 
-> "Drive clean reps inside the hypertrophy ceiling and make every set repeatable."
-
+> "Feel the muscle work through the full range. Precision builds tissue."
 ═══
-## 1) ♨️ Warm-Up — 🤌 facio inline
+## 1) ♨️ Warm-Up — 🤌 facio
 Subcode: 🦋🏛🛒🟣 (Warm-Up | Push | Basics | Technical)
-├─ 10 🛒 Bamboo Bar Bench Press (steady tempo, easy ramp)
-│  Set 1: 🦋 60% × 10 (pattern prep)
-Rest: 75s
-
+├─ 12 🛒 Bamboo Bar Bench Press (precision, quality over volume)
+│  Set 1: 🦋 50% × 12 (pattern prep)
+Rest: 90s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🏛🛒🟣 (Primer | Push | Basics | Technical)
-├─ 8 🛒 Plyometric Push-Up (Hands Leave Ground) (tight setup, crisp intent)
-│  Set 1: 🦋 65% × 8 (activation)
-Rest: 90s
-
+├─ 10 🛒 Plyometric Push-Up (Hands Leave Ground) (tight setup, crisp intent)
+│  Set 1: 🦋 60% × 10 (activation)
+Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🏛🛒🟣 (Bread & Butter | Push | Basics | Technical)
-├─ 5 🛒 Earthquake Bar Bench Press (clean line, own the bottom)
-│  Set 1: 🦋 75% × 5 (build set)
-│  Set 2: 🦋 80% × 5 (working set)
-│  Set 3: 🦋 80% × 5 (repeat quality)
-Rest: 180s
-
+├─ 10 🛒 Earthquake Bar Bench Press (precision, quality over volume)
+│  Set 1: 🦋 65% × 10 (build set)
+│  Set 2: 🦋 70% × 10 (working set)
+│  Set 3: 🦋 70% × 10 (repeat quality)
+Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🦋🏛🛒🟣 (Supplemental | Push | Basics | Technical)
-├─ 6 🛒 Push Jerk (Barbell) (full range, no drift)
-│  Set 1: 🦋 70% × 6 (support volume)
-Rest: 120s
-
+├─ 12 🛒 Push Jerk (Barbell) (full range, different angle)
+│  Set 1: 🦋 60% × 12 (support volume)
+│  Set 2: 🦋 60% × 12 (non-redundant)
+Rest: 90s
 ═══
 ## 5) 🪫 Release
 Subcode: 🦋🏛🛒🟣 (Release | Push | Basics | Technical)
 ├─ 12 🛒 Incline Barbell Bench Press (30°) (smooth tempo, downshift)
-│  Set 1: 🦋 55% × 12 (tension out)
+│  Set 1: 🦋 50% × 12 (deload)
 Rest: 90s
-
 ═══
 ## 6) 🚂 Junction
 - Log: load, reps, and form break point.
-- Next → 🦋🏛🛒🟣 — repeat and tighten execution under same constraints.
-
+- Next → 🦋🏛🛒🟣 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Keep the same movement standard next session and only add load if bar path and position stay unchanged.
+Note which reps had the best mind-muscle connection. Chase that feeling.

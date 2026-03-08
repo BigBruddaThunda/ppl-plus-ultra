@@ -10,113 +10,50 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🟡 Fun | Tier 0–5 | GOLD: No | Exploration and variety within constraints.
 blocks: ♨️ → 🧈 → 🏖 → 🚂 → 🧮
 ---
+# 🛒 Decline Barbell Press — Push Fun 🛒
 
-# 🛒 Decline Barbell Press — Chest Variety Day 🛒
+## Strength Basics — Push focus (Fun) · 50-65 min
 
-Varied implements and angles | Chest, front delts, triceps | 55–65 min
+**CODE:** ⛽🏛🛒🟡
 
-CODE: ⛽🏛🛒🟡
-
-> "Same constraints. Different implement. What does the pattern feel like from here?"
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-📍 pono — set the shoulder position before exploring new tools
-
-- 10 Shoulder Dislocations
-- 15 Band Pull-Apart
-- 15 🛒 Standard Push-Up
-- 2 ramp sets of whatever press you're opening with (50% × 5, 65% × 3)
-
-═══════════════════════════════════════
-
-## 2. 🧈 BREAD & BUTTER
-
-📍 pono — barbell anchor, standard parameters
-
-Even in 🟡, the barbell bench is the main event. Explore from here.
-
-Rest: 3–4 min
-
-**🛒 Decline Barbell Bench Press**
-
-- Set 1: 78% × 5
-- Set 2: 80% × 5
-- Set 3: 82% × 4
-
-Bar to lower sternum. Elbows 45°.
-
-═══════════════════════════════════════
-
-## 3. 🏖 SANDBOX
-
-📍 pono — structured exploration, one implement or angle
-
-⛽ ceiling applies throughout: 75–85%, 4–6 reps, 3 min rest. The constraint is fixed. The implement is open.
-
-Pick one you haven't done in a while. Run 3 sets.
-
-**Options:**
-
-A — Incline Barbell Bench Press (30°)
-Upper chest and front delt emphasis. Does the groove feel different?
-
-B — Swiss Bar Bench Press
-Neutral grip reduces shoulder rotation. What does the chest feel doing less rotation?
-
-C — Larsen Press (feet up)
-No leg drive. Pure upper body pressing. Heavier than it feels.
-
-D — Barbell Military Press (seated, strict)
-No hip shift at all. Where does your OHP break down?
-
-E — Dumbbell Bench Press at working weight
-Each arm works independently. Which side drives harder?
-
-F — Decline Barbell Bench Press
-Lower chest emphasis. Wider elbows. Compare the lockout to flat bench.
-
-**Sandbox sets (3 sets of the chosen option):**
-- Set 1: 75% × 5 — get the feel
-- Set 2: 78% × 4 — work it
-- Set 3: 78% × 4 — one more
-
-Note what felt different. That's the data from this session.
-
-═══════════════════════════════════════
-
-## 4. 🚂 JUNCTION
-
-Cross-Junction map (current zip at center):
-
-```text
-               ↑ ⛽⌛➕🔵
-                    (convert force into full-body power with timed structure)
-
-← ⛽🏛🪡🔵   •   ⛽🏛🛒🟡   → ⛽🏛🍗🔵
-  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
-
-               ↓ ⛽🏛➖🔵
-                    (build repeatable engine capacity under strength intent)
-```
-
-```
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-Readiness next session (1–5): _________
-```
-
-Next →
-- ⛽⌛➕🔵 — convert force into full-body power with timed structure
-- ⛽🏛🪡🔵 — pair the main strength pattern with its structural complement
-- ⛽🏛🍗🔵 — pair the main strength pattern with its structural complement
-- ⛽🏛➖🔵 — build repeatable engine capacity under strength intent
-
-═══════════════════════════════════════
-
+> "Find a movement you have not tried at this load and own it."
+═══
+## 1) ♨️ Warm-Up — 📍 pono
+Subcode: ⛽🏛🛒🟡 (Warm-Up | Push | Basics | Fun)
+├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (explore, stay within constraints)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽🏛🛒🟡 (Bread & Butter | Push | Basics | Fun)
+├─ 5 🛒 Decline Barbell Press (explore, stay within constraints)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 3) 🌎 Exposure
+Subcode: ⛽🏛🛒🟡 (Exposure | Push | Basics | Fun)
+├─ 5 🛒 Landmine Press (Two-Arm, Chest Focus) (try the unfamiliar version, explore the range)
+│  Set 1: ⛽ 65% × 5 (discovery set)
+Rest: 120s
+═══
+## 4) 🏖 Sandbox
+Subcode: ⛽🏛🛒🟡 (Sandbox | Push | Basics | Fun)
+├─ 5 🛒 Diamond Push-Up (Close-Grip) (explore within constraints, choose your variation)
+│  Option A: ⛽ 70% × 5 (play with grip, stance, or tempo)
+│  Option B: ⛽ 70% × 5 (try a variation you have not used before)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🏛🛒🟡 (Release | Push | Basics | Fun)
+├─ 6 🛒 Landmine Press (Two-Arm, Chest Focus) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🏛🛒🟡 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-🟡 Fun is not unfocused. The constraint is still in effect. What changes is the implement. Write down what you found — the next structured session should be smarter for it.
+Note what you tried and what surprised you. Build on it next session.

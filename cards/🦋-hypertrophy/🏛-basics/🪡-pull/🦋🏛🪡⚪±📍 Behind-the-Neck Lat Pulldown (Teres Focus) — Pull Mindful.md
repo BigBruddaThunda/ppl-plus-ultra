@@ -11,53 +11,48 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
 # 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) — Pull Mindful 🪡
 
-## Hypertrophy Basics — Pull focus (Mindful) · 45-55 min
+## Hypertrophy Basics — Pull focus (Mindful) · 55-70 min
 
 **CODE:** 🦋🏛🪡⚪
 
-> "Drive clean reps inside the hypertrophy ceiling and make every set repeatable."
-
+> "Slow eccentrics under moderate load. Time under tension is the stimulus."
 ═══
-## 1) ♨️ Warm-Up — 📍 pono inline
+## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🦋🏛🪡⚪ (Warm-Up | Pull | Basics | Mindful)
-├─ 10 🪡 Cable Pullover (steady tempo, easy ramp)
-│  Set 1: 🦋 60% × 10 (pattern prep)
-Rest: 75s
-
-═══
-## 2) ▶️ Primer
-Subcode: 🦋🏛🪡⚪ (Primer | Pull | Basics | Mindful)
-├─ 8 🪡 Wide-Grip Lat Pulldown (Teres Focus) (tight setup, crisp intent)
-│  Set 1: 🦋 65% × 8 (activation)
-Rest: 90s
-
-═══
-## 3) 🧈 Bread & Butter
-Subcode: 🦋🏛🪡⚪ (Bread & Butter | Pull | Basics | Mindful)
-├─ 5 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) (clean line, own the bottom)
-│  Set 1: 🦋 75% × 5 (build set)
-│  Set 2: 🦋 80% × 5 (working set)
-│  Set 3: 🦋 80% × 5 (repeat quality)
-Rest: 180s
-
-═══
-## 4) 🧩 Supplemental
-Subcode: 🦋🏛🪡⚪ (Supplemental | Pull | Basics | Mindful)
-├─ 6 🪡 Face Pull (Rope) (full range, no drift)
-│  Set 1: 🦋 70% × 6 (support volume)
+├─ 12 🪡 Wide-Grip Lat Pulldown (Teres Focus) (4s eccentric, breath-paced)
+│  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 120s
-
 ═══
-## 5) 🪫 Release
+## 2) 🧈 Bread & Butter
+Subcode: 🦋🏛🪡⚪ (Bread & Butter | Pull | Basics | Mindful)
+├─ 10 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) (4s eccentric, breath-paced)
+│  Set 1: 🦋 65% × 10 (build set)
+│  Set 2: 🦋 70% × 10 (working set)
+│  Set 3: 🦋 70% × 10 (repeat quality)
+Rest: 180s
+═══
+## 3) 🧩 Supplemental
+Subcode: 🦋🏛🪡⚪ (Supplemental | Pull | Basics | Mindful)
+├─ 12 🪡 Good Morning (Barbell) (full range, different angle)
+│  Set 1: 🦋 60% × 12 (support volume)
+│  Set 2: 🦋 60% × 12 (non-redundant)
+Rest: 120s
+═══
+## 4) 🪫 Release
 Subcode: 🦋🏛🪡⚪ (Release | Pull | Basics | Mindful)
-├─ 12 🪡 Good Morning (Barbell) (smooth tempo, downshift)
-│  Set 1: 🦋 55% × 12 (tension out)
-Rest: 90s
-
+├─ 12 🪡 Preacher Curl Machine (parasympathetic, tension down, 4s eccentric)
+│  Set 1: 🦋 50% × 12 (deload)
+Rest: 120s
+═══
+## 5) 🧬 Imprint
+Subcode: 🦋🏛🪡⚪ (Imprint | Pull | Basics | Mindful)
+├─ 12 🪡 Behind-the-Neck Lat Pulldown (Teres Focus) (high rep, low load, neural memory)
+│  Set 1: 🦋 45% × 12 (lock the pattern)
+Rest: 120s
 ═══
 ## 6) 🚂 Junction
 - Log: load, reps, and form break point.
-- Next → 🦋🏛🪡⚪ — repeat and tighten execution under same constraints.
-
+- Next → 🦋🏛🪡⚪ — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Keep the same movement standard next session and only add load if bar path and position stay unchanged.
+Slow eccentrics build tissue that fast reps miss. Trust the tempo.

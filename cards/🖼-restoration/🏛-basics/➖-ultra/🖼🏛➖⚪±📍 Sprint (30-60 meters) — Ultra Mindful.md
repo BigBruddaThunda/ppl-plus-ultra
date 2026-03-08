@@ -15,30 +15,30 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 **CODE:** 🖼🏛➖⚪
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Breathe into each position. Leave fresher than you entered."
 ═══
 ## 1) 🎯 Intention
 
-> "Leave fresher than you entered. Recovery is the work."
+> "Breathe into each position. Leave fresher than you entered."
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🏛➖⚪ (Release | Ultra | Basics | Mindful)
-├─ 12 ➖ Sprint (60-100 meters) (parasympathetic, tension down)
+├─ 12 ➖ Sprint (60-100 meters) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
-Rest: 60s
+Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🏛➖⚪ (Bread & Butter | Ultra | Basics | Mindful)
 ├─ 13 ➖ Sprint (30-60 meters) (4s eccentric, breath-paced)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
-Rest: 60s
+Rest: 120s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🏛➖⚪ (Imprint | Ultra | Basics | Mindful)
-├─ 17 ➖ Sprint (30-60 meters) (high rep, low load, neural memory)
-│  Set 1: 🖼 35% × 17 (lock the pattern)
-Rest: 60s
+├─ 15 ➖ Sprint (30-60 meters) (high rep, low load, neural memory)
+│  Set 1: 🖼 35% × 15 (lock the pattern)
+Rest: 120s
 ═══
 ## 5) 🚂 Junction
 - Log: load, reps, and form break point.

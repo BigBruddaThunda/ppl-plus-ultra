@@ -15,17 +15,17 @@ blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 
 **CODE:** 🐂🐬➕🟢
 
-> "Learn the pattern at sub-maximal load. Own the positions before adding weight."
+> "Learn the pattern with your own body first. External load comes later."
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: 🐂🐬➕🟢 (Warm-Up | Plus | Partner | Bodyweight)
-├─ 12 ➕ Single-Arm Face Pull (bodyweight, no external load needed)
+├─ 12 ➕ Hip Flexor Stretch (Half-Kneeling) (bodyweight, no external load needed)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══
 ## 2) 🔢 Fundamentals
 Subcode: 🐂🐬➕🟢 (Fundamentals | Plus | Partner | Bodyweight)
-├─ 12 ➕ Aquaman (Alternating Superman) (slow, own each position)
+├─ 12 ➕ Half-Kneeling Cable Chop (slow, own each position)
 │  Set 1: 🐂 45% × 12 (grounding)
 │  Set 2: 🐂 50% × 12 (pattern lock)
 Rest: 75s
@@ -40,14 +40,14 @@ Rest: 75s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🐬➕🟢 (Supplemental | Plus | Partner | Bodyweight)
-├─ 13 ➕ Half-Kneeling Cable Chop (full range, different angle)
+├─ 13 ➕ Kettlebell Goblet Squat (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 60s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🐬➕🟢 (Imprint | Plus | Partner | Bodyweight)
-├─ 15 ➕ Single-Leg Romanian Deadlift (high rep, low load, neural memory)
+├─ 15 ➕ Half-Kneeling Band Single-Arm Pulldown (high rep, low load, neural memory)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 60s
 ═══
@@ -56,4 +56,4 @@ Rest: 60s
 - Next → 🐂🐬➕🟢 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The pattern owns the session. Add load only when positions are automatic.
+If the pattern held at bodyweight, it will hold under load. Graduate when ready.

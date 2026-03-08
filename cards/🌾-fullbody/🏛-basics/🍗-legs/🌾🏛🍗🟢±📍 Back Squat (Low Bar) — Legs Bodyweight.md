@@ -15,7 +15,7 @@ blocks: ♨️ 🎼 🧈 🧩 🪫 🚂
 
 **CODE:** 🌾🏛🍗🟢
 
-> "Flow through the full body as one integrated pattern."
+> "Flow through the body using only what you carry. No equipment needed."
 ═══
 ## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🌾🏛🍗🟢 (Warm-Up | Legs | Basics | Bodyweight)
@@ -40,15 +40,15 @@ Rest: 60s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🌾🏛🍗🟢 (Supplemental | Legs | Basics | Bodyweight)
-├─ 11 🍗 Back Squat (High Bar) (full range, different angle)
-│  Set 1: 🌾 60% × 11 (support volume)
-│  Set 2: 🌾 60% × 11 (non-redundant)
+├─ 10 🍗 Back Squat (High Bar) (full range, different angle)
+│  Set 1: 🌾 60% × 10 (support volume)
+│  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 45s
 ═══
 ## 5) 🪫 Release
 Subcode: 🌾🏛🍗🟢 (Release | Legs | Basics | Bodyweight)
-├─ 12 🍗 Walking Lunge (smooth tempo, downshift)
-│  Set 1: 🌾 50% × 12 (deload)
+├─ 10 🍗 Walking Lunge (smooth tempo, downshift)
+│  Set 1: 🌾 50% × 10 (deload)
 Rest: 45s
 ═══
 ## 6) 🚂 Junction
@@ -56,4 +56,4 @@ Rest: 45s
 - Next → 🌾🏛🍗🟢 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The flow is the measure. If movements disconnected, simplify next session.
+Flow at bodyweight reveals coordination. Log the movement quality.

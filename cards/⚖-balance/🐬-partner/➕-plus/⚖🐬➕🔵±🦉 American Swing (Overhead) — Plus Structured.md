@@ -15,7 +15,7 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 
 **CODE:** ⚖🐬➕🔵
 
-> "Find the weak link and spend time on it. Correction is the session."
+> "Prescribed accessory work. Target the specific imbalance."
 ═══
 ## 1) ♨️ Warm-Up — 🦉 logos
 Subcode: ⚖🐬➕🔵 (Warm-Up | Plus | Partner | Structured)
@@ -26,7 +26,7 @@ Rest: 60s
 ## 2) 🏗 Reformance
 Subcode: ⚖🐬➕🔵 (Reformance | Plus | Partner | Structured)
 ├─ 11 ➕ Kettlebell Goblet Squat (corrective, address the weak link)
-│  Set 1: ⚖ 50% × 13 (prehab)
+│  Set 1: ⚖ 50% × 12 (prehab)
 │  Set 2: ⚖ 55% × 11 (stability)
 Rest: 75s
 ═══
@@ -40,14 +40,14 @@ Rest: 90s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: ⚖🐬➕🔵 (Supplemental | Plus | Partner | Structured)
-├─ 13 ➕ Single-Arm Face Pull (full range, different angle)
-│  Set 1: ⚖ 60% × 13 (support volume)
-│  Set 2: ⚖ 60% × 13 (non-redundant)
+├─ 12 ➕ Wide-Grip Pull-Up (Teres Focus) (full range, different angle)
+│  Set 1: ⚖ 60% × 12 (support volume)
+│  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🐬➕🔵 (Release | Plus | Partner | Structured)
-├─ 12 ➕ Wide-Grip Pull-Up (Teres Focus) (smooth tempo, downshift)
+├─ 12 ➕ Deadlift (Conventional) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

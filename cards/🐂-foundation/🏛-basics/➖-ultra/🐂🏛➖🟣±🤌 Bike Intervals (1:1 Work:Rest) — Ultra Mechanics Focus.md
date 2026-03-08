@@ -10,98 +10,50 @@ type: ➖ Ultra | Cardiovascular system and conditioning engine
 color: 🟣 Mechanics Focus | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🔢/🛠 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
+# ➖ Bike Intervals (1:1 Work:Rest) — Ultra Technical ➖
 
-# ➖ Bike Intervals (1:1 Work:Rest) — Ultra Mechanics Focus ➖
+## Foundation Basics — Ultra focus (Technical) · 40-50 min
 
-Foundation basics session | Cardiovascular system and conditioning engine | 45-55 min
+**CODE:** 🐂🏛➖🟣
 
-CODE: 🐂🏛➖🟣
-
-> "Own every rep shape before adding load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🤌 facio — arrive and groove baseline patterns.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🟣 (Warm-Up | Ultra | Basics | Tier-safe)
-
-├─ 8 ➖ Bodyweight Squat (find stance and depth)
-├─ 8 ➖ Dead Bug (brace before moving)
-└─ 10 ➖ Jump Rope (light rhythm, easy breath)
-
-═══════════════════════════════════════
-
-## 2. 🔢 FUNDAMENTALS
-
-🤌 facio — pattern rehearsal under control.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🟣 (Fundamentals | Ultra | Basics | Foundational load)
-
-├─ 10 ➖ Goblet Squat (sit between hips, chest tall)
-├─ 10 ➖ Band Row (pull elbows to pockets)
-└─ 10 ➖ Standard Push-Up (lock body line)
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-🤌 facio — main pattern volume at ≤65% effort.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🟣 (Bread & Butter | Ultra | Basics | Primary pattern)
-
-├─ 12 ➖ Bike Intervals (1:1 Work:Rest) (clean setup, own the full range)
-│  Set 1: 🐂 55% × 12 (pattern first)
-│  Set 2: 🐂 60% × 10 (same groove)
-│  Set 3: 🐂 65% × 8 (no grind reps)
-└─ 10 ➖ Glute Bridge (Bodyweight) (lock ribs down)
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🟣 (Supplemental | Ultra | Basics | Support work)
-
-├─ 10 ➖ Jump Rope (steady rhythm, nasal breath)
-└─ 8 ➖ Rowing Machine (Steady State) (quiet return on slide)
-
-═══════════════════════════════════════
-
-## 5. 🧬 IMPRINT
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🟣 (Imprint | Ultra | Basics | Repeatable form)
-
-└─ 10 ➖ Slow Mountain Climber (long exhale each rep)
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🟣 (Junction | Ultra | Basics | Next-step routing)
-
-Next → 🐂🏛➖🔵 — repeat the same movement family with tighter set tracking.
-Next → 🐂🔨➖🟣 — keep foundation loading and add unilateral bias.
-Next → 🖼🏛➖⚪ — downshift into restoration pacing when recovery is low.
-
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-
-═══════════════════════════════════════
-
+> "Quality of position matters more than speed of completion."
+═══
+## 1) ♨️ Warm-Up — 🤌 facio
+Subcode: 🐂🏛➖🟣 (Warm-Up | Ultra | Basics | Technical)
+├─ 12 ➖ Rowing Machine (Steady State) (precision, quality over volume)
+│  Set 1: 🐂 45% × 12 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: 🐂🏛➖🟣 (Primer | Ultra | Basics | Technical)
+├─ 11 ➖ Kettlebell Goblet Squat (tight setup, crisp intent)
+│  Set 1: 🐂 55% × 11 (activation)
+Rest: 112s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: 🐂🏛➖🟣 (Bread & Butter | Ultra | Basics | Technical)
+├─ 11 ➖ Bike Intervals (1:1 Work:Rest) (precision, quality over volume)
+│  Set 1: 🐂 60% × 11 (build set)
+│  Set 2: 🐂 65% × 11 (working set)
+│  Set 3: 🐂 65% × 11 (repeat quality)
+Rest: 112s
+═══
+## 4) 🧩 Supplemental
+Subcode: 🐂🏛➖🟣 (Supplemental | Ultra | Basics | Technical)
+├─ 13 ➖ Rowing Intervals (500m) (full range, different angle)
+│  Set 1: 🐂 55% × 13 (support volume)
+│  Set 2: 🐂 55% × 13 (non-redundant)
+Rest: 90s
+═══
+## 5) 🪫 Release
+Subcode: 🐂🏛➖🟣 (Release | Ultra | Basics | Technical)
+├─ 12 ➖ Rowing Intervals (1000m) (smooth tempo, downshift)
+│  Set 1: 🐂 45% × 12 (deload)
+Rest: 90s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → 🐂🏛➖🟣 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Keep this card until positions feel automatic under the current ceiling. Foundation is where durable technique gets locked in.
+Note which positions felt uncertain. Those are your next session's priority.

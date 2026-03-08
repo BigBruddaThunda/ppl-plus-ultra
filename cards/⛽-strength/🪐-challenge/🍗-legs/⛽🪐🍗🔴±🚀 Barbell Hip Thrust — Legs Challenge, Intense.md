@@ -9,93 +9,57 @@ type: 🍗 Legs
 color: 🔴 Intense
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🍗 Barbell Hip Thrust — Legs Intense 🍗
 
-# 🍗 Barbell Hip Thrust — Legs Challenge, Intense 🍗
+## Strength Challenge — Legs focus (Intense) · 50-65 min
 
-Strength challenge session | Quads, glutes, hamstrings | 60-74 min
+**CODE:** ⛽🪐🍗🔴
 
-CODE: ⛽🪐🍗🔴
-
-> "Build heavy leg force with pauses, deficits, and strict range control."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🚀 mitto
-
-Sub-block: ♨️🍗🪐🔴 (Warm-Up | Legs | Challenge | Intense)
-
-├─ 8 🍗 Reverse Lunge (Glute Load) (knee tracks over toes)
-└─ 6 🍗 Cossack Squat (sit deep each side)
-
-Rest: 90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🍗🪐🔴 (Primer | Legs | Challenge | Intense)
-
-├─ Set 1: ⛽ 60% × 6 on Barbell Hip Thrust (controlled depth)
-├─ Set 2: ⛽ 68% × 5 on Barbell Hip Thrust (2-second pause)
-└─ Set 3: ⛽ 72% × 4 on Barbell Hip Thrust (same strict line)
-
-Rest: 2-3 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🚀
-
-Sub-block: 🧈🍗🪐🔴 (Bread & Butter | Legs | Challenge | Intense)
-
-├─ 5 🍗 Barbell Hip Thrust (hardest clean variation today)
-│  ├─ Set 1: ⛽ 75% × 6 (tempo down, violent up)
-│  ├─ Set 2: ⛽ 78% × 5 (1-second hold in weak point)
-│  ├─ Set 3: ⛽ 82% × 4 (keep shape locked)
-│  └─ Set 4: ⛽ 85% × 4 (no breakdown reps)
-└─ 4 🍗 Bulgarian Split Squat (Front-Foot Elevated) (own the bottom) 
-   ├─ Set 1: ⛽ 75% × 5 (strict path)
-   ├─ Set 2: ⛽ 80% × 4 (pause each rep)
-   └─ Set 3: ⛽ 82% × 4 (same speed target)
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🍗🪐🔴 (SUPPLEMENTAL | Legs | Challenge | Intense)
-
-├─ 5 🍗 Bulgarian Split Squat (Front-Foot Elevated) (own the bottom)
-└─ 6 🍗 Walking Lunge (long stride, upright torso)
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🍗🪐🔴 (Release | Legs | Challenge | Intense)
-
-- 5 minutes easy downshift work and nasal breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🍗🪐🔴 (Junction | Legs | Challenge | Intense)
-
-Log:
-- Load quality: ______________________
-- Hardest sticking point: ____________
-- Recovery readiness (1-5): _________
-
-Next → ⛽🪐🪡🔵 — hinge and pull to reinforce posterior chain
-Next → ⛽🪐➖🔵 — condition recovery while keeping leg drive
-
-═══════════════════════════════════════
-
+> "Push the ceiling. Every set should cost something real."
+═══
+## 1) ♨️ Warm-Up — 🚀 mitto
+Subcode: ⛽🪐🍗🔴 (Warm-Up | Legs | Challenge | Intense)
+├─ 6 🍗 Pogo Hops (Ankle Bounce) (high effort, push the pace)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🪐🍗🔴 (Primer | Legs | Challenge | Intense)
+├─ 5 🍗 Back Squat (High Bar) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 60s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🪐🍗🔴 (Bread & Butter | Legs | Challenge | Intense)
+├─ 5 🍗 Barbell Hip Thrust (high effort, push the pace)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 90s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🪐🍗🔴 (Supplemental | Legs | Challenge | Intense)
+├─ 6 🍗 Walking Lunge (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 60s
+═══
+## 5) 🌋 Gutter
+Subcode: ⛽🪐🍗🔴 (Gutter | Legs | Challenge | Intense)
+├─ 6 🍗 Spanish Squat (Banded VMO) (all-out, leave nothing in reserve)
+│  Set 1: ⛽ 65% × 6 (push to form break)
+│  Set 2: ⛽ 65% × AMRAP (final effort)
+Rest: 45s
+═══
+## 6) 🪫 Release
+Subcode: ⛽🪐🍗🔴 (Release | Legs | Challenge | Intense)
+├─ 6 🍗 Spanish Squat (Banded VMO) (stress out, cathartic discharge)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 7) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🪐🍗🔴 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Challenge strength is heavy load plus stricter execution. Keep the same standard next session: no rep counts unless the position stays honest.
+Record peak effort. Recovery before next heavy session.

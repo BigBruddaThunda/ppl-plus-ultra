@@ -10,115 +10,50 @@ type: 🛒 Push | Chest, front delts, triceps
 color: 🔵 Structured | Tier 2–3 | GOLD: No | Prescribed sets/reps/rest. Trackable. Repeatable.
 blocks: ♨️ → ▶️ → 🧈 → 🧩 → 🚂 → 🧮
 ---
+# 🛒 Barbell Overhead Press — Push Structured 🛒
 
-# 🛒 Barbell Overhead Press — Shoulder Strength Log 🛒
+## Strength Basics — Push focus (Structured) · 50-65 min
 
-Barbell strength | Chest, front delts, triceps | 55–65 min
+**CODE:** ⛽🏛🛒🔵
 
-CODE: ⛽🏛🛒🔵
-
-> "Log every set. The data is the point."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-General movement, 3–5 min. Then:
-
-- 10 Shoulder Dislocations (band or PVC)
-- 15 🛒 Barbell Bench Press (empty bar)
-- 10 🛒 Barbell Overhead Press (empty bar)
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-🤌 facio — ramp to working weight
-
-Bench Press:
-- Set 1: 50% × 6
-- Set 2: 62% × 4
-- Set 3: 72% × 2
-
-Rest 90 sec between ramp sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER
-
-🤌 facio — heavy bilateral pressing, full rest
-
-Rest: 3–4 min between all sets.
-
-**A. 🛒 Barbell Overhead Press (Standing)**
-
-| Set | Load | Reps |
-|-----|------|------|
-| 1 | 78% | 5 |
-| 2 | 80% | 5 |
-| 3 | 82% | 4 |
-| 4 | 82% | 4 |
-
-Bar to lower sternum. Elbows 45°. Full drive.
-
-**B. 🛒 Barbell Overhead Press (Standing)**
-
-| Set | Load | Reps |
-|-----|------|------|
-| 1 | 75% | 5 |
-| 2 | 78% | 5 |
-| 3 | 80% | 4 |
-
-Full brace before the bar moves. Head through at the top.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-🤌 facio — lockout work
-
-Rest: 3 min
-
-**🛒 Close-Grip Bench Press**
-
-- Set 1: 68% × 5
-- Set 2: 70% × 5
-- Set 3: 70% × 5
-
-Grip shoulder-width or slightly inside. Squeeze at the top.
-
-═══════════════════════════════════════
-
-## 5. 🚂 JUNCTION
-
-Cross-Junction map (current zip at center):
-
-```text
-               ↑ ⛽⌛➕🟣
-                    (convert force into full-body power with timed structure)
-
-← ⛽🏛🪡🟣   •   ⛽🏛🛒🔵   → ⛽🏛🍗🟣
-  (pair the main strength pattern with its structural complement)           (pair the main strength pattern with its structural complement)
-
-               ↓ 🖼⌛➖⚪
-                    (downshift and recover while keeping pattern quality)
-```
-
-```
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-Readiness next session (1–5): _________
-```
-
-Next →
-- ⛽⌛➕🟣 — convert force into full-body power with timed structure
-- ⛽🏛🪡🟣 — pair the main strength pattern with its structural complement
-- ⛽🏛🍗🟣 — pair the main strength pattern with its structural complement
-- 🖼⌛➖⚪ — downshift and recover while keeping pattern quality
-
-═══════════════════════════════════════
-
+> "Same weight, same reps, same rest. Build the base one session at a time."
+═══
+## 1) ♨️ Warm-Up — 🤌 facio
+Subcode: ⛽🏛🛒🔵 (Warm-Up | Push | Basics | Structured)
+├─ 6 🛒 Plyometric Push-Up (Hands Leave Ground) (prescribed, track sets and reps)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🏛🛒🔵 (Primer | Push | Basics | Structured)
+├─ 5 🛒 Barbell Bench Press (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 120s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🏛🛒🔵 (Bread & Butter | Push | Basics | Structured)
+├─ 5 🛒 Barbell Overhead Press (prescribed, track sets and reps)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🏛🛒🔵 (Supplemental | Push | Basics | Structured)
+├─ 6 🛒 Diamond Push-Up (Close-Grip) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🏛🛒🔵 (Release | Push | Basics | Structured)
+├─ 6 🛒 Smith Machine Incline Press (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🏛🛒🔵 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Repeatable sessions build the record. Run this card at the same loads until the RPE drops, then add weight. The log tells you when.
+Keep the same movement standard. Only add load if bar path stays unchanged.

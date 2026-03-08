@@ -9,93 +9,50 @@ type: ➖ Ultra
 color: ⚪ Mindful
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# ➖ Incline Walk — Ultra Mindful ➖
 
-# ➖ Incline Walk — Ultra Challenge, Mindful ➖
+## Strength Challenge — Ultra focus (Mindful) · 50-65 min
 
-Strength challenge session | Engine, intervals, repeat output | 50-66 min
+**CODE:** ⛽🪐➖⚪
 
-CODE: ⛽🪐➖⚪
-
-> "Hold high output intervals while keeping mechanics strict under fatigue."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🪵 teneo
-
-Sub-block: ♨️➖🪐⚪ (Warm-Up | Ultra | Challenge | Mindful)
-
-├─ 5 ➖ Jump Rope Intervals (1 minute on/off) (light, fast contacts)
-└─ 5 ➖ Mountain Climber (tight plank position)
-
-Rest: 90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➖🪐⚪ (Primer | Ultra | Challenge | Mindful)
-
-├─ Set 1: ⛽ 60% × 6 on Incline Walk (controlled depth)
-├─ Set 2: ⛽ 68% × 5 on Incline Walk (2-second pause)
-└─ Set 3: ⛽ 72% × 4 on Incline Walk (same strict line)
-
-Rest: 2-3 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🪵
-
-Sub-block: 🧈➖🪐⚪ (Bread & Butter | Ultra | Challenge | Mindful)
-
-├─ 5 ➖ Incline Walk (hardest clean variation today)
-│  ├─ Set 1: ⛽ 75% × 6 (tempo down, violent up)
-│  ├─ Set 2: ⛽ 78% × 5 (1-second hold in weak point)
-│  ├─ Set 3: ⛽ 82% × 4 (keep shape locked)
-│  └─ Set 4: ⛽ 85% × 4 (no breakdown reps)
-└─ 4 ➖ Battle Ropes (Intervals) (keep ribs stacked) 
-   ├─ Set 1: ⛽ 75% × 5 (strict path)
-   ├─ Set 2: ⛽ 80% × 4 (pause each rep)
-   └─ Set 3: ⛽ 82% × 4 (same speed target)
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➖🪐⚪ (SUPPLEMENTAL | Ultra | Challenge | Mindful)
-
-├─ 5 ➖ Battle Ropes (Intervals) (keep ribs stacked)
-└─ 5 ➖ Rowing Intervals (repeat split discipline)
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫➖🪐⚪ (Release | Ultra | Challenge | Mindful)
-
-- 5 minutes easy downshift work and nasal breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂➖🪐⚪ (Junction | Ultra | Challenge | Mindful)
-
-Log:
-- Load quality: ______________________
-- Hardest sticking point: ____________
-- Recovery readiness (1-5): _________
-
-Next → ⛽🪐🪡🔵 — add heavy pulling after engine stress
-Next → ⛽🪐➕🔵 — transfer interval grit into loaded movement
-
-═══════════════════════════════════════
-
+> "Four seconds down. Feel every degree of the range before you earn the drive."
+═══
+## 1) ♨️ Warm-Up — 🪵 teneo
+Subcode: ⛽🪐➖⚪ (Warm-Up | Ultra | Challenge | Mindful)
+├─ 6 ➖ Sprint (10-30 meters) (4s eccentric, breath-paced)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 180s
+═══
+## 2) 🧈 Bread & Butter
+Subcode: ⛽🪐➖⚪ (Bread & Butter | Ultra | Challenge | Mindful)
+├─ 5 ➖ Incline Walk (4s eccentric, breath-paced)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 360s
+═══
+## 3) 🧩 Supplemental
+Subcode: ⛽🪐➖⚪ (Supplemental | Ultra | Challenge | Mindful)
+├─ 6 ➖ Sprint (30-60 meters) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 240s
+═══
+## 4) 🪫 Release
+Subcode: ⛽🪐➖⚪ (Release | Ultra | Challenge | Mindful)
+├─ 6 ➖ Sprint (60-100 meters) (parasympathetic, tension down, 4s eccentric)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 240s
+═══
+## 5) 🧬 Imprint
+Subcode: ⛽🪐➖⚪ (Imprint | Ultra | Challenge | Mindful)
+├─ 6 ➖ Hill Sprint (Short) (high rep, low load, neural memory)
+│  Set 1: ⛽ 55% × 6 (lock the pattern)
+Rest: 240s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🪐➖⚪ — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Challenge strength is heavy load plus stricter execution. Keep the same standard next session: no rep counts unless the position stays honest.
+Slow strength builds tendons, not just muscles. Trust the tempo.

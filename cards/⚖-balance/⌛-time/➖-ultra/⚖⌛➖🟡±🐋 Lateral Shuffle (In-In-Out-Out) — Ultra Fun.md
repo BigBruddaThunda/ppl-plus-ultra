@@ -15,7 +15,7 @@ blocks: ♨️ 🏗 🧈 🧩 🪫 🚂
 
 **CODE:** ⚖⌛➖🟡
 
-> "Find the weak link and spend time on it. Correction is the session."
+> "Explore movements that challenge your weakest positions."
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: ⚖⌛➖🟡 (Warm-Up | Ultra | Time | Fun)
@@ -23,14 +23,7 @@ Subcode: ⚖⌛➖🟡 (Warm-Up | Ultra | Time | Fun)
 │  Set 1: ⚖ 50% × 12 (pattern prep)
 Rest: 60s
 ═══
-## 2) 🏗 Reformance
-Subcode: ⚖⌛➖🟡 (Reformance | Ultra | Time | Fun)
-├─ 11 ➖ Turkish Get-Up (Full) (corrective, address the weak link)
-│  Set 1: ⚖ 50% × 13 (prehab)
-│  Set 2: ⚖ 55% × 11 (stability)
-Rest: 75s
-═══
-## 3) 🧈 Bread & Butter
+## 2) 🧈 Bread & Butter
 Subcode: ⚖⌛➖🟡 (Bread & Butter | Ultra | Time | Fun)
 ├─ 11 ➖ Lateral Shuffle (In-In-Out-Out) (explore, stay within constraints)
 │  Set 1: ⚖ 65% × 11 (build set)
@@ -38,11 +31,17 @@ Subcode: ⚖⌛➖🟡 (Bread & Butter | Ultra | Time | Fun)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
 Rest: 90s
 ═══
-## 4) 🧩 Supplemental
-Subcode: ⚖⌛➖🟡 (Supplemental | Ultra | Time | Fun)
-├─ 13 ➖ Kettlebell Goblet Squat (full range, different angle)
-│  Set 1: ⚖ 60% × 13 (support volume)
-│  Set 2: ⚖ 60% × 13 (non-redundant)
+## 3) 🌎 Exposure
+Subcode: ⚖⌛➖🟡 (Exposure | Ultra | Time | Fun)
+├─ 11 ➖ Two Feet In Each Box (Forward) (try the unfamiliar version, explore the range)
+│  Set 1: ⚖ 55% × 11 (discovery set)
+Rest: 75s
+═══
+## 4) 🏖 Sandbox
+Subcode: ⚖⌛➖🟡 (Sandbox | Ultra | Time | Fun)
+├─ 11 ➖ Half Turkish Get-Up (To Elbow) (explore within constraints, choose your variation)
+│  Option A: ⚖ 60% × 11 (play with grip, stance, or tempo)
+│  Option B: ⚖ 60% × 11 (try a variation you have not used before)
 Rest: 75s
 ═══
 ## 5) 🪫 Release
@@ -56,4 +55,4 @@ Rest: 75s
 - Next → ⚖⌛➖🟡 — continue at this address.
 - Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-The correction is the progress. Symmetry before load, always.
+Exploring weak positions teaches the body new ranges. Track the discovery.

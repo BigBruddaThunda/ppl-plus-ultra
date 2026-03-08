@@ -9,99 +9,40 @@ type: ➖ Ultra | Cardiovascular system and conditioning
 color: 🟠 Circuit | Tier 0-5 | GOLD: No | Clock-governed strength pacing.
 blocks: ♨️ ▶️ 🎱 🧩 🪫 🚂
 ---
+# ➖ Jump Rope Rotation — Ultra Circuit ➖
 
-# ➖ Jump Rope Rotation — Engine Station Circuit ➖
+## Strength Time — Ultra focus (Circuit) · 50-65 min
 
-Timed strength session | Cardiovascular system and conditioning | 50-65 min
+**CODE:** ⛽⌛➖🟠
 
-CODE: ⛽⌛➖🟠
-
-> "Run the clock to pace heavy work, then keep rep quality when fatigue climbs."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-✒️ grapho — set the session rhythm before heavy sets
-
-Sub-block: ♨️➖⌛🟠 (Warm-Up | Ultra | Time | Circuit)
-
-- ➖ Dynamic prep drill (steady breathing, no rush)
-- ➖ Pattern rehearsal (own every transition)
-- ➖ Ramp rep with light load (practice the timer start)
-
-Rest: 60 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️➖⌛🟠 (Primer | Ultra | Time | Circuit)
-
-- Set 1: ⛽ 60% × 5 (build speed without grinding)
-- Set 2: ⛽ 68% × 4 (same tempo, cleaner brace)
-- Set 3: ⛽ 72% × 3 (last primer before work sets)
-
-Rest: 2 min between primer sets.
-
-═══════════════════════════════════════
-
-## 3. 🎱 ARAM
-
-Primary Rotation: **Jump Rope Intervals**
-
-✒️ grapho — 🎱 loop the stations under clock pressure
-
-Sub-block: 🎱➖⌛🟠 (ARAM | Ultra | Time | Circuit)
-
-- ➖ Jump Rope Intervals (start each minute sharp)
-- ➖ Secondary strength variation (match bar path each round)
-- ➖ Stability finisher under clock (finish before the minute)
-
-├─ Set 1: ⛽ 75% × 5 (find the day)
-├─ Set 2: ⛽ 80% × 5 (same timing window)
-├─ Set 3: ⛽ 82% × 4 (keep position at fatigue)
-│  Set 4: ⛽ 78% × 6 (quality back-off under clock)
-
-Rest: 3-4 min after each heavy round.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩➖⌛🟠 (Supplemental | Ultra | Time | Circuit)
-
-- ➖ Assistance lift A (hold form under the timer)
-- ➖ Assistance lift B (full range, no rushing)
-- ➖ Assistance lift C (last rep should still look clean)
-
-Rest: 2 min 30 sec.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-- 90 sec easy cyclical reset (downshift breathing)
-- 60 sec tissue reset drill (unlock the pattern you trained)
-- 5 slow breaths in final position (drop heart rate)
-
-Rest: move continuously.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Log:
-- Main lift top load: __________
-- Best quality set: __________
-- Clock target hit rate: ______ / ______
-
-Next → ⛽⌛➖🔵 — repeat with tighter timing and cleaner splits
-Next → ⛽⌛➖🟣 — reduce volume and sharpen technical reps
-Next → 🖼⌛➖⚪ — recover the pattern with slower tempo
-
-═══════════════════════════════════════
-
+> "Rotate stations. Keep the tissues trading off under heavy demand."
+═══
+## 1) ♨️ Warm-Up — ✒️ grapho
+Subcode: ⛽⌛➖🟠 (Warm-Up | Ultra | Time | Circuit)
+├─ 6 ➖ Kettlebell Swing (Single-Arm) (station rotation, keep moving)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) 🎱 ARAM — Circuit Loop
+Subcode: ⛽⌛➖🟠 (ARAM | Ultra | Time | Circuit)
+┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
+│  Station 1: ➖ Jump Rope Rotation × 5 (station rotation, keep moving)
+│  Station 2: ➖ Kettlebell Swing (Single-Arm) × 5 (station rotation, keep moving)
+│  Station 3: ➖ Kettlebell Goblet Squat × 5 (station rotation, keep moving)
+│  Station 4: ➖ Kettlebell Swing (Alternating Arms) × 5 (station rotation, keep moving)
+│  Transition: 15s between stations
+│  Round rest: 60s
+Rest: 90s after final round
+═══
+## 3) 🪫 Release
+Subcode: ⛽⌛➖🟠 (Release | Ultra | Time | Circuit)
+├─ 6 ➖ Single-Arm American Swing (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 4) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽⌛➖🟠 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The clock is a limiter, not a panic trigger. Keep heavy reps crisp inside the time window, then adjust load next session from what the log proves.
+Log station completion times. Consistency matters more than speed.

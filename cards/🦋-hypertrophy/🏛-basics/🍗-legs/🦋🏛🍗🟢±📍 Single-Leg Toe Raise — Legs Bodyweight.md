@@ -11,53 +11,55 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
 # 🍗 Single-Leg Toe Raise — Legs Bodyweight 🍗
 
-## Hypertrophy Basics — Legs focus (Bodyweight) · 45-55 min
+## Hypertrophy Basics — Legs focus (Bodyweight) · 55-70 min
 
 **CODE:** 🦋🏛🍗🟢
 
-> "Drive clean reps inside the hypertrophy ceiling and make every set repeatable."
-
+> "Build the muscle with what you have. No equipment is not an excuse."
 ═══
-## 1) ♨️ Warm-Up — 📍 pono inline
+## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🦋🏛🍗🟢 (Warm-Up | Legs | Basics | Bodyweight)
-├─ 10 🍗 Half-Kneeling Hip Flexor Stretch (steady tempo, easy ramp)
-│  Set 1: 🦋 60% × 10 (pattern prep)
-Rest: 75s
-
+├─ 12 🍗 Half-Kneeling Hip Flexor Stretch (bodyweight, no external load needed)
+│  Set 1: 🦋 50% × 12 (pattern prep)
+Rest: 60s
 ═══
 ## 2) ▶️ Primer
 Subcode: 🦋🏛🍗🟢 (Primer | Legs | Basics | Bodyweight)
-├─ 8 🍗 Single-Leg Extension (tight setup, crisp intent)
-│  Set 1: 🦋 65% × 8 (activation)
-Rest: 90s
-
+├─ 10 🍗 Single-Leg Extension (tight setup, crisp intent)
+│  Set 1: 🦋 60% × 10 (activation)
+Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🏛🍗🟢 (Bread & Butter | Legs | Basics | Bodyweight)
-├─ 5 🍗 Single-Leg Toe Raise (clean line, own the bottom)
-│  Set 1: 🦋 75% × 5 (build set)
-│  Set 2: 🦋 80% × 5 (working set)
-│  Set 3: 🦋 80% × 5 (repeat quality)
-Rest: 180s
-
+├─ 10 🍗 Single-Leg Toe Raise (bodyweight, no external load needed)
+│  Set 1: 🦋 65% × 10 (build set)
+│  Set 2: 🦋 70% × 10 (working set)
+│  Set 3: 🦋 70% × 10 (repeat quality)
+Rest: 90s
 ═══
-## 4) 🧩 Supplemental
+## 4) 🗿 Sculpt
+Subcode: 🦋🏛🍗🟢 (Sculpt | Legs | Basics | Bodyweight)
+├─ 12 🍗 Single-Leg Good Morning (angles, tension, volume)
+│  Set 1: 🦋 65% × 12 (shaping)
+│  Set 2: 🦋 65% × 12 (carving)
+Rest: 60s
+═══
+## 5) 🧩 Supplemental
 Subcode: 🦋🏛🍗🟢 (Supplemental | Legs | Basics | Bodyweight)
-├─ 6 🍗 Single-Leg Good Morning (full range, no drift)
-│  Set 1: 🦋 70% × 6 (support volume)
-Rest: 120s
-
+├─ 12 🍗 Single-Leg Good Morning (full range, different angle)
+│  Set 1: 🦋 60% × 12 (support volume)
+│  Set 2: 🦋 60% × 12 (non-redundant)
+Rest: 60s
 ═══
-## 5) 🪫 Release
+## 6) 🪫 Release
 Subcode: 🦋🏛🍗🟢 (Release | Legs | Basics | Bodyweight)
 ├─ 12 🍗 Single-Leg Curl (Lying) (smooth tempo, downshift)
-│  Set 1: 🦋 55% × 12 (tension out)
-Rest: 90s
-
+│  Set 1: 🦋 50% × 12 (deload)
+Rest: 60s
 ═══
-## 6) 🚂 Junction
+## 7) 🚂 Junction
 - Log: load, reps, and form break point.
-- Next → 🦋🏛🍗🟢 — repeat and tighten execution under same constraints.
-
+- Next → 🦋🏛🍗🟢 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Keep the same movement standard next session and only add load if bar path and position stay unchanged.
+Bodyweight hypertrophy works when tempo and volume are honest. Log both.

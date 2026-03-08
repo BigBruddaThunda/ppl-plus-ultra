@@ -11,53 +11,49 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ---
 # ➕ Trap Bar Carry — Plus Teaching ➕
 
-## Hypertrophy Basics — Plus focus (Teaching) · 45-55 min
+## Hypertrophy Basics — Plus focus (Teaching) · 55-70 min
 
 **CODE:** 🦋🏛➕⚫
 
-> "Drive clean reps inside the hypertrophy ceiling and make every set repeatable."
-
+> "Learn what tension feels like in the target muscle before chasing volume."
 ═══
-## 1) ♨️ Warm-Up — 📍 pono inline
+## 1) ♨️ Warm-Up — 📍 pono
 Subcode: 🦋🏛➕⚫ (Warm-Up | Plus | Basics | Teaching)
-├─ 10 ➕ Wide-Grip Pull-Up (Teres Focus) (steady tempo, easy ramp)
-│  Set 1: 🦋 60% × 10 (pattern prep)
-Rest: 75s
-
-═══
-## 2) ▶️ Primer
-Subcode: 🦋🏛➕⚫ (Primer | Plus | Basics | Teaching)
-├─ 8 ➕ Chest-Supported Row (Elbow Out) (tight setup, crisp intent)
-│  Set 1: 🦋 65% × 8 (activation)
+├─ 12 ➕ Wide-Grip Pull-Up (Teres Focus) (coached, check form before adding load)
+│  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 90s
-
+═══
+## 2) 🛠 Craft
+Subcode: 🦋🏛➕⚫ (Craft | Plus | Basics | Teaching)
+├─ 10 ➕ Chest-Supported Row (Elbow Out) (coach: check grip width, elbow angle, foot pressure)
+│  Set 1: 🦋 50% × 10 (practice the pattern, not the load)
+│  Set 2: 🦋 55% × 10 (same cues, slightly heavier)
+Rest: 112s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🦋🏛➕⚫ (Bread & Butter | Plus | Basics | Teaching)
-├─ 5 ➕ Trap Bar Carry (clean line, own the bottom)
-│  Set 1: 🦋 75% × 5 (build set)
-│  Set 2: 🦋 80% × 5 (working set)
-│  Set 3: 🦋 80% × 5 (repeat quality)
-Rest: 180s
-
+├─ 10 ➕ Trap Bar Carry (coached, check form before adding load)
+│  Set 1: 🦋 65% × 10 (build set)
+│  Set 2: 🦋 70% × 10 (working set)
+│  Set 3: 🦋 70% × 10 (repeat quality)
+Rest: 135s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🦋🏛➕⚫ (Supplemental | Plus | Basics | Teaching)
-├─ 6 ➕ Cable Row (High Elbow) (full range, no drift)
-│  Set 1: 🦋 70% × 6 (support volume)
-Rest: 120s
-
-═══
-## 5) 🪫 Release
-Subcode: 🦋🏛➕⚫ (Release | Plus | Basics | Teaching)
-├─ 12 ➕ Deadlift (Conventional) (smooth tempo, downshift)
-│  Set 1: 🦋 55% × 12 (tension out)
+├─ 12 ➕ Cable Row (High Elbow) (full range, different angle)
+│  Set 1: 🦋 60% × 12 (support volume)
+│  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 90s
-
+═══
+## 5) 🧬 Imprint
+Subcode: 🦋🏛➕⚫ (Imprint | Plus | Basics | Teaching)
+├─ 12 ➕ Scapular Push-Up (Serratus) (high rep, low load, neural memory)
+│  Set 1: 🦋 45% × 12 (lock the pattern)
+Rest: 90s
 ═══
 ## 6) 🚂 Junction
 - Log: load, reps, and form break point.
-- Next → 🦋🏛➕⚫ — repeat and tighten execution under same constraints.
-
+- Next → 🦋🏛➕⚫ — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-Keep the same movement standard next session and only add load if bar path and position stay unchanged.
+Track the pump and the tension. Learning to feel the muscle is the skill.

@@ -9,93 +9,57 @@ type: 🪡 Pull
 color: 🔴 Intense
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🪡 Weighted Chin-Up (Belt) — Pull Intense 🪡
 
-# 🪡 Weighted Chin-Up (Belt) — Pull Challenge, Intense 🪡
+## Strength Challenge — Pull focus (Intense) · 50-65 min
 
-Strength challenge session | Lats, upper back, biceps | 58-72 min
+**CODE:** ⛽🪐🪡🔴
 
-CODE: ⛽🪐🪡🔴
-
-> "Pull heavy from disadvantage and keep the trunk locked under load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 🚀 mitto
-
-Sub-block: ♨️🪡🪐🔴 (Warm-Up | Pull | Challenge | Intense)
-
-├─ 8 🪡 Inverted Row (pull elbows to pockets)
-└─ 6 🪡 Chin-Up (Underhand Grip) (hold top position)
-
-Rest: 90 sec between rounds.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🪡🪐🔴 (Primer | Pull | Challenge | Intense)
-
-├─ Set 1: ⛽ 60% × 6 on Weighted Chin-Up (Belt) (controlled depth)
-├─ Set 2: ⛽ 68% × 5 on Weighted Chin-Up (Belt) (2-second pause)
-└─ Set 3: ⛽ 72% × 4 on Weighted Chin-Up (Belt) (same strict line)
-
-Rest: 2-3 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 🚀
-
-Sub-block: 🧈🪡🪐🔴 (Bread & Butter | Pull | Challenge | Intense)
-
-├─ 5 🪡 Weighted Chin-Up (Belt) (hardest clean variation today)
-│  ├─ Set 1: ⛽ 75% × 6 (tempo down, violent up)
-│  ├─ Set 2: ⛽ 78% × 5 (1-second hold in weak point)
-│  ├─ Set 3: ⛽ 82% × 4 (keep shape locked)
-│  └─ Set 4: ⛽ 85% × 4 (no breakdown reps)
-└─ 4 🪡 Lat Pulldown (Wide Grip) (full stop on chest) 
-   ├─ Set 1: ⛽ 75% × 5 (strict path)
-   ├─ Set 2: ⛽ 80% × 4 (pause each rep)
-   └─ Set 3: ⛽ 82% × 4 (same speed target)
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🪡🪐🔴 (SUPPLEMENTAL | Pull | Challenge | Intense)
-
-├─ 5 🪡 Lat Pulldown (Wide Grip) (full stop on chest)
-└─ 5 🪡 Single-Arm Lat Pulldown (resist torso twist)
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🪡🪐🔴 (Release | Pull | Challenge | Intense)
-
-- 5 minutes easy downshift work and nasal breathing.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🪡🪐🔴 (Junction | Pull | Challenge | Intense)
-
-Log:
-- Load quality: ______________________
-- Hardest sticking point: ____________
-- Recovery readiness (1-5): _________
-
-Next → ⛽🪐🛒🔵 — press after strict pulling to balance shoulder load
-Next → ⛽🪐➕🔵 — transfer hinge tension to full-body bracing
-
-═══════════════════════════════════════
-
+> "Push the ceiling. Every set should cost something real."
+═══
+## 1) ♨️ Warm-Up — 🚀 mitto
+Subcode: ⛽🪐🪡🔴 (Warm-Up | Pull | Challenge | Intense)
+├─ 6 🪡 Push Jerk (Barbell) (high effort, push the pace)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 45s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🪐🪡🔴 (Primer | Pull | Challenge | Intense)
+├─ 5 🪡 Zercher Carry (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 60s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🪐🪡🔴 (Bread & Butter | Pull | Challenge | Intense)
+├─ 5 🪡 Weighted Chin-Up (Belt) (high effort, push the pace)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 90s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🪐🪡🔴 (Supplemental | Pull | Challenge | Intense)
+├─ 6 🪡 Pull-Up (Overhand Grip) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 60s
+═══
+## 5) 🌋 Gutter
+Subcode: ⛽🪐🪡🔴 (Gutter | Pull | Challenge | Intense)
+├─ 6 🪡 Bent-Over Barbell Row (Overhand) (all-out, leave nothing in reserve)
+│  Set 1: ⛽ 65% × 6 (push to form break)
+│  Set 2: ⛽ 65% × AMRAP (final effort)
+Rest: 45s
+═══
+## 6) 🪫 Release
+Subcode: ⛽🪐🪡🔴 (Release | Pull | Challenge | Intense)
+├─ 6 🪡 Bent-Over Barbell Row (Overhand) (stress out, cathartic discharge)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 60s
+═══
+## 7) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🪐🪡🔴 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Challenge strength is heavy load plus stricter execution. Keep the same standard next session: no rep counts unless the position stays honest.
+Record peak effort. Recovery before next heavy session.

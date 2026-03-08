@@ -10,98 +10,40 @@ type: ➖ Ultra | Cardiovascular system and conditioning engine
 color: 🟠 Station Rotation | Tier 0-3 | GOLD: No
 blocks: ♨️ → 🎱 → 🧈 → 🧩 → 🧬 → 🚂 → 🧮
 ---
+# ➖ Rowing Sprints (100m Max Effort) — Ultra Circuit ➖
 
-# ➖ Rowing Sprints (100m Max Effort) — Ultra Station Rotation ➖
+## Foundation Basics — Ultra focus (Circuit) · 40-50 min
 
-Foundation basics session | Cardiovascular system and conditioning engine | 45-55 min
+**CODE:** 🐂🏛➖🟠
 
-CODE: 🐂🏛➖🟠
-
-> "Own every rep shape before adding load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP
-
-🤌 facio — arrive and groove baseline patterns.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🟠 (Warm-Up | Ultra | Basics | Circuit)
-
-├─ 8 ➖ Bodyweight Squat (find stance and depth)
-├─ 8 ➖ Dead Bug (brace before moving)
-└─ 10 ➖ Jump Rope (light rhythm, easy breath)
-
-═══════════════════════════════════════
-
-## 2. 🎱 ARAM
-
-🤌 facio — pattern rehearsal under control.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🟠 (Aram | Ultra | Basics | No barbell)
-
-├─ 10 ➖ Goblet Squat (sit between hips, chest tall)
-├─ 10 ➖ Band Row (pull elbows to pockets)
-└─ 10 ➖ Standard Push-Up (lock body line)
-
-═══════════════════════════════════════
-
-## 3. 🎱 ARAM
-
-🤌 facio — main pattern volume at ≤65% effort.
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🟠 (ARAM | Ultra | Basics | Station rotation)
-
-├─ 12 ➖ Rowing Sprints (100m Max Effort) (clean setup, own the full range)
-│  Set 1: 🐂 55% × 12 (pattern first)
-│  Set 2: 🐂 60% × 10 (same groove)
-│  Set 3: 🐂 65% × 8 (no grind reps)
-└─ 10 ➖ Glute Bridge (Bodyweight) (lock ribs down)
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🟠 (Supplemental | Ultra | Basics | Station alternation)
-
-├─ 10 ➖ Jump Rope (steady rhythm, nasal breath)
-└─ 8 ➖ Rowing Machine (Steady State) (quiet return on slide)
-
-═══════════════════════════════════════
-
-## 5. 🧬 IMPRINT
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🟠 (Imprint | Ultra | Basics | Repeatable form)
-
-└─ 10 ➖ Slow Mountain Climber (long exhale each rep)
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Rest: 60–90 sec
-
-Sub-block: 🐂🏛➖🟠 (Junction | Ultra | Basics | Next-step routing)
-
-Next → 🐂🏛➖🔵 — repeat the same movement family with tighter set tracking.
-Next → 🐂🔨➖🟠 — keep foundation loading and add unilateral bias.
-Next → 🖼🏛➖⚪ — downshift into restoration pacing when recovery is low.
-
-Date: ___________
-Load notes: ___________________________
-Rep quality: __________________________
-
-═══════════════════════════════════════
-
+> "Rotate through stations at learning pace. Each one is a fresh pattern."
+═══
+## 1) ♨️ Warm-Up — 🤌 facio
+Subcode: 🐂🏛➖🟠 (Warm-Up | Ultra | Basics | Circuit)
+├─ 12 ➖ Rowing Machine (Steady State) (station rotation, keep moving)
+│  Set 1: 🐂 45% × 12 (pattern prep)
+Rest: 30s
+═══
+## 2) 🎱 ARAM — Circuit Loop
+Subcode: 🐂🏛➖🟠 (ARAM | Ultra | Basics | Circuit)
+┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
+│  Station 1: ➖ Rowing Sprints (100m Max Effort) × 11 (station rotation, keep moving)
+│  Station 2: ➖ Rowing Machine (Steady State) × 11 (station rotation, keep moving)
+│  Station 3: ➖ Kettlebell Goblet Squat × 11 (station rotation, keep moving)
+│  Station 4: ➖ Rowing Intervals (500m) × 11 (station rotation, keep moving)
+│  Transition: 15s between stations
+│  Round rest: 37s
+Rest: 90s after final round
+═══
+## 3) 🪫 Release
+Subcode: 🐂🏛➖🟠 (Release | Ultra | Basics | Circuit)
+├─ 12 ➖ Rowing Intervals (1000m) (smooth tempo, downshift)
+│  Set 1: 🐂 45% × 12 (deload)
+Rest: 30s
+═══
+## 4) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → 🐂🏛➖🟠 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-Keep this card until positions feel automatic under the current ceiling. Foundation is where durable technique gets locked in.
+Review which station felt least stable. That pattern needs more reps.

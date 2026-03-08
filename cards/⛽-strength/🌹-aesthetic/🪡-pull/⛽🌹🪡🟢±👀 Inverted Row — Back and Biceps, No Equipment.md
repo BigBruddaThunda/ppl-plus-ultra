@@ -9,98 +9,50 @@ type: 🪡 Pull | Lats, rear delts, biceps, traps, erectors
 color: 🟢 Bodyweight
 blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 ---
+# 🪡 Inverted Row — Pull Bodyweight 🪡
 
-# 🪡 Inverted Row — Back and Biceps, No Equipment 🪡
+## Strength Aesthetic — Pull focus (Bodyweight) · 50-65 min
 
-Strength aesthetic session | Back, rear delts, biceps | 58-70 min
+**CODE:** ⛽🌹🪡🟢
 
-CODE: ⛽🌹🪡🟢
-
-> "Pull heavy through full range and keep the scap rhythm clean under load."
-
-═══════════════════════════════════════
-
-## 1. ♨️ WARM-UP — 👀 specio
-
-Sub-block: ♨️🪡🌹🟢 (Warm-Up | Pull | Aesthetic | Bodyweight)
-
-├─ 8 🪡 Band Face Pull (elbows high)
-├─ 8 🪡 Scapular Pull-Up (depress then relax)
-└─ 6 🪡 Straight-Arm Pulldown (Bar) (lats engage first)
-
-Rest: 60 sec between passes.
-
-═══════════════════════════════════════
-
-## 2. ▶️ PRIMER
-
-Sub-block: ▶️🪡🌹🟢 (Primer | Pull | Aesthetic | Bodyweight)
-
-├─ Set 1: ⛽ 55% × 6 on Inverted Row (Bodyweight) (set torso)
-├─ Set 2: ⛽ 65% × 5 on Inverted Row (Bodyweight) (smooth path)
-└─ Set 3: ⛽ 72% × 4 on Inverted Row (Bodyweight) (hard pull, slow lower)
-
-Rest: 2 min between sets.
-
-═══════════════════════════════════════
-
-## 3. 🧈 BREAD & BUTTER — 👀 specio
-
-Sub-block: 🧈🪡🌹🟢 (Bread & Butter | Pull | Aesthetic | Bodyweight)
-
-├─ 5 🪡 Inverted Row (Bodyweight) (full reach, full squeeze)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 5
-│  ├─ Set 3: ⛽ 82% × 4
-│  └─ Set 4: ⛽ 85% × 4
-└─ 4 🪡 Feet-Elevated Inverted Row (shoulders stay down)
-   ├─ Set 1: ⛽ 76% × 4
-   ├─ Set 2: ⛽ 78% × 4
-   └─ Set 3: ⛽ 80% × 4
-
-Rest: 3-4 min between sets.
-
-═══════════════════════════════════════
-
-## 4. 🧩 SUPPLEMENTAL
-
-Sub-block: 🧩🪡🌹🟢 (Supplemental | Pull | Aesthetic | Bodyweight)
-
-├─ 5 🪡 Ring Row (elbows pull to hip line)
-│  ├─ Set 1: ⛽ 75% × 5
-│  ├─ Set 2: ⛽ 78% × 4
-│  └─ Set 3: ⛽ 80% × 4
-└─ 5 🪡 Band Face Pull (squeeze, then lower)
-   ├─ Set 1: ⛽ 74% × 5
-   ├─ Set 2: ⛽ 76% × 5
-   └─ Set 3: ⛽ 78% × 4
-
-Rest: 3 min between sets.
-
-═══════════════════════════════════════
-
-## 5. 🪫 RELEASE
-
-Sub-block: 🪫🪡🌹🟢 (Release | Pull | Aesthetic | Bodyweight)
-
-- 60 sec slow nasal breathing, long exhale.
-
-Rest: none.
-
-═══════════════════════════════════════
-
-## 6. 🚂 JUNCTION
-
-Sub-block: 🚂🪡🌹🟢 (Junction | Pull | Aesthetic | Bodyweight)
-
-Next → ⛽🌹🛒🟢 — push pattern balances shoulder mechanics.
-Next → ⛽🌹🍗🟢 — leg force supports pulling output.
-Next → ⛽🌹➕🟢 — trunk control improves pull transfer.
-
-Log: top load ______ | clean reps ______ | note ______
-
-═══════════════════════════════════════
-
+> "Prove the pattern holds without external load. Bodyweight is the test."
+═══
+## 1) ♨️ Warm-Up — 👀 specio
+Subcode: ⛽🌹🪡🟢 (Warm-Up | Pull | Aesthetic | Bodyweight)
+├─ 6 🪡 Single-Arm Face Pull (bodyweight, no external load needed)
+│  Set 1: ⛽ 60% × 6 (pattern prep)
+Rest: 90s
+═══
+## 2) ▶️ Primer
+Subcode: ⛽🌹🪡🟢 (Primer | Pull | Aesthetic | Bodyweight)
+├─ 5 🪡 Aquaman (Alternating Superman) (tight setup, crisp intent)
+│  Set 1: ⛽ 70% × 5 (activation)
+Rest: 120s
+═══
+## 3) 🧈 Bread & Butter
+Subcode: ⛽🌹🪡🟢 (Bread & Butter | Pull | Aesthetic | Bodyweight)
+├─ 5 🪡 Inverted Row (bodyweight, no external load needed)
+│  Set 1: ⛽ 75% × 5 (build set)
+│  Set 2: ⛽ 80% × 5 (working set)
+│  Set 3: ⛽ 80% × 5 (repeat quality)
+Rest: 180s
+═══
+## 4) 🧩 Supplemental
+Subcode: ⛽🌹🪡🟢 (Supplemental | Pull | Aesthetic | Bodyweight)
+├─ 6 🪡 Wide-Grip Lat Pulldown (Teres Focus) (full range, different angle)
+│  Set 1: ⛽ 70% × 6 (support volume)
+│  Set 2: ⛽ 70% × 6 (non-redundant)
+Rest: 120s
+═══
+## 5) 🪫 Release
+Subcode: ⛽🌹🪡🟢 (Release | Pull | Aesthetic | Bodyweight)
+├─ 6 🪡 Good Morning (Barbell) (smooth tempo, downshift)
+│  Set 1: ⛽ 60% × 6 (deload)
+Rest: 120s
+═══
+## 6) 🚂 Junction
+- Log: load, reps, and form break point.
+- Next → ⛽🌹🪡🟢 — continue at this address.
+- Next → [adjacent zip] — explore a neighboring room.
 ## 🧮 SAVE
-
-The win is heavy output with no hitch in the pull path. If torso sway starts, log the load and hold progression there next session.
+Bodyweight strength is the transfer test. If it held, the gym work is real.

@@ -15,11 +15,11 @@ blocks: ♨️ 🪜 🧈 🚂
 
 **CODE:** 🏟🌹🪡🔵
 
-> "Test. Record. Leave. No junk volume after the attempt."
+> "Execute the test exactly as prescribed. Record the number."
 ═══
 ## 1) ♨️ Warm-Up — 🦢 plico
 Subcode: 🏟🌹🪡🔵 (Warm-Up | Pull | Aesthetic | Structured)
-├─ 3 🪡 Cable Pullover (prescribed, track sets and reps)
+├─ 3 🪡 Wide-Grip Lat Pulldown (Teres Focus) (prescribed, track sets and reps)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══
