@@ -40,7 +40,7 @@ generated: 2026-03-06
 **Secondary:** brachialis, brachioradialis
 **Joint actions:** elbow_flexion, forearm_supination
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Supination through the full range of motion — this is the lesson at foundation load. Elbow position does not change. The weight is a prop for practicing the contraction.
 

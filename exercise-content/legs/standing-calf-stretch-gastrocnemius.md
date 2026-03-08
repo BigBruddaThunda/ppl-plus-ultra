@@ -40,7 +40,7 @@ Standing Calf Stretch (Gastrocnemius) is a core stability movement that primaril
 **Secondary:** tibialis_anterior, peroneus_longus
 **Joint actions:** ankle_plantarflexion, ankle_dorsiflexion, ankle_inversion, ankle_eversion
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Bracing mechanics are the lesson. Foundation load in core-stability work is often bodyweight. The goal is teaching the nervous system to generate intra-abdominal pressure on demand.
 

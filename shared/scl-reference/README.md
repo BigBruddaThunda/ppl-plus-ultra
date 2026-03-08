@@ -12,10 +12,10 @@ These are the uncompressed source documents — what agents read when they need 
 | File | Purpose |
 |------|---------|
 | `/scl-directory.md` | Complete 61-emoji SCL specification. All polysemic behaviors, generation rules, validation. |
-| `/exercise-library.md` | All 2,085+ valid exercises for PPL± generation. |
+| `/exercise-library.md` | All 2,085+ valid exercises for Ppl± generation. |
 | `/scl-deep/` | Deep specification layer. Vocabularies, standards, uncompressed source. |
 
-These files remain at the repository root for PPL± compatibility. This directory will house cross-project SCL extensions as they develop — vocabulary that applies to Story Engine, Civic Atlas, or Graph Parti but doesn't belong in the PPL±-specific root documents.
+These files remain at the repository root for Ppl± compatibility. This directory will house cross-project SCL extensions as they develop — vocabulary that applies to Story Engine, Civic Atlas, or Graph Parti but doesn't belong in the Ppl±-specific root documents.
 
 ---
 

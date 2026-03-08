@@ -39,7 +39,7 @@
 **Archideck layer initialized on a branch, not merged**
 - Issue: The entire `archideck/` directory was initialized on branch `claude/build-archideck-layer-V47rx`. The branch has not merged to main. `archideck/CONTRACTS.md` has no zip codes in the main branch yet.
 - Files: `archideck/` (branch only as of 2026-03-07), `whiteboard.md` (Archideck section)
-- Impact: Any generation work referencing Archideck context is operating against unmerged infrastructure. PPL± card generation continues normally on main — the risk is cross-project contamination if agents conflate branch state with main state.
+- Impact: Any generation work referencing Archideck context is operating against unmerged infrastructure. Ppl± card generation continues normally on main — the risk is cross-project contamination if agents conflate branch state with main state.
 - Fix approach: Define merge criteria for the Archideck branch. Test stability, then merge as additive layer. Whiteboard notes this explicitly.
 
 ---

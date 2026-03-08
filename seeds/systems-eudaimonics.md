@@ -30,13 +30,13 @@ connects-to:
 supersedes: nothing (first specification of this concept)
 ---
 
-# PPL± Systems Eudaimonics — The Economic Philosophy of a Training System
+# Ppl± Systems Eudaimonics — The Economic Philosophy of a Training System
 
 🔵⚪ — structured + mindful
 
 ## One Sentence
 
-PPL± measures its economic health by whether the system flourishes when its users flourish, and it encodes this alignment into every tier gate, production cycle, retention mechanism, and cost structure so the two cannot diverge.
+Ppl± measures its economic health by whether the system flourishes when its users flourish, and it encodes this alignment into every tier gate, production cycle, retention mechanism, and cost structure so the two cannot diverge.
 
 ## What Eudaimonics Means Here
 
@@ -52,7 +52,7 @@ This is not idealism. It is an architectural constraint that eliminates specific
 
 Most subscription products gate features to manufacture upgrade pressure. The user hits a wall. The wall says "pay to continue." The value proposition is removal of friction.
 
-PPL± inverts this. The free tier gives the user the complete Operis daily, the full 1,680-room card library (read-only), the navigation graph, and the Operis audio via the automotive layer. Nothing in the content layer is withheld. The user can read every workout, browse every deck, follow every Junction recommendation, and listen to Wilson read every edition — for free, forever.
+Ppl± inverts this. The free tier gives the user the complete Operis daily, the full 1,680-room card library (read-only), the navigation graph, and the Operis audio via the automotive layer. Nothing in the content layer is withheld. The user can read every workout, browse every deck, follow every Junction recommendation, and listen to Wilson read every edition — for free, forever.
 
 What the paid tiers add is personal context. Tier 1 ($10/month) adds: the superscript weight suggestion (computed from the user's 1RM history and today's Order load ceiling), the subscript recency marker (days since last performed), room bloom state (personal visit history and depth tracking), saved rooms, workout logging, and personal exercise history. Tier 2 ($25-30/month) adds: coaching features on the community floor, advanced rotation customization, and Wilson's personalized Note.
 
@@ -66,7 +66,7 @@ Implementation constraint: no feature in the content layer (cards, Operis editio
 
 In advertising-driven fitness apps, the ideal user opens the app 47 times a day, watches ads between sets, shares achievements to social media for viral growth, and maintains a streak that creates anxiety when broken. System health (engagement, ad impressions, viral coefficient) and user health (training consistency, progressive overload, recovery) are decoupled. The system can thrive while the user stagnates or burns out.
 
-PPL± cannot have this decoupling because of how its economics are structured. The system's revenue comes from subscriptions. Subscriptions retain when users get genuine value. Users get genuine value when they train consistently (3-5 sessions/week), navigate intelligently between zip codes (using Junction and the rotation engine), see their bloom levels rise across rooms (evidence of depth), and occasionally read the Operis (staying connected to the publication rhythm). That user profile — consistent, intentional, deepening — is simultaneously the ideal training profile and the ideal subscription profile.
+Ppl± cannot have this decoupling because of how its economics are structured. The system's revenue comes from subscriptions. Subscriptions retain when users get genuine value. Users get genuine value when they train consistently (3-5 sessions/week), navigate intelligently between zip codes (using Junction and the rotation engine), see their bloom levels rise across rooms (evidence of depth), and occasionally read the Operis (staying connected to the publication rhythm). That user profile — consistent, intentional, deepening — is simultaneously the ideal training profile and the ideal subscription profile.
 
 A user who trains obsessively (7+ days/week, no rest, ignoring Restoration orders) generates noisy data, risks injury, and eventually churns from burnout. That user is bad for the system and bad for themselves. The system should gently redirect them through the rotation engine (which naturally schedules Restoration and Balance orders) and the Junction recommendations (which suggest recovery zips after high-CNS sessions). The system's self-interest and the user's self-interest are identical: sustainable training frequency, appropriate order variation, and progressive depth.
 
@@ -118,7 +118,7 @@ Primary output: subscription revenue (Tier 1 at $10/month, Tier 2 at $25-30/mont
 
 The economic question at this scale: what is the relationship between user longevity and unit economics?
 
-In most SaaS, long-tenured users are either the most profitable (they keep paying without support costs) or the least profitable (they use the most compute and storage). In PPL±, long-tenured users are the most valuable across every dimension. To themselves: they have the deepest bloom state, the most accurate superscript predictions, and the richest training history. To the system: they produce the cleanest data, the most training signal for aggregate patterns, and the most community content (enveloped observations that enrich the almanac). To the business: they have the lowest churn risk because the system's knowledge of them is genuinely useful and non-transferable (even with full data export, the contextual computation requires the PPL± engine).
+In most SaaS, long-tenured users are either the most profitable (they keep paying without support costs) or the least profitable (they use the most compute and storage). In Ppl±, long-tenured users are the most valuable across every dimension. To themselves: they have the deepest bloom state, the most accurate superscript predictions, and the richest training history. To the system: they produce the cleanest data, the most training signal for aggregate patterns, and the most community content (enveloped observations that enrich the almanac). To the business: they have the lowest churn risk because the system's knowledge of them is genuinely useful and non-transferable (even with full data export, the contextual computation requires the Ppl± engine).
 
 This creates the eudaimonic virtuous cycle: the system thrives precisely when its users thrive. There is no tension between profit and wellbeing. There is no moment where the business would benefit from the user training more obsessively, engaging more superficially, or becoming dependent rather than autonomous.
 
@@ -168,11 +168,11 @@ The envelope architecture (seeds/scl-envelope-architecture.md) has a direct econ
 
 In conventional content businesses, content depreciates. A blog post published today has peak traffic this week and decays toward zero. A social media post has a half-life measured in hours. Content businesses must constantly produce new content to replace the declining value of old content. This is the content treadmill — production costs are ongoing and the asset base does not compound.
 
-In PPL±, the envelope system makes content retrieval condition-based, not date-based. A fishing observation from March 2027 resurfaces in March 2028 — not because the date matches, but because the SCL conditions match (seasonal position, lunar phase, daylight hours, regional context). A planting guide from year one appears alongside year two and year three guides when the conditions align, creating layered almanac depth. A workout card generated today is retrieved by the same mechanism — when a user's live vector is similar to the card's envelope, the card surfaces.
+In Ppl±, the envelope system makes content retrieval condition-based, not date-based. A fishing observation from March 2027 resurfaces in March 2028 — not because the date matches, but because the SCL conditions match (seasonal position, lunar phase, daylight hours, regional context). A planting guide from year one appears alongside year two and year three guides when the conditions align, creating layered almanac depth. A workout card generated today is retrieved by the same mechanism — when a user's live vector is similar to the card's envelope, the card surfaces.
 
 This means the content asset base compounds. Every Operis edition, every community pin, every user observation, every cosmogram entry is permanently retrievable. The library does not decay. The almanac grows richer every year. The retrieval engine serves more relevant content to each user as the corpus deepens. The marginal cost of serving old content is near-zero (it is already stored and indexed). The marginal value of old content increases over time (more data points at similar conditions create richer pattern visibility).
 
-The economic implication: PPL± has decreasing marginal cost of content per user over time. Early users subsidize library building through their subscriptions. Later users inherit a richer library at the same subscription price. This is the economics of a public library, not a content mill. The investment compounds. The returns increase. The system gets cheaper to operate per user as it ages, not more expensive.
+The economic implication: Ppl± has decreasing marginal cost of content per user over time. Early users subsidize library building through their subscriptions. Later users inherit a richer library at the same subscription price. This is the economics of a public library, not a content mill. The investment compounds. The returns increase. The system gets cheaper to operate per user as it ages, not more expensive.
 
 ## Cost Constraints by Phase
 

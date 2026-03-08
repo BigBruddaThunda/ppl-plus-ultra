@@ -28,7 +28,7 @@ The fleet categories:
 - Food trucks (🟡 yellow) — mobile, unexpected locations, creative but still serving real food
 - Ambulances (⚪ white) — lights on, moving carefully, the patient's condition determines pace
 
-PPL± extends this principle into digital production. Each Color signals to agents, architects, and builders what kind of work this is and how to approach it — before a single instruction is read. The posture is pre-loaded. The fleet is pre-sorted. The agent that picks up a ⚫ Teaching task knows: define terms, read your own output as if the next reader has never seen the repo, do not assume. The agent that picks up a 🔴 Intense task knows: measure yourself by throughput, cut the filler, emit.
+Ppl± extends this principle into digital production. Each Color signals to agents, architects, and builders what kind of work this is and how to approach it — before a single instruction is read. The posture is pre-loaded. The fleet is pre-sorted. The agent that picks up a ⚫ Teaching task knows: define terms, read your own output as if the next reader has never seen the repo, do not assume. The agent that picks up a 🔴 Intense task knows: measure yourself by throughput, cut the filler, emit.
 
 This is not decoration. It is pipeline architecture.
 

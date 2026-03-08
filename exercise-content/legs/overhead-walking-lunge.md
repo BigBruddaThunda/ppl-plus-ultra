@@ -40,7 +40,7 @@ Overhead Walking Lunge is a lunge movement that primarily trains quadriceps, glu
 **Secondary:** hamstrings, gluteus_medius, adductors
 **Joint actions:** knee_extension, hip_extension, hip_flexion
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Single-leg stability is the entry fee. Foundation load means the hip, knee, and ankle stack must be established before load amplifies any deviation. Slow, controlled descent.
 

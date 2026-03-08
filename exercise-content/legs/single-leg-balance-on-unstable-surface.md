@@ -41,7 +41,7 @@ Single-Leg Balance on Unstable Surface is a core stability movement that primari
 **Secondary:** obliques, erector_spinae, hip_flexors
 **Joint actions:** spinal_flexion, spinal_stabilization, intra_abdominal_pressure
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Bracing mechanics are the lesson. Foundation load in core-stability work is often bodyweight. The goal is teaching the nervous system to generate intra-abdominal pressure on demand.
 

@@ -39,7 +39,7 @@ Pause Seated Calf Raise (Bottom) is a leg isolation movement that primarily trai
 **Secondary:** tibialis_posterior
 **Joint actions:** ankle_plantarflexion
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Isolation exercises at foundation load establish the muscle-mind connection. Quad extensions, hamstring curls, and calf raises need to be felt — not just performed.
 

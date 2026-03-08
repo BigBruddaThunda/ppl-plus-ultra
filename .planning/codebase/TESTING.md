@@ -6,7 +6,7 @@
 
 ## Overview
 
-PPL± has no unit test framework (pytest, unittest, etc.). Validation is domain-specific: scripts validate cards against SCL rules. All validation is structural and content-based — checking format, zip codes, exercise names, block presence, and naming conventions against known good patterns.
+Ppl± has no unit test framework (pytest, unittest, etc.). Validation is domain-specific: scripts validate cards against SCL rules. All validation is structural and content-based — checking format, zip codes, exercise names, block presence, and naming conventions against known good patterns.
 
 ---
 

@@ -3,7 +3,7 @@
 **Status:** NOT STARTED (V2 scaffolds exist, web deposits not done)
 **SCL Zip:** 🐂 🌹 🟣 (Tuscan × Venustas × Technical — defining identity with precision)
 **Contract:** `ppl-cosmogram-population`
-**PPL Phase:** Phase 2.5
+**Ppl Phase:** Phase 2.5
 
 ---
 

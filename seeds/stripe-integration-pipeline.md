@@ -13,7 +13,7 @@ connects-to: seeds/experience-layer-blueprint.md
 
 ## One Sentence
 
-PPL± runs two Stripe subscription products — Tier 1 Library Card ($10/month) and Tier 2 Residency ($25-30/month) — with Stripe Checkout for purchase, Customer Portal for self-service management, and a webhook handler that updates Supabase profile tier on every subscription lifecycle event, with Supabase RLS enforcing access gating at the database level.
+Ppl± runs two Stripe subscription products — Tier 1 Library Card ($10/month) and Tier 2 Residency ($25-30/month) — with Stripe Checkout for purchase, Customer Portal for self-service management, and a webhook handler that updates Supabase profile tier on every subscription lifecycle event, with Supabase RLS enforcing access gating at the database level.
 
 ---
 
@@ -84,7 +84,7 @@ PPL± runs two Stripe subscription products — Tier 1 Library Card ($10/month) 
 
 ## Webhook Events Table
 
-| Stripe Event | PPL± Action |
+| Stripe Event | Ppl± Action |
 |-------------|------------|
 | `checkout.session.completed` | Set tier, store customer_id + subscription_id |
 | `customer.subscription.updated` | Update tier (upgrade/downgrade), update status |
@@ -94,7 +94,7 @@ PPL± runs two Stripe subscription products — Tier 1 Library Card ($10/month) 
 | `customer.subscription.paused` | Set status = 'paused' |
 | `customer.subscription.resumed` | Set status = 'active' |
 
-No other Stripe events require PPL± action. Ignore all others with a 200 OK response.
+No other Stripe events require Ppl± action. Ignore all others with a 200 OK response.
 
 ---
 
@@ -279,7 +279,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJ...
 
 ## Customer Portal
 
-Stripe Customer Portal handles all subscription management: upgrade, downgrade, cancel, update payment method. PPL± does not build any of this UI.
+Stripe Customer Portal handles all subscription management: upgrade, downgrade, cancel, update payment method. Ppl± does not build any of this UI.
 
 ```typescript
 // /api/stripe/portal/route.ts

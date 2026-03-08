@@ -39,7 +39,7 @@ Partial Leg Extension (Top Half) is a leg isolation movement that primarily trai
 **Secondary:** —
 **Joint actions:** knee_extension
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Isolation exercises at foundation load establish the muscle-mind connection. Quad extensions, hamstring curls, and calf raises need to be felt — not just performed.
 

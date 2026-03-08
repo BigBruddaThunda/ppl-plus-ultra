@@ -13,7 +13,7 @@ connects-to: seeds/experience-layer-blueprint.md, seeds/voice-parser-architectur
 
 ## One Sentence
 
-The PPL± mobile UI is organized around four interaction states — Immersed, Dial Active, Drawer Open, Full Tool Floor — with a Price-is-Right style 4-dial lock at the bottom for room navigation, a 🔨 tool drawer for utilities, and a pinch-zoom canvas for deeper room exploration.
+The Ppl± mobile UI is organized around four interaction states — Immersed, Dial Active, Drawer Open, Full Tool Floor — with a Price-is-Right style 4-dial lock at the bottom for room navigation, a 🔨 tool drawer for utilities, and a pinch-zoom canvas for deeper room exploration.
 
 ---
 

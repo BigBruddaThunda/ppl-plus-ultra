@@ -22,7 +22,7 @@ Every exercise displays a superscript box (last/highest weight = the +) and a su
 - **Left:** Color emoji + exercise name (identity)
 - **Upper right box:** last/highest weight — the + of ±
 - **Lower right box:** days since last performed — the ultra of ±
-- **Far right:** ± N Sets (using ± instead of × as the PPL± set operator)
+- **Far right:** ± N Sets (using ± instead of × as the Ppl± set operator)
 - **First time:** both boxes are empty □ — blank plate, invitation
 
 ## The Hidden Easter Egg

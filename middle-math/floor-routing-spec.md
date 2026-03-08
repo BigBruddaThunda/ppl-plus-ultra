@@ -1,7 +1,7 @@
 # Floor Routing Specification
 ## CX-22 — Content Types → Axis Floors
 
-All 109 PPL± content types mapped to their primary Axis floor, secondary floors,
+All 109 Ppl± content types mapped to their primary Axis floor, secondary floors,
 cross-floor rules, and default landing behavior.
 
 **Source:** `middle-math/content-type-registry.json`
@@ -11,7 +11,7 @@ cross-floor rules, and default landing behavior.
 
 ## Floor Map
 
-The PPL± building has 6 floors, one per Axis. Following the piano nobile principle
+The Ppl± building has 6 floors, one per Axis. Following the piano nobile principle
 from `seeds/elevator-architecture.md`, 🏛 Basics is the principal floor — the main
 entry point for all users.
 

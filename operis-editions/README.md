@@ -1,6 +1,6 @@
-# PPL± Operis Editions
+# Ppl± Operis Editions
 
-Each file in this directory is a single edition of the PPL± Operis.
+Each file in this directory is a single edition of the Ppl± Operis.
 
 Path convention: `operis-editions/YYYY/MM/YYYY-MM-DD.md`
 

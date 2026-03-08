@@ -19,7 +19,7 @@ connects-to:
   - seeds/operis-builder-prompt.md
 ---
 
-# PPL± Operis — Four-Prompt Generation Pipeline
+# Ppl± Operis — Four-Prompt Generation Pipeline
 
 ## One Sentence
 
@@ -187,13 +187,13 @@ The edition body follows the department order defined in the Department Activati
 
 ## Color Flow — Three Color Identities
 
-The PPL± system uses 8 Color emojis (⚫🟢🔵🟣🔴🟠🟡⚪) in three distinct contexts. All three are valid simultaneously. The context determines which identity is active.
+The Ppl± system uses 8 Color emojis (⚫🟢🔵🟣🔴🟠🟡⚪) in three distinct contexts. All three are valid simultaneously. The context determines which identity is active.
 
 **Identity 1 — Workout Color (Position 4 of the zip code).**
 Defined in CLAUDE.md. Determines equipment tier, GOLD access, and session format. A permanent property of each zip code address. ⚫ at position 4 means Teaching format with Tier 2–3 equipment and extended rest. This identity does not change.
 
 **Identity 2 — Publication Color (Color Context Vernacular).**
-Defined in `scl-deep/publication-standard.md`. Determines tonal communication register. ⚫ as publication Color means "Order: foundational, serious, non-negotiable." Used as tonal punctuation and categorical headers throughout PPL± content. This is the Color's voice.
+Defined in `scl-deep/publication-standard.md`. Determines tonal communication register. ⚫ as publication Color means "Order: foundational, serious, non-negotiable." Used as tonal punctuation and categorical headers throughout Ppl± content. This is the Color's voice.
 
 **Identity 3 — Operis Color of the Day (Cognitive Posture).**
 Defined in `seeds/operis-color-posture.md`. Determined daily by Prompt 2 based on the full content landscape. ⚫ as Color of the Day means "Think like a student." The posture sentence appears on the front page. The tonal register flows through the entire edition. This Color rotates daily. It does not override the workout Color of any zip code.

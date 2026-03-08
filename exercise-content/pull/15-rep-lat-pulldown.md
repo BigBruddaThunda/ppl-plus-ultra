@@ -40,7 +40,7 @@ generated: 2026-03-06
 **Secondary:** biceps_brachii, rear_deltoid, rhomboids, teres_major
 **Joint actions:** shoulder_adduction, elbow_flexion, scapular_depression
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Scapular depression before arm pull. The lat initiates — not the bicep. Foundation load means you can practice the activation pattern before load makes it irrelevant.
 

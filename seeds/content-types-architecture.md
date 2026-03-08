@@ -7,7 +7,7 @@ depends-on: scl-deep/publication-standard.md, seeds/operis-architecture.md
 connects-to: seeds/cosmogram-research-prompt.md, seeds/operis-architecture.md
 ---
 
-# 🗿 PPL± Content Types Architecture
+# 🗿 Ppl± Content Types Architecture
 
 109 Content Types. 6 Axes. 12 Operators. 7 Orders as Curriculum Depth.
 
@@ -15,7 +15,7 @@ connects-to: seeds/cosmogram-research-prompt.md, seeds/operis-architecture.md
 
 ## One Sentence
 
-PPL± produces 109 distinct content types mapped across 6 Axes, each type carrying an operator affinity, a primary floor address, and a curriculum depth level — the full scope of what the 1,680-room library contains and publishes.
+Ppl± produces 109 distinct content types mapped across 6 Axes, each type carrying an operator affinity, a primary floor address, and a curriculum depth level — the full scope of what the 1,680-room library contains and publishes.
 
 ---
 

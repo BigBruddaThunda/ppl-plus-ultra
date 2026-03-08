@@ -40,7 +40,7 @@ Lateral Neck Flexion with Band is a core stability movement that primarily train
 **Secondary:** upper_trapezius, levator_scapulae
 **Joint actions:** cervical_flexion
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Bracing mechanics are the lesson. Foundation load in core-stability work is often bodyweight. The goal is teaching the nervous system to generate intra-abdominal pressure on demand.
 

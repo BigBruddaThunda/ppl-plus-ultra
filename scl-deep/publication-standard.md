@@ -1,4 +1,4 @@
-⚫ PPL± PUBLICATION STANDARD ⚫
+⚫ Ppl± PUBLICATION STANDARD ⚫
 
 📍 pono — Placing the Voice. Setting the Standard.
 
@@ -12,7 +12,7 @@ Status:   GENERATED — Pending Review
 
 🎯
 
-"Position the literature, the language, the grammar, and the word flow for every surface in the PPL± system — from card to cosmogram, from README to Reddit post, from almanac to HTML — so that the entire architecture speaks as one coherent publication, and every zip code speaks as its own editor."
+"Position the literature, the language, the grammar, and the word flow for every surface in the Ppl± system — from card to cosmogram, from README to Reddit post, from almanac to HTML — so that the entire architecture speaks as one coherent publication, and every zip code speaks as its own editor."
 
 📍 pono — POSITIONING THE THREE REGISTERS
 
@@ -24,17 +24,17 @@ The colonial American gazette was a single sheet folded once — four pages, thr
 
 The masthead declared the publication's purpose, frequency, and terms of subscription. The printer's name appeared. The motto appeared. Benjamin Day's New York Sun (1833): "It Shines for All." The Herald pioneered specialized columns — financial news separate from court reports, local separate from national. Before the penny press, content arrived in the order it was received, or by the physical size of the typeset block. The penny press introduced the idea that a newspaper had a floor plan.
 
-A typical gazette of this era reported: proclamations, dispatches from correspondents, shipping arrivals, market prices, court proceedings, notices of property, reprinted essays, and almanac data. These are not arbitrary categories. They are the departments of civic knowledge — what a citizen needs to know about the economy, the law, the season, the community. PPL± has its own departments of civic knowledge. They are older than the penny press. They are older than the gazette. They are as old as the question "what does a person need to know to live well?"
+A typical gazette of this era reported: proclamations, dispatches from correspondents, shipping arrivals, market prices, court proceedings, notices of property, reprinted essays, and almanac data. These are not arbitrary categories. They are the departments of civic knowledge — what a citizen needs to know about the economy, the law, the season, the community. Ppl± has its own departments of civic knowledge. They are older than the penny press. They are older than the gazette. They are as old as the question "what does a person need to know to live well?"
 
-⚫ What PPL± inherits:
+⚫ What Ppl± inherits:
 
 The Departmental Architecture. Every piece of content has a department. The 6 Axis Floors are departments. The 22 Blocks are departments. The Operator Layer is a department. Nothing floats unaddressed. The zip code IS the department address — telling the reader where they are and what kind of knowledge lives here.
 
-The Masthead. Every document opens with its address. The zip code, the deck, the Order, the season. The masthead tells you where you are before you read a word. A colonial gazette without its masthead was a sheet of paper. A PPL± document without its address is a blog post.
+The Masthead. Every document opens with its address. The zip code, the deck, the Order, the season. The masthead tells you where you are before you read a word. A colonial gazette without its masthead was a sheet of paper. A Ppl± document without its address is a blog post.
 
-The Standing Department. Departments are fixed. Content rotates through them. The Shipping Intelligence column appeared every edition — but the ships were different. ♨️ appears in every workout — but the exercises are different. The department name is the constant. The content is the variable. This is polysemy applied to publication architecture. The gazette invented it. PPL± inherited it.
+The Standing Department. Departments are fixed. Content rotates through them. The Shipping Intelligence column appeared every edition — but the ships were different. ♨️ appears in every workout — but the exercises are different. The department name is the constant. The content is the variable. This is polysemy applied to publication architecture. The gazette invented it. Ppl± inherited it.
 
-The Civic Posture. The best pre-1830s papers were not partisan organs. The Niles' Register described itself as devoted to the collection and preservation of useful knowledge. PPL± is devoted to the collection and preservation of useful knowledge about how human beings move, learn, eat, rest, and relate across seasons. The posture is civic: the library is open, the shelves are addressed, the door does not close.
+The Civic Posture. The best pre-1830s papers were not partisan organs. The Niles' Register described itself as devoted to the collection and preservation of useful knowledge. Ppl± is devoted to the collection and preservation of useful knowledge about how human beings move, learn, eat, rest, and relate across seasons. The posture is civic: the library is open, the shelves are addressed, the door does not close.
 
 The Woodcut. Colonial newspapers reused small woodcut illustrations — a ship beside every shipping notice, a pointing hand beside every advertisement. Emojis function as woodcuts. 🧈 beside every Bread & Butter block. ♨️ beside every Warm-Up. 🚂 beside every Junction. The reader learns the visual vocabulary through repetition, not instruction.
 
@@ -44,11 +44,11 @@ By the 1920s, American journalism had forged the conventions that still underpin
 
 The 1920s also produced a particular relationship between formality and directness. H.L. Mencken's American Mercury. The New Yorker in its founding year of 1925. The Chicago Tribune under Colonel McCormick. The prose is muscular, opinionated, learned, and never fussy. These writers deployed a Latin phrase and a boxing metaphor in the same sentence. They assumed an intelligent reader who did not need coddling but who appreciated a writer who respected their time.
 
-⛽ What PPL± inherits:
+⛽ What Ppl± inherits:
 
 The Tight Lead. Every section, every note, every block description begins with the most important statement. Not a throat-clearing preamble. "Hips back, not down." "Heavy pulling teaches the body to generate force from the floor."
 
-Active Voice. "The barbell does not build the deadlift. You build the deadlift." The 1920s killed the passive voice in journalism. PPL± keeps it dead except where the passive serves rhythm.
+Active Voice. "The barbell does not build the deadlift. You build the deadlift." The 1920s killed the passive voice in journalism. Ppl± keeps it dead except where the passive serves rhythm.
 
 The Prohibition on Filler. Column space was physical, finite, expensive. Every word earned its place or was cut. No motivational filler, no "Let's crush this amazing workout." If a sentence does not carry information, instruction, or honest observation, it does not appear.
 
@@ -56,19 +56,19 @@ Economy of Ornament. 1920s prose could be ornate when ornament served the senten
 
 🦋 The 2026 Register: The Scroll, the Screen, the Civic Internet
 
-The person reading PPL± content in 2026 is on a phone. They are scrolling. They might have ADHD. They are literate, curious, and allergic to being patronized. They detect insincerity at four words. They trust substance and distrust performance. They will close the tab if the first paragraph does not earn the second.
+The person reading Ppl± content in 2026 is on a phone. They are scrolling. They might have ADHD. They are literate, curious, and allergic to being patronized. They detect insincerity at four words. They trust substance and distrust performance. They will close the tab if the first paragraph does not earn the second.
 
 AI-generated content has made everything feel the same. The premium in 2026 is on voice, on specificity, on the feeling that a human being with actual knowledge wrote something true. The premium is on information that feels old and wise — because age implies survival, and survival implies value.
 
-🦋 What PPL± inherits:
+🦋 What Ppl± inherits:
 
 Mobile-First Information Architecture. Short paragraphs. Generous whitespace between sections. Emoji as wayfinding glyphs — the same function as the 1830s woodcut. The emoji IS the department header. It scans. It compresses. It lets a thumb-scrolling reader navigate a dense document the way a broadsheet reader's eye navigated by department.
 
 The ADHD-Conscious Rhythm. Not dumbing down. Pacing. An ADHD reader is often brilliant — their attention is allocated in bursts. No paragraph longer than it needs to be. Frequent section breaks. The 22 Block emojis function as visual anchors — rest points for the eye, signals that context has shifted. Progressive disclosure as attention architecture.
 
-The Reddit-Viable Voice. PPL± content should survive Reddit without embarrassment. No corporate voice. No wellness-influencer voice. The voice that survives Reddit is specific, knowledgeable, slightly dry, willing to make a good joke when one presents itself, and unwilling to perform enthusiasm it does not feel.
+The Reddit-Viable Voice. Ppl± content should survive Reddit without embarrassment. No corporate voice. No wellness-influencer voice. The voice that survives Reddit is specific, knowledgeable, slightly dry, willing to make a good joke when one presents itself, and unwilling to perform enthusiasm it does not feel.
 
-The Civic Internet. PPL± is the internet's free public athletic library. The zip codes are open addresses. The workout notation is a public standard. The almanac is a shared seasonal reference. The publication voice carries the quiet confidence of an institution that intends to be here in fifty years — because the patterns it describes have been here for five thousand.
+The Civic Internet. Ppl± is the internet's free public athletic library. The zip codes are open addresses. The workout notation is a public standard. The almanac is a shared seasonal reference. The publication voice carries the quiet confidence of an institution that intends to be here in fifty years — because the patterns it describes have been here for five thousand.
 
 ## The Almanac Aesthetic
 
@@ -82,7 +82,7 @@ The result of these two inheritances: the Operis treats the daily workout addres
 
 The almanac aesthetic does not sentimentalize. It places. It specifies. The reader locates themselves in the day, the season, the week's arc. The Operis does the same — the daily zip code is an address in time as much as it is an address in the library.
 
-Language companion: `scl-deep/vocabulary-standard.md` formalizes the word-level standard that governs all PPL± content. The almanac aesthetic sets the spirit; the vocabulary standard sets the operational constraint.
+Language companion: `scl-deep/vocabulary-standard.md` formalizes the word-level standard that governs all Ppl± content. The almanac aesthetic sets the spirit; the vocabulary standard sets the operational constraint.
 
 ---
 
@@ -187,11 +187,11 @@ This style guide demonstrates the pattern:
 ✒️ — Recording the Standard
 🦉 — The Document Reasoning About Itself
 
-The operators give organizational verbs to any PPL± document. A cosmogram might move 📍 → 🧲 → 👀 → 🤌 → 🦢 → ✒️. A seed might be just 📍 → 🟡. A README might be 📍 → 🧸 → 🚀. The operator is the editorial instruction: what this section is doing as a piece of writing.
+The operators give organizational verbs to any Ppl± document. A cosmogram might move 📍 → 🧲 → 👀 → 🤌 → 🦢 → ✒️. A seed might be just 📍 → 🟡. A README might be 📍 → 🧸 → 🚀. The operator is the editorial instruction: what this section is doing as a piece of writing.
 
 🏟 THE ZIP CODE AS EDITOR — THE RENAISSANCE PERSON OF EACH ADDRESS
 
-This is the layer that makes PPL± a living publication rather than a static repository.
+This is the layer that makes Ppl± a living publication rather than a static repository.
 
 The Principle
 
@@ -323,7 +323,7 @@ The system does not claim to produce Leonardo. The system claims that the space 
 
 Sentence and Paragraph
 
-Vary sentence length. A tight sentence after a long one. A one-word sentence after three compound clauses. PPL± writing should feel like the work of someone who learned to write in a newsroom and then went to the library.
+Vary sentence length. A tight sentence after a long one. A one-word sentence after three compound clauses. Ppl± writing should feel like the work of someone who learned to write in a newsroom and then went to the library.
 
 Mobile-first: no paragraph longer than 4–5 lines on a phone screen — roughly 60–80 words. Dense technical content can run longer when the information is irreducible. The default is short paragraphs with clear first sentences.
 
@@ -375,7 +375,7 @@ optimize, leverage, unlock (marketing verb), empower, crush, slay, journey (corp
 
 🥨 tendo — EXTENDING INTO THE CONTENT TYPES
 
-Every piece of PPL± content belongs to a named department. Each department has its own sub-register within the unified standard.
+Every piece of Ppl± content belongs to a named department. Each department has its own sub-register within the unified standard.
 
 🧈 The Card. Densest content. Technical, prescriptive, economical. 🔵 structural skeleton with Color-dial variation. The daily edition. 🎯 is the headline. 🧈 is the lead. 🧩 is secondary reporting. 🚂 is "continued on page..." 🧮 is the editorial close.
 
@@ -403,7 +403,7 @@ Every piece of PPL± content belongs to a named department. Each department has 
 
 The Mobile Broadsheet
 
-PPL± on a phone should feel like a broadsheet folded to a single column — dense, navigable by department, readable in bursts or depth.
+Ppl± on a phone should feel like a broadsheet folded to a single column — dense, navigable by department, readable in bursts or depth.
 
 Masthead Pattern
 
@@ -487,7 +487,7 @@ You close it. You come back tomorrow. The address is different. The departments 
 
 🐋 duco — CONDUCTING THE WHOLE
 
-PPL± is one publication. Not a collection of documents. Not a repository of files.
+Ppl± is one publication. Not a collection of documents. Not a repository of files.
 
 One publication — with departments, with a masthead, with standing columns, with a civic posture, with a visual grammar, with a voice that sounds the same whether you are reading a workout card, an almanac entry, a Reddit post, or a cosmogram. And with 1,680 editors — each derived from their address, each a unique convergence of Liberal Art and hermeneutic lens and domain and temperament — who produce the content that fills the rooms.
 
@@ -533,10 +533,10 @@ The editor at each address is derived from the four dials — a unique convergen
 
 The publication is civic. The door is open.
 
-🐂🏛⚫ ± 📍 — The PPL± Publication Standard
+🐂🏛⚫ ± 📍 — The Ppl± Publication Standard
 Status: GENERATED
 Drafted: 25 February 2026
-For: PPL± Repository — all structures, all surfaces, all content
+For: Ppl± Repository — all structures, all surfaces, all content
 
 Independent of Party or Faction.
 Committed to Useful Knowledge.

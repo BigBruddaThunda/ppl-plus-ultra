@@ -6,7 +6,7 @@ Address:  🐂🏛⚫
 Operator: 📍 pono
 Status:   GENERATED — Pending Review
 Drafted:  25 February 2026
-For:      PPL± Repository — deck-cosmograms/
+For:      Ppl± Repository — deck-cosmograms/
 
 Independent of Party or Faction. Committed to Useful Knowledge.
 
@@ -22,7 +22,7 @@ The Two Repositories
 
 SCL-61 (Semantic Compression Language) is a polysemic system of 61 emojis organized into 7 categories. It is the shared language substrate for two projects.
 
-PPL± is a workout generation and training programming system. 1,680 unique workout addresses (zip codes) produced by 4-emoji combinations. Repository: github.com/BigBruddaThunda/ppl-plus-ultra/. Read README.md, CLAUDE.md, scl-directory.md, whiteboard.md before searching.
+Ppl± is a workout generation and training programming system. 1,680 unique workout addresses (zip codes) produced by 4-emoji combinations. Repository: github.com/BigBruddaThunda/ppl-plus-ultra/. Read README.md, CLAUDE.md, scl-directory.md, whiteboard.md before searching.
 
 Graph Parti is a visual programming canvas where zip codes serve as block addresses, routing logic, and semantic compression for any domain. Repository: github.com/BigBruddaThunda/Graph-Parti/. Read INDEX.md, SCL.md, Ralph parti.txt before searching.
 
@@ -77,7 +77,7 @@ Temporal pattern (⌛ Temporitas): Mytho — the scale at which time reveals its
 
 Relational density (🐬 Sociatas): Munus — from Latin mūnus (gift, duty, reciprocal obligation). Root of communis, communio, municipal, immune, remuneration. Robin Dunbar's layers (5 intimate → 15 close → 50 friends → 150 meaningful → 500 acquaintances) are layers of munus — reciprocal obligation dilutes as the number grows. Richard Bartlett's Microsolidarity: Self → Dyad → Crew (3–5) → Congregation (15–150) → Network. Munus is where reciprocity is visible — where "spottable" means someone has their hands under your bar.
 
-| Emoji | Name | Vitruvian Root | Sense | Scale | Dimension | PPL± Character | Question |
+| Emoji | Name | Vitruvian Root | Sense | Scale | Dimension | Ppl± Character | Question |
 |-------|------|----------------|-------|-------|-----------|----------------|----------|
 | 🏛 | Firmitas/Basics | "It must stand" | Literal | Macro | Spatial | Bilateral, barbell-first, proven classics | "What is it, actually?" |
 | 🔨 | Utilitas/Functional | "It must work" | Moral | Meso | Spatial | Unilateral, standing, athletic transfer | "Does it work?" |
@@ -92,7 +92,7 @@ The 6 Axes serve dual function — in-workout exercise bias AND app-level conten
 
 The 5 Types — Domain / Muscle Groups / Direction
 
-| Emoji | Name | PPL± Muscles | Broader Direction |
+| Emoji | Name | Ppl± Muscles | Broader Direction |
 |-------|------|-------------|-------------------|
 | 🛒 | Push | Chest, front delts, triceps | Output, emit, what you push into the world |
 | 🪡 | Pull | Lats, rear delts, biceps, traps, erectors | Input, receive, what you draw toward yourself |
@@ -239,7 +239,7 @@ Each zip code is a place, not a page. A user returning to ⛽🏛🪡🔵 eight 
 
 What lives inside a zip code at the experience layer: The workout itself is always primary. Progressive reveal surfaces weight calculators and training tools specific to the zip's parameters, reading content (almanac entries, historical threads, Wilson notes) keyed to the Order × Axis × Type × Color intersection, community space connecting everyone on the internet who trains at that address, educational content about the training modality and movement patterns, interactive tools matched to the zip's character (⌛ zips might have a metronome, 🟡 zips might have daily puzzles, 🔵 zips might have detailed logging), and junction connections to other zip codes via the 🚂 web.
 
-The zip code as internet-standard workout address. PPL± proposes that the 4-emoji zip code becomes the universal workout identifier — the way ISBN numbers identify books. If someone on Reddit posts "I ran ⛽🏛🪡🔵 today" and someone in Tokyo posts the same thing, they did the same workout. The emojis are the protocol layer. PPL± is a PPL split with a coordinate system.
+The zip code as internet-standard workout address. Ppl± proposes that the 4-emoji zip code becomes the universal workout identifier — the way ISBN numbers identify books. If someone on Reddit posts "I ran ⛽🏛🪡🔵 today" and someone in Tokyo posts the same thing, they did the same workout. The emojis are the protocol layer. Ppl± is a Ppl split with a coordinate system.
 
 The community shapes the rooms. Users suggest exercise substitutions. Forum threads accumulate training wisdom specific to each address. Community voting surfaces the best modifications. The 1,680 zip codes become 1,680 living rooms where the internet collectively curates gold-standard workouts and shares knowledge. Each zip starts the same and grows differently based on who lives there.
 
@@ -338,9 +338,9 @@ operators_expressive: [EMOJI] [latin] — for 🔵🟣🔴🟠 colors
 
 Required Sections
 
-Deck Character. 3–4 paragraphs describing what this deck IS as an idea space — not what it does in PPL± specifically, but what it represents as a territory of human experience. Ground it in the architectural etymology, the Liberal Art, the seasonal reality, the hermeneutic sense, and the scale dimension. For Mytho decks: ground it in the experience of time at this Order's developmental phase. For Munus decks: ground it in the quality of reciprocal obligation at this Order's developmental phase. This reads like Wilson talking — direct, wise, no filler.
+Deck Character. 3–4 paragraphs describing what this deck IS as an idea space — not what it does in Ppl± specifically, but what it represents as a territory of human experience. Ground it in the architectural etymology, the Liberal Art, the seasonal reality, the hermeneutic sense, and the scale dimension. For Mytho decks: ground it in the experience of time at this Order's developmental phase. For Munus decks: ground it in the quality of reciprocal obligation at this Order's developmental phase. This reads like Wilson talking — direct, wise, no filler.
 
-The Polysemic Root. How the Order emoji and Axis emoji hold meaning across both PPL± and Graph Parti. The shared character transcending either application. The Latin roots of the associated operators. Why these two emojis combined produce the specific energy they produce.
+The Polysemic Root. How the Order emoji and Axis emoji hold meaning across both Ppl± and Graph Parti. The shared character transcending either application. The Latin roots of the associated operators. Why these two emojis combined produce the specific energy they produce.
 
 Movement & Physical Culture Thread. Specific traditions, practitioners, principles, or modalities belonging at this address. Cite real things. Explain why they belong HERE and not at a different deck.
 
@@ -491,10 +491,10 @@ The anti-filler principle is new to this version. Previous iterations risked a f
 
 The document also resists a second failure mode: treating deck-specific training content as though it were the cosmogram's primary job. The cosmogram is not a workout plan. The workout plan lives in the cards. The cosmogram is the cultural, philosophical, seasonal, architectural, and ecological substrate from which the cards — and everything else at this address — grow. Movement science is one thread. It does not outweigh architecture, agriculture, philosophy, music, or community. The shelves are equal. The room is the point.
 
-🐂🏛⚫ ± 📍 — The PPL± Deck Cosmogram Research Session
+🐂🏛⚫ ± 📍 — The Ppl± Deck Cosmogram Research Session
 Status: GENERATED
 Drafted: 25 February 2026
-For: PPL± Repository — deck-cosmograms/, seeds/cosmogram-research-prompt.md
+For: Ppl± Repository — deck-cosmograms/, seeds/cosmogram-research-prompt.md
 
 Independent of Party or Faction. Committed to Useful Knowledge.
 

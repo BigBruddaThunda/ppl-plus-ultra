@@ -39,7 +39,7 @@ Random Cone Sprint (Color/Number Call) is a conditioning movement that primarily
 **Secondary:** gastrocnemius, core, hip_flexors
 **Joint actions:** hip_extension, knee_extension, ankle_plantarflexion
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Conditioning at foundation load is aerobic base development. Zone 2 — the pace you can hold for 30+ minutes while still holding a conversation. Not recovery, not intensity. Base.
 

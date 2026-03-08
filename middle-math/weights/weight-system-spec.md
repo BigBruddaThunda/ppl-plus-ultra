@@ -2,7 +2,7 @@
 
 Status: DRAFT
 
-The octave weight system is the metabolic layer of PPL±. Every SCL rule becomes a number. Every number becomes a decision.
+The octave weight system is the metabolic layer of Ppl±. Every SCL rule becomes a number. Every number becomes a decision.
 
 ---
 

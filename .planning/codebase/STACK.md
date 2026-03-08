@@ -23,7 +23,7 @@
 
 **Package Manager:**
 - pip (Python stdlib only + `pyyaml`)
-- npm is not used for the PPL± project itself (only `.claude/package.json` marks the GSD hooks directory as CommonJS)
+- npm is not used for the Ppl± project itself (only `.claude/package.json` marks the GSD hooks directory as CommonJS)
 - Lockfile: not present (no requirements.txt; dependency is pip-installed in `post-create.sh`)
 
 ## Frameworks
@@ -81,7 +81,7 @@
 - Resend — transactional email
 - Framer Motion + `@use-gesture/react` — dial physics, gesture interaction
 - Zustand — client state management
-- Tailwind CSS — styling with PPL± design tokens
+- Tailwind CSS — styling with Ppl± design tokens
 - Android Auto / CarPlay — automotive layer (seeded in `seeds/automotive-layer-architecture.md`)
 
 ---

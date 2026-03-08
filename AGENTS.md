@@ -1,6 +1,6 @@
-# AGENTS.md — PPL± Codex Operating Instructions
+# AGENTS.md — Ppl± Codex Operating Instructions
 
-You are working inside the PPL± repository.
+You are working inside the Ppl± repository.
 Read this file before touching anything else.
 Active task is always in `whiteboard.md` — read it before acting.
 
@@ -8,7 +8,7 @@ Active task is always in `whiteboard.md` — read it before acting.
 
 ## What This Project Is
 
-PPL± is a semantic training language (SCL — Semantic Compression Language) built by Jake Berry.
+Ppl± is a semantic training language (SCL — Semantic Compression Language) built by Jake Berry.
 It uses 61 emojis across 7 categories to produce 1,680 unique workout addresses called zip codes.
 Each zip code is a 4-emoji address that fully specifies a workout's loading protocol, exercise
 character, muscle groups, and equipment format.

@@ -6,7 +6,7 @@
 
 ## Overview
 
-Three-tier validation pipeline for PPL± card files.
+Three-tier validation pipeline for Ppl± card files.
 
 ---
 

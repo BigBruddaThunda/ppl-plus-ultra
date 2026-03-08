@@ -1,4 +1,4 @@
-# card-template-v2.md — PPL± Card Format Standard
+# card-template-v2.md — Ppl± Card Format Standard
 
 This is the v2 card template. It replaces the v1 15-element required format.
 Generated under this standard carry `status: GENERATED-V2`.

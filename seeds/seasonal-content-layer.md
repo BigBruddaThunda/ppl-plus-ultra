@@ -17,7 +17,7 @@ connects-to:
 
 # Seasonal Content Layer
 
-The PPL± Almanac is a Farmer's Almanac. It tracks time the way farmers tracked time — not by abstract calendar units but by what the land is doing right now. Each of the 12 months has an operator. Each operator has an agricultural practice underneath it. That practice grounds the content of the Almanac floor for that month.
+The Ppl± Almanac is a Farmer's Almanac. It tracks time the way farmers tracked time — not by abstract calendar units but by what the land is doing right now. Each of the 12 months has an operator. Each operator has an agricultural practice underneath it. That practice grounds the content of the Almanac floor for that month.
 
 This document specifies how seasonal content (food, agriculture, lifestyle, weather, rhythm) maps to the 12-month operator calendar and how it lives inside the ⌛ Temporitas floor.
 
@@ -285,4 +285,4 @@ The ⌛ floor is where users come to check the calendar, plan their training cyc
 - Not a shopping list (though a produce calendar is close to one).
 - Not a prescription. The observation-level only.
 
-PPL± does not tell users what to eat. It observes what is seasonally available and what the body tends toward in each season. The user decides what to do with that information.
+Ppl± does not tell users what to eat. It observes what is seasonally available and what the body tends toward in each season. The user decides what to do with that information.

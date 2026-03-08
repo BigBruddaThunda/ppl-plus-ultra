@@ -1,4 +1,4 @@
-# Codex Audit — Agents-Friendly PPL± Expansion (Non-Operis Core)
+# Codex Audit — Agents-Friendly Ppl± Expansion (Non-Operis Core)
 
 Date: 2026-03-03  
 Scope: High-leverage work that strengthens Daily Operis readiness without requiring web search.

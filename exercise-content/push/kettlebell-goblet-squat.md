@@ -40,7 +40,7 @@ Kettlebell Goblet Squat is a squat movement that primarily trains core, transver
 **Secondary:** obliques, erector_spinae, hip_flexors
 **Joint actions:** spinal_flexion, spinal_stabilization, intra_abdominal_pressure
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Foot width, bracing, and descent rate are the lesson. Load is irrelevant. The goal is groove — the same position rep after rep. Sub-65% gives you 8–15 reps to get it right.
 

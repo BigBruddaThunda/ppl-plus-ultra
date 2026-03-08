@@ -1,6 +1,6 @@
-# Zip-Web — PPL± Navigation Graph
+# Zip-Web — Ppl± Navigation Graph
 
-The zip-web is a relational navigation layer connecting all 1,680 PPL± workout zip codes into a traversable graph. Every zip code is a hub. Every hub has exactly 4 outgoing directional edges (N/E/S/W). Each edge points to a zip code of a different Type. The hub plus its 4 neighbors form a **pod** — 5 workouts covering all 5 Types.
+The zip-web is a relational navigation layer connecting all 1,680 Ppl± workout zip codes into a traversable graph. Every zip code is a hub. Every hub has exactly 4 outgoing directional edges (N/E/S/W). Each edge points to a zip code of a different Type. The hub plus its 4 neighbors form a **pod** — 5 workouts covering all 5 Types.
 
 The zip-web is independent of the Almanac calendar rotation. It is a parallel navigation system.
 

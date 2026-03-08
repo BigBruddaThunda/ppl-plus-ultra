@@ -1,4 +1,4 @@
-# PPL± Abacus Full Sort Report
+# Ppl± Abacus Full Sort Report
 
 Generated: 2026-03-08
 

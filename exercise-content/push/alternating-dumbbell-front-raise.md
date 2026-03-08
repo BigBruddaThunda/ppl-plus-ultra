@@ -41,7 +41,7 @@ Alternating Dumbbell Front Raise is a vertical press movement that primarily tra
 **Secondary:** triceps_brachii, upper_trapezius
 **Joint actions:** shoulder_flexion, elbow_extension, shoulder_abduction
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Overhead position demands shoulder mobility that most people have to earn. Foundation load lets you find the path before you fight the load. Lockout position is the cue — stack the joint.
 

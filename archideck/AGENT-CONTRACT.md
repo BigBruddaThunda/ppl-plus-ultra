@@ -15,7 +15,7 @@ Every session follows this sequence in order. Do not skip steps.
 4. **Read that project's `CLAUDE.md` and `whiteboard.md`** — Project-specific rules and current state. These override defaults but do not contradict the kernel.
 5. **Work.**
 
-For PPL±: the project-level `CLAUDE.md` is at the repository root. It is the full operating specification. The KERNEL is context. The CLAUDE.md is the law for PPL± generation.
+For Ppl±: the project-level `CLAUDE.md` is at the repository root. It is the full operating specification. The KERNEL is context. The CLAUDE.md is the law for Ppl± generation.
 
 ---
 
@@ -29,7 +29,7 @@ For PPL±: the project-level `CLAUDE.md` is at the repository root. It is the fu
 
 **The kernel is the authority.** Project-level documents extend the kernel. They never contradict it. If a project doc conflicts with KERNEL.md, the kernel wins. Flag the conflict; do not silently override.
 
-**The full spec is the authority for PPL±.** Within the PPL± project, `scl-directory.md` is the uncompressed specification. If there is a conflict between KERNEL.md and scl-directory.md, scl-directory.md wins for PPL± generation. The kernel is a compressed reference, not an override.
+**The full spec is the authority for Ppl±.** Within the Ppl± project, `scl-directory.md` is the uncompressed specification. If there is a conflict between KERNEL.md and scl-directory.md, scl-directory.md wins for Ppl± generation. The kernel is a compressed reference, not an override.
 
 ---
 
@@ -73,7 +73,7 @@ The kernel (`archideck/KERNEL.md`) is compressed SCL — the generative grammar,
 - Read `scl-directory.md` to **execute** within the system.
 - Read the project's `CLAUDE.md` to **follow** the project's rules.
 
-Do not attempt to generate PPL± workouts from KERNEL.md alone. It does not contain the exercise library routing, tonal rules, validation checklist, or block sequence guidelines needed for correct generation. It contains the grammar. The full spec contains the execution rules.
+Do not attempt to generate Ppl± workouts from KERNEL.md alone. It does not contain the exercise library routing, tonal rules, validation checklist, or block sequence guidelines needed for correct generation. It contains the grammar. The full spec contains the execution rules.
 
 ---
 
@@ -81,7 +81,7 @@ Do not attempt to generate PPL± workouts from KERNEL.md alone. It does not cont
 
 **KERNEL.md vs. scl-directory.md:** scl-directory.md wins. The kernel is a compression. If the compression missed something, the full spec is authoritative.
 
-**scl-directory.md vs. CLAUDE.md:** CLAUDE.md wins for the PPL± project. CLAUDE.md is the operating layer; scl-directory.md is the reference.
+**scl-directory.md vs. CLAUDE.md:** CLAUDE.md wins for the Ppl± project. CLAUDE.md is the operating layer; scl-directory.md is the reference.
 
 **CLAUDE.md vs. whiteboard.md:** whiteboard.md wins for the current session. If whiteboard.md says to do X and CLAUDE.md says to do Y by default, do X. The whiteboard is the active task board.
 

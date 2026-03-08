@@ -1,4 +1,4 @@
-# PPL± Abacus Sort Report — 2026-03-08
+# Ppl± Abacus Sort Report — 2026-03-08
 
 - **Total zips:** 1680
 - **Abaci coverage:** 1591/1680 (94%)

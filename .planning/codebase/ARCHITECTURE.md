@@ -6,7 +6,7 @@
 
 **Overall:** Content generation pipeline with layered specification authority
 
-PPL± is not a web application. It is a content repository and generation system. The architecture is a multi-layer specification stack: rules at the top, generated markdown files at the bottom, with Python validation scripts, Claude agent skills, and a computation engine specification layer in between.
+Ppl± is not a web application. It is a content repository and generation system. The architecture is a multi-layer specification stack: rules at the top, generated markdown files at the bottom, with Python validation scripts, Claude agent skills, and a computation engine specification layer in between.
 
 **Key Characteristics:**
 - The zip code (4-emoji address) is the universal key — every card, every file, every future database row, every URL derives from it
@@ -25,7 +25,7 @@ PPL± is not a web application. It is a content repository and generation system
 - Used by: All projects, all agents, all generation sessions
 
 **Layer 1 — Project Operating Rules:**
-- Purpose: PPL±-specific generation law; overrides and extends the kernel for fitness domain
+- Purpose: Ppl±-specific generation law; overrides and extends the kernel for fitness domain
 - Location: `CLAUDE.md` (root), `scl-directory.md`, `generation-philosophy.md`, `card-template-v2.md`
 - Contains: Order/Axis/Type/Color parameters, constraint hierarchy, block sequences, tonal rules, validation checklist, operator table, format requirements
 - Depends on: KERNEL.md (grammar base)
@@ -62,7 +62,7 @@ PPL± is not a web application. It is a content repository and generation system
 **Layer 6 — Meta-Layer (Archideck):**
 - Purpose: Cross-project contract tracking, universal agent operating protocol, intake for raw ideas
 - Location: `archideck/` (KERNEL.md, CONTRACTS.md, AGENT-CONTRACT.md, intake/, projects/)
-- Contains: Negotiosum switchboard (CONTRACTS.md), agent session start sequence, intake landing zone, non-PPL± project scaffolds
+- Contains: Negotiosum switchboard (CONTRACTS.md), agent session start sequence, intake landing zone, non-Ppl± project scaffolds
 - Depends on: Nothing (runs alongside all projects)
 - Used by: All sessions across all projects
 
@@ -179,7 +179,7 @@ Progress tracking runs via `python scripts/progress-report.py` which scans all c
 **Cross-Project Routing (Archideck):**
 - Location: `archideck/CONTRACTS.md` (the Negotiosum switchboard)
 - Triggers: Any session beginning involving multiple projects
-- Responsibilities: Identifies active contracts across PPL±, Graph Parti, Story Engine, Civic Atlas
+- Responsibilities: Identifies active contracts across Ppl±, Graph Parti, Story Engine, Civic Atlas
 
 ## Error Handling
 
@@ -222,7 +222,7 @@ Every major subsystem has a partial zip-code address in the Kernel grammar (Orde
 | Archideck Meta-Layer | 🐂 🏛 ⚪ | Tuscan (define) + Firmitas (structure) + Mindful (clear/authoritative) |
 | Validation Pipeline | ⛽ 🏛 🔵 | Doric (validate/verify) + Firmitas (structure) + Structured |
 
-**Zip grammar note:** These use Kernel grammar (Order · Axis/Modifier · Color), not PPL± dialect (Order · Axis · Type · Color). Partial zips are valid per KERNEL.md Principle 5.
+**Zip grammar note:** These use Kernel grammar (Order · Axis/Modifier · Color), not Ppl± dialect (Order · Axis · Type · Color). Partial zips are valid per KERNEL.md Principle 5.
 
 ---
 

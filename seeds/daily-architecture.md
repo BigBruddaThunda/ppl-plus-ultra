@@ -9,7 +9,7 @@ depends-on: seeds/default-rotation-engine.md, seeds/elevator-architecture.md, sc
 connects-to: seeds/almanac-macro-operators.md, seeds/axis-as-app-floors.md, seeds/junction-community.md, seeds/almanac-room-bloom.md
 ---
 
-# ✒️ The Daily — PPL± Front Page Architecture
+# ✒️ The Daily — Ppl± Front Page Architecture
 
 🟡🔵 — curious + analytical
 
@@ -21,9 +21,9 @@ The Daily is the daily edition of the 1,680-room library — a publication-stand
 
 The Daily is five things operating simultaneously.
 
-The daily edition of the library. PPL± contains 1,680 addressed rooms. The Daily is the morning paper that tells you which rooms are open, which are worth visiting, and what happened in those rooms' histories on this date. The edition changes every day. The library stays the same.
+The daily edition of the library. Ppl± contains 1,680 addressed rooms. The Daily is the morning paper that tells you which rooms are open, which are worth visiting, and what happened in those rooms' histories on this date. The edition changes every day. The library stays the same.
 
-The platform's landing surface. When a user opens PPL±, they land on the Daily. The 🏛 piano nobile — the principal floor, elevated above the ground floor, designed to receive visitors. The Daily IS what the user sees first. The masthead, the date, the season, the curated rooms, the editorial close.
+The platform's landing surface. When a user opens Ppl±, they land on the Daily. The 🏛 piano nobile — the principal floor, elevated above the ground floor, designed to receive visitors. The Daily IS what the user sees first. The masthead, the date, the season, the curated rooms, the editorial close.
 
 The onboarding layer. A new user does not need to understand 61 emojis, 7 Orders, 6 Axes, 5 Types, or 8 Colors to begin. They read the Daily. They see a zip code in the 🏖 Sandbox that interests them. They tap it. They are inside a room. The system taught itself through use. The Daily solves the cold start problem by making the first interaction a newspaper, which every literate person already knows how to read.
 
@@ -41,7 +41,7 @@ Where we are. The masthead declares the edition's coordinates before a word of c
 
 Contents: date, season (by Order), zodiac sign, moon phase, monthly operator, column order (which Order governs today's weekday), day of week, edition number.
 
-The masthead functions identically to a colonial gazette's top line — publication name, date, volume, number, terms. PPL± adds the seasonal and astronomical data that a 1790s almanac would have printed alongside the gazette.
+The masthead functions identically to a colonial gazette's top line — publication name, date, volume, number, terms. Ppl± adds the seasonal and astronomical data that a 1790s almanac would have printed alongside the gazette.
 
 Color register: ⚫ — foundational, serious, non-negotiable.
 

@@ -1,4 +1,4 @@
-# Seeds — PPL± Future Architecture
+# Seeds — Ppl± Future Architecture
 
 Seeds are architectural decisions and ideas that have been reviewed and approved but are not yet active work. They are not speculative. They are not to-do items. They are planted facts waiting for their phase.
 
@@ -27,7 +27,7 @@ Seeds live here rather than in whiteboard.md because they have cleared the ideat
 | daily-architecture.md | The Daily: standing departments, 5 input layers, automation pathway, front page | 2026-02-25 | SEED |
 | elevator-architecture.md | 4-dial elevator, piano nobile floor stack, dual axis function, navigation model | 2026-02-25 | SEED |
 | platform-architecture-v2.md | Complete platform architecture V2 — business model, UX, tech, database, automation | 2026-02-25 | SEED |
-| platform-architecture-v1-archive.md | Archived Feb 11 "PPL± ITSELF" document — historical reference | 2026-02-25 | ARCHIVED |
+| platform-architecture-v1-archive.md | Archived Feb 11 "Ppl± ITSELF" document — historical reference | 2026-02-25 | ARCHIVED |
 | numeric-zip-system.md | 4-digit numeric addressing: Order 1-7, Axis 1-6, Type 1-5, Color 1-8 | 2026-02-26 | SEED |
 | experience-layer-blueprint.md | Master technical architecture — tech stack, routing, rendering, weight→CSS | 2026-02-26 | SEED |
 | data-ethics-architecture.md | No tracking, full export, full deletion — architecture as ethics | 2026-02-26 | SEED |
@@ -36,7 +36,7 @@ Seeds live here rather than in whiteboard.md because they have cleared the ideat
 | claude-code-build-sequence.md | 20 scoped sessions from skeleton to production + automotive | 2026-02-26 | SEED |
 | automotive-layer-architecture.md | Android Auto / CarPlay — Operis audio, voice nav, playlists, free-tier funnel | 2026-02-26 | SEED |
 | voice-parser-architecture.md | Universal building navigation — any speech → zip + floor + content type, no AI model | 2026-02-26 | SEED |
-| wilson-voice-identity.md | Wilson: the PPL± voice — TTS identity, floor-specific register, SSML formatting | 2026-02-26 | SEED |
+| wilson-voice-identity.md | Wilson: the Ppl± voice — TTS identity, floor-specific register, SSML formatting | 2026-02-26 | SEED |
 | regional-filter-architecture.md | Opt-in region setting — seasonal content, almanac, no GPS/no tracking | 2026-02-26 | SEED |
 | abacus-architecture.md | 35 training archetypes × 48 zip codes = complete workout programming layer | 2026-03-08 | SEED |
 

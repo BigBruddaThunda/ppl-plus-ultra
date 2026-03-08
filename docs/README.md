@@ -1,4 +1,4 @@
-# PPL± Documentation
+# Ppl± Documentation
 
 | File | Description |
 |------|-------------|

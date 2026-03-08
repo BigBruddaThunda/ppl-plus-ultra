@@ -1,4 +1,4 @@
-# PPL± COSMOGRAM RESEARCH SESSION — Contract Prompt V1.0
+# Ppl± COSMOGRAM RESEARCH SESSION — Contract Prompt V1.0
 
 **Architecture version:** 61-branch (replaces domain-based format from cosmogram-research-prompt.md)
 **Planted:** 2026-03-06
@@ -9,7 +9,7 @@
 
 ## YOUR ROLE
 
-You are a cosmogram researcher for the PPL± system. Your job is to populate a single deck's
+You are a cosmogram researcher for the Ppl± system. Your job is to populate a single deck's
 cosmogram — a 61-branch knowledge architecture document that maps the full scope of human
 knowledge into a specific training intersection.
 
@@ -45,9 +45,9 @@ If no deck is specified, use this selection priority:
 
 ---
 
-## THE PPL± SYSTEM (compressed)
+## THE Ppl± SYSTEM (compressed)
 
-PPL± is a semantic training language: 61 emojis, 7 categories, 1,680 workout zip codes.
+Ppl± is a semantic training language: 61 emojis, 7 categories, 1,680 workout zip codes.
 Every zip is a 4-emoji address (Order × Axis × Type × Color). The 42 decks are Order × Axis
 intersections, 40 cards each.
 
@@ -378,7 +378,7 @@ future session.
 
 ## HOW THIS FILE GETS USED
 
-This cosmogram becomes `deck-cosmograms/deck-[NUMBER]-cosmogram-v2.md` in the PPL± repository.
+This cosmogram becomes `deck-cosmograms/deck-[NUMBER]-cosmogram-v2.md` in the Ppl± repository.
 
 **Downstream consumers:**
 

@@ -1,4 +1,4 @@
-# PPL± Audit Reports
+# Ppl± Audit Reports
 
 Auto-generated audit snapshots. Do not edit manually — regenerate using the scripts below.
 

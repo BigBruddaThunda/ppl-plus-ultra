@@ -1,4 +1,4 @@
-# PPL± Almanac — 2026 Zip Calendar
+# Ppl± Almanac — 2026 Zip Calendar
 
 The daily zip code for every day of 2026, derived from the three-gear rotation engine.
 

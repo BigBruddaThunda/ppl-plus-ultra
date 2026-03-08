@@ -1,4 +1,4 @@
-# Session Log — PPL± Development History
+# Session Log — Ppl± Development History
 
 This file is the archived record of all development sessions.
 It is not active working memory. It is reference material.
@@ -235,7 +235,7 @@ Work: Publication Standard + Cosmogram Research Prompt — commit to repo
 Source: Genspark temp architect session
 Branch: claude/publication-standard-cosmogram-mSycA
 Output:
-  - scl-deep/publication-standard.md — full PPL± publication voice standard (NEW)
+  - scl-deep/publication-standard.md — full Ppl± publication voice standard (NEW)
   - seeds/cosmogram-research-prompt.md — full deck cosmogram research protocol (REPLACED STUB)
   - deck-cosmograms/README.md — updated status references
   - CLAUDE.md — updated Cosmogram Layer status, Work Streams table, Blocked Queue
@@ -273,22 +273,22 @@ Output:
   - seeds/daily-architecture.md — The Daily as content type: 9 standing departments (♨️🎯🧈🧩🏖▶️🪫🚂🧮), 5 input layers (date/historical/cosmogram/forward/publication standard), automation pathway, circulation model, onboarding role
   - seeds/elevator-architecture.md — 4-dial elevator model (Order=building, Axis=floor, Type=wing, Color=room), piano nobile floor stack (🔨 ground → 🏛 noble → ⌛ 2nd → 🐬 3rd → 🌹 4th → 🪐 penthouse), dual axis function, horizontal/vertical navigation model, campus metaphor
   - seeds/platform-architecture-v2.md — Complete platform architecture refactored from Feb 11 document. Tiered business model preserved ($10/$25–30). Database schema refactored to zip-code-centric (daily_editions, zip_visits, room_threads tables added; program_sequence stores zip codes instead of workout IDs). Automation reframed as deterministic pipeline + constrained AI generation. Programs as zip code sequences. Onboarding as newspaper → room → building → navigator progression.
-  - seeds/platform-architecture-v1-archive.md — Archive stub with frontmatter created. NOTE: Feb 11 "PPL± ITSELF" document body (~15,000 words) was not included in the handoff package. Frontmatter is in place; Jake needs to paste the full Feb 11 document body into this file.
+  - seeds/platform-architecture-v1-archive.md — Archive stub with frontmatter created. NOTE: Feb 11 "Ppl± ITSELF" document body (~15,000 words) was not included in the handoff package. Frontmatter is in place; Jake needs to paste the full Feb 11 document body into this file.
   - CLAUDE.md — Work streams updated with 3 new seeds; seeds/ directory listing updated with 3 new descriptions
   - whiteboard.md — updated
 Next: Continue card generation pipeline (Deck 09 identity or Deck 07 regen queue). Daily and platform seeds do not block generation.
 
 ### Session 023
 Date: 2026-02-26
-Work: PPL± Operis Architecture — naming, weekly cadence, 109 content types, generation pipeline
+Work: Ppl± Operis Architecture — naming, weekly cadence, 109 content types, generation pipeline
 Source: Claude.ai temp architect session
 Branch: claude/architecture-blueprint-handoff-k4lBH
 Output:
   - seeds/operis-architecture.md — Complete Operis specification (supersedes daily-architecture.md). Weekly editorial cadence (7 Orders × Trivium/Quadrivium), 17 standing departments with activation-by-Order matrix, Operis↔Cosmogram feedback loop, construction vehicle pipeline (8–12 zips forced per edition)
   - seeds/content-types-architecture.md — 109 content types mapped to 6 Axes with cross-floor appearance rule, 12-operator engagement model, Order-as-curriculum (Trivium/Quadrivium depth levels)
-  - seeds/operis-naming-rationale.md — "Operis" etymology and naming decision. Latin genitive ("of the work"), phonetic approximation "off the press," associative field (opera/opus/operate), PPL± brand name readings documented
+  - seeds/operis-naming-rationale.md — "Operis" etymology and naming decision. Latin genitive ("of the work"), phonetic approximation "off the press," associative field (opera/opus/operate), Ppl± brand name readings documented
   - seeds/daily-architecture.md — frontmatter updated: SUPERSEDED (body unchanged as historical record)
-  - CLAUDE.md — updated: seeds listing (4 new lines), work streams table (Daily Architecture → PPL± Operis Build-Out)
+  - CLAUDE.md — updated: seeds listing (4 new lines), work streams table (Daily Architecture → Ppl± Operis Build-Out)
   - whiteboard.md — updated: backlog section renamed, session log appended, naming note added
   - scl-deep/publication-standard.md — Operis content type added to tendo section
   - seeds/elevator-architecture.md — "the Daily" → "the Operis" throughout (8 replacements), frontmatter connects-to updated
@@ -330,7 +330,7 @@ Output:
   - seeds/claude-code-build-sequence.md — 15 launch sessions (A through N + C-2 voice parser) + 5 post-launch (V-Z automotive). Each scoped and testable.
   - seeds/automotive-layer-architecture.md — Car as sixth screen. Operis read aloud. Voice zip navigation. Playlist mood system (56 Order×Color profiles). Free-tier audio funnel. TTS pipeline. Android Auto + CarPlay. Build sessions V-Z.
   - seeds/voice-parser-architecture.md — Universal building navigation. Not just workouts — handles exercise info, personal progress, community, almanac, education, playlists, multi-intent. 3-layer scoring (zip + floor + content type). ~13,000 keyword entries. No AI model. Runs client-side in milliseconds.
-  - seeds/wilson-voice-identity.md — Wilson: PPL± voice identity. Not a chatbot. Voice of the building. TTS from publication standard. SSML formatting. Register shifts by floor. Response patterns for all content types.
+  - seeds/wilson-voice-identity.md — Wilson: Ppl± voice identity. Not a chatbot. Voice of the building. TTS from publication standard. SSML formatting. Register shifts by floor. Response patterns for all content types.
   - seeds/regional-filter-architecture.md — Opt-in manual region (no GPS, no tracking). Seasonal content, almanac, Operis framing tuned to geography. ~540 authored sentences for 15 sub-regions × 12 months. Include in Tier 1.
   - middle-math/schemas/zip-metadata-schema.md — CHAR(4) numeric primary key. Population script (1,680 rows via cross-join). Indexed dial positions. All tables reference via CHAR(4) foreign keys.
   - CLAUDE.md — Numeric zip notation, experience layer references, data ethics position
@@ -731,7 +731,7 @@ Work: Envelope pipeline close — CX-25 Vote Weight Integration, CX-30 Envelope 
 - `middle-math/exercise-engine/anatomy-index.json` — 50 muscles + 30 joint actions, primary/secondary/stabilizer inverted index
 
 **CX-37 — Exercise Knowledge Template + First Batch:**
-- `scripts/generate-exercise-content.py` — Full CLI generator: pattern-based templates for all 16 patterns (setup/execution/faults/PPL±Context/ColorModifiers/CoachingNotes), `resolve_template_pattern()` for family_id fallback when movement_pattern is catch-all, `--exercise/--section/--type/--batch/--priority-first/--overwrite/--dry-run/--stats` CLI
+- `scripts/generate-exercise-content.py` — Full CLI generator: pattern-based templates for all 16 patterns (setup/execution/faults/Ppl±Context/ColorModifiers/CoachingNotes), `resolve_template_pattern()` for family_id fallback when movement_pattern is catch-all, `--exercise/--section/--type/--batch/--priority-first/--overwrite/--dry-run/--stats` CLI
 - `exercise-content/README.md` — Subdirectory structure, file naming, status lifecycle, generation commands, population progress
 - `exercise-content/push/`, `pull/`, `legs/`, `plus/`, `ultra/` — Directories created
 - 197 knowledge files generated (200 attempted, 3 duplicate slugs collapsed), avg 484 words/file, priority-first ordering (25 high-frequency exercises from usage report first)

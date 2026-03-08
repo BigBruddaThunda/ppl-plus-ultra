@@ -40,7 +40,7 @@ Hammer Curl (Brachioradialis Emphasis) is a isolation curl movement that primari
 **Secondary:** obliques, erector_spinae, hip_flexors
 **Joint actions:** spinal_flexion, spinal_stabilization, intra_abdominal_pressure
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Supination through the full range of motion — this is the lesson at foundation load. Elbow position does not change. The weight is a prop for practicing the contraction.
 

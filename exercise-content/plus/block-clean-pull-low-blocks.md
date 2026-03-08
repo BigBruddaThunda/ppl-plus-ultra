@@ -40,7 +40,7 @@ Block Clean Pull (Low Blocks) is a olympic movement that primarily trains quadri
 **Secondary:** deltoids, triceps_brachii, gastrocnemius
 **Joint actions:** hip_extension, knee_extension, ankle_plantarflexion, shoulder_flexion
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Olympic lifts at foundation load are technique drills. 65% or below means the bar speed is deliberate, not explosive. The catch position is the lesson — not the pull.
 

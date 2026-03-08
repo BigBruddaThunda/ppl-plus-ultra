@@ -40,7 +40,7 @@ Anderson Deadlift (Dead-Stop) is a hip hinge movement that primarily trains core
 **Secondary:** obliques, erector_spinae, hip_flexors
 **Joint actions:** spinal_flexion, spinal_stabilization, intra_abdominal_pressure
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Hinge mechanics take priority over load. Sub-65% means you have room to focus on the hip push-back, the hamstring load, and the neutral spine position. This is where the pattern is encoded.
 

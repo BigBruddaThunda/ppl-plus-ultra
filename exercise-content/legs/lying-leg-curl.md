@@ -40,7 +40,7 @@ Lying Leg Curl is a isolation curl movement that primarily trains biceps_brachii
 **Secondary:** brachialis, brachioradialis
 **Joint actions:** elbow_flexion, forearm_supination
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Supination through the full range of motion — this is the lesson at foundation load. Elbow position does not change. The weight is a prop for practicing the contraction.
 

@@ -11,7 +11,7 @@ connects-to:
   - middle-math/rendering/operis-weight-derivation.md
 ---
 
-# PPL± Operis — Color of the Day as Cognitive Posture
+# Ppl± Operis — Color of the Day as Cognitive Posture
 
 ## One Sentence
 
@@ -21,13 +21,13 @@ The Color of the Day is the Operis editorial system's reading of the world — a
 
 ## Three Color Identities
 
-The PPL± system uses 8 Color emojis in three distinct contexts. All three are valid simultaneously. This is the polysemy working. The context determines which identity is active.
+The Ppl± system uses 8 Color emojis in three distinct contexts. All three are valid simultaneously. This is the polysemy working. The context determines which identity is active.
 
 **Identity 1 — Workout Color.**
 Position 4 of the zip code. Determines equipment tier, GOLD access, and session format. A permanent property of each of the 1,680 zip code addresses. Defined in CLAUDE.md.
 
 **Identity 2 — Publication Color.**
-The Color Context Vernacular. Determines tonal communication register for all PPL± content. ⚫ means "Order: foundational, serious, non-negotiable." Used as tonal punctuation and categorical headers. Defined in `scl-deep/publication-standard.md`.
+The Color Context Vernacular. Determines tonal communication register for all Ppl± content. ⚫ means "Order: foundational, serious, non-negotiable." Used as tonal punctuation and categorical headers. Defined in `scl-deep/publication-standard.md`.
 
 **Identity 3 — Operis Color of the Day.**
 A daily editorial judgment. Determines the cognitive posture the reader should bring to today's edition and the tonal register the editor writes through. Determined by Prompt 2 (the Content Architect) based on the full content landscape. Appears on the front page as the first thing the reader sees.

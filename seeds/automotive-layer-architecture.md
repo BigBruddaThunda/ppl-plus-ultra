@@ -13,11 +13,11 @@ connects-to: seeds/platform-architecture-v2.md, seeds/wilson-voice-identity.md, 
 
 ## One Sentence
 
-The car is PPL±'s sixth screen — a free-tier daily touchpoint where the Operis is read aloud with Wilson's voice, zip codes are navigated by speech, and curated playlists surface for every workout mood, converting commuters into subscribers through familiarity, not friction.
+The car is Ppl±'s sixth screen — a free-tier daily touchpoint where the Operis is read aloud with Wilson's voice, zip codes are navigated by speech, and curated playlists surface for every workout mood, converting commuters into subscribers through familiarity, not friction.
 
 ---
 
-## Why The Car Works for PPL±
+## Why The Car Works for Ppl±
 
 The car is the most under-addressed surface in fitness apps. It is where people:
 - Commute to the gym (10-30 minutes of latent attention)
@@ -27,7 +27,7 @@ The car is the most under-addressed surface in fitness apps. It is where people:
 
 The car is not where people log sets. It is where people prime for the session, get the Operis context, hear Wilson describe the day's focus, and queue up their playlist. The car turns a dead-time commute into a pre-session brief.
 
-PPL± has unique natural advantages for the car:
+Ppl± has unique natural advantages for the car:
 - The Operis is designed to be read aloud (the Wilson Note format)
 - Zip code navigation is voice-friendly (4 dial positions = 4 spoken concepts)
 - The 7 Orders map cleanly to days of the week (natural spoken context)
@@ -320,7 +320,7 @@ Root
 
 The free Operis audio in the car serves one conversion function: familiarity.
 
-A user who hears the Operis 5 days a week for 3 weeks has internalized the PPL± vocabulary. They know what ⛽ means. They know Wilson's voice. They know the block structure. When they upgrade to Tier 1, the app is not new — it's familiar. The learning curve is already climbed. The conversion is from "this is interesting" to "I use this every day, I should pay for it."
+A user who hears the Operis 5 days a week for 3 weeks has internalized the Ppl± vocabulary. They know what ⛽ means. They know Wilson's voice. They know the block structure. When they upgrade to Tier 1, the app is not new — it's familiar. The learning curve is already climbed. The conversion is from "this is interesting" to "I use this every day, I should pay for it."
 
 **Projected funnel:**
 - Car app installs → Web signups: 15-25% (users look it up after hearing the Operis)

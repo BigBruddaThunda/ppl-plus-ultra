@@ -40,7 +40,7 @@ Diamond Push-Up is a isolation extension movement that primarily trains core, tr
 **Secondary:** obliques, erector_spinae, hip_flexors
 **Joint actions:** spinal_flexion, spinal_stabilization, intra_abdominal_pressure
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Full elbow extension is the lesson. The tricep must fire through its full mechanical range. Foundation load is an education in lockout — not a strength stimulus.
 

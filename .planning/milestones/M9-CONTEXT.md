@@ -3,7 +3,7 @@
 **Status:** NOT STARTED (architecture complete, prerequisites blocked)
 **SCL Zip:** 🏟 ⌛ 🔵 (Corinthian × Temporitas × Structured — executing on schedule)
 **Contract:** `ppl-operis-pipeline`
-**PPL Phase:** Phase 3
+**Ppl Phase:** Phase 3
 
 ---
 
@@ -46,7 +46,7 @@ Building incrementally: Start with the current month, then expand.
 
 ## Test Run Target
 
-First full pipeline test on a real date. Suggested: a date with known historical significance to PPL± (e.g., the date Deck 07 was generated).
+First full pipeline test on a real date. Suggested: a date with known historical significance to Ppl± (e.g., the date Deck 07 was generated).
 
 ## Verification Criteria
 

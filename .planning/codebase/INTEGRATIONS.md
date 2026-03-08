@@ -4,7 +4,7 @@
 
 ## Current Phase Status
 
-PPL± is in Phase 2 (Workout Generation). No external services are active or connected. This document describes: (1) what is active now, and (2) what is architecturally specified for Phase 4+. Integration seeds are committed to `seeds/` but not built.
+Ppl± is in Phase 2 (Workout Generation). No external services are active or connected. This document describes: (1) what is active now, and (2) what is architecturally specified for Phase 4+. Integration seeds are committed to `seeds/` but not built.
 
 ---
 

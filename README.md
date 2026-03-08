@@ -1,10 +1,10 @@
-# PPL±
+# Ppl±
 
 ## Push Pull Legs Plus Ultra
 
 A semantic training language. 61 emojis. 1,680 workouts.
 
-PPL± is a workout generation and programming system built on SCL —
+Ppl± is a workout generation and programming system built on SCL —
 Semantic Compression Language. Four emojis produce a complete workout
 address. Every parameter of that workout — load, reps, rest, equipment,
 exercise character, and session structure — is encoded in those four
@@ -16,7 +16,7 @@ Created by Jake Berry.
 
 ## The Zip Code
 
-Every workout in PPL± has a 4-emoji address called a zip code.
+Every workout in Ppl± has a 4-emoji address called a zip code.
 
 ```
 ⛽ 🏛 🪡 🔵
@@ -242,7 +242,7 @@ Every workout ends with 🧮 SAVE — the closing ritual and session archive.
 
 ## The Exercise Library
 
-`exercise-library.md` contains the complete valid exercise pool for PPL±
+`exercise-library.md` contains the complete valid exercise pool for Ppl±
 generation. All exercises used in any workout must come from this library.
 
 ~2,185 exercises across 17 sections (A–Q), each mapped to SCL Types,

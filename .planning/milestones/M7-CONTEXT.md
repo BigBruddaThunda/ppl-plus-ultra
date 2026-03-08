@@ -3,7 +3,7 @@
 **Status:** NOT STARTED
 **SCL Zip:** 🖼 🟢 (Palladian × Growth — restoring, experiencing)
 **Contract:** `ppl-workout-generation`
-**PPL Phase:** Phase 2
+**Ppl Phase:** Phase 2
 
 ---
 

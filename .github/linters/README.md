@@ -1,6 +1,6 @@
-# PPL± Linting Configuration
+# Ppl± Linting Configuration
 
-Three-tier validation pipeline for the PPL± repository.
+Three-tier validation pipeline for the Ppl± repository.
 
 ---
 

@@ -40,7 +40,7 @@ Neck Flexion (Bodyweight) is a core stability movement that primarily trains ste
 **Secondary:** upper_trapezius, levator_scapulae
 **Joint actions:** cervical_flexion
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Bracing mechanics are the lesson. Foundation load in core-stability work is often bodyweight. The goal is teaching the nervous system to generate intra-abdominal pressure on demand.
 

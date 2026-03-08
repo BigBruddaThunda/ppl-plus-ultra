@@ -1,4 +1,4 @@
-# Negotiosum — PPL± Active Work Board
+# Negotiosum — Ppl± Active Work Board
 
 Last updated: 2026-03-08
 Phase: 3.1 — Quality Rebuild Campaign
@@ -205,6 +205,7 @@ Active observations, open questions, and emergent ideas. When a note becomes a t
 - **Programs are guided tours** — sequences of zip code addresses, not sequences of workouts. The rooms already exist. The program is the itinerary.
 - **Publication standard constraint:** No "it's not X, it's Y" framing. The publication is informational. Independent of Party or Faction. Committed to Useful Knowledge.
 - **The Negotiosum structure is new** (planted 2026-03-05). First pruning pass should evaluate whether Color assignments feel right after 2 weeks of use.
+- **Session 046 (2026-03-08) — HTML Foundation + Systems Architecture.** Six contracts executed from Genspark architect handoff. (1) Ppl± rename: PPL± → Ppl± across 2,206 .md files via scripts/rename-ppl-styling.py. (2) Anti-Pasta systems review protocol: template + first report + seed + CLAUDE.md command. (3) HTML foundation: rendering pipeline seed, weight-vector-to-css.py bridge script, room.html prototype rendering 🐂🏛🛒⚫, floor-stack wireframe. (4) Almanac calendar seed: Temporitas floor as personal calendar/PDA with integration layer. (5) Digital city architecture seed: full thesis of Ppl± as traditional city. (6) Public-facing docs: what-is-ppl, how-the-abacus-works, the-operis (DRAFT status). Key insight: the abacus layer is what made the entire programming system coherent — 35 archetypes × 48 zips = 1,680 workouts organized as neighborhoods in a digital city.
 - **Reconciliation session (2026-03-05):** ~25 PRs (#27–#84) merged to main between Sessions 030–033 with no session log entries. This session reconciled all container statuses, backfilled evidence in TASK-ARCHITECTURE.md, and updated the Negotiosum. Deck 09 (40 cards) was generated entirely across unlogged Codex runs.
 - **Wave 3 unlock (2026-03-05):** CX-09 and CX-10 completion unlocked CX-11 (Block weights) and CX-12 (Operator weights). Both were already populated as working drafts in prior unlogged Codex runs. Engine coupling session confirmed on disk and registered as DONE. CX-14 (Weight Vector Engine) is now fully unblocked — all 5 dependencies met.
 - **Stale seed audit (2026-03-05):** 8 files flagged with stale card counts or status references. Update opportunistically when each file is next touched: seeds/claude-code-build-sequence.md, seeds/platform-architecture-v2.md, seeds/operis-architecture.md, seeds/operis-prompt-pipeline.md, .codex/NEXT-ROUND-HANDOFF.md, AGENTS.md, cards/AGENTS.md, middle-math/ARCHITECTURE.md. Jake-blocked items (require Jake's input): platform-v1-archive body paste, color-context-vernacular vocabulary update, order-parameters vocabulary update.
@@ -233,7 +234,7 @@ The `archideck/` directory contains the meta-architectural operating system:
 - `archideck/KERNEL.md` — Compressed SCL seed (~2,800 words, project-agnostic)
 - `archideck/CONTRACTS.md` — Cross-project Negotiosum switchboard
 - `archideck/AGENT-CONTRACT.md` — Universal agent operating instructions
-- `archideck/CLAUDE.md` — PPL± vs Archideck routing layer
+- `archideck/CLAUDE.md` — Ppl± vs Archideck routing layer
 - `archideck/intake/` — Raw idea landing zone
 - `archideck/projects/` — Project index
 
@@ -245,7 +246,7 @@ New project scaffolds created (intake phase):
 
 GSD v1.22.4 installed to `.claude/commands/gsd/` and `.codex/skills/` (additive, no existing files overwritten).
 
-PPL± card generation continues on main as normal. When the Archideck branch is stable and tested, it merges to main as an additive layer.
+Ppl± card generation continues on main as normal. When the Archideck branch is stable and tested, it merges to main as an additive layer.
 See: `archideck/CONTRACTS.md` for cross-project switchboard.
 
 ---

@@ -7,13 +7,13 @@ depends-on: seeds/automotive-layer-architecture.md, seeds/voice-parser-architect
 connects-to: seeds/operis-architecture.md, seeds/experience-layer-blueprint.md
 ---
 
-# 🎙 Wilson — The PPL± Voice Identity
+# 🎙 Wilson — The Ppl± Voice Identity
 
 🟣⚫ — technical + teaching
 
 ## Who Wilson Is
 
-Wilson is the audio rendering of the PPL± publication standard. When the app speaks, it speaks as Wilson. Wilson is the voice of the building — the front desk, the guide, the read-aloud system.
+Wilson is the audio rendering of the Ppl± publication standard. When the app speaks, it speaks as Wilson. Wilson is the voice of the building — the front desk, the guide, the read-aloud system.
 
 Wilson is not a chatbot. Wilson does not have opinions. Wilson does not ask "how are you today?" Wilson does not say "great question!" Wilson is a voice. The voice of a building that knows its subject precisely and communicates it without excess.
 
@@ -50,7 +50,7 @@ Wilson does not perform enthusiasm. Wilson does not perform familiarity. Wilson 
 
 **Pace:** Measured. Not rushed. Not slow. ~140 words per minute for information delivery. Slower (~110 WPM) for exercise cues and set/rep calls.
 
-**Register:** Technical but human. Uses the PPL± vocabulary natively (zip codes, block names, Order names) as if they are normal words. No explanation of the vocabulary — Wilson assumes the listener knows the language.
+**Register:** Technical but human. Uses the Ppl± vocabulary natively (zip codes, block names, Order names) as if they are normal words. No explanation of the vocabulary — Wilson assumes the listener knows the language.
 
 **Technical vocabulary:** Wilson says "⛽ Strength" not "the Strength Order." Wilson says "🧈 Bread and Butter block" not "the main working sets." Wilson uses the emoji names as spoken nouns.
 

@@ -15,7 +15,7 @@ connects-to:
   - exercise-library.md
 ---
 
-# PPL± Operis — 13-Room Sandbox Structure
+# Ppl± Operis — 13-Room Sandbox Structure
 
 ## One Sentence
 
@@ -54,7 +54,7 @@ The 8 Color siblings are fully deterministic. No editorial judgment is needed to
 
 The 5 Content Rooms are the Operis editorial content made physical. Each room is a zip code derived from a specific piece of today's content — a historical event, an educational feature, a seasonal observation. The daily content becomes pattern learning expressed as movement.
 
-The principle: The Operis publishes knowledge. The 5 Content Rooms translate that knowledge into physical practice. A historical event about bridge construction becomes a workout that trains the movement patterns of structural labor. An educational feature about seed starting becomes a workout that trains the postures and grip endurance of planting. A historical milestone about a rushing record becomes a workout that trains the way a running back prepares for volume carries — filtered through PPL± logic.
+The principle: The Operis publishes knowledge. The 5 Content Rooms translate that knowledge into physical practice. A historical event about bridge construction becomes a workout that trains the movement patterns of structural labor. An educational feature about seed starting becomes a workout that trains the postures and grip endurance of planting. A historical milestone about a rushing record becomes a workout that trains the way a running back prepares for volume carries — filtered through Ppl± logic.
 
 This is embodied cognitive learning. The reader who does the Content Room does not just read about the event — they train the physical reality of it. The knowledge enters through two channels: prose and practice. Dual coding. This is how adult learning sticks.
 
@@ -80,7 +80,7 @@ The 5 Content Rooms are selected by Prompt 3 (the Editor) during composition. Th
 
 ## Content-to-Zip Mapping
 
-This is the editorial craft at the heart of the Content Room system. The editor reads a piece of Operis content, identifies the physical domain it implies, and maps that domain to PPL± parameters.
+This is the editorial craft at the heart of the Content Room system. The editor reads a piece of Operis content, identifies the physical domain it implies, and maps that domain to Ppl± parameters.
 
 The mapping chain:
 ```
@@ -122,7 +122,7 @@ The editor must think through the full constraint space. If a natural Type mappi
 
 ## Naming Convention
 
-Content Room titles follow the same ExRx naming convention as all PPL± workout cards. Titles are exercise-descriptive, not editorial or narrative.
+Content Room titles follow the same ExRx naming convention as all Ppl± workout cards. Titles are exercise-descriptive, not editorial or narrative.
 
 **Correct:**
 - ⛽🪐➕🟣±🪵 Overhead Carry and Core Stability
@@ -134,7 +134,7 @@ Content Room titles follow the same ExRx naming convention as all PPL± workout 
 - ⛽🌹🍗🟢±👀 The Gardener's Row
 - ⛽🔨➖🔴±🥨 The Emmitt Smith Room
 
-The editorial connection between the Content Room and its source content lives in two places: (1) the Operis edition text, where the editor can describe the room's relationship to the day's content in prose, and (2) the edition frontmatter, where the source content tag is logged. The title and the card file itself are pure PPL± — exercise-descriptive, findable by any user at any time regardless of whether they read the original Operis edition.
+The editorial connection between the Content Room and its source content lives in two places: (1) the Operis edition text, where the editor can describe the room's relationship to the day's content in prose, and (2) the edition frontmatter, where the source content tag is logged. The title and the card file itself are pure Ppl± — exercise-descriptive, findable by any user at any time regardless of whether they read the original Operis edition.
 
 A user who discovers ⛽🪐➕🟣 six months later finds a workout called "Overhead Carry and Core Stability." It stands on its own. The fact that it was first generated because the Operis featured the Brooklyn Bridge is archival context, not user-facing naming.
 
@@ -252,7 +252,7 @@ Cross-reference: `seeds/operis-sandbox-structure.md` (this file) → `deck-ident
 
 - Should the 5 Content Rooms maintain any week-over-week continuity? (e.g., if Monday's Content Rooms covered certain Axes, should Tuesday's Content Rooms prefer different Axes for weekly coverage?) Current design: no — each day's Content Rooms are determined solely by that day's content. Weekly coverage is a natural byproduct, not a constraint.
 
-- Should Content Room descriptions reference their source content explicitly? Current design: the description is a lived-space workout description (ExRx naming, exercise-focused). The editorial connection is made in the Operis prose surrounding the room listing, not in the room description itself. The card file is pure PPL±.
+- Should Content Room descriptions reference their source content explicitly? Current design: the description is a lived-space workout description (ExRx naming, exercise-focused). The editorial connection is made in the Operis prose surrounding the room listing, not in the room description itself. The card file is pure Ppl±.
 
 - How does the Content Room system interact with the user's Almanac queue? If a user taps a Content Room from the Operis, does it enter their queue as a one-time room or as a recurring address? Current lean: one-time. The Content Room is an address in the 1,680-room library like any other. It persists. But the editorial connection to a specific date's content is archival.
 

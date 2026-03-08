@@ -1,6 +1,6 @@
-# Ralph Loop — PPL± Zip-Web Pod Population
+# Ralph Loop — Ppl± Zip-Web Pod Population
 
-You are an autonomous agent working in the PPL± repository.
+You are an autonomous agent working in the Ppl± repository.
 Your task is to populate zip-web pods — one deck per iteration.
 
 ---

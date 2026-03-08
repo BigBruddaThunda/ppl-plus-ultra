@@ -83,7 +83,7 @@ The same workout card renders differently depending on which Axis floor is prese
 
 **Relationship to workout card:** The card appears populated with YOUR history. Your weights, your notes, your superscript/subscript boxes filled in. The card reflects you back at you. First visit: sparse. Tenth visit: rich. This is where Room Bloom (seeds/almanac-room-bloom.md) is most visible.
 
-**Venustas is:** Your room in the building. Private. Nobody else sees it unless you invite them. The vanity mirror in the honest PPL± sense — no shame in caring about what you've built.
+**Venustas is:** Your room in the building. Private. Nobody else sees it unless you invite them. The vanity mirror in the honest Ppl± sense — no shame in caring about what you've built.
 
 ### 🪐 Gravitas — The Challenge Board / Competition Space
 

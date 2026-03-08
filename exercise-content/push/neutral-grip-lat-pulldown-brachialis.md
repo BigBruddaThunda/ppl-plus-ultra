@@ -40,7 +40,7 @@ Neutral-Grip Lat Pulldown (Brachialis) is a vertical pull movement that primaril
 **Secondary:** obliques, erector_spinae, hip_flexors
 **Joint actions:** spinal_flexion, spinal_stabilization, intra_abdominal_pressure
 
-## PPL± Context
+## Ppl± Context
 
 **In Foundation (🐂):** Scapular depression before arm pull. The lat initiates — not the bicep. Foundation load means you can practice the activation pattern before load makes it irrelevant.
 

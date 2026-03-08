@@ -8,13 +8,13 @@ connects-to: seeds/mobile-ui-architecture.md, seeds/stripe-integration-pipeline.
 supersedes: nothing (first comprehensive experience layer spec)
 ---
 
-# 🧮 PPL± Experience Layer Blueprint — The Complete Technical Architecture
+# 🧮 Ppl± Experience Layer Blueprint — The Complete Technical Architecture
 
 🔵🟣 — structured + precise
 
 ## One Sentence
 
-The PPL± experience layer is a single Next.js application that renders 1,680 distinct room experiences from one codebase, one database, and one design system — where the 4-digit numeric zip code is the universal routing key, the middle-math weight vector is the rendering instruction, and the user's subscription tier gates access through Supabase row-level security and Stripe webhook lifecycle management.
+The Ppl± experience layer is a single Next.js application that renders 1,680 distinct room experiences from one codebase, one database, and one design system — where the 4-digit numeric zip code is the universal routing key, the middle-math weight vector is the rendering instruction, and the user's subscription tier gates access through Supabase row-level security and Stripe webhook lifecycle management.
 
 ---
 
@@ -31,7 +31,7 @@ This is not 1,680 static pages. It is one dynamic page that reconfigures complet
 | Layer | Technology | Role |
 |-------|-----------|------|
 | Frontend | Next.js 14+ (App Router), TypeScript | File-system routing maps to zip addressing. Server + client components. |
-| Styling | Tailwind CSS + PPL± design tokens | 8 Color palettes, 7 Order densities, 6 Axis typographies. CSS custom properties from weight vector. |
+| Styling | Tailwind CSS + Ppl± design tokens | 8 Color palettes, 7 Order densities, 6 Axis typographies. CSS custom properties from weight vector. |
 | Client State | Zustand | Dial positions, floor, panel state, timers. |
 | Database | Supabase (PostgreSQL + Auth + Storage + Realtime) | RLS enforces tier gating. Realtime for community. Auth handles identity. |
 | Hosting | Vercel | Auto-deploy from GitHub. Edge functions. ISR for room pages. |
@@ -113,7 +113,7 @@ function weightsToCSSVars(weights: WeightVector): Record<string, string> {
 
 ## The Voice Layer
 
-A universal natural language parser converts any spoken or typed input into a building address — zip code + floor + content type — by scoring against the full PPL± vocabulary (61 SCL attributes, 6 floors, 109 content types, ~2,185 exercises). Handles workouts, exercise info queries, personal progress, community browsing, almanac content, educational topics, playlists, and multi-intent input. No AI model required. ~13,000 keyword entries, runs client-side in milliseconds.
+A universal natural language parser converts any spoken or typed input into a building address — zip code + floor + content type — by scoring against the full Ppl± vocabulary (61 SCL attributes, 6 floors, 109 content types, ~2,185 exercises). Handles workouts, exercise info queries, personal progress, community browsing, almanac content, educational topics, playlists, and multi-intent input. No AI model required. ~13,000 keyword entries, runs client-side in milliseconds.
 
 Wilson is the voice identity — the audio rendering of the publication standard. Register shifts by floor context. Not a chatbot.
 
@@ -155,7 +155,7 @@ See: `seeds/data-ethics-architecture.md`
 | `seeds/stripe-integration-pipeline.md` | Subscription products, checkout, webhooks |
 | `seeds/claude-code-build-sequence.md` | 20-session build plan |
 | `seeds/voice-parser-architecture.md` | Universal building navigation parser |
-| `seeds/wilson-voice-identity.md` | Wilson: the PPL± voice |
+| `seeds/wilson-voice-identity.md` | Wilson: the Ppl± voice |
 | `seeds/automotive-layer-architecture.md` | Car audio layer |
 | `seeds/regional-filter-architecture.md` | Opt-in regional content filter |
 | `seeds/platform-architecture-v2.md` | Business model, UX, database schema |

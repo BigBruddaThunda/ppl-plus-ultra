@@ -6,11 +6,11 @@ The sum of negotiation. The living state of all work across all Archideck projec
 
 ## ACTIVE
 
-### PPL± — Quality Rebuild Campaign (Phase 3.1)
+### Ppl± — Quality Rebuild Campaign (Phase 3.1)
 - **Scope:** 1,680/1,680 cards generated. Avg quality score: 88/100. Rebuild campaign targeting Color blindness, Exercise-Type misroutes, parameter violations, and content depth gaps.
 - **Current:** Audit pipeline complete. Coverage database generated. Rebuild queue prioritized by score. See `whiteboard.md` for task board.
 - **Next physical action:** Rebuild worst-scoring Color categories (🟠 Circuit, 🟡 Fun, ⚪ Mindful) using upgraded card-generator skill.
-- **Location:** Repository root `/` (PPL± predates Archideck layer)
+- **Location:** Repository root `/` (Ppl± predates Archideck layer)
 
 ```
 zip: 🦋 🤌 🔴
@@ -38,7 +38,7 @@ milestone: M0 (Infrastructure — precedes M1)
 
 ## QUEUED
 
-### PPL± — Experience Layer (Phase 4)
+### Ppl± — Experience Layer (Phase 4)
 - **Scope:** HTML rendering of `.md` cards into interactive workout UI. User accounts, logging, subscriptions.
 - **Blocked by:** Deck generation milestone (Phase 2 completion or critical mass)
 - **Seed docs:** `seeds/experience-layer-blueprint.md`, `seeds/mobile-ui-architecture.md`, `seeds/stripe-integration-pipeline.md`
@@ -52,7 +52,7 @@ blocks: [ppl-stripe-subscription, ppl-user-accounts]
 milestone: M10 (Experience Layer)
 ```
 
-### PPL± — Operis Pipeline
+### Ppl± — Operis Pipeline
 - **Scope:** Daily editorial system. 4-prompt pipeline. Cosmogram + temporal filter. V4 architecture complete.
 - **Blocked by:** Historical events database (366 files, one-time build), Operis V4 pipeline test
 - **Seed docs:** `seeds/operis-prompt-pipeline.md`, `seeds/operis-architecture.md`
@@ -66,7 +66,7 @@ blocks: []
 milestone: M9 (Operis Pipeline V4)
 ```
 
-### PPL± — Cosmogram Population
+### Ppl± — Cosmogram Population
 - **Scope:** Deep identity documents for all 42 decks. Research prompt + publication standard committed. V2 scaffolds generated (machine-first-pass, no web deposits yet).
 - **Blocked by:** Session time (Genspark web-access sessions per deck)
 - **Seed docs:** `seeds/cosmogram-research-prompt.md`, `scl-deep/publication-standard.md`
@@ -126,7 +126,7 @@ milestone: (independent)
 
 *(Contracts not currently in rotation but not abandoned)*
 
-### PPL± — Linters CI Pipeline
+### Ppl± — Linters CI Pipeline
 - **Scope:** Three-tier validation (markdownlint-cli2, frontmatter schema, SCL validator). GitHub Actions gate before merge.
 - **Blocked by:** Seed not yet promoted to active. PostToolUse hook (Tier 3) already running.
 - **Seed docs:** `seeds/linters-architecture.md`
@@ -139,7 +139,7 @@ blocks: [merge-to-main-policy]
 milestone: (infrastructure — no milestone assigned)
 ```
 
-### PPL± — Middle-Math Engine
+### Ppl± — Middle-Math Engine
 - **Scope:** Computation engine between SCL spec and rendered experience. Weight declarations, selection algorithms, rotation engine.
 - **Status:** Architecture seeded. Weight declarations in first-draft for Orders only.
 - **Location:** `middle-math/`
@@ -156,14 +156,14 @@ milestone: (precedes M10)
 
 ## COMPLETED (recent)
 
-- ✅ PPL± All 42 decks generated (1,680/1,680 — PR #116 batch generation)
-- ✅ PPL± Decks 07, 08, 09, 10, 11, 12 generated (all ⛽ Strength Axes)
-- ✅ PPL± Deck 01 generated (🐂🏛 Foundation Basics)
-- ✅ PPL± infrastructure sprint (scripts, hooks, subagents, skills — Session 18)
-- ✅ PPL± Operis V4 pipeline prompts stored as seeds (Sessions 028–029)
-- ✅ PPL± Numeric zip notation documented (seed + CLAUDE.md)
-- ✅ PPL± Vocabulary standard seeded (`scl-deep/vocabulary-standard.md`)
-- ✅ PPL± Reverse-weight resolution seeded (`middle-math/rotation/`)
+- ✅ Ppl± All 42 decks generated (1,680/1,680 — PR #116 batch generation)
+- ✅ Ppl± Decks 07, 08, 09, 10, 11, 12 generated (all ⛽ Strength Axes)
+- ✅ Ppl± Deck 01 generated (🐂🏛 Foundation Basics)
+- ✅ Ppl± infrastructure sprint (scripts, hooks, subagents, skills — Session 18)
+- ✅ Ppl± Operis V4 pipeline prompts stored as seeds (Sessions 028–029)
+- ✅ Ppl± Numeric zip notation documented (seed + CLAUDE.md)
+- ✅ Ppl± Vocabulary standard seeded (`scl-deep/vocabulary-standard.md`)
+- ✅ Ppl± Reverse-weight resolution seeded (`middle-math/rotation/`)
 - ✅ Graph Parti first pass complete (7+1 Order files written)
 - ✅ Archideck concept defined (2026-03-07)
 - ✅ Archideck infrastructure initialized (2026-03-07)

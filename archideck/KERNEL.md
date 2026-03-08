@@ -3,7 +3,7 @@
 This is the compressed root of the Semantic Compression Language.
 It gives any AI agent enough context to understand and use the system across any project.
 For project-specific rules: that project's `CLAUDE.md`.
-For PPL± full specification: `scl-directory.md`.
+For Ppl± full specification: `scl-directory.md`.
 For Graph Parti full specification: `SCL.md` at github.com/BigBruddaThunda/Graph-Parti.
 
 ---
@@ -36,7 +36,7 @@ Dials 1–3 can hold any emoji from any non-Color category. Color closes the tho
 
 **Standard 4-dial zip** (Graph Parti default): Order · Type · Modifier · Color
 **District 6-dial zip** (parent containers): Order · Type · Axis · Block · Modifier · Color
-**PPL± dialect zip**: Order · Axis · Type · Color (valid project override)
+**Ppl± dialect zip**: Order · Axis · Type · Color (valid project override)
 
 Project zip ordering is defined in each project's `CLAUDE.md`. The kernel defines the grammar. Projects define the dialect.
 
@@ -135,7 +135,7 @@ Modifiers answer: **"Which way? What operation?"**
 
 Used to specify direction in a zip: `🧲🪡` = capture input (pulling in). `🚀🛒` = dispatch output (pushing out).
 
-**PPL± dialect note:** PPL± overloads these 5 emojis as Types (muscle-group domains: Push/Pull/Legs/Plus/Ultra). This is a valid polysemic project override — the 5 emojis occupy the Type position in PPL± zips rather than the Modifier position. Both are correct within their domain. See Polysemic Domain Mapping below.
+**Ppl± dialect note:** Ppl± overloads these 5 emojis as Types (muscle-group domains: Push/Pull/Legs/Plus/Ultra). This is a valid polysemic project override — the 5 emojis occupy the Type position in Ppl± zips rather than the Modifier position. Both are correct within their domain. See Polysemic Domain Mapping below.
 
 ---
 
@@ -228,7 +228,7 @@ Blocks are named containers inside a workflow or session. The name is fixed. The
 
 The same emojis mean different things per project. This is by design — polysemy is the point.
 
-| Category | Abstract (Kernel) | PPL± (Fitness) | Graph Parti (Canvas) |
+| Category | Abstract (Kernel) | Ppl± (Fitness) | Graph Parti (Canvas) |
 |----------|-------------------|----------------|---------------------|
 | Orders | Developmental phases (init → validate → build → execute → integrate → calibrate → complete) | Periodization protocols — intensity, volume, rest, and CNS demand per phase | Classical architectural orders (Tuscan → Palladian) |
 | Types | 12 Latin action verbs (🧲🐋🤌🧸✒️🦉🚀🦢📍👀🥨🪵) | 5 muscle-group domains (Push 🛒, Pull 🪡, Legs 🍗, Plus ➕, Ultra ➖) | 12 Latin action verbs — same as kernel |
@@ -236,9 +236,9 @@ The same emojis mean different things per project. This is by design — polysem
 | Colors | Abstract state/tone | Equipment tier and session format — includes tier-gated content access rules | Abstract state/tone — same as kernel |
 | Zip order | Order · Type · Modifier · Color | Order · Axis · Type · Color | Order · Type · Modifier · Color |
 
-**How to read this table:** The kernel defines the abstract default. A project's `CLAUDE.md` documents its overrides. When an agent reads a PPL± zip, it applies PPL± definitions. When it reads a Graph Parti zip, it applies Graph Parti definitions. Context always determines meaning.
+**How to read this table:** The kernel defines the abstract default. A project's `CLAUDE.md` documents its overrides. When an agent reads a Ppl± zip, it applies Ppl± definitions. When it reads a Graph Parti zip, it applies Graph Parti definitions. Context always determines meaning.
 
-**The PPL± Type overload:** PPL± promotes 🛒🪡🍗➕➖ from Modifiers to Types and uses the 12 Latin verbs as post-zip Operators (a bridge mechanism unique to PPL±). This is documented in `CLAUDE.md` and `scl-directory.md`. It is not a kernel-level pattern.
+**The Ppl± Type overload:** Ppl± promotes 🛒🪡🍗➕➖ from Modifiers to Types and uses the 12 Latin verbs as post-zip Operators (a bridge mechanism unique to Ppl±). This is documented in `CLAUDE.md` and `scl-directory.md`. It is not a kernel-level pattern.
 
 ---
 
@@ -292,7 +292,7 @@ The zip code is not a label. It is an address that encodes every relevant parame
 
 ### The Deck/Card/Room Metaphor
 
-Used in PPL±; portable to any project with collections:
+Used in Ppl±; portable to any project with collections:
 - **Deck** = a collection sharing two addressing dimensions
 - **Card** = one zip code instantiated as a full content document
 - **Room** = the user's live experience of a card (interactive, logged, personalized)
@@ -303,7 +303,7 @@ The metaphor scales: a deck is a neighborhood, a card is an address, a room is t
 
 Every significant zip code can have a **cosmogram** — a deep identity document that goes beyond parameters to capture character, cultural context, symbolic weight, and resonance. The cosmogram is not the content. It is the identity of the address.
 
-The cosmogram is the substrate for temporal content layers (like the PPL± Operis).
+The cosmogram is the substrate for temporal content layers (like the Ppl± Operis).
 
 ### The Operis
 
@@ -317,7 +317,7 @@ SCL's core power: four characters encode a complete specification. The deeper po
 - A developmental phase (the first of seven)
 - A classical architectural order (Tuscan)
 - A cognitive register (naming, not yet testing)
-- A loading protocol in PPL± (≤65%, pattern learning)
+- A loading protocol in Ppl± (≤65%, pattern learning)
 - A commit marker in code (`// 🐂 init`)
 
 One emoji. Multiple simultaneous meanings. That is the compression.
@@ -389,10 +389,10 @@ A wrong parameter in a specification propagates through every downstream system.
 An agent reading only `KERNEL.md` should be able to understand SCL grammar, read and write zip codes, sort context using the Ralph Loop, navigate the Archideck structure, and know where to find project-specific specs. The kernel is the beginning.
 
 **Every project speaks SCL. Domain-specific vocabulary extends SCL, never replaces it.**
-Graph Parti has districts and figures. PPL± has decks and cards. Story Engine will have acts and characters. All are extensions of the zip code grammar. None replace it.
+Graph Parti has districts and figures. Ppl± has decks and cards. Story Engine will have acts and characters. All are extensions of the zip code grammar. None replace it.
 
 **Parallel work across projects is the default, not the exception.**
-The Archideck exists because multiple projects use the same language. The kernel enables parallel context without duplication. One agent can generate PPL± cards while another processes Graph Parti districts — both using the same SCL grammar, both reporting to the same Negotiosum.
+The Archideck exists because multiple projects use the same language. The kernel enables parallel context without duplication. One agent can generate Ppl± cards while another processes Graph Parti districts — both using the same SCL grammar, both reporting to the same Negotiosum.
 
 ---
 
@@ -401,10 +401,10 @@ The Archideck exists because multiple projects use the same language. The kernel
 | Need | Location |
 |------|----------|
 | Full project-agnostic SCL specification | `github.com/BigBruddaThunda/Graph-Parti` → `SCL.md` |
-| PPL± full SCL specification (polysemic overrides, generation rules, validation) | `scl-directory.md` |
-| PPL± operating instructions (generation workflow, exercise library routing, tonal rules) | `CLAUDE.md` |
-| PPL± valid exercises | `exercise-library.md` |
-| PPL± numeric zip aliases (emoji ↔ 4-digit address) | `seeds/numeric-zip-system.md` |
+| Ppl± full SCL specification (polysemic overrides, generation rules, validation) | `scl-directory.md` |
+| Ppl± operating instructions (generation workflow, exercise library routing, tonal rules) | `CLAUDE.md` |
+| Ppl± valid exercises | `exercise-library.md` |
+| Ppl± numeric zip aliases (emoji ↔ 4-digit address) | `seeds/numeric-zip-system.md` |
 | Current project state and active tasks | that project's `whiteboard.md` |
 | Cross-project contract switchboard | `archideck/CONTRACTS.md` |
 | Universal agent operating instructions | `archideck/AGENT-CONTRACT.md` |

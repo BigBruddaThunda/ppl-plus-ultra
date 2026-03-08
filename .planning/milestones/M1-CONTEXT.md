@@ -3,7 +3,7 @@
 **Status:** IN PROGRESS (Deck 01 complete, Decks 02–06 pending)
 **SCL Zip:** 🐂 🟢 (Tuscan × Growth — defining/building, self-contained)
 **Contract:** `ppl-workout-generation`
-**PPL Phase:** Phase 2
+**Ppl Phase:** Phase 2
 
 ---
 

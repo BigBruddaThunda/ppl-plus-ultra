@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Ppl± Floor Stack Wireframe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 16px; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #E8E4DE;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .wireframe-container {
+      width: 375px;
+      background: #FAFAF8;
+      border-radius: 40px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+      position: relative;
+    }
+
+    /* Status bar mockup */
+    .status-bar {
+      height: 44px;
+      background: #FAFAF8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #1A1A1A;
+      border-bottom: 1px solid #E0E0E0;
+    }
+
+    /* Content area with scroll */
+    .phone-content {
+      height: 768px;
+      overflow-y: auto;
+      scroll-behavior: smooth;
+      scroll-snap-type: y proximity;
+    }
+
+    /* Each floor */
+    .floor {
+      min-height: 668px;
+      padding: 24px 20px 60px;
+      scroll-snap-align: start;
+      position: relative;
+    }
+
+    .floor-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .floor-label .emoji { font-size: 1.25rem; }
+    .floor-label .name {
+      font-weight: 600;
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #666;
+    }
+    .floor-label .latin {
+      font-size: 0.6875rem;
+      font-style: italic;
+      color: #999;
+    }
+
+    /* Floor-specific styles */
+    .floor-noble { background: #FFFFFF; }
+    .floor-tools { background: #F5F3EF; }
+    .floor-time { background: #F0EDE8; }
+    .floor-social { background: #EBE8E2; }
+    .floor-personal { background: #E6E3DC; }
+    .floor-deep { background: #E1DED6; }
+
+    /* Wireframe placeholder blocks */
+    .wire-block {
+      border: 1.5px dashed #C0B8A8;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 12px;
+      color: #8A8070;
+      font-size: 0.8125rem;
+    }
+
+    .wire-block .wire-title {
+      font-weight: 600;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 6px;
+      color: #6A6050;
+    }
+
+    .wire-block .wire-content {
+      font-style: italic;
+      line-height: 1.5;
+    }
+
+    /* Workout card summary (piano nobile) */
+    .workout-summary {
+      background: white;
+      border: 2px solid #1A1A1A;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 12px;
+    }
+
+    .workout-summary .ws-zip {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      margin-bottom: 4px;
+    }
+
+    .workout-summary .ws-title {
+      font-weight: 600;
+      font-size: 1rem;
+      margin-bottom: 2px;
+    }
+
+    .workout-summary .ws-meta {
+      font-size: 0.75rem;
+      color: #888;
+    }
+
+    .block-list {
+      list-style: none;
+    }
+
+    .block-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid #E8E4DE;
+      font-size: 0.8125rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .block-list li:last-child { border-bottom: none; }
+
+    .block-list .bl-emoji { font-size: 1rem; width: 24px; text-align: center; }
+    .block-list .bl-name { font-weight: 500; min-width: 100px; }
+    .block-list .bl-exercise { color: #666; font-style: italic; }
+
+    /* Scroll hint */
+    .scroll-hint {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.6875rem;
+      color: #AAA;
+      letter-spacing: 0.04em;
+    }
+
+    /* Bottom nav */
+    .bottom-nav {
+      position: sticky;
+      bottom: 0;
+      background: #FAFAF8;
+      border-top: 1px solid #E0E0E0;
+      display: flex;
+      justify-content: space-around;
+      padding: 6px 12px 20px;
+    }
+
+    .nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1px;
+      opacity: 0.35;
+      cursor: pointer;
+      border: none;
+      background: none;
+      padding: 4px 6px;
+      transition: opacity 200ms;
+    }
+
+    .nav-item.active { opacity: 1; }
+    .nav-item:hover { opacity: 0.7; }
+    .nav-item .nav-emoji { font-size: 1rem; }
+    .nav-item .nav-label {
+      font-size: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #1A1A1A;
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* Annotation callouts */
+    .annotation {
+      background: #FFF8E1;
+      border-left: 3px solid #F2C744;
+      padding: 8px 12px;
+      margin: 12px 0;
+      font-size: 0.6875rem;
+      color: #5C4A12;
+      line-height: 1.5;
+    }
+    .annotation strong { font-weight: 600; }
+
+    /* Home safe zone */
+    .home-button {
+      position: absolute;
+      bottom: 80px;
+      right: 20px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #1A1A1A;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="wireframe-container">
+  <div class="status-bar">Ppl± Floor Stack Wireframe</div>
+
+  <div class="phone-content">
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- FLOOR 1: 🏛 PIANO NOBILE (ARRIVAL)     -->
+    <!-- The workout. What fills the screen.     -->
+    <!-- ═══════════════════════════════════════ -->
+    <div class="floor floor-noble" id="floor-noble">
+      <div class="floor-label">
+        <span class="emoji">🏛</span>
+        <span class="name">Piano Nobile</span>
+        <span class="latin">Firmitas — Arrival Floor</span>
+      </div>
+
+      <div class="annotation">
+        <strong>This is what the user sees first.</strong> The workout fills the viewport.
+        Everything else is revealed by scrolling. Progressive disclosure IS the architecture.
+      </div>
+
+      <div class="workout-summary">
+        <div class="ws-zip">🐂🏛🛒⚫</div>
+        <div class="ws-title">Barbell Bench Press — Push Coaching Session</div>
+        <div class="ws-meta">Foundation · Basics · Push · Teaching · 40-50 min · 📍 pono</div>
+      </div>
+
+      <ul class="block-list">
+        <li><span class="bl-emoji">♨️</span><span class="bl-name">Warm-Up</span><span class="bl-exercise">Single-Arm Overhead DB Hold</span></li>
+        <li><span class="bl-emoji">🛠</span><span class="bl-name">Craft</span><span class="bl-exercise">Single-Arm Cable Chest Fly</span></li>
+        <li><span class="bl-emoji">🧈</span><span class="bl-name">Bread & Butter</span><span class="bl-exercise">Single-Arm Cable Rear Delt Fly</span></li>
+        <li><span class="bl-emoji">🧩</span><span class="bl-name">Supplemental</span><span class="bl-exercise">One-Arm Dead Hang</span></li>
+        <li><span class="bl-emoji">🧬</span><span class="bl-name">Imprint</span><span class="bl-exercise">Depth Push-Up</span></li>
+        <li><span class="bl-emoji">🚂</span><span class="bl-name">Junction</span><span class="bl-exercise">Log + next session</span></li>
+        <li><span class="bl-emoji">🧮</span><span class="bl-name">SAVE</span><span class="bl-exercise">Closing principle</span></li>
+      </ul>
+
+      <div class="scroll-hint">↓ scroll to reveal deeper floors ↓</div>
+    </div>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- FLOOR 0: 🔨 GROUND (TOOLS)             -->
+    <!-- Settings, timer, library, search.       -->
+    <!-- In the full app: swipe-up drawer.       -->
+    <!-- ═══════════════════════════════════════ -->
+    <div class="floor floor-tools" id="floor-tools">
+      <div class="floor-label">
+        <span class="emoji">🔨</span>
+        <span class="name">Ground Floor</span>
+        <span class="latin">Utilitas — Tools</span>
+      </div>
+
+      <div class="annotation">
+        <strong>Tool floor.</strong> In the full app, this is a swipe-up drawer (60% of screen).
+        Settings, timer, exercise library, search, account. Always accessible.
+      </div>
+
+      <div class="wire-block">
+        <div class="wire-title">Timer</div>
+        <div class="wire-content">⏱ Rest timer with haptic feedback. Syncs to current block's rest period.</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">Exercise Library</div>
+        <div class="wire-content">📖 2,085 exercises. Search by name, pattern, equipment, muscle group.</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">Session Logger</div>
+        <div class="wire-content">📋 Log sets, reps, load, RPE. One-tap logging per set.</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">Random Zip</div>
+        <div class="wire-content">🎲 Navigate to a random room. Constrained by current abacus or fully random.</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">Voice Search</div>
+        <div class="wire-content">🔍 "Wilson, take me to heavy pulls." Natural language → zip code navigation.</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">Settings</div>
+        <div class="wire-content">⚙️ Account, region, equipment profile, notification preferences.</div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- FLOOR 2: ⌛ SECOND (TIME/CALENDAR)      -->
+    <!-- Training history, seasonal context.      -->
+    <!-- ═══════════════════════════════════════ -->
+    <div class="floor floor-time" id="floor-time">
+      <div class="floor-label">
+        <span class="emoji">⌛</span>
+        <span class="name">Second Floor</span>
+        <span class="latin">Temporitas — Time & Calendar</span>
+      </div>
+
+      <div class="annotation">
+        <strong>Almanac floor.</strong> Training history at this address.
+        Seasonal context. Personal calendar integration. The daily planner surface.
+      </div>
+
+      <div class="wire-block">
+        <div class="wire-title">Training History at This Address</div>
+        <div class="wire-content">Last visited: [date]. PRs: [best load/reps]. Visit count: [n]. Trend: [up/down/stable].</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">Seasonal Context</div>
+        <div class="wire-content">March 2026. Operator: 🧸 fero (carry/transfer). Season: early spring. Daylight: 11h 42m.</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">Personal Calendar</div>
+        <div class="wire-content">Today's schedule. Training at 6:00 AM. Operis at 7:00 AM. Meeting at 9:00 AM. Integration with native calendar.</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">Rotation Preview</div>
+        <div class="wire-content">Tomorrow: ⛽🔨🪡🔵. Day after: 🦋🌹🍗🟢. This week's abacus schedule.</div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- FLOOR 3: 🐬 THIRD (COMMUNITY)          -->
+    <!-- People at this address. Threads.        -->
+    <!-- ═══════════════════════════════════════ -->
+    <div class="floor floor-social" id="floor-social">
+      <div class="floor-label">
+        <span class="emoji">🐬</span>
+        <span class="name">Third Floor</span>
+        <span class="latin">Sociatas — Community</span>
+      </div>
+
+      <div class="annotation">
+        <strong>Community floor.</strong> People who frequent this room.
+        Proximity-based community — you meet people because you're both here.
+      </div>
+
+      <div class="wire-block">
+        <div class="wire-title">Room Thread</div>
+        <div class="wire-content">Discussion thread for 🐂🏛🛒⚫. Form tips, substitution suggestions, PR celebrations. Moderated by room regulars.</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">Who's Here</div>
+        <div class="wire-content">[n] people trained this room this week. [n] in the last 24 hours. Community pulse.</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">Partner Features</div>
+        <div class="wire-content">Find a training partner at this address. Spottable exercises flagged. Schedule sync.</div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- FLOOR 4: 🌹 FOURTH (PERSONAL)          -->
+    <!-- Your history, progress, metrics.        -->
+    <!-- ═══════════════════════════════════════ -->
+    <div class="floor floor-personal" id="floor-personal">
+      <div class="floor-label">
+        <span class="emoji">🌹</span>
+        <span class="name">Fourth Floor</span>
+        <span class="latin">Venustas — Personal</span>
+      </div>
+
+      <div class="annotation">
+        <strong>Personal floor.</strong> Your data at this address.
+        Progress graphs. Body metrics. Exercise history. The mirror.
+      </div>
+
+      <div class="wire-block">
+        <div class="wire-title">Progress at This Address</div>
+        <div class="wire-content">Load progression chart. Volume over time. Frequency. Form notes you've written.</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">Exercise-Level Stats</div>
+        <div class="wire-content">Per-exercise history for every movement in this room. Estimated 1RM. Volume landmarks.</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">Notes & Journal</div>
+        <div class="wire-content">Free-text notes tagged to this zip code. How this room felt. What to try next time.</div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- FLOOR 5: 🪐 PENTHOUSE (COSMOGRAM)       -->
+    <!-- Deep knowledge. The museum.             -->
+    <!-- ═══════════════════════════════════════ -->
+    <div class="floor floor-deep" id="floor-deep">
+      <div class="floor-label">
+        <span class="emoji">🪐</span>
+        <span class="name">Penthouse</span>
+        <span class="latin">Gravitas — Cosmogram</span>
+      </div>
+
+      <div class="annotation">
+        <strong>Cosmogram penthouse.</strong> Deep research connecting this deck's training identity
+        to broader cultural, historical, and scientific context. The museum.
+      </div>
+
+      <div class="wire-block">
+        <div class="wire-title">Deck 01 Cosmogram: 🐂🏛 Foundation × Basics</div>
+        <div class="wire-content">The origin story. Why these movements are foundational. Historical lineage of barbell training. Biomechanical rationale. Cultural context of strength as a practice.</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">SCL Deep Dive</div>
+        <div class="wire-content">Why 🐂 is Foundation. Why 🏛 is Basics. The design intent behind every emoji in this zip code. The weight vector explained.</div>
+      </div>
+      <div class="wire-block">
+        <div class="wire-title">Related Research</div>
+        <div class="wire-content">ExRx references. Movement science. Training methodology citations. The evidence base for this room's programming.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <button class="nav-item active" onclick="document.getElementById('floor-noble').scrollIntoView({behavior:'smooth'})">
+      <span class="nav-emoji">🏛</span>
+      <span class="nav-label">Noble</span>
+    </button>
+    <button class="nav-item" onclick="document.getElementById('floor-tools').scrollIntoView({behavior:'smooth'})">
+      <span class="nav-emoji">🔨</span>
+      <span class="nav-label">Tools</span>
+    </button>
+    <button class="nav-item" onclick="document.getElementById('floor-time').scrollIntoView({behavior:'smooth'})">
+      <span class="nav-emoji">⌛</span>
+      <span class="nav-label">Time</span>
+    </button>
+    <button class="nav-item" onclick="document.getElementById('floor-social').scrollIntoView({behavior:'smooth'})">
+      <span class="nav-emoji">🐬</span>
+      <span class="nav-label">Social</span>
+    </button>
+    <button class="nav-item" onclick="document.getElementById('floor-personal').scrollIntoView({behavior:'smooth'})">
+      <span class="nav-emoji">🌹</span>
+      <span class="nav-label">Personal</span>
+    </button>
+    <button class="nav-item" onclick="document.getElementById('floor-deep').scrollIntoView({behavior:'smooth'})">
+      <span class="nav-emoji">🪐</span>
+      <span class="nav-label">Deep</span>
+    </button>
+  </nav>
+
+</div>
+
+</body>
+</html>

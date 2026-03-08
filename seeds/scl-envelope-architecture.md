@@ -35,13 +35,13 @@ supersedes: nothing (first specification of this concept)
 
 One Sentence
 
-Every piece of content in the PPL± system — editorial, community, almanac, audio, observational — carries a frozen SCL weight vector snapshot called an envelope, and the system surfaces that content not by calendar date but by vector similarity to today's live conditions, making the 61-emoji language a universal retrieval index for a self-organizing library.
+Every piece of content in the Ppl± system — editorial, community, almanac, audio, observational — carries a frozen SCL weight vector snapshot called an envelope, and the system surfaces that content not by calendar date but by vector similarity to today's live conditions, making the 61-emoji language a universal retrieval index for a self-organizing library.
 
 The Problem This Solves
 
-PPL± is a library with 1,680 addresses. Content accumulates at those addresses from multiple sources: workout cards, Operis editions, cosmogram research, community submissions, user observations, audio recordings, educational material. As the library grows, the problem shifts from generation to retrieval. A user standing in a room needs to see the content that matters right now — not everything that has ever been filed here, but the material whose context matches today's context.
+Ppl± is a library with 1,680 addresses. Content accumulates at those addresses from multiple sources: workout cards, Operis editions, cosmogram research, community submissions, user observations, audio recordings, educational material. As the library grows, the problem shifts from generation to retrieval. A user standing in a room needs to see the content that matters right now — not everything that has ever been filed here, but the material whose context matches today's context.
 
-Calendar-based retrieval is the obvious approach and the wrong one. A fishing observation tagged "March 4" resurfaces every March 4 regardless of whether the conditions match. A planting guide tagged "early spring" resurfaces on a fixed date even if spring arrived three weeks early in one region and two weeks late in another. Calendar retrieval treats time as the only context variable. PPL± has 61 context variables. The system already computes a weight vector that describes the state of the world at any given address on any given day. That vector is the retrieval key.
+Calendar-based retrieval is the obvious approach and the wrong one. A fishing observation tagged "March 4" resurfaces every March 4 regardless of whether the conditions match. A planting guide tagged "early spring" resurfaces on a fixed date even if spring arrived three weeks early in one region and two weeks late in another. Calendar retrieval treats time as the only context variable. Ppl± has 61 context variables. The system already computes a weight vector that describes the state of the world at any given address on any given day. That vector is the retrieval key.
 
 The Envelope
 
@@ -160,7 +160,7 @@ The regional divergence is automatic. No editorial curation is required. The env
 
 The Almanac as Accumulated Envelopes
 
-The Farmer's Almanac tradition works because it accumulates observations across years and surfaces them when conditions recur. PPL± is building the same structure, but the observations are tagged with 61 dimensions of context instead of one (date).
+The Farmer's Almanac tradition works because it accumulates observations across years and surfaces them when conditions recur. Ppl± is building the same structure, but the observations are tagged with 61 dimensions of context instead of one (date).
 
 Year one: the system publishes Operis editions, users file observations, community content accumulates. Every piece carries an envelope. The almanac layer (⌛ Temporitas floor) is thin — limited historical depth.
 

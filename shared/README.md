@@ -2,7 +2,7 @@
 
 Cross-project tools, scripts, and references used across all Archideck projects.
 
-**Rule:** Anything in `shared/` must be project-agnostic. If a tool only works for PPL±, it lives in the PPL± scripts directory, not here.
+**Rule:** Anything in `shared/` must be project-agnostic. If a tool only works for Ppl±, it lives in the Ppl± scripts directory, not here.
 
 ---
 
