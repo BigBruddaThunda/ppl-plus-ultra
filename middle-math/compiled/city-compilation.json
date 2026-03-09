@@ -1,0 +1,680 @@
+{
+  "city": {
+    "total_rooms": 1680,
+    "buildings": 7,
+    "floors": 6,
+    "wings": 5,
+    "rooms_per_wing": 8,
+    "districts": 42,
+    "neighborhoods": 35,
+    "guilds": 12,
+    "centroid": [
+      0.315,
+      -0.185,
+      3.579,
+      -2.587,
+      4.549,
+      5.332,
+      1.977,
+      1.898,
+      3.286,
+      2.015,
+      1.065,
+      2.333,
+      1.417,
+      -0.6,
+      -0.6,
+      -0.4,
+      2.429,
+      -0.6,
+      2.955,
+      1.164,
+      2.244,
+      4.232,
+      0.371,
+      0.89,
+      2.625,
+      1.967,
+      6.518,
+      1.143,
+      1.723,
+      8.0,
+      0.0,
+      1.774,
+      1.143,
+      0.0,
+      2.429,
+      2.857,
+      -0.714,
+      -6.482,
+      -1.819,
+      -0.643,
+      2.964,
+      3.375,
+      4.024,
+      1.75,
+      1.143,
+      1.238,
+      6.25,
+      1.125,
+      0.0,
+      3.923,
+      2.343,
+      2.435,
+      2.286,
+      3.329,
+      3.283,
+      2.002,
+      1.673,
+      2.137,
+      3.393,
+      2.277,
+      1.726
+    ]
+  },
+  "guild_halls": {
+    "📍": {
+      "zip": "1148",
+      "similarity": 0.9088,
+      "house": "The Architects"
+    },
+    "🤌": {
+      "zip": "5143",
+      "similarity": 0.8958,
+      "house": "The Executors"
+    },
+    "🧸": {
+      "zip": "6241",
+      "similarity": 0.8978,
+      "house": "The Carriers"
+    },
+    "🥨": {
+      "zip": "5243",
+      "similarity": 0.8947,
+      "house": "The Extenders"
+    },
+    "👀": {
+      "zip": "6341",
+      "similarity": 0.9022,
+      "house": "The Observers"
+    },
+    "🪢": {
+      "zip": "3343",
+      "similarity": 0.8582,
+      "house": "The Layerers"
+    },
+    "🪵": {
+      "zip": "6442",
+      "similarity": 0.8736,
+      "house": "The Anchors"
+    },
+    "🏹": {
+      "zip": "6445",
+      "similarity": 0.8651,
+      "house": "The Launchers"
+    },
+    "🎻": {
+      "zip": "6542",
+      "similarity": 0.8406,
+      "house": "The Conductors"
+    },
+    "✍️": {
+      "zip": "5543",
+      "similarity": 0.8575,
+      "house": "The Scribes"
+    },
+    "🫴": {
+      "zip": "6642",
+      "similarity": 0.8711,
+      "house": "The Receivers"
+    },
+    "🧿": {
+      "zip": "5643",
+      "similarity": 0.8478,
+      "house": "The Interpreters"
+    }
+  },
+  "deck_centroids": {
+    "1": {
+      "deck_number": 1,
+      "deck_name": "🐂🏛 Foundation Basics",
+      "centroid_magnitude": 29.65,
+      "vector_spread": 2.187,
+      "guild_primary": "The Architects"
+    },
+    "2": {
+      "deck_number": 2,
+      "deck_name": "🐂🔨 Foundation Functional",
+      "centroid_magnitude": 30.88,
+      "vector_spread": 2.193,
+      "guild_primary": "The Carriers"
+    },
+    "3": {
+      "deck_number": 3,
+      "deck_name": "🐂🌹 Foundation Aesthetic",
+      "centroid_magnitude": 32.4,
+      "vector_spread": 1.972,
+      "guild_primary": "The Observers"
+    },
+    "4": {
+      "deck_number": 4,
+      "deck_name": "🐂🪐 Foundation Challenge",
+      "centroid_magnitude": 28.53,
+      "vector_spread": 2.149,
+      "guild_primary": "The Anchors"
+    },
+    "5": {
+      "deck_number": 5,
+      "deck_name": "🐂⌛ Foundation Time",
+      "centroid_magnitude": 30.11,
+      "vector_spread": 1.809,
+      "guild_primary": "The Conductors"
+    },
+    "6": {
+      "deck_number": 6,
+      "deck_name": "🐂🐬 Foundation Partner",
+      "centroid_magnitude": 32.46,
+      "vector_spread": 1.786,
+      "guild_primary": "The Receivers"
+    },
+    "7": {
+      "deck_number": 7,
+      "deck_name": "⛽🏛 Strength Basics",
+      "centroid_magnitude": 29.87,
+      "vector_spread": 2.274,
+      "guild_primary": "The Executors"
+    },
+    "8": {
+      "deck_number": 8,
+      "deck_name": "⛽🔨 Strength Functional",
+      "centroid_magnitude": 30.89,
+      "vector_spread": 2.273,
+      "guild_primary": "The Extenders"
+    },
+    "9": {
+      "deck_number": 9,
+      "deck_name": "⛽🌹 Strength Aesthetic",
+      "centroid_magnitude": 28.18,
+      "vector_spread": 2.188,
+      "guild_primary": "The Layerers"
+    },
+    "10": {
+      "deck_number": 10,
+      "deck_name": "⛽🪐 Strength Challenge",
+      "centroid_magnitude": 29.44,
+      "vector_spread": 2.117,
+      "guild_primary": "The Launchers"
+    },
+    "11": {
+      "deck_number": 11,
+      "deck_name": "⛽⌛ Strength Time",
+      "centroid_magnitude": 28.44,
+      "vector_spread": 1.952,
+      "guild_primary": "The Scribes"
+    },
+    "12": {
+      "deck_number": 12,
+      "deck_name": "⛽🐬 Strength Partner",
+      "centroid_magnitude": 29.78,
+      "vector_spread": 1.911,
+      "guild_primary": "The Interpreters"
+    },
+    "13": {
+      "deck_number": 13,
+      "deck_name": "🦋🏛 Hypertrophy Basics",
+      "centroid_magnitude": 28.77,
+      "vector_spread": 2.363,
+      "guild_primary": "The Executors"
+    },
+    "14": {
+      "deck_number": 14,
+      "deck_name": "🦋🔨 Hypertrophy Functional",
+      "centroid_magnitude": 29.4,
+      "vector_spread": 2.328,
+      "guild_primary": "The Extenders"
+    },
+    "15": {
+      "deck_number": 15,
+      "deck_name": "🦋🌹 Hypertrophy Aesthetic",
+      "centroid_magnitude": 30.03,
+      "vector_spread": 2.085,
+      "guild_primary": "The Layerers"
+    },
+    "16": {
+      "deck_number": 16,
+      "deck_name": "🦋🪐 Hypertrophy Challenge",
+      "centroid_magnitude": 28.97,
+      "vector_spread": 2.204,
+      "guild_primary": "The Launchers"
+    },
+    "17": {
+      "deck_number": 17,
+      "deck_name": "🦋⌛ Hypertrophy Time",
+      "centroid_magnitude": 28.77,
+      "vector_spread": 1.951,
+      "guild_primary": "The Scribes"
+    },
+    "18": {
+      "deck_number": 18,
+      "deck_name": "🦋🐬 Hypertrophy Partner",
+      "centroid_magnitude": 29.9,
+      "vector_spread": 1.916,
+      "guild_primary": "The Interpreters"
+    },
+    "19": {
+      "deck_number": 19,
+      "deck_name": "🏟🏛 Performance Basics",
+      "centroid_magnitude": 32.68,
+      "vector_spread": 2.154,
+      "guild_primary": "The Executors"
+    },
+    "20": {
+      "deck_number": 20,
+      "deck_name": "🏟🔨 Performance Functional",
+      "centroid_magnitude": 32.81,
+      "vector_spread": 2.104,
+      "guild_primary": "The Extenders"
+    },
+    "21": {
+      "deck_number": 21,
+      "deck_name": "🏟🌹 Performance Aesthetic",
+      "centroid_magnitude": 31.64,
+      "vector_spread": 1.983,
+      "guild_primary": "The Anchors"
+    },
+    "22": {
+      "deck_number": 22,
+      "deck_name": "🏟🪐 Performance Challenge",
+      "centroid_magnitude": 32.04,
+      "vector_spread": 1.959,
+      "guild_primary": "The Launchers"
+    },
+    "23": {
+      "deck_number": 23,
+      "deck_name": "🏟⌛ Performance Time",
+      "centroid_magnitude": 32.4,
+      "vector_spread": 1.693,
+      "guild_primary": "The Scribes"
+    },
+    "24": {
+      "deck_number": 24,
+      "deck_name": "🏟🐬 Performance Partner",
+      "centroid_magnitude": 32.67,
+      "vector_spread": 1.735,
+      "guild_primary": "The Interpreters"
+    },
+    "25": {
+      "deck_number": 25,
+      "deck_name": "🌾🏛 Full Body Basics",
+      "centroid_magnitude": 30.72,
+      "vector_spread": 2.346,
+      "guild_primary": "The Executors"
+    },
+    "26": {
+      "deck_number": 26,
+      "deck_name": "🌾🔨 Full Body Functional",
+      "centroid_magnitude": 30.37,
+      "vector_spread": 2.294,
+      "guild_primary": "The Extenders"
+    },
+    "27": {
+      "deck_number": 27,
+      "deck_name": "🌾🌹 Full Body Aesthetic",
+      "centroid_magnitude": 29.65,
+      "vector_spread": 2.12,
+      "guild_primary": "The Observers"
+    },
+    "28": {
+      "deck_number": 28,
+      "deck_name": "🌾🪐 Full Body Challenge",
+      "centroid_magnitude": 29.48,
+      "vector_spread": 2.18,
+      "guild_primary": "The Launchers"
+    },
+    "29": {
+      "deck_number": 29,
+      "deck_name": "🌾⌛ Full Body Time",
+      "centroid_magnitude": 29.51,
+      "vector_spread": 1.917,
+      "guild_primary": "The Scribes"
+    },
+    "30": {
+      "deck_number": 30,
+      "deck_name": "🌾🐬 Full Body Partner",
+      "centroid_magnitude": 30.94,
+      "vector_spread": 1.868,
+      "guild_primary": "The Interpreters"
+    },
+    "31": {
+      "deck_number": 31,
+      "deck_name": "⚖🏛 Balance Basics",
+      "centroid_magnitude": 29.49,
+      "vector_spread": 2.323,
+      "guild_primary": "The Architects"
+    },
+    "32": {
+      "deck_number": 32,
+      "deck_name": "⚖🔨 Balance Functional",
+      "centroid_magnitude": 29.21,
+      "vector_spread": 2.304,
+      "guild_primary": "The Carriers"
+    },
+    "33": {
+      "deck_number": 33,
+      "deck_name": "⚖🌹 Balance Aesthetic",
+      "centroid_magnitude": 30.14,
+      "vector_spread": 2.069,
+      "guild_primary": "The Observers"
+    },
+    "34": {
+      "deck_number": 34,
+      "deck_name": "⚖🪐 Balance Challenge",
+      "centroid_magnitude": 28.44,
+      "vector_spread": 2.154,
+      "guild_primary": "The Anchors"
+    },
+    "35": {
+      "deck_number": 35,
+      "deck_name": "⚖⌛ Balance Time",
+      "centroid_magnitude": 28.84,
+      "vector_spread": 1.916,
+      "guild_primary": "The Conductors"
+    },
+    "36": {
+      "deck_number": 36,
+      "deck_name": "⚖🐬 Balance Partner",
+      "centroid_magnitude": 30.52,
+      "vector_spread": 1.859,
+      "guild_primary": "The Receivers"
+    },
+    "37": {
+      "deck_number": 37,
+      "deck_name": "🖼🏛 Restoration Basics",
+      "centroid_magnitude": 32.07,
+      "vector_spread": 2.011,
+      "guild_primary": "The Architects"
+    },
+    "38": {
+      "deck_number": 38,
+      "deck_name": "🖼🔨 Restoration Functional",
+      "centroid_magnitude": 33.45,
+      "vector_spread": 1.967,
+      "guild_primary": "The Carriers"
+    },
+    "39": {
+      "deck_number": 39,
+      "deck_name": "🖼🌹 Restoration Aesthetic",
+      "centroid_magnitude": 34.4,
+      "vector_spread": 1.74,
+      "guild_primary": "The Observers"
+    },
+    "40": {
+      "deck_number": 40,
+      "deck_name": "🖼🪐 Restoration Challenge",
+      "centroid_magnitude": 32.16,
+      "vector_spread": 1.805,
+      "guild_primary": "The Observers"
+    },
+    "41": {
+      "deck_number": 41,
+      "deck_name": "🖼⌛ Restoration Time",
+      "centroid_magnitude": 33.15,
+      "vector_spread": 1.614,
+      "guild_primary": "The Conductors"
+    },
+    "42": {
+      "deck_number": 42,
+      "deck_name": "🖼🐬 Restoration Partner",
+      "centroid_magnitude": 34.19,
+      "vector_spread": 1.601,
+      "guild_primary": "The Receivers"
+    }
+  },
+  "abacus_centroids": {
+    "1": {
+      "name": "General Strength",
+      "domain": "strength",
+      "centroid_magnitude": 25.6,
+      "vector_spread": 3.066,
+      "guild_primary": "The Executors"
+    },
+    "2": {
+      "name": "Powerlifting",
+      "domain": "strength",
+      "centroid_magnitude": 25.28,
+      "vector_spread": 3.148,
+      "guild_primary": "The Executors"
+    },
+    "3": {
+      "name": "Strongman / Odd Object",
+      "domain": "strength",
+      "centroid_magnitude": 25.01,
+      "vector_spread": 3.042,
+      "guild_primary": "The Launchers"
+    },
+    "4": {
+      "name": "Calisthenics Strength",
+      "domain": "strength",
+      "centroid_magnitude": 26.66,
+      "vector_spread": 2.931,
+      "guild_primary": "The Carriers"
+    },
+    "5": {
+      "name": "Kettlebell Strength",
+      "domain": "strength",
+      "centroid_magnitude": 25.75,
+      "vector_spread": 3.048,
+      "guild_primary": "The Extenders"
+    },
+    "6": {
+      "name": "Senior Strength",
+      "domain": "strength",
+      "centroid_magnitude": 26.03,
+      "vector_spread": 3.227,
+      "guild_primary": "The Architects"
+    },
+    "7": {
+      "name": "Post-Rehab Strength",
+      "domain": "strength",
+      "centroid_magnitude": 28.53,
+      "vector_spread": 2.991,
+      "guild_primary": "The Architects"
+    },
+    "8": {
+      "name": "Bodybuilding",
+      "domain": "hypertrophy",
+      "centroid_magnitude": 22.97,
+      "vector_spread": 3.069,
+      "guild_primary": "The Launchers"
+    },
+    "9": {
+      "name": "Physique / Recomp",
+      "domain": "hypertrophy",
+      "centroid_magnitude": 23.02,
+      "vector_spread": 3.184,
+      "guild_primary": "The Layerers"
+    },
+    "10": {
+      "name": "Athletic Hypertrophy",
+      "domain": "hypertrophy",
+      "centroid_magnitude": 24.33,
+      "vector_spread": 3.261,
+      "guild_primary": "The Extenders"
+    },
+    "11": {
+      "name": "Minimalist Hypertrophy",
+      "domain": "hypertrophy",
+      "centroid_magnitude": 24.98,
+      "vector_spread": 3.219,
+      "guild_primary": "The Architects"
+    },
+    "12": {
+      "name": "Aesthetic Specialization",
+      "domain": "hypertrophy",
+      "centroid_magnitude": 21.87,
+      "vector_spread": 3.323,
+      "guild_primary": "The Layerers"
+    },
+    "13": {
+      "name": "General Conditioning",
+      "domain": "conditioning",
+      "centroid_magnitude": 23.7,
+      "vector_spread": 3.073,
+      "guild_primary": "The Scribes"
+    },
+    "14": {
+      "name": "Marathon / Distance Running",
+      "domain": "conditioning",
+      "centroid_magnitude": 25.17,
+      "vector_spread": 3.15,
+      "guild_primary": "The Conductors"
+    },
+    "15": {
+      "name": "Sprint / Power Conditioning",
+      "domain": "conditioning",
+      "centroid_magnitude": 22.83,
+      "vector_spread": 3.139,
+      "guild_primary": "The Launchers"
+    },
+    "16": {
+      "name": "Sport Conditioning",
+      "domain": "conditioning",
+      "centroid_magnitude": 23.97,
+      "vector_spread": 3.116,
+      "guild_primary": "The Extenders"
+    },
+    "17": {
+      "name": "Fasting Cardio + Strength",
+      "domain": "conditioning",
+      "centroid_magnitude": 25.48,
+      "vector_spread": 3.112,
+      "guild_primary": "The Carriers"
+    },
+    "18": {
+      "name": "General Functional Fitness",
+      "domain": "functional",
+      "centroid_magnitude": 23.96,
+      "vector_spread": 3.254,
+      "guild_primary": "The Carriers"
+    },
+    "19": {
+      "name": "CrossFit-Style",
+      "domain": "functional",
+      "centroid_magnitude": 22.54,
+      "vector_spread": 3.191,
+      "guild_primary": "The Scribes"
+    },
+    "20": {
+      "name": "Combat Sport Prep",
+      "domain": "functional",
+      "centroid_magnitude": 22.72,
+      "vector_spread": 3.291,
+      "guild_primary": "The Interpreters"
+    },
+    "21": {
+      "name": "Field Sport Athlete",
+      "domain": "functional",
+      "centroid_magnitude": 22.54,
+      "vector_spread": 3.318,
+      "guild_primary": "The Interpreters"
+    },
+    "22": {
+      "name": "Climbing / Grip Sport",
+      "domain": "functional",
+      "centroid_magnitude": 24.18,
+      "vector_spread": 3.204,
+      "guild_primary": "The Anchors"
+    },
+    "23": {
+      "name": "New to Gym",
+      "domain": "life-stage",
+      "centroid_magnitude": 29.13,
+      "vector_spread": 2.903,
+      "guild_primary": "The Architects"
+    },
+    "24": {
+      "name": "Return After Break",
+      "domain": "life-stage",
+      "centroid_magnitude": 25.18,
+      "vector_spread": 3.266,
+      "guild_primary": "The Architects"
+    },
+    "25": {
+      "name": "50+ Active Living",
+      "domain": "life-stage",
+      "centroid_magnitude": 24.62,
+      "vector_spread": 3.303,
+      "guild_primary": "The Receivers"
+    },
+    "26": {
+      "name": "Pre/Post Natal",
+      "domain": "life-stage",
+      "centroid_magnitude": 27.74,
+      "vector_spread": 2.941,
+      "guild_primary": "The Observers"
+    },
+    "27": {
+      "name": "Youth Athletic Development",
+      "domain": "life-stage",
+      "centroid_magnitude": 25.96,
+      "vector_spread": 3.092,
+      "guild_primary": "The Receivers"
+    },
+    "28": {
+      "name": "Active Recovery",
+      "domain": "recovery",
+      "centroid_magnitude": 26.36,
+      "vector_spread": 3.124,
+      "guild_primary": "The Observers"
+    },
+    "29": {
+      "name": "Stress Management",
+      "domain": "recovery",
+      "centroid_magnitude": 27.41,
+      "vector_spread": 3.001,
+      "guild_primary": "The Observers"
+    },
+    "30": {
+      "name": "Flexibility / Mobility",
+      "domain": "recovery",
+      "centroid_magnitude": 24.98,
+      "vector_spread": 3.208,
+      "guild_primary": "The Observers"
+    },
+    "31": {
+      "name": "Injury Prevention / Prehab",
+      "domain": "recovery",
+      "centroid_magnitude": 24.65,
+      "vector_spread": 3.132,
+      "guild_primary": "The Receivers"
+    },
+    "32": {
+      "name": "Olympic Lifting",
+      "domain": "specialty",
+      "centroid_magnitude": 24.37,
+      "vector_spread": 3.215,
+      "guild_primary": "The Anchors"
+    },
+    "33": {
+      "name": "Endurance Sport Cross-Training",
+      "domain": "specialty",
+      "centroid_magnitude": 23.37,
+      "vector_spread": 3.348,
+      "guild_primary": "The Conductors"
+    },
+    "34": {
+      "name": "Tactical / First Responder",
+      "domain": "specialty",
+      "centroid_magnitude": 23.72,
+      "vector_spread": 3.351,
+      "guild_primary": "The Interpreters"
+    },
+    "35": {
+      "name": "Explorer / Outdoor Athlete",
+      "domain": "specialty",
+      "centroid_magnitude": 25.36,
+      "vector_spread": 3.031,
+      "guild_primary": "The Anchors"
+    }
+  }
+}
