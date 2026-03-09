@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Explorer / Outdoor Athlete: Bodyweight drills for the discipline — positional strength without load*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🧸 fero
 
 > "Restore with what your body provides. Floor work, breath, gentle movement."
 ═══

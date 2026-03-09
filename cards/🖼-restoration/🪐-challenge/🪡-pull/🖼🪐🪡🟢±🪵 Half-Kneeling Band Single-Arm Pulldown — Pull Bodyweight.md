@@ -19,19 +19,19 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Calisthenics Strength: Bodyweight strength check — does gym strength transfer? Advanced calisthenics apply*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🪵 teneo
 
 > "Restore with what your body provides. Floor work, breath, gentle movement."
 ═══
 ## 2) 🪫 Release
 Subcode: 🖼🪐🪡🟢 (Release | Pull | Challenge | Bodyweight)
-├─ 12 🪡 Good Morning (Barbell) (parasympathetic, tension down, 4s eccentric)
+├─ 12 🪡 Good Morning (Dumbbell) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🪐🪡🟢 (Bread & Butter | Pull | Challenge | Bodyweight)
-├─ 13 🪡 Barbell Overhead Press (Standing) (bodyweight, no external load needed)
+├─ 13 🪡 Dumbbell Overhead Press (Standing) (bodyweight, no external load needed)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s

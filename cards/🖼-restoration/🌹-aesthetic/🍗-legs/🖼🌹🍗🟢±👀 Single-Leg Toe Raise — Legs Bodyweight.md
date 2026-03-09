@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Climbing / Grip Sport: Bodyweight functional — park, field, living room — prove the pattern works anywhere*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 👀 specio
 
 > "Restore with what your body provides. Floor work, breath, gentle movement."
 ═══
@@ -31,7 +31,7 @@ Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🖼🌹🍗🟢 (Bread & Butter | Legs | Aesthetic | Bodyweight)
-├─ 13 🍗 Single-Leg Hip Thrust (Barbell) (bodyweight, no external load needed)
+├─ 13 🍗 Single-Leg Hip Thrust (Dumbbell) (bodyweight, no external load needed)
 │  Set 1: 🖼 55% × 13 (slow, feel each rep)
 │  Set 2: 🖼 55% × 13 (same tempo, same breath)
 Rest: 60s

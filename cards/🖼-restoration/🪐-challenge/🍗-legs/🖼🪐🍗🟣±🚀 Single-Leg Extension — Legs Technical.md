@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Sprint / Power Conditioning: Technical conditioning — rowing stroke, cycling cadence, running gait precision*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🚀 mitto
 
 > "Precise positioning in each restorative hold. Depth over speed."
 ═══

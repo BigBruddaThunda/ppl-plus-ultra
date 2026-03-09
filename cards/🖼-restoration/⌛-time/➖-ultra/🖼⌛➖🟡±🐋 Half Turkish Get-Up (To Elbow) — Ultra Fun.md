@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Youth Athletic Development: Fun and discovery — explore movements that feel good and build capability*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🐋 duco
 
 > "Explore somatic movements you would not normally try."
 ═══

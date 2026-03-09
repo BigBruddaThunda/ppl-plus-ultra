@@ -35,7 +35,7 @@ Rest: 360s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: ⛽🪐🛒⚪ (Supplemental | Push | Challenge | Mindful)
-├─ 6 🛒 One-Arm Dead Hang (full range, different angle)
+├─ 6 🛒 One-Arm Dead Hang (4s eccentric, breath-paced)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 240s
@@ -48,7 +48,7 @@ Rest: 240s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⛽🪐🛒⚪ (Imprint | Push | Challenge | Mindful)
-├─ 6 🛒 Single-Arm Dumbbell Lateral Raise (high rep, low load, neural memory)
+├─ 6 🛒 Single-Arm Dumbbell Lateral Raise (4s eccentric, breath-paced)
 │  Set 1: ⛽ 55% × 6 (lock the pattern)
 Rest: 240s
 ═══

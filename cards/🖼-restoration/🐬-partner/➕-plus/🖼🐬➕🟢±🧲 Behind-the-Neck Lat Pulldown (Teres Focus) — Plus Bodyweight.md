@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Youth Athletic Development: Bodyweight only — safe, accessible, no equipment barrier to entry*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🧲 capio
 
 > "Restore with what your body provides. Floor work, breath, gentle movement."
 ═══

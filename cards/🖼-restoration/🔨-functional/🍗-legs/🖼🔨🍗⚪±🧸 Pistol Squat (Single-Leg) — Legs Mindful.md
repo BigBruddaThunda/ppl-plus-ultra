@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Pre/Post Natal: Recovery and restoration — breath work, gentle movement, nervous system regulation*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🧸 fero
 
 > "Breathe into each position. Leave fresher than you entered."
 ═══
@@ -38,7 +38,7 @@ Rest: 120s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🔨🍗⚪ (Imprint | Legs | Functional | Mindful)
-├─ 15 🍗 Single-Leg Hip Hinge (high rep, low load, neural memory)
+├─ 15 🍗 Single-Leg Hip Hinge (4s eccentric, breath-paced)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 120s
 ═══

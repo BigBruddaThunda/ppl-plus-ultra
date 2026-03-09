@@ -35,7 +35,7 @@ Rest: 150s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🐂🌹➖⚪ (Supplemental | Ultra | Aesthetic | Mindful)
-├─ 13 ➖ Layup Approach (Single-Leg Power) (full range, different angle)
+├─ 13 ➖ Layup Approach (Single-Leg Power) (4s eccentric, breath-paced)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 120s
@@ -48,7 +48,7 @@ Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🌹➖⚪ (Imprint | Ultra | Aesthetic | Mindful)
-├─ 15 ➖ Half Turkish Get-Up (To Elbow) (high rep, low load, neural memory)
+├─ 15 ➖ Half Turkish Get-Up (To Elbow) (4s eccentric, breath-paced)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 120s
 ═══

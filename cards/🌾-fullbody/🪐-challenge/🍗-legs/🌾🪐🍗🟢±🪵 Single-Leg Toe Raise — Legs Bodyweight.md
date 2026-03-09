@@ -27,14 +27,14 @@ Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🪐🍗🟢 (Composition | Legs | Challenge | Bodyweight)
-├─ 9 🍗 Single-Leg Glute Bridge → Single-Leg Hip Thrust (Barbell) (flow without reset)
+├─ 9 🍗 Single-Leg Glute Bridge → Single-Leg Hip Thrust (Dumbbell) (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🪐🍗🟢 (Bread & Butter | Legs | Challenge | Bodyweight)
-├─ 9 🍗 Single-Leg Hip Thrust (Barbell) (bodyweight, no external load needed)
+├─ 9 🍗 Single-Leg Hip Thrust (Dumbbell) (bodyweight, no external load needed)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)

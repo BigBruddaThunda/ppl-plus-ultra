@@ -19,7 +19,7 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 
 *Senior Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
-## 1) ♨️ Warm-Up — 🪢 plico
+## 1) ♨️ Warm-Up — 🪢 plico — 🦢
 Subcode: ⛽🌹➕🔵 (Warm-Up | Plus | Aesthetic | Structured)
 ├─ 6 ➕ Aquaman (Alternating Superman) (prescribed, track sets and reps)
 │  Set 1: ⛽ 60% × 6 (pattern prep)

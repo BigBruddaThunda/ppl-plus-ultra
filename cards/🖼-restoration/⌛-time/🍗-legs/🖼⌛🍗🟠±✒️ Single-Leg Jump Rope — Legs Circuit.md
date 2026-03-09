@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *General Functional Fitness: Athletic circuit — each station trains a different movement pattern*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — ✒️ grapho
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
 ═══
@@ -27,7 +27,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 Subcode: 🖼⌛🍗🟠 (ARAM | Legs | Time | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
 │  Station 1: 🍗 Single-Leg Jump Rope × 13 (station rotation, keep moving)
-│  Station 2: 🍗 Single-Leg Hip Thrust (Barbell) × 13 (station rotation, keep moving)
+│  Station 2: 🍗 Single-Leg Hip Thrust (Dumbbell) × 13 (station rotation, keep moving)
 │  Station 3: 🍗 Single-Leg Hip Thrust (Bodyweight) × 13 (station rotation, keep moving)
 │  Station 4: 🍗 Single-Leg Glute Bridge × 13 (station rotation, keep moving)
 │  Transition: 15s between stations

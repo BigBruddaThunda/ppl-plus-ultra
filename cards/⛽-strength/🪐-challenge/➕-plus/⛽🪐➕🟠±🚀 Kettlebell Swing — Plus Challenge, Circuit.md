@@ -31,7 +31,7 @@ Subcode: ⛽🪐➕🟠 (ARAM | Plus | Challenge | Circuit)
 │  Station 1: ➕ Kettlebell Swing × 5 (station rotation, keep moving)
 │  Station 2: ➕ Overhead Throw (Medicine Ball) × 5 (station rotation, keep moving)
 │  Station 3: ➕ Pull-Up (Overhand Grip) × 5 (station rotation, keep moving)
-│  Station 4: ➕ Bent-Over Barbell Row (Overhand) × 5 (station rotation, keep moving)
+│  Station 4: ➕ Bent-Over Dumbbell Row (Overhand) × 5 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 60s
 Rest: 90s after final round

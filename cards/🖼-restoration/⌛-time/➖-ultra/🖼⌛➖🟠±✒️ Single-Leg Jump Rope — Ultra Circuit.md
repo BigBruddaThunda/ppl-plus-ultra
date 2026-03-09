@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *General Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — ✒️ grapho
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
 ═══

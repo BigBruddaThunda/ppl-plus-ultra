@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *50+ Active Living: Structured progression — small increments, clear targets, consistent tracking*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🦉 logos
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
 ═══

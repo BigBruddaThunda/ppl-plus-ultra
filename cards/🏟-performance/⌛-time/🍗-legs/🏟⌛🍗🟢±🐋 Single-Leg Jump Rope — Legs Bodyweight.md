@@ -21,7 +21,7 @@ blocks: ♨️ 🪜 🧈 🚂
 ═══
 ## 1) ♨️ Warm-Up — 🐋 duco
 Subcode: 🏟⌛🍗🟢 (Warm-Up | Legs | Time | Bodyweight)
-├─ 3 🍗 Single-Leg Hip Thrust (Barbell) (bodyweight, no external load needed)
+├─ 3 🍗 Single-Leg Hip Thrust (Dumbbell) (bodyweight, no external load needed)
 │  Set 1: 🏟 72% × 3 (pattern prep)
 Rest: 90s
 ═══

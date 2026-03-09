@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Athletic Hypertrophy: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🥨 tendo
 
 > "Active recovery. Move enough to flush, not enough to fatigue."
 ═══

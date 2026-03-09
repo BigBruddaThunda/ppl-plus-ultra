@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Stress Management: Somatic exploration — movements you would not normally try, body awareness*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🐋 duco
 
 > "Explore somatic movements you would not normally try."
 ═══

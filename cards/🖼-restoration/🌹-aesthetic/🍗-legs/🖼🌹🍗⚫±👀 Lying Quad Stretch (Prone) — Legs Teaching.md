@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Return After Break: Teaching session — learn the movement, understand the cues, build confidence*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 👀 specio
 
 > "Learn what recovery feels like. This is a teaching session for your nervous system."
 ═══

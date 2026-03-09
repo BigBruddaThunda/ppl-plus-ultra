@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Fasting Cardio + Strength: Bodyweight conditioning — no gym, no excuses, cardio and movement flow*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🐋 duco
 
 > "Restore with what your body provides. Floor work, breath, gentle movement."
 ═══

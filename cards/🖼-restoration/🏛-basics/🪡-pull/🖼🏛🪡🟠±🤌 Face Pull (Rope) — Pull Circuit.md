@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Return After Break: Gentle circuit — station rotation with manageable transitions*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🤌 facio
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
 ═══

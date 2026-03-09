@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *50+ Active Living: Recovery and restoration — breath work, gentle movement, nervous system regulation*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🧲 capio
 
 > "Breathe into each position. Leave fresher than you entered."
 ═══
@@ -38,7 +38,7 @@ Rest: 120s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🐬➕⚪ (Imprint | Plus | Partner | Mindful)
-├─ 15 ➕ Aquaman (Alternating Superman) (high rep, low load, neural memory)
+├─ 15 ➕ Aquaman (Alternating Superman) (4s eccentric, breath-paced)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 120s
 ═══

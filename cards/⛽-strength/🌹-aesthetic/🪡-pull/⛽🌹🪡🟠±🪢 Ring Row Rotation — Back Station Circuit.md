@@ -19,7 +19,7 @@ blocks: ♨️ ▶️ 🧈 🎱 🪫 🚂
 
 *Physique / Recomp: Muscle group circuit — each station hits a different angle on the target tissue*
 ═══
-## 1) ♨️ Warm-Up — 🪢 plico
+## 1) ♨️ Warm-Up — 🪢 plico — 🦢
 Subcode: ⛽🌹🪡🟠 (Warm-Up | Pull | Aesthetic | Circuit)
 ├─ 6 🪡 Single-Arm Dumbbell Lateral Raise (station rotation, keep moving)
 │  Set 1: ⛽ 60% × 6 (pattern prep)

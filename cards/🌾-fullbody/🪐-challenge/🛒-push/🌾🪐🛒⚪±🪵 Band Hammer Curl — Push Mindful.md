@@ -33,7 +33,7 @@ Rest: 120s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🌾🪐🛒⚪ (Supplemental | Push | Challenge | Mindful)
-├─ 10 🛒 Medicine Ball Chest Pass (full range, different angle)
+├─ 10 🛒 Medicine Ball Chest Pass (4s eccentric, breath-paced)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 120s
@@ -46,7 +46,7 @@ Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🌾🪐🛒⚪ (Imprint | Push | Challenge | Mindful)
-├─ 10 🛒 Preacher Curl Machine (high rep, low load, neural memory)
+├─ 10 🛒 Preacher Curl Machine (4s eccentric, breath-paced)
 │  Set 1: 🌾 45% × 10 (lock the pattern)
 Rest: 120s
 ═══

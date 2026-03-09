@@ -35,7 +35,7 @@ Rest: 180s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🦋🔨🍗⚪ (Supplemental | Legs | Functional | Mindful)
-├─ 12 🍗 Heavy Swing (Power Focus) (full range, different angle)
+├─ 12 🍗 Heavy Swing (Power Focus) (4s eccentric, breath-paced)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 120s
@@ -48,7 +48,7 @@ Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🦋🔨🍗⚪ (Imprint | Legs | Functional | Mindful)
-├─ 12 🍗 Swing to High Pull (high rep, low load, neural memory)
+├─ 12 🍗 Swing to High Pull (4s eccentric, breath-paced)
 │  Set 1: 🦋 45% × 12 (lock the pattern)
 Rest: 120s
 ═══

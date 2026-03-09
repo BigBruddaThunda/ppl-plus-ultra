@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *New to Gym: Fun and discovery — explore movements that feel good and build capability*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 📍 pono
 
 > "Explore somatic movements you would not normally try."
 ═══

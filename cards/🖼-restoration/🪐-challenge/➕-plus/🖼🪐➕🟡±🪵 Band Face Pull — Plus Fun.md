@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Tactical / First Responder: Cross-training exploration — adjacent skills that improve the primary craft*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🪵 teneo
 
 > "Explore somatic movements you would not normally try."
 ═══

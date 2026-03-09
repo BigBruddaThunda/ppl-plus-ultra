@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Minimalist Hypertrophy: Bodyweight hypertrophy — high reps, slow tempo, squeeze and hold patterns*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 📍 pono
 
 > "Restore with what your body provides. Floor work, breath, gentle movement."
 ═══

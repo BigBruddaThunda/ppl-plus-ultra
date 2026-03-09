@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Combat Sport Prep: Athletic circuit — each station trains a different movement pattern*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🦉 logos
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
 ═══
@@ -36,7 +36,7 @@ Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🖼🐬➕🟠 (Release | Plus | Partner | Circuit)
-├─ 12 ➕ Good Morning (Barbell) (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➕ Good Morning (Dumbbell) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 30s
 ═══

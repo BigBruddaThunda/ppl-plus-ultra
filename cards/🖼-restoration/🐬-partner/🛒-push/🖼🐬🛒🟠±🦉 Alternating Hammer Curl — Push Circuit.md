@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Tactical / First Responder: Skill circuit — rotate through craft-specific stations*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🦉 logos
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
 ═══

@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Olympic Lifting: Teaches the craft-specific positions, timing, and coordination demands*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🪵 teneo
 
 > "Learn what recovery feels like. This is a teaching session for your nervous system."
 ═══

@@ -36,7 +36,7 @@ Rest: 150s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🐂🏛➖⚪ (Supplemental | Ultra | Basics | Mindful)
-├─ 13 ➖ Sprint (60-100 meters) (full range, different angle)
+├─ 13 ➖ Sprint (60-100 meters) (4s eccentric, breath-paced)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 120s
@@ -49,7 +49,7 @@ Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🏛➖⚪ (Imprint | Ultra | Basics | Mindful)
-├─ 15 ➖ Hill Sprint (Long) (high rep, low load, neural memory)
+├─ 15 ➖ Hill Sprint (Long) (4s eccentric, breath-paced)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 120s
 ═══

@@ -17,7 +17,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 > "Explore somatic movements you would not normally try."
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🧲 capio
 
 > "Explore somatic movements you would not normally try."
 ═══

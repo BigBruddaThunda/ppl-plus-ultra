@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *General Functional Fitness: Bodyweight functional — park, field, living room — prove the pattern works anywhere*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🧲 capio
 
 > "Restore with what your body provides. Floor work, breath, gentle movement."
 ═══

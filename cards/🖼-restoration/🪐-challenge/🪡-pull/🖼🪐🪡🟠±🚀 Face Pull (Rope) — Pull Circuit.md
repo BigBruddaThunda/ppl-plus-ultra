@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *General Functional Fitness: Athletic circuit — each station trains a different movement pattern*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🚀 mitto
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
 ═══

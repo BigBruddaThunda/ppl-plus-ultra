@@ -35,7 +35,7 @@ Rest: 180s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🦋⌛➖⚪ (Supplemental | Ultra | Time | Mindful)
-├─ 12 ➖ Rowing Intervals (2000m) (full range, different angle)
+├─ 12 ➖ Rowing Intervals (2000m) (4s eccentric, breath-paced)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 120s
@@ -48,7 +48,7 @@ Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🦋⌛➖⚪ (Imprint | Ultra | Time | Mindful)
-├─ 12 ➖ Rowing Sprints (250m) (high rep, low load, neural memory)
+├─ 12 ➖ Rowing Sprints (250m) (4s eccentric, breath-paced)
 │  Set 1: 🦋 45% × 12 (lock the pattern)
 Rest: 120s
 ═══

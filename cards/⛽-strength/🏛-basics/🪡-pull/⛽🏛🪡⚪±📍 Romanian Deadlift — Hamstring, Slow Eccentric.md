@@ -36,7 +36,7 @@ Rest: 360s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: ⛽🏛🪡⚪ (Supplemental | Pull | Basics | Mindful)
-├─ 6 🪡 Single-Leg Balance with Eyes Closed (full range, different angle)
+├─ 6 🪡 Single-Leg Balance with Eyes Closed (4s eccentric, breath-paced)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 240s
@@ -49,7 +49,7 @@ Rest: 240s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⛽🏛🪡⚪ (Imprint | Pull | Basics | Mindful)
-├─ 6 🪡 Single-Leg Hip Hinge (high rep, low load, neural memory)
+├─ 6 🪡 Single-Leg Hip Hinge (4s eccentric, breath-paced)
 │  Set 1: ⛽ 55% × 6 (lock the pattern)
 Rest: 240s
 ═══

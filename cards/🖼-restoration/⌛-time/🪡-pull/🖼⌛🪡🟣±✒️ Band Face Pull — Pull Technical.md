@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Stress Management: Precise positioning in restorative holds — depth over speed, accuracy over range*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — ✒️ grapho
 
 > "Precise positioning in each restorative hold. Depth over speed."
 ═══

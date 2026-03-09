@@ -34,7 +34,7 @@ Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🪐🍗🟢 (Bread & Butter | Legs | Challenge | Bodyweight)
-├─ 11 🍗 Single-Leg Hip Thrust (Barbell) (bodyweight, no external load needed)
+├─ 11 🍗 Single-Leg Hip Thrust (Dumbbell) (bodyweight, no external load needed)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)

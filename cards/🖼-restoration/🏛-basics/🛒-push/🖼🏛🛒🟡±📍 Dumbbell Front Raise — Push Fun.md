@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Field Sport Athlete: Movement exploration — unconventional patterns, play with load and position*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 📍 pono
 
 > "Explore somatic movements you would not normally try."
 ═══

@@ -17,7 +17,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 > "Learn what recovery feels like. This is a teaching session for your nervous system."
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🧲 capio
 
 > "Learn what recovery feels like. This is a teaching session for your nervous system."
 ═══

@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Stress Management: Deep parasympathetic work — breathe into each position, leave fresher than you entered*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🪵 teneo
 
 > "Breathe into each position. Leave fresher than you entered."
 ═══
@@ -38,7 +38,7 @@ Rest: 120s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🪐🍗⚪ (Imprint | Legs | Challenge | Mindful)
-├─ 15 🍗 Single-Leg Reach (Multi-Directional) (high rep, low load, neural memory)
+├─ 15 🍗 Single-Leg Reach (Multi-Directional) (4s eccentric, breath-paced)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 120s
 ═══

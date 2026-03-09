@@ -28,7 +28,7 @@ Rest: 45s
 ## 2) 🎱 ARAM — Circuit Loop
 Subcode: ⛽🏛🍗🟠 (ARAM | Legs | Basics | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
-│  Station 1: 🍗 Single-Leg Hip Thrust (Barbell) × 5 (station rotation, keep moving)
+│  Station 1: 🍗 Single-Leg Hip Thrust (Dumbbell) × 5 (station rotation, keep moving)
 │  Station 2: 🍗 Single-Leg Hip Thrust (Bodyweight) × 5 (station rotation, keep moving)
 │  Station 3: 🍗 Single-Leg Glute Bridge × 5 (station rotation, keep moving)
 │  Station 4: 🍗 Single-Leg Balance Hold × 5 (station rotation, keep moving)

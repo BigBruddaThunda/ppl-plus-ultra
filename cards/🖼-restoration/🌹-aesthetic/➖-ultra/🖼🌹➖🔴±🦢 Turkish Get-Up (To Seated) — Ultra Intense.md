@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Physique / Recomp: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🦢 plico
 
 > "Active recovery. Move enough to flush, not enough to fatigue."
 ═══

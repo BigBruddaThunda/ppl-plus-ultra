@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Flexibility / Mobility: Precise positioning in restorative holds — depth over speed, accuracy over range*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🦢 plico
 
 > "Precise positioning in each restorative hold. Depth over speed."
 ═══
