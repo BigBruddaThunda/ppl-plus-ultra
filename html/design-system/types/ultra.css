@@ -1,7 +1,18 @@
 /* =========================================
-   PPL± Design System — ➖ Ultra Type (Cardiovascular system)
-   Visual identity: conditioning/endurance/flow character
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — ➖ Ultra Type
+   Cardiovascular system, conditioning
+
+   Wing accent: Sky blue-silver
+   Physiological basis: air, oxygen, breath
+
+   Architecture: seeds/archideck-color-architecture.md
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-type="ultra"],
+.type-ultra {
+  --ppl-type-accent: hsl(200, 50%, 60%);
+  --ppl-type-accent-light: hsl(200, 35%, 78%);
+  --ppl-type-accent-dark: hsl(200, 55%, 40%);
+  --ppl-type-accent-bg: hsl(200, 30%, 95%);
+}

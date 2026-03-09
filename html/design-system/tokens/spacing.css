@@ -1,6 +1,71 @@
 /* =========================================
-   PPL± Design System — Spacing Tokens
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — Spacing Tokens
+   Intercolumniation-Based Spacing System
+
+   Classical intercolumniation types define
+   column spacing in temple architecture.
+   In Ppl± they define the horizontal rhythm
+   between content blocks, exercise entries,
+   and tree-notation branches.
+
+   Pycnostyle (1.5D) — tightest (🔴, 🏟)
+   Systyle    (2.0D) — compact  (⛽, ⚖)
+   Eustyle    (2.25D) — ideal   (🦋, 🌾)
+   Diastyle   (3.0D) — open    (🖼, ⚪)
+   Araeostyle (4.0D) — widest  (🐂)
+
+   All spacing derives from --ppl-D and
+   --ppl-intercolumniation (set by Order).
+
+   Architecture: seeds/archideck-color-architecture.md
+   Source: middle-math/design-tokens.json
+   Status: DRAFT — v1.0
    ========================================= */
+
+/* === Base Spacing Scale (D-derived) === */
+:root {
+  /* Fixed small increments — independent of intercolumniation */
+  --ppl-space-3xs: calc(var(--ppl-D) * 0.125);   /*  2px at 16px base */
+  --ppl-space-2xs: calc(var(--ppl-D) * 0.25);    /*  4px */
+  --ppl-space-xs:  calc(var(--ppl-D) * 0.5);     /*  8px */
+  --ppl-space-sm:  calc(var(--ppl-D) * 0.75);    /* 12px */
+
+  /* Intercolumniation-governed spacing — rhythmic */
+  --ppl-space-md:  calc(var(--ppl-D) * var(--ppl-intercolumniation) * 0.5);
+  --ppl-space-lg:  calc(var(--ppl-D) * var(--ppl-intercolumniation));
+  --ppl-space-xl:  calc(var(--ppl-D) * var(--ppl-intercolumniation) * 1.5);
+  --ppl-space-2xl: calc(var(--ppl-D) * var(--ppl-intercolumniation) * 2);
+  --ppl-space-3xl: calc(var(--ppl-D) * var(--ppl-intercolumniation) * 3);
+}
+
+/* === Named Intercolumniation Values === */
+:root {
+  --ppl-intercolumniation-pycnostyle: 1.5;
+  --ppl-intercolumniation-systyle:    2;
+  --ppl-intercolumniation-eustyle:    2.25;
+  --ppl-intercolumniation-diastyle:   3;
+  --ppl-intercolumniation-araeostyle: 4;
+}
+
+/* === Border Radius (D-derived) === */
+:root {
+  --ppl-radius-sm:   calc(var(--ppl-D) * 0.25);   /*  4px */
+  --ppl-radius-md:   calc(var(--ppl-D) * 0.5);    /*  8px */
+  --ppl-radius-lg:   calc(var(--ppl-D) * 1);      /* 16px */
+  --ppl-radius-xl:   calc(var(--ppl-D) * 1.5);    /* 24px */
+  --ppl-radius-pill:  9999px;
+}
+
+/* === Content Width === */
+:root {
+  --ppl-content-width-sm: calc(var(--ppl-D) * 22);   /* 352px — tight mobile */
+  --ppl-content-width-md: calc(var(--ppl-D) * 26.875); /* 430px — standard room */
+  --ppl-content-width-lg: calc(var(--ppl-D) * 40);   /* 640px — expanded */
+}
+
+/* === Golden Ratio Split ===
+   Used for content area : secondary column (1.618:1) */
+:root {
+  --ppl-golden-major: 61.8%;
+  --ppl-golden-minor: 38.2%;
+}

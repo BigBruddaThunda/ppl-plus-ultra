@@ -1,8 +1,42 @@
 /* =========================================
-   PPL± Design System — ⛽ Doric Order (Strength)
-   Visual weight: structural, load-bearing, heavy
-   Architectural name: Doric (strong, unadorned)
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — ⛽ Doric Order (Strength)
+
+   Column Height: 8D (sturdy, powerful)
+   Entablature: 2D
+   Intercolumniation: 2D (Systyle — compact)
+   Material: Pentelic marble
+   Character: Dense, focused, muscular
+   CNS: High | Load: 75–85% | Reps: 4–6
+
+   Architecture: seeds/archideck-color-architecture.md
+   Source: middle-math/design-tokens.json
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-order="strength"],
+.order-strength {
+  /* Module */
+  --ppl-D: 1rem;
+  --ppl-column-ratio: 8;
+  --ppl-intercolumniation: 2;
+  --ppl-entablature-ratio: 0.25;
+
+  /* Material — cool neutral marble */
+  --ppl-material-hue: 220;
+  --ppl-material-sat: 5%;
+  --ppl-material-warmth: 0.3;
+
+  /* Line weight — bold, assertive */
+  --ppl-line-multiplier: 1.3;
+
+  /* Shadow — sharp, defined */
+  --ppl-shadow-depth: 1.4;
+
+  /* Typography — heavy, focused, compact */
+  --ppl-weight-font-weight: 700;
+  --ppl-weight-font-weight-display: 900;
+  --ppl-weight-letter-spacing: 0.005em;
+  --ppl-weight-lineheight: 1.45;
+  --ppl-weight-spacing-multiplier: 0.85;
+  --ppl-weight-density: 0.85;
+}

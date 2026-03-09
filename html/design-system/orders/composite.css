@@ -1,8 +1,42 @@
 /* =========================================
-   PPL± Design System — 🌾 Composite Order (Full Body)
-   Visual weight: integration, unified flow
-   Architectural name: Composite (combines Ionic + Corinthian)
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — 🌾 Composite Order (Full Body)
+
+   Column Height: 10D (Ionic volutes + Corinthian leaves)
+   Entablature: 2.5D
+   Intercolumniation: 2.25D (Eustyle — ideal)
+   Material: Sandstone + terracotta
+   Character: Integration, organic, unified flow
+   CNS: Moderate | Load: ~70% | Reps: 8–10
+
+   Architecture: seeds/archideck-color-architecture.md
+   Source: middle-math/design-tokens.json
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-order="full-body"],
+.order-fullbody {
+  /* Module */
+  --ppl-D: 1rem;
+  --ppl-column-ratio: 10;
+  --ppl-intercolumniation: 2.25;
+  --ppl-entablature-ratio: 0.25;
+
+  /* Material — warm earth, textured */
+  --ppl-material-hue: 25;
+  --ppl-material-sat: 18%;
+  --ppl-material-warmth: 0.7;
+
+  /* Line weight — balanced */
+  --ppl-line-multiplier: 1.0;
+
+  /* Shadow — organic, layered (dual shadow for integration) */
+  --ppl-shadow-depth: 1.0;
+
+  /* Typography — flowing, integrated */
+  --ppl-weight-font-weight: 500;
+  --ppl-weight-font-weight-display: 650;
+  --ppl-weight-letter-spacing: 0.01em;
+  --ppl-weight-lineheight: 1.65;
+  --ppl-weight-spacing-multiplier: 1.05;
+  --ppl-weight-density: 1.05;
+}

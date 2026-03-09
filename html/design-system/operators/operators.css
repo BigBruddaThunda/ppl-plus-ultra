@@ -1,7 +1,98 @@
 /* =========================================
-   PPL± Design System — Operator Glyph Accent Styles
-   12 operators as typographic / visual accent layer
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — Operator Tints
+   12 Latin-derived training action verbs
+
+   Each operator carries a subtle tonal
+   inflection — a color of intent that tints
+   the room's header and intention block.
+
+   Derived from Axis x Color polarity.
+   See CLAUDE.md Default Operator Table.
+
+   Architecture: seeds/archideck-color-architecture.md
+   Status: DRAFT — v1.0
    ========================================= */
+
+/* ── 📍 pono (place/position) ──────────────── */
+[data-operator="pono"],
+.operator-pono {
+  --ppl-operator-tint: hsl(210, 10%, 52%);
+  --ppl-operator-tint-bg: hsl(210, 8%, 94%);
+}
+
+/* ── 🧲 capio (receive/assess) ─────────────── */
+[data-operator="capio"],
+.operator-capio {
+  --ppl-operator-tint: hsl(25, 55%, 52%);
+  --ppl-operator-tint-bg: hsl(25, 40%, 94%);
+}
+
+/* ── 🧸 fero (carry/transfer) ──────────────── */
+[data-operator="fero"],
+.operator-fero {
+  --ppl-operator-tint: hsl(18, 50%, 45%);
+  --ppl-operator-tint-bg: hsl(18, 35%, 94%);
+}
+
+/* ── 👀 specio (inspect/observe) ───────────── */
+[data-operator="specio"],
+.operator-specio {
+  --ppl-operator-tint: hsl(210, 8%, 65%);
+  --ppl-operator-tint-bg: hsl(210, 6%, 95%);
+}
+
+/* ── 🥨 tendo (extend/push limits) ─────────── */
+[data-operator="tendo"],
+.operator-tendo {
+  --ppl-operator-tint: hsl(8, 65%, 50%);
+  --ppl-operator-tint-bg: hsl(8, 45%, 94%);
+}
+
+/* ── 🤌 facio (execute/perform) ────────────── */
+[data-operator="facio"],
+.operator-facio {
+  --ppl-operator-tint: hsl(220, 12%, 40%);
+  --ppl-operator-tint-bg: hsl(220, 8%, 93%);
+}
+
+/* ── 🚀 mitto (dispatch/launch) ────────────── */
+[data-operator="mitto"],
+.operator-mitto {
+  --ppl-operator-tint: hsl(20, 80%, 50%);
+  --ppl-operator-tint-bg: hsl(20, 55%, 94%);
+}
+
+/* ── 🦢 plico (fold/superset) ──────────────── */
+[data-operator="plico"],
+.operator-plico {
+  --ppl-operator-tint: hsl(290, 40%, 58%);
+  --ppl-operator-tint-bg: hsl(290, 25%, 95%);
+}
+
+/* ── 🪵 teneo (hold/anchor) ────────────────── */
+[data-operator="teneo"],
+.operator-teneo {
+  --ppl-operator-tint: hsl(30, 45%, 42%);
+  --ppl-operator-tint-bg: hsl(30, 30%, 94%);
+}
+
+/* ── 🐋 duco (orchestrate/conduct) ─────────── */
+[data-operator="duco"],
+.operator-duco {
+  --ppl-operator-tint: hsl(185, 45%, 35%);
+  --ppl-operator-tint-bg: hsl(185, 30%, 94%);
+}
+
+/* ── ✒️ grapho (write/prescribe) ───────────── */
+[data-operator="grapho"],
+.operator-grapho {
+  --ppl-operator-tint: hsl(220, 25%, 22%);
+  --ppl-operator-tint-bg: hsl(220, 12%, 93%);
+}
+
+/* ── 🦉 logos (reason/analyze) ─────────────── */
+[data-operator="logos"],
+.operator-logos {
+  --ppl-operator-tint: hsl(40, 20%, 78%);
+  --ppl-operator-tint-bg: hsl(40, 12%, 96%);
+}

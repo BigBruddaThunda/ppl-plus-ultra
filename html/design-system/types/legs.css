@@ -1,7 +1,18 @@
 /* =========================================
-   PPL± Design System — 🍗 Legs Type (Quads, hamstrings, glutes, calves)
-   Visual identity: squat/lunge/hinge character
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — 🍗 Legs Type
+   Quads, hamstrings, glutes, calves
+
+   Wing accent: Earth brown-green
+   Physiological basis: ground contact, earth
+
+   Architecture: seeds/archideck-color-architecture.md
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-type="legs"],
+.type-legs {
+  --ppl-type-accent: hsl(85, 35%, 42%);
+  --ppl-type-accent-light: hsl(85, 25%, 70%);
+  --ppl-type-accent-dark: hsl(85, 40%, 28%);
+  --ppl-type-accent-bg: hsl(85, 20%, 95%);
+}

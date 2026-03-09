@@ -1,7 +1,18 @@
 /* =========================================
-   PPL± Design System — 🪡 Pull Type (Lats, rear delts, biceps, traps)
-   Visual identity: rowing/pulling/hinge character
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — 🪡 Pull Type
+   Lats, rear delts, biceps, traps, erectors
+
+   Wing accent: Cool blue-steel
+   Physiological basis: posterior chain, cool
+
+   Architecture: seeds/archideck-color-architecture.md
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-type="pull"],
+.type-pull {
+  --ppl-type-accent: hsl(210, 40%, 55%);
+  --ppl-type-accent-light: hsl(210, 30%, 75%);
+  --ppl-type-accent-dark: hsl(210, 45%, 38%);
+  --ppl-type-accent-bg: hsl(210, 25%, 95%);
+}

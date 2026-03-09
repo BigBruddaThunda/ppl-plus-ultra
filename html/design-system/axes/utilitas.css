@@ -1,8 +1,35 @@
 /* =========================================
-   PPL± Design System — 🔨 Utilitas Axis (Functional)
-   Layer 1 (in-workout): unilateral, standing, athletic-transfer character
-   Layer 2 (app-level): workshop floor — tools, calculators, settings
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/axis-specifications.md for dual-layer spec
+   Ppl± Design System — 🔨 Utilitas Axis (Functional)
+
+   Floor: Ground (the working floor)
+   Atmosphere: Workshop, utility corridor
+   Superposition: 1.0 (Tuscan — heaviest)
+   Shift: Saturation -15%, pragmatic
+   Typography: Condensed sans, tight tracking
+
+   Layer 1 (workout): unilateral, standing, athletic
+   Layer 2 (app): workshop floor, tools, settings
+
+   Architecture: seeds/archideck-color-architecture.md
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-axis="functional"],
+.axis-utilitas {
+  /* Floor position in superposition stack */
+  --ppl-superposition: 1.0;
+
+  /* Atmosphere — pragmatic, desaturated */
+  --ppl-atmos-brightness: 0.95;
+  --ppl-atmos-hue-shift: 0;
+  --ppl-atmos-sat-mult: 0.85;
+  --ppl-atmos-warmth: 0;
+
+  /* Gradient direction — angled (workshop) */
+  --ppl-axis-gradient-angle: 15deg;
+
+  /* Typography character — condensed, utilitarian */
+  --ppl-axis-font-family: var(--ppl-font-body);
+  --ppl-axis-tracking: -0.01em;
+  --ppl-axis-weight-bias: 0;
+}
