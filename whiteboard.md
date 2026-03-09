@@ -166,6 +166,7 @@ Creative exploration, discovery. Surprising AND useful.
 | OPEN | — | Operis editorial voice prototype | — | Write one edition in full creative register |
 | OPEN | — | Deck campaign naming pass (Deck 09 titles) | — | Review operator + title quality across 40 cards |
 | DONE | — | Abacus architecture seed | — | seeds/abacus-architecture.md — 35 training archetypes × 48 zips |
+| OPEN | — | City Compiler architecture seed | — | seeds/city-compiler-architecture.md — universal resolution engine, dual register (cathedral/watercolor), macro aggregation, RPG archetype layer, figure-ground city map |
 | OPEN | — | Platform architecture V3 (if V2 needs update) | — | After enough infrastructure lands |
 
 ---

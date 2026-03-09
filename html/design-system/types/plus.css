@@ -1,7 +1,18 @@
 /* =========================================
-   PPL± Design System — ➕ Plus Type (Full body power, core)
-   Visual identity: Olympic/plyometric/carry character
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — ➕ Plus Type
+   Full body power, core, Olympic lifts
+
+   Wing accent: Gold-bronze
+   Physiological basis: heat of effort, power
+
+   Architecture: seeds/archideck-color-architecture.md
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-type="plus"],
+.type-plus {
+  --ppl-type-accent: hsl(42, 70%, 52%);
+  --ppl-type-accent-light: hsl(42, 55%, 75%);
+  --ppl-type-accent-dark: hsl(42, 75%, 35%);
+  --ppl-type-accent-bg: hsl(42, 45%, 95%);
+}

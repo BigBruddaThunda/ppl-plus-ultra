@@ -1,8 +1,46 @@
 /* =========================================
-   PPL± Design System — 🖼 Palladian Order (Restoration)
-   Visual weight: quiet, restorative, light-footed
-   Architectural name: Palladian (harmonious, serene)
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — 🖼 Palladian Order (Restoration)
+
+   Column Height: 9.5D (serene, harmonic)
+   Entablature: 2.25D
+   Intercolumniation: 3D (Diastyle — open, airy)
+   Material: Stucco + fresco
+   Character: Unhurried, breath-paced, recovery
+   CNS: Low | Load: ≤55% | Reps: 12–15
+
+   Palladian room proportions (width:height):
+   3:2 (musical fifth) for blocks
+   4:3 (musical fourth) for headers
+
+   Architecture: seeds/archideck-color-architecture.md
+   Source: middle-math/design-tokens.json
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-order="restoration"],
+.order-restoration {
+  /* Module — gentle enlargement */
+  --ppl-D: 1.0625rem;
+  --ppl-column-ratio: 9.5;
+  --ppl-intercolumniation: 3;
+  --ppl-entablature-ratio: 0.237;
+
+  /* Material — warm cream stucco */
+  --ppl-material-hue: 40;
+  --ppl-material-sat: 15%;
+  --ppl-material-warmth: 0.8;
+
+  /* Line weight — gossamer */
+  --ppl-line-multiplier: 0.6;
+
+  /* Shadow — near zero, flat fresco */
+  --ppl-shadow-depth: 0.2;
+
+  /* Typography — light, airy, unhurried */
+  --ppl-weight-font-weight: 300;
+  --ppl-weight-font-weight-display: 400;
+  --ppl-weight-letter-spacing: 0.03em;
+  --ppl-weight-lineheight: 1.85;
+  --ppl-weight-spacing-multiplier: 1.5;
+  --ppl-weight-density: 1.5;
+}

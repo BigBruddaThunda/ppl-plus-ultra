@@ -1,8 +1,47 @@
 /* =========================================
-   PPL± Design System — ⚖ Vitruvian Order (Balance)
-   Visual weight: correction, precision, symmetry
-   Architectural name: Vitruvian (the ideal proportions)
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — ⚖ Vitruvian Order (Balance)
+
+   Column Height: 8.5D (Vitruvius's ideal proportions)
+   Entablature: 2D
+   Intercolumniation: 2.25D (Eustyle — balanced)
+   Material: Limestone
+   Character: Bilateral symmetry, corrective precision
+   CNS: Moderate | Load: ~70% | Reps: 10–12
+
+   Architecture: seeds/archideck-color-architecture.md
+   Source: middle-math/design-tokens.json
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-order="balance"],
+.order-balance {
+  /* Module — slightly tightened for detail */
+  --ppl-D: 0.9375rem;
+  --ppl-column-ratio: 8.5;
+  --ppl-intercolumniation: 2.25;
+  --ppl-entablature-ratio: 0.235;
+
+  /* Material — true neutral limestone */
+  --ppl-material-hue: 45;
+  --ppl-material-sat: 6%;
+  --ppl-material-warmth: 0.5;
+
+  /* Line weight — precise */
+  --ppl-line-multiplier: 1.1;
+
+  /* Shadow — geometrically precise, even */
+  --ppl-shadow-depth: 1.0;
+
+  /* Typography — deliberate, precise */
+  --ppl-weight-font-weight: 500;
+  --ppl-weight-font-weight-display: 600;
+  --ppl-weight-letter-spacing: 0.02em;
+  --ppl-weight-lineheight: 1.6;
+  --ppl-weight-spacing-multiplier: 0.95;
+  --ppl-weight-density: 0.95;
+}
+
+/* Vitruvian bilateral symmetry override */
+[data-order="balance"] .block {
+  text-align: center;
+}

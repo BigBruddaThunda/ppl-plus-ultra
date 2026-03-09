@@ -1,44 +1,189 @@
 /* =========================================
-   PPL± Design System — Color Tokens
+   Ppl± Design System — Color Tokens
    The 8 SCL Colors as CSS Custom Properties
-   Each color has dual identity:
-     Tonal name (from Color Context Vernacular)
-     Operational name (from SCL workout format)
-   Status: DRAFT — values are initial proposals
-   See: scl-deep/color-context-vernacular.md
-   See: seeds/art-direction.md
+
+   Each color has:
+   - Primary (the swatch)
+   - Secondary (hover/active)
+   - Background (lightest tint, ~95% L)
+   - Surface (card/container surface)
+   - Text (AA-compliant dark variant)
+   - Text on light (AA-compliant on white)
+   - Accent (darkened primary for emphasis)
+   - Border (subtle separator)
+   - Primary RGB (for rgba() usage)
+   - Shadow hue/sat (complement-tinted shadows)
+
+   Polarity:
+     Preparatory (inhale): ⚫ 🟢 ⚪ 🟡
+     Expressive  (exhale): 🔵 🟣 🔴 🟠
+
+   Complementary pairs:
+     🔴 Red    ↔ 🟢 Green   (Passion ↔ Growth)
+     🔵 Blue   ↔ 🟠 Orange  (Planning ↔ Connection)
+     🟣 Purple ↔ 🟡 Yellow  (Magnificence ↔ Play)
+     ⚫ Black  ↔ ⚪ White   (Order ↔ Eudaimonia)
+
+   Source: middle-math/design-tokens.json
+   Architecture: seeds/archideck-color-architecture.md
+   Status: DRAFT — v1.0
    ========================================= */
 
+/* ── Legacy tonal names (backwards compat) ──── */
 :root {
-  /* ⚪ Eudaimonia / Teaching — honest, genuine, clear, vulnerable */
-  --color-eudaimonia: #F5F0E8;
-  --color-eudaimonia-accent: #D4C9B8;
-
-  /* 🟡 Play / Fun — light, curious, exploratory, optional */
-  --color-play: #F2C744;
-  --color-play-accent: #D4A830;
-
-  /* 🟠 Connection / Circuit — warm, relational, inclusive, together */
-  --color-connection: #E07A3A;
-  --color-connection-accent: #C4612A;
-
-  /* 🔴 Passion / Intense — urgent, intense, high-stakes, direct */
-  --color-passion: #C0392B;
-  --color-passion-accent: #962D22;
-
-  /* ⚫ Order / Teaching — foundational, serious, non-negotiable */
   --color-order: #1A1A1A;
   --color-order-accent: #3D3D3D;
-
-  /* 🟣 Magnificence / Technical — deep, significant, precise, transformative */
-  --color-magnificence: #7B4FA2;
-  --color-magnificence-accent: #5E3C7D;
-
-  /* 🔵 Planning / Structured — structured, calm, methodical, processing */
-  --color-planning: #2E6BA6;
-  --color-planning-accent: #1E4F7D;
-
-  /* 🟢 Growth / Bodyweight — steady, sustainable, consistent, showing up */
   --color-growth: #3A7D44;
   --color-growth-accent: #2A5C32;
+  --color-planning: #2E6BA6;
+  --color-planning-accent: #1E4F7D;
+  --color-magnificence: #7B4FA2;
+  --color-magnificence-accent: #5E3C7D;
+  --color-passion: #C0392B;
+  --color-passion-accent: #962D22;
+  --color-connection: #E07A3A;
+  --color-connection-accent: #C4612A;
+  --color-play: #F2C744;
+  --color-play-accent: #D4A830;
+  --color-eudaimonia: #F5F0E8;
+  --color-eudaimonia-accent: #D4C9B8;
+}
+
+/* ── ⚫ Teaching (Order) ─────────────────────── */
+[data-color="teaching"],
+.color-teaching {
+  --ppl-theme-primary:       #1A1A1A;
+  --ppl-theme-secondary:     #2D2D2D;
+  --ppl-theme-background:    #F8F8F8;
+  --ppl-theme-surface:       #FFFFFF;
+  --ppl-theme-text:          #1A1A1A;
+  --ppl-theme-text-on-light: #1A1A1A;
+  --ppl-theme-accent:        #3D3D3D;
+  --ppl-theme-border:        #E0E0E0;
+  --ppl-theme-primary-rgb:   26, 26, 26;
+  --ppl-shadow-hue: 0;
+  --ppl-shadow-sat: 0%;
+}
+
+/* ── 🟢 Bodyweight (Growth) ──────────────────── */
+[data-color="bodyweight"],
+.color-bodyweight {
+  --ppl-theme-primary:       #3A7D44;
+  --ppl-theme-secondary:     #4A9154;
+  --ppl-theme-background:    #F0F7F1;
+  --ppl-theme-surface:       #FFFFFF;
+  --ppl-theme-text:          #1A3D1E;
+  --ppl-theme-text-on-light: #1A3D1E;
+  --ppl-theme-accent:        #2A5C32;
+  --ppl-theme-border:        #C5DEC8;
+  --ppl-theme-primary-rgb:   58, 125, 68;
+  --ppl-shadow-hue: 215;
+  --ppl-shadow-sat: 10%;
+}
+
+/* ── 🔵 Structured (Planning) ────────────────── */
+[data-color="structured"],
+.color-structured {
+  --ppl-theme-primary:       #2E6BA6;
+  --ppl-theme-secondary:     #3A7EC0;
+  --ppl-theme-background:    #EDF4FB;
+  --ppl-theme-surface:       #FFFFFF;
+  --ppl-theme-text:          #143050;
+  --ppl-theme-text-on-light: #143050;
+  --ppl-theme-accent:        #1E4F7D;
+  --ppl-theme-border:        #B8D4EC;
+  --ppl-theme-primary-rgb:   46, 107, 166;
+  --ppl-shadow-hue: 30;
+  --ppl-shadow-sat: 8%;
+}
+
+/* ── 🟣 Technical (Magnificence) ─────────────── */
+[data-color="technical"],
+.color-technical {
+  --ppl-theme-primary:       #7B4FA2;
+  --ppl-theme-secondary:     #8E62B2;
+  --ppl-theme-background:    #F3EEF8;
+  --ppl-theme-surface:       #FFFFFF;
+  --ppl-theme-text:          #3A1F50;
+  --ppl-theme-text-on-light: #3A1F50;
+  --ppl-theme-accent:        #5E3C7D;
+  --ppl-theme-border:        #D5C2E8;
+  --ppl-theme-primary-rgb:   123, 79, 162;
+  --ppl-shadow-hue: 55;
+  --ppl-shadow-sat: 8%;
+}
+
+/* ── 🔴 Intense (Passion) ────────────────────── */
+[data-color="intense"],
+.color-intense {
+  --ppl-theme-primary:       #C0392B;
+  --ppl-theme-secondary:     #D44433;
+  --ppl-theme-background:    #FDF0EE;
+  --ppl-theme-surface:       #FFFFFF;
+  --ppl-theme-text:          #5C1A13;
+  --ppl-theme-text-on-light: #5C1A13;
+  --ppl-theme-accent:        #962D22;
+  --ppl-theme-border:        #F0BCBA;
+  --ppl-theme-primary-rgb:   192, 57, 43;
+  --ppl-shadow-hue: 180;
+  --ppl-shadow-sat: 10%;
+}
+
+/* ── 🟠 Circuit (Connection) ─────────────────── */
+[data-color="circuit"],
+.color-circuit {
+  --ppl-theme-primary:       #E07A3A;
+  --ppl-theme-secondary:     #E88B50;
+  --ppl-theme-background:    #FDF5EE;
+  --ppl-theme-surface:       #FFFFFF;
+  --ppl-theme-text:          #6B3418;
+  --ppl-theme-text-on-light: #6B3418;
+  --ppl-theme-accent:        #C4612A;
+  --ppl-theme-border:        #F0CEAD;
+  --ppl-theme-primary-rgb:   224, 122, 58;
+  --ppl-shadow-hue: 210;
+  --ppl-shadow-sat: 8%;
+}
+
+/* ── 🟡 Fun (Play) ───────────────────────────── */
+[data-color="fun"],
+.color-fun {
+  --ppl-theme-primary:       #F2C744;
+  --ppl-theme-secondary:     #F5D060;
+  --ppl-theme-background:    #FDFBEE;
+  --ppl-theme-surface:       #FFFFFF;
+  --ppl-theme-text:          #5C4A12;
+  --ppl-theme-text-on-light: #5C4A12;
+  --ppl-theme-accent:        #D4A830;
+  --ppl-theme-border:        #F0E3B0;
+  --ppl-theme-primary-rgb:   242, 199, 68;
+  --ppl-shadow-hue: 240;
+  --ppl-shadow-sat: 8%;
+}
+
+/* ── ⚪ Mindful (Eudaimonia) ──────────────────── */
+[data-color="mindful"],
+.color-mindful {
+  --ppl-theme-primary:       #F5F0E8;
+  --ppl-theme-secondary:     #E8E2D8;
+  --ppl-theme-background:    #FBFAF8;
+  --ppl-theme-surface:       #FFFFFF;
+  --ppl-theme-text:          #3D3530;
+  --ppl-theme-text-on-light: #3D3530;
+  --ppl-theme-accent:        #D4C9B8;
+  --ppl-theme-border:        #D4C9B8;
+  --ppl-theme-primary-rgb:   245, 240, 232;
+  --ppl-shadow-hue: 0;
+  --ppl-shadow-sat: 0%;
+}
+
+/* ── Polarity grouping ────────────────────────── */
+[data-polarity="preparatory"] {
+  --ppl-polarity-sat-modifier: 0.85;
+  --ppl-polarity-temp-shift: -5;
+}
+
+[data-polarity="expressive"] {
+  --ppl-polarity-sat-modifier: 1.15;
+  --ppl-polarity-temp-shift: 5;
 }

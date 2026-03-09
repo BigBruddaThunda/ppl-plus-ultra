@@ -1,7 +1,151 @@
 /* =========================================
-   PPL± Design System — Master Theme
-   Composes all design tokens and category styles
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — Master Theme
+   The D-Module Rendering System
+
+   One variable generates everything:
+   --ppl-D (the column diameter)
+
+   All proportions, spacing, line weights,
+   typography, and shadows derive from D
+   modulated by the 61 SCL emoji dimensions.
+
+   Architecture: seeds/archideck-color-architecture.md
+   Tokens: middle-math/design-tokens.json
+   Spec: middle-math/weight-css-spec.md
+
+   Status: DRAFT — v1.0
    ========================================= */
+
+/* === THE MODULE: D (Column Diameter) === */
+:root {
+  --ppl-D: 1rem;
+
+  /* --- Column Ratio (Order sets this) --- */
+  --ppl-column-ratio: 8;
+
+  /* --- Intercolumniation (Order sets this) --- */
+  --ppl-intercolumniation: 2.25;
+
+  /* --- Superposition (Axis/Floor sets this) --- */
+  --ppl-superposition: 1.0;
+
+  /* --- Line Weight Multiplier (Order sets this) --- */
+  --ppl-line-multiplier: 1.0;
+
+  /* --- Material (Order sets this) --- */
+  --ppl-material-hue: 220;
+  --ppl-material-sat: 5%;
+  --ppl-material-warmth: 0.5;
+
+  /* --- Atmosphere (Axis sets this) --- */
+  --ppl-atmos-brightness: 1.0;
+  --ppl-atmos-hue-shift: 0;
+  --ppl-atmos-sat-mult: 1.0;
+  --ppl-atmos-warmth: 0;
+
+  /* --- Theme (Color sets this) --- */
+  --ppl-theme-primary: #2E6BA6;
+  --ppl-theme-secondary: #3A7EC0;
+  --ppl-theme-background: #EDF4FB;
+  --ppl-theme-surface: #FFFFFF;
+  --ppl-theme-text: #143050;
+  --ppl-theme-text-on-light: #143050;
+  --ppl-theme-accent: #1E4F7D;
+  --ppl-theme-border: #B8D4EC;
+  --ppl-theme-primary-rgb: 46, 107, 166;
+
+  /* --- Shadow (Color complement + Order depth) --- */
+  --ppl-shadow-hue: 30;
+  --ppl-shadow-sat: 8%;
+  --ppl-shadow-depth: 1.0;
+
+  /* --- Type Accent (Type sets this) --- */
+  --ppl-type-accent: hsl(210, 40%, 55%);
+
+  /* --- Operator Tint (Operator sets this) --- */
+  --ppl-operator-tint: hsl(210, 15%, 50%);
+
+  /* --- Zoom --- */
+  --ppl-zoom-sat-multiplier: 1.0;
+  --ppl-zoom-warmth-shift: 0;
+
+  /* --- Seasonal Ambient --- */
+  --ppl-season-hue-shift: 0;
+  --ppl-season-sat-modifier: 1.0;
+  --ppl-season-temp-bias: 0;
+
+  /* === DERIVED: Line Weights (from D + multiplier) === */
+  --ppl-line-hairline: calc(var(--ppl-D) * 0.0625 * var(--ppl-line-multiplier));
+  --ppl-line-fine:     calc(var(--ppl-D) * 0.075  * var(--ppl-line-multiplier));
+  --ppl-line-light:    calc(var(--ppl-D) * 0.09375 * var(--ppl-line-multiplier));
+  --ppl-line-medium:   calc(var(--ppl-D) * 0.125  * var(--ppl-line-multiplier));
+  --ppl-line-bold:     calc(var(--ppl-D) * 0.1875 * var(--ppl-line-multiplier));
+  --ppl-line-heavy:    calc(var(--ppl-D) * 0.25   * var(--ppl-line-multiplier));
+  --ppl-line-boundary: calc(var(--ppl-D) * 0.375  * var(--ppl-line-multiplier));
+
+  /* === DERIVED: Typography (from D + column ratio) === */
+  --ppl-type-caption: calc(var(--ppl-D) * 0.75);
+  --ppl-type-small:   calc(var(--ppl-D) * 0.875);
+  --ppl-type-body:    var(--ppl-D);
+  --ppl-type-h4:      calc(var(--ppl-D) * 1.125);
+  --ppl-type-h3:      calc(var(--ppl-D) * 1.25);
+  --ppl-type-h2:      calc(var(--ppl-D) * 1.5);
+  --ppl-type-h1:      calc(var(--ppl-D) * var(--ppl-column-ratio) * 0.2);
+  --ppl-type-display: calc(var(--ppl-D) * var(--ppl-column-ratio) * 0.25);
+
+  /* === DERIVED: Spacing (from D + intercolumniation) === */
+  --ppl-space-3xs: calc(var(--ppl-D) * 0.125);
+  --ppl-space-2xs: calc(var(--ppl-D) * 0.25);
+  --ppl-space-xs:  calc(var(--ppl-D) * 0.5);
+  --ppl-space-sm:  calc(var(--ppl-D) * 0.75);
+  --ppl-space-md:  calc(var(--ppl-D) * var(--ppl-intercolumniation) * 0.5);
+  --ppl-space-lg:  calc(var(--ppl-D) * var(--ppl-intercolumniation));
+  --ppl-space-xl:  calc(var(--ppl-D) * var(--ppl-intercolumniation) * 1.5);
+  --ppl-space-2xl: calc(var(--ppl-D) * var(--ppl-intercolumniation) * 2);
+  --ppl-space-3xl: calc(var(--ppl-D) * var(--ppl-intercolumniation) * 3);
+
+  /* === DERIVED: Border Radius (from D) === */
+  --ppl-radius-sm: calc(var(--ppl-D) * 0.25);
+  --ppl-radius-md: calc(var(--ppl-D) * 0.5);
+  --ppl-radius-lg: calc(var(--ppl-D) * 1);
+  --ppl-radius-xl: calc(var(--ppl-D) * 1.5);
+  --ppl-radius-pill: 9999px;
+
+  /* === DERIVED: Shadows (architectural, upper-left 45deg light) === */
+  --ppl-shadow-sm:  1px 1px 2px  hsla(var(--ppl-shadow-hue), var(--ppl-shadow-sat), 25%, calc(0.06 * var(--ppl-shadow-depth)));
+  --ppl-shadow-md:  2px 2px 4px  hsla(var(--ppl-shadow-hue), var(--ppl-shadow-sat), 25%, calc(0.09 * var(--ppl-shadow-depth)));
+  --ppl-shadow-lg:  3px 3px 8px  hsla(var(--ppl-shadow-hue), var(--ppl-shadow-sat), 25%, calc(0.12 * var(--ppl-shadow-depth)));
+  --ppl-shadow-xl:  5px 5px 12px hsla(var(--ppl-shadow-hue), var(--ppl-shadow-sat), 25%, calc(0.16 * var(--ppl-shadow-depth)));
+
+  /* === ANIMATION === */
+  --ppl-transition-instant:    75ms;
+  --ppl-transition-fast:       150ms;
+  --ppl-transition-default:    250ms;
+  --ppl-transition-slow:       400ms;
+  --ppl-transition-deliberate: 600ms;
+  --ppl-ease-standard:   cubic-bezier(0.4, 0, 0.2, 1);
+  --ppl-ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
+  --ppl-ease-accelerate: cubic-bezier(0.4, 0, 1, 1);
+
+  /* === FONT FAMILIES === */
+  --ppl-font-body:    'Inter', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, sans-serif;
+  --ppl-font-display: 'Inter', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, sans-serif;
+  --ppl-font-mono:    'JetBrains Mono', 'Fira Code', monospace;
+
+  /* === FONT WEIGHTS === */
+  --ppl-font-weight-light:   300;
+  --ppl-font-weight-regular: 400;
+  --ppl-font-weight-medium:  500;
+  --ppl-font-weight-semi:    600;
+  --ppl-font-weight-bold:    700;
+  --ppl-font-weight-heavy:   800;
+  --ppl-font-weight-black:   900;
+}
+
+/* === BACKWARDS COMPATIBILITY ===
+   Map D-module tokens to the --ppl-weight-* naming
+   used by room.css prototype */
+:root {
+  --ppl-weight-font-size-base:    var(--ppl-D);
+  --ppl-weight-font-size-display: var(--ppl-type-display);
+}

@@ -1,8 +1,42 @@
 /* =========================================
-   PPL± Design System — ⌛ Temporitas Axis (Time)
-   Layer 1 (in-workout): clock as training variable, EMOM/AMRAP character
-   Layer 2 (app-level): sundial floor — almanac, calendar, seasonal content
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/axis-specifications.md for dual-layer spec
+   Ppl± Design System — ⌛ Temporitas Axis (Time)
+
+   Floor: 2nd Floor (the clock tower)
+   Atmosphere: Fenestrated, precise, measured
+   Superposition: 0.7 (Vitruvian — calibrated)
+   Shift: Blue +10deg, precision
+   Typography: Body Inter, numbers JetBrains Mono
+
+   Layer 1 (workout): EMOM, AMRAP, density, timed
+   Layer 2 (app): sundial, almanac, calendar
+
+   Architecture: seeds/archideck-color-architecture.md
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-axis="time"],
+.axis-temporitas {
+  /* Floor position in superposition stack */
+  --ppl-superposition: 0.7;
+
+  /* Atmosphere — cool, precise, measured */
+  --ppl-atmos-brightness: 1.0;
+  --ppl-atmos-hue-shift: -10;
+  --ppl-atmos-sat-mult: 1.0;
+  --ppl-atmos-warmth: 0;
+
+  /* Gradient direction — horizontal (timeline) */
+  --ppl-axis-gradient-angle: 90deg;
+
+  /* Typography character — tabular, precise */
+  --ppl-axis-font-family: var(--ppl-font-body);
+  --ppl-axis-tracking: 0;
+  --ppl-axis-weight-bias: 0;
+}
+
+/* Temporitas number styling — monospace for tabular alignment */
+[data-axis="time"] .set-label,
+[data-axis="time"] .exercise-reps,
+[data-axis="time"] .block-rest {
+  font-family: var(--ppl-font-mono);
+}

@@ -1,6 +1,148 @@
 /* =========================================
-   PPL± Design System — Typography Tokens
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — Typography Tokens
+   D-Module Typographic System
+
+   All sizes derive from --ppl-D (column diameter)
+   and --ppl-column-ratio (Order's height-to-diameter).
+
+   The column ratio drives display type scaling:
+   Tuscan (7D) = modest display headers
+   Corinthian (10D) = commanding display headers
+
+   Font character varies by Axis (see axes/*.css).
+   Font weight and density vary by Order (see orders/*.css).
+
+   Architecture: seeds/archideck-color-architecture.md
+   Source: middle-math/design-tokens.json
+   Status: DRAFT — v1.0
    ========================================= */
+
+/* === Type Scale (D-derived ratios) === */
+:root {
+  /* Body scale — fixed ratios of D */
+  --ppl-type-micro:   calc(var(--ppl-D) * 0.625);   /* 10px at 16px base */
+  --ppl-type-caption: calc(var(--ppl-D) * 0.75);    /* 12px */
+  --ppl-type-small:   calc(var(--ppl-D) * 0.875);   /* 14px */
+  --ppl-type-body:    var(--ppl-D);                   /* 16px */
+  --ppl-type-h4:      calc(var(--ppl-D) * 1.125);   /* 18px */
+  --ppl-type-h3:      calc(var(--ppl-D) * 1.25);    /* 20px */
+  --ppl-type-h2:      calc(var(--ppl-D) * 1.5);     /* 24px */
+
+  /* Display scale — column ratio driven */
+  --ppl-type-h1:      calc(var(--ppl-D) * var(--ppl-column-ratio) * 0.2);
+  --ppl-type-display: calc(var(--ppl-D) * var(--ppl-column-ratio) * 0.25);
+  --ppl-type-hero:    calc(var(--ppl-D) * var(--ppl-column-ratio) * 0.3);
+
+  /* Entablature ratio → section header proportion */
+  --ppl-entablature-ratio: 0.25;
+  --ppl-type-section: calc(var(--ppl-D) * var(--ppl-column-ratio) * var(--ppl-entablature-ratio));
+}
+
+/* === Line Heights === */
+:root {
+  --ppl-leading-tight:     1.2;
+  --ppl-leading-snug:      1.35;
+  --ppl-leading-normal:    1.5;
+  --ppl-leading-relaxed:   1.65;
+  --ppl-leading-loose:     1.75;
+  --ppl-leading-airy:      1.85;
+}
+
+/* === Letter Spacing === */
+:root {
+  --ppl-tracking-tight:    -0.01em;
+  --ppl-tracking-snug:     0em;
+  --ppl-tracking-normal:   0.005em;
+  --ppl-tracking-relaxed:  0.015em;
+  --ppl-tracking-wide:     0.025em;
+  --ppl-tracking-display:  0.04em;
+  --ppl-tracking-mono:     0.06em;
+}
+
+/* === Font Families === */
+:root {
+  --ppl-font-body:    'Inter', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, sans-serif;
+  --ppl-font-display: 'Inter', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, sans-serif;
+  --ppl-font-mono:    'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* === Font Weights === */
+:root {
+  --ppl-font-weight-light:   300;
+  --ppl-font-weight-regular: 400;
+  --ppl-font-weight-medium:  500;
+  --ppl-font-weight-semi:    600;
+  --ppl-font-weight-bold:    700;
+  --ppl-font-weight-heavy:   800;
+  --ppl-font-weight-black:   900;
+}
+
+/* === Semantic Type Styles ===
+   These compose scale + weight + spacing.
+   Order and Axis override the component values. */
+
+/* Display: zip code, room title */
+.type-display {
+  font-size: var(--ppl-type-display);
+  font-weight: var(--ppl-weight-font-weight-display, var(--ppl-font-weight-semi));
+  letter-spacing: var(--ppl-tracking-display);
+  line-height: var(--ppl-leading-tight);
+  font-family: var(--ppl-font-display);
+}
+
+/* H1: workout title */
+.type-h1 {
+  font-size: var(--ppl-type-h1);
+  font-weight: var(--ppl-weight-font-weight-display, var(--ppl-font-weight-semi));
+  letter-spacing: var(--ppl-tracking-wide);
+  line-height: var(--ppl-leading-snug);
+}
+
+/* H2: block headers */
+.type-h2 {
+  font-size: var(--ppl-type-h2);
+  font-weight: var(--ppl-weight-font-weight, var(--ppl-font-weight-medium));
+  letter-spacing: var(--ppl-tracking-relaxed);
+  line-height: var(--ppl-leading-snug);
+}
+
+/* H3: sub-sections */
+.type-h3 {
+  font-size: var(--ppl-type-h3);
+  font-weight: var(--ppl-weight-font-weight, var(--ppl-font-weight-medium));
+  letter-spacing: var(--ppl-tracking-normal);
+  line-height: var(--ppl-leading-normal);
+}
+
+/* Body: exercise names, descriptions */
+.type-body {
+  font-size: var(--ppl-type-body);
+  font-weight: var(--ppl-weight-font-weight, var(--ppl-font-weight-regular));
+  letter-spacing: var(--ppl-weight-letter-spacing, var(--ppl-tracking-normal));
+  line-height: var(--ppl-weight-lineheight, var(--ppl-leading-relaxed));
+}
+
+/* Small: cues, annotations */
+.type-small {
+  font-size: var(--ppl-type-small);
+  font-weight: var(--ppl-font-weight-regular);
+  letter-spacing: var(--ppl-tracking-normal);
+  line-height: var(--ppl-leading-normal);
+}
+
+/* Caption: set labels, rest indicators */
+.type-caption {
+  font-size: var(--ppl-type-caption);
+  font-weight: var(--ppl-font-weight-regular);
+  letter-spacing: var(--ppl-tracking-wide);
+  line-height: var(--ppl-leading-normal);
+  text-transform: uppercase;
+}
+
+/* Mono: zip codes, set notation, data */
+.type-mono {
+  font-family: var(--ppl-font-mono);
+  font-size: var(--ppl-type-small);
+  letter-spacing: var(--ppl-tracking-mono);
+  line-height: var(--ppl-leading-normal);
+}

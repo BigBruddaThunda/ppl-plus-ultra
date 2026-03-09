@@ -1,8 +1,35 @@
 /* =========================================
-   PPL± Design System — 🐬 Sociatas Axis (Partner)
-   Layer 1 (in-workout): social training context character
-   Layer 2 (app-level): agora floor — community, social layer, discussion
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/axis-specifications.md for dual-layer spec
+   Ppl± Design System — 🐬 Sociatas Axis (Partner)
+
+   Floor: 3rd Floor (the piazza)
+   Atmosphere: Open-air, communal, warm
+   Superposition: 0.55 (Composite — integrated)
+   Shift: Warmth +10%, openness
+   Typography: Rounded sans, generous tracking and leading
+
+   Layer 1 (workout): spottable, alternating, shared
+   Layer 2 (app): agora, community, discussion
+
+   Architecture: seeds/archideck-color-architecture.md
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-axis="partner"],
+.axis-sociatas {
+  /* Floor position in superposition stack */
+  --ppl-superposition: 0.55;
+
+  /* Atmosphere — warm, open, communal */
+  --ppl-atmos-brightness: 1.05;
+  --ppl-atmos-hue-shift: 5;
+  --ppl-atmos-sat-mult: 1.0;
+  --ppl-atmos-warmth: 0.1;
+
+  /* Gradient direction — wide angle (openness) */
+  --ppl-axis-gradient-angle: 120deg;
+
+  /* Typography character — open, warm, generous */
+  --ppl-axis-font-family: var(--ppl-font-body);
+  --ppl-axis-tracking: 0.015em;
+  --ppl-axis-weight-bias: 0;
+}

@@ -1,8 +1,35 @@
 /* =========================================
-   PPL± Design System — 🏛 Firmitas Axis (Basics)
-   Layer 1 (in-workout): bilateral, barbell-first, classic character
-   Layer 2 (app-level): lobby floor — navigation hub, system map
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/axis-specifications.md for dual-layer spec
+   Ppl± Design System — 🏛 Firmitas Axis (Basics)
+
+   Floor: Piano Nobile (the noble floor)
+   Atmosphere: Grand hall, high ceiling
+   Superposition: 0.85 (Doric — strong arrival)
+   Shift: Brightness +10%, formality
+   Typography: Geometric sans, normal tracking
+
+   Layer 1 (workout): bilateral, barbell-first, classics
+   Layer 2 (app): lobby floor, navigation hub
+
+   Architecture: seeds/archideck-color-architecture.md
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-axis="basics"],
+.axis-firmitas {
+  /* Floor position in superposition stack */
+  --ppl-superposition: 0.85;
+
+  /* Atmosphere — grand, bright, formal */
+  --ppl-atmos-brightness: 1.1;
+  --ppl-atmos-hue-shift: 0;
+  --ppl-atmos-sat-mult: 1.0;
+  --ppl-atmos-warmth: 0;
+
+  /* Gradient direction — straight down (classical) */
+  --ppl-axis-gradient-angle: 0deg;
+
+  /* Typography character — stable, geometric */
+  --ppl-axis-font-family: var(--ppl-font-body);
+  --ppl-axis-tracking: 0;
+  --ppl-axis-weight-bias: 0;
+}

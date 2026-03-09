@@ -1,8 +1,212 @@
 /* =========================================
-   PPL± Design System — Block Visual Identities
-   22 session container blocks, each with distinct
-   visual character derived from its role
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — Block Visual Identities
+   22 session container blocks + SAVE
+
+   Each block has an operational function that
+   determines its color family:
+
+   Orientation  — Warm amber (arrival)
+   Access       — Cool neutral (preparation)
+   Transform    — The Color's primary (the work)
+   Retention    — Muted warm (winding down)
+   System       — Neutral (the record)
+
+   The block accent is a subtle tint on the
+   block header emoji and container border.
+   It does NOT override the room's Color palette.
+
+   Architecture: seeds/archideck-color-architecture.md
+   Status: DRAFT — v1.0
    ========================================= */
+
+/* === Orientation Blocks === */
+/* ♨️ Warm-Up */
+[data-block="warmup"],
+.block-warmup {
+  --ppl-block-accent: hsl(35, 55%, 55%);
+  --ppl-block-accent-bg: hsl(35, 35%, 96%);
+  --ppl-block-function: "orientation";
+}
+
+/* 🎯 Intention */
+[data-block="intention"],
+.block-intention {
+  --ppl-block-accent: hsl(30, 50%, 52%);
+  --ppl-block-accent-bg: hsl(30, 30%, 96%);
+  --ppl-block-function: "orientation";
+}
+
+/* === Access / Preparation Blocks === */
+/* 🔢 Fundamentals */
+[data-block="fundamentals"],
+.block-fundamentals {
+  --ppl-block-accent: hsl(210, 15%, 55%);
+  --ppl-block-accent-bg: hsl(210, 10%, 96%);
+  --ppl-block-function: "access";
+}
+
+/* 🫀 Circulation */
+[data-block="circulation"],
+.block-circulation {
+  --ppl-block-accent: hsl(0, 40%, 55%);
+  --ppl-block-accent-bg: hsl(0, 25%, 96%);
+  --ppl-block-function: "access";
+}
+
+/* ▶️ Primer */
+[data-block="primer"],
+.block-primer {
+  --ppl-block-accent: hsl(145, 25%, 48%);
+  --ppl-block-accent-bg: hsl(145, 15%, 96%);
+  --ppl-block-function: "access";
+}
+
+/* ♟️ Gambit */
+[data-block="gambit"],
+.block-gambit {
+  --ppl-block-accent: hsl(220, 20%, 45%);
+  --ppl-block-accent-bg: hsl(220, 12%, 96%);
+  --ppl-block-function: "access";
+}
+
+/* 🪜 Progression */
+[data-block="progression"],
+.block-progression {
+  --ppl-block-accent: hsl(200, 25%, 50%);
+  --ppl-block-accent-bg: hsl(200, 15%, 96%);
+  --ppl-block-function: "access";
+}
+
+/* === Transformation Blocks === */
+/* These inherit the room's primary Color.
+   The block accent is the Color itself. */
+
+/* 🧈 Bread & Butter */
+[data-block="bread-butter"],
+.block-bread-butter {
+  --ppl-block-accent: var(--ppl-theme-primary);
+  --ppl-block-accent-bg: var(--ppl-theme-background);
+  --ppl-block-function: "transformation";
+}
+
+/* 🎼 Composition */
+[data-block="composition"],
+.block-composition {
+  --ppl-block-accent: var(--ppl-theme-primary);
+  --ppl-block-accent-bg: var(--ppl-theme-background);
+  --ppl-block-function: "transformation";
+}
+
+/* 🌎 Exposure */
+[data-block="exposure"],
+.block-exposure {
+  --ppl-block-accent: var(--ppl-theme-primary);
+  --ppl-block-accent-bg: var(--ppl-theme-background);
+  --ppl-block-function: "transformation";
+}
+
+/* 🎱 ARAM */
+[data-block="aram"],
+.block-aram {
+  --ppl-block-accent: var(--ppl-theme-primary);
+  --ppl-block-accent-bg: var(--ppl-theme-background);
+  --ppl-block-function: "transformation";
+}
+
+/* 🌋 Gutter */
+[data-block="gutter"],
+.block-gutter {
+  --ppl-block-accent: var(--ppl-theme-accent);
+  --ppl-block-accent-bg: var(--ppl-theme-background);
+  --ppl-block-function: "transformation";
+}
+
+/* 🪞 Vanity */
+[data-block="vanity"],
+.block-vanity {
+  --ppl-block-accent: var(--ppl-theme-secondary);
+  --ppl-block-accent-bg: var(--ppl-theme-background);
+  --ppl-block-function: "transformation";
+}
+
+/* 🗿 Sculpt */
+[data-block="sculpt"],
+.block-sculpt {
+  --ppl-block-accent: var(--ppl-theme-primary);
+  --ppl-block-accent-bg: var(--ppl-theme-background);
+  --ppl-block-function: "transformation";
+}
+
+/* 🛠 Craft */
+[data-block="craft"],
+.block-craft {
+  --ppl-block-accent: var(--ppl-theme-primary);
+  --ppl-block-accent-bg: var(--ppl-theme-background);
+  --ppl-block-function: "transformation";
+}
+
+/* 🧩 Supplemental */
+[data-block="supplemental"],
+.block-supplemental {
+  --ppl-block-accent: var(--ppl-theme-secondary);
+  --ppl-block-accent-bg: var(--ppl-theme-background);
+  --ppl-block-function: "transformation";
+}
+
+/* 🏖 Sandbox */
+[data-block="sandbox"],
+.block-sandbox {
+  --ppl-block-accent: var(--ppl-theme-secondary);
+  --ppl-block-accent-bg: var(--ppl-theme-background);
+  --ppl-block-function: "transformation";
+}
+
+/* 🏗 Reformance */
+[data-block="reformance"],
+.block-reformance {
+  --ppl-block-accent: var(--ppl-theme-primary);
+  --ppl-block-accent-bg: var(--ppl-theme-background);
+  --ppl-block-function: "transformation";
+}
+
+/* === Retention / Transfer Blocks === */
+/* 🪫 Release */
+[data-block="release"],
+.block-release {
+  --ppl-block-accent: hsl(30, 25%, 60%);
+  --ppl-block-accent-bg: hsl(30, 15%, 96%);
+  --ppl-block-function: "retention";
+}
+
+/* 🧬 Imprint */
+[data-block="imprint"],
+.block-imprint {
+  --ppl-block-accent: hsl(35, 30%, 55%);
+  --ppl-block-accent-bg: hsl(35, 18%, 96%);
+  --ppl-block-function: "retention";
+}
+
+/* 🚂 Junction */
+[data-block="junction"],
+.block-junction {
+  --ppl-block-accent: hsl(25, 20%, 50%);
+  --ppl-block-accent-bg: hsl(25, 12%, 95%);
+  --ppl-block-function: "retention";
+}
+
+/* 🔠 Choice */
+[data-block="choice"],
+.block-choice {
+  --ppl-block-accent: hsl(40, 30%, 55%);
+  --ppl-block-accent-bg: hsl(40, 18%, 96%);
+  --ppl-block-function: "retention";
+}
+
+/* === System Block === */
+/* 🧮 SAVE */
+[data-block="save"],
+.block-save {
+  --ppl-block-accent: hsl(0, 0%, 50%);
+  --ppl-block-accent-bg: hsl(0, 0%, 96%);
+  --ppl-block-function: "system";
+}

@@ -1,8 +1,35 @@
 /* =========================================
-   PPL± Design System — 🌹 Venustas Axis (Aesthetic)
-   Layer 1 (in-workout): isolation, full ROM, mind-muscle character
-   Layer 2 (app-level): personal space — library, trophy case, journal
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/axis-specifications.md for dual-layer spec
+   Ppl± Design System — 🌹 Venustas Axis (Aesthetic)
+
+   Floor: 4th Floor (the gallery)
+   Atmosphere: Gallery, curated light
+   Superposition: 0.4 (Ionic — refined)
+   Shift: Warmth +15%, richness
+   Typography: Light sans, wide tracking, elegant
+
+   Layer 1 (workout): isolation, full ROM, feel
+   Layer 2 (app): personal space, library, journal
+
+   Architecture: seeds/archideck-color-architecture.md
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-axis="aesthetic"],
+.axis-venustas {
+  /* Floor position in superposition stack */
+  --ppl-superposition: 0.4;
+
+  /* Atmosphere — warm, curated, rich */
+  --ppl-atmos-brightness: 1.0;
+  --ppl-atmos-hue-shift: 5;
+  --ppl-atmos-sat-mult: 1.0;
+  --ppl-atmos-warmth: 0.15;
+
+  /* Gradient direction — warm diagonal */
+  --ppl-axis-gradient-angle: 30deg;
+
+  /* Typography character — light, elegant */
+  --ppl-axis-font-family: var(--ppl-font-body);
+  --ppl-axis-tracking: 0.02em;
+  --ppl-axis-weight-bias: -100;
+}

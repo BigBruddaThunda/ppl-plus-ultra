@@ -1,8 +1,35 @@
 /* =========================================
-   PPL± Design System — 🪐 Gravitas Axis (Challenge)
-   Layer 1 (in-workout): hardest variation, deficit/pause/tempo character
-   Layer 2 (app-level): arena floor — challenge board, benchmarks, competition
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/axis-specifications.md for dual-layer spec
+   Ppl± Design System — 🪐 Gravitas Axis (Challenge)
+
+   Floor: Penthouse (the summit)
+   Atmosphere: Archive, deep interior
+   Superposition: 0.25 (Corinthian — lightest)
+   Shift: Darkness +20%, weight
+   Typography: Heavy sans, tight tracking, monumental
+
+   Layer 1 (workout): hardest variation, deficit, pause
+   Layer 2 (app): arena, challenge board, benchmarks
+
+   Architecture: seeds/archideck-color-architecture.md
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-axis="challenge"],
+.axis-gravitas {
+  /* Floor position in superposition stack */
+  --ppl-superposition: 0.25;
+
+  /* Atmosphere — deep, weighted, dark */
+  --ppl-atmos-brightness: 0.8;
+  --ppl-atmos-hue-shift: 0;
+  --ppl-atmos-sat-mult: 1.0;
+  --ppl-atmos-warmth: 0;
+
+  /* Gradient direction — steep (weight) */
+  --ppl-axis-gradient-angle: 45deg;
+
+  /* Typography character — heavy, monumental */
+  --ppl-axis-font-family: var(--ppl-font-body);
+  --ppl-axis-tracking: -0.005em;
+  --ppl-axis-weight-bias: 100;
+}

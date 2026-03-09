@@ -1,8 +1,42 @@
 /* =========================================
-   PPL± Design System — 🐂 Tuscan Order (Foundation)
-   Visual weight: minimal ornament, pattern learning
-   Architectural name: Tuscan (simplest classical order)
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — 🐂 Tuscan Order (Foundation)
+
+   Column Height: 7D (simplest, lowest)
+   Entablature: 1.75D
+   Intercolumniation: 4D (Araeostyle — widest)
+   Material: Rough-hewn travertine
+   Character: Patient, unadorned, learning posture
+   CNS: Low | Load: ≤65% | Reps: 8–15
+
+   Architecture: seeds/archideck-color-architecture.md
+   Source: middle-math/design-tokens.json
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-order="foundation"],
+.order-foundation {
+  /* Module */
+  --ppl-D: 1rem;
+  --ppl-column-ratio: 7;
+  --ppl-intercolumniation: 4;
+  --ppl-entablature-ratio: 0.25;
+
+  /* Material — warm neutral travertine */
+  --ppl-material-hue: 35;
+  --ppl-material-sat: 12%;
+  --ppl-material-warmth: 0.6;
+
+  /* Line weight — lighter, forgiving */
+  --ppl-line-multiplier: 0.8;
+
+  /* Shadow — soft, diffused */
+  --ppl-shadow-depth: 0.6;
+
+  /* Typography — spacious, patient */
+  --ppl-weight-font-weight: 400;
+  --ppl-weight-font-weight-display: 600;
+  --ppl-weight-letter-spacing: 0.02em;
+  --ppl-weight-lineheight: 1.75;
+  --ppl-weight-spacing-multiplier: 1.4;
+  --ppl-weight-density: 1.4;
+}

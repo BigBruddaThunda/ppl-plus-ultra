@@ -1,8 +1,42 @@
 /* =========================================
-   PPL± Design System — 🦋 Ionic Order (Hypertrophy)
-   Visual weight: volume, flow, metabolic rhythm
-   Architectural name: Ionic (scrolled, elegant)
-   Status: SCAFFOLD — no styles yet
-   See: seeds/art-direction.md for aesthetic direction
-   See: scl-deep/ for specification source
+   Ppl± Design System — 🦋 Ionic Order (Hypertrophy)
+
+   Column Height: 9D (elegant, voluted)
+   Entablature: 2.25D
+   Intercolumniation: 2.25D (Eustyle — ideal)
+   Material: Carrara marble
+   Character: Smooth, sculpted, moderate richness
+   CNS: Moderate | Load: 65–75% | Reps: 8–12
+
+   Architecture: seeds/archideck-color-architecture.md
+   Source: middle-math/design-tokens.json
+   Status: DRAFT — v1.0
    ========================================= */
+
+[data-order="hypertrophy"],
+.order-hypertrophy {
+  /* Module */
+  --ppl-D: 1rem;
+  --ppl-column-ratio: 9;
+  --ppl-intercolumniation: 2.25;
+  --ppl-entablature-ratio: 0.25;
+
+  /* Material — warm white Carrara */
+  --ppl-material-hue: 30;
+  --ppl-material-sat: 8%;
+  --ppl-material-warmth: 0.5;
+
+  /* Line weight — balanced */
+  --ppl-line-multiplier: 1.0;
+
+  /* Shadow — medium, directional, sculpted */
+  --ppl-shadow-depth: 1.0;
+
+  /* Typography — moderate, volume-forward */
+  --ppl-weight-font-weight: 500;
+  --ppl-weight-font-weight-display: 700;
+  --ppl-weight-letter-spacing: 0.015em;
+  --ppl-weight-lineheight: 1.6;
+  --ppl-weight-spacing-multiplier: 1.0;
+  --ppl-weight-density: 1.0;
+}
