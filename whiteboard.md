@@ -61,6 +61,7 @@ Systematic, templated, institutional. Follow the pattern.
 | DONE | — | Deck 07 retrofit regen queue (18 cards) | — | DONE — Deck 07 debt cleared, all 40 cards meet V2 standard. |
 | OPEN | — | Operis Contract A/B URL enforcement | — | P1 missing source URLs, P2 missing per-lane URLs |
 | OPEN | — | Re-run Operis V4 pipeline test (2024-07-26) | Contract A/B fix | After URL/schema patching |
+| OPEN | CX-44 | Build Sequence V2 — multi-agent workflow contracts | — | `seeds/claude-code-build-sequence-v2.md` — 20 sessions, 5 waves, 3 Jake sessions, supersedes V1 |
 
 ---
 
