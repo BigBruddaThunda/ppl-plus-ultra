@@ -361,4 +361,24 @@ Selecting multiple abaci is living in multiple neighborhoods. A user running bot
 
 ---
 
+## Intercolumniation Profile per Abacus
+
+Each of the 35 archetypes carries an expected recovery demand reflecting how much inter-session recovery its typical zip-code rotation requires. The Powerlifting abacus has higher intercolumniation requirements than the Active Recovery abacus — its working slots concentrate in ⛽ Strength and 🏟 Performance Orders with high CNS demand, while the Active Recovery abacus lives primarily in 🖼 Restoration and 🐂 Foundation Orders with low CNS cost.
+
+**Field:** `intercolumniation_demand` (1–5 scale)
+
+| Scale | Meaning | Example Abaci |
+|-------|---------|---------------|
+| 1 | Minimal recovery between sessions | Active Recovery, Mobility, Restoration |
+| 2 | Light recovery, daily training viable | Foundation, Bodyweight, Flexibility |
+| 3 | Standard recovery, 3–5 sessions/week | General Fitness, Hypertrophy, Calisthenics |
+| 4 | Elevated recovery, 3–4 sessions/week | Strength, Athletic Performance, Olympic Lifting |
+| 5 | Full rest days required between high-CNS sessions | Powerlifting, Strongman, Peak Performance |
+
+This field feeds the intercolumniation engine (see `seeds/heros-almanac-v8-architecture.md`, Section 8). When a user selects multiple abaci with different intercolumniation demands, the rotation engine uses the highest-demand abacus to gate session frequency. The recovery profile also adjusts based on the user's personal vector — a user whose Almanac data indicates high recovery capacity can sustain higher-demand rotations than the abacus default suggests.
+
+Future expansion: per-exercise `cns_load`, `primary_recovery_group`, and `recovery_hours_estimate` fields in the exercise library schema will provide granular recovery data beneath the abacus-level demand score.
+
+---
+
 🧮
