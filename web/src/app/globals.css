@@ -1,9 +1,36 @@
 @import "tailwindcss";
 
-/* ── PPL± Design System ── */
+/* ══════════════════════════════════════════
+   Ppl± Design System — D-Module CSS
+   Source: html/design-system/theme.css
+
+   One variable generates everything:
+   --ppl-D (the column diameter)
+
+   All proportions, spacing, line weights,
+   typography, and shadows derive from D
+   modulated by Order, Color, and Axis.
+   ══════════════════════════════════════════ */
 
 :root {
-  /* Default tokens — overridden per-room via CSS custom properties */
+  /* === THE MODULE: D (Column Diameter) === */
+  --ppl-D: 1rem;
+
+  /* --- Order sets these --- */
+  --ppl-column-ratio: 8;
+  --ppl-intercolumniation: 2.25;
+  --ppl-entablature-ratio: 0.25;
+  --ppl-line-multiplier: 1.0;
+
+  /* --- Material (Order sets this) --- */
+  --ppl-material-hue: 220;
+  --ppl-material-sat: 5%;
+  --ppl-material-warmth: 0.5;
+
+  /* --- Shadow (Color complement + Order depth) --- */
+  --ppl-shadow-depth: 1.0;
+
+  /* --- Color tokens (Color sets these) --- */
   --ppl-primary: #1A1A1A;
   --ppl-secondary: #2D2D2D;
   --ppl-background: #F8F8F8;
@@ -12,14 +39,69 @@
   --ppl-accent: #3D3D3D;
   --ppl-border: #E0E0E0;
 
-  --ppl-font-size-base: 1rem;
-  --ppl-font-size-display: 1.75rem;
-  --ppl-font-weight: 400;
-  --ppl-font-weight-display: 600;
-  --ppl-letter-spacing: 0.02em;
-  --ppl-line-height: 1.75;
+  /* --- Typography weights (Order sets these) --- */
+  --ppl-weight-font-weight: 400;
+  --ppl-weight-font-weight-display: 600;
+  --ppl-weight-letter-spacing: 0.02em;
+  --ppl-weight-lineheight: 1.75;
+  --ppl-weight-spacing-multiplier: 1.0;
+  --ppl-weight-density: 1.0;
 
-  --font-body: 'Inter', 'Helvetica Neue', sans-serif;
+  /* === DERIVED: Line Weights (from D + multiplier) === */
+  --ppl-line-hairline: calc(var(--ppl-D) * 0.0625 * var(--ppl-line-multiplier));
+  --ppl-line-fine:     calc(var(--ppl-D) * 0.075  * var(--ppl-line-multiplier));
+  --ppl-line-light:    calc(var(--ppl-D) * 0.09375 * var(--ppl-line-multiplier));
+  --ppl-line-medium:   calc(var(--ppl-D) * 0.125  * var(--ppl-line-multiplier));
+  --ppl-line-bold:     calc(var(--ppl-D) * 0.1875 * var(--ppl-line-multiplier));
+  --ppl-line-heavy:    calc(var(--ppl-D) * 0.25   * var(--ppl-line-multiplier));
+  --ppl-line-boundary: calc(var(--ppl-D) * 0.375  * var(--ppl-line-multiplier));
+
+  /* === DERIVED: Typography Scale (from D + column ratio) === */
+  --ppl-type-caption: calc(var(--ppl-D) * 0.75);
+  --ppl-type-small:   calc(var(--ppl-D) * 0.875);
+  --ppl-type-body:    var(--ppl-D);
+  --ppl-type-h4:      calc(var(--ppl-D) * 1.125);
+  --ppl-type-h3:      calc(var(--ppl-D) * 1.25);
+  --ppl-type-h2:      calc(var(--ppl-D) * 1.5);
+  --ppl-type-h1:      calc(var(--ppl-D) * var(--ppl-column-ratio) * 0.2);
+  --ppl-type-display: calc(var(--ppl-D) * var(--ppl-column-ratio) * 0.25);
+
+  /* === DERIVED: Spacing (from D + intercolumniation) === */
+  --ppl-space-3xs: calc(var(--ppl-D) * 0.125);
+  --ppl-space-2xs: calc(var(--ppl-D) * 0.25);
+  --ppl-space-xs:  calc(var(--ppl-D) * 0.5);
+  --ppl-space-sm:  calc(var(--ppl-D) * 0.75);
+  --ppl-space-md:  calc(var(--ppl-D) * var(--ppl-intercolumniation) * 0.5);
+  --ppl-space-lg:  calc(var(--ppl-D) * var(--ppl-intercolumniation));
+  --ppl-space-xl:  calc(var(--ppl-D) * var(--ppl-intercolumniation) * 1.5);
+  --ppl-space-2xl: calc(var(--ppl-D) * var(--ppl-intercolumniation) * 2);
+  --ppl-space-3xl: calc(var(--ppl-D) * var(--ppl-intercolumniation) * 3);
+
+  /* === DERIVED: Border Radius (from D) === */
+  --ppl-radius-sm: calc(var(--ppl-D) * 0.25);
+  --ppl-radius-md: calc(var(--ppl-D) * 0.5);
+  --ppl-radius-lg: calc(var(--ppl-D) * 1);
+  --ppl-radius-xl: calc(var(--ppl-D) * 1.5);
+  --ppl-radius-pill: 9999px;
+
+  /* === DERIVED: Shadows (architectural, upper-left 45deg light) === */
+  --ppl-shadow-sm:  1px 1px 2px  hsla(var(--ppl-material-hue), var(--ppl-material-sat), 25%, calc(0.06 * var(--ppl-shadow-depth)));
+  --ppl-shadow-md:  2px 2px 4px  hsla(var(--ppl-material-hue), var(--ppl-material-sat), 25%, calc(0.09 * var(--ppl-shadow-depth)));
+  --ppl-shadow-lg:  3px 3px 8px  hsla(var(--ppl-material-hue), var(--ppl-material-sat), 25%, calc(0.12 * var(--ppl-shadow-depth)));
+  --ppl-shadow-xl:  5px 5px 12px hsla(var(--ppl-material-hue), var(--ppl-material-sat), 25%, calc(0.16 * var(--ppl-shadow-depth)));
+
+  /* === ANIMATION === */
+  --ppl-transition-instant:    75ms;
+  --ppl-transition-fast:       150ms;
+  --ppl-transition-default:    250ms;
+  --ppl-transition-slow:       400ms;
+  --ppl-transition-deliberate: 600ms;
+  --ppl-ease-standard:   cubic-bezier(0.4, 0, 0.2, 1);
+  --ppl-ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
+  --ppl-ease-accelerate: cubic-bezier(0.4, 0, 1, 1);
+
+  /* === FONT FAMILIES === */
+  --font-body: 'Inter', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 }
 
@@ -39,26 +121,8 @@ body {
   background: var(--ppl-background);
   color: var(--ppl-text);
   font-family: var(--font-body);
-  font-size: var(--ppl-font-size-base);
-  font-weight: var(--ppl-font-weight);
-  letter-spacing: var(--ppl-letter-spacing);
-  line-height: var(--ppl-line-height);
+  font-size: var(--ppl-type-body);
+  font-weight: var(--ppl-weight-font-weight);
+  letter-spacing: var(--ppl-weight-letter-spacing);
+  line-height: var(--ppl-weight-lineheight);
 }
-
-/* ── Spacing scale ── */
-.space-2xs { --space: 2px; }
-.space-xs  { --space: 4px; }
-.space-sm  { --space: 8px; }
-.space-md  { --space: 16px; }
-.space-lg  { --space: 24px; }
-.space-xl  { --space: 40px; }
-.space-2xl { --space: 64px; }
-.space-3xl { --space: 96px; }
-.space-4xl { --space: 128px; }
-
-/* ── Animation tokens ── */
-.transition-instant    { transition-duration: 75ms; }
-.transition-fast       { transition-duration: 150ms; }
-.transition-default    { transition-duration: 250ms; }
-.transition-slow       { transition-duration: 400ms; }
-.transition-deliberate { transition-duration: 600ms; }
