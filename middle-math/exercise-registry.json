@@ -9144,7 +9144,6 @@
     "name": "Band Pull-Apart",
     "canonical_name": "Band Pull-Apart",
     "scl_types": [
-      "Push",
       "Pull"
     ],
     "order_relevance": [
@@ -11563,8 +11562,7 @@
     "name": "Scapular Push-Up",
     "canonical_name": "Scapular Push-Up",
     "scl_types": [
-      "Push",
-      "Pull"
+      "Push"
     ],
     "order_relevance": [
       "Foundation",
@@ -13770,8 +13768,7 @@
     "name": "Single-Arm Overhead Carry",
     "canonical_name": "Single-Arm Overhead Carry",
     "scl_types": [
-      "Push",
-      "Pull"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -14670,8 +14667,7 @@
     "name": "Kettlebell Snatch",
     "canonical_name": "Kettlebell Snatch",
     "scl_types": [
-      "Push",
-      "Pull"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -41088,8 +41084,7 @@
     "name": "Band Pull-Apart",
     "canonical_name": "Band Pull-Apart",
     "scl_types": [
-      "Pull",
-      "Plus"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -51780,8 +51775,7 @@
     "name": "Seated Good Morning",
     "canonical_name": "Seated Good Morning",
     "scl_types": [
-      "Pull",
-      "Plus"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -53400,7 +53394,6 @@
     "name": "Single-Arm Kettlebell Swing",
     "canonical_name": "Single-Arm Kettlebell Swing",
     "scl_types": [
-      "Pull",
       "Plus"
     ],
     "order_relevance": [
@@ -54660,7 +54653,6 @@
     "name": "Sandbag Carry",
     "canonical_name": "Sandbag Carry",
     "scl_types": [
-      "Pull",
       "Plus"
     ],
     "order_relevance": [
@@ -75264,8 +75256,7 @@
     "name": "Sandbag Carry",
     "canonical_name": "Sandbag Carry",
     "scl_types": [
-      "Push",
-      "Pull"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -91356,7 +91347,8 @@
     "name": "Tuck Jump",
     "canonical_name": "Tuck Jump",
     "scl_types": [
-      "Plus"
+      "Plus",
+      "Legs"
     ],
     "order_relevance": [
       "Foundation",
@@ -105487,8 +105479,8 @@
     "name": "BOSU Ball Single-Leg Balance",
     "canonical_name": "BOSU Ball Single-Leg Balance",
     "scl_types": [
-      "Pull",
-      "Legs"
+      "Legs",
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -121708,6 +121700,7 @@
     "name": "Box Jump",
     "canonical_name": "Box Jump",
     "scl_types": [
+      "Plus",
       "Legs"
     ],
     "order_relevance": [
@@ -126067,7 +126060,7 @@
     "name": "Single-Arm Kettlebell Swing",
     "canonical_name": "Single-Arm Kettlebell Swing",
     "scl_types": [
-      "Legs"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -126337,7 +126330,7 @@
     "name": "Seated Good Morning",
     "canonical_name": "Seated Good Morning",
     "scl_types": [
-      "Legs"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -134635,6 +134628,7 @@
     "name": "Single-Leg Pogo Hops",
     "canonical_name": "Single-Leg Pogo Hops",
     "scl_types": [
+      "Plus",
       "Legs"
     ],
     "order_relevance": [
@@ -134902,7 +134896,7 @@
     "name": "Jump Rope",
     "canonical_name": "Jump Rope",
     "scl_types": [
-      "Legs"
+      "Ultra"
     ],
     "order_relevance": [
       "Foundation",
@@ -134991,7 +134985,7 @@
     "name": "Double-Unders (Jump Rope)",
     "canonical_name": "Double-Unders (Jump Rope)",
     "scl_types": [
-      "Legs"
+      "Ultra"
     ],
     "order_relevance": [
       "Foundation",
@@ -135080,7 +135074,7 @@
     "name": "Single-Leg Jump Rope",
     "canonical_name": "Single-Leg Jump Rope",
     "scl_types": [
-      "Legs"
+      "Ultra"
     ],
     "order_relevance": [
       "Foundation",
@@ -137032,7 +137026,8 @@
     "name": "BOSU Ball Single-Leg Balance",
     "canonical_name": "BOSU Ball Single-Leg Balance",
     "scl_types": [
-      "Legs"
+      "Legs",
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -145847,7 +145842,8 @@
     "name": "Box Jump",
     "canonical_name": "Box Jump",
     "scl_types": [
-      "Plus"
+      "Plus",
+      "Legs"
     ],
     "order_relevance": [
       "Strength",
@@ -146503,7 +146499,8 @@
     "name": "Tuck Jump",
     "canonical_name": "Tuck Jump",
     "scl_types": [
-      "Plus"
+      "Plus",
+      "Legs"
     ],
     "order_relevance": [
       "Strength",
@@ -148963,7 +148960,8 @@
     "name": "Single-Leg Pogo Hops",
     "canonical_name": "Single-Leg Pogo Hops",
     "scl_types": [
-      "Plus"
+      "Plus",
+      "Legs"
     ],
     "order_relevance": [
       "Strength",
@@ -151177,11 +151175,7 @@
     "name": "Kettlebell Swing (Two-Hand)",
     "canonical_name": "Kettlebell Swing (Two-Hand)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -151267,11 +151261,7 @@
     "name": "Kettlebell Swing (Single-Arm)",
     "canonical_name": "Kettlebell Swing (Single-Arm)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -151357,11 +151347,7 @@
     "name": "Kettlebell Swing (Alternating Arms)",
     "canonical_name": "Kettlebell Swing (Alternating Arms)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -151447,11 +151433,7 @@
     "name": "American Swing (Overhead)",
     "canonical_name": "American Swing (Overhead)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -151535,11 +151517,7 @@
     "name": "Single-Arm American Swing",
     "canonical_name": "Single-Arm American Swing",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -151623,11 +151601,7 @@
     "name": "Heavy Swing (Power Focus)",
     "canonical_name": "Heavy Swing (Power Focus)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -151711,11 +151685,7 @@
     "name": "Dead Stop Swing (Reset Between Reps)",
     "canonical_name": "Dead Stop Swing (Reset Between Reps)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -151799,11 +151769,7 @@
     "name": "Double Kettlebell Swing",
     "canonical_name": "Double Kettlebell Swing",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -151889,11 +151855,7 @@
     "name": "Single-Leg Swing",
     "canonical_name": "Single-Leg Swing",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -151977,11 +151939,7 @@
     "name": "Swing to High Pull",
     "canonical_name": "Swing to High Pull",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -152065,11 +152023,7 @@
     "name": "Swing + Clean (Combo)",
     "canonical_name": "Swing + Clean (Combo)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -152153,11 +152107,7 @@
     "name": "Swing + Snatch (Combo)",
     "canonical_name": "Swing + Snatch (Combo)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -152241,11 +152191,7 @@
     "name": "Turkish Get-Up (Full)",
     "canonical_name": "Turkish Get-Up (Full)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -152329,11 +152275,7 @@
     "name": "Half Turkish Get-Up (To Elbow)",
     "canonical_name": "Half Turkish Get-Up (To Elbow)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -152417,11 +152359,7 @@
     "name": "Turkish Get-Up (To Seated)",
     "canonical_name": "Turkish Get-Up (To Seated)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -152505,11 +152443,7 @@
     "name": "Turkish Get-Up (To Kneeling)",
     "canonical_name": "Turkish Get-Up (To Kneeling)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -152593,11 +152527,7 @@
     "name": "Bottoms-Up Turkish Get-Up",
     "canonical_name": "Bottoms-Up Turkish Get-Up",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -152681,11 +152611,7 @@
     "name": "Double Kettlebell Get-Up",
     "canonical_name": "Double Kettlebell Get-Up",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -152771,11 +152697,7 @@
     "name": "Slow Turkish Get-Up (10+ Seconds Per Position)",
     "canonical_name": "Slow Turkish Get-Up (10+ Seconds Per Position)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -152859,11 +152781,7 @@
     "name": "Naked Get-Up (Bodyweight Only)",
     "canonical_name": "Naked Get-Up (Bodyweight Only)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -152949,11 +152867,7 @@
     "name": "Farmer's Carry (Double Kettlebell)",
     "canonical_name": "Farmer's Carry (Double Kettlebell)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -153039,11 +152953,7 @@
     "name": "Suitcase Carry (Single-Arm)",
     "canonical_name": "Suitcase Carry (Single-Arm)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -153127,11 +153037,7 @@
     "name": "Rack Carry (Single Kettlebell)",
     "canonical_name": "Rack Carry (Single Kettlebell)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -153217,11 +153123,7 @@
     "name": "Rack Carry (Double Kettlebell)",
     "canonical_name": "Rack Carry (Double Kettlebell)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -153307,11 +153209,7 @@
     "name": "Overhead Carry (Single Kettlebell)",
     "canonical_name": "Overhead Carry (Single Kettlebell)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -153397,11 +153295,7 @@
     "name": "Overhead Carry (Double Kettlebell)",
     "canonical_name": "Overhead Carry (Double Kettlebell)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -153487,11 +153381,7 @@
     "name": "Waiter's Carry (Bottoms-Up)",
     "canonical_name": "Waiter's Carry (Bottoms-Up)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -153575,11 +153465,7 @@
     "name": "Mixed Carry (Rack + Overhead)",
     "canonical_name": "Mixed Carry (Rack + Overhead)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -153663,11 +153549,7 @@
     "name": "Goblet Hold (Static Squat)",
     "canonical_name": "Goblet Hold (Static Squat)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Legs"
     ],
     "order_relevance": [
       "Foundation",
@@ -153751,11 +153633,7 @@
     "name": "Rack Hold (Isometric)",
     "canonical_name": "Rack Hold (Isometric)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -153839,11 +153717,7 @@
     "name": "Overhead Hold (Isometric)",
     "canonical_name": "Overhead Hold (Isometric)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -153927,11 +153801,7 @@
     "name": "Bottoms-Up Hold (Grip Challenge)",
     "canonical_name": "Bottoms-Up Hold (Grip Challenge)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -154015,11 +153885,7 @@
     "name": "Kettlebell Snatch (Single-Arm)",
     "canonical_name": "Kettlebell Snatch (Single-Arm)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -154105,11 +153971,7 @@
     "name": "Kettlebell High Pull",
     "canonical_name": "Kettlebell High Pull",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -154195,11 +154057,7 @@
     "name": "Kettlebell Clean (Single)",
     "canonical_name": "Kettlebell Clean (Single)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -154285,11 +154143,7 @@
     "name": "Kettlebell Clean (Double)",
     "canonical_name": "Kettlebell Clean (Double)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -154375,11 +154229,7 @@
     "name": "Kettlebell Jerk (Double)",
     "canonical_name": "Kettlebell Jerk (Double)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -154465,11 +154315,7 @@
     "name": "Kettlebell Long Cycle (Clean + Jerk)",
     "canonical_name": "Kettlebell Long Cycle (Clean + Jerk)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -154555,11 +154401,7 @@
     "name": "Kettlebell Push Press (Single)",
     "canonical_name": "Kettlebell Push Press (Single)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Push"
     ],
     "order_relevance": [
       "Foundation",
@@ -154645,11 +154487,7 @@
     "name": "Kettlebell Push Press (Double)",
     "canonical_name": "Kettlebell Push Press (Double)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Push"
     ],
     "order_relevance": [
       "Foundation",
@@ -154735,11 +154573,7 @@
     "name": "Alternating Kettlebell Snatch",
     "canonical_name": "Alternating Kettlebell Snatch",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -154825,11 +154659,7 @@
     "name": "Dead Snatch (From Floor)",
     "canonical_name": "Dead Snatch (From Floor)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -154913,11 +154743,7 @@
     "name": "Kettlebell Goblet Squat",
     "canonical_name": "Kettlebell Goblet Squat",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Legs"
     ],
     "order_relevance": [
       "Foundation",
@@ -155003,11 +154829,7 @@
     "name": "Double Kettlebell Front Squat",
     "canonical_name": "Double Kettlebell Front Squat",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Legs"
     ],
     "order_relevance": [
       "Foundation",
@@ -155093,11 +154915,7 @@
     "name": "Kettlebell Overhead Squat",
     "canonical_name": "Kettlebell Overhead Squat",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Legs"
     ],
     "order_relevance": [
       "Foundation",
@@ -155183,11 +155001,7 @@
     "name": "Kettlebell Lunge (Goblet Hold)",
     "canonical_name": "Kettlebell Lunge (Goblet Hold)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Legs"
     ],
     "order_relevance": [
       "Foundation",
@@ -155273,11 +155087,7 @@
     "name": "Double Kettlebell Lunge (Rack Position)",
     "canonical_name": "Double Kettlebell Lunge (Rack Position)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Legs"
     ],
     "order_relevance": [
       "Foundation",
@@ -155363,11 +155173,7 @@
     "name": "Kettlebell Overhead Lunge",
     "canonical_name": "Kettlebell Overhead Lunge",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Legs"
     ],
     "order_relevance": [
       "Foundation",
@@ -155453,11 +155259,7 @@
     "name": "Kettlebell Military Press (Single)",
     "canonical_name": "Kettlebell Military Press (Single)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Push"
     ],
     "order_relevance": [
       "Foundation",
@@ -155543,11 +155345,7 @@
     "name": "Kettlebell Military Press (Double)",
     "canonical_name": "Kettlebell Military Press (Double)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Push"
     ],
     "order_relevance": [
       "Foundation",
@@ -155633,11 +155431,7 @@
     "name": "Bottoms-Up Press",
     "canonical_name": "Bottoms-Up Press",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Push"
     ],
     "order_relevance": [
       "Foundation",
@@ -155721,11 +155515,7 @@
     "name": "Kettlebell Floor Press (Single)",
     "canonical_name": "Kettlebell Floor Press (Single)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Push"
     ],
     "order_relevance": [
       "Foundation",
@@ -155811,11 +155601,7 @@
     "name": "Kettlebell Floor Press (Double)",
     "canonical_name": "Kettlebell Floor Press (Double)",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Push"
     ],
     "order_relevance": [
       "Foundation",
@@ -155901,11 +155687,7 @@
     "name": "Kettlebell Windmill",
     "canonical_name": "Kettlebell Windmill",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Plus"
     ],
     "order_relevance": [
       "Foundation",
@@ -155991,11 +155773,7 @@
     "name": "Kettlebell Bent Press",
     "canonical_name": "Kettlebell Bent Press",
     "scl_types": [
-      "Push",
-      "Pull",
-      "Legs",
-      "Plus",
-      "Ultra"
+      "Pull"
     ],
     "order_relevance": [
       "Foundation",
@@ -170550,7 +170328,7 @@
     "name": "Standing Quad Stretch",
     "canonical_name": "Standing Quad Stretch",
     "scl_types": [
-      "Plus"
+      "Legs"
     ],
     "order_relevance": [
       "Foundation",

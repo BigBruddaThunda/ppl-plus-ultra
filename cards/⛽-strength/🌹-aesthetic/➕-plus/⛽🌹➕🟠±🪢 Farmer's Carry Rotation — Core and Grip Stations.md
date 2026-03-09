@@ -19,7 +19,7 @@ blocks: ♨️ ▶️ 🧈 🎱 🪫 🚂
 
 *Endurance Sport Cross-Training: Skill circuit — rotate through craft-specific stations*
 ═══
-## 1) ♨️ Warm-Up — 🪢 plico
+## 1) ♨️ Warm-Up — 🪢 plico — 🦢
 Subcode: ⛽🌹➕🟠 (Warm-Up | Plus | Aesthetic | Circuit)
 ├─ 6 ➕ American Swing (Overhead) (station rotation, keep moving)
 │  Set 1: ⛽ 60% × 6 (pattern prep)

@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Endurance Sport Cross-Training: Teaches the craft-specific positions, timing, and coordination demands*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🐋 duco
 
 > "Learn what recovery feels like. This is a teaching session for your nervous system."
 ═══

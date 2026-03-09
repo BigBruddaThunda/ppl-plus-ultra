@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Field Sport Athlete: Prescribed functional progressions — track load, complexity, and movement quality*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🦉 logos
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
 ═══

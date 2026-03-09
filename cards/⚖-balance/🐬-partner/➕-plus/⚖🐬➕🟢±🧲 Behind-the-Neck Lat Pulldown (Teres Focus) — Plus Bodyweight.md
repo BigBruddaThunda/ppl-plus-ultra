@@ -49,7 +49,7 @@ Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🐬➕🟢 (Release | Plus | Partner | Bodyweight)
-├─ 12 ➕ Good Morning (Barbell) (smooth tempo, downshift)
+├─ 12 ➕ Good Morning (Dumbbell) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

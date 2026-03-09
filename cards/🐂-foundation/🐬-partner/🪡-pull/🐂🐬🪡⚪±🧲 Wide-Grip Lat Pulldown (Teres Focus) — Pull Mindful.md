@@ -35,7 +35,7 @@ Rest: 150s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🐂🐬🪡⚪ (Supplemental | Pull | Partner | Mindful)
-├─ 13 🪡 Archer Pull-Up (full range, different angle)
+├─ 13 🪡 Archer Pull-Up (4s eccentric, breath-paced)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 120s
@@ -48,7 +48,7 @@ Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🐬🪡⚪ (Imprint | Pull | Partner | Mindful)
-├─ 15 🪡 Single-Arm Dumbbell Row (high rep, low load, neural memory)
+├─ 15 🪡 Single-Arm Dumbbell Row (4s eccentric, breath-paced)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 120s
 ═══

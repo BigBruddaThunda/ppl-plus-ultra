@@ -35,7 +35,7 @@ Rest: 360s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: ⛽⌛➕⚪ (Supplemental | Plus | Time | Mindful)
-├─ 6 ➕ Walking Leg Cradle (full range, different angle)
+├─ 6 ➕ Walking Leg Cradle (4s eccentric, breath-paced)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 240s
@@ -48,7 +48,7 @@ Rest: 240s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⛽⌛➕⚪ (Imprint | Plus | Time | Mindful)
-├─ 6 ➕ Inchworm Walkout (high rep, low load, neural memory)
+├─ 6 ➕ Inchworm Walkout (4s eccentric, breath-paced)
 │  Set 1: ⛽ 55% × 6 (lock the pattern)
 Rest: 240s
 ═══

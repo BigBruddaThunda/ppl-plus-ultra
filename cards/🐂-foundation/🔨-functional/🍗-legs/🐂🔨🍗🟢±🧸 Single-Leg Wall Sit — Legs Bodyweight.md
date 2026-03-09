@@ -21,7 +21,7 @@ blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ═══
 ## 1) ♨️ Warm-Up — 🧸 fero
 Subcode: 🐂🔨🍗🟢 (Warm-Up | Legs | Functional | Bodyweight)
-├─ 12 🍗 Single-Leg Hip Thrust (Barbell) (bodyweight, no external load needed)
+├─ 12 🍗 Single-Leg Hip Thrust (Dumbbell) (bodyweight, no external load needed)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 60s
 ═══

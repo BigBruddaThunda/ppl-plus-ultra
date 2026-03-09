@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Kettlebell Strength: Linear progression tracking — same weight, same reps, add load when form holds*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🚀 mitto
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
 ═══

@@ -19,7 +19,7 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 
 *Bodybuilding: Precision isolation — feel every fiber, full ROM, cable and machine emphasis*
 ═══
-## 1) ♨️ Warm-Up — 🪢 plico
+## 1) ♨️ Warm-Up — 🪢 plico — 🦢
 Subcode: ⛽🌹🍗🟣 (Warm-Up | Legs | Aesthetic | Technical)
 ├─ 6 🍗 Single-Leg Hip Thrust (Bodyweight) (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)

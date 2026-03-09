@@ -21,7 +21,7 @@ blocks: ♨️ ▶️ 🧈 🗿 🪞/🧩 🪫 🚂
 ═══
 ## 1) ♨️ Warm-Up — 🧲 capio
 Subcode: 🦋🐬🍗🟢 (Warm-Up | Legs | Partner | Bodyweight)
-├─ 12 🍗 Single-Leg Hip Thrust (Barbell) (bodyweight, no external load needed)
+├─ 12 🍗 Single-Leg Hip Thrust (Dumbbell) (bodyweight, no external load needed)
 │  Set 1: 🦋 50% × 12 (pattern prep)
 Rest: 60s
 ═══

@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Field Sport Athlete: Controlled functional movement — slow transitions, balance holds, proprioception*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 👀 specio
 
 > "Breathe into each position. Leave fresher than you entered."
 ═══
@@ -38,7 +38,7 @@ Rest: 120s
 ═══
 ## 4) 🧬 Imprint
 Subcode: 🖼🌹➖⚪ (Imprint | Ultra | Aesthetic | Mindful)
-├─ 15 ➖ Kettlebell Swing (Two-Hand) (high rep, low load, neural memory)
+├─ 15 ➖ Kettlebell Swing (Two-Hand) (4s eccentric, breath-paced)
 │  Set 1: 🖼 35% × 15 (lock the pattern)
 Rest: 120s
 ═══

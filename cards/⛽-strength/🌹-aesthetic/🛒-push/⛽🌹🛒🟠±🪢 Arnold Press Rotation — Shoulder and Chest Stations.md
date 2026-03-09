@@ -19,7 +19,7 @@ blocks: ♨️ ▶️ 🧈 🎱 🪫 🚂
 
 *General Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
-## 1) ♨️ Warm-Up — 🪢 plico
+## 1) ♨️ Warm-Up — 🪢 plico — 🦢
 Subcode: ⛽🌹🛒🟠 (Warm-Up | Push | Aesthetic | Circuit)
 ├─ 6 🛒 American Swing (Overhead) (station rotation, keep moving)
 │  Set 1: ⛽ 60% × 6 (pattern prep)

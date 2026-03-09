@@ -19,7 +19,7 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 
 *Aesthetic Specialization: Precision isolation — feel every fiber, full ROM, cable and machine emphasis*
 ═══
-## 1) ♨️ Warm-Up — 🪢 plico
+## 1) ♨️ Warm-Up — 🪢 plico — 🦢
 Subcode: ⛽🌹🛒🟣 (Warm-Up | Push | Aesthetic | Technical)
 ├─ 6 🛒 Medicine Ball Slam (Chest Height) (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)

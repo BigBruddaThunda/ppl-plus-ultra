@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Climbing / Grip Sport: Movement exploration — unconventional patterns, play with load and position*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🪵 teneo
 
 > "Explore somatic movements you would not normally try."
 ═══

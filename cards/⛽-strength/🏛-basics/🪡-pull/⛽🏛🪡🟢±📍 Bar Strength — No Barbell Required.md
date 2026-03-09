@@ -33,7 +33,7 @@ Rest: 120s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⛽🏛🪡🟢 (Bread & Butter | Pull | Basics | Bodyweight)
-├─ 5 🪡 Barbell Overhead Press (Standing) (bodyweight, no external load needed)
+├─ 5 🪡 Dumbbell Overhead Press (Standing) (bodyweight, no external load needed)
 │  Set 1: ⛽ 75% × 5 (build set)
 │  Set 2: ⛽ 80% × 5 (working set)
 │  Set 3: ⛽ 80% × 5 (repeat quality)

@@ -19,7 +19,7 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 
 *Athletic Hypertrophy: Precision isolation — feel every fiber, full ROM, cable and machine emphasis*
 ═══
-## 1) ♨️ Warm-Up — 🪢 plico
+## 1) ♨️ Warm-Up — 🪢 plico — 🦢
 Subcode: ⛽🌹➕🟣 (Warm-Up | Plus | Aesthetic | Technical)
 ├─ 6 ➕ Keg Carry (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)

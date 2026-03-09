@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Olympic Lifting: Masterclass — 1-on-1 with a world-class coach at this exact skill*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🥨 tendo
 
 > "Precise positioning in each restorative hold. Depth over speed."
 ═══

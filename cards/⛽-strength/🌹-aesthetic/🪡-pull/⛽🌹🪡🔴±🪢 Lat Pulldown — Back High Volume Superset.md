@@ -19,7 +19,7 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 
 *Aesthetic Specialization: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
-## 1) ♨️ Warm-Up — 🪢 plico
+## 1) ♨️ Warm-Up — 🪢 plico — 🦢
 Subcode: ⛽🌹🪡🔴 (Warm-Up | Pull | Aesthetic | Intense)
 ├─ 6 🪡 Sandbag Shouldering (high effort, push the pace)
 │  Set 1: ⛽ 60% × 6 (pattern prep)

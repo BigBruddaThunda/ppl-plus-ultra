@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Sprint / Power Conditioning: All-out intervals — max effort, full recovery, repeat until capacity drops*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — ✒️ grapho
 
 > "Active recovery. Move enough to flush, not enough to fatigue."
 ═══

@@ -35,7 +35,7 @@ Rest: 150s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🐂🔨🪡⚪ (Supplemental | Pull | Functional | Mindful)
-├─ 13 🪡 Dumbbell Pullover (Lat Focus) (full range, different angle)
+├─ 13 🪡 Dumbbell Pullover (Lat Focus) (4s eccentric, breath-paced)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 120s
@@ -48,7 +48,7 @@ Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🐂🔨🪡⚪ (Imprint | Pull | Functional | Mindful)
-├─ 15 🪡 Straight-Arm Pulldown (Rope) (high rep, low load, neural memory)
+├─ 15 🪡 Straight-Arm Pulldown (Rope) (4s eccentric, breath-paced)
 │  Set 1: 🐂 40% × 15 (lock the pattern)
 Rest: 120s
 ═══

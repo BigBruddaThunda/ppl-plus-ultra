@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Combat Sport Prep: High-output functional work — explosive repeats, full effort, game-speed*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🦉 logos
 
 > "Active recovery. Move enough to flush, not enough to fatigue."
 ═══

@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Post-Rehab Strength: Teaches barbell setup, loading sequence, and safety positions for heavy compound lifts*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 📍 pono
 
 > "Learn what recovery feels like. This is a teaching session for your nervous system."
 ═══

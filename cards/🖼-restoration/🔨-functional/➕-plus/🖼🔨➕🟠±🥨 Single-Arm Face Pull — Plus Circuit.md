@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Kettlebell Strength: Station rotation with implements — keep tissues trading under heavy demand*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🥨 tendo
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
 ═══
@@ -36,7 +36,7 @@ Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🖼🔨➕🟠 (Release | Plus | Functional | Circuit)
-├─ 12 ➕ Good Morning (Barbell) (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➕ Good Morning (Dumbbell) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 30s
 ═══

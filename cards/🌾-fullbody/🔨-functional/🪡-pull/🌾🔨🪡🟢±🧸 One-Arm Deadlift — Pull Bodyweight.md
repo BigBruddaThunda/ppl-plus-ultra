@@ -27,14 +27,14 @@ Rest: 60s
 ═══
 ## 2) 🎼 Composition
 Subcode: 🌾🔨🪡🟢 (Composition | Pull | Functional | Bodyweight)
-├─ 9 🪡 Aquaman (Alternating Superman) → Barbell Overhead Press (Standing) (flow without reset)
+├─ 9 🪡 Aquaman (Alternating Superman) → Dumbbell Overhead Press (Standing) (flow without reset)
 │  Set 1: 🌾 70% × 9 (unified pattern)
 │  Set 2: 🌾 70% × 9 (repeat flow)
 Rest: 60s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🌾🔨🪡🟢 (Bread & Butter | Pull | Functional | Bodyweight)
-├─ 9 🪡 Barbell Overhead Press (Standing) (bodyweight, no external load needed)
+├─ 9 🪡 Dumbbell Overhead Press (Standing) (bodyweight, no external load needed)
 │  Set 1: 🌾 65% × 9 (build set)
 │  Set 2: 🌾 70% × 9 (working set)
 │  Set 3: 🌾 70% × 9 (repeat quality)

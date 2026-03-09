@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Sport Conditioning: Mixed-modality circuit — each station changes the energy demand*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🚀 mitto
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
 ═══
@@ -36,7 +36,7 @@ Rest: 90s after final round
 ═══
 ## 3) 🪫 Release
 Subcode: 🖼🪐➕🟠 (Release | Plus | Challenge | Circuit)
-├─ 12 ➕ Good Morning (Barbell) (parasympathetic, tension down, 4s eccentric)
+├─ 12 ➕ Good Morning (Dumbbell) (parasympathetic, tension down, 4s eccentric)
 │  Set 1: 🖼 40% × 12 (deload)
 Rest: 30s
 ═══

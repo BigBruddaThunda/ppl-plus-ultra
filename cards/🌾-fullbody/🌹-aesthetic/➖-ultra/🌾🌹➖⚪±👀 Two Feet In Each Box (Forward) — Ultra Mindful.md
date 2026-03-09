@@ -35,7 +35,7 @@ Rest: 120s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🌾🌹➖⚪ (Supplemental | Ultra | Aesthetic | Mindful)
-├─ 10 ➖ Hill Sprint (Short) (full range, different angle)
+├─ 10 ➖ Hill Sprint (Short) (4s eccentric, breath-paced)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 120s

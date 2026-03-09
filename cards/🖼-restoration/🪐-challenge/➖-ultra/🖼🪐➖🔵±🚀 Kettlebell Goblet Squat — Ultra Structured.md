@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Minimalist Hypertrophy: Volume tracking — prescribed sets and reps, progressive overload through logging*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🚀 mitto
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
 ═══

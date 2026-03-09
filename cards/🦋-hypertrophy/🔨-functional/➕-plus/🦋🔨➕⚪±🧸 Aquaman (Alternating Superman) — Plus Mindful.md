@@ -35,7 +35,7 @@ Rest: 180s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🦋🔨➕⚪ (Supplemental | Plus | Functional | Mindful)
-├─ 12 ➕ Single-Arm Lat Pulldown (full range, different angle)
+├─ 12 ➕ Single-Arm Lat Pulldown (4s eccentric, breath-paced)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 120s
@@ -48,7 +48,7 @@ Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🦋🔨➕⚪ (Imprint | Plus | Functional | Mindful)
-├─ 12 ➕ Aquaman (Alternating Superman) (high rep, low load, neural memory)
+├─ 12 ➕ Aquaman (Alternating Superman) (4s eccentric, breath-paced)
 │  Set 1: 🦋 45% × 12 (lock the pattern)
 Rest: 120s
 ═══

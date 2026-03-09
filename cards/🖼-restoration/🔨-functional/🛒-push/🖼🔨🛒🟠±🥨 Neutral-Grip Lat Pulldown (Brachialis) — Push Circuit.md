@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Kettlebell Strength: Station rotation with implements — keep tissues trading under heavy demand*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🥨 tendo
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
 ═══

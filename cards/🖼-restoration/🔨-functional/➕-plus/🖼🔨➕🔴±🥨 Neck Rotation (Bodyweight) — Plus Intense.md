@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Strongman / Odd Object: Heavy working sets with full recovery — push the ceiling, earn every rep*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🥨 tendo
 
 > "Active recovery. Move enough to flush, not enough to fatigue."
 ═══

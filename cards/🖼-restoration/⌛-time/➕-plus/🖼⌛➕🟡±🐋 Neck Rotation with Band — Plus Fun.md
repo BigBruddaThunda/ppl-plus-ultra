@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Olympic Lifting: Cross-training exploration — adjacent skills that improve the primary craft*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🐋 duco
 
 > "Explore somatic movements you would not normally try."
 ═══

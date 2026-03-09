@@ -35,7 +35,7 @@ Rest: 120s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🌾🔨➕⚪ (Supplemental | Plus | Functional | Mindful)
-├─ 10 ➕ Heavy Swing (Power Focus) (full range, different angle)
+├─ 10 ➕ Heavy Swing (Power Focus) (4s eccentric, breath-paced)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 120s
@@ -48,7 +48,7 @@ Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🌾🔨➕⚪ (Imprint | Plus | Functional | Mindful)
-├─ 10 ➕ Double Kettlebell Swing (high rep, low load, neural memory)
+├─ 10 ➕ Double Kettlebell Swing (4s eccentric, breath-paced)
 │  Set 1: 🌾 45% × 10 (lock the pattern)
 Rest: 120s
 ═══

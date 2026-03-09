@@ -33,7 +33,7 @@ Rest: 120s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🌾🪐🍗⚪ (Supplemental | Legs | Challenge | Mindful)
-├─ 10 🍗 Single-Leg Extension (full range, different angle)
+├─ 10 🍗 Single-Leg Extension (4s eccentric, breath-paced)
 │  Set 1: 🌾 60% × 10 (support volume)
 │  Set 2: 🌾 60% × 10 (non-redundant)
 Rest: 120s
@@ -46,7 +46,7 @@ Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🌾🪐🍗⚪ (Imprint | Legs | Challenge | Mindful)
-├─ 10 🍗 Single-Leg Curl (Lying) (high rep, low load, neural memory)
+├─ 10 🍗 Single-Leg Curl (Lying) (4s eccentric, breath-paced)
 │  Set 1: 🌾 45% × 10 (lock the pattern)
 Rest: 120s
 ═══

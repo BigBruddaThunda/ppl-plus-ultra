@@ -36,7 +36,7 @@ Rest: 360s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: ⛽🏛🛒⚪ (Supplemental | Push | Basics | Mindful)
-├─ 6 🛒 Dead Stop Swing (Reset Between Reps) (full range, different angle)
+├─ 6 🛒 Dead Stop Swing (Reset Between Reps) (4s eccentric, breath-paced)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 240s
@@ -49,7 +49,7 @@ Rest: 240s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⛽🏛🛒⚪ (Imprint | Push | Basics | Mindful)
-├─ 6 🛒 Swing + Clean (Combo) (high rep, low load, neural memory)
+├─ 6 🛒 Swing + Clean (Combo) (4s eccentric, breath-paced)
 │  Set 1: ⛽ 55% × 6 (lock the pattern)
 Rest: 240s
 ═══

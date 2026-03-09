@@ -19,7 +19,7 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 
 *Olympic Lifting: Masterclass — 1-on-1 with a world-class coach at this exact skill*
 ═══
-## 1) ♨️ Warm-Up — 🪢 plico
+## 1) ♨️ Warm-Up — 🪢 plico — 🦢
 Subcode: ⛽🌹➖🟣 (Warm-Up | Ultra | Aesthetic | Technical)
 ├─ 6 ➖ American Swing (Overhead) (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)

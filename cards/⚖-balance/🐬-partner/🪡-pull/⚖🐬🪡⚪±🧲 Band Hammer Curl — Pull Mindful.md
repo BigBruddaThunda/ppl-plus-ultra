@@ -35,7 +35,7 @@ Rest: 180s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: ⚖🐬🪡⚪ (Supplemental | Pull | Partner | Mindful)
-├─ 12 🪡 Aquaman (Alternating Superman) (full range, different angle)
+├─ 12 🪡 Aquaman (Alternating Superman) (4s eccentric, breath-paced)
 │  Set 1: ⚖ 60% × 12 (support volume)
 │  Set 2: ⚖ 60% × 12 (non-redundant)
 Rest: 150s
@@ -48,7 +48,7 @@ Rest: 150s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⚖🐬🪡⚪ (Imprint | Pull | Partner | Mindful)
-├─ 12 🪡 One-Arm Dead Hang (high rep, low load, neural memory)
+├─ 12 🪡 One-Arm Dead Hang (4s eccentric, breath-paced)
 │  Set 1: ⚖ 45% × 12 (lock the pattern)
 Rest: 150s
 ═══

@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Marathon / Distance Running: Prescribed intervals — zone targets, heart rate windows, timed rest*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — ✒️ grapho
 
 > "Follow the restoration sequence as prescribed. Each position has a purpose."
 ═══

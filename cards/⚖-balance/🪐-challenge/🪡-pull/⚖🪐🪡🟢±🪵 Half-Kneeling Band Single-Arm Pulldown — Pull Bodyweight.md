@@ -34,7 +34,7 @@ Rest: 75s
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: ⚖🪐🪡🟢 (Bread & Butter | Pull | Challenge | Bodyweight)
-├─ 11 🪡 Barbell Overhead Press (Standing) (bodyweight, no external load needed)
+├─ 11 🪡 Dumbbell Overhead Press (Standing) (bodyweight, no external load needed)
 │  Set 1: ⚖ 65% × 11 (build set)
 │  Set 2: ⚖ 70% × 11 (working set)
 │  Set 3: ⚖ 70% × 11 (repeat quality)
@@ -49,7 +49,7 @@ Rest: 75s
 ═══
 ## 5) 🪫 Release
 Subcode: ⚖🪐🪡🟢 (Release | Pull | Challenge | Bodyweight)
-├─ 12 🪡 Good Morning (Barbell) (smooth tempo, downshift)
+├─ 12 🪡 Good Morning (Dumbbell) (smooth tempo, downshift)
 │  Set 1: ⚖ 50% × 12 (deload)
 Rest: 75s
 ═══

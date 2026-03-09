@@ -29,7 +29,7 @@ Subcode: ⚖🐬🪡🟠 (ARAM | Pull | Partner | Circuit)
 │  Station 1: 🪡 Single-Leg Hip Thrust (Bodyweight) × 11 (station rotation, keep moving)
 │  Station 2: 🪡 Single-Arm Face Pull × 11 (station rotation, keep moving)
 │  Station 3: 🪡 Aquaman (Alternating Superman) × 11 (station rotation, keep moving)
-│  Station 4: 🪡 Single-Leg Hip Thrust (Barbell) × 11 (station rotation, keep moving)
+│  Station 4: 🪡 Single-Leg Hip Thrust (Dumbbell) × 11 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s
 Rest: 90s after final round

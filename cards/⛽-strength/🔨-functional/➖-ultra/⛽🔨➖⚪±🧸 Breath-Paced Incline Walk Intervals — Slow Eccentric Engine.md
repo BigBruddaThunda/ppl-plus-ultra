@@ -35,7 +35,7 @@ Rest: 360s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: ⛽🔨➖⚪ (Supplemental | Ultra | Functional | Mindful)
-├─ 6 ➖ Layup Approach (Single-Leg Power) (full range, different angle)
+├─ 6 ➖ Layup Approach (Single-Leg Power) (4s eccentric, breath-paced)
 │  Set 1: ⛽ 70% × 6 (support volume)
 │  Set 2: ⛽ 70% × 6 (non-redundant)
 Rest: 240s
@@ -48,7 +48,7 @@ Rest: 240s
 ═══
 ## 5) 🧬 Imprint
 Subcode: ⛽🔨➖⚪ (Imprint | Ultra | Functional | Mindful)
-├─ 6 ➖ Overhead Throw (Medicine Ball) (high rep, low load, neural memory)
+├─ 6 ➖ Overhead Throw (Medicine Ball) (4s eccentric, breath-paced)
 │  Set 1: ⛽ 55% × 6 (lock the pattern)
 Rest: 240s
 ═══

@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Active Recovery: Somatic exploration — movements you would not normally try, body awareness*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 👀 specio
 
 > "Explore somatic movements you would not normally try."
 ═══

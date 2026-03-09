@@ -19,7 +19,7 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 
 *Field Sport Athlete: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
-## 1) ♨️ Warm-Up — 🪢 plico
+## 1) ♨️ Warm-Up — 🪢 plico — 🦢
 Subcode: ⛽🌹🪡🟣 (Warm-Up | Pull | Aesthetic | Technical)
 ├─ 6 🪡 Kettlebell Swing (Alternating Arms) (precision, quality over volume)
 │  Set 1: ⛽ 60% × 6 (pattern prep)

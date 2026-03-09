@@ -30,7 +30,7 @@ Subcode: 🐂🪐➕🟠 (ARAM | Plus | Challenge | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
 │  Station 1: ➕ T-Rotation (Push-Up Position) × 11 (station rotation, keep moving)
 │  Station 2: ➕ Pull-Up (Overhand Grip) × 11 (station rotation, keep moving)
-│  Station 3: ➕ Bent-Over Barbell Row (Overhand) × 11 (station rotation, keep moving)
+│  Station 3: ➕ Bent-Over Dumbbell Row (Overhand) × 11 (station rotation, keep moving)
 │  Station 4: ➕ Rotational Medicine Ball Throw × 11 (station rotation, keep moving)
 │  Transition: 15s between stations
 │  Round rest: 37s

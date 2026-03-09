@@ -330,16 +330,44 @@ def lookup_exercise_type(name: str, type_index: dict[str, list[str]]) -> list[st
     # Strip equipment prefix
     equip_prefixes = ['barbell', 'dumbbell', 'kettlebell', 'cable', 'machine',
                       'band', 'resistance band', 'plate', 'trap bar', 'smith machine',
-                      'ez bar', 'ez-bar', 'landmine']
+                      'ez bar', 'ez-bar', 'landmine', 'trx', 'bosu', 'swiss ball',
+                      'medicine ball', 'sandbag', 'hex bar']
     for ep in equip_prefixes:
         if name_lower.startswith(ep + ' '):
             stripped = name_lower[len(ep):].strip()
             if stripped in type_index:
                 return type_index[stripped]
-            # Try without parenthetical
             stripped_clean = re.sub(r'\s*\(.*?\)\s*$', '', stripped).strip()
             if stripped_clean in type_index:
                 return type_index[stripped_clean]
+
+    # Try suffix stripping (remove trailing modifiers)
+    suffix_patterns = [
+        r'\s*-\s*\w+$',           # "Squat - Narrow"
+        r'\s+hold$',               # "Plank Hold"
+        r'\s+\(.*\)$',            # "Curl (Standing)"
+        r'\s+at\s+\d+%$',         # "Squat at 80%"
+    ]
+    for pat in suffix_patterns:
+        trimmed = re.sub(pat, '', clean, flags=re.IGNORECASE).strip()
+        if trimmed and trimmed in type_index:
+            return type_index[trimmed]
+
+    # Substring match: registry name starts with this exercise name (word boundary)
+    # Prefer the shortest matching registry name (most specific match)
+    if len(clean) >= 5:
+        best_match = None
+        best_len = float('inf')
+        for reg_name, types in type_index.items():
+            if reg_name.startswith(clean) and (
+                len(reg_name) == len(clean)
+                or reg_name[len(clean)] in ' ('
+            ):
+                if len(reg_name) < best_len:
+                    best_match = types
+                    best_len = len(reg_name)
+        if best_match is not None:
+            return best_match
 
     return None
 
@@ -599,7 +627,7 @@ def score_format_completeness(body: str, content: str) -> tuple[int, list[str]]:
         if line.strip().startswith('# '):
             first_heading = line.strip()
             break
-    type_emojis_in_title = sum(1 for t in TYPES if first_heading and t in first_heading) if first_heading else 0
+    type_emojis_in_title = sum(first_heading.count(t) for t in TYPES) if first_heading else 0
     if type_emojis_in_title >= 2:
         present += 1
     else:

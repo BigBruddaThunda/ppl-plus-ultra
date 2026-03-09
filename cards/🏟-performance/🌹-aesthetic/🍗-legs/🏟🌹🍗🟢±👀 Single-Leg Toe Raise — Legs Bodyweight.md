@@ -27,14 +27,14 @@ Rest: 90s
 ═══
 ## 2) 🪜 Progression
 Subcode: 🏟🌹🍗🟢 (Progression | Legs | Aesthetic | Bodyweight)
-├─ 2 🍗 Single-Leg Hip Thrust (Barbell) (ramp to test weight)
+├─ 2 🍗 Single-Leg Hip Thrust (Dumbbell) (ramp to test weight)
 │  Set 1: 🏟 77% × 3 (opener)
 │  Set 2: 🏟 87% × 2 (bridge)
 Rest: Full recovery
 ═══
 ## 3) 🧈 Bread & Butter
 Subcode: 🏟🌹🍗🟢 (Bread & Butter | Legs | Aesthetic | Bodyweight)
-├─ 2 🍗 Single-Leg Hip Thrust (Barbell) (bodyweight, no external load needed)
+├─ 2 🍗 Single-Leg Hip Thrust (Dumbbell) (bodyweight, no external load needed)
 │  Set 1: 🏟 92% × 2 (test attempt)
 │  Set 2: 🏟 97% × 2 (max attempt)
 Rest: Full recovery

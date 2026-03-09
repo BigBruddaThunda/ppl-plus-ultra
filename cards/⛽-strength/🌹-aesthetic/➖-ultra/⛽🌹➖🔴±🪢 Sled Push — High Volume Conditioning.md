@@ -19,7 +19,7 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 
 *Physique / Recomp: Chase the pump — high volume, low rest, supersets allowed, metabolic stress*
 ═══
-## 1) ♨️ Warm-Up — 🪢 plico
+## 1) ♨️ Warm-Up — 🪢 plico — 🦢
 Subcode: ⛽🌹➖🔴 (Warm-Up | Ultra | Aesthetic | Intense)
 ├─ 6 ➖ Sprint (10-30 meters) (high effort, push the pace)
 │  Set 1: ⛽ 60% × 6 (pattern prep)

@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Climbing / Grip Sport: Movement precision — deceleration, landing mechanics, rotational control*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🦉 logos
 
 > "Precise positioning in each restorative hold. Depth over speed."
 ═══

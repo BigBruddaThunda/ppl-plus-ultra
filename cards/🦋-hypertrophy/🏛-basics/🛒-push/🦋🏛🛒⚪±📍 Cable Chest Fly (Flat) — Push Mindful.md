@@ -35,7 +35,7 @@ Rest: 180s
 ═══
 ## 3) 🧩 Supplemental
 Subcode: 🦋🏛🛒⚪ (Supplemental | Push | Basics | Mindful)
-├─ 12 🛒 One-Arm Dead Hang (full range, different angle)
+├─ 12 🛒 One-Arm Dead Hang (4s eccentric, breath-paced)
 │  Set 1: 🦋 60% × 12 (support volume)
 │  Set 2: 🦋 60% × 12 (non-redundant)
 Rest: 120s
@@ -48,7 +48,7 @@ Rest: 120s
 ═══
 ## 5) 🧬 Imprint
 Subcode: 🦋🏛🛒⚪ (Imprint | Push | Basics | Mindful)
-├─ 12 🛒 Depth Push-Up (Drop to Floor) (high rep, low load, neural memory)
+├─ 12 🛒 Depth Push-Up (Drop to Floor) (4s eccentric, breath-paced)
 │  Set 1: 🦋 45% × 12 (lock the pattern)
 Rest: 120s
 ═══

@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Flexibility / Mobility: Restoration circuit — each station addresses a different tissue or system*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🦢 plico
 
 > "Rotate through restoration stations. Each one addresses a different tissue."
 ═══

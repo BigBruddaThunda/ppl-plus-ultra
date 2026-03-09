@@ -21,7 +21,7 @@ blocks: ♨️ 🔢/🛠 🧈 🧩 🧬 🚂
 ═══
 ## 1) ♨️ Warm-Up — 🚀 mitto
 Subcode: 🐂🪐🍗🟠 (Warm-Up | Legs | Challenge | Circuit)
-├─ 12 🍗 Single-Leg Hip Thrust (Barbell) (station rotation, keep moving)
+├─ 12 🍗 Single-Leg Hip Thrust (Dumbbell) (station rotation, keep moving)
 │  Set 1: 🐂 45% × 12 (pattern prep)
 Rest: 30s
 ═══
@@ -29,7 +29,7 @@ Rest: 30s
 Subcode: 🐂🪐🍗🟠 (ARAM | Legs | Challenge | Circuit)
 ┌─ 3 rounds, rotate through stations. No two adjacent stations same muscle group.
 │  Station 1: 🍗 Single-Leg Jump Rope × 11 (station rotation, keep moving)
-│  Station 2: 🍗 Single-Leg Hip Thrust (Barbell) × 11 (station rotation, keep moving)
+│  Station 2: 🍗 Single-Leg Hip Thrust (Dumbbell) × 11 (station rotation, keep moving)
 │  Station 3: 🍗 Single-Leg Hip Thrust (Bodyweight) × 11 (station rotation, keep moving)
 │  Station 4: 🍗 Single-Leg Glute Bridge × 11 (station rotation, keep moving)
 │  Transition: 15s between stations

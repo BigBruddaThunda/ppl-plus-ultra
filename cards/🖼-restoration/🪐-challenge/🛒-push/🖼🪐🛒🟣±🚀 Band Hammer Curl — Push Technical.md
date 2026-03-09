@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Kettlebell Strength: Single-rep quality at competition-relevant loads — bar path, timing, setup*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🚀 mitto
 
 > "Precise positioning in each restorative hold. Depth over speed."
 ═══

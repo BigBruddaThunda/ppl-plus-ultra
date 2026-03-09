@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Aesthetic Specialization: Novel exercises for new stimulus — variety drives adaptation when volume plateaus*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🧸 fero
 
 > "Explore somatic movements you would not normally try."
 ═══

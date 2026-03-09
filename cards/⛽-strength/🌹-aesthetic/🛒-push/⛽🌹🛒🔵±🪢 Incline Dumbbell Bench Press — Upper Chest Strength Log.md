@@ -19,7 +19,7 @@ blocks: ♨️ ▶️ 🧈 🧩 🪫 🚂
 
 *Athletic Hypertrophy: Volume tracking — prescribed sets and reps, progressive overload through logging*
 ═══
-## 1) ♨️ Warm-Up — 🪢 plico
+## 1) ♨️ Warm-Up — 🪢 plico — 🦢
 Subcode: ⛽🌹🛒🔵 (Warm-Up | Push | Aesthetic | Structured)
 ├─ 6 🛒 Depth Push-Up (Drop to Floor) (prescribed, track sets and reps)
 │  Set 1: ⛽ 60% × 6 (pattern prep)

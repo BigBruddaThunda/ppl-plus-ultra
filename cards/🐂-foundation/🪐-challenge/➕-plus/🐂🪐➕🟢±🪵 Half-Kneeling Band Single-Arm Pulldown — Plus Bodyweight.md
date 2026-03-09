@@ -42,7 +42,7 @@ Rest: 75s
 ═══
 ## 4) 🧩 Supplemental
 Subcode: 🐂🪐➕🟢 (Supplemental | Plus | Challenge | Bodyweight)
-├─ 13 ➕ Good Morning (Barbell) (full range, different angle)
+├─ 13 ➕ Good Morning (Dumbbell) (full range, different angle)
 │  Set 1: 🐂 55% × 13 (support volume)
 │  Set 2: 🐂 55% × 13 (non-redundant)
 Rest: 60s

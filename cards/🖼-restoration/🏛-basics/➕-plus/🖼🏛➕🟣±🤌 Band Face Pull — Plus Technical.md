@@ -19,7 +19,7 @@ blocks: 🎯 🪫 🧈 🧬 🚂
 
 *Aesthetic Specialization: Precision isolation — feel every fiber, full ROM, cable and machine emphasis*
 ═══
-## 1) 🎯 Intention
+## 1) 🎯 Intention — 🤌 facio
 
 > "Precise positioning in each restorative hold. Depth over speed."
 ═══
