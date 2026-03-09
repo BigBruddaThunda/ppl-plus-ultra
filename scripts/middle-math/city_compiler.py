@@ -1261,6 +1261,12 @@ Examples:
     parser.add_argument("--deck", type=int, help="Resolve deck by number (1-42)")
     parser.add_argument("--abacus", type=int, help="Resolve abacus by ID (1-35)")
     parser.add_argument("--city", action="store_true", help="Compile full city")
+    parser.add_argument("--compile-all-zips", action="store_true",
+                        help="Batch compile all 1,680 zips to individual JSON files")
+    parser.add_argument("--compile-decks", action="store_true",
+                        help="Compile all 42 deck centroids")
+    parser.add_argument("--compile-abaci", action="store_true",
+                        help="Compile all abacus centroids")
     parser.add_argument("--validate", action="store_true", help="Validate all 1,680 zips")
     parser.add_argument("--format", choices=["json", "css", "summary"], default="json",
                         help="Output format (default: json)")
@@ -1277,6 +1283,82 @@ Examples:
         result = validate_all()
         if args.format == "json":
             print(json.dumps(result, indent=2))
+        return
+
+    if args.compile_all_zips:
+        zips_dir = COMPILED_DIR / "zips"
+        zips_dir.mkdir(parents=True, exist_ok=True)
+        count = 0
+        for o_idx in range(1, 8):
+            for a_idx in range(1, 7):
+                for t_idx in range(1, 6):
+                    for c_idx in range(1, 9):
+                        nzip = f"{o_idx}{a_idx}{t_idx}{c_idx}"
+                        result = resolve_zip(nzip, register=args.register, hour=args.hour)
+                        out_path = zips_dir / f"{nzip}.json"
+                        with open(out_path, "w", encoding="utf-8") as f:
+                            json.dump(result, f, ensure_ascii=False, separators=(",", ":"))
+                        count += 1
+                        if count % 100 == 0:
+                            print(f"  compiled {count}/1680...", file=sys.stderr)
+        print(f"Compiled {count} zips to {zips_dir}", file=sys.stderr)
+        return
+
+    if args.compile_decks:
+        decks_dir = COMPILED_DIR / "decks"
+        decks_dir.mkdir(parents=True, exist_ok=True)
+        for d in range(1, 43):
+            result = resolve_deck(d)
+            out_path = decks_dir / f"deck-{d:02d}.json"
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(result, f, ensure_ascii=False, indent=2)
+        print(f"Compiled 42 decks to {decks_dir}", file=sys.stderr)
+        return
+
+    if args.compile_abaci:
+        abaci_dir = COMPILED_DIR / "abaci"
+        abaci_dir.mkdir(parents=True, exist_ok=True)
+        # Load from abacus-registry.json (the actual file with abaci data)
+        reg_path = MM_DIR / "abacus-registry.json"
+        with open(reg_path, encoding="utf-8") as f:
+            reg_data = json.load(f)
+        abaci_list = reg_data.get("abaci", [])
+        with open(MM_DIR / "weight-vectors.json", encoding="utf-8") as f:
+            wv_raw = json.load(f)
+        for ab in abaci_list:
+            # Build centroid from working + bonus zips
+            all_zips = ab.get("working_zips", []) + ab.get("bonus_zips", [])
+            vectors = []
+            for nzip in all_zips:
+                entry = wv_raw.get(str(nzip), {})
+                v = entry.get("vector", [0.0] * 61) if isinstance(entry, dict) else [0.0] * 61
+                vectors.append(v)
+            if vectors:
+                n = len(vectors)
+                dims = len(vectors[0])
+                centroid = [sum(v[i] for v in vectors) / n for i in range(dims)]
+            else:
+                centroid = [0.0] * 61
+            mag = math.sqrt(sum(x * x for x in centroid))
+            result = {
+                "id": ab["id"],
+                "name": ab["name"],
+                "slug": ab["slug"],
+                "domain": ab.get("domain", ""),
+                "description": ab.get("description", ""),
+                "axis_bias": ab.get("axis_bias", ""),
+                "working_count": len(ab.get("working_zips", [])),
+                "bonus_count": len(ab.get("bonus_zips", [])),
+                "total_zips": len(all_zips),
+                "working_zips": ab.get("working_zips", []),
+                "bonus_zips": ab.get("bonus_zips", []),
+                "centroid": [round(v, 4) for v in centroid],
+                "centroid_magnitude": round(mag, 3),
+            }
+            out_path = abaci_dir / f"abacus-{ab['id']:02d}.json"
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(result, f, ensure_ascii=False, indent=2)
+        print(f"Compiled {len(abaci_list)} abaci to {abaci_dir}", file=sys.stderr)
         return
 
     if args.city:
