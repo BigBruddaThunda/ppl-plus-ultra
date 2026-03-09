@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+/* ── PPL± Design System ── */
+
+:root {
+  /* Default tokens — overridden per-room via CSS custom properties */
+  --ppl-primary: #1A1A1A;
+  --ppl-secondary: #2D2D2D;
+  --ppl-background: #F8F8F8;
+  --ppl-surface: #FFFFFF;
+  --ppl-text: #1A1A1A;
+  --ppl-accent: #3D3D3D;
+  --ppl-border: #E0E0E0;
+
+  --ppl-font-size-base: 1rem;
+  --ppl-font-size-display: 1.75rem;
+  --ppl-font-weight: 400;
+  --ppl-font-weight-display: 600;
+  --ppl-letter-spacing: 0.02em;
+  --ppl-line-height: 1.75;
+
+  --font-body: 'Inter', 'Helvetica Neue', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+@theme inline {
+  --color-ppl-primary: var(--ppl-primary);
+  --color-ppl-secondary: var(--ppl-secondary);
+  --color-ppl-background: var(--ppl-background);
+  --color-ppl-surface: var(--ppl-surface);
+  --color-ppl-text: var(--ppl-text);
+  --color-ppl-accent: var(--ppl-accent);
+  --color-ppl-border: var(--ppl-border);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  background: var(--ppl-background);
+  color: var(--ppl-text);
+  font-family: var(--font-body);
+  font-size: var(--ppl-font-size-base);
+  font-weight: var(--ppl-font-weight);
+  letter-spacing: var(--ppl-letter-spacing);
+  line-height: var(--ppl-line-height);
+}
+
+/* ── Spacing scale ── */
+.space-2xs { --space: 2px; }
+.space-xs  { --space: 4px; }
+.space-sm  { --space: 8px; }
+.space-md  { --space: 16px; }
+.space-lg  { --space: 24px; }
+.space-xl  { --space: 40px; }
+.space-2xl { --space: 64px; }
+.space-3xl { --space: 96px; }
+.space-4xl { --space: 128px; }
+
+/* ── Animation tokens ── */
+.transition-instant    { transition-duration: 75ms; }
+.transition-fast       { transition-duration: 150ms; }
+.transition-default    { transition-duration: 250ms; }
+.transition-slow       { transition-duration: 400ms; }
+.transition-deliberate { transition-duration: 600ms; }
