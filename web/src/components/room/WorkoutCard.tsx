@@ -2,6 +2,7 @@
 
 import type { WorkoutCard as WorkoutCardType } from "@/types/scl";
 import { BlockSection } from "./BlockSection";
+import { SessionSummary } from "./SessionSummary";
 
 interface Props {
   card: WorkoutCardType;
@@ -46,6 +47,7 @@ function parseCardSections(content: string) {
 
 export function WorkoutCard({ card }: Props) {
   const { title, subtitle, code, intention, context, blocks } = parseCardSections(card.content);
+  const numericZip = card.zipCode.numeric;
 
   return (
     <article>
@@ -103,9 +105,13 @@ export function WorkoutCard({ card }: Props) {
             key={i}
             raw={block}
             isLast={i === blocks.length - 1}
+            zipCode={numericZip}
           />
         ))}
       </div>
+
+      {/* Session summary (shows logged sets for today) */}
+      <SessionSummary zipCode={numericZip} />
     </article>
   );
 }

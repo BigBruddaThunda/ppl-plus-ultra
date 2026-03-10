@@ -2,10 +2,12 @@
 
 import Link from "next/link";
 import { parseZipCode } from "@/lib/scl";
+import { LogButton } from "./LogButton";
 
 interface BlockSectionProps {
   raw: string; // raw markdown text for one block
   isLast?: boolean;
+  zipCode?: string; // numeric zip code for logging
 }
 
 // Match emoji zip codes like ⛽🏛🪡🔵 in junction text
@@ -44,10 +46,29 @@ function renderJunctionLinks(text: string): React.ReactNode[] {
   return parts;
 }
 
-export function BlockSection({ raw, isLast }: BlockSectionProps) {
+/** Extract exercise name from a tree notation line like "├─ 5 🪡 Barbell Row (squeeze at top)" */
+function extractExerciseName(line: string): string | null {
+  // Match: ├─ [optional reps] [optional type emoji] ExerciseName (optional cue)
+  const match = line.match(/├─\s*(?:\d+\s+)?(?:[🛒🪡🍗➕➖]\s+)?(.+?)(?:\s*\(.*\))?$/u);
+  return match ? match[1].trim() : null;
+}
+
+/** Extract block name from the first ## header in the raw block */
+function extractBlockName(lines: string[]): string {
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (trimmed.startsWith("## ")) {
+      return trimmed.replace(/^## /, "").replace(/^\d+\)\s*/, "");
+    }
+  }
+  return "Unknown Block";
+}
+
+export function BlockSection({ raw, isLast, zipCode }: BlockSectionProps) {
   const lines = raw.split("\n");
   const isJunction = raw.includes("🚂 Junction");
   const isSave = raw.includes("🧮 SAVE");
+  const blockName = extractBlockName(lines);
 
   return (
     <section
@@ -87,9 +108,11 @@ export function BlockSection({ raw, isLast }: BlockSectionProps) {
           );
         }
 
-        // Tree notation: exercise lines
+        // Tree notation: exercise lines with log button
         if (trimmed.startsWith("├─") || trimmed.startsWith("│")) {
           const isExercise = trimmed.startsWith("├─");
+          const exerciseName = isExercise ? extractExerciseName(trimmed) : null;
+
           return (
             <p
               key={i}
@@ -97,6 +120,13 @@ export function BlockSection({ raw, isLast }: BlockSectionProps) {
               style={{ lineHeight: "var(--ppl-line-height, 1.6)" }}
             >
               {trimmed}
+              {isExercise && exerciseName && zipCode && (
+                <LogButton
+                  zipCode={zipCode}
+                  blockName={blockName}
+                  exerciseName={exerciseName}
+                />
+              )}
             </p>
           );
         }

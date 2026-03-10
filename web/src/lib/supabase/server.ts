@@ -6,6 +6,8 @@ export interface AuthUser {
   id: string;
   email: string;
   tier: number; // 0=Free, 1=Library Card, 2=Community Pass
+  onboarding_complete: boolean;
+  region: string | null;
 }
 
 export async function getSupabaseServer() {
@@ -44,7 +46,7 @@ export async function getAuthUser(): Promise<AuthUser | null> {
 
   const { data: profile } = await supabase
     .from("profiles")
-    .select("tier")
+    .select("tier, onboarding_complete, region")
     .eq("id", user.id)
     .single();
 
@@ -52,6 +54,8 @@ export async function getAuthUser(): Promise<AuthUser | null> {
     id: user.id,
     email: user.email ?? "",
     tier: profile?.tier ?? 0,
+    onboarding_complete: profile?.onboarding_complete ?? false,
+    region: profile?.region ?? null,
   };
 }
 

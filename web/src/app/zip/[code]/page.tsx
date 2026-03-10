@@ -1,9 +1,13 @@
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { parseNumericZip } from "@/lib/scl";
 import { COLOR_TOKENS, ORDER_TOKENS } from "@/lib/tokens";
 import { getOrderProportions } from "@/lib/design-system";
 import { loadCard } from "@/lib/card-loader";
 import { WorkoutCard } from "@/components/room/WorkoutCard";
+import { SaveRoomButton } from "@/components/ui/SaveRoomButton";
+import { TrackVisit } from "@/components/ui/TrackVisit";
+import { VisitCount } from "@/components/ui/VisitCount";
 import type { Metadata } from "next";
 
 interface Props {
@@ -42,6 +46,21 @@ export default async function ZipPage({ params }: Props) {
         boxShadow: "var(--ppl-shadow-sm)",
       }}
     >
+      {/* Room toolbar */}
+      <div className="mb-4 flex items-center justify-between">
+        <Suspense>
+          <VisitCount zipCode={code} />
+        </Suspense>
+        <Suspense>
+          <SaveRoomButton zipCode={code} />
+        </Suspense>
+      </div>
+
+      {/* Track visit */}
+      <Suspense>
+        <TrackVisit zipCode={code} />
+      </Suspense>
+
       {card ? (
         <WorkoutCard card={card} />
       ) : (

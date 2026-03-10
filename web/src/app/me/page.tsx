@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { getDailyZip, getOrderName, getTypeName } from "@/lib/rotation";
 import { getAuthUser } from "@/lib/supabase/server";
 import { LogoutButton } from "./LogoutButton";
@@ -17,6 +18,11 @@ export default async function MePage() {
   const user = await getAuthUser();
   const today = new Date();
   const todayZip = getDailyZip(today);
+
+  // Redirect new users to onboarding
+  if (user && !user.onboarding_complete) {
+    redirect("/onboarding");
+  }
 
   return (
     <div className="min-h-screen bg-[var(--ppl-background)]">
@@ -52,7 +58,15 @@ export default async function MePage() {
           </div>
           <div className="mt-4 flex gap-2">
             {user ? (
-              <LogoutButton />
+              <>
+                <LogoutButton />
+                <Link
+                  href="/me/settings"
+                  className="rounded-lg border border-[var(--ppl-border)] px-4 py-2 text-xs font-medium opacity-70 hover:opacity-100"
+                >
+                  Settings
+                </Link>
+              </>
             ) : (
               <>
                 <Link
@@ -116,48 +130,69 @@ export default async function MePage() {
         </section>
 
         {/* ── Workout History ── */}
-        <section className="mb-6 rounded-xl border border-dashed border-[var(--ppl-border)] p-5">
-          <p className="text-xs font-medium uppercase tracking-widest opacity-50">
-            Workout History
-          </p>
-          <p className="mt-3 text-sm opacity-40">
-            Your logged sessions will appear here.
-          </p>
-          {!user && (
-            <p className="mt-1 text-xs opacity-30">
-              Sign in to start logging.
-            </p>
-          )}
+        <section className="mb-6 rounded-xl border border-[var(--ppl-border)] p-5">
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-xs font-medium uppercase tracking-widest opacity-50">
+                Workout History
+              </p>
+              <p className="mt-1 text-sm opacity-50">
+                {user ? "Your logged sessions." : "Sign in to start logging."}
+              </p>
+            </div>
+            {user && (
+              <Link
+                href="/me/history"
+                className="rounded-lg border border-[var(--ppl-border)] px-4 py-2 text-xs font-medium opacity-70 hover:opacity-100"
+              >
+                View
+              </Link>
+            )}
+          </div>
         </section>
 
         {/* ── Saved Rooms ── */}
-        <section className="mb-6 rounded-xl border border-dashed border-[var(--ppl-border)] p-5">
-          <p className="text-xs font-medium uppercase tracking-widest opacity-50">
-            Saved Rooms
-          </p>
-          <p className="mt-3 text-sm opacity-40">
-            Pin your favorite zip codes for quick access.
-          </p>
-          {!user && (
-            <p className="mt-1 text-xs opacity-30">
-              Sign in to save rooms.
-            </p>
-          )}
+        <section className="mb-6 rounded-xl border border-[var(--ppl-border)] p-5">
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-xs font-medium uppercase tracking-widest opacity-50">
+                Saved Rooms
+              </p>
+              <p className="mt-1 text-sm opacity-50">
+                {user ? "Your pinned rooms." : "Sign in to save rooms."}
+              </p>
+            </div>
+            {user && (
+              <Link
+                href="/me/library"
+                className="rounded-lg border border-[var(--ppl-border)] px-4 py-2 text-xs font-medium opacity-70 hover:opacity-100"
+              >
+                View
+              </Link>
+            )}
+          </div>
         </section>
 
         {/* ── Equipment Settings ── */}
-        <section className="rounded-xl border border-dashed border-[var(--ppl-border)] p-5">
-          <p className="text-xs font-medium uppercase tracking-widest opacity-50">
-            Equipment Profile
-          </p>
-          <p className="mt-3 text-sm opacity-40">
-            Set your available equipment tiers to filter workouts.
-          </p>
-          {!user && (
-            <p className="mt-1 text-xs opacity-30">
-              Sign in to set equipment.
-            </p>
-          )}
+        <section className="rounded-xl border border-[var(--ppl-border)] p-5">
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-xs font-medium uppercase tracking-widest opacity-50">
+                Equipment Profile
+              </p>
+              <p className="mt-1 text-sm opacity-50">
+                {user ? "Your available equipment." : "Sign in to set equipment."}
+              </p>
+            </div>
+            {user && (
+              <Link
+                href="/me/settings"
+                className="rounded-lg border border-[var(--ppl-border)] px-4 py-2 text-xs font-medium opacity-70 hover:opacity-100"
+              >
+                Edit
+              </Link>
+            )}
+          </div>
         </section>
       </main>
     </div>
