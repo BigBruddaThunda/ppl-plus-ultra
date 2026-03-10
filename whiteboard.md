@@ -1,9 +1,10 @@
 # Negotiosum — Ppl± Active Work Board
 
-Last updated: 2026-03-09
-Phase: 3.1 — Quality Rebuild Campaign
+Last updated: 2026-03-10
+Phase: 3.1 — Quality Rebuild Campaign + Web App Foundation
 Cards: 1,680 / 1,680 (ALL 42 DECKS COMPLETE ✅ — audit score: 91.1/100, format: 100, 2,255 flags resolved)
 Exercise Library: v.1.1 (2,085 exercises, 18 movement patterns, 55 scl_types corrected, 21/21 integration checks)
+Web App: Next.js 16 scaffold complete — routing, city compiler, rotation engine, auth stubs, D-module design system
 Seeds: 49 | Scripts: 35
 CX Containers: 44 defined, 40 complete, 4 open
 
@@ -61,6 +62,17 @@ Systematic, templated, institutional. Follow the pattern.
 | DONE | — | Deck 07 retrofit regen queue (18 cards) | — | DONE — Deck 07 debt cleared, all 40 cards meet V2 standard. |
 | OPEN | — | Operis Contract A/B URL enforcement | — | P1 missing source URLs, P2 missing per-lane URLs |
 | OPEN | — | Re-run Operis V4 pipeline test (2024-07-26) | Contract A/B fix | After URL/schema patching |
+| DONE | — | Next.js 16 web app initialized | — | web/ — React 19.2, Tailwind 4, Framer Motion 12, Zustand 5, TypeScript 5 |
+| DONE | — | City Compiler batch compilation | — | middle-math/compiled/ → 1,680 zip JSONs + 42 deck JSONs + 35 abacus JSONs |
+| DONE | — | SCL TypeScript parser (scl.ts) | — | 61 emoji mappings, zip↔numeric conversion, operator derivation, polarity detection |
+| DONE | — | Design token system | — | tokens.ts (8 Color palettes) + design-system.ts (7 Order D-module proportions) |
+| DONE | — | App routing scaffold | — | /zip/[code], /deck/[number], /operis/[date], /tools, /login, /signup, /subscribe, /me |
+| DONE | — | Room rendering pipeline | — | .md → compiled JSON → 4-floor room (time, community, deep, personal) |
+| DONE | — | Rotation engine (rotation.ts) | — | Deterministic daily zip: Order×weekday, Type×rolling-5-day, Axis×month, Color×week-mod-8 |
+| DONE | — | API resolve endpoint | — | /api/resolve/[zip] — GET → compiled JSON, 4-digit validation, aggressive caching |
+| DONE | — | Auth UI scaffolding | — | /login, /signup, /me, /subscribe pages + Supabase stubs + zustand auth store + PaywallGate |
+| DONE | — | Homepage with Operis awareness | — | TodayHero + WeekStrip + month context + Order picker + navigation links |
+| DONE | — | Navigation components | — | Breadcrumb, HomeButton, ZipDial, DialPanel, CardSkeleton, loading/error states |
 | OPEN | CX-44 | Build Sequence V2 — multi-agent workflow contracts | — | `seeds/claude-code-build-sequence-v2.md` — 20 sessions, 5 waves, 3 Jake sessions, supersedes V1 |
 
 ---
@@ -167,7 +179,7 @@ Creative exploration, discovery. Surprising AND useful.
 | OPEN | — | Operis editorial voice prototype | — | Write one edition in full creative register |
 | OPEN | — | Deck campaign naming pass (Deck 09 titles) | — | Review operator + title quality across 40 cards |
 | DONE | — | Abacus architecture seed | — | seeds/abacus-architecture.md — 35 training archetypes × 48 zips |
-| OPEN | — | City Compiler architecture seed | — | seeds/city-compiler-architecture.md — universal resolution engine, dual register (cathedral/watercolor), macro aggregation, RPG archetype layer, figure-ground city map |
+| DONE | — | City Compiler architecture + implementation | — | Seed → built: web/src/lib/city-compiler.ts reads compiled JSON from middle-math/compiled/ (1,680 zips, 42 decks, 35 abaci) |
 | OPEN | — | Platform architecture V3 (if V2 needs update) | — | After enough infrastructure lands |
 
 ---
@@ -190,6 +202,7 @@ Review, reflect, slow down. Does this serve flourishing?
 
 Active observations, open questions, and emergent ideas. When a note becomes a task, move it to the appropriate Color section. When a note becomes a seed, commit it and remove from here.
 
+- **Web App Sessions A–J + Wave 1.5 (2026-03-09/10) — Next.js Foundation Complete.** Full web scaffold built on branch `claude/ppl-phase-0-start-Agzzj`. 16 commits. Tech: Next.js 16.1.6, React 19, Tailwind 4, Framer Motion, Zustand, TypeScript. Key systems: (1) City Compiler — batch-compiled 1,680 zip JSONs + 42 deck + 35 abacus JSONs from middle-math into `middle-math/compiled/`. TypeScript resolver with in-memory caching. (2) SCL parser (`web/src/lib/scl.ts`) — all 61 emoji mappings, zip↔numeric conversion, operator derivation, polarity detection. (3) D-Module design system — 7 Order proportions mapped to classical architecture (Tuscan→Palladian), 8 Color palettes with light/dark registers. (4) Room rendering — compiled JSON → 4-floor tabs (⌛ time, 🐬 community, 🪐 deep, 🌹 personal). Block sections with exercise lines. (5) Rotation engine (`web/src/lib/rotation.ts`) — deterministic daily zip from date (3-gear: Order×weekday, Type×rolling-5-day, Axis×month, Color×week-mod-8). Powers homepage TodayHero + WeekStrip. (6) Auth scaffolding — Supabase stubs (`lib/supabase/`), zustand auth store, login/signup/subscribe/profile pages, PaywallGate component. All ready for credential wiring. (7) Navigation — breadcrumbs, 4-dial zip navigator bottom sheet, loading skeletons, error boundaries, not-found pages. (8) API — `/api/resolve/[zip]` endpoint wrapping city compiler. All routes functional at `localhost:3000`. No Supabase env vars yet (stubs only). Next: merge to main, then Wave 2 (credential wiring, deeper homepage, content quality).
 - **Session 047 CLOSED (2026-03-09) — Quality Rebuild Campaign: Phase 1-4.** Major infrastructure improvements to the audit and exercise-type systems. (1) Fixed audit-deck-quality.py flanking emoji bug: was counting unique type emojis instead of occurrences — eliminated 1,680 false positive flags. (2) Corrected 55 exercise-registry.json scl_types: 10 explicit (Turkish Get-Up→Plus, Jump Rope→Ultra, etc.) + 45 catch-all→correct via movement_pattern routing. Zero 5-type catch-alls remain. (3) Improved audit fuzzy matching: equipment prefix stripping, suffix patterns, word-boundary prefix matching. (4) Built fix-card-format.py: unified batch fixer — added operator calls to 260 cards (Restoration decks), tempo cues to 180 Mindful cards, barbell→dumbbell in 40 Circuit/Bodyweight cards. (5) Built diagnose-type-misroutes.py and fix-exercise-types.py for registry diagnosis and correction. (6) Built compare-audits.py for before/after comparison. Results: format 91.9→100.0, color 99.5→100.0, 2,255 flags resolved, 1,147 new real TYPE_MISMATCH flags revealed by improved detection. Net: 4,794→3,686 flags (-1,108). Remaining: 1,636 TYPE_MISMATCH (real generation errors needing card rebuild), 1,500 content depth flags.
 - **Session 038 CLOSED (2026-03-06) — Exercise Library Expansion: Wave 6 complete (5/5).** CX-36: `middle-math/exercise-registry.json` — 2,085 exercises, globally unique EX-0001–EX-2085, 16-pattern vocabulary, anatomy inference, family linkage, axis/order affinity. CX-37: `scripts/generate-exercise-content.py` + 197 files in `exercise-content/` (push/pull/legs/plus/ultra). CX-38: 4 engine files in `middle-math/exercise-engine/` (family-trees, substitution-map, sport-tags, anatomy-index). CX-39: `external-refs.json` (2,085 null docks) + `seeds/exrx-partnership-brief.md`. CX-40: `sql/009-exercise-registry.sql` + `sql/010-exercise-knowledge.sql` + README updated. Wave 7 (CX-41, CX-42, CX-43) fully unblocked. Known data issue: `movement_pattern` catch-all assigns ~1,256 exercises to `core-stability` — carry/conditioning pattern disambiguation deferred to CX-43 Selector V2.
 - **Session 039 CLOSED (2026-03-06) — Exercise Content Batch 2:** CX-41 DONE via `scripts/generate-exercise-content.py --batch 500`; +298 new files generated (202 skipped), bringing `exercise-content/` to 495 files total across push/pull/legs/plus/ultra. Spot check completed on 3 random files (464–480 words each).
