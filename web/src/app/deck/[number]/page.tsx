@@ -8,6 +8,7 @@ import {
 } from "@/lib/scl";
 import { COLOR_TOKENS, ORDER_TOKENS } from "@/lib/tokens";
 import { getOrderProportions, getFullZipStyle } from "@/lib/design-system";
+import { Breadcrumb } from "@/components/nav/Breadcrumb";
 import type { Metadata } from "next";
 import type { Order, Axis, Type, Color } from "@/types/scl";
 
@@ -68,9 +69,7 @@ export default async function DeckPage({ params }: Props) {
     >
       <div className="mx-auto max-w-4xl px-6" style={{ paddingTop: "var(--ppl-space-2xl)", paddingBottom: "var(--ppl-space-2xl)" }}>
         {/* Header */}
-        <Link href="/" className="mb-6 inline-block font-mono text-xs opacity-40 hover:opacity-70">
-          ← lobby
-        </Link>
+        <Breadcrumb items={[{ label: `Deck ${String(deckNum).padStart(2, "0")}` }]} />
 
         <header className="mb-8">
           <div className="flex items-baseline gap-3">
