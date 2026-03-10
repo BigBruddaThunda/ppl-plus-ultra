@@ -2,8 +2,10 @@ import { notFound } from "next/navigation";
 import { parseNumericZip } from "@/lib/scl";
 import { COLOR_TOKENS, ORDER_TOKENS } from "@/lib/tokens";
 import { getOrderProportions } from "@/lib/design-system";
+import { loadCard } from "@/lib/card-loader";
 import { RoomHeader } from "@/components/room/RoomHeader";
 import { RoomShell } from "@/components/room/RoomShell";
+import { WorkoutCard } from "@/components/room/WorkoutCard";
 import type { Metadata } from "next";
 
 interface Props {
@@ -30,7 +32,8 @@ export default async function ZipPage({ params }: Props) {
   const zip = parseNumericZip(code);
   if (!zip) notFound();
 
-  // RoomShell now applies full D-module CSS vars internally
+  const card = loadCard(zip);
+
   return (
     <RoomShell zip={zip}>
       <RoomHeader zip={zip} />
@@ -44,12 +47,18 @@ export default async function ZipPage({ params }: Props) {
           boxShadow: "var(--ppl-shadow-sm)",
         }}
       >
-        <p className="font-mono text-sm opacity-50">
-          Card content will render here once the .md → MDX pipeline is connected.
-        </p>
-        <p className="mt-2 font-mono text-xs opacity-30">
-          status: awaiting card loader
-        </p>
+        {card ? (
+          <WorkoutCard card={card} />
+        ) : (
+          <>
+            <p className="font-mono text-sm opacity-50">
+              This room is being built.
+            </p>
+            <p className="mt-2 font-mono text-xs opacity-30">
+              status: awaiting generation
+            </p>
+          </>
+        )}
       </section>
     </RoomShell>
   );
