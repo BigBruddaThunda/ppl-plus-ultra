@@ -12,6 +12,7 @@ import {
 } from "@/lib/rotation";
 import { getFullZipStyle } from "@/lib/design-system";
 import { parseNumericZip } from "@/lib/scl";
+import { VoiceInput } from "@/components/ui/VoiceInput";
 
 const ORDERS = [
   { emoji: "🐂", name: "Foundation", day: "Mon" },
@@ -123,6 +124,14 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* ── Voice Search ── */}
+        <section className="mb-10">
+          <h2 className="mb-3 text-xs font-medium uppercase tracking-widest opacity-50">
+            Find a Room
+          </h2>
+          <VoiceInput />
         </section>
 
         {/* ── Quick Links ── */}

@@ -25,6 +25,8 @@ export default function SettingsPage() {
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [deleteConfirm, setDeleteConfirm] = useState("");
+  const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
     async function load() {
@@ -182,10 +184,52 @@ export default function SettingsPage() {
         <button
           onClick={handleSave}
           disabled={saving}
-          className="w-full rounded-lg bg-[var(--ppl-accent)] px-5 py-2.5 text-sm font-medium text-[var(--ppl-background)] disabled:opacity-50"
+          className="mb-6 w-full rounded-lg bg-[var(--ppl-accent)] px-5 py-2.5 text-sm font-medium text-[var(--ppl-background)] disabled:opacity-50"
         >
           {saving ? "Saving..." : saved ? "Saved" : "Save Changes"}
         </button>
+
+        {/* Data */}
+        <section className="mb-6 rounded-xl border border-[var(--ppl-border)] p-5">
+          <p className="text-xs font-medium uppercase tracking-widest opacity-50">Your Data</p>
+          <p className="mt-1 text-sm opacity-50">No tracking. No selling. Full control.</p>
+          <div className="mt-4 flex gap-2">
+            <a
+              href="/api/user/export"
+              className="rounded-lg border border-[var(--ppl-border)] px-4 py-2 text-xs font-medium opacity-70 hover:opacity-100"
+            >
+              Export My Data
+            </a>
+          </div>
+        </section>
+
+        {/* Delete */}
+        <section className="rounded-xl border border-red-500/30 p-5">
+          <p className="text-xs font-medium uppercase tracking-widest text-red-400">Delete Account</p>
+          <p className="mt-1 text-sm opacity-50">This cancels your subscription and permanently deletes all data.</p>
+          <input
+            type="text"
+            placeholder='Type "DELETE MY ACCOUNT" to confirm'
+            value={deleteConfirm}
+            onChange={(e) => setDeleteConfirm(e.target.value)}
+            className="mt-4 w-full rounded-lg border border-[var(--ppl-border)] bg-[var(--ppl-surface)] px-4 py-2 text-sm outline-none"
+          />
+          <button
+            disabled={deleteConfirm !== "DELETE MY ACCOUNT" || deleting}
+            onClick={async () => {
+              setDeleting(true);
+              await fetch("/api/user/delete", {
+                method: "DELETE",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ confirmation: deleteConfirm }),
+              });
+              window.location.href = "/";
+            }}
+            className="mt-2 w-full rounded-lg bg-red-500 px-5 py-2.5 text-sm font-medium text-white disabled:opacity-30"
+          >
+            {deleting ? "Deleting..." : "Delete My Account"}
+          </button>
+        </section>
       </main>
     </div>
   );
