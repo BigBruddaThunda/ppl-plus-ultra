@@ -1,8 +1,6 @@
-// Supabase Server Client — Stub for Session D
-//
-// TODO (Session D): Install @supabase/supabase-js and @supabase/ssr
-// TODO (Session D): Read NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY from env
-// TODO (Session D): Create actual server client using createServerClient()
+import { createServerClient } from "@supabase/ssr";
+import { cookies } from "next/headers";
+import { redirect } from "next/navigation";
 
 export interface AuthUser {
   id: string;
@@ -10,28 +8,57 @@ export interface AuthUser {
   tier: number; // 0=Free, 1=Library Card, 2=Community Pass
 }
 
-/**
- * Get the authenticated user from the current request context.
- * Returns null when auth is not yet connected.
- */
-export async function getAuthUser(): Promise<AuthUser | null> {
-  // TODO (Session D): Wire to Supabase
-  // 1. const supabase = createServerClient(...)
-  // 2. const { data: { user } } = await supabase.auth.getUser()
-  // 3. If user, query profiles table for tier
-  // 4. Return { id, email, tier }
-  return null;
+export async function getSupabaseServer() {
+  const cookieStore = await cookies();
+
+  return createServerClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    {
+      cookies: {
+        getAll() {
+          return cookieStore.getAll();
+        },
+        setAll(cookiesToSet) {
+          try {
+            cookiesToSet.forEach(({ name, value, options }) =>
+              cookieStore.set(name, value, options)
+            );
+          } catch {
+            // setAll is called from Server Components where cookies
+            // can't be set — safe to ignore in that context.
+          }
+        },
+      },
+    }
+  );
 }
 
-/**
- * Check if user is authenticated. Redirects to /login if not.
- * Use in protected route Server Components.
- */
+export async function getAuthUser(): Promise<AuthUser | null> {
+  const supabase = await getSupabaseServer();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) return null;
+
+  const { data: profile } = await supabase
+    .from("profiles")
+    .select("tier")
+    .eq("id", user.id)
+    .single();
+
+  return {
+    id: user.id,
+    email: user.email ?? "",
+    tier: profile?.tier ?? 0,
+  };
+}
+
 export async function requireAuth(): Promise<AuthUser> {
   const user = await getAuthUser();
   if (!user) {
-    // TODO (Session D): Use redirect() from next/navigation
-    throw new Error("Not authenticated");
+    redirect("/login");
   }
   return user;
 }

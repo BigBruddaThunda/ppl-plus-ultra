@@ -1,20 +1,36 @@
-// Supabase Auth Middleware — Stub for Session D
-//
-// TODO (Session D): Install @supabase/supabase-js and @supabase/ssr
-// TODO (Session D): Wire real auth token refresh logic
-
+import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
-/**
- * Refresh the auth session on each request.
- * Currently a passthrough — no auth connected yet.
- */
 export async function updateSession(request: NextRequest) {
-  // TODO (Session D): Wire to Supabase middleware
-  // 1. const supabase = createServerClient(url, anonKey, { cookies })
-  // 2. await supabase.auth.getUser() — this refreshes the token
-  // 3. Return the response with updated cookies
-  return NextResponse.next({
-    request: { headers: request.headers },
+  let supabaseResponse = NextResponse.next({
+    request,
   });
+
+  const supabase = createServerClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    {
+      cookies: {
+        getAll() {
+          return request.cookies.getAll();
+        },
+        setAll(cookiesToSet) {
+          cookiesToSet.forEach(({ name, value }) =>
+            request.cookies.set(name, value)
+          );
+          supabaseResponse = NextResponse.next({
+            request,
+          });
+          cookiesToSet.forEach(({ name, value, options }) =>
+            supabaseResponse.cookies.set(name, value, options)
+          );
+        },
+      },
+    }
+  );
+
+  // Refresh the auth token — important for Server Components
+  await supabase.auth.getUser();
+
+  return supabaseResponse;
 }

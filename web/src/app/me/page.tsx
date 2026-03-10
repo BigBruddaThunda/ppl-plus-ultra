@@ -1,7 +1,20 @@
+import { Suspense } from "react";
 import Link from "next/link";
-import { getDailyZip, getOrderName, getTypeName, formatDate } from "@/lib/rotation";
+import { getDailyZip, getOrderName, getTypeName } from "@/lib/rotation";
+import { getAuthUser } from "@/lib/supabase/server";
+import { LogoutButton } from "./LogoutButton";
+import { StripeVerify } from "./StripeVerify";
 
-export default function MePage() {
+export const dynamic = "force-dynamic";
+
+const TIER_NAMES: Record<number, string> = {
+  0: "Free",
+  1: "Library Card",
+  2: "Community Pass",
+};
+
+export default async function MePage() {
+  const user = await getAuthUser();
   const today = new Date();
   const todayZip = getDailyZip(today);
 
@@ -22,30 +35,40 @@ export default function MePage() {
           </p>
         </header>
 
+        <Suspense>
+          <StripeVerify />
+        </Suspense>
+
         {/* ── Profile Section ── */}
         <section className="mb-6 rounded-xl border border-[var(--ppl-border)] bg-[var(--ppl-surface)] p-6">
           <div className="flex items-center gap-4">
             <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[var(--ppl-border)] text-2xl">
-              🧮
+              {user ? "🧮" : "👤"}
             </div>
             <div>
-              <p className="font-medium">Guest</p>
-              <p className="text-xs opacity-40">Free Tier</p>
+              <p className="font-medium">{user ? user.email : "Guest"}</p>
+              <p className="text-xs opacity-40">{user ? TIER_NAMES[user.tier] ?? "Free" : "Not signed in"}</p>
             </div>
           </div>
           <div className="mt-4 flex gap-2">
-            <Link
-              href="/login"
-              className="rounded-lg border border-[var(--ppl-border)] px-4 py-2 text-xs font-medium opacity-70 hover:opacity-100"
-            >
-              Sign In
-            </Link>
-            <Link
-              href="/signup"
-              className="rounded-lg bg-[var(--ppl-accent)] px-4 py-2 text-xs font-medium text-[var(--ppl-background)]"
-            >
-              Create Account
-            </Link>
+            {user ? (
+              <LogoutButton />
+            ) : (
+              <>
+                <Link
+                  href="/login"
+                  className="rounded-lg border border-[var(--ppl-border)] px-4 py-2 text-xs font-medium opacity-70 hover:opacity-100"
+                >
+                  Sign In
+                </Link>
+                <Link
+                  href="/signup"
+                  className="rounded-lg bg-[var(--ppl-accent)] px-4 py-2 text-xs font-medium text-[var(--ppl-background)]"
+                >
+                  Create Account
+                </Link>
+              </>
+            )}
           </div>
         </section>
 
@@ -79,13 +102,15 @@ export default function MePage() {
               <p className="text-xs font-medium uppercase tracking-widest opacity-50">
                 Subscription
               </p>
-              <p className="mt-1 text-sm">Free — Lobby access only</p>
+              <p className="mt-1 text-sm">
+                {user ? `${TIER_NAMES[user.tier] ?? "Free"} — ${user.tier === 0 ? "Lobby access only" : user.tier === 1 ? "Full room access" : "Full access + community"}` : "Free — Lobby access only"}
+              </p>
             </div>
             <Link
               href="/subscribe"
               className="rounded-lg border border-[var(--ppl-accent)] px-4 py-2 text-xs font-medium text-[var(--ppl-accent)]"
             >
-              Upgrade
+              {user && user.tier > 0 ? "Manage" : "Upgrade"}
             </Link>
           </div>
         </section>
@@ -98,9 +123,11 @@ export default function MePage() {
           <p className="mt-3 text-sm opacity-40">
             Your logged sessions will appear here.
           </p>
-          <p className="mt-1 text-xs opacity-30">
-            Requires account connection.
-          </p>
+          {!user && (
+            <p className="mt-1 text-xs opacity-30">
+              Sign in to start logging.
+            </p>
+          )}
         </section>
 
         {/* ── Saved Rooms ── */}
@@ -111,9 +138,11 @@ export default function MePage() {
           <p className="mt-3 text-sm opacity-40">
             Pin your favorite zip codes for quick access.
           </p>
-          <p className="mt-1 text-xs opacity-30">
-            Requires account connection.
-          </p>
+          {!user && (
+            <p className="mt-1 text-xs opacity-30">
+              Sign in to save rooms.
+            </p>
+          )}
         </section>
 
         {/* ── Equipment Settings ── */}
@@ -124,9 +153,11 @@ export default function MePage() {
           <p className="mt-3 text-sm opacity-40">
             Set your available equipment tiers to filter workouts.
           </p>
-          <p className="mt-1 text-xs opacity-30">
-            Requires account connection.
-          </p>
+          {!user && (
+            <p className="mt-1 text-xs opacity-30">
+              Sign in to set equipment.
+            </p>
+          )}
         </section>
       </main>
     </div>

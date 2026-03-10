@@ -1,4 +1,8 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
+import { getSupabaseClient } from "@/lib/supabase/client";
 
 const TIERS = [
   {
@@ -12,8 +16,7 @@ const TIERS = [
       "Explore deck grids",
       "Read Operis editions",
     ],
-    cta: "Current Plan",
-    disabled: true,
+    priceId: null,
     highlight: false,
   },
   {
@@ -29,8 +32,7 @@ const TIERS = [
       "Saved rooms",
       "Floor navigation (all 6 floors)",
     ],
-    cta: "Coming Soon",
-    disabled: true,
+    priceId: process.env.NEXT_PUBLIC_STRIPE_TIER1_PRICE_ID || null,
     highlight: true,
   },
   {
@@ -46,13 +48,41 @@ const TIERS = [
       "Priority cosmogram research",
       "Wilson voice navigation",
     ],
-    cta: "Coming Soon",
-    disabled: true,
+    priceId: process.env.NEXT_PUBLIC_STRIPE_TIER2_PRICE_ID || null,
     highlight: false,
   },
 ];
 
 export default function SubscribePage() {
+  const [loading, setLoading] = useState<string | null>(null);
+
+  async function handleCheckout(priceId: string) {
+    setLoading(priceId);
+
+    // Check if user is logged in
+    const supabase = getSupabaseClient();
+    const { data: { user } } = await supabase.auth.getUser();
+
+    if (!user) {
+      window.location.href = "/login";
+      return;
+    }
+
+    const res = await fetch("/api/stripe/checkout", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ priceId }),
+    });
+
+    const data = await res.json();
+
+    if (data.url) {
+      window.location.href = data.url;
+    } else {
+      setLoading(null);
+    }
+  }
+
   return (
     <div className="min-h-screen bg-[var(--ppl-background)]">
       <main className="mx-auto max-w-3xl px-6 py-12">
@@ -103,16 +133,26 @@ export default function SubscribePage() {
                 ))}
               </ul>
 
-              <button
-                disabled={tier.disabled}
-                className={`mt-6 w-full rounded-lg px-4 py-2.5 text-sm font-medium ${
-                  tier.highlight
-                    ? "bg-[var(--ppl-accent)] text-[var(--ppl-background)] opacity-50 cursor-not-allowed"
-                    : "border border-[var(--ppl-border)] opacity-40 cursor-not-allowed"
-                }`}
-              >
-                {tier.cta}
-              </button>
+              {tier.priceId ? (
+                <button
+                  onClick={() => handleCheckout(tier.priceId!)}
+                  disabled={loading === tier.priceId}
+                  className={`mt-6 w-full rounded-lg px-4 py-2.5 text-sm font-medium ${
+                    tier.highlight
+                      ? "bg-[var(--ppl-accent)] text-[var(--ppl-background)] hover:opacity-90 disabled:opacity-50"
+                      : "border border-[var(--ppl-accent)] text-[var(--ppl-accent)] hover:opacity-90 disabled:opacity-50"
+                  }`}
+                >
+                  {loading === tier.priceId ? "Redirecting..." : "Subscribe"}
+                </button>
+              ) : (
+                <button
+                  disabled
+                  className="mt-6 w-full rounded-lg border border-[var(--ppl-border)] px-4 py-2.5 text-sm font-medium opacity-40 cursor-not-allowed"
+                >
+                  Current Plan
+                </button>
+              )}
             </div>
           ))}
         </div>
