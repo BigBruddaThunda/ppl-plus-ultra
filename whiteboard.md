@@ -4,7 +4,7 @@ Last updated: 2026-03-10
 Phase: 3.1 — Quality Rebuild Campaign + Web App Foundation
 Cards: 1,680 / 1,680 (ALL 42 DECKS COMPLETE ✅ — audit score: 91.1/100, format: 100, 2,255 flags resolved)
 Exercise Library: v.1.1 (2,085 exercises, 18 movement patterns, 55 scl_types corrected, 21/21 integration checks)
-Web App: Next.js 16 — Wave 3 complete (auth, payments, onboarding, logging, saved rooms — all user features live)
+Web App: Next.js 16 — Waves 1-5 complete (auth, payments, onboarding, logging, saved rooms, voice, zoom, data, deploy config). Session L (community) remaining.
 Seeds: 49 | Scripts: 35
 CX Containers: 44 defined, 40 complete, 4 open
 
@@ -81,7 +81,9 @@ Systematic, templated, institutional. Follow the pattern.
 | DONE | — | Session H: Saved rooms + library | — | SaveRoomButton, TrackVisit, VisitCount, /me/library with random picker, zip_visits table |
 | DONE | — | Session C-2: Voice parser | — | 3-layer keyword scoring (160+ keywords), VoiceInput with Web Speech API, auto-route on high confidence, on homepage |
 | DONE | — | Session M: Data export + deletion | — | GET /api/user/export, DELETE /api/user/delete with Stripe cancel + cascade, confirmation typing, on /me/settings |
-| OPEN | — | Session K: Pinch-zoom canvas | — | Zoom levels: 1x normal, 0.5x block chips, 0.25x deck map. @use-gesture/react installed. |
+| DONE | — | Session K: Pinch-zoom canvas | — | ZoomableRoom (pinch/wheel), BlockChips (0.5x), DeckMap (0.25x), RoomContent client wrapper. @use-gesture/react. |
+| DONE | — | Session N: Production deployment config | — | next.config.ts (security headers, caching), vercel.json, .env.production.example, /api/health, DEPLOY.md checklist |
+| DONE | — | Orphaned root src/ cleanup | — | Removed 10 duplicate files from branch merge (src/app/auth, login, me, signup, src/lib/supabase, middleware) |
 | OPEN | — | Session L: Community floor | Jake moderation decisions | Supabase Realtime, community_posts/replies tables, Tier 2 gating |
 | OPEN | CX-44 | Build Sequence V2 — multi-agent workflow contracts | — | `seeds/claude-code-build-sequence-v2.md` — 20 sessions, 5 waves, 3 Jake sessions, supersedes V1 |
 

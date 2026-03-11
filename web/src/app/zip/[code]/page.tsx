@@ -4,7 +4,7 @@ import { parseNumericZip } from "@/lib/scl";
 import { COLOR_TOKENS, ORDER_TOKENS } from "@/lib/tokens";
 import { getOrderProportions } from "@/lib/design-system";
 import { loadCard } from "@/lib/card-loader";
-import { WorkoutCard } from "@/components/room/WorkoutCard";
+import { RoomContent } from "@/components/room/RoomContent";
 import { SaveRoomButton } from "@/components/ui/SaveRoomButton";
 import { TrackVisit } from "@/components/ui/TrackVisit";
 import { VisitCount } from "@/components/ui/VisitCount";
@@ -61,18 +61,13 @@ export default async function ZipPage({ params }: Props) {
         <TrackVisit zipCode={code} />
       </Suspense>
 
-      {card ? (
-        <WorkoutCard card={card} />
-      ) : (
-        <>
-          <p className="font-mono text-sm opacity-50">
-            This room is being built.
-          </p>
-          <p className="mt-2 font-mono text-xs opacity-30">
-            status: awaiting generation
-          </p>
-        </>
-      )}
+      <RoomContent
+        card={card}
+        order={zip.order}
+        axis={zip.axis}
+        numericCode={code}
+        deckNumber={zip.deck}
+      />
     </section>
   );
 }
