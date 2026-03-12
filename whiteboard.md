@@ -1,11 +1,11 @@
 # Negotiosum — Ppl± Active Work Board
 
-Last updated: 2026-03-10
+Last updated: 2026-03-11
 Phase: 3.1 — Quality Rebuild Campaign + Web App Foundation
 Cards: 1,680 / 1,680 (ALL 42 DECKS COMPLETE ✅ — audit score: 91.1/100, format: 100, 2,255 flags resolved)
 Exercise Library: v.1.1 (2,085 exercises, 18 movement patterns, 55 scl_types corrected, 21/21 integration checks)
 Web App: Next.js 16 — Waves 1-5 complete (auth, payments, onboarding, logging, saved rooms, voice, zoom, data, deploy config). Session L (community) remaining.
-Seeds: 49 | Scripts: 35
+Seeds: 53 | Scripts: 35
 CX Containers: 44 defined, 40 complete, 4 open
 
 For development history, see `session-log.md`.
@@ -192,6 +192,10 @@ Creative exploration, discovery. Surprising AND useful.
 | OPEN | — | Deck campaign naming pass (Deck 09 titles) | — | Review operator + title quality across 40 cards |
 | DONE | — | Abacus architecture seed | — | seeds/abacus-architecture.md — 35 training archetypes × 48 zips |
 | DONE | — | City Compiler architecture + implementation | — | Seed → built: web/src/lib/city-compiler.ts reads compiled JSON from middle-math/compiled/ (1,680 zips, 42 decks, 35 abaci) |
+| DONE | — | Home screen architecture seed | — | seeds/home-screen-architecture.md — 4 dials, 8 vials, central map, responsive breakpoints |
+| DONE | — | Character progression architecture seed | — | seeds/character-progression-architecture.md — 8×7 skill matrix, 12 Houses, GW2/OSRS model |
+| DONE | — | Exploration immersion architecture seed | — | seeds/exploration-immersion-architecture.md — fog of war, quicksave, easter eggs, seasons |
+| DONE | — | Life copilot architecture seed | — | seeds/life-copilot-architecture.md — full platform vision, life domains, grandfather's gift |
 | OPEN | — | Platform architecture V3 (if V2 needs update) | — | After enough infrastructure lands |
 
 ---
@@ -214,6 +218,7 @@ Review, reflect, slow down. Does this serve flourishing?
 
 Active observations, open questions, and emergent ideas. When a note becomes a task, move it to the appropriate Color section. When a note becomes a seed, commit it and remove from here.
 
+- **Session L-prep (2026-03-11) — Vision architecture seeding.** Jake's full-scale ideation session: Ppl± as life copilot, not just workout app. 4 new seeds planted: home-screen-architecture (4 dials + 8 vials HUD + central map), character-progression-architecture (8 Colors × 7 Orders = 56 skills, 12 Houses as classes, GW2 horizontal progression, RuneScape classless skills, r/outside framing), exploration-immersion-architecture (fog of war, quicksave bookmarks, easter eggs, seasonal immersion, zone personality typology, anti-addiction design), life-copilot-architecture (career/finance/civics/almanac, grandfather's gift principle, 100-year cathedral, healthy phone habits). Sessions K+N committed. Clean slate for Session L and beyond.
 - **Wave 4 partial (2026-03-10) — Sessions C-2, M complete.** Voice parser: `web/src/lib/voice-parser.ts` — 160+ keywords across 4 dials (Order/Axis/Type/Color), `VoiceInput.tsx` with Web Speech API mic button, auto-routes on >85% confidence, added to homepage. Data export: `GET /api/user/export` — full JSON download of all user data. Data deletion: `DELETE /api/user/delete` — cancels Stripe subscription, cascades all table deletions, removes auth user. Requires typing "DELETE MY ACCOUNT". Both added to `/me/settings`. Remaining Wave 4: Session K (pinch-zoom canvas) and Session L (community floor, needs Jake moderation decisions). After Wave 4: Session N (production deploy).
 - **Wave 3 (2026-03-10) — Sessions E, G, H complete.** Onboarding: 3-step flow (equipment tiers 0-5, region picker, summary) with `user_equipment` table and `onboarding_complete` + `region` columns on profiles. Signup redirects to onboarding; existing users redirected on next /me visit. Logging: `LogOverlay` on exercise lines (├─), `workout_sessions` + `set_logs` tables, `SessionSummary` at card bottom. History at `/me/history`. Saved rooms: `SaveRoomButton` + `TrackVisit` + `VisitCount` on room pages, `saved_rooms` + `zip_visits` tables, `/me/library` with random room picker. Settings at `/me/settings` (equipment + region editor). Dashboard upgraded with links to all three. SQL migration 011 covers all 5 new tables + 2 profile columns. Wave 3 Quality Gate: signup → onboarding → first room → log a set → save room flow works end-to-end. Next: Wave 4 (voice parser, pinch-zoom, community, data export) or card quality work.
 - **Session D+F (2026-03-10) — Auth + Payments Live.** Merged web app branch to main. Supabase auth wired: signup, login, logout, middleware, /me dashboard with tier display. Stripe wired: checkout sessions for Library Card ($10/mo) and Community Pass ($25/mo), webhook handler, post-checkout verify endpoint. Full flow tested: signup → subscribe → Stripe Checkout → tier updates in Supabase → /me shows correct tier. Profiles table with auto-create trigger, RLS policies, stripe_customer_id and stripe_subscription_id columns. Web app runs from `web/` directory. `.env.example` committed. Build Sequence V2 Sessions 0, D, and F complete. Next: Wave 2 remaining (Operis pipeline) or Wave 3 (onboarding, logging, saved rooms).
