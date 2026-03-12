@@ -5,7 +5,7 @@ Phase: 3.1 — Quality Rebuild Campaign + Web App Foundation
 Cards: 1,680 / 1,680 (ALL 42 DECKS COMPLETE ✅ — audit score: 91.1/100, format: 100, 2,255 flags resolved)
 Exercise Library: v.1.1 (2,085 exercises, 18 movement patterns, 55 scl_types corrected, 21/21 integration checks)
 Web App: Next.js 16 — Waves 1-5 complete (auth, payments, onboarding, logging, saved rooms, voice, zoom, data, deploy config). Session L (community) remaining.
-Seeds: 54 | Scripts: 35
+Seeds: 55 | Scripts: 35
 CX Containers: 44 defined, 40 complete, 4 open
 
 For development history, see `session-log.md`.
@@ -197,6 +197,7 @@ Creative exploration, discovery. Surprising AND useful.
 | DONE | — | Exploration immersion architecture seed | — | seeds/exploration-immersion-architecture.md — fog of war, quicksave, easter eggs, seasons |
 | DONE | — | Life copilot architecture seed | — | seeds/life-copilot-architecture.md — full platform vision, life domains, grandfather's gift |
 | DONE | — | Art direction seed (intaglio engraving) | — | seeds/art-direction-intaglio.md — banknote engraving aesthetic, colorized, procedural from weight vectors |
+| DONE | — | Tech stack evolution seed | — | seeds/tech-stack-evolution.md — TypeScript skin, Python brain, Rust muscle, PostgreSQL memory, service mesh |
 | OPEN | — | Platform architecture V3 (if V2 needs update) | — | After enough infrastructure lands |
 
 ---
