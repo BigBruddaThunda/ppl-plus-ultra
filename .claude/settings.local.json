@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git reset:*)",
+      "Bash(git:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(taskkill:*)",
+      "Bash(npx next:*)",
+      "Bash(npm install:*)",
+      "Bash(python scripts/progress-report.py 2>&1)",
+      "Bash(PYTHONIOENCODING=utf-8 python scripts/progress-report.py 2>&1)",
+      "Bash(npm run:*)",
+      "Bash(find . -name \"*.sql\" -not -path \"*/node_modules/*\" 2>/dev/null | sort)",
+      "Bash(curl -s http://localhost:3000/signup 2>/dev/null | grep -o \"use client\\\\|disabled\\\\|Authentication will be connected\\\\|Creating account\\\\|handleSignup\" | head -10)",
+      "Bash(cp .env.local web/.env.local && cd web && npm install @supabase/supabase-js @supabase/ssr 2>&1 | tail -3)",
+      "Bash(sleep 8 && curl -s http://localhost:3000/signup 2>/dev/null | grep -o \"disabled\\\\|Authentication will be connected\\\\|Creating account\\\\|handleSignup\\\\|use client\" | head -5)",
+      "Bash(curl -s http://localhost:3000/signup 2>/dev/null | grep -o \"button[^>]*>[^<]*<\" | head -5)",
+      "Bash(ls -la \"C:\\\\Users\\\\iamja\\\\Desktop\\\\ppl-plus-ultra\\\\ppl-plus-ultra\\\\web\\\\src\\\\app\\\\me\\\\\" 2>/dev/null || echo \"me directory listing\")",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/web && npx tsc --noEmit 2>&1 | head -50)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/web && npx tsc --noEmit 2>&1 | head -30)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/web && npx tsc --noEmit 2>&1 | head -20)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/web && npx tsc --noEmit 2>&1 | head -10)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/web && npx tsc --noEmit 2>&1 | head -5)",
+      "WebFetch(domain:www.reddit.com)",
+      "WebFetch(domain:old.reddit.com)"
+    ]
+  }
+}
