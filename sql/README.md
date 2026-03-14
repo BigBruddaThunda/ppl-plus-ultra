@@ -1,4 +1,4 @@
-# SQL Migrations — CX-08 + CX-20 + CX-40 Schema Materialization
+# SQL Migrations — CX-08 + CX-20 + CX-40 + Community Schema
 
 Executable PostgreSQL 15+ migrations derived from `middle-math/schemas/*.md`.
 
@@ -14,6 +14,8 @@ Executable PostgreSQL 15+ migrations derived from `middle-math/schemas/*.md`.
 8. `008-room-schema-extension.sql`
 9. `009-exercise-registry.sql`
 10. `010-exercise-knowledge.sql`
+11. `011-wave3-tables.sql`
+12. `012-community.sql`
 
 > Run in numeric order. Foreign keys are arranged so references target tables created in earlier files.
 
@@ -31,6 +33,9 @@ Executable PostgreSQL 15+ migrations derived from `middle-math/schemas/*.md`.
 - `010-exercise-knowledge.sql` ← `exercise-content/` knowledge files (CX-40 / CX-37)
 
 `middle-math/schemas/zip-weight-cache-schema.md` remains optional and is intentionally not materialized in this numbered set.
+
+- `011-wave3-tables.sql` — Onboarding columns, user_equipment, workout_sessions, set_logs, saved_rooms, zip_visits
+- `012-community.sql` — community_posts, community_replies, word filter trigger, Realtime, reply count denormalization
 
 ## Notes
 

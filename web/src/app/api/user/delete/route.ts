@@ -40,6 +40,8 @@ export async function DELETE(request: Request) {
   // Delete user data (cascades via FK ON DELETE CASCADE)
   // But we explicitly clean up to be thorough
   await Promise.all([
+    supabase.from("community_replies").delete().eq("user_id", user.id),
+    supabase.from("community_posts").delete().eq("user_id", user.id),
     supabase.from("set_logs").delete().eq("user_id", user.id),
     supabase.from("workout_sessions").delete().eq("user_id", user.id),
     supabase.from("saved_rooms").delete().eq("user_id", user.id),

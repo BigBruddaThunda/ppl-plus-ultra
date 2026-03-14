@@ -7,13 +7,15 @@ export async function GET() {
 
   const supabase = await getSupabaseServer();
 
-  const [profile, equipment, sessions, setLogs, saved, visits] = await Promise.all([
+  const [profile, equipment, sessions, setLogs, saved, visits, posts, replies] = await Promise.all([
     supabase.from("profiles").select("*").eq("id", user.id).single(),
     supabase.from("user_equipment").select("*").eq("user_id", user.id),
     supabase.from("workout_sessions").select("*").eq("user_id", user.id),
     supabase.from("set_logs").select("*").eq("user_id", user.id),
     supabase.from("saved_rooms").select("*").eq("user_id", user.id),
     supabase.from("zip_visits").select("*").eq("user_id", user.id),
+    supabase.from("community_posts").select("*").eq("user_id", user.id),
+    supabase.from("community_replies").select("*").eq("user_id", user.id),
   ]);
 
   const exportData = {
@@ -25,6 +27,8 @@ export async function GET() {
     set_logs: setLogs.data,
     saved_rooms: saved.data,
     zip_visits: visits.data,
+    community_posts: posts.data,
+    community_replies: replies.data,
   };
 
   return new NextResponse(JSON.stringify(exportData, null, 2), {
