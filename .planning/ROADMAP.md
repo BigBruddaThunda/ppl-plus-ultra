@@ -13,7 +13,7 @@ This roadmap builds a deterministic offline parser, weight-vector-to-CSS renderi
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - Canvas workspace, TypeScript types, zip converter, and Claude Code path-gating infrastructure (completed 2026-03-14)
-- [ ] **Phase 2: Core Data** - Four dial weight tables and fitness keyword dictionary (parallel builds from first-party specs)
+- [x] **Phase 2: Core Data** - Four dial weight tables and fitness keyword dictionary (parallel builds from first-party specs) (completed 2026-03-14)
 - [ ] **Phase 3: Integration** - Interaction resolver wiring weight tables into WeightVector; text scorer wiring vocab into ParseResult
 - [ ] **Phase 4: Design Tokens** - design-tokens.json encoding all 8 Color palettes, 7 Order typographies, 6 Axis gradients; style-dictionary build
 - [ ] **Phase 5: Rendering Pipeline** - weightsToCSSVars() and all deriver functions; CSS arbitration spec locked before code
@@ -47,7 +47,7 @@ Plans:
   2. exercises.json is built from exercise-library.md (~2,185 exercises) with fuzzy-matchable aliases
   3. dial-keywords.json contains ~2,500 fitness terms with dimension_affinity_score per entry, collision-prone keywords identified
   4. Weight vector computation produces a 61-dimensional array for any valid zip code input
-**Plans:** 2/3 plans executed
+**Plans:** 3/3 plans complete
 Plans:
 - [ ] 02-01-PLAN.md — Weight tables for all 6 categories + computeRawVector() function
 - [ ] 02-02-PLAN.md — Exercise dictionary port with alias layer
@@ -127,7 +127,7 @@ Phases execute in strict dependency order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete    | 2026-03-14 |
-| 2. Core Data | 2/3 | In Progress|  |
+| 2. Core Data | 3/3 | Complete   | 2026-03-14 |
 | 3. Integration | 0/TBD | Not started | - |
 | 4. Design Tokens | 0/TBD | Not started | - |
 | 5. Rendering Pipeline | 0/TBD | Not started | - |

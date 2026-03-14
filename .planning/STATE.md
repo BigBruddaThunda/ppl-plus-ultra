@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-01-PLAN.md
-last_updated: "2026-03-14T20:18:36.017Z"
+stopped_at: Completed 02-03-PLAN.md
+last_updated: "2026-03-14T20:37:49.660Z"
 last_activity: 2026-03-14 — Plan 01-02 complete (zip converter with 6,762 tests)
 progress:
   total_phases: 8
-  completed_phases: 1
+  completed_phases: 2
   total_plans: 5
-  completed_plans: 4
+  completed_plans: 5
 ---
 
 ---
@@ -67,6 +67,7 @@ Progress: [█░░░░░░░░░] 5%
 *Updated after each plan completion*
 | Phase 02-core-data P02 | 255 | 2 tasks | 3 files |
 | Phase 02-core-data P01 | 8 | 2 tasks | 9 files |
+| Phase 02-core-data P03 | 27 | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -85,6 +86,9 @@ Recent decisions affecting current work:
 - [Phase 02-core-data]: build-exercises-json.cjs script deleted after generation; exercises.json is the artifact
 - [Phase 02-core-data]: Block and Operator weight tables are NOT consumed by computeRawVector() — standalone exports for downstream block/operator selection
 - [Phase 02-core-data]: computeRawVector() implements Steps 1-3 only with [-8,+8] clamp — Steps 4-5 reserved for Phase 3 resolver
+- [Phase 02-core-data]: DimensionId covers positions 1-26 only; Blocks/Operators not keyword dimensions
+- [Phase 02-core-data]: barbell maps to dim 21 Structured as primary color dimension (tier 3 equipment)
+- [Phase 02-core-data]: Generator script build-keywords.mjs kept for reproducible dictionary builds
 
 ### Pending Todos
 
@@ -97,6 +101,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T20:18:36.014Z
-Stopped at: Completed 02-01-PLAN.md
+Last session: 2026-03-14T20:37:38.686Z
+Stopped at: Completed 02-03-PLAN.md
 Resume file: None
