@@ -47,7 +47,7 @@ Plans:
   2. exercises.json is built from exercise-library.md (~2,185 exercises) with fuzzy-matchable aliases
   3. dial-keywords.json contains ~2,500 fitness terms with dimension_affinity_score per entry, collision-prone keywords identified
   4. Weight vector computation produces a 61-dimensional array for any valid zip code input
-**Plans:** 3 plans
+**Plans:** 1/3 plans executed
 Plans:
 - [ ] 02-01-PLAN.md — Weight tables for all 6 categories + computeRawVector() function
 - [ ] 02-02-PLAN.md — Exercise dictionary port with alias layer
@@ -127,7 +127,7 @@ Phases execute in strict dependency order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete    | 2026-03-14 |
-| 2. Core Data | 0/3 | Planned | - |
+| 2. Core Data | 1/3 | In Progress|  |
 | 3. Integration | 0/TBD | Not started | - |
 | 4. Design Tokens | 0/TBD | Not started | - |
 | 5. Rendering Pipeline | 0/TBD | Not started | - |

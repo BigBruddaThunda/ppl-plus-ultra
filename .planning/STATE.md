@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-02-PLAN.md
-last_updated: "2026-03-14T02:47:09.998Z"
+stopped_at: Completed 02-02-PLAN.md
+last_updated: "2026-03-14T20:15:01.385Z"
 last_activity: 2026-03-14 — Plan 01-02 complete (zip converter with 6,762 tests)
 progress:
   total_phases: 8
   completed_phases: 1
-  total_plans: 2
-  completed_plans: 2
+  total_plans: 5
+  completed_plans: 3
 ---
 
 ---
@@ -65,6 +65,7 @@ Progress: [█░░░░░░░░░] 5%
 - Trend: steady
 
 *Updated after each plan completion*
+| Phase 02-core-data P02 | 255 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -79,6 +80,8 @@ Recent decisions affecting current work:
 - [Pre-Phase 1]: ParseResult must include defaulted_dimensions field from day one — retrofitting is a breaking API change
 - [Plan 01-02]: Operator derivation uses CLAUDE.md canonical emojis, not stale Python zip_converter.py emojis
 - [Plan 01-02]: Registry operator tests verify latin name only; emoji correctness verified via explicit CLAUDE.md-sourced test cases
+- [Phase 02-core-data]: equipment_tier source data uses [0,max] format — barbell test checks tier[1] (max) >= 3, not tier[0]
+- [Phase 02-core-data]: build-exercises-json.cjs script deleted after generation; exercises.json is the artifact
 
 ### Pending Todos
 
@@ -91,6 +94,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T02:39:20Z
-Stopped at: Completed 01-02-PLAN.md
-Resume file: .planning/phases/01-foundation/01-02-SUMMARY.md
+Last session: 2026-03-14T20:15:01.382Z
+Stopped at: Completed 02-02-PLAN.md
+Resume file: None

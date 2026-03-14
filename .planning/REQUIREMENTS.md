@@ -25,9 +25,9 @@ Requirements for initial release (Sessions 1-2). Each maps to roadmap phases.
 
 - [ ] **PARS-01**: ParseResult type with zip code, weight vector, confidence score, and defaulted_dimensions field
 - [ ] **PARS-02**: Keyword dictionary (~2,500 fitness terms) with dimension_affinity_score per entry
-- [ ] **PARS-03**: Exercise name detection using exercise-library.md as authoritative source (~2,185 exercises)
-- [ ] **PARS-04**: Equipment mention detection mapping to Color tier ranges
-- [ ] **PARS-05**: Body part / muscle group detection mapping to Type
+- [x] **PARS-03**: Exercise name detection using exercise-library.md as authoritative source (~2,185 exercises)
+- [x] **PARS-04**: Equipment mention detection mapping to Color tier ranges
+- [x] **PARS-05**: Body part / muscle group detection mapping to Type
 - [ ] **PARS-06**: Fuzzy matching with typo tolerance (edit distance ≤ 2) via fastest-levenshtein
 - [ ] **PARS-07**: Multi-word alias expansion via fuse.js
 - [ ] **PARS-08**: Text-to-zip scoring pipeline that produces ranked candidate addresses from natural language input
@@ -113,9 +113,9 @@ Deferred to Session 3+ after infrastructure is solid.
 | WGHT-01 | Phase 2 | Pending |
 | WGHT-02 | Phase 2 | Pending |
 | PARS-02 | Phase 2 | Pending |
-| PARS-03 | Phase 2 | Pending |
-| PARS-04 | Phase 2 | Pending |
-| PARS-05 | Phase 2 | Pending |
+| PARS-03 | Phase 2 | Complete |
+| PARS-04 | Phase 2 | Complete |
+| PARS-05 | Phase 2 | Complete |
 | WGHT-03 | Phase 3 | Pending |
 | WGHT-04 | Phase 3 | Pending |
 | PARS-01 | Phase 3 | Pending |
