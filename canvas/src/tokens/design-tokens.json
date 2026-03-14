@@ -1,0 +1,235 @@
+{
+  "colors": {
+    "order": {
+      "emoji": "⚫",
+      "scl_name": "Teaching",
+      "tonal_name": "order",
+      "base_hue": 0,
+      "base_chroma": 0,
+      "tier": "2-3",
+      "gold": false,
+      "primary": "oklch(0.2 0 0)",
+      "secondary": "oklch(0.30000000000000004 0 0)",
+      "background": "oklch(0.97 0 0)",
+      "surface": "oklch(1 0 0)",
+      "text": "oklch(0.06 0 0)",
+      "accent": "oklch(0.14 0 0)",
+      "border": "oklch(0.82 0 0)"
+    },
+    "growth": {
+      "emoji": "🟢",
+      "scl_name": "Bodyweight",
+      "tonal_name": "growth",
+      "base_hue": 145,
+      "base_chroma": 0.12,
+      "tier": "0-2",
+      "gold": false,
+      "primary": "oklch(0.42 0.12 145)",
+      "secondary": "oklch(0.52 0.096 145)",
+      "background": "oklch(0.97 0.012 145)",
+      "surface": "oklch(1 0 0)",
+      "text": "oklch(0.27999999999999997 0.078 145)",
+      "accent": "oklch(0.36 0.108 145)",
+      "border": "oklch(0.82 0.036 145)"
+    },
+    "planning": {
+      "emoji": "🔵",
+      "scl_name": "Structured",
+      "tonal_name": "planning",
+      "base_hue": 230,
+      "base_chroma": 0.14,
+      "tier": "2-3",
+      "gold": false,
+      "primary": "oklch(0.4 0.10496582031250001 230)",
+      "secondary": "oklch(0.5 0.11200000000000002 230)",
+      "background": "oklch(0.97 0.014000000000000002 230)",
+      "surface": "oklch(1 0 0)",
+      "text": "oklch(0.26 0.06820556640625 230)",
+      "accent": "oklch(0.34 0.08920898437500002 230)",
+      "border": "oklch(0.82 0.042 230)"
+    },
+    "magnificence": {
+      "emoji": "🟣",
+      "scl_name": "Technical",
+      "tonal_name": "magnificence",
+      "base_hue": 285,
+      "base_chroma": 0.18,
+      "tier": "2-5",
+      "gold": true,
+      "primary": "oklch(0.38 0.18 285)",
+      "secondary": "oklch(0.48 0.144 285)",
+      "background": "oklch(0.97 0.0162421875 285)",
+      "surface": "oklch(1 0 0)",
+      "text": "oklch(0.24 0.11699999999999999 285)",
+      "accent": "oklch(0.32 0.162 285)",
+      "border": "oklch(0.82 0.054 285)"
+    },
+    "passion": {
+      "emoji": "🔴",
+      "scl_name": "Intense",
+      "tonal_name": "passion",
+      "base_hue": 25,
+      "base_chroma": 0.22,
+      "tier": "2-4",
+      "gold": true,
+      "primary": "oklch(0.42 0.1919091796875 25)",
+      "secondary": "oklch(0.52 0.17600000000000002 25)",
+      "background": "oklch(0.97 0.019121093750000002 25)",
+      "surface": "oklch(1 0 0)",
+      "text": "oklch(0.27999999999999997 0.12791796875 25)",
+      "accent": "oklch(0.36 0.1644521484375 25)",
+      "border": "oklch(0.82 0.066 25)"
+    },
+    "connection": {
+      "emoji": "🟠",
+      "scl_name": "Circuit",
+      "tonal_name": "connection",
+      "base_hue": 45,
+      "base_chroma": 0.18,
+      "tier": "0-3",
+      "gold": false,
+      "primary": "oklch(0.55 0.1782861328125 45)",
+      "secondary": "oklch(0.65 0.144 45)",
+      "background": "oklch(0.97 0.018 45)",
+      "surface": "oklch(1 0 0)",
+      "text": "oklch(0.41000000000000003 0.11699999999999999 45)",
+      "accent": "oklch(0.49000000000000005 0.1588359375 45)",
+      "border": "oklch(0.82 0.054 45)"
+    },
+    "play": {
+      "emoji": "🟡",
+      "scl_name": "Fun",
+      "tonal_name": "play",
+      "base_hue": 85,
+      "base_chroma": 0.16,
+      "tier": "0-5",
+      "gold": false,
+      "primary": "oklch(0.72 0.16 85)",
+      "secondary": "oklch(0.82 0.128 85)",
+      "background": "oklch(0.97 0.016 85)",
+      "surface": "oklch(1 0 0)",
+      "text": "oklch(0.58 0.10400000000000001 85)",
+      "accent": "oklch(0.6599999999999999 0.14400000000000002 85)",
+      "border": "oklch(0.82 0.048 85)"
+    },
+    "eudaimonia": {
+      "emoji": "⚪",
+      "scl_name": "Mindful",
+      "tonal_name": "eudaimonia",
+      "base_hue": 60,
+      "base_chroma": 0.02,
+      "tier": "0-3",
+      "gold": false,
+      "primary": "oklch(0.92 0.02 60)",
+      "secondary": "oklch(1 0 60)",
+      "background": "oklch(0.97 0.002 60)",
+      "surface": "oklch(1 0 0)",
+      "text": "oklch(0.78 0.013000000000000001 60)",
+      "accent": "oklch(0.8600000000000001 0.018000000000000002 60)",
+      "border": "oklch(0.82 0.006 60)"
+    }
+  },
+  "orders": {
+    "foundation": {
+      "emoji": "🐂",
+      "fontWeight": 400,
+      "fontWeightDisplay": 500,
+      "lineHeight": 1.75,
+      "spacingMultiplier": 1.25,
+      "letterSpacing": "0.02em",
+      "density": "spacious"
+    },
+    "strength": {
+      "emoji": "⛽",
+      "fontWeight": 800,
+      "fontWeightDisplay": 900,
+      "lineHeight": 1.4,
+      "spacingMultiplier": 0.85,
+      "letterSpacing": "0.005em",
+      "density": "compact"
+    },
+    "hypertrophy": {
+      "emoji": "🦋",
+      "fontWeight": 600,
+      "fontWeightDisplay": 700,
+      "lineHeight": 1.55,
+      "spacingMultiplier": 1,
+      "letterSpacing": "0.01em",
+      "density": "moderate"
+    },
+    "performance": {
+      "emoji": "🏟",
+      "fontWeight": 900,
+      "fontWeightDisplay": 900,
+      "lineHeight": 1.35,
+      "spacingMultiplier": 0.75,
+      "letterSpacing": "0",
+      "density": "compact"
+    },
+    "full-body": {
+      "emoji": "🌾",
+      "fontWeight": 500,
+      "fontWeightDisplay": 600,
+      "lineHeight": 1.6,
+      "spacingMultiplier": 1.1,
+      "letterSpacing": "0.015em",
+      "density": "moderate"
+    },
+    "balance": {
+      "emoji": "⚖",
+      "fontWeight": 400,
+      "fontWeightDisplay": 500,
+      "lineHeight": 1.65,
+      "spacingMultiplier": 1.15,
+      "letterSpacing": "0.02em",
+      "density": "moderate"
+    },
+    "restoration": {
+      "emoji": "🖼",
+      "fontWeight": 300,
+      "fontWeightDisplay": 400,
+      "lineHeight": 1.85,
+      "spacingMultiplier": 1.5,
+      "letterSpacing": "0.04em",
+      "density": "airy"
+    }
+  },
+  "axes": {
+    "basics": {
+      "emoji": "🏛",
+      "gradientDirection": "to bottom",
+      "layoutFlow": "column",
+      "typographyBias": "classical"
+    },
+    "functional": {
+      "emoji": "🔨",
+      "gradientDirection": "135deg",
+      "layoutFlow": "row",
+      "typographyBias": "condensed"
+    },
+    "aesthetic": {
+      "emoji": "🌹",
+      "gradientDirection": "to bottom right",
+      "layoutFlow": "column-reverse",
+      "typographyBias": "editorial"
+    },
+    "challenge": {
+      "emoji": "🪐",
+      "gradientDirection": "to top",
+      "layoutFlow": "column",
+      "typographyBias": "industrial"
+    },
+    "time": {
+      "emoji": "⌛",
+      "gradientDirection": "to right",
+      "layoutFlow": "row",
+      "typographyBias": "monospace"
+    },
+    "partner": {
+      "emoji": "🐬",
+      "gradientDirection": "radial",
+      "layoutFlow": "row",
+      "typographyBias": "humanist"
+    }
+  }
+}
