@@ -145,3 +145,15 @@ None - no external service configuration required.
 ---
 *Phase: 03-integration*
 *Completed: 2026-03-14*
+
+## Self-Check: PASSED
+
+- FOUND: canvas/src/parser/tokenizer.ts
+- FOUND: canvas/src/parser/fuzzy.ts
+- FOUND: canvas/src/parser/scorer.ts
+- FOUND: canvas/tests/scorer.test.ts
+- FOUND: .planning/phases/03-integration/03-02-SUMMARY.md
+- FOUND: 81bb8bd9 (chore: deps install)
+- FOUND: bc14d7be (test: RED phase)
+- FOUND: 77a2d95e (feat: GREEN phase)
+- FOUND: a170ca75 (docs: metadata commit)
