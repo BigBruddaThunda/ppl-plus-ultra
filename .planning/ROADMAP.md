@@ -33,7 +33,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Deck number derives correctly from any zip code using (order - 1) * 6 + axis
   4. TypeScript types compile with strict mode for all SCL primitives (Order, Axis, Type, Color, Operator, Block)
   5. AGENT-BOUNDARIES.md exists documenting path-gating patterns before any canvas-specific hook is added
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 01-01-PLAN.md — Scaffold canvas/ workspace and define all 61 SCL primitive types
+- [ ] 01-02-PLAN.md — Bidirectional zip converter with 1,680 round-trip tests (TDD)
 
 ### Phase 2: Core Data
 **Goal**: All four dial weight tables exist as typed TypeScript modules and the fitness keyword dictionary is built from authoritative sources
@@ -115,11 +118,11 @@ Decimal phases appear between their surrounding integers in numeric order.
 ## Progress
 
 **Execution Order:**
-Phases execute in strict dependency order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
+Phases execute in strict dependency order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 0/2 | Planning | - |
 | 2. Core Data | 0/TBD | Not started | - |
 | 3. Integration | 0/TBD | Not started | - |
 | 4. Design Tokens | 0/TBD | Not started | - |
