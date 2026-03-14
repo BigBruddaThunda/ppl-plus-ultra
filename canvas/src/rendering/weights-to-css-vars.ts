@@ -64,6 +64,17 @@ export const AXIS_W_TO_SLUG: Record<number, string> = {
 // ---------------------------------------------------------------------------
 
 /**
+ * vget — type-safe Float32Array element access.
+ * noUncheckedIndexedAccess makes Float32Array[n] return number|undefined.
+ * The W enum constants are compile-time valid indices (1-61) for a 62-slot vector,
+ * so runtime access is always defined. This helper encodes that invariant.
+ */
+function vget(vector: Float32Array, index: number): number {
+  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+  return vector[index]!;
+}
+
+/**
  * normalize — maps the [-8, +8] weight scale to [0.0, 1.0].
  * Source: weight-css-spec.md normalization formula.
  * normalize(0) = 0.5 (neutral midpoint — used for unpopulated derived dims)
@@ -75,17 +86,69 @@ function normalize(weight: number): number {
 /**
  * dominantDim — finds the W enum position with the highest value in [wStart, wEnd].
  * Returns the W enum position (1-indexed), not an array index.
+ * Tie-breaking: returns the lowest index (first-wins).
  */
 function dominantDim(vector: Float32Array, wStart: number, wEnd: number): number {
   let maxIdx = wStart;
-  let maxVal = vector[wStart];
+  let maxVal = vget(vector, wStart);
   for (let i = wStart + 1; i <= wEnd; i++) {
-    if (vector[i] > maxVal) {
-      maxVal = vector[i];
+    const val = vget(vector, i);
+    if (val > maxVal) {
+      maxVal = val;
       maxIdx = i;
     }
   }
   return maxIdx;
+}
+
+/**
+ * detectDominantColorW — finds the active Color W position from the resolved vector.
+ *
+ * Cross-dial affinities can elevate non-active Color W positions to the same clamped
+ * value (+8) as the active Color's self value. Generic argmax (first-wins) fails when
+ * a lower-index Color (e.g. W.STRUCTURED=21) has equal cross-dial affinity accumulation
+ * to the actual active Color (e.g. W.INTENSE=23).
+ *
+ * Resolution strategy:
+ * 1. Find max value in Color range (W.TEACHING..W.MINDFUL, positions 19-26)
+ * 2. If unique winner, return it
+ * 3. If tied, use hard-suppression signatures in the Color range as tiebreakers:
+ *    - Intense Color hard-suppresses Mindful (W.MINDFUL <= -6 → Intense is active)
+ *    - Mindful Color hard-suppresses Intense (W.INTENSE <= -6 → Mindful is active)
+ * 4. Default: first-wins (lowest index) for remaining ties
+ *
+ * This handles the known edge cases while preserving existing behavior for
+ * zip 2123 (Structured) and all Teaching-type zips.
+ */
+function detectDominantColorW(vector: Float32Array): number {
+  // Phase 1: find max value in Color range
+  let maxVal = vget(vector, W.TEACHING);
+  for (let cw = W.BODYWEIGHT; cw <= W.MINDFUL; cw++) {
+    const val = vget(vector, cw);
+    if (val > maxVal) maxVal = val;
+  }
+
+  // Phase 2: collect all candidates tied at max
+  const candidates: number[] = [];
+  for (let cw = W.TEACHING; cw <= W.MINDFUL; cw++) {
+    if (vget(vector, cw) === maxVal) candidates.push(cw);
+  }
+
+  // Phase 3: unique winner — return immediately
+  if (candidates.length === 1) {
+    // candidates[0] is always defined here (length === 1 guard)
+    return candidates[0] as number;
+  }
+
+  // Phase 4: tie-breaking via hard-suppression signatures in the Color range
+  // Intense (W=23) is the ONLY Color that hard-suppresses W.MINDFUL at -6
+  if (candidates.includes(W.INTENSE) && vget(vector, W.MINDFUL) <= -6) return W.INTENSE;
+  // Mindful (W=26) is the ONLY Color that hard-suppresses W.INTENSE at -6
+  if (candidates.includes(W.MINDFUL) && vget(vector, W.INTENSE) <= -6) return W.MINDFUL;
+
+  // Phase 5: default — first-wins (lowest index)
+  // candidates is non-empty (we always have W.TEACHING..W.MINDFUL = 8 entries)
+  return candidates[0] as number;
 }
 
 /**
@@ -104,14 +167,15 @@ function lerp(min: number, max: number, t: number): number {
  * a Record<string, string> of CSS custom property name/value pairs.
  *
  * Returns 30+ properties covering:
- *   - Order group: font-weight, lineheight, spacing, letter-spacing, density (6)
+ *   - Order group: font-weight, font-weight-display, lineheight, spacing-multiplier,
+ *                  letter-spacing, density, density-descriptor (7)
  *   - Color theme: primary, secondary, background, surface, text, accent, border (7)
- *   - Color tonal meta: saturation, contrast (2)
+ *   - Color tonal meta: saturation, contrast, tonal-name (3)
  *   - Axis directional: gradient-direction, layout-flow, typography-bias (3)
+ *   - Axis structural: visual-rhythm (1)
  *   - Type emphasis: push, pull, legs, plus, ultra (5)
  *   - Derived dims: rep-display, block-spacing, cue-density, rest-emphasis (4)
- *   - Tonal descriptor: tonal-name (1)
- * Total: 28 core + 2 extra = 30 minimum
+ * Total: 7+7+3+3+1+5+4 = 30 minimum
  *
  * @param vector - Float32Array of length 62 from resolveZip() (position 0 unused)
  * @param tokens - Design token object (passed as parameter for pure function purity)
@@ -125,7 +189,8 @@ export function weightsToCSSVars(
 
   // ─── Order group (W.FOUNDATION=1 .. W.RESTORATION=7) ────────────────────
   const orderW = dominantDim(vector, W.FOUNDATION, W.RESTORATION);
-  const orderSlug = ORDER_W_TO_SLUG[orderW];
+  // ORDER_W_TO_SLUG is keyed by all valid Order W positions (1-7) — always defined
+  const orderSlug = ORDER_W_TO_SLUG[orderW] as string;
   const orderTokens = tokens.orders[orderSlug as keyof typeof tokens.orders];
 
   props['--ppl-weight-font-weight']          = String(orderTokens.fontWeight);
@@ -134,10 +199,14 @@ export function weightsToCSSVars(
   props['--ppl-weight-spacing-multiplier']   = String(orderTokens.spacingMultiplier);
   props['--ppl-weight-letter-spacing']       = orderTokens.letterSpacing;
   props['--ppl-weight-density']              = orderTokens.density;
+  // Density descriptor: semantic alias for density — provides string descriptor to CSS consumers
+  // that prefer the full --ppl-weight-density-descriptor key over the shorthand density key.
+  props['--ppl-weight-density-descriptor']   = orderTokens.density;
 
   // ─── Color group (W.TEACHING=19 .. W.MINDFUL=26) ────────────────────────
-  const colorW = dominantDim(vector, W.TEACHING, W.MINDFUL);
-  const tonalName = COLOR_W_TO_TONAL[colorW];
+  const colorW = detectDominantColorW(vector);
+  // COLOR_W_TO_TONAL is keyed by all Color W positions (19-26) — always defined for valid input
+  const tonalName = COLOR_W_TO_TONAL[colorW] as string & keyof typeof tokens.colors;
   const colorTokens = tokens.colors[tonalName];
 
   props['--ppl-theme-primary']    = colorTokens.primary;
@@ -150,12 +219,14 @@ export function weightsToCSSVars(
 
   // ─── Color tonal meta ────────────────────────────────────────────────────
   // Saturation: constant per Color temperament (NOT weight-derived — see pitfall 2)
-  props['--ppl-weight-saturation'] = COLOR_SATURATION[colorW].toFixed(2);
+  // COLOR_SATURATION is keyed by all Color W positions (19-26) — always defined
+  const saturation = COLOR_SATURATION[colorW] as number;
+  props['--ppl-weight-saturation'] = saturation.toFixed(2);
 
   // Contrast: normalized dominant Color weight — a UI emphasis signal.
   // Maps to actual luminance differential in Phase 8 card templates.
   // WCAG AA contrast ratio (4.5:1 floor) is enforced at the template level, not here.
-  const colorNorm = normalize(vector[colorW]);
+  const colorNorm = normalize(vget(vector, colorW));
   props['--ppl-weight-contrast'] = colorNorm.toFixed(3);
 
   // Tonal name descriptor — allows CSS consumers to know which tonal palette is active
@@ -163,12 +234,18 @@ export function weightsToCSSVars(
 
   // ─── Axis group (W.BASICS=8 .. W.PARTNER=13) ────────────────────────────
   const axisW = dominantDim(vector, W.BASICS, W.PARTNER);
-  const axisSlug = AXIS_W_TO_SLUG[axisW];
+  // AXIS_W_TO_SLUG is keyed by all valid Axis W positions (8-13) — always defined
+  const axisSlug = AXIS_W_TO_SLUG[axisW] as string;
   const axisTokens = tokens.axes[axisSlug as keyof typeof tokens.axes];
 
   props['--ppl-weight-gradient-direction'] = axisTokens.gradientDirection;
   props['--ppl-weight-layout-flow']        = axisTokens.layoutFlow;
   props['--ppl-weight-typography-bias']    = axisTokens.typographyBias;
+
+  // Visual rhythm: normalized dominant Axis weight — indicates session structural density.
+  // Used by card templates to modulate spacing between movement cues.
+  const axisNorm = normalize(vget(vector, axisW));
+  props['--ppl-weight-visual-rhythm'] = axisNorm.toFixed(3);
 
   // ─── Type emphasis group (W.PUSH=14 .. W.ULTRA=18) ───────────────────────
   // normalize() maps [-8, +8] weight scale to [0.0, 1.0]
@@ -176,7 +253,7 @@ export function weightsToCSSVars(
   // Dominant type scores +8 → normalize(+8) = 1.0
   const TYPE_NAMES = ['push', 'pull', 'legs', 'plus', 'ultra'] as const;
   for (let i = 0; i < 5; i++) {
-    props[`--ppl-weight-emphasis-${TYPE_NAMES[i]}`] = normalize(vector[W.PUSH + i]).toFixed(3);
+    props[`--ppl-weight-emphasis-${TYPE_NAMES[i]}`] = normalize(vget(vector, W.PUSH + i)).toFixed(3);
   }
 
   // ─── Derived dimensions (W.CAPIO=27 .. W.SAVE=61) ────────────────────────
@@ -187,7 +264,7 @@ export function weightsToCSSVars(
   // Operator cluster (W.CAPIO=27 .. W.TENEO=38): drives rep-display prominence
   let repSum = 0;
   for (let i = W.CAPIO; i <= W.TENEO; i++) {
-    repSum += vector[i];
+    repSum += vget(vector, i);
   }
   const repMean = repSum / 12;
   props['--ppl-weight-rep-display'] = normalize(repMean).toFixed(3);
@@ -195,7 +272,7 @@ export function weightsToCSSVars(
   // Block cluster (W.WARM_UP=39 .. W.CHOICE=60): drives block spacing
   let blockSum = 0;
   for (let i = W.WARM_UP; i <= W.CHOICE; i++) {
-    blockSum += vector[i];
+    blockSum += vget(vector, i);
   }
   const blockMean = blockSum / 22;
   props['--ppl-weight-block-spacing'] = normalize(blockMean).toFixed(3);
@@ -203,7 +280,7 @@ export function weightsToCSSVars(
 
   // Rest emphasis: airy Orders (low fontWeight, high lineHeight) show rest prominently.
   // Uses normalized Order weight (dominant Order position in the vector).
-  const orderNorm = normalize(vector[orderW]);
+  const orderNorm = normalize(vget(vector, orderW));
   props['--ppl-weight-rest-emphasis'] = lerp(0.3, 0.9, orderNorm).toFixed(3);
 
   return props;

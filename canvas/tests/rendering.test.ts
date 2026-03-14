@@ -145,7 +145,7 @@ describe('RNDR-05: zip 2123 — saturation and contrast', () => {
   it('--ppl-weight-contrast exists as a string number', () => {
     const result = weightsToCSSVars(vector2123, tokens);
     expect(result['--ppl-weight-contrast']).toBeDefined();
-    expect(isNaN(parseFloat(result['--ppl-weight-contrast']))).toBe(false);
+    expect(isNaN(parseFloat(result['--ppl-weight-contrast']!))).toBe(false);
   });
 });
 
@@ -186,13 +186,13 @@ describe('RNDR-05: zip 2123 — Type emphasis properties', () => {
 
   it('--ppl-weight-emphasis-pull is near 1.0 (dominant type for Pull zip)', () => {
     const result = weightsToCSSVars(vector2123, tokens);
-    const pull = parseFloat(result['--ppl-weight-emphasis-pull']);
+    const pull = parseFloat(result['--ppl-weight-emphasis-pull']!);
     expect(pull).toBeGreaterThan(0.6);
   });
 
   it('--ppl-weight-emphasis-push is near 0.0 (suppressed type for Pull zip)', () => {
     const result = weightsToCSSVars(vector2123, tokens);
-    const push = parseFloat(result['--ppl-weight-emphasis-push']);
+    const push = parseFloat(result['--ppl-weight-emphasis-push']!);
     expect(push).toBeLessThan(0.5);
   });
 });
@@ -205,25 +205,25 @@ describe('RNDR-05: zip 2123 — Derived dimension properties', () => {
   it('--ppl-weight-rep-display exists as string number', () => {
     const result = weightsToCSSVars(vector2123, tokens);
     expect(result['--ppl-weight-rep-display']).toBeDefined();
-    expect(isNaN(parseFloat(result['--ppl-weight-rep-display']))).toBe(false);
+    expect(isNaN(parseFloat(result['--ppl-weight-rep-display']!))).toBe(false);
   });
 
   it('--ppl-weight-block-spacing exists as string number', () => {
     const result = weightsToCSSVars(vector2123, tokens);
     expect(result['--ppl-weight-block-spacing']).toBeDefined();
-    expect(isNaN(parseFloat(result['--ppl-weight-block-spacing']))).toBe(false);
+    expect(isNaN(parseFloat(result['--ppl-weight-block-spacing']!))).toBe(false);
   });
 
   it('--ppl-weight-cue-density exists as string number', () => {
     const result = weightsToCSSVars(vector2123, tokens);
     expect(result['--ppl-weight-cue-density']).toBeDefined();
-    expect(isNaN(parseFloat(result['--ppl-weight-cue-density']))).toBe(false);
+    expect(isNaN(parseFloat(result['--ppl-weight-cue-density']!))).toBe(false);
   });
 
   it('--ppl-weight-rest-emphasis exists as string number', () => {
     const result = weightsToCSSVars(vector2123, tokens);
     expect(result['--ppl-weight-rest-emphasis']).toBeDefined();
-    expect(isNaN(parseFloat(result['--ppl-weight-rest-emphasis']))).toBe(false);
+    expect(isNaN(parseFloat(result['--ppl-weight-rest-emphasis']!))).toBe(false);
   });
 });
 
@@ -235,19 +235,19 @@ describe('RNDR-07: COLOR_SATURATION constant', () => {
   it('Teaching (W.TEACHING=19) saturation <= 0.10', () => {
     const vec = resolveZip(2, 1, 2, 1); // Color pos 1 = Teaching
     const result = weightsToCSSVars(vec, tokens);
-    expect(parseFloat(result['--ppl-weight-saturation'])).toBeLessThanOrEqual(0.10);
+    expect(parseFloat(result['--ppl-weight-saturation']!)).toBeLessThanOrEqual(0.10);
   });
 
   it('Intense (W.INTENSE=23) saturation >= 0.85', () => {
     const vec = resolveZip(2, 1, 2, 5); // Color pos 5 = Intense
     const result = weightsToCSSVars(vec, tokens);
-    expect(parseFloat(result['--ppl-weight-saturation'])).toBeGreaterThanOrEqual(0.85);
+    expect(parseFloat(result['--ppl-weight-saturation']!)).toBeGreaterThanOrEqual(0.85);
   });
 
   it('Mindful (W.MINDFUL=26) saturation <= 0.15', () => {
     const vec = resolveZip(2, 1, 2, 8); // Color pos 8 = Mindful
     const result = weightsToCSSVars(vec, tokens);
-    expect(parseFloat(result['--ppl-weight-saturation'])).toBeLessThanOrEqual(0.15);
+    expect(parseFloat(result['--ppl-weight-saturation']!)).toBeLessThanOrEqual(0.15);
   });
 
   it('COLOR_SATURATION constant has exactly 8 entries (W positions 19-26)', () => {
@@ -301,15 +301,15 @@ describe('RNDR-06: BLOCK_CONTAINER_STYLES — 22-entry static map', () => {
   });
 
   it('bread-butter has emphasisLevel "high" (main work block)', () => {
-    expect(BLOCK_CONTAINER_STYLES['bread-butter'].emphasisLevel).toBe('high');
+    expect(BLOCK_CONTAINER_STYLES['bread-butter']!.emphasisLevel).toBe('high');
   });
 
   it('intention has emphasisLevel "medium" (framing block)', () => {
-    expect(BLOCK_CONTAINER_STYLES['intention'].emphasisLevel).toBe('medium');
+    expect(BLOCK_CONTAINER_STYLES['intention']!.emphasisLevel).toBe('medium');
   });
 
   it('choice has role "modifier"', () => {
-    expect(BLOCK_CONTAINER_STYLES['choice'].role).toBe('modifier');
+    expect(BLOCK_CONTAINER_STYLES['choice']!.role).toBe('modifier');
   });
 
   it('paddingMultiplier values are numeric', () => {
