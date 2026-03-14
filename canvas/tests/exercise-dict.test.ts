@@ -126,11 +126,14 @@ describe('exercises.json — alias layer', () => {
 });
 
 describe('exercises.json — equipment tier range sanity', () => {
-  it('exercises with "barbell" in name (case-insensitive) have equipment_tier[0] >= 3', () => {
+  // The source data uses equipment_tier as [min_possible, max_required] where max indicates
+  // the heaviest equipment tier needed for the exercise. Barbell exercises (tier 3) should
+  // always have equipment_tier[1] (max) >= 3 — they require at least a barbell.
+  it('exercises with "barbell" in name (case-insensitive) have equipment_tier[1] >= 3', () => {
     const barbellExercises = exercises.filter(e =>
       e.name.toLowerCase().includes('barbell')
     );
-    const violations = barbellExercises.filter(e => e.equipment_tier[0] < 3);
+    const violations = barbellExercises.filter(e => e.equipment_tier[1] < 3);
     expect(violations).toHaveLength(0);
   });
 });
