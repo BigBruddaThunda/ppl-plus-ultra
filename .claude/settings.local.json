@@ -55,7 +55,8 @@
       "Bash(cd \"C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra\" && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" commit \"docs\\(02\\): research phase core-data\" --files \".planning/phases/02-core-data/02-RESEARCH.md\" 2>&1)",
       "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" frontmatter validate \".planning/phases/02-core-data/02-01-PLAN.md\" --schema plan 2>&1)",
       "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" frontmatter validate \".planning/phases/02-core-data/02-02-PLAN.md\" --schema plan 2>&1)",
-      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" frontmatter validate \".planning/phases/02-core-data/02-03-PLAN.md\" --schema plan 2>&1)"
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" frontmatter validate \".planning/phases/02-core-data/02-03-PLAN.md\" --schema plan 2>&1)",
+      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" phase complete \"04\")"
     ]
   }
 }
