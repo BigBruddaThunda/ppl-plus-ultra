@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 04-01-PLAN.md
-last_updated: "2026-03-14T22:53:07.301Z"
+stopped_at: Completed 04-02-PLAN.md
+last_updated: "2026-03-14T22:59:52.566Z"
 last_activity: 2026-03-14 — Plan 01-02 complete (zip converter with 6,762 tests)
 progress:
   total_phases: 8
-  completed_phases: 3
+  completed_phases: 4
   total_plans: 9
-  completed_plans: 8
+  completed_plans: 9
 ---
 
 ---
@@ -71,6 +71,7 @@ Progress: [█░░░░░░░░░] 5%
 | Phase 03-integration P01 | 3 | 1 tasks | 3 files |
 | Phase 03-integration P02 | 8 | 2 tasks | 5 files |
 | Phase 04-design-tokens P01 | 20 | 2 tasks | 5 files |
+| Phase 04-design-tokens P02 | 15 | 2 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -100,6 +101,8 @@ Recent decisions affecting current work:
 - [Phase 04-design-tokens]: Double-hyphen CSS naming locked: --ppl-color-passion--primary requires custom style-dictionary transform in Plan 02
 - [Phase 04-design-tokens]: W enum index convention: tokens accessed by semantic name (tokens.colors.passion), not numeric W position; COLOR_W_TO_TONAL bridge is authoritative
 - [Phase 04-design-tokens]: OKLCH locked as color space; HSL excluded; culori toGamut() required for out-of-gamut handling
+- [Phase 04-design-tokens]: build-tokens.mjs uses direct CSS/TS generation for exact double-hyphen naming control (not style-dictionary platform API)
+- [Phase 04-design-tokens]: derive-colors.mjs uses clampChroma() not toGamut() — preserves oklch mode while clamping to p3 gamut
 
 ### Pending Todos
 
@@ -112,6 +115,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T22:53:02.228Z
-Stopped at: Completed 04-01-PLAN.md
+Last session: 2026-03-14T22:59:52.562Z
+Stopped at: Completed 04-02-PLAN.md
 Resume file: None
