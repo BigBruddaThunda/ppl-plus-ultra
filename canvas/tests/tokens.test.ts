@@ -5,24 +5,23 @@
  * RNDR-02: 7 Order typographies (fontWeight, lineHeight, spacingMultiplier)
  * RNDR-03: 6 Axis gradient directions (gradientDirection, layoutFlow)
  * RNDR-04: CSS arbitration spec document exists
- *
- * Tests marked .skip activate after Plan 02 generates the token artifacts.
- * Remove .skip after Plan 02 generates tokens.
  */
 
 import { describe, it, expect } from 'vitest';
-import { existsSync } from 'fs';
-import { join } from 'path';
+import { existsSync, readFileSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
 
 // ─── Paths ───────────────────────────────────────────────────────────────────
 
 // Resolve from canvas/ root (this test runs with cwd = canvas/)
-const TOKENS_DIR = join(__dirname, '..', 'src', 'tokens');
+const __dirname_ts = dirname(fileURLToPath(import.meta.url));
+const TOKENS_DIR = join(__dirname_ts, '..', 'src', 'tokens');
 const DESIGN_TOKENS_JSON = join(TOKENS_DIR, 'design-tokens.json');
 const DESIGN_TOKENS_CSS = join(TOKENS_DIR, 'design-tokens.css');
 const TOKENS_TS = join(TOKENS_DIR, 'tokens.ts');
 const ARBITRATION_SPEC = join(
-  __dirname,
+  __dirname_ts,
   '..', '..', '.planning', 'phases', '04-design-tokens', '04-CSS-ARBITRATION.md'
 );
 
@@ -101,14 +100,12 @@ describe('RNDR-04: CSS arbitration spec', () => {
 
   it('04-CSS-ARBITRATION.md contains Owner Dial table', () => {
     if (!existsSync(ARBITRATION_SPEC)) return;
-    const { readFileSync } = require('fs');
     const content = readFileSync(ARBITRATION_SPEC, 'utf8');
     expect(content).toContain('Owner Dial');
   });
 
   it('04-CSS-ARBITRATION.md contains W enum bridge table (all 8 W positions)', () => {
     if (!existsSync(ARBITRATION_SPEC)) return;
-    const { readFileSync } = require('fs');
     const content = readFileSync(ARBITRATION_SPEC, 'utf8');
     // All 8 W positions (19-26) must appear in the bridge table
     for (const pos of [19, 20, 21, 22, 23, 24, 25, 26]) {
@@ -118,21 +115,20 @@ describe('RNDR-04: CSS arbitration spec', () => {
 });
 
 // ─── RNDR-01: Color Palettes ─────────────────────────────────────────────────
-// Remove .skip after Plan 02 generates tokens.
 
 describe('RNDR-01: Color palettes', () => {
-  it.skip('design-tokens.json exists', () => {
+  it('design-tokens.json exists', () => {
     expect(existsSync(DESIGN_TOKENS_JSON)).toBe(true);
   });
 
-  it.skip('design-tokens.json has exactly 8 Color entries', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('design-tokens.json has exactly 8 Color entries', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     expect(tokens).toHaveProperty('colors');
     expect(Object.keys(tokens.colors)).toHaveLength(8);
   });
 
-  it.skip('Color entries use tonal names (not SCL emoji names)', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('Color entries use tonal names (not SCL emoji names)', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     for (const tonalName of TONAL_NAMES) {
       expect(tokens.colors).toHaveProperty(tonalName);
     }
@@ -143,8 +139,8 @@ describe('RNDR-01: Color palettes', () => {
     }
   });
 
-  it.skip('each Color entry has all required palette properties', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('each Color entry has all required palette properties', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     for (const tonalName of TONAL_NAMES) {
       const entry = tokens.colors[tonalName];
       for (const prop of COLOR_REQUIRED_PROPS) {
@@ -153,8 +149,8 @@ describe('RNDR-01: Color palettes', () => {
     }
   });
 
-  it.skip('all Color palette values are oklch() strings', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('all Color palette values are oklch() strings', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     const colorValueProps = ['primary', 'secondary', 'background', 'surface', 'text', 'accent', 'border'];
     for (const tonalName of TONAL_NAMES) {
       const entry = tokens.colors[tonalName];
@@ -167,24 +163,23 @@ describe('RNDR-01: Color palettes', () => {
 });
 
 // ─── RNDR-02: Order Typographies ─────────────────────────────────────────────
-// Remove .skip after Plan 02 generates tokens.
 
 describe('RNDR-02: Order typographies', () => {
-  it.skip('design-tokens.json has exactly 7 Order entries', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('design-tokens.json has exactly 7 Order entries', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     expect(tokens).toHaveProperty('orders');
     expect(Object.keys(tokens.orders)).toHaveLength(7);
   });
 
-  it.skip('Order entries use correct slugs', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('Order entries use correct slugs', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     for (const slug of ORDER_SLUGS) {
       expect(tokens.orders).toHaveProperty(slug);
     }
   });
 
-  it.skip('each Order entry has required typography properties', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('each Order entry has required typography properties', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     for (const slug of ORDER_SLUGS) {
       const entry = tokens.orders[slug];
       for (const prop of ORDER_REQUIRED_PROPS) {
@@ -193,22 +188,22 @@ describe('RNDR-02: Order typographies', () => {
     }
   });
 
-  it.skip('fontWeight is a number for all Orders', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('fontWeight is a number for all Orders', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     for (const slug of ORDER_SLUGS) {
       expect(typeof tokens.orders[slug].fontWeight).toBe('number');
     }
   });
 
-  it.skip('lineHeight is a number for all Orders', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('lineHeight is a number for all Orders', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     for (const slug of ORDER_SLUGS) {
       expect(typeof tokens.orders[slug].lineHeight).toBe('number');
     }
   });
 
-  it.skip('spacingMultiplier is a number for all Orders', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('spacingMultiplier is a number for all Orders', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     for (const slug of ORDER_SLUGS) {
       expect(typeof tokens.orders[slug].spacingMultiplier).toBe('number');
     }
@@ -216,24 +211,23 @@ describe('RNDR-02: Order typographies', () => {
 });
 
 // ─── RNDR-03: Axis Gradients ──────────────────────────────────────────────────
-// Remove .skip after Plan 02 generates tokens.
 
 describe('RNDR-03: Axis gradients', () => {
-  it.skip('design-tokens.json has exactly 6 Axis entries', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('design-tokens.json has exactly 6 Axis entries', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     expect(tokens).toHaveProperty('axes');
     expect(Object.keys(tokens.axes)).toHaveLength(6);
   });
 
-  it.skip('Axis entries use correct slugs', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('Axis entries use correct slugs', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     for (const slug of AXIS_SLUGS) {
       expect(tokens.axes).toHaveProperty(slug);
     }
   });
 
-  it.skip('each Axis entry has gradientDirection (string)', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('each Axis entry has gradientDirection (string)', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     for (const slug of AXIS_SLUGS) {
       const entry = tokens.axes[slug];
       expect(entry).toHaveProperty('gradientDirection');
@@ -241,8 +235,8 @@ describe('RNDR-03: Axis gradients', () => {
     }
   });
 
-  it.skip('each Axis entry has layoutFlow (string)', () => {
-    const tokens = JSON.parse(require('fs').readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
+  it('each Axis entry has layoutFlow (string)', () => {
+    const tokens = JSON.parse(readFileSync(DESIGN_TOKENS_JSON, 'utf8'));
     for (const slug of AXIS_SLUGS) {
       const entry = tokens.axes[slug];
       expect(entry).toHaveProperty('layoutFlow');
@@ -252,30 +246,29 @@ describe('RNDR-03: Axis gradients', () => {
 });
 
 // ─── Build Artifacts ──────────────────────────────────────────────────────────
-// Remove .skip after Plan 02 generates tokens.
 
 describe('Build artifacts', () => {
-  it.skip('design-tokens.css exists after build', () => {
+  it('design-tokens.css exists after build', () => {
     expect(existsSync(DESIGN_TOKENS_CSS)).toBe(true);
   });
 
-  it.skip('design-tokens.css contains CSS custom properties with --ppl- prefix', () => {
-    const css = require('fs').readFileSync(DESIGN_TOKENS_CSS, 'utf8');
+  it('design-tokens.css contains CSS custom properties with --ppl- prefix', () => {
+    const css = readFileSync(DESIGN_TOKENS_CSS, 'utf8');
     expect(css).toContain('--ppl-');
     expect(css).toContain(':root');
   });
 
-  it.skip('design-tokens.css uses double-hyphen separator (--ppl-color-passion--primary)', () => {
-    const css = require('fs').readFileSync(DESIGN_TOKENS_CSS, 'utf8');
+  it('design-tokens.css uses double-hyphen separator (--ppl-color-passion--primary)', () => {
+    const css = readFileSync(DESIGN_TOKENS_CSS, 'utf8');
     // At least one double-hyphen property must exist
     expect(css).toMatch(/--ppl-color-\w+--\w+/);
   });
 
-  it.skip('tokens.ts exists after build', () => {
+  it('tokens.ts exists after build', () => {
     expect(existsSync(TOKENS_TS)).toBe(true);
   });
 
-  it.skip('tokens.ts exports tokens object with colors, orders, axes', async () => {
+  it('tokens.ts exports tokens object with colors, orders, axes', async () => {
     const mod = await import(TOKENS_TS);
     expect(mod).toHaveProperty('tokens');
     expect(mod.tokens).toHaveProperty('colors');
@@ -283,7 +276,7 @@ describe('Build artifacts', () => {
     expect(mod.tokens).toHaveProperty('axes');
   });
 
-  it.skip('COLOR_W_TO_TONAL bridge covers all 8 W positions (19-26)', async () => {
+  it('COLOR_W_TO_TONAL bridge covers all 8 W positions (19-26)', async () => {
     const mod = await import(TOKENS_TS);
     expect(mod).toHaveProperty('COLOR_W_TO_TONAL');
     const bridge: Record<number, string> = mod.COLOR_W_TO_TONAL;
@@ -294,7 +287,7 @@ describe('Build artifacts', () => {
     }
   });
 
-  it.skip('tokens.ts Color keys are tonal names (order, growth, planning, magnificence, passion, connection, play, eudaimonia)', async () => {
+  it('tokens.ts Color keys are tonal names (order, growth, planning, magnificence, passion, connection, play, eudaimonia)', async () => {
     const mod = await import(TOKENS_TS);
     const colorKeys = Object.keys(mod.tokens.colors);
     for (const tonalName of TONAL_NAMES) {

@@ -5,11 +5,13 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:tokens": "node src/tokens/build/build-tokens.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@types/node": "^25.5.0",
     "culori": "^4.0.2",
     "style-dictionary": "^4.4.0",
     "typescript": "^5.7.0",
