@@ -16,7 +16,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 2: Core Data** - Four dial weight tables and fitness keyword dictionary (parallel builds from first-party specs) (completed 2026-03-14)
 - [x] **Phase 3: Integration** - Interaction resolver wiring weight tables into WeightVector; text scorer wiring vocab into ParseResult (completed 2026-03-14)
 - [x] **Phase 4: Design Tokens** - design-tokens.json encoding all 8 Color palettes, 7 Order typographies, 6 Axis gradients; style-dictionary build (completed 2026-03-14)
-- [ ] **Phase 5: Rendering Pipeline** - weightsToCSSVars() and all deriver functions; CSS arbitration spec locked before code
+- [x] **Phase 5: Rendering Pipeline** - weightsToCSSVars() and all deriver functions; CSS arbitration spec locked before code (completed 2026-03-14)
 - [ ] **Phase 6: Claude Code Infrastructure** - /blank-canvas skill, canvas-renderer subagent, PostToolUse hook, AGENT-BOUNDARIES.md
 - [ ] **Phase 7: Scripts and State Persistence** - canvas-to-production.sh, batch-propagate.sh, canvas/.local/ state persistence
 - [ ] **Phase 8: Tests and Card Templates** - Full Vitest suite, integration pipeline test, HTML/TSX card templates
@@ -91,7 +91,7 @@ Plans:
   2. Color saturation derivation spans the full temperament range (⚫ Teaching outputs ~0.05 saturation; 🔴 Intense outputs ~0.90)
   3. Block container styles exist for all 22 blocks grouped by operational function (Orientation, Access, Transformation, Retention)
   4. A known zip code (e.g., 2123 / ⛽🏛🪡🔵) produces the expected CSS custom property values when run through the full pipeline
-**Plans:** 1 plan
+**Plans:** 1/1 plans complete
 Plans:
 - [ ] 05-01-PLAN.md — TDD rendering pipeline: weightsToCSSVars(), block container styles, saturation map, and CSS derivation tests
 
@@ -138,7 +138,7 @@ Phases execute in strict dependency order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 2. Core Data | 3/3 | Complete   | 2026-03-14 |
 | 3. Integration | 2/2 | Complete   | 2026-03-14 |
 | 4. Design Tokens | 2/2 | Complete   | 2026-03-14 |
-| 5. Rendering Pipeline | 0/1 | Not started | - |
+| 5. Rendering Pipeline | 1/1 | Complete   | 2026-03-14 |
 | 6. Claude Code Infrastructure | 0/TBD | Not started | - |
 | 7. Scripts and State Persistence | 0/TBD | Not started | - |
 | 8. Tests and Card Templates | 0/TBD | Not started | - |

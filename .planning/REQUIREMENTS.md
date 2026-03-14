@@ -38,9 +38,9 @@ Requirements for initial release (Sessions 1-2). Each maps to roadmap phases.
 - [x] **RNDR-02**: design-tokens.json encoding all 7 Order typographies (fontWeight, lineHeight, spacingMultiplier)
 - [x] **RNDR-03**: design-tokens.json encoding all 6 Axis gradient directions
 - [x] **RNDR-04**: CSS arbitration spec defining property ownership (structural: Order, tonal: Color, directional: Axis)
-- [ ] **RNDR-05**: weightsToCSSVars() pure function deriving 30+ CSS custom properties from weight vector + design tokens
-- [ ] **RNDR-06**: Block container styling for 22 blocks grouped by operational function (Orientation, Access, Transformation, Retention)
-- [ ] **RNDR-07**: Color saturation derivation per Color temperament (⚫: 0.05 → 🔴: 0.90)
+- [x] **RNDR-05**: weightsToCSSVars() pure function deriving 30+ CSS custom properties from weight vector + design tokens
+- [x] **RNDR-06**: Block container styling for 22 blocks grouped by operational function (Orientation, Access, Transformation, Retention)
+- [x] **RNDR-07**: Color saturation derivation per Color temperament (⚫: 0.05 → 🔴: 0.90)
 
 ### Claude Code Infrastructure
 
@@ -56,7 +56,7 @@ Requirements for initial release (Sessions 1-2). Each maps to roadmap phases.
 - [x] **TEST-01**: Unit tests for zip converter (all 1,680 round-trip conversions)
 - [ ] **TEST-02**: Unit tests for weight vector computation (spot-check 10 representative zips across all Orders)
 - [ ] **TEST-03**: Unit tests for keyword dictionary scoring (known terms → correct dimension routing)
-- [ ] **TEST-04**: Unit tests for CSS derivation (weight vector → expected CSS custom properties)
+- [x] **TEST-04**: Unit tests for CSS derivation (weight vector → expected CSS custom properties)
 - [ ] **TEST-05**: Integration test for full pipeline (text input → ParseResult → weight vector → CSS vars)
 
 ### Card Templates
@@ -126,10 +126,10 @@ Deferred to Session 3+ after infrastructure is solid.
 | RNDR-02 | Phase 4 | Complete |
 | RNDR-03 | Phase 4 | Complete |
 | RNDR-04 | Phase 4 | Complete |
-| RNDR-05 | Phase 5 | Pending |
-| RNDR-06 | Phase 5 | Pending |
-| RNDR-07 | Phase 5 | Pending |
-| TEST-04 | Phase 5 | Pending |
+| RNDR-05 | Phase 5 | Complete |
+| RNDR-06 | Phase 5 | Complete |
+| RNDR-07 | Phase 5 | Complete |
+| TEST-04 | Phase 5 | Complete |
 | CLCD-01 | Phase 6 | Pending |
 | CLCD-02 | Phase 6 | Pending |
 | CLCD-03 | Phase 6 | Pending |
