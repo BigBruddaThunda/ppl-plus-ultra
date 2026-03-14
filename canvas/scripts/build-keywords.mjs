@@ -1,0 +1,1681 @@
+/**
+ * build-keywords.mjs
+ * Generates canvas/data/dial-keywords.json from SCL source vocabulary.
+ * Run: node canvas/scripts/build-keywords.mjs
+ */
+
+import { writeFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const OUT = join(__dirname, '../data/dial-keywords.json');
+
+// DimensionId mapping (W positions 1-26)
+// Orders: 1-7, Axes: 8-13, Types: 14-18, Colors: 19-26
+
+const COLLISION_WORDS = new Set([
+  'heavy','light','hard','easy','power','pump','press','row','pull','push',
+  'strength','strong','fast','slow','explosive','controlled','size','volume',
+  'intense','flow','complex','base','pattern','form','technique'
+]);
+
+function e(term, dimension, affinity_score, source = 'first-party') {
+  return {
+    term,
+    dimension,
+    affinity_score,
+    collision_prone: COLLISION_WORDS.has(term),
+    source,
+  };
+}
+
+const entries = [];
+
+// ============================================================
+// ORDERS (dimensions 1-7)
+// ============================================================
+
+// dim 1 — Foundation (🐂) ≤65%, 8-15 reps, low CNS, pattern learning
+const dim1 = [
+  e('foundation', 1, 8),
+  e('sub-maximal', 1, 7),
+  e('sub maximal', 1, 7),
+  e('pattern learning', 1, 7),
+  e('technique work', 1, 7),
+  e('form work', 1, 7),
+  e('on-ramp', 1, 7),
+  e('on ramp', 1, 7),
+  e('skill building', 1, 6),
+  e('beginner', 1, 6),
+  e('introductory', 1, 6),
+  e('intro', 1, 5),
+  e('light load', 1, 6),
+  e('low CNS', 1, 6),
+  e('low cns', 1, 6),
+  e('controlled load', 1, 5),
+  e('base building', 1, 6),
+  e('foundation training', 1, 8),
+  e('learn movement', 1, 6),
+  e('movement learning', 1, 6),
+  e('beginner workout', 1, 7),
+  e('intro workout', 1, 7),
+  e('technique session', 1, 7),
+  e('form session', 1, 7),
+  e('easy day', 1, 4),
+  e('easy session', 1, 5),
+  e('light day', 1, 5),
+  e('low intensity', 1, 5),
+  e('submaximal', 1, 7),
+  e('learning session', 1, 6),
+  e('pattern drill', 1, 6),
+  e('movement drill', 1, 5),
+  e('drill session', 1, 5),
+  e('easy', 1, 3),
+  e('light', 1, 3),
+  e('base', 1, 4),
+  e('pattern', 1, 4),
+  e('form', 1, 4),
+  e('technique', 1, 5),
+];
+
+// dim 2 — Strength (⛽) 75-85%, 4-6 reps, high CNS, neural adaptation
+const dim2 = [
+  e('strength', 2, 8),
+  e('strength training', 2, 8),
+  e('heavy lifting', 2, 8),
+  e('heavy barbell', 2, 8),
+  e('heavy squats', 2, 8),
+  e('neural adaptation', 2, 7),
+  e('force production', 2, 7),
+  e('max strength', 2, 8),
+  e('powerlifting', 2, 7),
+  e('low reps', 2, 6),
+  e('heavy load', 2, 7),
+  e('full recovery', 2, 6),
+  e('5x5', 2, 7),
+  e('3x5', 2, 7),
+  e('5 reps', 2, 6),
+  e('4 reps', 2, 6),
+  e('heavy work', 2, 7),
+  e('strong lifts', 2, 6),
+  e('high CNS', 2, 6),
+  e('high cns', 2, 6),
+  e('CNS high', 2, 6),
+  e('heavy', 2, 4),
+  e('strong', 2, 4),
+  e('strength day', 2, 8),
+  e('strength session', 2, 8),
+  e('strength work', 2, 7),
+  e('barbell strength', 2, 7),
+  e('compound strength', 2, 7),
+  e('heavy compound', 2, 7),
+  e('heavy sets', 2, 6),
+  e('heavy reps', 2, 6),
+  e('power lifting', 2, 6),
+  e('raw strength', 2, 7),
+  e('absolute strength', 2, 7),
+  e('strength focus', 2, 7),
+  e('low rep strength', 2, 8),
+  e('4-6 reps', 2, 7),
+  e('75-85%', 2, 7),
+  e('strength blocks', 2, 6),
+];
+
+// dim 3 — Hypertrophy (🦋) 65-75%, 8-12 reps, moderate CNS, muscle growth
+const dim3 = [
+  e('hypertrophy', 3, 8),
+  e('muscle growth', 3, 8),
+  e('muscle building', 3, 8),
+  e('bodybuilding', 3, 7),
+  e('metabolic stress', 3, 7),
+  e('pump work', 3, 7),
+  e('volume training', 3, 7),
+  e('high volume', 3, 6),
+  e('time under tension', 3, 7),
+  e('8-12 reps', 3, 8),
+  e('hypertrophy training', 3, 8),
+  e('muscle size', 3, 7),
+  e('size training', 3, 7),
+  e('aesthetic load', 3, 6),
+  e('mass building', 3, 7),
+  e('muscle hypertrophy', 3, 8),
+  e('growth', 3, 5),
+  e('pump', 3, 5),
+  e('volume', 3, 4),
+  e('size', 3, 4),
+  e('hyp day', 3, 7),
+  e('hypertrophy day', 3, 8),
+  e('hypertrophy session', 3, 8),
+  e('hypertrophy work', 3, 7),
+  e('muscle volume', 3, 7),
+  e('muscle stimulus', 3, 6),
+  e('muscle pump', 3, 7),
+  e('65-75%', 3, 7),
+  e('moderate load', 3, 5),
+  e('TUT', 3, 6),
+  e('tut', 3, 6),
+  e('muscle tension', 3, 6),
+  e('sarcoplasmic', 3, 5),
+  e('myofibrillar', 3, 5),
+  e('accumulation', 3, 5),
+  e('accumulation phase', 3, 6),
+];
+
+// dim 4 — Performance (🏟) 85-100%+, 1-3 reps, testing
+const dim4 = [
+  e('performance', 4, 8),
+  e('testing', 4, 8),
+  e('benchmark', 4, 8),
+  e('1RM', 4, 8),
+  e('one rep max', 4, 8),
+  e('1 rep max', 4, 8),
+  e('max attempt', 4, 8),
+  e('PR attempt', 4, 8),
+  e('personal record', 4, 7),
+  e('peak performance', 4, 7),
+  e('competition', 4, 7),
+  e('test day', 4, 8),
+  e('max test', 4, 8),
+  e('strength test', 4, 7),
+  e('performance test', 4, 8),
+  e('competition prep', 4, 7),
+  e('record attempt', 4, 7),
+  e('max lift', 4, 7),
+  e('performance day', 4, 8),
+  e('max day', 4, 7),
+  e('85-100%', 4, 7),
+  e('1-3 reps', 4, 7),
+  e('single', 4, 5),
+  e('singles', 4, 5),
+  e('double', 4, 4),
+  e('triples', 4, 4),
+  e('test lift', 4, 8),
+  e('sport test', 4, 6),
+  e('movement assessment', 4, 6),
+  e('fitness test', 4, 7),
+  e('conditioning test', 4, 6),
+  e('benchmark workout', 4, 7),
+  e('PR day', 4, 8),
+  e('PR session', 4, 8),
+  e('max effort', 4, 8),
+  e('all out effort', 4, 7),
+];
+
+// dim 5 — Full Body (🌾) ~70%, 8-10 reps, integration
+const dim5 = [
+  e('full body', 5, 8),
+  e('total body', 5, 8),
+  e('integrated', 5, 7),
+  e('integration', 5, 7),
+  e('full body workout', 5, 8),
+  e('total body workout', 5, 8),
+  e('unified pattern', 5, 7),
+  e('flow', 5, 5),
+  e('compound movement', 5, 6),
+  e('compound movements', 5, 6),
+  e('thruster', 5, 7),
+  e('complex', 5, 5),
+  e('barbell complex', 5, 7),
+  e('full body integration', 5, 8),
+  e('everything', 5, 4),
+  e('whole body', 5, 7),
+  e('all muscles', 5, 6),
+  e('combined pattern', 5, 6),
+  e('movement complex', 5, 6),
+  e('full body flow', 5, 8),
+  e('multi-joint', 5, 5),
+  e('multi joint', 5, 5),
+  e('full body day', 5, 8),
+  e('total body day', 5, 7),
+  e('full body session', 5, 8),
+  e('integration session', 5, 7),
+  e('thrusters', 5, 7),
+  e('kettlebell complex', 5, 7),
+  e('dumbbell complex', 5, 7),
+  e('flowing workout', 5, 6),
+];
+
+// dim 6 — Balance (⚖) ~70%, 10-12 reps, correction
+const dim6 = [
+  e('balance', 6, 8),
+  e('correction', 6, 8),
+  e('asymmetry', 6, 8),
+  e('weak links', 6, 8),
+  e('prehab', 6, 7),
+  e('imbalance', 6, 8),
+  e('targeted accessory', 6, 7),
+  e('unilateral correction', 6, 8),
+  e('rehab', 6, 6),
+  e('gap work', 6, 7),
+  e('balance training', 6, 8),
+  e('corrective', 6, 7),
+  e('corrective exercise', 6, 8),
+  e('postural correction', 6, 7),
+  e('fix imbalance', 6, 8),
+  e('address weakness', 6, 7),
+  e('weak link', 6, 8),
+  e('balance day', 6, 8),
+  e('balance session', 6, 8),
+  e('corrective session', 6, 7),
+  e('balance correction', 6, 8),
+  e('symmetry work', 6, 7),
+  e('left right balance', 6, 7),
+  e('bilateral deficit', 6, 7),
+  e('address asymmetry', 6, 8),
+  e('injury prevention', 6, 6),
+  e('maintenance', 6, 4),
+  e('structural balance', 6, 7),
+  e('corrective training', 6, 8),
+];
+
+// dim 7 — Restoration (🖼) ≤55%, 12-15 reps, recovery
+const dim7 = [
+  e('restoration', 7, 8),
+  e('recovery', 7, 8),
+  e('somatic', 7, 7),
+  e('parasympathetic', 7, 7),
+  e('deload', 7, 8),
+  e('mobility work', 7, 7),
+  e('flexibility', 7, 6),
+  e('active recovery', 7, 8),
+  e('low intensity recovery', 7, 8),
+  e('nervous system recovery', 7, 7),
+  e('rest day', 7, 7),
+  e('heal', 7, 5),
+  e('restoration day', 7, 8),
+  e('recovery day', 7, 8),
+  e('recovery session', 7, 8),
+  e('deload week', 7, 8),
+  e('pelvic floor', 7, 7),
+  e('diaphragm', 7, 6),
+  e('deep hip', 7, 6),
+  e('psoas', 7, 6),
+  e('TRE', 7, 6),
+  e('tre', 7, 6),
+  e('somatic movement', 7, 8),
+  e('breath work', 7, 6),
+  e('breathwork', 7, 6),
+  e('chill', 7, 4),
+  e('gentle', 7, 5),
+  e('light session', 7, 5),
+  e('easy workout', 7, 5),
+  e('restore', 7, 7),
+  e('low cns recovery', 7, 7),
+  e('body scan', 7, 6),
+  e('mobility session', 7, 7),
+];
+
+// ============================================================
+// AXES (dimensions 8-13)
+// ============================================================
+
+// dim 8 — Basics (🏛) bilateral, barbell-first, classics
+const dim8 = [
+  e('basics', 8, 8),
+  e('classic', 8, 7),
+  e('barbell first', 8, 7),
+  e('fundamental', 8, 7),
+  e('proven', 8, 6),
+  e('traditional', 8, 6),
+  e('standard', 8, 5),
+  e('conventional', 8, 6),
+  e('bilateral', 8, 7),
+  e('old school', 8, 6),
+  e('basics workout', 8, 8),
+  e('classic barbell', 8, 8),
+  e('barbell basics', 8, 8),
+  e('fundamental movements', 8, 7),
+  e('classic training', 8, 7),
+  e('fundamental training', 8, 7),
+  e('barbell compound', 8, 7),
+  e('bilateral lifts', 8, 7),
+  e('stable base', 8, 5),
+  e('proven classics', 8, 7),
+  e('time tested', 8, 6),
+  e('classic movements', 8, 7),
+  e('classical', 8, 5),
+  e('standard barbell', 8, 7),
+  e('two leg', 8, 5),
+  e('two legged', 8, 5),
+  e('stable platform', 8, 5),
+  e('staples', 8, 6),
+  e('old school lifts', 8, 7),
+];
+
+// dim 9 — Functional (🔨) unilateral, standing, athletic
+const dim9 = [
+  e('functional', 9, 8),
+  e('unilateral', 9, 8),
+  e('standing', 9, 6),
+  e('athletic', 9, 7),
+  e('athletic transfer', 9, 8),
+  e('ground-based', 9, 7),
+  e('ground based', 9, 7),
+  e('free weight', 9, 6),
+  e('sport-specific', 9, 7),
+  e('sport specific', 9, 7),
+  e('single leg', 9, 7),
+  e('single arm', 9, 7),
+  e('real world', 9, 6),
+  e('movement quality', 9, 6),
+  e('functional training', 9, 8),
+  e('athletic movement', 9, 7),
+  e('transfer training', 9, 7),
+  e('one leg', 9, 7),
+  e('one arm', 9, 6),
+  e('split stance', 9, 6),
+  e('lunge pattern', 9, 6),
+  e('step up pattern', 9, 6),
+  e('single limb', 9, 7),
+  e('lateral movement', 9, 5),
+  e('sport transfer', 9, 7),
+  e('functional strength', 9, 7),
+  e('athletic strength', 9, 7),
+  e('real life', 9, 5),
+  e('unilateral work', 9, 8),
+  e('unilateral training', 9, 8),
+];
+
+// dim 10 — Aesthetic (🌹) isolation, mind-muscle, full ROM
+const dim10 = [
+  e('aesthetic', 10, 8),
+  e('isolation', 10, 8),
+  e('mind-muscle connection', 10, 8),
+  e('mind muscle connection', 10, 8),
+  e('full ROM', 10, 7),
+  e('full range of motion', 10, 7),
+  e('feel over load', 10, 7),
+  e('pump work', 10, 7),  // collision_prone: false since compound
+  e('cable work', 10, 7),
+  e('machine isolation', 10, 8),
+  e('look good', 10, 6),
+  e('shape', 10, 5),
+  e('appearance', 10, 6),
+  e('aesthetic training', 10, 8),
+  e('isolation work', 10, 8),
+  e('isolation training', 10, 8),
+  e('mind muscle', 10, 7),
+  e('feel the muscle', 10, 8),
+  e('muscle feel', 10, 7),
+  e('aesthetic focus', 10, 7),
+  e('cosmetic', 10, 5),
+  e('physique', 10, 6),
+  e('physique training', 10, 7),
+  e('body composition', 10, 6),
+  e('cut', 10, 4),
+  e('lean', 10, 4),
+  e('toning', 10, 5),
+  e('definition', 10, 6),
+  e('sculpting', 10, 6),
+  e('contraction quality', 10, 7),
+];
+
+// dim 11 — Challenge (🪐) hardest variation, deficit, pause, tempo
+const dim11 = [
+  e('challenge', 11, 8),
+  e('deficit', 11, 8),
+  e('pause', 11, 7),
+  e('tempo', 11, 7),
+  e('bands', 11, 6),
+  e('chains', 11, 7),
+  e('unstable surface', 11, 7),
+  e('strict execution', 11, 7),
+  e('advanced variation', 11, 8),
+  e('hardest variation', 11, 8),
+  e('difficult', 11, 5),
+  e('brutal', 11, 6),
+  e('tough', 11, 5),
+  e('advanced', 11, 7),
+  e('deficit lift', 11, 8),
+  e('pause rep', 11, 8),
+  e('tempo work', 11, 7),
+  e('banded', 11, 6),
+  e('accommodating resistance', 11, 7),
+  e('challenge workout', 11, 8),
+  e('hard variation', 11, 7),
+  e('challenging', 11, 6),
+  e('difficult variation', 11, 7),
+  e('extra challenge', 11, 6),
+  e('harder version', 11, 8),
+  e('most difficult', 11, 7),
+  e('elevated', 11, 5),
+  e('deficit deadlift', 11, 8),
+  e('pause squat', 11, 8),
+  e('strict press', 11, 7),
+  e('advanced lifter', 11, 6),
+];
+
+// dim 12 — Time (⌛) EMOM, AMRAP, density, timed sets
+const dim12 = [
+  e('EMOM', 12, 8),
+  e('emom', 12, 8),
+  e('AMRAP', 12, 8),
+  e('amrap', 12, 8),
+  e('density', 12, 7),
+  e('timed sets', 12, 8),
+  e('time trial', 12, 8),
+  e('interval', 12, 7),
+  e('countdown', 12, 6),
+  e('clock', 12, 6),
+  e('stopwatch', 12, 6),
+  e('density block', 12, 8),
+  e('time-based', 12, 8),
+  e('time based', 12, 8),
+  e('timed workout', 12, 8),
+  e('every minute', 12, 8),
+  e('as many reps as possible', 12, 8),
+  e('time under tension', 12, 6),
+  e('TUT', 12, 6),
+  e('tut', 12, 6),
+  e('zone work', 12, 6),
+  e('steady state', 12, 6),
+  e('EMOM workout', 12, 8),
+  e('AMRAP workout', 12, 8),
+  e('time protocol', 12, 7),
+  e('clock-based', 12, 7),
+  e('work period', 12, 6),
+  e('rest period tracking', 12, 6),
+  e('timed session', 12, 8),
+  e('density training', 12, 8),
+];
+
+// dim 13 — Partner (🐬) spottable, alternating, synchronized
+const dim13 = [
+  e('partner', 13, 8),
+  e('buddy', 13, 7),
+  e('together', 13, 6),
+  e('social', 13, 6),
+  e('group', 13, 6),
+  e('spotter', 13, 7),
+  e('friend', 13, 5),
+  e('partner workout', 13, 8),
+  e('training partner', 13, 8),
+  e('with someone', 13, 7),
+  e('alternating', 13, 7),
+  e('synchronized', 13, 7),
+  e('competitive', 13, 6),
+  e('assisted', 13, 6),
+  e('two person', 13, 8),
+  e('pairs', 13, 7),
+  e('station rotation', 13, 6),
+  e('partner training', 13, 8),
+  e('workout partner', 13, 8),
+  e('accountability partner', 13, 7),
+  e('lift with friend', 13, 7),
+  e('spot me', 13, 7),
+  e('team workout', 13, 6),
+  e('group workout', 13, 6),
+  e('tag team', 13, 7),
+  e('I go you go', 13, 8),
+  e('i go you go', 13, 8),
+  e('partner drills', 13, 7),
+  e('coached', 13, 5),
+];
+
+// ============================================================
+// TYPES (dimensions 14-18)
+// ============================================================
+
+// dim 14 — Push (🛒) chest, front delts, triceps
+const dim14 = [
+  e('push', 14, 6),
+  e('chest', 14, 8),
+  e('pec', 14, 8),
+  e('pectorals', 14, 8),
+  e('pectoral', 14, 8),
+  e('pecs', 14, 8),
+  e('front delt', 14, 8),
+  e('anterior deltoid', 14, 8),
+  e('triceps', 14, 8),
+  e('tricep', 14, 8),
+  e('bench press', 14, 8),
+  e('overhead press', 14, 8),
+  e('OHP', 14, 8),
+  e('ohp', 14, 8),
+  e('dip', 14, 7),
+  e('dips', 14, 7),
+  e('pushup', 14, 7),
+  e('push-up', 14, 7),
+  e('push ups', 14, 7),
+  e('press', 14, 5),
+  e('pressing', 14, 5),
+  e('horizontal press', 14, 8),
+  e('vertical press', 14, 8),
+  e('incline press', 14, 8),
+  e('decline press', 14, 8),
+  e('close grip bench', 14, 8),
+  e('skull crusher', 14, 7),
+  e('chest fly', 14, 7),
+  e('cable fly', 14, 7),
+  e('chest work', 14, 8),
+  e('push day', 14, 8),
+  e('press day', 14, 7),
+  e('chest day', 14, 8),
+  e('triceps work', 14, 8),
+  e('shoulder press', 14, 7),
+  e('military press', 14, 8),
+  e('push session', 14, 8),
+  e('push workout', 14, 8),
+  e('front deltoid', 14, 8),
+  e('sternal', 14, 6),
+  e('clavicular', 14, 6),
+  e('pushing', 14, 5),
+];
+
+// dim 15 — Pull (🪡) lats, rear delts, biceps, traps, erectors
+const dim15 = [
+  e('pull', 15, 6),
+  e('lats', 15, 8),
+  e('latissimus', 15, 8),
+  e('lat', 15, 8),
+  e('rear delt', 15, 8),
+  e('posterior deltoid', 15, 8),
+  e('rear deltoid', 15, 8),
+  e('biceps', 15, 8),
+  e('bicep', 15, 8),
+  e('traps', 15, 8),
+  e('trapezius', 15, 8),
+  e('erectors', 15, 8),
+  e('rhomboids', 15, 8),
+  e('rhomboid', 15, 8),
+  e('back', 15, 7),
+  e('row', 15, 5),
+  e('pulldown', 15, 8),
+  e('pullup', 15, 8),
+  e('pull-up', 15, 8),
+  e('pull up', 15, 8),
+  e('chin up', 15, 8),
+  e('chin-up', 15, 8),
+  e('deadlift', 15, 7),
+  e('barbell row', 15, 8),
+  e('cable row', 15, 8),
+  e('dumbbell row', 15, 8),
+  e('bent over row', 15, 8),
+  e('pull day', 15, 8),
+  e('back day', 15, 8),
+  e('pulling', 15, 5),
+  e('lat pulldown', 15, 8),
+  e('seated row', 15, 8),
+  e('face pull', 15, 7),
+  e('pull session', 15, 8),
+  e('pull workout', 15, 8),
+  e('back work', 15, 8),
+  e('hinge', 15, 6),
+  e('hip hinge', 15, 6),
+  e('romanian deadlift', 15, 8),
+  e('RDL', 15, 8),
+  e('rdl', 15, 8),
+  e('upper back', 15, 8),
+  e('mid back', 15, 8),
+  e('lower back', 15, 7),
+  e('bicep work', 15, 8),
+  e('biceps work', 15, 8),
+  e('curl', 15, 7),
+  e('curls', 15, 7),
+  e('trap work', 15, 7),
+];
+
+// dim 16 — Legs (🍗) quads, hamstrings, glutes, calves
+const dim16 = [
+  e('legs', 16, 8),
+  e('leg day', 16, 8),
+  e('quads', 16, 8),
+  e('quadriceps', 16, 8),
+  e('quad', 16, 8),
+  e('hamstrings', 16, 8),
+  e('hamstring', 16, 8),
+  e('glutes', 16, 8),
+  e('glute', 16, 8),
+  e('gluteus', 16, 8),
+  e('calves', 16, 8),
+  e('calf', 16, 8),
+  e('lower body', 16, 8),
+  e('hip flexors', 16, 7),
+  e('hip flexor', 16, 7),
+  e('tibialis', 16, 7),
+  e('squat', 16, 8),
+  e('squats', 16, 8),
+  e('lunge', 16, 7),
+  e('lunges', 16, 7),
+  e('leg press', 16, 8),
+  e('leg extension', 16, 8),
+  e('leg curl', 16, 8),
+  e('adductors', 16, 7),
+  e('adductor', 16, 7),
+  e('glute bridge', 16, 8),
+  e('hip thrust', 16, 8),
+  e('step up', 16, 7),
+  e('split squat', 16, 7),
+  e('bulgarian', 16, 7),
+  e('leg session', 16, 8),
+  e('leg workout', 16, 8),
+  e('lower body day', 16, 8),
+  e('quad work', 16, 8),
+  e('glute work', 16, 8),
+  e('hamstring work', 16, 8),
+  e('calf work', 16, 8),
+  e('leg training', 16, 8),
+  e('squat day', 16, 8),
+  e('hip dominant', 16, 6),
+  e('knee dominant', 16, 6),
+  e('posterior chain', 16, 7),
+  e('adductor work', 16, 7),
+  e('calf raises', 16, 8),
+];
+
+// dim 17 — Plus (➕) core, olympic lifts, plyometrics, carries
+const dim17 = [
+  e('core', 17, 8),
+  e('olympic lifting', 17, 8),
+  e('olympic lifts', 17, 8),
+  e('plyometrics', 17, 8),
+  e('loaded carry', 17, 8),
+  e('rotational', 17, 7),
+  e('anti-rotation', 17, 8),
+  e('power', 17, 5),
+  e('explosive', 17, 6),
+  e('clean', 17, 7),
+  e('snatch', 17, 7),
+  e('jerk', 17, 7),
+  e('power clean', 17, 8),
+  e('hang clean', 17, 8),
+  e('kettlebell swing', 17, 7),
+  e('carries', 17, 7),
+  e('farmers carry', 17, 8),
+  e('farmers walk', 17, 8),
+  e('plyo', 17, 7),
+  e('plyo work', 17, 7),
+  e('jumps', 17, 7),
+  e('jump training', 17, 7),
+  e('core work', 17, 8),
+  e('abs', 17, 7),
+  e('ab work', 17, 7),
+  e('anti-rotation work', 17, 8),
+  e('rotational power', 17, 8),
+  e('olympic work', 17, 8),
+  e('explosive power', 17, 8),
+  e('box jump', 17, 7),
+  e('broad jump', 17, 7),
+  e('med ball', 17, 6),
+  e('medicine ball', 17, 6),
+  e('pallof press', 17, 8),
+  e('carry work', 17, 7),
+  e('strongman', 17, 6),
+  e('sled push', 17, 7),
+  e('sled pull', 17, 7),
+  e('zercher carry', 17, 8),
+  e('core stability', 17, 8),
+  e('anti-gravity', 17, 6),
+];
+
+// dim 18 — Ultra (➖) cardio, conditioning, aerobic
+const dim18 = [
+  e('ultra', 18, 8),
+  e('cardio', 18, 8),
+  e('conditioning', 18, 8),
+  e('aerobic', 18, 8),
+  e('zone 2', 18, 8),
+  e('HIIT', 18, 8),
+  e('hiit', 18, 8),
+  e('intervals', 18, 8),
+  e('endurance', 18, 7),
+  e('rowing machine', 18, 8),
+  e('assault bike', 18, 8),
+  e('running', 18, 8),
+  e('cycling', 18, 8),
+  e('cardiovascular', 18, 8),
+  e('cardio session', 18, 8),
+  e('conditioning session', 18, 8),
+  e('aerobic work', 18, 8),
+  e('zone 2 work', 18, 8),
+  e('energy system', 18, 7),
+  e('cardio day', 18, 8),
+  e('conditioning day', 18, 8),
+  e('airdyne', 18, 8),
+  e('ski erg', 18, 8),
+  e('bike', 18, 6),
+  e('run', 18, 6),
+  e('sprint', 18, 7),
+  e('interval training', 18, 8),
+  e('heart rate', 18, 7),
+  e('aerobic capacity', 18, 8),
+  e('VO2', 18, 7),
+  e('vo2', 18, 7),
+  e('vo2 max', 18, 7),
+  e('metcon', 18, 7),
+  e('metabolic conditioning', 18, 8),
+  e('long slow', 18, 6),
+  e('steady pace', 18, 6),
+  e('crossfit', 18, 5),
+  e('wod', 18, 5),
+  e('WOD', 18, 5),
+];
+
+// ============================================================
+// COLORS (dimensions 19-26)
+// ============================================================
+
+// dim 19 — Teaching (⚫) extra rest, coaching, comprehension
+const dim19 = [
+  e('teaching', 19, 8),
+  e('coaching', 19, 8),
+  e('instruction', 19, 8),
+  e('extra rest', 19, 7),
+  e('comprehension', 19, 7),
+  e('educational', 19, 7),
+  e('drill work', 19, 7),
+  e('learn movement', 19, 7),
+  e('teaching session', 19, 8),
+  e('coaching cues', 19, 8),
+  e('cue heavy', 19, 7),
+  e('coaching focus', 19, 8),
+  e('instructional', 19, 7),
+  e('cues', 19, 6),
+  e('slow and controlled', 19, 6),
+  e('long rest', 19, 6),
+  e('extended rest', 19, 7),
+  e('practice', 19, 6),
+  e('drilling', 19, 6),
+  e('teaching format', 19, 8),
+  e('coaching workout', 19, 8),
+  e('educational workout', 19, 7),
+  e('form drill', 19, 8),
+  e('movement education', 19, 7),
+  e('technique drill', 19, 8),
+  e('coached session', 19, 8),
+  e('learn to lift', 19, 7),
+];
+
+// dim 20 — Bodyweight (🟢) no equipment, home, park, hotel
+const dim20 = [
+  e('bodyweight', 20, 8),
+  e('calisthenics', 20, 8),
+  e('no equipment', 20, 8),
+  e('park workout', 20, 8),
+  e('hotel workout', 20, 8),
+  e('home workout', 20, 8),
+  e('BW', 20, 7),
+  e('bw', 20, 7),
+  e('no gym', 20, 8),
+  e('outdoor workout', 20, 7),
+  e('outdoors', 20, 6),
+  e('bodyweight only', 20, 8),
+  e('calisthenics workout', 20, 8),
+  e('living room workout', 20, 8),
+  e('travel workout', 20, 8),
+  e('no weights', 20, 8),
+  e('bodyweight training', 20, 8),
+  e('equipment-free', 20, 8),
+  e('equipment free', 20, 8),
+  e('park', 20, 5),
+  e('hotel', 20, 5),
+  e('home', 20, 5),
+  e('muscle-up', 20, 7),
+  e('pistol squat', 20, 7),
+  e('planche', 20, 7),
+  e('l-sit', 20, 7),
+  e('archer pushup', 20, 7),
+  e('handstand', 20, 6),
+];
+
+// dim 21 — Structured (🔵) prescribed, trackable, repeatable
+const dim21 = [
+  e('structured', 21, 8),
+  e('prescribed', 21, 7),
+  e('sets and reps', 21, 8),
+  e('trackable', 21, 7),
+  e('repeatable', 21, 7),
+  e('linear progression', 21, 7),
+  e('barbell program', 21, 7),
+  e('structured program', 21, 8),
+  e('programmed', 21, 7),
+  e('logged', 21, 6),
+  e('scheduled', 21, 7),
+  e('structured workout', 21, 8),
+  e('structured session', 21, 8),
+  e('programmatic', 21, 7),
+  e('fixed sets', 21, 7),
+  e('fixed reps', 21, 7),
+  e('planned workout', 21, 7),
+  e('set reps rest', 21, 8),
+  e('program', 21, 5),
+  e('programming', 21, 6),
+  e('structured training', 21, 8),
+  e('plan workout', 21, 6),
+  e('systematic', 21, 6),
+  e('follow program', 21, 7),
+  e('stick to the program', 21, 7),
+  e('trackable workout', 21, 8),
+  e('loggable', 21, 7),
+];
+
+// dim 22 — Technical (🟣) precision, quality, low volume, extended rest
+const dim22 = [
+  e('technical', 22, 8),
+  e('precision', 22, 8),
+  e('quality over quantity', 22, 8),
+  e('extended rest', 22, 6),
+  e('low volume quality', 22, 8),
+  e('skill work', 22, 7),
+  e('technique focus', 22, 8),
+  e('technical training', 22, 8),
+  e('quality focus', 22, 8),
+  e('careful', 22, 5),
+  e('exact', 22, 5),
+  e('precision work', 22, 8),
+  e('quality reps', 22, 8),
+  e('perfect reps', 22, 8),
+  e('technical session', 22, 8),
+  e('low volume', 22, 6),
+  e('quality session', 22, 8),
+  e('precise', 22, 7),
+  e('execution quality', 22, 8),
+  e('movement precision', 22, 8),
+  e('technical workout', 22, 8),
+  e('high quality', 22, 6),
+  e('deliberate practice', 22, 7),
+  e('skill session', 22, 7),
+  e('technical skill', 22, 8),
+  e('specialty equipment', 22, 6),
+  e('machines', 22, 5),
+  e('cables', 22, 5),
+  e('specialty bar', 22, 6),
+];
+
+// dim 23 — Intense (🔴) maximum effort, high volume, supersets
+const dim23 = [
+  e('intense', 23, 8),
+  e('maximum effort', 23, 8),
+  e('all out', 23, 7),
+  e('supersets', 23, 7),
+  e('superset', 23, 7),
+  e('reduced rest', 23, 7),
+  e('high volume training', 23, 8),
+  e('grueling', 23, 7),
+  e('push it', 23, 6),
+  e('intense workout', 23, 8),
+  e('intense session', 23, 8),
+  e('max effort', 23, 7),
+  e('hard work', 23, 6),
+  e('high output', 23, 7),
+  e('intense training', 23, 8),
+  e('superset training', 23, 8),
+  e('short rest', 23, 7),
+  e('no rest', 23, 6),
+  e('back to back', 23, 6),
+  e('push yourself', 23, 6),
+  e('hard session', 23, 6),
+  e('hard training', 23, 6),
+  e('max intensity', 23, 8),
+  e('redline', 23, 7),
+  e('blood flow restriction', 23, 6),
+  e('BFR', 23, 6),
+  e('bfr', 23, 6),
+  e('high rep volume', 23, 7),
+  e('accumulation work', 23, 6),
+];
+
+// dim 24 — Circuit (🟠) station-based, timed rotation, loop
+const dim24 = [
+  e('circuit', 24, 8),
+  e('circuit training', 24, 8),
+  e('station-based', 24, 8),
+  e('station based', 24, 8),
+  e('timed rotation', 24, 8),
+  e('loop', 24, 6),
+  e('station rotation', 24, 8),
+  e('around the room', 24, 7),
+  e('HIIT circuit', 24, 8),
+  e('hiit circuit', 24, 8),
+  e('circuit workout', 24, 8),
+  e('circuit session', 24, 8),
+  e('stations', 24, 7),
+  e('circuit format', 24, 8),
+  e('rotate stations', 24, 8),
+  e('training circuit', 24, 8),
+  e('circuit loop', 24, 8),
+  e('timed circuit', 24, 8),
+  e('gym circuit', 24, 7),
+  e('functional circuit', 24, 7),
+  e('metabolic circuit', 24, 8),
+  e('3 stations', 24, 7),
+  e('4 stations', 24, 7),
+  e('5 stations', 24, 7),
+  e('rotation workout', 24, 7),
+];
+
+// dim 25 — Fun (🟡) exploration, variety, creative play
+const dim25 = [
+  e('fun', 25, 8),
+  e('play', 25, 7),
+  e('exploration', 25, 7),
+  e('variety', 25, 7),
+  e('mix it up', 25, 8),
+  e('different', 25, 5),
+  e('switch things up', 25, 8),
+  e('unconventional', 25, 7),
+  e('creative', 25, 6),
+  e('fun workout', 25, 8),
+  e('playful', 25, 7),
+  e('explore movements', 25, 7),
+  e('try new things', 25, 7),
+  e('variety workout', 25, 8),
+  e('mixed workout', 25, 7),
+  e('no rules', 25, 6),
+  e('freestyle', 25, 6),
+  e('experiment', 25, 6),
+  e('surprising', 25, 5),
+  e('fun session', 25, 8),
+  e('playful workout', 25, 7),
+  e('exploration session', 25, 7),
+  e('constrained play', 25, 7),
+  e('sandbox session', 25, 7),
+  e('creative session', 25, 7),
+  e('novelty', 25, 6),
+];
+
+// dim 26 — Mindful (⚪) slow tempo, breath, 4s eccentrics
+const dim26 = [
+  e('mindful', 26, 8),
+  e('slow tempo', 26, 8),
+  e('4 second eccentric', 26, 8),
+  e('4s eccentric', 26, 8),
+  e('breath', 26, 7),
+  e('breathing', 26, 6),
+  e('meditative', 26, 8),
+  e('calm', 26, 6),
+  e('gentle workout', 26, 7),
+  e('controlled tempo', 26, 8),
+  e('deliberate', 26, 6),
+  e('mindful workout', 26, 8),
+  e('mindful session', 26, 8),
+  e('slow movement', 26, 7),
+  e('tempo training', 26, 8),
+  e('yoga style', 26, 6),
+  e('yoga-style', 26, 6),
+  e('breath work', 26, 6),
+  e('diaphragmatic breathing', 26, 7),
+  e('nervous system', 26, 6),
+  e('calm workout', 26, 7),
+  e('slow and deliberate', 26, 8),
+  e('eccentric focus', 26, 8),
+  e('lowering phase', 26, 7),
+  e('extended rest mindful', 26, 7),
+  e('2 minute rest', 26, 6),
+  e('mindful training', 26, 8),
+];
+
+// ============================================================
+// COMPOUND EXPANSIONS — barbell maps to Color (Structured dim 21)
+// ============================================================
+
+const compoundEquipment = [
+  // barbell → Structured/Technical (tier 3 equipment → dim 21 primary, also dim 22)
+  e('barbell', 21, 7),
+  e('barbell training', 21, 8),
+  e('barbell work', 21, 8),
+  e('barbell workout', 21, 8),
+  e('with barbell', 21, 7),
+  e('olympic bar', 21, 7),
+  e('standard bar', 21, 7),
+  e('dumbbell', 21, 6),
+  e('dumbbells', 21, 6),
+  e('dumbbell training', 21, 7),
+  e('kettlebell', 21, 6),
+  e('kettlebells', 21, 6),
+  e('rack', 21, 7),
+  e('power rack', 21, 7),
+  e('squat rack', 21, 7),
+  e('bench', 21, 5),
+  e('flat bench', 21, 6),
+  e('cable machine', 22, 6),
+  e('cable', 22, 5),
+  e('machine work', 22, 6),
+  e('machine training', 22, 6),
+  e('resistance machine', 22, 6),
+  e('cable training', 22, 7),
+];
+
+// ============================================================
+// VOICE-SEED supplements (terms from voice-parser-architecture.md not yet covered)
+// ============================================================
+
+function vs(term, dimension, affinity_score) {
+  return {
+    term,
+    dimension,
+    affinity_score,
+    collision_prone: COLLISION_WORDS.has(term),
+    source: 'voice-seed',
+  };
+}
+
+const voiceSeed = [
+  // Orders
+  vs('sub-max', 1, 6),
+  vs('base training', 1, 7),
+  vs('5x5', 2, 7),
+  vs('neural', 2, 6),
+  vs('force', 2, 5),
+  vs('aesthetic load', 3, 6),
+  vs('PR', 4, 7),
+  vs('record', 4, 5),
+  vs('everything workout', 5, 7),
+  vs('fix', 6, 5),
+  vs('gap', 6, 5),
+  vs('chill', 7, 4),
+  // Axes
+  vs('real world movement', 9, 7),
+  vs('sport movement', 9, 7),
+  vs('feel', 10, 5),
+  vs('hard mode', 11, 7),
+  vs('time-based workout', 12, 8),
+  vs('with a spotter', 13, 7),
+  // Types
+  vs('push-up', 14, 7),
+  vs('pull-up', 15, 7),
+  vs('lower body work', 16, 8),
+  vs('carry training', 17, 7),
+  vs('zone two', 18, 8),
+  vs('airdyne bike', 18, 8),
+  vs('ski erg workout', 18, 8),
+  vs('bike workout', 18, 7),
+  // Colors
+  vs('form learning', 19, 7),
+  vs('learn to lift', 19, 7),
+  vs('no gym needed', 20, 8),
+  vs('at home', 20, 7),
+  vs('scheduled workout', 21, 7),
+  vs('technical precision', 22, 8),
+  vs('max intensity workout', 23, 8),
+  vs('circuit loop workout', 24, 8),
+  vs('fun session', 25, 7),
+  vs('slow reps', 26, 7),
+  vs('tempo reps', 26, 7),
+];
+
+// ============================================================
+// Assemble and deduplicate
+// ============================================================
+
+// ============================================================
+// EXPANSION BLOCK — exercise names and muscle group terms mined from
+// CLAUDE.md exercise library section headers + canonical SCL descriptions
+// ============================================================
+
+// Additional Order terms
+const orderExpansion = [
+  // Foundation
+  e('foundation phase', 1, 8), e('intro phase', 1, 7), e('movement prep', 1, 6),
+  e('beginner program', 1, 7), e('novice', 1, 5), e('new to lifting', 1, 6),
+  e('learning lifts', 1, 7), e('at 65%', 1, 6), e('under 65%', 1, 7),
+  e('8-15 reps', 1, 7), e('15 reps', 1, 6), e('high reps light', 1, 6),
+  e('foundation work', 1, 8), e('ground floor', 1, 5), e('starting out', 1, 6),
+  e('primer phase', 1, 6), e('on ramp program', 1, 7), e('movement template', 1, 5),
+  // Strength
+  e('strength phase', 2, 8), e('peaking', 2, 7), e('peak strength', 2, 8),
+  e('strength program', 2, 8), e('linear strength', 2, 7), e('strength cycle', 2, 8),
+  e('heavy compound', 2, 7), e('barbell heavy', 2, 8), e('heavy day', 2, 7),
+  e('low rep training', 2, 7), e('sub-6 reps', 2, 7), e('4-6', 2, 7),
+  e('working up to heavy', 2, 7), e('ramping sets', 2, 6), e('top set', 2, 6),
+  e('working set heavy', 2, 7), e('intensity phase', 2, 7),
+  // Hypertrophy
+  e('hypertrophy phase', 3, 8), e('mass phase', 3, 7), e('volume phase', 3, 7),
+  e('muscle building program', 3, 8), e('hypertrophy program', 3, 8),
+  e('high rep', 3, 5), e('8 to 12', 3, 7), e('10 reps', 3, 5), e('12 reps', 3, 5),
+  e('moderate weight', 3, 5), e('tension work', 3, 6), e('metabolic', 3, 6),
+  e('swole', 3, 5), e('gains', 3, 5), e('add muscle', 3, 7), e('build muscle', 3, 8),
+  e('build size', 3, 7), e('muscle gains', 3, 7),
+  // Performance
+  e('peaking phase', 4, 8), e('testing phase', 4, 8), e('test week', 4, 8),
+  e('competition day', 4, 8), e('meet day', 4, 8), e('game day', 4, 7),
+  e('max lift day', 4, 8), e('attempt', 4, 5), e('peak week', 4, 8),
+  e('performance session', 4, 8), e('sport assessment', 4, 7),
+  e('record breaking', 4, 7), e('all time best', 4, 7), e('new PR', 4, 8),
+  // Full Body
+  e('full body program', 5, 8), e('total body training', 5, 8), e('FB workout', 5, 7),
+  e('complex training', 5, 6), e('barbell flow', 5, 8), e('movement flow', 5, 7),
+  e('unified movement', 5, 8), e('combo movement', 5, 7), e('combination exercise', 5, 7),
+  e('giant set', 5, 5), e('total integration', 5, 8),
+  // Balance
+  e('balance program', 6, 8), e('corrective program', 6, 8), e('gap training', 6, 7),
+  e('address imbalance', 6, 8), e('fix weak links', 6, 8), e('left right work', 6, 7),
+  e('prehab work', 6, 8), e('injury prevention program', 6, 7), e('postural work', 6, 7),
+  e('stabilizer work', 6, 7), e('accessory work', 6, 5), e('targeted', 6, 5),
+  // Restoration
+  e('deload session', 7, 8), e('restoration session', 7, 8), e('rest and recover', 7, 8),
+  e('cns recovery', 7, 8), e('light mobility', 7, 7), e('gentle mobility', 7, 7),
+  e('recovery work', 7, 8), e('parasympathetic work', 7, 7), e('nervous system reset', 7, 7),
+  e('somatic session', 7, 8), e('body maintenance', 7, 7), e('soft tissue work', 7, 6),
+  e('foam rolling', 7, 5), e('stretching session', 7, 6), e('gentle stretching', 7, 7),
+];
+
+// Additional Axis expansion
+const axisExpansion = [
+  // Basics
+  e('back squat', 8, 8), e('front squat', 8, 7), e('barbell deadlift', 8, 8),
+  e('barbell bench', 8, 8), e('barbell overhead press', 8, 8), e('barbell curl', 8, 7),
+  e('classic lifts', 8, 7), e('compound barbell', 8, 8), e('bilateral squat', 8, 7),
+  e('big three', 8, 7), e('powerlifting movements', 8, 7), e('squat bench deadlift', 8, 8),
+  e('foundational lifts', 8, 8), e('proven movements', 8, 7), e('classic compound', 8, 8),
+  // Functional
+  e('single leg squat', 9, 8), e('single leg deadlift', 9, 8), e('step up', 9, 7),
+  e('reverse lunge', 9, 7), e('walking lunge', 9, 7), e('single arm press', 9, 7),
+  e('single arm row', 9, 7), e('dumbbell lunge', 9, 7), e('standing press', 9, 7),
+  e('functional movement', 9, 8), e('movement pattern', 9, 6), e('real world strength', 9, 7),
+  e('athletic training', 9, 8), e('sport prep', 9, 7), e('agility', 9, 6),
+  e('balance challenge', 9, 6), e('proprioception', 9, 6), e('coordination', 9, 6),
+  // Aesthetic
+  e('cable curl', 10, 8), e('cable fly', 10, 8), e('pec deck', 10, 8),
+  e('incline curl', 10, 8), e('preacher curl', 10, 8), e('lateral raise', 10, 8),
+  e('rear delt fly', 10, 8), e('leg extension', 10, 8), e('leg curl', 10, 8),
+  e('calf raise', 10, 8), e('isolation exercise', 10, 8), e('single joint', 10, 7),
+  e('finish work', 10, 6), e('pump chasing', 10, 7), e('feel the squeeze', 10, 7),
+  // Challenge
+  e('tempo squat', 11, 8), e('pause bench', 11, 8), e('deficit pull', 11, 8),
+  e('2 second pause', 11, 7), e('3 second pause', 11, 7), e('4 second eccentric', 11, 7),
+  e('band assisted', 11, 6), e('chain squat', 11, 8), e('chain deadlift', 11, 8),
+  e('hardest exercise', 11, 8), e('most challenging', 11, 7), e('next level', 11, 6),
+  e('advanced protocol', 11, 7), e('level up', 11, 6), e('increase difficulty', 11, 7),
+  // Time
+  e('10 minute EMOM', 12, 8), e('20 minute AMRAP', 12, 8), e('tabata', 12, 8),
+  e('30 seconds on', 12, 7), e('45 seconds on', 12, 7), e('work rest ratio', 12, 7),
+  e('timed blocks', 12, 8), e('minute blocks', 12, 7), e('clock workout', 12, 8),
+  e('time cap', 12, 7), e('under the clock', 12, 7), e('race the clock', 12, 7),
+  e('time challenge', 12, 7), e('zone 1', 12, 5), e('zone 3', 12, 5),
+  // Partner
+  e('you go i go', 13, 8), e('alteration set', 13, 7), e('partner rows', 13, 7),
+  e('partner push ups', 13, 7), e('med ball toss', 13, 7), e('assist stretch', 13, 7),
+  e('resisted movement', 13, 6), e('competition with partner', 13, 7),
+  e('partner carries', 13, 7), e('paired sets', 13, 7), e('duo workout', 13, 8),
+];
+
+// Additional Type expansion — muscle names and exercise names from exercise library
+const typeExpansion = [
+  // Push dim 14
+  e('serratus anterior', 14, 7), e('coracobrachialis', 14, 6), e('sternoclavicular', 14, 6),
+  e('flat bench press', 14, 8), e('incline bench press', 14, 8), e('decline bench press', 14, 8),
+  e('dumbbell press', 14, 8), e('dumbbell fly', 14, 7), e('cable crossover', 14, 8),
+  e('push press', 14, 7), e('arnold press', 14, 8), e('lateral raise', 14, 7),
+  e('front raise', 14, 8), e('tricep extension', 14, 8), e('tricep pushdown', 14, 8),
+  e('overhead extension', 14, 8), e('dips weighted', 14, 8), e('floor press', 14, 8),
+  e('board press', 14, 7), e('pin press', 14, 7), e('landmine press', 14, 8),
+  e('chest press', 14, 8), e('machine chest press', 14, 8), e('cable chest press', 14, 8),
+  e('pec fly', 14, 8), e('cable pushdown', 14, 8), e('nose breaker', 14, 7),
+  e('JM press', 14, 8), e('jm press', 14, 8), e('close grip', 14, 7),
+  // Pull dim 15
+  e('erector spinae', 15, 8), e('teres major', 15, 7), e('teres minor', 15, 7),
+  e('infraspinatus', 15, 7), e('supraspinatus', 15, 7), e('subscapularis', 15, 7),
+  e('brachialis', 15, 7), e('brachioradialis', 15, 7), e('forearm', 15, 6),
+  e('grip strength', 15, 6), e('grip work', 15, 6),
+  e('barbell deadlift', 15, 8), e('sumo deadlift', 15, 8), e('rack pull', 15, 8),
+  e('deficit deadlift', 15, 8), e('trap bar deadlift', 15, 8), e('hex bar', 15, 7),
+  e('wide grip pulldown', 15, 8), e('close grip pulldown', 15, 8),
+  e('neutral grip pulldown', 15, 8), e('single arm pulldown', 15, 8),
+  e('t-bar row', 15, 8), e('meadows row', 15, 8), e('pendlay row', 15, 8),
+  e('kroc row', 15, 8), e('yates row', 15, 8), e('inverted row', 15, 8),
+  e('chest supported row', 15, 8), e('face pulls', 15, 8), e('reverse fly', 15, 8),
+  e('band pull apart', 15, 7), e('hammer curl', 15, 8), e('incline curl', 15, 8),
+  e('concentration curl', 15, 8), e('spider curl', 15, 8), e('zottman curl', 15, 8),
+  e('reverse curl', 15, 8), e('cable curl', 15, 8), e('barbell curl', 15, 8),
+  // Legs dim 16
+  e('gastrocnemius', 16, 8), e('soleus', 16, 8), e('peroneals', 16, 7),
+  e('sartorius', 16, 7), e('rectus femoris', 16, 8), e('vastus lateralis', 16, 8),
+  e('vastus medialis', 16, 8), e('bicep femoris', 16, 8), e('semitendinosus', 16, 8),
+  e('semimembranosus', 16, 8), e('gluteus maximus', 16, 8), e('gluteus medius', 16, 8),
+  e('gluteus minimus', 16, 8), e('hip abductors', 16, 7), e('hip adductors', 16, 7),
+  e('front squat', 16, 8), e('goblet squat', 16, 8), e('hack squat', 16, 8),
+  e('box squat', 16, 8), e('pause squat', 16, 8), e('tempo squat', 16, 8),
+  e('zercher squat', 16, 8), e('belt squat', 16, 7), e('safety bar squat', 16, 7),
+  e('leg day compound', 16, 8), e('quad dominant', 16, 7), e('glute dominant', 16, 7),
+  e('single leg press', 16, 8), e('hack squat machine', 16, 8), e('pendulum squat', 16, 7),
+  e('nordic hamstring curl', 16, 8), e('lying leg curl', 16, 8), e('seated leg curl', 16, 8),
+  e('good morning', 16, 7), e('back extension', 16, 7), e('reverse hyper', 16, 7),
+  e('donkey calf raise', 16, 8), e('seated calf raise', 16, 8), e('standing calf raise', 16, 8),
+  // Plus dim 17
+  e('plank', 17, 7), e('hollow body', 17, 8), e('dead bug', 17, 8),
+  e('bird dog', 17, 7), e('ab wheel', 17, 8), e('ab rollout', 17, 8),
+  e('hanging leg raise', 17, 8), e('toes to bar', 17, 8), e('dragon flag', 17, 8),
+  e('L-sit', 17, 8), e('l-sit', 17, 8), e('turkish getup', 17, 8),
+  e('turkish get-up', 17, 8), e('TGU', 17, 8), e('tgu', 17, 8),
+  e('power snatch', 17, 8), e('hang snatch', 17, 8), e('hang power clean', 17, 8),
+  e('clean and jerk', 17, 8), e('power jerk', 17, 8), e('push jerk', 17, 8),
+  e('atlas stone', 17, 7), e('yoke walk', 17, 8), e('tire flip', 17, 8),
+  e('sandbag carry', 17, 8), e('suitcase carry', 17, 8), e('overhead carry', 17, 8),
+  e('box jump', 17, 8), e('broad jump', 17, 8), e('depth jump', 17, 8),
+  e('jump squat', 17, 8), e('clap pushup', 17, 7), e('medicine ball slam', 17, 8),
+  e('rotational throw', 17, 8), e('cable rotation', 17, 8), e('landmine rotation', 17, 8),
+  e('pallof press', 17, 8), e('stir the pot', 17, 7), e('renegade row', 17, 7),
+  // Ultra dim 18
+  e('treadmill', 18, 8), e('stair climber', 18, 7), e('elliptical', 18, 7),
+  e('stationary bike', 18, 8), e('row machine', 18, 8), e('concept2', 18, 8),
+  e('concept 2', 18, 8), e('echo bike', 18, 8), e('rower', 18, 8),
+  e('sled drag', 18, 7), e('sled sprint', 18, 8), e('prowler push', 18, 8),
+  e('battle ropes', 18, 7), e('jump rope', 18, 7), e('box step', 18, 6),
+  e('staircase running', 18, 7), e('hill sprint', 18, 8), e('tempo run', 18, 8),
+  e('long run', 18, 8), e('easy run', 18, 7), e('slow jog', 18, 6),
+  e('aerobic base', 18, 8), e('aerobic capacity', 18, 8), e('lactate threshold', 18, 7),
+  e('threshold run', 18, 8), e('zone 2 cardio', 18, 8), e('low heart rate', 18, 6),
+];
+
+// Additional Color/Equipment expansion
+const colorExpansion = [
+  // Teaching dim 19
+  e('progressive cue', 19, 7), e('movement cue', 19, 7), e('verbal cue', 19, 7),
+  e('coaching drill', 19, 8), e('teaching drill', 19, 8), e('breakdown', 19, 6),
+  e('step by step', 19, 7), e('slow it down', 19, 6), e('deliberate rep', 19, 7),
+  e('checklist approach', 19, 6), e('learn before load', 19, 8), e('skill before load', 19, 8),
+  e('light weight focus', 19, 7), e('position work', 19, 7), e('coaching session', 19, 8),
+  e('form check', 19, 8), e('technique check', 19, 8), e('video feedback', 19, 7),
+  e('mirror cues', 19, 6), e('rep quality', 19, 7),
+  // Bodyweight dim 20
+  e('no barbell', 20, 7), e('zero equipment', 20, 8), e('bodyweight circuit', 20, 7),
+  e('floor work', 20, 6), e('park bench workout', 20, 7), e('air squat', 20, 7),
+  e('burpee', 20, 7), e('burpees', 20, 7), e('mountain climber', 20, 7),
+  e('bear crawl', 20, 7), e('crab walk', 20, 6), e('inchworm', 20, 7),
+  e('hollow hold', 20, 7), e('superman hold', 20, 6), e('plank hold', 20, 7),
+  e('push up variation', 20, 8), e('pull up variation', 20, 8), e('dip variation', 20, 8),
+  e('ring row', 20, 7), e('assisted pullup', 20, 7), e('band pullup', 20, 7),
+  e('resistance band', 20, 5), e('band workout', 20, 6),
+  // Structured dim 21
+  e('5 sets', 21, 6), e('4 sets', 21, 6), e('3 sets', 21, 6),
+  e('set scheme', 21, 7), e('volume target', 21, 6), e('rep scheme', 21, 7),
+  e('block periodization', 21, 7), e('daily max', 21, 7), e('RPE based', 21, 6),
+  e('percentage based', 21, 7), e('1RM percentage', 21, 7), e('working weight', 21, 6),
+  e('plate math', 21, 6), e('load progression', 21, 7), e('progressive overload', 21, 7),
+  e('structured overload', 21, 8), e('consistent training', 21, 6),
+  e('journaled workout', 21, 7), e('tracked sets', 21, 7), e('training log', 21, 7),
+  // Technical dim 22
+  e('olympic technique', 22, 8), e('snatch technique', 22, 8), e('clean technique', 22, 8),
+  e('technical lift', 22, 8), e('skill practice', 22, 7), e('low load technique', 22, 7),
+  e('perfect form', 22, 7), e('quality over reps', 22, 8), e('singles focus', 22, 7),
+  e('doubles focus', 22, 7), e('low sets', 22, 6), e('specialty movement', 22, 7),
+  e('specialty bar work', 22, 7), e('belt less work', 22, 6), e('strict technique', 22, 8),
+  e('advanced equipment', 22, 6), e('jerk technique', 22, 8), e('footwork drill', 22, 7),
+  e('position drill', 22, 7), e('technical blocks', 22, 8),
+  // Intense dim 23
+  e('all out set', 23, 8), e('death set', 23, 7), e('drop set', 23, 8),
+  e('drop sets', 23, 8), e('rest pause', 23, 7), e('myo reps', 23, 8),
+  e('giant sets', 23, 7), e('compound set', 23, 7), e('pre-exhaust', 23, 7),
+  e('mechanical drop set', 23, 8), e('forced reps', 23, 7),
+  e('maximum volume', 23, 8), e('high load high volume', 23, 8),
+  e('aggressive session', 23, 7), e('push to failure', 23, 7), e('near failure', 23, 7),
+  e('brutally hard', 23, 8), e('very intense', 23, 7), e('very hard workout', 23, 7),
+  e('intensity techniques', 23, 8),
+  // Circuit dim 24
+  e('5 station circuit', 24, 8), e('4 station circuit', 24, 8), e('3 station circuit', 24, 8),
+  e('circuit rotation', 24, 8), e('full body circuit', 24, 8), e('timed circuit', 24, 8),
+  e('no barbell circuit', 24, 8), e('dumbbell circuit', 24, 8), e('kettlebell circuit', 24, 8),
+  e('bodyweight circuit', 24, 8), e('athletic circuit', 24, 7), e('metabolic circuit', 24, 8),
+  e('functional circuit', 24, 7), e('hiit stations', 24, 8),
+  e('tissue rotation loop', 24, 8), e('loop logic', 24, 8), e('rotation logic', 24, 7),
+  e('circuit class', 24, 7), e('group circuit', 24, 7),
+  // Fun dim 25
+  e('variety training', 25, 8), e('try anything', 25, 6), e('mix and match', 25, 7),
+  e('experimental workout', 25, 7), e('play session', 25, 8), e('explore', 25, 5),
+  e('creative workout', 25, 8), e('unconventional workout', 25, 8),
+  e('game-based', 25, 7), e('game based', 25, 7), e('competition workout', 25, 6),
+  e('challenge game', 25, 6), e('fun challenge', 25, 8), e('enjoyable workout', 25, 7),
+  e('keep it interesting', 25, 7), e('surprise workout', 25, 6), e('random workout', 25, 6),
+  e('spice it up', 25, 7), e('break routine', 25, 7),
+  // Mindful dim 26
+  e('3 second eccentric', 26, 7), e('5 second eccentric', 26, 8), e('eccentric training', 26, 7),
+  e('negatives', 26, 7), e('slow negative', 26, 8), e('loaded stretch', 26, 7),
+  e('end range', 26, 6), e('full ROM mindful', 26, 7), e('conscious breathing', 26, 8),
+  e('box breathing', 26, 7), e('inhale exhale', 26, 6), e('breath cue', 26, 7),
+  e('slow lowering', 26, 8), e('controlled descent', 26, 8), e('2 min rest', 26, 6),
+  e('3 min rest', 26, 6), e('long rest mindful', 26, 7), e('restorative training', 26, 7),
+  e('mindful movement', 26, 8), e('somatic awareness', 26, 8),
+];
+
+// ============================================================
+// FINAL EXPANSION — exercise-library terms, synonyms, load % phrasing
+// ============================================================
+
+const exerciseLibrary = [
+  // Push — chest exercises from library
+  e('barbell bench press', 14, 8), e('close grip bench press', 14, 8),
+  e('smith machine press', 14, 7), e('machine fly', 14, 7),
+  e('incline dumbbell press', 14, 8), e('incline dumbbell fly', 14, 8),
+  e('decline dumbbell press', 14, 8), e('high to low cable fly', 14, 8),
+  e('low to high cable fly', 14, 8), e('dumbbell pullover', 14, 7),
+  e('ring dip', 14, 7), e('weighted dip', 14, 8),
+  e('dumbbell shoulder press', 14, 8), e('seated dumbbell press', 14, 8),
+  e('standing dumbbell press', 14, 8), e('cable lateral raise', 14, 8),
+  e('dumbbell lateral raise', 14, 8), e('machine lateral raise', 14, 8),
+  e('upright row', 14, 6), e('cable front raise', 14, 8),
+  e('lying tricep extension', 14, 8), e('cable tricep extension', 14, 8),
+  e('tricep dip', 14, 8), e('overhead tricep extension', 14, 8),
+  e('tricep kickback', 14, 8), e('cable kickback', 14, 8),
+  e('one arm pushdown', 14, 8), e('v-bar pushdown', 14, 8),
+
+  // Pull — back exercises from library
+  e('conventional deadlift', 15, 8), e('stiff leg deadlift', 15, 8),
+  e('single leg RDL', 15, 8), e('good mornings', 15, 7),
+  e('cable pullthrough', 15, 8), e('hip extension', 15, 7),
+  e('wide grip pullup', 15, 8), e('close grip pullup', 15, 8),
+  e('weighted pullup', 15, 8), e('band assisted pullup', 15, 8),
+  e('machine pulldown', 15, 8), e('straight arm pulldown', 15, 8),
+  e('cable row narrow', 15, 8), e('cable row wide', 15, 8),
+  e('machine row', 15, 8), e('barbell pendlay row', 15, 8),
+  e('dumbbell one arm row', 15, 8), e('incline dumbbell row', 15, 8),
+  e('cable face pull', 15, 8), e('band face pull', 15, 8),
+  e('dumbbell rear fly', 15, 8), e('machine rear delt fly', 15, 8),
+  e('barbell upright row', 15, 7), e('dumbbell shrug', 15, 7),
+  e('barbell shrug', 15, 7), e('trap bar shrug', 15, 7),
+  e('standing barbell curl', 15, 8), e('ez bar curl', 15, 8),
+  e('dumbbell hammer curl', 15, 8), e('cable hammer curl', 15, 8),
+  e('scott curl', 15, 8), e('machine curl', 15, 8),
+
+  // Legs — lower body exercises from library
+  e('barbell back squat', 16, 8), e('barbell front squat', 16, 8),
+  e('safety squat bar squat', 16, 8), e('low bar squat', 16, 8),
+  e('high bar squat', 16, 8), e('paused squat', 16, 8),
+  e('barbell lunge', 16, 8), e('dumbbell lunge', 16, 8),
+  e('barbell step up', 16, 8), e('dumbbell step up', 16, 8),
+  e('barbell split squat', 16, 8), e('dumbbell split squat', 16, 8),
+  e('bulgarian split squat', 16, 8), e('rear foot elevated split squat', 16, 8),
+  e('RFESS', 16, 8), e('rfess', 16, 8),
+  e('barbell hip thrust', 16, 8), e('dumbbell hip thrust', 16, 8),
+  e('barbell glute bridge', 16, 8), e('single leg glute bridge', 16, 8),
+  e('cable kickback', 16, 8), e('donkey kickback', 16, 7),
+  e('seated adduction machine', 16, 8), e('seated abduction machine', 16, 8),
+  e('standing hip abduction', 16, 8), e('standing hip adduction', 16, 8),
+  e('quad extensions', 16, 8), e('hamstring curls', 16, 8),
+  e('seated hamstring curl', 16, 8), e('lying hamstring curl', 16, 8),
+  e('standing hamstring curl', 16, 8), e('smith squat', 16, 7),
+  e('sissy squat', 16, 8), e('spanish squat', 16, 7),
+  e('tibialis raise', 16, 8), e('toe raise', 16, 7),
+
+  // Plus — core and olympic lift names
+  e('cable crunch', 17, 8), e('weighted sit up', 17, 8), e('v-up', 17, 7),
+  e('windmill', 17, 7), e('hollow rock', 17, 8), e('l-sit hold', 17, 8),
+  e('side plank', 17, 8), e('plank reach', 17, 7), e('plank shoulder tap', 17, 7),
+  e('russian twist', 17, 8), e('copenhagen plank', 17, 8),
+  e('cable woodchop', 17, 8), e('low to high woodchop', 17, 8),
+  e('high to low woodchop', 17, 8), e('landmine twist', 17, 8),
+  e('med ball rotation', 17, 8), e('med ball slam', 17, 8),
+  e('clean pull', 17, 8), e('snatch pull', 17, 8), e('clean shrug', 17, 7),
+  e('snatch shrug', 17, 7), e('muscle clean', 17, 8), e('muscle snatch', 17, 8),
+  e('kettlebell clean', 17, 8), e('kettlebell snatch', 17, 8),
+  e('kettlebell press', 17, 7), e('kettlebell windmill', 17, 8),
+  e('double kettlebell swing', 17, 8), e('single kettlebell swing', 17, 8),
+  e('overhead walk', 17, 8), e('goblet carry', 17, 8), e('rack carry', 17, 8),
+  e('keg carry', 17, 8), e('sandbag squat', 17, 8), e('atlas stone lift', 17, 8),
+
+  // Ultra — conditioning equipment and modalities
+  e('concept 2 rower', 18, 8), e('damper setting', 18, 6), e('500m split', 18, 7),
+  e('wattage', 18, 6), e('pace per mile', 18, 7), e('calories per hour', 18, 6),
+  e('heart rate zone', 18, 8), e('HR zone', 18, 7), e('pace work', 18, 7),
+  e('tempo pace', 18, 8), e('easy pace', 18, 7), e('conversational pace', 18, 7),
+  e('aerobic threshold', 18, 8), e('anaerobic threshold', 18, 7),
+  e('lactate', 18, 7), e('VO2 max work', 18, 8), e('capacity work', 18, 7),
+  e('power output', 18, 6), e('watt output', 18, 6), e('stroke rate', 18, 6),
+  e('effort level', 18, 5), e('hard cardio', 18, 7), e('easy cardio', 18, 7),
+  e('light cardio', 18, 6), e('steady state cardio', 18, 8), e('long slow distance', 18, 8),
+];
+
+// Synonym and phrasing expansions across all dims
+const synonymExpansion = [
+  // Foundation synonyms
+  e('ramp up', 1, 5), e('build the base', 1, 7), e('learn properly', 1, 6),
+  e('nail the basics', 1, 6), e('start here', 1, 5), e('zero to one', 1, 6),
+  e('day one', 1, 5), e('first time', 1, 5), e('proper form first', 1, 7),
+  e('safe load', 1, 5), e('controlled reps', 1, 6), e('movement quality first', 1, 7),
+  // Strength synonyms
+  e('lifting heavy', 2, 8), e('go heavy', 2, 7), e('big lifts', 2, 7),
+  e('compound heavy', 2, 8), e('barbell day', 2, 7), e('heavy session', 2, 8),
+  e('working heavy', 2, 7), e('max load', 2, 7), e('near max', 2, 7),
+  e('strength gains', 2, 8), e('get stronger', 2, 8), e('add weight', 2, 6),
+  // Hypertrophy synonyms
+  e('build muscle mass', 3, 8), e('maximum hypertrophy', 3, 8), e('ten sets', 3, 6),
+  e('high rep range', 3, 7), e('muscle endurance', 3, 5), e('muscle fullness', 3, 7),
+  e('cell swelling', 3, 6), e('add mass', 3, 7), e('bulk', 3, 5),
+  e('bulking', 3, 6), e('lean bulk', 3, 6), e('muscle hypertropy', 3, 7),
+  // Performance synonyms
+  e('test everything', 4, 8), e('all out test', 4, 8), e('find max', 4, 8),
+  e('discover limit', 4, 7), e('qualify', 4, 6), e('assess', 4, 5),
+  e('qualify day', 4, 7), e('performance check', 4, 8), e('performance eval', 4, 8),
+  // Full Body synonyms
+  e('everything moves', 5, 7), e('top to bottom', 5, 7), e('head to toe', 5, 7),
+  e('no muscle left behind', 5, 7), e('systemic', 5, 6), e('global', 5, 5),
+  e('whole body workout', 5, 8), e('total workout', 5, 7),
+  // Balance synonyms
+  e('left vs right', 6, 8), e('side to side', 6, 7), e('weak side', 6, 7),
+  e('strong side', 6, 5), e('deficit side', 6, 7), e('fix my weak', 6, 8),
+  e('make it even', 6, 7), e('bilateral deficit work', 6, 8),
+  // Restoration synonyms
+  e('take it easy', 7, 6), e('back off week', 7, 8), e('active rest', 7, 7),
+  e('maintenance work', 7, 6), e('low effort', 7, 6), e('calm session', 7, 7),
+  e('not training hard', 7, 5), e('easy week', 7, 7), e('recovery week', 7, 8),
+  // Basics synonyms
+  e('classical training', 8, 7), e('gym classic', 8, 7), e('standard gym', 8, 6),
+  e('gym school', 8, 5), e('old reliable', 8, 6), e('battle tested', 8, 7),
+  e('fundamental pattern', 8, 7), e('primary pattern', 8, 6),
+  // Functional synonyms
+  e('movement integrity', 9, 7), e('carry over', 9, 7), e('carryover', 9, 7),
+  e('practical strength', 9, 7), e('limb independence', 9, 7), e('unilateral focus', 9, 8),
+  e('single limb focus', 9, 8), e('one sided', 9, 7),
+  // Aesthetic synonyms
+  e('chasing the pump', 10, 8), e('feel each rep', 10, 8), e('slow and focused', 10, 7),
+  e('muscle connection', 10, 7), e('squeeze at top', 10, 7), e('full stretch', 10, 7),
+  e('full contraction', 10, 7), e('detail work', 10, 6), e('finishing work', 10, 6),
+  // Challenge synonyms
+  e('max difficulty', 11, 8), e('toughest version', 11, 8), e('band work', 11, 6),
+  e('chain work', 11, 7), e('specialty lifts', 11, 6), e('extreme variation', 11, 7),
+  e('hardest possible', 11, 8), e('scaled up', 11, 6), e('next progression', 11, 6),
+  // Time synonyms
+  e('run the clock', 12, 8), e('beat the clock', 12, 8), e('every minute on the minute', 12, 8),
+  e('work rest intervals', 12, 8), e('timed challenge', 12, 7), e('minute challenge', 12, 7),
+  e('minute to minute', 12, 8), e('continuous clock', 12, 7), e('time pressure', 12, 7),
+  // Partner synonyms
+  e('with your buddy', 13, 8), e('with a friend', 13, 7), e('workout together', 13, 8),
+  e('lift together', 13, 7), e('team training', 13, 7), e('pair workout', 13, 7),
+  e('two people', 13, 7), e('accountability workout', 13, 7),
+  // Push synonyms
+  e('pressing muscle', 14, 7), e('push muscles', 14, 8), e('push pattern', 14, 7),
+  e('anterior chain', 14, 6), e('upper body push', 14, 8), e('chest and tris', 14, 8),
+  e('chest triceps shoulders', 14, 8),
+  // Pull synonyms
+  e('pulling muscles', 15, 8), e('pull pattern', 15, 7), e('posterior chain upper', 15, 7),
+  e('back and bis', 15, 8), e('back biceps', 15, 8), e('upper back work', 15, 8),
+  e('back workout', 15, 8), e('lat work', 15, 8), e('deadlift day', 15, 8),
+  // Legs synonyms
+  e('lower body training', 16, 8), e('leg training', 16, 8), e('glute training', 16, 8),
+  e('quad training', 16, 8), e('hamstring training', 16, 8), e('hip training', 16, 7),
+  e('squat session', 16, 8), e('squat training', 16, 8), e('leg program', 16, 8),
+  // Plus synonyms
+  e('power work', 17, 7), e('explosive work', 17, 7), e('core training', 17, 8),
+  e('functional core', 17, 7), e('ab training', 17, 8), e('core stability work', 17, 8),
+  e('power training', 17, 7), e('explosive training', 17, 8), e('lift and carry', 17, 7),
+  // Ultra synonyms
+  e('cardio training', 18, 8), e('conditioning training', 18, 8), e('aerobic training', 18, 8),
+  e('cv training', 18, 7), e('cardio fitness', 18, 7), e('endurance training', 18, 8),
+  e('aerobic work', 18, 8), e('breathing hard', 18, 6), e('sweat session', 18, 5),
+  // Teaching synonyms
+  e('first session', 19, 6), e('introductory session', 19, 8), e('demo workout', 19, 8),
+  e('coach watch me', 19, 8), e('assessment workout', 19, 7), e('orientation workout', 19, 7),
+  // Bodyweight synonyms
+  e('no iron', 20, 7), e('hands and gravity', 20, 7), e('free exercises', 20, 6),
+  e('street workout', 20, 7), e('playground workout', 20, 7), e('minimal equipment', 20, 6),
+  // Structured synonyms
+  e('planned session', 21, 7), e('written program', 21, 7), e('on paper', 21, 6),
+  e('follow the plan', 21, 7), e('preset workout', 21, 7), e('fixed workout', 21, 7),
+  // Technical synonyms
+  e('quality lift', 22, 7), e('careful lifting', 22, 7), e('precise movement', 22, 8),
+  e('exact execution', 22, 8), e('technical excellence', 22, 8), e('benchmark quality', 22, 7),
+  // Intense synonyms
+  e('high effort', 23, 7), e('full effort', 23, 8), e('leave nothing', 23, 7),
+  e('empty the tank', 23, 8), e('full output', 23, 8), e('total exhaustion', 23, 7),
+  // Circuit synonyms
+  e('round robin', 24, 7), e('rotation training', 24, 7), e('loop training', 24, 7),
+  e('round based', 24, 7), e('circuit based', 24, 8), e('no rest circuit', 24, 7),
+  // Fun synonyms
+  e('light hearted', 25, 6), e('not serious', 25, 5), e('enjoy it', 25, 6),
+  e('have fun', 25, 7), e('mix things up', 25, 8), e('switch up', 25, 7),
+  // Mindful synonyms
+  e('slow down', 26, 7), e('breathe and move', 26, 8), e('present moment', 26, 7),
+  e('body awareness', 26, 8), e('proprioceptive', 26, 6), e('interoceptive', 26, 6),
+  e('inner focus', 26, 7), e('movement meditation', 26, 8), e('no rush', 26, 6),
+];
+
+// ============================================================
+// FINAL FILL — load percentages, rep counts, explicit exercise names
+// ============================================================
+const finalFill = [
+  // Load percentage phrasings mapping to Orders
+  e('at 80%', 2, 7), e('at 85%', 2, 7), e('at 75%', 2, 6), e('80% 1RM', 2, 8),
+  e('85% 1RM', 2, 8), e('75% 1RM', 2, 6), e('at 70%', 3, 6), e('70% 1RM', 3, 7),
+  e('at 65%', 3, 5), e('65% 1RM', 3, 6), e('at 90%', 4, 7), e('90% 1RM', 4, 8),
+  e('at 95%', 4, 8), e('95% 1RM', 4, 8), e('at 100%', 4, 8), e('100% 1RM', 4, 8),
+  e('at 55%', 7, 7), e('55% 1RM', 7, 7), e('at 60%', 1, 6), e('60% 1RM', 1, 6),
+  // Rep count phrasings
+  e('1 rep', 4, 7), e('2 reps', 4, 6), e('3 reps', 4, 5), e('6 reps', 2, 7),
+  e('8 reps', 3, 6), e('10 reps', 3, 6), e('12 reps', 3, 6), e('15 reps', 1, 5),
+  e('20 reps', 3, 4), e('high rep count', 3, 6), e('low rep count', 2, 6),
+  // Muscle group term variants
+  e('pec major', 14, 8), e('pec minor', 14, 7), e('anterior delt', 14, 8),
+  e('lateral delt', 14, 7), e('posterior delt', 15, 8), e('long head tricep', 14, 8),
+  e('short head tricep', 14, 7), e('long head bicep', 15, 8), e('short head bicep', 15, 7),
+  e('upper trap', 15, 7), e('mid trap', 15, 8), e('lower trap', 15, 7),
+  e('upper lat', 15, 8), e('lower lat', 15, 8), e('inner back', 15, 7),
+  e('outer quad', 16, 8), e('inner quad', 16, 8), e('teardrop', 16, 7),
+  e('VMO', 16, 7), e('vmo', 16, 7), e('upper glute', 16, 8), e('lower glute', 16, 7),
+  e('glute med', 16, 8), e('glute max', 16, 8), e('glute min', 16, 7),
+  e('medial hamstring', 16, 8), e('lateral hamstring', 16, 7),
+  e('tibialis anterior', 16, 8), e('plantar flexors', 16, 7), e('dorsiflexors', 16, 7),
+  // Rest period descriptions
+  e('3 minute rest', 2, 6), e('4 minute rest', 2, 7), e('full rest', 2, 7),
+  e('90 second rest', 3, 5), e('60 second rest', 3, 6), e('90s rest', 3, 5),
+  e('60s rest', 3, 6), e('minimal rest', 23, 7), e('30 second rest', 23, 7),
+  e('2 minute rest time', 19, 7), e('extended recovery', 22, 6),
+  // Equipment tier descriptions
+  e('tier 3 equipment', 21, 7), e('tier 2 equipment', 21, 6), e('tier 4 equipment', 22, 6),
+  e('tier 5 equipment', 22, 7), e('free weights', 21, 6), e('resistance equipment', 21, 5),
+  e('gym equipment', 21, 5), e('commercial gym', 21, 6), e('home gym', 20, 7),
+  e('garage gym', 21, 6), e('full gym', 21, 6),
+  // Session length descriptions
+  e('30 minute workout', 24, 5), e('45 minute workout', 21, 5), e('60 minute workout', 21, 6),
+  e('90 minute workout', 2, 5), e('short workout', 12, 5), e('long workout', 2, 5),
+  e('quick workout', 12, 6), e('efficient workout', 12, 6), e('time efficient', 12, 6),
+  // Training split names
+  e('push pull legs', 14, 6), e('PPL', 14, 5), e('ppl', 14, 5),
+  e('upper lower', 14, 5), e('bro split', 14, 5), e('full body split', 5, 6),
+  e('3 day split', 14, 4), e('4 day split', 14, 4), e('5 day split', 14, 4),
+  e('6 day split', 14, 4),
+  // Anatomy and physiology terms
+  e('motor unit', 2, 5), e('muscle fiber', 3, 5), e('fast twitch', 17, 6),
+  e('slow twitch', 18, 6), e('type 1 fiber', 18, 6), e('type 2 fiber', 2, 6),
+  e('neuromuscular', 2, 6), e('central nervous system', 2, 6),
+  e('peripheral nervous system', 7, 5), e('connective tissue', 7, 6),
+  e('tendon', 7, 5), e('ligament', 7, 5), e('fascia', 7, 6),
+  // Programming methods
+  e('linear periodization', 21, 7), e('undulating periodization', 3, 6),
+  e('DUP', 3, 6), e('dup', 3, 6), e('block programming', 21, 7),
+  e('daily undulating', 3, 7), e('weekly undulating', 3, 6),
+  e('RIR', 3, 6), e('rir', 3, 6), e('reps in reserve', 3, 7),
+  e('RPE', 21, 6), e('rpe', 21, 6), e('rate of perceived exertion', 21, 6),
+  e('autoregulation', 21, 6), e('conjugate method', 4, 5),
+  // Specific modality names
+  e('strongman training', 17, 8), e('powerbuilding', 2, 7),
+  e('powerlifting training', 2, 8), e('weightlifting', 2, 7),
+  e('olympic weightlifting', 17, 8), e('crossfit style', 18, 6),
+  e('circuit style', 24, 7), e('HIIT style', 18, 7), e('hiit style', 18, 7),
+  e('yoga', 7, 5), e('pilates', 7, 6), e('stretch session', 7, 7),
+  e('mobility flow', 7, 7), e('foam roll session', 7, 6),
+  // Coaching and cue terms (Teaching dim)
+  e('cue density', 19, 7), e('rest for comprehension', 19, 8),
+  e('watch the demo', 19, 7), e('imitate the movement', 19, 7),
+  e('rehearsal set', 19, 8), e('practice set', 19, 8), e('warm up sets', 19, 6),
+  e('orientation set', 19, 7), e('primer set', 19, 7),
+];
+
+const lastPush = [
+  // dim 10 aesthetic
+  e('vanity training', 10, 7), e('muscle detail', 10, 7), e('finish muscles', 10, 7),
+  e('shape muscles', 10, 8), e('tone', 10, 5), e('lean out', 10, 5),
+  e('cut weight', 10, 4), e('recomp', 10, 5), e('body recomp', 10, 6),
+  // dim 11 challenge
+  e('maximal challenge', 11, 8), e('elite variation', 11, 7), e('top variation', 11, 7),
+  e('progression challenge', 11, 7), e('step up difficulty', 11, 7),
+  // dim 12 time
+  e('2 minute EMOM', 12, 8), e('5 minute AMRAP', 12, 8), e('10 minute AMRAP', 12, 8),
+  e('15 minute AMRAP', 12, 8), e('20 min EMOM', 12, 8), e('timer workout', 12, 8),
+  // dim 13 partner
+  e('partner EMOM', 13, 8), e('partner circuit', 13, 8), e('partner AMRAP', 13, 8),
+  e('competition partner', 13, 7), e('friendly competition', 13, 7),
+  e('spotter workout', 13, 8), e('coaching pair', 13, 7), e('coaching partner', 13, 8),
+  // dim 24 circuit
+  e('flow circuit', 24, 8), e('strength circuit', 24, 7), e('endurance circuit', 24, 7),
+  e('cardio circuit', 24, 8), e('upper body circuit', 24, 7), e('lower body circuit', 24, 7),
+  // dim 25 fun
+  e('surprise exercise', 25, 7), e('random selection', 25, 6), e('no plan workout', 25, 6),
+  e('anything goes', 25, 6), e('wild card', 25, 6), e('free play', 25, 7),
+  // dim 26 mindful
+  e('slow reps only', 26, 8), e('4 second lower', 26, 8), e('3 second lower', 26, 7),
+  e('2 second pause top', 26, 7), e('pause at bottom', 26, 7), e('pause at top', 26, 7),
+  e('mindful eccentric', 26, 8), e('controlled eccentric', 26, 8), e('slow lowering phase', 26, 8),
+  // More equipment terms
+  e('trap bar', 15, 7), e('safety squat bar', 16, 7), e('swiss bar', 14, 7),
+  e('EZ bar', 15, 7), e('ez bar', 15, 7), e('cambered bar', 14, 7),
+  e('log bar', 17, 7), e('football bar', 14, 7), e('buffalo bar', 16, 7),
+  e('resistance bands', 20, 6), e('loop bands', 20, 6), e('pull up bands', 20, 6),
+  e('gymnastics rings', 20, 7), e('parallettes', 20, 7), e('pull up bar', 20, 7),
+  e('dip bars', 20, 7), e('trx', 20, 6), e('TRX', 20, 6),
+  e('GHD', 16, 7), e('ghd', 16, 7), e('glute ham developer', 16, 8),
+  e('reverse hyper machine', 16, 8), e('45 degree back extension', 16, 8),
+];
+
+const overLine = [
+  e('overhead squat', 17, 8), e('snatch balance', 17, 8), e('hang power snatch', 17, 8),
+  e('cable woodchops', 17, 8), e('copenhagen adduction', 16, 8),
+  e('copenhagen raise', 16, 8), e('poliquin step up', 16, 8),
+  e('one and a half squat', 16, 8), e('3 second descent', 26, 8),
+  e('6 second eccentric', 26, 8), e('7 second eccentric', 26, 8),
+  e('isometric hold', 26, 7), e('iso hold', 26, 7),
+];
+
+const allGroups = [
+  dim1, dim2, dim3, dim4, dim5, dim6, dim7,
+  dim8, dim9, dim10, dim11, dim12, dim13,
+  dim14, dim15, dim16, dim17, dim18,
+  dim19, dim20, dim21, dim22, dim23, dim24, dim25, dim26,
+  compoundEquipment,
+  voiceSeed,
+  orderExpansion, axisExpansion, typeExpansion, colorExpansion,
+  exerciseLibrary, synonymExpansion, finalFill, lastPush, overLine,
+];
+
+const seen = new Set();
+const result = [];
+
+for (const group of allGroups) {
+  for (const entry of group) {
+    if (!seen.has(entry.term)) {
+      seen.add(entry.term);
+      result.push(entry);
+    }
+  }
+}
+
+// Sort by dimension then term
+result.sort((a, b) => {
+  if (a.dimension !== b.dimension) return a.dimension - b.dimension;
+  return a.term.localeCompare(b.term);
+});
+
+writeFileSync(OUT, JSON.stringify(result, null, 2) + '\n');
+
+const bydim = {};
+for (const e of result) {
+  bydim[e.dimension] = (bydim[e.dimension] || 0) + 1;
+}
+
+console.log(`Total entries: ${result.length}`);
+for (let d = 1; d <= 26; d++) {
+  console.log(`  dim ${d}: ${bydim[d] || 0} entries`);
+}
+const collisionCount = result.filter(e => e.collision_prone).length;
+console.log(`Collision-prone: ${collisionCount}`);
+console.log(`Written to: ${OUT}`);
