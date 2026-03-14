@@ -28,9 +28,9 @@ Requirements for initial release (Sessions 1-2). Each maps to roadmap phases.
 - [x] **PARS-03**: Exercise name detection using exercise-library.md as authoritative source (~2,185 exercises)
 - [x] **PARS-04**: Equipment mention detection mapping to Color tier ranges
 - [x] **PARS-05**: Body part / muscle group detection mapping to Type
-- [ ] **PARS-06**: Fuzzy matching with typo tolerance (edit distance ≤ 2) via fastest-levenshtein
-- [ ] **PARS-07**: Multi-word alias expansion via fuse.js
-- [ ] **PARS-08**: Text-to-zip scoring pipeline that produces ranked candidate addresses from natural language input
+- [x] **PARS-06**: Fuzzy matching with typo tolerance (edit distance ≤ 2) via fastest-levenshtein
+- [x] **PARS-07**: Multi-word alias expansion via fuse.js
+- [x] **PARS-08**: Text-to-zip scoring pipeline that produces ranked candidate addresses from natural language input
 
 ### Rendering
 
@@ -119,9 +119,9 @@ Deferred to Session 3+ after infrastructure is solid.
 | WGHT-03 | Phase 3 | Complete |
 | WGHT-04 | Phase 3 | Complete |
 | PARS-01 | Phase 3 | Complete |
-| PARS-06 | Phase 3 | Pending |
-| PARS-07 | Phase 3 | Pending |
-| PARS-08 | Phase 3 | Pending |
+| PARS-06 | Phase 3 | Complete |
+| PARS-07 | Phase 3 | Complete |
+| PARS-08 | Phase 3 | Complete |
 | RNDR-01 | Phase 4 | Pending |
 | RNDR-02 | Phase 4 | Pending |
 | RNDR-03 | Phase 4 | Pending |
