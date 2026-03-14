@@ -13,7 +13,7 @@ This roadmap builds a deterministic offline parser, weight-vector-to-CSS renderi
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - Canvas workspace, TypeScript types, zip converter, and Claude Code path-gating infrastructure (completed 2026-03-14)
-- [x] **Phase 2: Core Data** - Four dial weight tables and fitness keyword dictionary (parallel builds from first-party specs) (completed 2026-03-14)
+- [x] **Phase 2: Core Data** - Four dial weight tables and fitness keyword dictionary (parallel builds from first-party specs) (completed 2026-03-14)
 - [ ] **Phase 3: Integration** - Interaction resolver wiring weight tables into WeightVector; text scorer wiring vocab into ParseResult
 - [ ] **Phase 4: Design Tokens** - design-tokens.json encoding all 8 Color palettes, 7 Order typographies, 6 Axis gradients; style-dictionary build
 - [ ] **Phase 5: Rendering Pipeline** - weightsToCSSVars() and all deriver functions; CSS arbitration spec locked before code
@@ -49,9 +49,9 @@ Plans:
   4. Weight vector computation produces a 61-dimensional array for any valid zip code input
 **Plans:** 3/3 plans complete
 Plans:
-- [ ] 02-01-PLAN.md — Weight tables for all 6 categories + computeRawVector() function
-- [ ] 02-02-PLAN.md — Exercise dictionary port with alias layer
-- [ ] 02-03-PLAN.md — Keyword dictionary mined from first-party sources
+- [x] 02-01-PLAN.md — Weight tables for all 6 categories + computeRawVector() function
+- [x] 02-02-PLAN.md — Exercise dictionary port with alias layer
+- [x] 02-03-PLAN.md — Keyword dictionary mined from first-party sources
 
 ### Phase 3: Integration
 **Goal**: The interaction resolver enforces the constraint hierarchy and the text scorer produces ranked ParseResult candidates from natural language
@@ -63,7 +63,10 @@ Plans:
   3. ParseResult includes defaulted_dimensions field from day one, populated whenever a dial scores zero and defaults
   4. Natural language input ("heavy barbell back work") returns ranked zip code candidates with confidence scores
   5. Fuzzy matching tolerates typos up to edit distance 2 and expands multi-word aliases
-**Plans**: TBD
+**Plans:** 2 plans
+Plans:
+- [ ] 03-01-PLAN.md — Interaction resolver enforcing Order > Color hard suppression hierarchy + ParseResult type
+- [ ] 03-02-PLAN.md — Text-to-zip scoring pipeline with fuzzy matching and confidence ranking
 
 ### Phase 4: Design Tokens
 **Goal**: design-tokens.json is the single authoritative source for all visual values, built as semantic tokens and compiled to CSS and TypeScript via style-dictionary
@@ -128,7 +131,7 @@ Phases execute in strict dependency order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete    | 2026-03-14 |
 | 2. Core Data | 3/3 | Complete   | 2026-03-14 |
-| 3. Integration | 0/TBD | Not started | - |
+| 3. Integration | 0/2 | Planning complete | - |
 | 4. Design Tokens | 0/TBD | Not started | - |
 | 5. Rendering Pipeline | 0/TBD | Not started | - |
 | 6. Claude Code Infrastructure | 0/TBD | Not started | - |
