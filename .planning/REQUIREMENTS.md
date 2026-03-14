@@ -16,8 +16,8 @@ Requirements for initial release (Sessions 1-2). Each maps to roadmap phases.
 
 ### Weight Engine
 
-- [ ] **WGHT-01**: 61-dimensional weight vector computation for any zip code (-8 to +8 scale)
-- [ ] **WGHT-02**: Dial weight tables for all 4 categories (Order: 7, Axis: 6, Type: 5, Color: 8)
+- [x] **WGHT-01**: 61-dimensional weight vector computation for any zip code (-8 to +8 scale)
+- [x] **WGHT-02**: Dial weight tables for all 4 categories (Order: 7, Axis: 6, Type: 5, Color: 8)
 - [ ] **WGHT-03**: Interaction resolver enforcing constraint hierarchy (Order > Color > Axis > Type)
 - [ ] **WGHT-04**: Hard suppression logic (weight ≤ -6 is absolute, cannot be overridden by lower-priority dial)
 
@@ -110,8 +110,8 @@ Deferred to Session 3+ after infrastructure is solid.
 | FOUND-03 | Phase 1 | Complete |
 | FOUND-04 | Phase 1 | Pending |
 | TEST-01 | Phase 1 | Complete |
-| WGHT-01 | Phase 2 | Pending |
-| WGHT-02 | Phase 2 | Pending |
+| WGHT-01 | Phase 2 | Complete |
+| WGHT-02 | Phase 2 | Complete |
 | PARS-02 | Phase 2 | Pending |
 | PARS-03 | Phase 2 | Complete |
 | PARS-04 | Phase 2 | Complete |

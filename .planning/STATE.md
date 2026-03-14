@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-02-PLAN.md
-last_updated: "2026-03-14T20:15:01.385Z"
+stopped_at: Completed 02-01-PLAN.md
+last_updated: "2026-03-14T20:18:36.017Z"
 last_activity: 2026-03-14 — Plan 01-02 complete (zip converter with 6,762 tests)
 progress:
   total_phases: 8
   completed_phases: 1
   total_plans: 5
-  completed_plans: 3
+  completed_plans: 4
 ---
 
 ---
@@ -66,6 +66,7 @@ Progress: [█░░░░░░░░░] 5%
 
 *Updated after each plan completion*
 | Phase 02-core-data P02 | 255 | 2 tasks | 3 files |
+| Phase 02-core-data P01 | 8 | 2 tasks | 9 files |
 
 ## Accumulated Context
 
@@ -82,6 +83,8 @@ Recent decisions affecting current work:
 - [Plan 01-02]: Registry operator tests verify latin name only; emoji correctness verified via explicit CLAUDE.md-sourced test cases
 - [Phase 02-core-data]: equipment_tier source data uses [0,max] format — barbell test checks tier[1] (max) >= 3, not tier[0]
 - [Phase 02-core-data]: build-exercises-json.cjs script deleted after generation; exercises.json is the artifact
+- [Phase 02-core-data]: Block and Operator weight tables are NOT consumed by computeRawVector() — standalone exports for downstream block/operator selection
+- [Phase 02-core-data]: computeRawVector() implements Steps 1-3 only with [-8,+8] clamp — Steps 4-5 reserved for Phase 3 resolver
 
 ### Pending Todos
 
@@ -94,6 +97,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T20:15:01.382Z
-Stopped at: Completed 02-02-PLAN.md
+Last session: 2026-03-14T20:18:36.014Z
+Stopped at: Completed 02-01-PLAN.md
 Resume file: None
