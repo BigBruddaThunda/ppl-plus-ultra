@@ -45,6 +45,7 @@ The technical firewall lives in `.codex/TASK-ARCHITECTURE.md` (Context Firewall 
 | `operis-editions/**` (editions) | R/W | **Never** | — | — | — |
 | `reports/**` | R/W | R/W | — | R | R |
 | `zip-web/**` | R/W | R | — | — | — |
+| `canvas/**` | R/W | R/W | — | — | — |
 
 **Key:**
 - `R` — may read
@@ -141,6 +142,33 @@ If an agent attempts to write outside its declared scope:
 3. **Wait** for Claude Code or Jake to authorize the write or redirect the task.
 
 A boundary violation that goes unreported is worse than one that is caught. The firewall only works if agents surface the conflict.
+
+---
+
+---
+
+## Canvas Path-Gating
+
+The `canvas/` directory is a standalone TypeScript workspace. It is isolated from `web/`, `middle-math/`, and `cards/`.
+
+**Path-gate pattern for canvas-specific hooks:**
+```bash
+if echo "$FILE" | grep -q '^canvas/'; then
+  # canvas-specific hook logic here
+fi
+```
+
+**Rules:**
+- No canvas/ PostToolUse hook shall be added until this pattern is documented and reviewed
+- canvas/ hooks must never fire on cards/, web/, or middle-math/ writes
+- canvas/ source files (`canvas/src/`) must never import from web/ or cards/
+- `canvas/tests/` may import from middle-math/ JSON files for test data only (no runtime imports)
+- The "flush before delegate" rule applies: if a canvas/ hook produces output, it must flush stdout before any subagent delegation
+
+**Dual hierarchy note:**
+- System hierarchy (Order > Color > Axis > Type) lives in the resolver (Phase 3), NOT in `canvas/src/types/`
+- Experience hierarchy (Axis > Color > Order > Type) lives in the visual canvas (Session 3+), NOT in Phase 1
+- The types in `canvas/src/types/scl.ts` are pure identity maps — they contain no priority or constraint information
 
 ---
 
