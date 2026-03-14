@@ -10,8 +10,8 @@ Requirements for initial release (Sessions 1-2). Each maps to roadmap phases.
 ### Foundation
 
 - [ ] **FOUND-01**: TypeScript type definitions for all SCL primitives (Order, Axis, Type, Color, Operator, Block) with emoji and numeric representations
-- [ ] **FOUND-02**: Emoji ↔ numeric zip conversion (bidirectional, all 1,680 addresses)
-- [ ] **FOUND-03**: Deck derivation from zip code ((order - 1) * 6 + axis)
+- [x] **FOUND-02**: Emoji ↔ numeric zip conversion (bidirectional, all 1,680 addresses)
+- [x] **FOUND-03**: Deck derivation from zip code ((order - 1) * 6 + axis)
 - [ ] **FOUND-04**: canvas/ directory scaffold with clean separation from web/, middle-math/, cards/
 
 ### Weight Engine
@@ -53,7 +53,7 @@ Requirements for initial release (Sessions 1-2). Each maps to roadmap phases.
 
 ### Testing
 
-- [ ] **TEST-01**: Unit tests for zip converter (all 1,680 round-trip conversions)
+- [x] **TEST-01**: Unit tests for zip converter (all 1,680 round-trip conversions)
 - [ ] **TEST-02**: Unit tests for weight vector computation (spot-check 10 representative zips across all Orders)
 - [ ] **TEST-03**: Unit tests for keyword dictionary scoring (known terms → correct dimension routing)
 - [ ] **TEST-04**: Unit tests for CSS derivation (weight vector → expected CSS custom properties)
@@ -106,10 +106,10 @@ Deferred to Session 3+ after infrastructure is solid.
 | Requirement | Phase | Status |
 |-------------|-------|--------|
 | FOUND-01 | Phase 1 | Pending |
-| FOUND-02 | Phase 1 | Pending |
-| FOUND-03 | Phase 1 | Pending |
+| FOUND-02 | Phase 1 | Complete |
+| FOUND-03 | Phase 1 | Complete |
 | FOUND-04 | Phase 1 | Pending |
-| TEST-01 | Phase 1 | Pending |
+| TEST-01 | Phase 1 | Complete |
 | WGHT-01 | Phase 2 | Pending |
 | WGHT-02 | Phase 2 | Pending |
 | PARS-02 | Phase 2 | Pending |

@@ -12,7 +12,7 @@ This roadmap builds a deterministic offline parser, weight-vector-to-CSS renderi
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Canvas workspace, TypeScript types, zip converter, and Claude Code path-gating infrastructure
+- [x] **Phase 1: Foundation** - Canvas workspace, TypeScript types, zip converter, and Claude Code path-gating infrastructure (completed 2026-03-14)
 - [ ] **Phase 2: Core Data** - Four dial weight tables and fitness keyword dictionary (parallel builds from first-party specs)
 - [ ] **Phase 3: Integration** - Interaction resolver wiring weight tables into WeightVector; text scorer wiring vocab into ParseResult
 - [ ] **Phase 4: Design Tokens** - design-tokens.json encoding all 8 Color palettes, 7 Order typographies, 6 Axis gradients; style-dictionary build
@@ -33,7 +33,7 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Deck number derives correctly from any zip code using (order - 1) * 6 + axis
   4. TypeScript types compile with strict mode for all SCL primitives (Order, Axis, Type, Color, Operator, Block)
   5. AGENT-BOUNDARIES.md exists documenting path-gating patterns before any canvas-specific hook is added
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 Plans:
 - [ ] 01-01-PLAN.md — Scaffold canvas/ workspace and define all 61 SCL primitive types
 - [ ] 01-02-PLAN.md — Bidirectional zip converter with 1,680 round-trip tests (TDD)
@@ -122,7 +122,7 @@ Phases execute in strict dependency order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 1/2 | In Progress|  |
+| 1. Foundation | 2/2 | Complete   | 2026-03-14 |
 | 2. Core Data | 0/TBD | Not started | - |
 | 3. Integration | 0/TBD | Not started | - |
 | 4. Design Tokens | 0/TBD | Not started | - |
