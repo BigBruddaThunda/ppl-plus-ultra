@@ -109,15 +109,16 @@ Deferred to Session 3+ after infrastructure is solid.
 | FOUND-02 | Phase 1 | Pending |
 | FOUND-03 | Phase 1 | Pending |
 | FOUND-04 | Phase 1 | Pending |
+| TEST-01 | Phase 1 | Pending |
 | WGHT-01 | Phase 2 | Pending |
 | WGHT-02 | Phase 2 | Pending |
-| WGHT-03 | Phase 3 | Pending |
-| WGHT-04 | Phase 3 | Pending |
-| PARS-01 | Phase 3 | Pending |
 | PARS-02 | Phase 2 | Pending |
 | PARS-03 | Phase 2 | Pending |
 | PARS-04 | Phase 2 | Pending |
 | PARS-05 | Phase 2 | Pending |
+| WGHT-03 | Phase 3 | Pending |
+| WGHT-04 | Phase 3 | Pending |
+| PARS-01 | Phase 3 | Pending |
 | PARS-06 | Phase 3 | Pending |
 | PARS-07 | Phase 3 | Pending |
 | PARS-08 | Phase 3 | Pending |
@@ -128,16 +129,15 @@ Deferred to Session 3+ after infrastructure is solid.
 | RNDR-05 | Phase 5 | Pending |
 | RNDR-06 | Phase 5 | Pending |
 | RNDR-07 | Phase 5 | Pending |
+| TEST-04 | Phase 5 | Pending |
 | CLCD-01 | Phase 6 | Pending |
 | CLCD-02 | Phase 6 | Pending |
 | CLCD-03 | Phase 6 | Pending |
 | CLCD-04 | Phase 7 | Pending |
 | CLCD-05 | Phase 7 | Pending |
 | CLCD-06 | Phase 7 | Pending |
-| TEST-01 | Phase 1 | Pending |
-| TEST-02 | Phase 3 | Pending |
-| TEST-03 | Phase 3 | Pending |
-| TEST-04 | Phase 5 | Pending |
+| TEST-02 | Phase 8 | Pending |
+| TEST-03 | Phase 8 | Pending |
 | TEST-05 | Phase 8 | Pending |
 | CARD-01 | Phase 8 | Pending |
 | CARD-02 | Phase 8 | Pending |
@@ -150,4 +150,4 @@ Deferred to Session 3+ after infrastructure is solid.
 
 ---
 *Requirements defined: 2026-03-13*
-*Last updated: 2026-03-13 after initial definition*
+*Last updated: 2026-03-13 — traceability updated to match ROADMAP.md phase assignments (TEST-02, TEST-03 moved from Phase 3 to Phase 8)*
