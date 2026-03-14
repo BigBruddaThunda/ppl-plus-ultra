@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 02-03-PLAN.md
-last_updated: "2026-03-14T20:43:53.109Z"
+stopped_at: Completed 03-01-PLAN.md
+last_updated: "2026-03-14T21:10:15.876Z"
 last_activity: 2026-03-14 — Plan 01-02 complete (zip converter with 6,762 tests)
 progress:
   total_phases: 8
   completed_phases: 2
-  total_plans: 5
-  completed_plans: 5
+  total_plans: 7
+  completed_plans: 6
 ---
 
 ---
@@ -68,6 +68,7 @@ Progress: [█░░░░░░░░░] 5%
 | Phase 02-core-data P02 | 255 | 2 tasks | 3 files |
 | Phase 02-core-data P01 | 8 | 2 tasks | 9 files |
 | Phase 02-core-data P03 | 27 | 2 tasks | 4 files |
+| Phase 03-integration P01 | 3 | 1 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -89,6 +90,8 @@ Recent decisions affecting current work:
 - [Phase 02-core-data]: DimensionId covers positions 1-26 only; Blocks/Operators not keyword dimensions
 - [Phase 02-core-data]: barbell maps to dim 21 Structured as primary color dimension (tier 3 equipment)
 - [Phase 02-core-data]: Generator script build-keywords.mjs kept for reproducible dictionary builds
+- [Phase 03-integration]: Hard suppression threshold is <= -6; Order > Color hierarchy means Order -6 beats Color -8 at same position
+- [Phase 03-integration]: ParseResult.defaulted_dimensions is required non-optional field — retrofitting is breaking API change
 
 ### Pending Todos
 
@@ -101,6 +104,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T20:37:38.686Z
-Stopped at: Completed 02-03-PLAN.md
+Last session: 2026-03-14T21:10:15.873Z
+Stopped at: Completed 03-01-PLAN.md
 Resume file: None

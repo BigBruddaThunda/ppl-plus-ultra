@@ -63,7 +63,7 @@ Plans:
   3. ParseResult includes defaulted_dimensions field from day one, populated whenever a dial scores zero and defaults
   4. Natural language input ("heavy barbell back work") returns ranked zip code candidates with confidence scores
   5. Fuzzy matching tolerates typos up to edit distance 2 and expands multi-word aliases
-**Plans:** 2 plans
+**Plans:** 1/2 plans executed
 Plans:
 - [ ] 03-01-PLAN.md — Interaction resolver enforcing Order > Color hard suppression hierarchy + ParseResult type
 - [ ] 03-02-PLAN.md — Text-to-zip scoring pipeline with fuzzy matching and confidence ranking
@@ -131,7 +131,7 @@ Phases execute in strict dependency order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete    | 2026-03-14 |
 | 2. Core Data | 3/3 | Complete   | 2026-03-14 |
-| 3. Integration | 0/2 | Planning complete | - |
+| 3. Integration | 1/2 | In Progress|  |
 | 4. Design Tokens | 0/TBD | Not started | - |
 | 5. Rendering Pipeline | 0/TBD | Not started | - |
 | 6. Claude Code Infrastructure | 0/TBD | Not started | - |

@@ -18,12 +18,12 @@ Requirements for initial release (Sessions 1-2). Each maps to roadmap phases.
 
 - [x] **WGHT-01**: 61-dimensional weight vector computation for any zip code (-8 to +8 scale)
 - [x] **WGHT-02**: Dial weight tables for all 4 categories (Order: 7, Axis: 6, Type: 5, Color: 8)
-- [ ] **WGHT-03**: Interaction resolver enforcing constraint hierarchy (Order > Color > Axis > Type)
-- [ ] **WGHT-04**: Hard suppression logic (weight ≤ -6 is absolute, cannot be overridden by lower-priority dial)
+- [x] **WGHT-03**: Interaction resolver enforcing constraint hierarchy (Order > Color > Axis > Type)
+- [x] **WGHT-04**: Hard suppression logic (weight ≤ -6 is absolute, cannot be overridden by lower-priority dial)
 
 ### Parser
 
-- [ ] **PARS-01**: ParseResult type with zip code, weight vector, confidence score, and defaulted_dimensions field
+- [x] **PARS-01**: ParseResult type with zip code, weight vector, confidence score, and defaulted_dimensions field
 - [x] **PARS-02**: Keyword dictionary (~2,500 fitness terms) with dimension_affinity_score per entry
 - [x] **PARS-03**: Exercise name detection using exercise-library.md as authoritative source (~2,185 exercises)
 - [x] **PARS-04**: Equipment mention detection mapping to Color tier ranges
@@ -116,9 +116,9 @@ Deferred to Session 3+ after infrastructure is solid.
 | PARS-03 | Phase 2 | Complete |
 | PARS-04 | Phase 2 | Complete |
 | PARS-05 | Phase 2 | Complete |
-| WGHT-03 | Phase 3 | Pending |
-| WGHT-04 | Phase 3 | Pending |
-| PARS-01 | Phase 3 | Pending |
+| WGHT-03 | Phase 3 | Complete |
+| WGHT-04 | Phase 3 | Complete |
+| PARS-01 | Phase 3 | Complete |
 | PARS-06 | Phase 3 | Pending |
 | PARS-07 | Phase 3 | Pending |
 | PARS-08 | Phase 3 | Pending |
