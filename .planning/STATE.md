@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 03-02-PLAN.md
-last_updated: "2026-03-14T21:28:32.101Z"
+stopped_at: Completed 04-01-PLAN.md
+last_updated: "2026-03-14T22:53:07.301Z"
 last_activity: 2026-03-14 — Plan 01-02 complete (zip converter with 6,762 tests)
 progress:
   total_phases: 8
   completed_phases: 3
-  total_plans: 7
-  completed_plans: 7
+  total_plans: 9
+  completed_plans: 8
 ---
 
 ---
@@ -70,6 +70,7 @@ Progress: [█░░░░░░░░░] 5%
 | Phase 02-core-data P03 | 27 | 2 tasks | 4 files |
 | Phase 03-integration P01 | 3 | 1 tasks | 3 files |
 | Phase 03-integration P02 | 8 | 2 tasks | 5 files |
+| Phase 04-design-tokens P01 | 20 | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -96,6 +97,9 @@ Recent decisions affecting current work:
 - [Phase 03-integration]: expandPhrase() capped at top 3 results: fuse.js substring matches on leg press inflated Push scores — keyword bigrams are authoritative for compound terms in the dictionary
 - [Phase 03-integration]: EXERCISE_TYPE_MAP first-write-wins: exercises.json has duplicate Romanian Deadlift (RDL) entries — first entry (Pull+Plus) is canonical, last-write would lose Pull routing
 - [Phase 03-integration]: Lower-position argmax tiebreaker: when dimension scores tie, lower position wins (Pull pos 2 beats Legs pos 3), reflecting SCL spec ordering
+- [Phase 04-design-tokens]: Double-hyphen CSS naming locked: --ppl-color-passion--primary requires custom style-dictionary transform in Plan 02
+- [Phase 04-design-tokens]: W enum index convention: tokens accessed by semantic name (tokens.colors.passion), not numeric W position; COLOR_W_TO_TONAL bridge is authoritative
+- [Phase 04-design-tokens]: OKLCH locked as color space; HSL excluded; culori toGamut() required for out-of-gamut handling
 
 ### Pending Todos
 
@@ -108,6 +112,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-14T21:23:23.210Z
-Stopped at: Completed 03-02-PLAN.md
+Last session: 2026-03-14T22:53:02.228Z
+Stopped at: Completed 04-01-PLAN.md
 Resume file: None
