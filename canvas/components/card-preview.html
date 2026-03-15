@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<!--
+  card-preview.html — Ppl± Intaglio Card Template Visual Preview
+  Self-contained. Opens directly in any browser without a build step.
+
+  Cards rendered:
+    Card 1: Zip 2123 (⛽🏛🪡🔵) — Strength · Basics · Pull · Structured
+            saturation 0.50 | ruled ledger hatching | planning tonal palette
+    Card 2: Zip 2115 (⛽🏛🛒🔴) — Strength · Basics · Push · Intense
+            saturation 0.90 | bold crosshatch | passion tonal palette
+
+  CSS vars derived from: resolveZip(o,a,t,c) → weightsToCSSVars() → tokens
+  Source: canvas/src/weights/resolver.ts + canvas/src/rendering/weights-to-css-vars.ts
+
+  <!-- CSS vars — ZIP 2123 (⛽🏛🪡🔵): resolveZip(2,1,2,3) → weightsToCSSVars()
+    --ppl-weight-font-weight: 800
+    --ppl-weight-font-weight-display: 900
+    --ppl-weight-lineheight: 1.4
+    --ppl-weight-spacing-multiplier: 0.85
+    --ppl-weight-letter-spacing: 0.005em
+    --ppl-weight-density: compact
+    --ppl-theme-primary: oklch(0.4 0.10496582031250001 230)
+    --ppl-theme-secondary: oklch(0.5 0.11200000000000002 230)
+    --ppl-theme-background: oklch(0.97 0.014000000000000002 230)
+    --ppl-theme-surface: oklch(1 0 0)
+    --ppl-theme-text: oklch(0.26 0.06820556640625 230)
+    --ppl-theme-accent: oklch(0.34 0.08920898437500002 230)
+    --ppl-theme-border: oklch(0.82 0.042 230)
+    --ppl-weight-saturation: 0.50
+    --ppl-weight-contrast: 1.000
+    --ppl-weight-tonal-name: planning
+    --ppl-weight-gradient-direction: to bottom
+    --ppl-weight-layout-flow: column
+    --ppl-weight-typography-bias: classical
+    --ppl-weight-visual-rhythm: 1.000
+    --ppl-weight-emphasis-pull: 1.000
+    --ppl-weight-emphasis-push: 0.125
+  -->
+
+  <!-- CSS vars — ZIP 2115 (⛽🏛🛒🔴): resolveZip(2,1,1,5) → weightsToCSSVars()
+    --ppl-weight-font-weight: 800
+    --ppl-weight-font-weight-display: 900
+    --ppl-weight-lineheight: 1.4
+    --ppl-weight-spacing-multiplier: 0.85
+    --ppl-weight-letter-spacing: 0.005em
+    --ppl-weight-density: compact
+    --ppl-theme-primary: oklch(0.42 0.1919091796875 25)
+    --ppl-theme-secondary: oklch(0.52 0.17600000000000002 25)
+    --ppl-theme-background: oklch(0.97 0.019121093750000002 25)
+    --ppl-theme-surface: oklch(1 0 0)
+    --ppl-theme-text: oklch(0.27999999999999997 0.12791796875 25)
+    --ppl-theme-accent: oklch(0.36 0.1644521484375 25)
+    --ppl-theme-border: oklch(0.82 0.066 25)
+    --ppl-weight-saturation: 0.90
+    --ppl-weight-contrast: 1.000
+    --ppl-weight-tonal-name: passion
+    --ppl-weight-gradient-direction: to bottom
+    --ppl-weight-layout-flow: column
+    --ppl-weight-typography-bias: classical
+    --ppl-weight-visual-rhythm: 1.000
+    --ppl-weight-emphasis-push: 1.000
+    --ppl-weight-emphasis-pull: 0.125
+  -->
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ppl± Card Preview — Intaglio Template</title>
+
+  <!-- Ppl± design tokens: CSS custom properties for :root tonal palettes -->
+  <link rel="stylesheet" href="../src/tokens/design-tokens.css">
+
+  <!-- WorkoutCard intaglio styles -->
+  <link rel="stylesheet" href="WorkoutCard.css">
+
+  <style>
+    /* ─── Preview page layout ─────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 24px 16px;
+      background: oklch(0.93 0 0);
+      font-family: Georgia, 'Times New Roman', serif;
+      min-height: 100vh;
+    }
+
+    .preview-header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .preview-header h1 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: oklch(0.2 0 0);
+      margin: 0 0 4px;
+    }
+
+    .preview-header p {
+      font-size: 0.8rem;
+      color: oklch(0.45 0 0);
+      margin: 0;
+    }
+
+    .preview-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    .preview-card-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .preview-card-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: oklch(0.45 0 0);
+      padding-left: 4px;
+    }
+
+    /* Desktop: two-card side-by-side */
+    @media (min-width: 720px) {
+      .preview-grid {
+        flex-direction: row;
+        align-items: flex-start;
+      }
+
+      .preview-card-wrapper {
+        flex: 1;
+        min-width: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="preview-header">
+    <h1>Ppl± Intaglio Card Template</h1>
+    <p>Banknote engraving art direction — hatching, guilloche, vignette, line-work borders</p>
+  </div>
+
+  <div class="preview-grid">
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- CARD 1: Zip 2123 — ⛽🏛🪡🔵 Structured                        -->
+    <!-- resolveZip(2,1,2,3) → weightsToCSSVars()                      -->
+    <!-- planning tonal palette | saturation 0.50 | ledger hatching     -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+
+    <div class="preview-card-wrapper">
+      <span class="preview-card-label">⛽🏛🪡🔵 — Structured · saturation 0.50 · ledger hatching</span>
+
+      <article
+        class="ppl-card"
+        data-color="structured"
+        data-order="strength"
+        data-axis="basics"
+        data-zip="2123"
+        style="--ppl-weight-font-weight: 800; --ppl-weight-font-weight-display: 900; --ppl-weight-lineheight: 1.4; --ppl-weight-spacing-multiplier: 0.85; --ppl-weight-letter-spacing: 0.005em; --ppl-weight-density: compact; --ppl-weight-density-descriptor: compact; --ppl-theme-primary: oklch(0.4 0.10496582031250001 230); --ppl-theme-secondary: oklch(0.5 0.11200000000000002 230); --ppl-theme-background: oklch(0.97 0.014000000000000002 230); --ppl-theme-surface: oklch(1 0 0); --ppl-theme-text: oklch(0.26 0.06820556640625 230); --ppl-theme-accent: oklch(0.34 0.08920898437500002 230); --ppl-theme-border: oklch(0.82 0.042 230); --ppl-weight-saturation: 0.50; --ppl-weight-contrast: 1.000; --ppl-weight-tonal-name: planning; --ppl-weight-gradient-direction: to bottom; --ppl-weight-layout-flow: column; --ppl-weight-typography-bias: classical; --ppl-weight-visual-rhythm: 1.000; --ppl-weight-emphasis-push: 0.125; --ppl-weight-emphasis-pull: 1.000; --ppl-weight-emphasis-legs: 0.250; --ppl-weight-emphasis-plus: 0.500; --ppl-weight-emphasis-ultra: 0.250; --ppl-weight-rep-display: 0.563; --ppl-weight-block-spacing: 0.591; --ppl-weight-cue-density: 0.591; --ppl-weight-rest-emphasis: 0.900"
+      >
+        <!-- ═══ HEADER ZONE ═══ -->
+        <header class="ppl-card__header">
+          <div class="ppl-card__header-title-row">
+            <span class="ppl-card__type-emoji ppl-card__type-emoji--left" aria-hidden="true">🪡</span>
+            <h1 class="ppl-card__header-title">Bent-Over Barbell Row — Back Strength Log</h1>
+            <span class="ppl-card__type-emoji ppl-card__type-emoji--right" aria-hidden="true">🪡</span>
+          </div>
+          <p class="ppl-card__subtitle">Strength · 🪡 Pull | Lats, rear delts, biceps · 🔵 Structured · ~50 min</p>
+          <div class="ppl-card__meta">
+            <span class="ppl-card__code" aria-label="Zip code">⛽🏛🪡🔵</span>
+            <span class="ppl-card__operator">🤌 facio</span>
+            <span class="ppl-card__numeric-zip" aria-label="Numeric zip">2123</span>
+          </div>
+          <blockquote class="ppl-card__intention" aria-label="Session intention">
+            <span class="ppl-card__intention-emoji" aria-hidden="true">🎯</span>
+            "Load the pull and feel the weight in your hands before it leaves the floor."
+          </blockquote>
+        </header>
+
+        <!-- ═══ BLOCK ZONE ═══ -->
+        <div class="ppl-card__block-zone">
+
+          <!-- Block 1: Warm-Up -->
+          <section class="ppl-block ppl-block--orientation" data-block="warm-up">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">♨️</span>
+              <h3 class="ppl-block__name">Warm-Up</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>5 min easy movement. Hip hinges, band pull-aparts, scapular retractions.</p>
+              <p>Rest: none — continuous flow.</p>
+            </div>
+          </section>
+
+          <!-- Block 2: Primer -->
+          <section class="ppl-block ppl-block--access" data-block="primer">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">▶️</span>
+              <h3 class="ppl-block__name">Primer</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>⛽🏛🪡🔵 → PRIMER → 🪡 Pull → 🏛 Basics → 🔵 Structured (Block | Lats | Bilateral | Barbell)</p>
+              <p>├─ 1 × 🪡 Deadlift @ 60% × 5 reps (hinge pattern activation)</p>
+              <p>│  Rest: 90 s</p>
+              <p>└─ 2 × 🪡 Barbell Row @ 65% × 5 reps (back activation)</p>
+              <p>   Rest: 2 min</p>
+            </div>
+          </section>
+
+          <!-- Block 3: Bread & Butter (high emphasis) -->
+          <section class="ppl-block ppl-block--transformation ppl-block--high-emphasis" data-block="bread-butter">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">🧈</span>
+              <h3 class="ppl-block__name">Bread &amp; Butter</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>⛽🏛🪡🔵 → BREAD/BUTTER → 🪡 Pull → 🏛 Basics → 🔵 Structured (Block | Lats | Bilateral | Barbell)</p>
+              <p>├─ 🪡 Bent-Over Barbell Row</p>
+              <p>│  Set 1: ⛽ 75% × 5 (set the back, brace hard)</p>
+              <p>│  Set 2: ⛽ 80% × 5 (pull to the lower sternum)</p>
+              <p>│  Set 3: ⛽ 80% × 5 (elbows back, not flared)</p>
+              <p>│  Set 4: ⛽ 82% × 5 (controlled descent, 3 s)</p>
+              <p>│  Set 5: ⛽ 85% × 5 (hold the weight at the top)</p>
+              <p>│  Rest: 3–4 min between sets</p>
+              <p>└─ Log weight and reps below:</p>
+              <!-- Logging scaffold for main exercise -->
+              <div class="ppl-log-scaffold">
+                <div class="ppl-log-row">
+                  <label class="ppl-log-label">Weight</label>
+                  <input class="ppl-log-input" type="text" placeholder="kg / lb" aria-label="Weight logged" />
+                </div>
+                <div class="ppl-log-row">
+                  <label class="ppl-log-label">Reps</label>
+                  <input class="ppl-log-input" type="text" placeholder="reps" aria-label="Reps logged" />
+                </div>
+                <div class="ppl-log-row">
+                  <span class="ppl-timer-slot" aria-label="Rest timer">⏱ —</span>
+                  <label class="ppl-log-checkbox-label">
+                    <input class="ppl-log-checkbox" type="checkbox" aria-label="Set complete" />
+                    <span class="ppl-log-checkbox-text">Done</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Block 4: Supplemental -->
+          <section class="ppl-block ppl-block--transformation" data-block="supplemental">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">🧩</span>
+              <h3 class="ppl-block__name">Supplemental</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>⛽🏛🪡🔵 → SUPPLEMENTAL → 🪡 Pull → 🏛 Basics → 🔵 Structured (Block | Biceps | Bilateral | Dumbbell)</p>
+              <p>├─ 3 × 🪡 Dumbbell Row @ 70% × 8 reps (chest on bench, strict elbow)</p>
+              <p>│  Rest: 2 min</p>
+              <p>└─ 3 × 🪡 Face Pull × 12 reps (external rotation, band or cable)</p>
+              <p>   Rest: 90 s</p>
+            </div>
+          </section>
+
+          <!-- Block 5: Release -->
+          <section class="ppl-block ppl-block--retention" data-block="release">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">🪫</span>
+              <h3 class="ppl-block__name">Release</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>Stress out. Decompress the spine. 3–4 min.</p>
+              <p>├─ Doorframe lat hang, 30 s each side</p>
+              <p>└─ Child's pose, 60 s</p>
+            </div>
+          </section>
+
+        </div><!-- /.ppl-card__block-zone -->
+
+        <!-- ═══ FOOTER ZONE ═══ -->
+        <footer class="ppl-card__footer">
+
+          <!-- Junction block -->
+          <section class="ppl-block ppl-block--retention ppl-block--footer" data-block="junction">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">🚂</span>
+              <h3 class="ppl-block__name">Junction</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>Next →</p>
+              <p>├─ 2113 (⛽🏛🛒🔵) — horizontal push to balance pull volume</p>
+              <p>├─ 2133 (⛽🏛🍗🔵) — leg session while back recovers</p>
+              <p>└─ 2123 (⛽🏛🪡🔵) — same address, add 2.5 kg next week</p>
+              <div class="ppl-log-scaffold">
+                <div class="ppl-log-row">
+                  <label class="ppl-log-label">Session notes</label>
+                  <input class="ppl-log-input" type="text" placeholder="notes" aria-label="Session notes" style="width: 140px" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Save block -->
+          <section class="ppl-block ppl-block--retention ppl-block--footer" data-block="save">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">🧮</span>
+              <h3 class="ppl-block__name">Save</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>The bar knows. Log the weight. Log the reps. The number doesn't lie.</p>
+            </div>
+            <div class="ppl-block__save-ritual" aria-label="Session complete"></div>
+          </section>
+
+        </footer>
+      </article>
+    </div><!-- /.preview-card-wrapper -->
+
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- CARD 2: Zip 2115 — ⛽🏛🛒🔴 Intense                           -->
+    <!-- resolveZip(2,1,1,5) → weightsToCSSVars()                      -->
+    <!-- passion tonal palette | saturation 0.90 | bold crosshatch      -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+
+    <div class="preview-card-wrapper">
+      <span class="preview-card-label">⛽🏛🛒🔴 — Intense · saturation 0.90 · bold crosshatch</span>
+
+      <article
+        class="ppl-card"
+        data-color="intense"
+        data-order="strength"
+        data-axis="basics"
+        data-zip="2115"
+        style="--ppl-weight-font-weight: 800; --ppl-weight-font-weight-display: 900; --ppl-weight-lineheight: 1.4; --ppl-weight-spacing-multiplier: 0.85; --ppl-weight-letter-spacing: 0.005em; --ppl-weight-density: compact; --ppl-weight-density-descriptor: compact; --ppl-theme-primary: oklch(0.42 0.1919091796875 25); --ppl-theme-secondary: oklch(0.52 0.17600000000000002 25); --ppl-theme-background: oklch(0.97 0.019121093750000002 25); --ppl-theme-surface: oklch(1 0 0); --ppl-theme-text: oklch(0.27999999999999997 0.12791796875 25); --ppl-theme-accent: oklch(0.36 0.1644521484375 25); --ppl-theme-border: oklch(0.82 0.066 25); --ppl-weight-saturation: 0.90; --ppl-weight-contrast: 1.000; --ppl-weight-tonal-name: passion; --ppl-weight-gradient-direction: to bottom; --ppl-weight-layout-flow: column; --ppl-weight-typography-bias: classical; --ppl-weight-visual-rhythm: 1.000; --ppl-weight-emphasis-push: 1.000; --ppl-weight-emphasis-pull: 0.125; --ppl-weight-emphasis-legs: 0.250; --ppl-weight-emphasis-plus: 0.500; --ppl-weight-emphasis-ultra: 0.250; --ppl-weight-rep-display: 0.583; --ppl-weight-block-spacing: 0.676; --ppl-weight-cue-density: 0.676; --ppl-weight-rest-emphasis: 0.900"
+      >
+        <!-- ═══ HEADER ZONE ═══ -->
+        <header class="ppl-card__header">
+          <div class="ppl-card__header-title-row">
+            <span class="ppl-card__type-emoji ppl-card__type-emoji--left" aria-hidden="true">🛒</span>
+            <h1 class="ppl-card__header-title">Barbell Bench Press — Chest Strength Max</h1>
+            <span class="ppl-card__type-emoji ppl-card__type-emoji--right" aria-hidden="true">🛒</span>
+          </div>
+          <p class="ppl-card__subtitle">Strength · 🛒 Push | Chest, front delts, triceps · 🔴 Intense · ~55 min</p>
+          <div class="ppl-card__meta">
+            <span class="ppl-card__code" aria-label="Zip code">⛽🏛🛒🔴</span>
+            <span class="ppl-card__operator">🤌 facio</span>
+            <span class="ppl-card__numeric-zip" aria-label="Numeric zip">2115</span>
+          </div>
+          <blockquote class="ppl-card__intention" aria-label="Session intention">
+            <span class="ppl-card__intention-emoji" aria-hidden="true">🎯</span>
+            "Upper body is loaded and ready. Push to the top of today's range."
+          </blockquote>
+        </header>
+
+        <!-- ═══ BLOCK ZONE ═══ -->
+        <div class="ppl-card__block-zone">
+
+          <!-- Block 1: Warm-Up -->
+          <section class="ppl-block ppl-block--orientation" data-block="warm-up">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">♨️</span>
+              <h3 class="ppl-block__name">Warm-Up</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>5 min: shoulder circles, band pull-aparts, empty bar bench warm-up (2 × 15 reps).</p>
+              <p>Rest: none.</p>
+            </div>
+          </section>
+
+          <!-- Block 2: Primer -->
+          <section class="ppl-block ppl-block--access" data-block="primer">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">▶️</span>
+              <h3 class="ppl-block__name">Primer</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>⛽🏛🛒🔴 → PRIMER → 🛒 Push → 🏛 Basics → 🔴 Intense (Block | Chest | Bilateral | Barbell)</p>
+              <p>├─ 2 × 🛒 Barbell Bench Press @ 55% × 5 reps (groove the path)</p>
+              <p>│  Rest: 90 s</p>
+              <p>└─ 2 × 🛒 Barbell Bench Press @ 70% × 3 reps (speed off chest)</p>
+              <p>   Rest: 2 min</p>
+            </div>
+          </section>
+
+          <!-- Block 3: Bread & Butter (high emphasis) -->
+          <section class="ppl-block ppl-block--transformation ppl-block--high-emphasis" data-block="bread-butter">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">🧈</span>
+              <h3 class="ppl-block__name">Bread &amp; Butter</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>⛽🏛🛒🔴 → BREAD/BUTTER → 🛒 Push → 🏛 Basics → 🔴 Intense (Block | Chest | Bilateral | Barbell)</p>
+              <p>├─ 🛒 Barbell Bench Press</p>
+              <p>│  Set 1: ⛽ 80% × 4 (tight arch, bar to lower sternum)</p>
+              <p>│  Set 2: ⛽ 82% × 4 (drive through the setup, not just the lift)</p>
+              <p>│  Set 3: ⛽ 85% × 4 (leg drive active throughout)</p>
+              <p>│  Set 4: ⛽ 85% × 4 (full lockout, squeeze at top)</p>
+              <p>│  Set 5: ⛽ 85% × max reps (stop 1 rep before failure)</p>
+              <p>│  Rest: 3–4 min</p>
+              <p>└─ Log:</p>
+              <!-- Logging scaffold -->
+              <div class="ppl-log-scaffold">
+                <div class="ppl-log-row">
+                  <label class="ppl-log-label">Weight</label>
+                  <input class="ppl-log-input" type="text" placeholder="kg / lb" aria-label="Weight logged" />
+                </div>
+                <div class="ppl-log-row">
+                  <label class="ppl-log-label">Reps</label>
+                  <input class="ppl-log-input" type="text" placeholder="reps" aria-label="Reps logged" />
+                </div>
+                <div class="ppl-log-row">
+                  <span class="ppl-timer-slot" aria-label="Rest timer">⏱ —</span>
+                  <label class="ppl-log-checkbox-label">
+                    <input class="ppl-log-checkbox" type="checkbox" aria-label="Set complete" />
+                    <span class="ppl-log-checkbox-text">Done</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Block 4: Supplemental (superset OK in 🔴) -->
+          <section class="ppl-block ppl-block--transformation" data-block="supplemental">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">🧩</span>
+              <h3 class="ppl-block__name">Supplemental</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>⛽🏛🛒🔴 → SUPPLEMENTAL → 🛒 Push → 🏛 Basics → 🔴 Intense (Block | Triceps | Bilateral | Barbell)</p>
+              <p>Superset — alternate without rest between A and B:</p>
+              <p>├─ A: 4 × 🛒 Close-Grip Bench Press @ 70% × 6 reps (elbows close)</p>
+              <p>└─ B: 4 × 🛒 Overhead Press @ 70% × 6 reps (brace and press overhead)</p>
+              <p>   Rest: 2 min after each superset pair</p>
+            </div>
+          </section>
+
+          <!-- Block 5: Release -->
+          <section class="ppl-block ppl-block--retention" data-block="release">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">🪫</span>
+              <h3 class="ppl-block__name">Release</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>Cathartic discharge. Let the effort go. 3 min.</p>
+              <p>├─ Doorframe chest stretch, 30 s each side</p>
+              <p>└─ Wrist and elbow circles, 60 s</p>
+            </div>
+          </section>
+
+        </div><!-- /.ppl-card__block-zone -->
+
+        <!-- ═══ FOOTER ZONE ═══ -->
+        <footer class="ppl-card__footer">
+
+          <!-- Junction block -->
+          <section class="ppl-block ppl-block--retention ppl-block--footer" data-block="junction">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">🚂</span>
+              <h3 class="ppl-block__name">Junction</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>Next →</p>
+              <p>├─ 2123 (⛽🏛🪡🔵) — pull day to balance today's push volume</p>
+              <p>├─ 2135 (⛽🏛🍗🔴) — leg session at same intensity</p>
+              <p>└─ 2115 (⛽🏛🛒🔴) — same address next week, add load</p>
+              <div class="ppl-log-scaffold">
+                <div class="ppl-log-row">
+                  <label class="ppl-log-label">Session notes</label>
+                  <input class="ppl-log-input" type="text" placeholder="notes" aria-label="Session notes" style="width: 140px" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Save block -->
+          <section class="ppl-block ppl-block--retention ppl-block--footer" data-block="save">
+            <header class="ppl-block__header">
+              <span class="ppl-block__emoji" aria-hidden="true">🧮</span>
+              <h3 class="ppl-block__name">Save</h3>
+            </header>
+            <div class="ppl-block__content">
+              <p>Two colored bars. One is your push. One is your pull. Check both are close.</p>
+            </div>
+            <div class="ppl-block__save-ritual" aria-label="Session complete"></div>
+          </section>
+
+        </footer>
+      </article>
+    </div><!-- /.preview-card-wrapper -->
+
+  </div><!-- /.preview-grid -->
+
+</body>
+</html>
