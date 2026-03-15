@@ -16,36 +16,38 @@ The technical firewall lives in `.codex/TASK-ARCHITECTURE.md` (Context Firewall 
 | **card-generator** | Subagent | claude-opus-4-6 | Single-card generation in isolated context |
 | **deck-auditor** | Subagent | claude-sonnet-4-6 | Read-only SCL compliance audit of completed decks |
 | **progress-tracker** | Subagent | claude-haiku-4-5 | Lightweight repo state scan and progress reporting |
+| **canvas-renderer** | Subagent | claude-sonnet-4-6 | Canvas component generation scoped to canvas/components/ only |
 
 ---
 
 ## Read / Write / Never-Touch Matrix
 
-| File Category | Claude Code | Codex | card-generator | deck-auditor | progress-tracker |
-|---------------|:-----------:|:-----:|:--------------:|:------------:|:----------------:|
-| `CLAUDE.md` | R/W (scoped) | R | R | R | R |
-| `scl-directory.md` | R | R | R | R | R |
-| `exercise-library.md` | R | R (parse only) | R | R | — |
-| `whiteboard.md` | R/W | R | — | — | R |
-| `session-log.md` | R/W | — | — | — | — |
-| `cards/**` | R/W | **Never** | W (assigned file only) | R | R (status scans) |
-| `middle-math/**` | R/W | R/W | R | — | — |
-| `scripts/**` | R/W | R/W | — | — | R |
-| `seeds/**` | R/W | R | — | — | — |
-| `scl-deep/**` | R/W | R/W (glossary + audit only) | R | — | — |
-| `deck-identities/**` | R/W | R | R | R | R |
-| `deck-cosmograms/**` | R/W | R/W (stubs only) | R | R | — |
-| `.codex/**` | R/W | R/W | — | — | — |
-| `.claude/**` | R/W | R/W | — | — | — |
-| `.github/**` | R/W | R/W | — | — | — |
-| `sql/**` | R/W | R/W | — | — | — |
-| `html/**` | R/W | R/W | — | — | — |
-| `docs/**` | R/W | R/W | — | — | R |
-| `operis-editions/**` (historical-events) | R/W | R/W (scaffolds only) | — | — | — |
-| `operis-editions/**` (editions) | R/W | **Never** | — | — | — |
-| `reports/**` | R/W | R/W | — | R | R |
-| `zip-web/**` | R/W | R | — | — | — |
-| `canvas/**` | R/W | R/W | — | — | — |
+| File Category | Claude Code | Codex | card-generator | deck-auditor | progress-tracker | canvas-renderer |
+|---------------|:-----------:|:-----:|:--------------:|:------------:|:----------------:|:---------------:|
+| `CLAUDE.md` | R/W (scoped) | R | R | R | R | — |
+| `scl-directory.md` | R | R | R | R | R | — |
+| `exercise-library.md` | R | R (parse only) | R | R | — | — |
+| `whiteboard.md` | R/W | R | — | — | R | — |
+| `session-log.md` | R/W | — | — | — | — | — |
+| `cards/**` | R/W | **Never** | W (assigned file only) | R | R (status scans) | **Never** |
+| `middle-math/**` | R/W | R/W | R | — | — | — |
+| `scripts/**` | R/W | R/W | — | — | R | — |
+| `seeds/**` | R/W | R | — | — | — | — |
+| `scl-deep/**` | R/W | R/W (glossary + audit only) | R | — | — | — |
+| `deck-identities/**` | R/W | R | R | R | R | — |
+| `deck-cosmograms/**` | R/W | R/W (stubs only) | R | R | — | — |
+| `.codex/**` | R/W | R/W | — | — | — | — |
+| `.claude/**` | R/W | R/W | — | — | — | — |
+| `.github/**` | R/W | R/W | — | — | — | — |
+| `sql/**` | R/W | R/W | — | — | — | — |
+| `html/**` | R/W | R/W | — | — | — | **Never** |
+| `docs/**` | R/W | R/W | — | — | R | — |
+| `operis-editions/**` (historical-events) | R/W | R/W (scaffolds only) | — | — | — | — |
+| `operis-editions/**` (editions) | R/W | **Never** | — | — | — | — |
+| `reports/**` | R/W | R/W | — | R | R | — |
+| `zip-web/**` | R/W | R | — | — | — | — |
+| `canvas/**` | R/W | R/W | — | — | — | R/W (components/ only) |
+| `canvas/components/**` | R/W | R/W | — | — | — | R/W |
 
 **Key:**
 - `R` — may read
@@ -86,6 +88,13 @@ The technical firewall lives in `.codex/TASK-ARCHITECTURE.md` (Context Firewall 
 - **Read only.** May run `scripts/progress-report.py` and `scripts/inventory.py` via Bash.
 - Returns dashboard snapshot to Claude Code. Does not write output to disk.
 - Lightweight — used at session start and on-demand status checks.
+
+### canvas-renderer Subagent
+- Writes: **only to `canvas/components/`**. Any other write is a boundary violation.
+- Reads: `canvas/src/` (rendering API), `canvas/src/tokens/` (token structure), `.claude/AGENT-BOUNDARIES.md`.
+- Never writes to: `cards/`, `html/`, `web/`, `middle-math/`.
+- Art direction: intaglio/banknote engraving aesthetic enforced on all component output (fine hatching, guilloche borders, serif/mono type — never rounded sans, never solid fills).
+- "Flush before delegate" rule: if this agent produces stdout output before delegating to another tool, stdout must be flushed first to avoid interleaved output.
 
 ---
 
@@ -164,6 +173,8 @@ fi
 - canvas/ source files (`canvas/src/`) must never import from web/ or cards/
 - `canvas/tests/` may import from middle-math/ JSON files for test data only (no runtime imports)
 - The "flush before delegate" rule applies: if a canvas/ hook produces output, it must flush stdout before any subagent delegation
+- PostToolUse hook is **LIVE** in `.claude/settings.json` — logs all canvas/ writes and prints art direction reminder
+- canvas-renderer subagent is defined at `.claude/agents/canvas-renderer.md` — scope: `canvas/components/` only
 
 **Dual hierarchy note:**
 - System hierarchy (Order > Color > Axis > Type) lives in the resolver (Phase 3), NOT in `canvas/src/types/`

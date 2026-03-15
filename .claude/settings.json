@@ -11,6 +11,15 @@
         ]
       },
       {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "FILE=$(echo \"$CLAUDE_TOOL_INPUT\" | python3 -c \"import sys, json; d=json.load(sys.stdin); print(d.get('file_path') or d.get('path') or '')\" 2>/dev/null); if echo \"$FILE\" | grep -q 'canvas/'; then echo \"--- Canvas write: $FILE ---\"; if echo \"$FILE\" | grep -qv 'canvas/components/\\|canvas/tests/\\|canvas/src/'; then echo \"INFO: Write to canvas/ root path: $FILE\"; fi; echo \"Art direction: intaglio aesthetic — see AGENT-BOUNDARIES.md canvas section\"; fi"
+          }
+        ]
+      },
+      {
         "hooks": [
           {
             "type": "command",
