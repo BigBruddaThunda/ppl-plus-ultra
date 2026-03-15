@@ -129,7 +129,7 @@ Plans:
   2. Integration test runs the full pipeline from text input to ParseResult to WeightVector to CSS custom properties without error
   3. Card HTML/TSX template renders a .md workout card as an interactive web component consuming CSS custom properties (no hardcoded styles)
   4. Intaglio art direction is visible in the rendered card output (hatching, engraving aesthetic applied via publication standard CSS)
-**Plans:** 2 plans
+**Plans:** 1/2 plans executed
 Plans:
 - [ ] 08-01-PLAN.md — Vitest suite: weight vector spot-checks (10 zips), keyword routing tests, full pipeline integration test
 - [ ] 08-02-PLAN.md — Card template: CardData types, WorkoutCard renderer, intaglio CSS, HTML preview
@@ -148,4 +148,4 @@ Phases execute in strict dependency order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 5. Rendering Pipeline | 1/1 | Complete   | 2026-03-14 |
 | 6. Claude Code Infrastructure | 1/1 | Complete   | 2026-03-15 |
 | 7. Scripts and State Persistence | 1/1 | Complete   | 2026-03-15 |
-| 8. Tests and Card Templates | 0/2 | Not started | - |
+| 8. Tests and Card Templates | 1/2 | In Progress|  |

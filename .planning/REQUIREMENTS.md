@@ -54,10 +54,10 @@ Requirements for initial release (Sessions 1-2). Each maps to roadmap phases.
 ### Testing
 
 - [x] **TEST-01**: Unit tests for zip converter (all 1,680 round-trip conversions)
-- [ ] **TEST-02**: Unit tests for weight vector computation (spot-check 10 representative zips across all Orders)
-- [ ] **TEST-03**: Unit tests for keyword dictionary scoring (known terms → correct dimension routing)
+- [x] **TEST-02**: Unit tests for weight vector computation (spot-check 10 representative zips across all Orders)
+- [x] **TEST-03**: Unit tests for keyword dictionary scoring (known terms → correct dimension routing)
 - [x] **TEST-04**: Unit tests for CSS derivation (weight vector → expected CSS custom properties)
-- [ ] **TEST-05**: Integration test for full pipeline (text input → ParseResult → weight vector → CSS vars)
+- [x] **TEST-05**: Integration test for full pipeline (text input → ParseResult → weight vector → CSS vars)
 
 ### Card Templates
 
@@ -136,9 +136,9 @@ Deferred to Session 3+ after infrastructure is solid.
 | CLCD-04 | Phase 7 | Complete |
 | CLCD-05 | Phase 7 | Complete |
 | CLCD-06 | Phase 7 | Complete |
-| TEST-02 | Phase 8 | Pending |
-| TEST-03 | Phase 8 | Pending |
-| TEST-05 | Phase 8 | Pending |
+| TEST-02 | Phase 8 | Complete |
+| TEST-03 | Phase 8 | Complete |
+| TEST-05 | Phase 8 | Complete |
 | CARD-01 | Phase 8 | Pending |
 | CARD-02 | Phase 8 | Pending |
 | CARD-03 | Phase 8 | Pending |
