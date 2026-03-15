@@ -56,7 +56,22 @@
       "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" frontmatter validate \".planning/phases/02-core-data/02-01-PLAN.md\" --schema plan 2>&1)",
       "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" frontmatter validate \".planning/phases/02-core-data/02-02-PLAN.md\" --schema plan 2>&1)",
       "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" frontmatter validate \".planning/phases/02-core-data/02-03-PLAN.md\" --schema plan 2>&1)",
-      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" phase complete \"04\")"
+      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" phase complete \"04\")",
+      "Bash(cd /c/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/canvas && npm test 2>&1)",
+      "Bash(cd /c/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/canvas && node -e \"\nimport\\('./src/weights/resolver.js'\\).then\\(\\({ resolveZip }\\) => {\n  const vec = resolveZip\\(2, 1, 2, 5\\);\n  console.log\\('Color range \\(positions 19-26\\):'\\);\n  for \\(let i = 19; i <= 26; i++\\) {\n    console.log\\('  W[' + i + '] = ' + vec[i]\\);\n  }\n}\\).catch\\(e => console.error\\(e\\)\\);\n\" 2>&1)",
+      "Bash(cd /c/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/canvas && npx tsx -e \"\nimport { resolveZip } from './src/weights/resolver.js';\nconst vec = resolveZip\\(2, 1, 2, 5\\); // Strength/Basics/Pull/Intense\nconsole.log\\('Color range \\(W pos 19-26\\):'\\);\nconst names = ['TEACHING', 'BODYWEIGHT', 'STRUCTURED', 'TECHNICAL', 'INTENSE', 'CIRCUIT', 'FUN', 'MINDFUL'];\nfor \\(let i = 19; i <= 26; i++\\) {\n  console.log\\('  [' + i + '] ' + names[i-19] + ' = ' + vec[i]\\);\n}\nconst vec2 = resolveZip\\(2, 1, 2, 8\\); // Strength/Basics/Pull/Mindful\nconsole.log\\('\\\\\\\\nColor range \\(W pos 19-26\\) for Mindful zip:'\\);\nfor \\(let i = 19; i <= 26; i++\\) {\n  console.log\\('  [' + i + '] ' + names[i-19] + ' = ' + vec2[i]\\);\n}\n\" 2>&1)",
+      "Bash(cd /c/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/canvas && npx tsx --version 2>&1 | head -1)",
+      "Bash(cd /c/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/canvas && npx tsx --tsconfig tsconfig.json -e \"\nimport { resolveZip } from './src/weights/resolver.js';\nconst vec = resolveZip\\(2, 1, 2, 5\\);\nconst names = ['TEACHING', 'BODYWEIGHT', 'STRUCTURED', 'TECHNICAL', 'INTENSE', 'CIRCUIT', 'FUN', 'MINDFUL'];\nconsole.log\\('Intense zip \\(2,1,2,5\\) color range:'\\);\nfor \\(let i = 19; i <= 26; i++\\) console.log\\('  [' + i + '] ' + names[i-19] + ' = ' + vec[i]\\);\nconst vec2 = resolveZip\\(2, 1, 2, 8\\);\nconsole.log\\('Mindful zip \\(2,1,2,8\\) color range:'\\);\nfor \\(let i = 19; i <= 26; i++\\) console.log\\('  [' + i + '] ' + names[i-19] + ' = ' + vec2[i]\\);\n\" 2>&1)",
+      "Bash(cd /c/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/canvas && npx vitest run --reporter=verbose 2>&1 | grep -A 5 \"Intense\\\\|Mindful\\\\|28 to be\" | head -30)",
+      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state advance-plan 2>&1)",
+      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state update-progress 2>&1)",
+      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state record-metric --phase \"05-rendering-pipeline\" --plan \"01\" --duration \"30\" --tasks \"3\" --files \"5\" 2>&1)",
+      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state add-decision --phase \"05-rendering-pipeline\" --summary \"detectDominantColorW\\(\\) uses hard-suppression fingerprints for Color tie-breaking: W.MINDFUL<=-6 → Intense active; W.INTENSE<=-6 → Mindful active\" 2>&1\nnode \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state add-decision --phase \"05-rendering-pipeline\" --summary \"vget\\(\\) helper centralizes Float32Array access invariant under noUncheckedIndexedAccess\" 2>&1\nnode \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state record-session --stopped-at \"Completed 05-01-PLAN.md\" 2>&1)",
+      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" roadmap update-plan-progress 5 2>&1)",
+      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" requirements mark-complete RNDR-05 RNDR-06 RNDR-07 TEST-04 2>&1)",
+      "Bash(cd canvas:*)",
+      "Bash(dir \"C:\\\\Users\\\\iamja\\\\Desktop\\\\ppl-plus-ultra\\\\ppl-plus-ultra\\\\canvas\\\\.planning\\\\phases\" 2>&1)",
+      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" phase complete \"05\")"
     ]
   }
 }
