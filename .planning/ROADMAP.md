@@ -104,7 +104,9 @@ Plans:
   2. canvas-renderer subagent is defined with explicit scope limited to canvas/components/ — it does not write to cards/, html/, or web/
   3. PostToolUse hook fires only on canvas/ file writes (path gate verified), applies art direction enforcement, and never uses exit code 2
   4. AGENT-BOUNDARIES.md documents which hooks own which paths and the "flush before delegate" rule
-**Plans**: TBD
+**Plans:** 1/1 plans
+Plans:
+- [ ] 06-01-PLAN.md — Skill, subagent, PostToolUse hook, and AGENT-BOUNDARIES governance
 
 ### Phase 7: Scripts and State Persistence
 **Goal**: canvas-to-production.sh and batch-propagate.sh exist and run; canvas state persists locally in .local/ and snapshots commit on /canvas-save command
@@ -114,7 +116,9 @@ Plans:
   1. canvas-to-production.sh accepts a canvas artifact path and copies it to the correct destination in cards/, html/, or web/ without overwriting non-canvas files
   2. batch-propagate.sh accepts a design element and a count N, templates it across N zip codes, and reports which files were written
   3. canvas/.local/ holds working state that is git-ignored; /canvas-save commits a named snapshot to git
-**Plans**: TBD
+**Plans:** 1/1 plans
+Plans:
+- [ ] 06-01-PLAN.md — Skill, subagent, PostToolUse hook, and AGENT-BOUNDARIES governance
 
 ### Phase 8: Tests and Card Templates
 **Goal**: The full pipeline is validated by a Vitest suite; HTML/TSX card templates render a .md workout card using CSS custom properties from the weight pipeline
@@ -125,7 +129,9 @@ Plans:
   2. Integration test runs the full pipeline from text input to ParseResult to WeightVector to CSS custom properties without error
   3. Card HTML/TSX template renders a .md workout card as an interactive web component consuming CSS custom properties (no hardcoded styles)
   4. Intaglio art direction is visible in the rendered card output (hatching, engraving aesthetic applied via publication standard CSS)
-**Plans**: TBD
+**Plans:** 1/1 plans
+Plans:
+- [ ] 06-01-PLAN.md — Skill, subagent, PostToolUse hook, and AGENT-BOUNDARIES governance
 
 ## Progress
 
