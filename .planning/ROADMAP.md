@@ -18,7 +18,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 4: Design Tokens** - design-tokens.json encoding all 8 Color palettes, 7 Order typographies, 6 Axis gradients; style-dictionary build (completed 2026-03-14)
 - [x] **Phase 5: Rendering Pipeline** - weightsToCSSVars() and all deriver functions; CSS arbitration spec locked before code (completed 2026-03-14)
 - [x] **Phase 6: Claude Code Infrastructure** - /blank-canvas skill, canvas-renderer subagent, PostToolUse hook, AGENT-BOUNDARIES.md (completed 2026-03-15)
-- [ ] **Phase 7: Scripts and State Persistence** - canvas-to-production.sh, batch-propagate.sh, canvas/.local/ state persistence
+- [x] **Phase 7: Scripts and State Persistence** - canvas-to-production.sh, batch-propagate.sh, canvas/.local/ state persistence (completed 2026-03-15)
 - [ ] **Phase 8: Tests and Card Templates** - Full Vitest suite, integration pipeline test, HTML/TSX card templates
 
 ## Phase Details
@@ -116,7 +116,7 @@ Plans:
   1. canvas-to-production.sh accepts a canvas artifact path and copies it to the correct destination in cards/, html/, or web/ without overwriting non-canvas files
   2. batch-propagate.sh accepts a design element and a count N, templates it across N zip codes, and reports which files were written
   3. canvas/.local/ holds working state that is git-ignored; /canvas-save commits a named snapshot to git
-**Plans:** 1 plan
+**Plans:** 1/1 plans complete
 Plans:
 - [ ] 07-01-PLAN.md — Canvas utility scripts (canvas-to-production.sh, batch-propagate.sh), weight driver, /canvas-save skill, and .local/ state persistence
 
@@ -146,5 +146,5 @@ Phases execute in strict dependency order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 4. Design Tokens | 2/2 | Complete   | 2026-03-14 |
 | 5. Rendering Pipeline | 1/1 | Complete   | 2026-03-14 |
 | 6. Claude Code Infrastructure | 1/1 | Complete   | 2026-03-15 |
-| 7. Scripts and State Persistence | 0/1 | Not started | - |
+| 7. Scripts and State Persistence | 1/1 | Complete   | 2026-03-15 |
 | 8. Tests and Card Templates | 0/TBD | Not started | - |

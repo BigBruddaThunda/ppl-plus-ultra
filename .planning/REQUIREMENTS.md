@@ -47,9 +47,9 @@ Requirements for initial release (Sessions 1-2). Each maps to roadmap phases.
 - [x] **CLCD-01**: /blank-canvas skill (SKILL.md with auto-invocation description)
 - [x] **CLCD-02**: canvas-renderer subagent definition (fresh context for v0, resumable for iteration)
 - [x] **CLCD-03**: PostToolUse hook path-gated to canvas/ directory (informational, never blocking)
-- [ ] **CLCD-04**: canvas-to-production.sh script porting canvas elements to cards/, html/, or web/
-- [ ] **CLCD-05**: batch-propagate.sh script templating a design across N zip codes
-- [ ] **CLCD-06**: Canvas state persistence — local working state in canvas/.local/ + git snapshots via /canvas-save command
+- [x] **CLCD-04**: canvas-to-production.sh script porting canvas elements to cards/, html/, or web/
+- [x] **CLCD-05**: batch-propagate.sh script templating a design across N zip codes
+- [x] **CLCD-06**: Canvas state persistence — local working state in canvas/.local/ + git snapshots via /canvas-save command
 
 ### Testing
 
@@ -133,9 +133,9 @@ Deferred to Session 3+ after infrastructure is solid.
 | CLCD-01 | Phase 6 | Complete |
 | CLCD-02 | Phase 6 | Complete |
 | CLCD-03 | Phase 6 | Complete |
-| CLCD-04 | Phase 7 | Pending |
-| CLCD-05 | Phase 7 | Pending |
-| CLCD-06 | Phase 7 | Pending |
+| CLCD-04 | Phase 7 | Complete |
+| CLCD-05 | Phase 7 | Complete |
+| CLCD-06 | Phase 7 | Complete |
 | TEST-02 | Phase 8 | Pending |
 | TEST-03 | Phase 8 | Pending |
 | TEST-05 | Phase 8 | Pending |

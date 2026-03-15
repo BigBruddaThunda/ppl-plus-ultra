@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 06-01-PLAN.md
-last_updated: "2026-03-15T00:30:35.381Z"
+stopped_at: Completed 07-01-PLAN.md
+last_updated: "2026-03-15T01:01:09.388Z"
 last_activity: 2026-03-14 — Plan 01-02 complete (zip converter with 6,762 tests)
 progress:
   total_phases: 8
-  completed_phases: 6
-  total_plans: 11
-  completed_plans: 11
+  completed_phases: 7
+  total_plans: 12
+  completed_plans: 12
 ---
 
 ---
@@ -74,6 +74,7 @@ Progress: [█░░░░░░░░░] 5%
 | Phase 04-design-tokens P02 | 15 | 2 tasks | 7 files |
 | Phase 05-rendering-pipeline P01 | 30 | 3 tasks | 5 files |
 | Phase 06-claude-code-infrastructure P01 | 3 | 2 tasks | 5 files |
+| Phase 07-scripts-and-state-persistence P01 | 4 | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -109,6 +110,9 @@ Recent decisions affecting current work:
 - [Phase 05-rendering-pipeline]: vget() helper centralizes Float32Array access invariant under noUncheckedIndexedAccess
 - [Phase 06-claude-code-infrastructure]: blank-canvas skill is read-only (Read/Bash/Grep/Glob only) — orients the agent without writing; canvas-renderer scope constraint is the FIRST instruction in the agent body
 - [Phase 06-claude-code-infrastructure]: PostToolUse hook for canvas/ added as separate entry (index 1) not merged with cards/ hook — each path domain gets its own hook entry
+- [Phase 07-scripts-and-state-persistence]: pathToFileURL() required for Node ESM dynamic import on Windows — bare drive-letter paths rejected by ESM loader
+- [Phase 07-scripts-and-state-persistence]: canvas-to-production.sh uses explicit -e pre-check not cp -n — cp -n silently succeeds on Windows when target exists
+- [Phase 07-scripts-and-state-persistence]: canvas-save skill stages explicit paths not git add -A — prevents accidental staging of canvas/.local/ if gitignore misconfigured
 
 ### Pending Todos
 
@@ -121,6 +125,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-15T00:27:09.102Z
-Stopped at: Completed 06-01-PLAN.md
+Last session: 2026-03-15T01:01:09.385Z
+Stopped at: Completed 07-01-PLAN.md
 Resume file: None
