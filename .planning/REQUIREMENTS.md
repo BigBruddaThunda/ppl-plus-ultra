@@ -44,9 +44,9 @@ Requirements for initial release (Sessions 1-2). Each maps to roadmap phases.
 
 ### Claude Code Infrastructure
 
-- [ ] **CLCD-01**: /blank-canvas skill (SKILL.md with auto-invocation description)
-- [ ] **CLCD-02**: canvas-renderer subagent definition (fresh context for v0, resumable for iteration)
-- [ ] **CLCD-03**: PostToolUse hook path-gated to canvas/ directory (informational, never blocking)
+- [x] **CLCD-01**: /blank-canvas skill (SKILL.md with auto-invocation description)
+- [x] **CLCD-02**: canvas-renderer subagent definition (fresh context for v0, resumable for iteration)
+- [x] **CLCD-03**: PostToolUse hook path-gated to canvas/ directory (informational, never blocking)
 - [ ] **CLCD-04**: canvas-to-production.sh script porting canvas elements to cards/, html/, or web/
 - [ ] **CLCD-05**: batch-propagate.sh script templating a design across N zip codes
 - [ ] **CLCD-06**: Canvas state persistence — local working state in canvas/.local/ + git snapshots via /canvas-save command
@@ -130,9 +130,9 @@ Deferred to Session 3+ after infrastructure is solid.
 | RNDR-06 | Phase 5 | Complete |
 | RNDR-07 | Phase 5 | Complete |
 | TEST-04 | Phase 5 | Complete |
-| CLCD-01 | Phase 6 | Pending |
-| CLCD-02 | Phase 6 | Pending |
-| CLCD-03 | Phase 6 | Pending |
+| CLCD-01 | Phase 6 | Complete |
+| CLCD-02 | Phase 6 | Complete |
+| CLCD-03 | Phase 6 | Complete |
 | CLCD-04 | Phase 7 | Pending |
 | CLCD-05 | Phase 7 | Pending |
 | CLCD-06 | Phase 7 | Pending |

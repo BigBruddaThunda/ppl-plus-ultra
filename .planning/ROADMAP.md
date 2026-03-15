@@ -17,7 +17,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 3: Integration** - Interaction resolver wiring weight tables into WeightVector; text scorer wiring vocab into ParseResult (completed 2026-03-14)
 - [x] **Phase 4: Design Tokens** - design-tokens.json encoding all 8 Color palettes, 7 Order typographies, 6 Axis gradients; style-dictionary build (completed 2026-03-14)
 - [x] **Phase 5: Rendering Pipeline** - weightsToCSSVars() and all deriver functions; CSS arbitration spec locked before code (completed 2026-03-14)
-- [ ] **Phase 6: Claude Code Infrastructure** - /blank-canvas skill, canvas-renderer subagent, PostToolUse hook, AGENT-BOUNDARIES.md
+- [x] **Phase 6: Claude Code Infrastructure** - /blank-canvas skill, canvas-renderer subagent, PostToolUse hook, AGENT-BOUNDARIES.md (completed 2026-03-15)
 - [ ] **Phase 7: Scripts and State Persistence** - canvas-to-production.sh, batch-propagate.sh, canvas/.local/ state persistence
 - [ ] **Phase 8: Tests and Card Templates** - Full Vitest suite, integration pipeline test, HTML/TSX card templates
 
@@ -104,7 +104,7 @@ Plans:
   2. canvas-renderer subagent is defined with explicit scope limited to canvas/components/ — it does not write to cards/, html/, or web/
   3. PostToolUse hook fires only on canvas/ file writes (path gate verified), applies art direction enforcement, and never uses exit code 2
   4. AGENT-BOUNDARIES.md documents which hooks own which paths and the "flush before delegate" rule
-**Plans:** 1/1 plans
+**Plans:** 1/1 plans complete
 Plans:
 - [ ] 06-01-PLAN.md — Skill, subagent, PostToolUse hook, and AGENT-BOUNDARIES governance
 
@@ -145,6 +145,6 @@ Phases execute in strict dependency order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 3. Integration | 2/2 | Complete   | 2026-03-14 |
 | 4. Design Tokens | 2/2 | Complete   | 2026-03-14 |
 | 5. Rendering Pipeline | 1/1 | Complete   | 2026-03-14 |
-| 6. Claude Code Infrastructure | 0/TBD | Not started | - |
+| 6. Claude Code Infrastructure | 1/1 | Complete   | 2026-03-15 |
 | 7. Scripts and State Persistence | 0/TBD | Not started | - |
 | 8. Tests and Card Templates | 0/TBD | Not started | - |
