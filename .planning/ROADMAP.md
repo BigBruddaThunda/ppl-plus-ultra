@@ -19,7 +19,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 5: Rendering Pipeline** - weightsToCSSVars() and all deriver functions; CSS arbitration spec locked before code (completed 2026-03-14)
 - [x] **Phase 6: Claude Code Infrastructure** - /blank-canvas skill, canvas-renderer subagent, PostToolUse hook, AGENT-BOUNDARIES.md (completed 2026-03-15)
 - [x] **Phase 7: Scripts and State Persistence** - canvas-to-production.sh, batch-propagate.sh, canvas/.local/ state persistence (completed 2026-03-15)
-- [ ] **Phase 8: Tests and Card Templates** - Full Vitest suite, integration pipeline test, HTML/TSX card templates
+- [x] **Phase 8: Tests and Card Templates** - Full Vitest suite, integration pipeline test, HTML/TSX card templates (completed 2026-03-15)
 
 ## Phase Details
 
@@ -129,7 +129,7 @@ Plans:
   2. Integration test runs the full pipeline from text input to ParseResult to WeightVector to CSS custom properties without error
   3. Card HTML/TSX template renders a .md workout card as an interactive web component consuming CSS custom properties (no hardcoded styles)
   4. Intaglio art direction is visible in the rendered card output (hatching, engraving aesthetic applied via publication standard CSS)
-**Plans:** 1/2 plans executed
+**Plans:** 2/2 plans complete
 Plans:
 - [ ] 08-01-PLAN.md — Vitest suite: weight vector spot-checks (10 zips), keyword routing tests, full pipeline integration test
 - [ ] 08-02-PLAN.md — Card template: CardData types, WorkoutCard renderer, intaglio CSS, HTML preview
@@ -148,4 +148,4 @@ Phases execute in strict dependency order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 5. Rendering Pipeline | 1/1 | Complete   | 2026-03-14 |
 | 6. Claude Code Infrastructure | 1/1 | Complete   | 2026-03-15 |
 | 7. Scripts and State Persistence | 1/1 | Complete   | 2026-03-15 |
-| 8. Tests and Card Templates | 1/2 | In Progress|  |
+| 8. Tests and Card Templates | 2/2 | Complete   | 2026-03-15 |

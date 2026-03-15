@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 08-01-PLAN.md
-last_updated: "2026-03-15T21:42:55.791Z"
+stopped_at: Checkpoint 08-02 Task 3 awaiting visual review
+last_updated: "2026-03-15T21:52:41.018Z"
 last_activity: 2026-03-14 — Plan 01-02 complete (zip converter with 6,762 tests)
 progress:
   total_phases: 8
-  completed_phases: 7
+  completed_phases: 8
   total_plans: 14
-  completed_plans: 13
+  completed_plans: 14
 ---
 
 ---
@@ -76,6 +76,7 @@ Progress: [█░░░░░░░░░] 5%
 | Phase 06-claude-code-infrastructure P01 | 3 | 2 tasks | 5 files |
 | Phase 07-scripts-and-state-persistence P01 | 4 | 2 tasks | 5 files |
 | Phase 08-tests-and-card-templates P01 | 4 | 2 tasks | 3 files |
+| Phase 08-tests-and-card-templates P02 | 8 | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -116,6 +117,9 @@ Recent decisions affecting current work:
 - [Phase 07-scripts-and-state-persistence]: canvas-save skill stages explicit paths not git add -A — prevents accidental staging of canvas/.local/ if gitignore misconfigured
 - [Phase 08-tests-and-card-templates]: zip 6526 resolves to Circuit (pos 6) not Fun (pos 7) — Color position 6 is Circuit in the SCL dial
 - [Phase 08-tests-and-card-templates]: bodyweight squat typePos resolves to Plus (4) not Legs (3) — keyword bigram scoring yields Plus; test asserts colorPos only
+- [Phase 08-tests-and-card-templates]: WorkoutCard.tsx is a pure function (CardData → string), not a React component — .tsx is forward-compatible
+- [Phase 08-tests-and-card-templates]: CSS vars injected on .ppl-card inline style, not :root — allows multiple cards with different palettes on same page
+- [Phase 08-tests-and-card-templates]: data-color attribute on .ppl-card drives Color-specific hatching selectors; pattern density driven by calc(var(--ppl-weight-saturation) * N)
 
 ### Pending Todos
 
@@ -128,6 +132,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-15T21:42:55.786Z
-Stopped at: Completed 08-01-PLAN.md
+Last session: 2026-03-15T21:52:31.556Z
+Stopped at: Checkpoint 08-02 Task 3 awaiting visual review
 Resume file: None

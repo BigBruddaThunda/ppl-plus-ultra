@@ -61,9 +61,9 @@ Requirements for initial release (Sessions 1-2). Each maps to roadmap phases.
 
 ### Card Templates
 
-- [ ] **CARD-01**: HTML/TSX template rendering a .md workout card as an interactive web component
-- [ ] **CARD-02**: Template consumes CSS custom properties from weight vector (no hardcoded styles)
-- [ ] **CARD-03**: Intaglio art direction applied via publication standard CSS (hatching, engraving aesthetic)
+- [x] **CARD-01**: HTML/TSX template rendering a .md workout card as an interactive web component
+- [x] **CARD-02**: Template consumes CSS custom properties from weight vector (no hardcoded styles)
+- [x] **CARD-03**: Intaglio art direction applied via publication standard CSS (hatching, engraving aesthetic)
 
 ## v2 Requirements
 
@@ -139,9 +139,9 @@ Deferred to Session 3+ after infrastructure is solid.
 | TEST-02 | Phase 8 | Complete |
 | TEST-03 | Phase 8 | Complete |
 | TEST-05 | Phase 8 | Complete |
-| CARD-01 | Phase 8 | Pending |
-| CARD-02 | Phase 8 | Pending |
-| CARD-03 | Phase 8 | Pending |
+| CARD-01 | Phase 8 | Complete |
+| CARD-02 | Phase 8 | Complete |
+| CARD-03 | Phase 8 | Complete |
 
 **Coverage:**
 - v1 requirements: 36 total
