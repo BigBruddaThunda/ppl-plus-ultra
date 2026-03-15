@@ -67,3 +67,6 @@ logs/
 
 # Supabase local
 supabase/.temp/
+
+# Canvas local working state (git-ignored)
+canvas/.local/
