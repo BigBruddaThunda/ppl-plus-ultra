@@ -1,0 +1,436 @@
+/**
+ * WorkoutCard.css — Intaglio art direction for Ppl± workout cards
+ *
+ * CARD-03: Banknote engraving aesthetic — hatching, guilloche, vignette, line-work borders.
+ * All colors reference CSS custom properties from weightsToCSSVars() output.
+ * Zero hardcoded color values.
+ *
+ * Art direction reference: banknote engraving (intaglio, guilloche, hatching).
+ * Pattern density is driven by --ppl-weight-saturation via calc() in rgba alpha.
+ *
+ * Color-specific hatching patterns use [data-color="X"] .ppl-block selectors.
+ * Saturation constants per Color:
+ *   teaching   0.05 | bodyweight 0.40 | structured 0.50 | technical 0.65
+ *   intense    0.90 | circuit    0.70 | fun        0.75 | mindful   0.10
+ */
+
+/* ─── Card root ─────────────────────────────────────────────────────────── */
+
+.ppl-card {
+  /* Layout */
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  min-height: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+
+  /* Typography from weight tokens */
+  font-weight: var(--ppl-weight-font-weight, 400);
+  line-height: var(--ppl-weight-lineheight, 1.6);
+  letter-spacing: var(--ppl-weight-letter-spacing, 0.01em);
+  font-family: Georgia, 'Times New Roman', serif;
+
+  /* Color theme */
+  background-color: var(--ppl-theme-background, oklch(0.97 0 0));
+  color: var(--ppl-theme-text, oklch(0.06 0 0));
+
+  /* Line-work double border — engraved certificate look */
+  border: 2px solid var(--ppl-theme-border, oklch(0.82 0 0));
+  outline: 1px solid var(--ppl-theme-border, oklch(0.82 0 0));
+  outline-offset: -5px;
+
+  /* Border radius — subtle, not soft */
+  border-radius: 3px;
+
+  /* Vignette edge darkening — radial gradient overlay */
+  background-image:
+    radial-gradient(ellipse at center, transparent 55%, rgba(0, 0, 0, 0.07) 100%);
+}
+
+/* ─── Header zone ───────────────────────────────────────────────────────── */
+
+.ppl-card__header {
+  padding: 24px 24px 20px;
+  border-bottom: 2px solid var(--ppl-theme-border, oklch(0.82 0 0));
+  position: relative;
+  background-color: var(--ppl-theme-surface, oklch(1 0 0));
+
+  /* Guilloche accent: concentric semicircles SVG data URI */
+  /* Note: SVG color uses a fixed medium-opacity dark tone — SVG data URIs
+     cannot reference CSS vars. Opacity provides the toning effect. */
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='60' viewBox='0 0 120 60'%3E%3Cellipse cx='60' cy='60' rx='58' ry='58' fill='none' stroke='%23000' stroke-width='0.6' opacity='0.08'/%3E%3Cellipse cx='60' cy='60' rx='48' ry='48' fill='none' stroke='%23000' stroke-width='0.5' opacity='0.07'/%3E%3Cellipse cx='60' cy='60' rx='38' ry='38' fill='none' stroke='%23000' stroke-width='0.5' opacity='0.06'/%3E%3Cellipse cx='60' cy='60' rx='28' ry='28' fill='none' stroke='%23000' stroke-width='0.4' opacity='0.05'/%3E%3Cellipse cx='60' cy='60' rx='18' ry='18' fill='none' stroke='%23000' stroke-width='0.4' opacity='0.04'/%3E%3C/svg%3E"),
+    radial-gradient(ellipse at center, transparent 60%, rgba(0, 0, 0, 0.04) 100%);
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  background-size: 120px 60px, cover;
+}
+
+.ppl-card__header-title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.ppl-card__type-emoji {
+  font-size: 1.8rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.ppl-card__header-title {
+  font-size: 1.25rem;
+  font-weight: var(--ppl-weight-font-weight-display, 700);
+  color: var(--ppl-theme-text, oklch(0.06 0 0));
+  margin: 0;
+  line-height: 1.2;
+  flex: 1;
+}
+
+.ppl-card__subtitle {
+  font-size: 0.8rem;
+  color: var(--ppl-theme-accent, oklch(0.14 0 0));
+  margin: 0 0 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.ppl-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.ppl-card__code {
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+}
+
+.ppl-card__operator {
+  font-size: 0.85rem;
+  color: var(--ppl-theme-primary, oklch(0.4 0.1 230));
+  font-style: italic;
+}
+
+.ppl-card__numeric-zip {
+  font-size: 0.75rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--ppl-theme-border, oklch(0.82 0 0));
+  margin-left: auto;
+}
+
+.ppl-card__intention {
+  margin: 0;
+  padding: 10px 14px;
+  border-left: 3px solid var(--ppl-theme-primary, oklch(0.4 0.1 230));
+  background-color: var(--ppl-theme-background, oklch(0.97 0 0));
+  font-style: italic;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--ppl-theme-text, oklch(0.06 0 0));
+}
+
+.ppl-card__intention-emoji {
+  margin-right: 6px;
+}
+
+/* ─── Block zone ────────────────────────────────────────────────────────── */
+
+.ppl-card__block-zone {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0;
+}
+
+/* ─── Uniform block container ──────────────────────────────────────────── */
+
+.ppl-block {
+  padding: 16px 24px;
+  position: relative;
+}
+
+/* Block separator: heavy ruled line between blocks */
+.ppl-block + .ppl-block {
+  border-top: 1px solid var(--ppl-theme-border, oklch(0.82 0 0));
+}
+
+/* High-emphasis block (Bread & Butter): heavier border treatment */
+.ppl-block--high-emphasis {
+  border-left: 4px solid var(--ppl-theme-primary, oklch(0.4 0.1 230));
+}
+
+.ppl-block__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.ppl-block__emoji {
+  font-size: 1.1rem;
+}
+
+.ppl-block__name {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ppl-theme-accent, oklch(0.14 0 0));
+  margin: 0;
+}
+
+.ppl-block__content {
+  font-size: 0.9rem;
+  line-height: var(--ppl-weight-lineheight, 1.6);
+}
+
+.ppl-block__content p {
+  margin: 0.4em 0;
+}
+
+.ppl-block__content ul,
+.ppl-block__content ol {
+  margin: 0.4em 0;
+  padding-left: 1.5em;
+}
+
+.ppl-block__content li {
+  margin: 0.2em 0;
+}
+
+/* ─── Color-specific hatching patterns ──────────────────────────────────── */
+/*
+ * Technique: repeating-linear-gradient for fine line patterns.
+ * Alpha driven by --ppl-weight-saturation via calc() so pattern density
+ * matches the Color's visual weight.
+ *
+ * Line size: 1px colored / (spacing)px transparent, repeated.
+ * Opacity = saturation * 0.25 (keeps hatching subtle — engraved, not noisy).
+ */
+
+/* ⚫ Teaching — Fine parallel lines (45deg), very low density (sat=0.05) */
+[data-color="teaching"] .ppl-block {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.05) * 0.4)) 0px,
+    rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.05) * 0.4)) 1px,
+    transparent 1px,
+    transparent 20px
+  );
+}
+
+/* 🟢 Bodyweight — Loose parallel lines (natural, 30deg), moderate spacing */
+[data-color="bodyweight"] .ppl-block {
+  background-image: repeating-linear-gradient(
+    30deg,
+    rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.40) * 0.25)) 0px,
+    rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.40) * 0.25)) 1px,
+    transparent 1px,
+    transparent 14px
+  );
+}
+
+/* 🔵 Structured — Ruled ledger lines (horizontal) — like a log book */
+[data-color="structured"] .ppl-block {
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.50) * 0.18)) 0px,
+    rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.50) * 0.18)) 1px,
+    transparent 1px,
+    transparent 24px
+  );
+}
+
+/* 🟣 Technical — Fine crosshatch (45deg + -45deg double gradient) */
+[data-color="technical"] .ppl-block {
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.65) * 0.15)) 0px,
+      rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.65) * 0.15)) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.65) * 0.15)) 0px,
+      rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.65) * 0.15)) 1px,
+      transparent 1px,
+      transparent 12px
+    );
+}
+
+/* 🔴 Intense — Bold crosshatch (45deg + -45deg), tight spacing, high opacity */
+[data-color="intense"] .ppl-block {
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.90) * 0.14)) 0px,
+      rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.90) * 0.14)) 1.5px,
+      transparent 1.5px,
+      transparent 8px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.90) * 0.14)) 0px,
+      rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.90) * 0.14)) 1.5px,
+      transparent 1.5px,
+      transparent 8px
+    );
+}
+
+/* 🟠 Circuit — Diagonal stripes (60deg) */
+[data-color="circuit"] .ppl-block {
+  background-image: repeating-linear-gradient(
+    60deg,
+    rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.70) * 0.20)) 0px,
+    rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.70) * 0.20)) 1px,
+    transparent 1px,
+    transparent 10px
+  );
+}
+
+/* 🟡 Fun — Loose diagonal (30deg), wide spacing */
+[data-color="fun"] .ppl-block {
+  background-image: repeating-linear-gradient(
+    30deg,
+    rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.75) * 0.18)) 0px,
+    rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.75) * 0.18)) 1px,
+    transparent 1px,
+    transparent 16px
+  );
+}
+
+/* ⚪ Mindful — Barely-there horizontal lines, maximum spacing */
+[data-color="mindful"] .ppl-block {
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.10) * 0.3)) 0px,
+    rgba(0, 0, 0, calc(var(--ppl-weight-saturation, 0.10) * 0.3)) 1px,
+    transparent 1px,
+    transparent 32px
+  );
+}
+
+/* ─── Footer zone ───────────────────────────────────────────────────────── */
+
+.ppl-card__footer {
+  border-top: 2px solid var(--ppl-theme-border, oklch(0.82 0 0));
+  background-color: var(--ppl-theme-background, oklch(0.97 0 0));
+}
+
+.ppl-block--footer {
+  background-color: var(--ppl-theme-background, oklch(0.97 0 0));
+}
+
+.ppl-block__save-ritual {
+  height: 24px;
+  border-top: 1px solid var(--ppl-theme-border, oklch(0.82 0 0));
+  margin-top: 12px;
+  opacity: 0.4;
+}
+
+/* ─── Logging scaffold elements ─────────────────────────────────────────── */
+
+.ppl-log-scaffold {
+  padding: 12px 24px;
+  border-top: 1px dashed var(--ppl-theme-border, oklch(0.82 0 0));
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.ppl-log-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ppl-log-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ppl-theme-border, oklch(0.82 0 0));
+}
+
+.ppl-log-input {
+  width: 64px;
+  height: 24px;
+  border: 1px solid var(--ppl-theme-border, oklch(0.82 0 0));
+  border-radius: 2px;
+  background: transparent;
+  color: var(--ppl-theme-text, oklch(0.06 0 0));
+  font-size: 0.8rem;
+  padding: 2px 6px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.ppl-log-input:focus {
+  outline: 1px solid var(--ppl-theme-primary, oklch(0.4 0.1 230));
+  outline-offset: 1px;
+}
+
+.ppl-timer-slot {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem;
+  color: var(--ppl-theme-accent, oklch(0.14 0 0));
+  border: 1px solid var(--ppl-theme-border, oklch(0.82 0 0));
+  border-radius: 2px;
+  padding: 2px 8px;
+}
+
+.ppl-log-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.ppl-log-checkbox {
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--ppl-theme-border, oklch(0.82 0 0));
+  border-radius: 2px;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.ppl-log-checkbox:checked {
+  background-color: var(--ppl-theme-primary, oklch(0.4 0.1 230));
+  border-color: var(--ppl-theme-primary, oklch(0.4 0.1 230));
+}
+
+.ppl-log-checkbox-text {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ppl-theme-border, oklch(0.82 0 0));
+}
+
+/* ─── Block role accent borders ─────────────────────────────────────────── */
+
+.ppl-block--orientation {
+  border-left: 2px solid var(--ppl-theme-accent, oklch(0.14 0 0));
+}
+
+.ppl-block--access {
+  border-left: 2px solid var(--ppl-theme-secondary, oklch(0.3 0 0));
+}
+
+.ppl-block--transformation {
+  border-left: 2px solid var(--ppl-theme-primary, oklch(0.4 0.1 230));
+}
+
+.ppl-block--retention {
+  border-left: 2px solid var(--ppl-theme-border, oklch(0.82 0 0));
+}
+
+.ppl-block--modifier {
+  border-left: 2px solid var(--ppl-theme-surface, oklch(1 0 0));
+}
