@@ -106,7 +106,7 @@ Plans:
   4. AGENT-BOUNDARIES.md documents which hooks own which paths and the "flush before delegate" rule
 **Plans:** 1/1 plans complete
 Plans:
-- [ ] 06-01-PLAN.md — Skill, subagent, PostToolUse hook, and AGENT-BOUNDARIES governance
+- [x] 06-01-PLAN.md — Skill, subagent, PostToolUse hook, and AGENT-BOUNDARIES governance
 
 ### Phase 7: Scripts and State Persistence
 **Goal**: canvas-to-production.sh and batch-propagate.sh exist and run; canvas state persists locally in .local/ and snapshots commit on /canvas-save command
@@ -116,9 +116,9 @@ Plans:
   1. canvas-to-production.sh accepts a canvas artifact path and copies it to the correct destination in cards/, html/, or web/ without overwriting non-canvas files
   2. batch-propagate.sh accepts a design element and a count N, templates it across N zip codes, and reports which files were written
   3. canvas/.local/ holds working state that is git-ignored; /canvas-save commits a named snapshot to git
-**Plans:** 1/1 plans
+**Plans:** 1 plan
 Plans:
-- [ ] 06-01-PLAN.md — Skill, subagent, PostToolUse hook, and AGENT-BOUNDARIES governance
+- [ ] 07-01-PLAN.md — Canvas utility scripts (canvas-to-production.sh, batch-propagate.sh), weight driver, /canvas-save skill, and .local/ state persistence
 
 ### Phase 8: Tests and Card Templates
 **Goal**: The full pipeline is validated by a Vitest suite; HTML/TSX card templates render a .md workout card using CSS custom properties from the weight pipeline
@@ -129,9 +129,9 @@ Plans:
   2. Integration test runs the full pipeline from text input to ParseResult to WeightVector to CSS custom properties without error
   3. Card HTML/TSX template renders a .md workout card as an interactive web component consuming CSS custom properties (no hardcoded styles)
   4. Intaglio art direction is visible in the rendered card output (hatching, engraving aesthetic applied via publication standard CSS)
-**Plans:** 1/1 plans
+**Plans:** TBD
 Plans:
-- [ ] 06-01-PLAN.md — Skill, subagent, PostToolUse hook, and AGENT-BOUNDARIES governance
+- [ ] (to be planned)
 
 ## Progress
 
@@ -146,5 +146,5 @@ Phases execute in strict dependency order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 4. Design Tokens | 2/2 | Complete   | 2026-03-14 |
 | 5. Rendering Pipeline | 1/1 | Complete   | 2026-03-14 |
 | 6. Claude Code Infrastructure | 1/1 | Complete   | 2026-03-15 |
-| 7. Scripts and State Persistence | 0/TBD | Not started | - |
+| 7. Scripts and State Persistence | 0/1 | Not started | - |
 | 8. Tests and Card Templates | 0/TBD | Not started | - |
