@@ -71,7 +71,24 @@
       "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" requirements mark-complete RNDR-05 RNDR-06 RNDR-07 TEST-04 2>&1)",
       "Bash(cd canvas:*)",
       "Bash(dir \"C:\\\\Users\\\\iamja\\\\Desktop\\\\ppl-plus-ultra\\\\ppl-plus-ultra\\\\canvas\\\\.planning\\\\phases\" 2>&1)",
-      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" phase complete \"05\")"
+      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" phase complete \"05\")",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && bash canvas/scripts/canvas-to-production.sh 2>&1 | head -3)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && bash canvas/scripts/batch-propagate.sh 2>&1 | head -3)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node canvas/scripts/run-weight.mjs 2>&1 | head -3)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node canvas/scripts/run-weight.mjs 2123 2>&1 | head -5)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && echo \"test content\" > canvas/components/test-fixture.html && bash canvas/scripts/canvas-to-production.sh canvas/components/test-fixture.html && echo \"PASS: .html routed correctly\" && rm -f canvas/components/test-fixture.html html/test-fixture.html)",
+      "Bash(bash canvas/scripts/batch-propagate.sh --skip-build BlockHeader 3 \"2113,2123,2133\")",
+      "Bash(ls canvas/components/BlockHeader-*.html)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/canvas && npm test 2>&1 | tail -10)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state advance-plan 2>&1)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state update-progress 2>&1)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state record-metric --phase \"07-scripts-and-state-persistence\" --plan \"01\" --duration \"4\" --tasks \"2\" --files \"5\" 2>&1)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state add-decision --phase \"07-scripts-and-state-persistence\" --summary \"pathToFileURL\\(\\) required for Node ESM dynamic import on Windows — bare drive-letter paths rejected by ESM loader\" 2>&1 && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state add-decision --phase \"07-scripts-and-state-persistence\" --summary \"canvas-to-production.sh uses explicit -e pre-check not cp -n — cp -n silently succeeds on Windows when target exists\" 2>&1 && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state add-decision --phase \"07-scripts-and-state-persistence\" --summary \"canvas-save skill stages explicit paths not git add -A — prevents accidental staging of canvas/.local/ if gitignore misconfigured\" 2>&1)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state record-session --stopped-at \"Completed 07-01-PLAN.md\" 2>&1)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" roadmap update-plan-progress 7 2>&1)",
+      "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" requirements mark-complete CLCD-04 CLCD-05 CLCD-06 2>&1)",
+      "Bash(ls \"C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/.planning/phases/07-scripts-and-state-persistence/\"*VERIFICATION* 2>/dev/null || echo \"NO_PREVIOUS_VERIFICATION\")",
+      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" phase complete \"07\")"
     ]
   }
 }
