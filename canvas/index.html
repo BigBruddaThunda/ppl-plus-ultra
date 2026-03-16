@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ppl± Canvas — Live Card Renderer</title>
+  <link rel="stylesheet" href="/src/tokens/design-tokens.css" />
+  <link rel="stylesheet" href="/components/WorkoutCard.css" />
+  <style>
+    :root {
+      --ui-bg: #0e0e0e;
+      --ui-surface: #1a1a1a;
+      --ui-border: #333;
+      --ui-text: #e0e0e0;
+      --ui-text-dim: #888;
+      --ui-accent: #7B4FA2;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', monospace;
+      background: var(--ui-bg);
+      color: var(--ui-text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ─── Top bar ─── */
+    .ppl-topbar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: var(--ui-surface);
+      border-bottom: 1px solid var(--ui-border);
+    }
+    .ppl-topbar__logo {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: var(--ui-accent);
+    }
+    .ppl-topbar__input {
+      flex: 1;
+      padding: 0.5rem 0.75rem;
+      font-family: inherit;
+      font-size: 0.95rem;
+      background: var(--ui-bg);
+      color: var(--ui-text);
+      border: 1px solid var(--ui-border);
+      border-radius: 4px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .ppl-topbar__input:focus {
+      border-color: var(--ui-accent);
+    }
+    .ppl-topbar__input::placeholder {
+      color: var(--ui-text-dim);
+    }
+    .ppl-topbar__hint {
+      font-size: 0.75rem;
+      color: var(--ui-text-dim);
+      white-space: nowrap;
+    }
+
+    /* ─── Parse result bar ─── */
+    .ppl-parse-bar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.5rem 1.5rem;
+      background: var(--ui-surface);
+      border-bottom: 1px solid var(--ui-border);
+      font-size: 0.8rem;
+      color: var(--ui-text-dim);
+      min-height: 2rem;
+    }
+    .ppl-parse-bar__zip {
+      font-size: 1.1rem;
+      letter-spacing: 0.1em;
+    }
+    .ppl-parse-bar__confidence {
+      color: var(--ui-accent);
+      font-weight: 600;
+    }
+    .ppl-parse-bar__defaulted {
+      color: #a06030;
+    }
+
+    /* ─── Card container ─── */
+    .ppl-canvas-area {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 2rem;
+      overflow-y: auto;
+    }
+    .ppl-canvas-area__card-wrapper {
+      max-width: 600px;
+      width: 100%;
+    }
+
+    /* ─── Empty state ─── */
+    .ppl-empty-state {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--ui-text-dim);
+    }
+    .ppl-empty-state__title {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      color: var(--ui-accent);
+    }
+    .ppl-empty-state__examples {
+      margin-top: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+    }
+    .ppl-empty-state__example {
+      padding: 0.35rem 0.75rem;
+      background: var(--ui-surface);
+      border: 1px solid var(--ui-border);
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: border-color 0.15s;
+    }
+    .ppl-empty-state__example:hover {
+      border-color: var(--ui-accent);
+      color: var(--ui-text);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top bar with input -->
+  <div class="ppl-topbar">
+    <span class="ppl-topbar__logo">Ppl±</span>
+    <input
+      id="zip-input"
+      class="ppl-topbar__input"
+      type="text"
+      placeholder="Type a zip code (2123) or natural language (heavy barbell back work)..."
+      autofocus
+    />
+    <span class="ppl-topbar__hint">Enter ↵</span>
+  </div>
+
+  <!-- Parse result bar -->
+  <div id="parse-bar" class="ppl-parse-bar" style="display: none;">
+    <span id="parse-zip" class="ppl-parse-bar__zip"></span>
+    <span id="parse-label"></span>
+    <span id="parse-confidence" class="ppl-parse-bar__confidence"></span>
+    <span id="parse-defaulted" class="ppl-parse-bar__defaulted"></span>
+  </div>
+
+  <!-- Card rendering area -->
+  <div class="ppl-canvas-area">
+    <div id="card-container" class="ppl-canvas-area__card-wrapper">
+      <div class="ppl-empty-state">
+        <div class="ppl-empty-state__title">±</div>
+        <p>Type a zip code or describe a workout</p>
+        <div class="ppl-empty-state__examples">
+          <span class="ppl-empty-state__example" data-input="2123">⛽🏛🪡🔵 (2123)</span>
+          <span class="ppl-empty-state__example" data-input="heavy barbell back work">heavy barbell back work</span>
+          <span class="ppl-empty-state__example" data-input="1315">🐂🌹🛒🔴 (1315)</span>
+          <span class="ppl-empty-state__example" data-input="bodyweight leg workout">bodyweight leg workout</span>
+          <span class="ppl-empty-state__example" data-input="7138">🖼🏛🍗⚪ (7138)</span>
+          <span class="ppl-empty-state__example" data-input="explosive power training">explosive power training</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/dev-app.ts"></script>
+</body>
+</html>

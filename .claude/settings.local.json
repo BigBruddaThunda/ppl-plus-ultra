@@ -89,7 +89,14 @@
       "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" requirements mark-complete CLCD-04 CLCD-05 CLCD-06 2>&1)",
       "Bash(ls \"C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/.planning/phases/07-scripts-and-state-persistence/\"*VERIFICATION* 2>/dev/null || echo \"NO_PREVIOUS_VERIFICATION\")",
       "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" phase complete \"07\")",
-      "Bash(start \"\" \"C:\\\\Users\\\\iamja\\\\Desktop\\\\ppl-plus-ultra\\\\ppl-plus-ultra\\\\canvas\\\\components\\\\card-preview.html\")"
+      "Bash(start \"\" \"C:\\\\Users\\\\iamja\\\\Desktop\\\\ppl-plus-ultra\\\\ppl-plus-ultra\\\\canvas\\\\components\\\\card-preview.html\")",
+      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" state record-session --stopped-at \"Completed 08-02-PLAN.md\" 2>&1)",
+      "Bash(ls /c/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/canvas/.planning/phases/08-tests-and-card-templates/*-VERIFICATION.md 2>/dev/null && echo \"FOUND\" || echo \"NOT FOUND\")",
+      "Bash(find /c/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/canvas -name \"*.planning\" -o -name \".planning\" 2>/dev/null | head -5; ls /c/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/canvas/ 2>/dev/null)",
+      "Bash(find /c/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra -name \".planning\" -type d 2>/dev/null; find /c/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra -name \"REQUIREMENTS.md\" 2>/dev/null; find /c/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra -path \"*08-tests-and-card-templates*\" 2>/dev/null | head -20)",
+      "Bash(npm test:*)",
+      "Bash(cat canvas/package.json | node -e \"process.stdin.setEncoding\\('utf8'\\);let d='';process.stdin.on\\('data',c=>d+=c\\);process.stdin.on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\);console.log\\('name:',j.name\\);console.log\\('scripts:',JSON.stringify\\(j.scripts,null,2\\)\\)}\\)\")",
+      "Bash(start \"\" \"http://localhost:5173\")"
     ]
   }
 }
