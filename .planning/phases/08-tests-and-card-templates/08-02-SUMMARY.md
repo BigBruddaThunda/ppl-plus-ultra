@@ -131,11 +131,17 @@ files: 5
 
 None — no external service configuration required.
 
+## Visual Checkpoint — Task 3
+
+**Status: APPROVED**
+
+Intaglio art direction reviewed and accepted. The banknote engraving aesthetic — hatching patterns, guilloche header accents, vignette edge darkening, and line-work double borders — is confirmed as the visual standard for Ppl± card templates.
+
 ## Next Phase Readiness
 
-- card-preview.html is ready for visual review (Task 3 checkpoint)
-- After checkpoint approval: CARD-01, CARD-02, CARD-03 requirements met
+- Intaglio card template approved — CARD-01, CARD-02, CARD-03 requirements complete
 - parseCardFile() is ready to integrate with actual .md card files in canvas/ for Phase 9+ dynamic rendering
+- WorkoutCard.css 8-Color hatching system is the established visual language for all future card variants
 
 ---
 *Phase: 08-tests-and-card-templates*
