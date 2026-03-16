@@ -88,7 +88,8 @@
       "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" roadmap update-plan-progress 7 2>&1)",
       "Bash(cd C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra && node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" requirements mark-complete CLCD-04 CLCD-05 CLCD-06 2>&1)",
       "Bash(ls \"C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/.planning/phases/07-scripts-and-state-persistence/\"*VERIFICATION* 2>/dev/null || echo \"NO_PREVIOUS_VERIFICATION\")",
-      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" phase complete \"07\")"
+      "Bash(node \"./.claude/get-shit-done/bin/gsd-tools.cjs\" phase complete \"07\")",
+      "Bash(start \"\" \"C:\\\\Users\\\\iamja\\\\Desktop\\\\ppl-plus-ultra\\\\ppl-plus-ultra\\\\canvas\\\\components\\\\card-preview.html\")"
     ]
   }
 }
