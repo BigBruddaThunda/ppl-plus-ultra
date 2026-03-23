@@ -6,21 +6,29 @@
 
 import type { CardFrontmatter, WorkoutCard, ZipCode } from "@/types/scl";
 
-let matter: typeof import("gray-matter")["default"] | null = null;
-let fs: typeof import("fs") | null = null;
-let pathJoin: typeof import("path")["join"] | null = null;
-let CARDS_ROOT = "";
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let _matter: any = null;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let _fs: any = null;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let _join: any = null;
+let _root = "";
+let _initialized = false;
+let _available = false;
 
 // Lazy-init filesystem access — fails gracefully on Vercel
-function initFs() {
-  if (fs !== null) return true;
+function initFs(): boolean {
+  if (_initialized) return _available;
+  _initialized = true;
   try {
-    fs = require("fs");
-    pathJoin = require("path").join;
-    matter = require("gray-matter");
-    CARDS_ROOT = pathJoin!(process.cwd(), "..", "cards");
-    return fs!.existsSync(CARDS_ROOT);
+    _fs = require("fs");
+    _join = require("path").join;
+    _matter = require("gray-matter");
+    _root = _join(process.cwd(), "..", "cards");
+    _available = _fs.existsSync(_root);
+    return _available;
   } catch {
+    _available = false;
     return false;
   }
 }
@@ -58,7 +66,7 @@ const TYPE_DIRS: Record<string, string> = {
  * Returns null gracefully on Vercel where cards/ is not available.
  */
 export function loadCard(zip: ZipCode): WorkoutCard | null {
-  if (!initFs() || !fs || !pathJoin || !matter) return null;
+  if (!initFs()) return null;
 
   try {
     const orderDir = ORDER_DIRS[zip.order];
@@ -67,17 +75,17 @@ export function loadCard(zip: ZipCode): WorkoutCard | null {
 
     if (!orderDir || !axisDir || !typeDir) return null;
 
-    const dirPath = pathJoin(CARDS_ROOT, orderDir, axisDir, typeDir);
-    if (!fs.existsSync(dirPath)) return null;
+    const dirPath = _join(_root, orderDir, axisDir, typeDir);
+    if (!_fs.existsSync(dirPath)) return null;
 
     // Find file matching the emoji zip prefix
-    const files = fs.readdirSync(dirPath);
+    const files = _fs.readdirSync(dirPath) as string[];
     const match = files.find((f: string) => f.startsWith(zip.raw) && f.endsWith(".md"));
     if (!match) return null;
 
-    const raw = fs.readFileSync(pathJoin(dirPath, match), "utf-8");
-    const { data, content } = matter(raw);
-    const fm = data as CardFrontmatter;
+    const raw = _fs.readFileSync(_join(dirPath, match), "utf-8") as string;
+    const { data, content } = _matter(raw) as { data: CardFrontmatter; content: string };
+    const fm = data;
 
     // Don't render empty stubs
     if (fm.status === "EMPTY") return null;

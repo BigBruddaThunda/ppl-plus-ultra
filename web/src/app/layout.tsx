@@ -1,24 +1,20 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import { HomeButton } from "@/components/nav/HomeButton";
 import "./globals.css";
 
-const inter = localFont({
-  src: [
-    { path: "./fonts/inter-var.woff2", style: "normal" },
-  ],
+const inter = Inter({
   variable: "--font-body",
+  subsets: ["latin"],
   display: "swap",
-  fallback: ["system-ui", "-apple-system", "Segoe UI", "Roboto", "Helvetica Neue", "sans-serif"],
+  fallback: ["system-ui", "sans-serif"],
 });
 
-const mono = localFont({
-  src: [
-    { path: "./fonts/jetbrains-mono-var.woff2", style: "normal" },
-  ],
+const jetbrainsMono = JetBrains_Mono({
   variable: "--font-mono",
+  subsets: ["latin"],
   display: "swap",
-  fallback: ["Menlo", "Consolas", "Monaco", "Liberation Mono", "monospace"],
+  fallback: ["monospace"],
 });
 
 export const metadata: Metadata = {
@@ -33,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${mono.variable} antialiased`}>
+      <body className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}>
         {children}
         <HomeButton />
       </body>
