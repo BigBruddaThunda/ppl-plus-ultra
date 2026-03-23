@@ -4,7 +4,9 @@
  * Wires the input bar → pipeline → card render loop.
  * Runs in Vite dev server (npm run dev).
  *
- * Pipeline: input → scoreText()/parseZip() → resolveZip() → weightsToCSSVars() → renderWorkoutCard()
+ * Two render paths:
+ *   1. Real card: fetches /api/card/:zip → renders actual .md workout content
+ *   2. Demo card: falls back to generated demo blocks when no .md file exists
  */
 
 import { ORDERS, AXES, TYPES, COLORS } from './types/scl.js';
@@ -31,100 +33,6 @@ const ORDER_MAP = ORDERS as Record<number, { emoji: string; name: string; slug: 
 const AXIS_MAP = AXES as Record<number, { emoji: string; name: string; slug: string }>;
 const TYPE_MAP = TYPES as Record<number, { emoji: string; name: string; slug: string }>;
 const COLOR_MAP = COLORS as Record<number, { emoji: string; name: string; slug: string }>;
-
-// ─── Operator derivation (simplified — Axis × Color polarity) ──────────────
-
-const OPERATOR_TABLE: Record<string, Record<string, string>> = {
-  // axis slug → { preparatory: op, expressive: op }
-  basics:     { preparatory: '📍 pono',   expressive: '🤌 facio' },
-  functional: { preparatory: '🧸 fero',   expressive: '🥨 tendo' },
-  aesthetic:  { preparatory: '👀 specio',  expressive: '🦢 plico' },
-  challenge:  { preparatory: '🪵 teneo',   expressive: '🚀 mitto' },
-  time:       { preparatory: '🐋 duco',    expressive: '✒️ grapho' },
-  partner:    { preparatory: '🧲 capio',   expressive: '🦉 logos' },
-};
-
-const PREPARATORY_COLORS = new Set(['teaching', 'bodyweight', 'mindful', 'fun']);
-
-function deriveOperator(axisSlug: string, colorSlug: string): string {
-  const row = OPERATOR_TABLE[axisSlug];
-  if (!row) return '🤌 facio';
-  const polarity = PREPARATORY_COLORS.has(colorSlug) ? 'preparatory' : 'expressive';
-  return row[polarity] ?? '🤌 facio';
-}
-
-// ─── Build CardData from dial positions ────────────────────────────────────
-
-function buildCardData(orderPos: number, axisPos: number, typePos: number, colorPos: number): CardData {
-  const order = ORDER_MAP[orderPos] ?? ORDER_MAP[2]!;
-  const axis = AXIS_MAP[axisPos] ?? AXIS_MAP[1]!;
-  const type = TYPE_MAP[typePos] ?? TYPE_MAP[1]!;
-  const color = COLOR_MAP[colorPos] ?? COLOR_MAP[3]!;
-
-  const zip = `${order.emoji}${axis.emoji}${type.emoji}${color.emoji}`;
-  const numericZip = `${orderPos}${axisPos}${typePos}${colorPos}`;
-  const operator = deriveOperator(axis.slug, color.slug);
-
-  // Resolve weight vector and derive CSS vars
-  const vector = resolveZip(orderPos, axisPos, typePos, colorPos);
-  const cssVars = weightsToCSSVars(vector, tokens);
-
-  // Build demo blocks to show the template
-  const blocks: BlockData[] = [
-    {
-      number: 1, emoji: '♨️', name: 'WARM-UP', slug: 'warm-up', role: 'orientation',
-      content: '', contentHtml: `<p>General warm-up: 5 min light cardio → dynamic stretching → movement-specific prep.</p>`
-    },
-    {
-      number: 2, emoji: '🎯', name: 'INTENTION', slug: 'intention', role: 'orientation',
-      content: '', contentHtml: `<blockquote>"${order.name} ${type.name} work through the ${axis.name} lens, formatted ${color.name}."</blockquote>`
-    },
-    {
-      number: 3, emoji: '🧈', name: 'BREAD & BUTTER', slug: 'bread-butter', role: 'transformation',
-      content: '', contentHtml: `
-        <p><strong>${type.emoji} Primary Movement</strong></p>
-        <p>Set 1: ${order.emoji} Working weight × target reps</p>
-        <p>Set 2: ${order.emoji} Working weight × target reps</p>
-        <p>Set 3: ${order.emoji} Working weight × target reps</p>
-        <p class="ppl-cue">(${axis.slug === 'basics' ? 'classic form, proven movement' : axis.slug === 'functional' ? 'stand tall, athletic stance' : axis.slug === 'aesthetic' ? 'feel the contraction, full ROM' : 'controlled execution'})</p>
-      `
-    },
-    {
-      number: 4, emoji: '🧩', name: 'SUPPLEMENTAL', slug: 'supplemental', role: 'transformation',
-      content: '', contentHtml: `
-        <p><strong>${type.emoji} Secondary Movement</strong></p>
-        <p>3 sets × target reps</p>
-        <p class="ppl-cue">(different angle from the primary)</p>
-      `
-    },
-    {
-      number: 5, emoji: '🚂', name: 'JUNCTION', slug: 'junction', role: 'retention',
-      content: '', contentHtml: `
-        <p><strong>Next session bridges:</strong></p>
-        <p>Next → ${order.emoji}${axis.emoji}${TYPE_MAP[((typePos % 5) + 1)]?.emoji ?? '🛒'}${color.emoji} — rotate the Type dial</p>
-      `
-    },
-    {
-      number: 6, emoji: '🧮', name: 'SAVE', slug: 'save', role: 'retention',
-      content: '', contentHtml: `<p>Session logged. The work speaks for itself.</p>`
-    },
-  ];
-
-  return {
-    zip,
-    numericZip,
-    operator,
-    title: `${order.name} ${type.name} — ${axis.name} ${color.name}`,
-    subtitle: `${order.name} · ${type.name} · ${axis.name} · ${color.name} · ~45 min`,
-    intention: `${order.name} ${type.name.toLowerCase()} work through the ${axis.name.toLowerCase()} lens.`,
-    typeEmoji: type.emoji,
-    blocks,
-    cssVars,
-    colorSlug: color.slug,
-    orderSlug: order.slug,
-    axisSlug: axis.slug,
-  };
-}
 
 // ─── Parse input ───────────────────────────────────────────────────────────
 
@@ -186,10 +94,61 @@ function parseInput(raw: string): ParsedInput | null {
   };
 }
 
+// ─── Build demo CardData (fallback when no .md file exists) ────────────────
+
+function buildDemoCard(orderPos: number, axisPos: number, typePos: number, colorPos: number): CardData {
+  const order = ORDER_MAP[orderPos] ?? ORDER_MAP[2]!;
+  const axis = AXIS_MAP[axisPos] ?? AXIS_MAP[1]!;
+  const type = TYPE_MAP[typePos] ?? TYPE_MAP[1]!;
+  const color = COLOR_MAP[colorPos] ?? COLOR_MAP[3]!;
+
+  const vector = resolveZip(orderPos, axisPos, typePos, colorPos);
+  const cssVars = weightsToCSSVars(vector, tokens);
+
+  const blocks: BlockData[] = [
+    { number: 1, emoji: '♨️', name: 'WARM-UP', slug: 'warm-up', role: 'orientation',
+      content: '', contentHtml: `<p>General warm-up: 5 min light cardio → dynamic stretching → movement-specific prep.</p>` },
+    { number: 2, emoji: '🎯', name: 'INTENTION', slug: 'intention', role: 'orientation',
+      content: '', contentHtml: `<blockquote>"${order.name} ${type.name.toLowerCase()} work through the ${axis.name.toLowerCase()} lens."</blockquote>` },
+    { number: 3, emoji: '🧈', name: 'BREAD & BUTTER', slug: 'bread-butter', role: 'transformation',
+      content: '', contentHtml: `
+        <div class="ppl-exercise-line"><strong>${type.emoji} Primary Movement</strong></div>
+        <div class="ppl-set-line">Set 1: ${order.emoji} Working weight × target reps</div>
+        <div class="ppl-set-line">Set 2: ${order.emoji} Working weight × target reps</div>
+        <div class="ppl-set-line">Set 3: ${order.emoji} Working weight × target reps</div>
+        <div class="ppl-rest-line">Rest: 120s</div>` },
+    { number: 4, emoji: '🧩', name: 'SUPPLEMENTAL', slug: 'supplemental', role: 'transformation',
+      content: '', contentHtml: `
+        <div class="ppl-exercise-line"><strong>${type.emoji} Secondary Movement</strong></div>
+        <div class="ppl-set-line">3 sets × target reps</div>
+        <div class="ppl-rest-line">Rest: 90s</div>` },
+    { number: 5, emoji: '🚂', name: 'JUNCTION', slug: 'junction', role: 'retention',
+      content: '', contentHtml: `<p>Next → rotate the Type dial</p>` },
+    { number: 6, emoji: '🧮', name: 'SAVE', slug: 'save', role: 'retention',
+      content: '', contentHtml: `<p>Session logged. The work speaks for itself.</p>` },
+  ];
+
+  return {
+    zip: `${order.emoji}${axis.emoji}${type.emoji}${color.emoji}`,
+    numericZip: `${orderPos}${axisPos}${typePos}${colorPos}`,
+    operator: `${order.name} ${axis.name}`,
+    title: `${order.name} ${type.name} — ${axis.name} ${color.name}`,
+    subtitle: `${order.name} · ${type.name} · ${axis.name} · ${color.name} · ~45 min`,
+    intention: `${order.name} ${type.name.toLowerCase()} work through the ${axis.name.toLowerCase()} lens.`,
+    typeEmoji: type.emoji,
+    blocks,
+    cssVars,
+    colorSlug: color.slug,
+    orderSlug: order.slug,
+    axisSlug: axis.slug,
+  };
+}
+
 // ─── Render ────────────────────────────────────────────────────────────────
 
-function renderCard(parsed: ParsedInput): void {
+async function renderCard(parsed: ParsedInput): Promise<void> {
   const { orderPos, axisPos, typePos, colorPos } = parsed;
+  const numericZip = `${orderPos}${axisPos}${typePos}${colorPos}`;
 
   const order = ORDER_MAP[orderPos] ?? ORDER_MAP[2]!;
   const axis = AXIS_MAP[axisPos] ?? AXIS_MAP[1]!;
@@ -207,8 +166,24 @@ function renderCard(parsed: ParsedInput): void {
     ? `defaulted: ${parsed.defaultedDimensions.join(', ')}`
     : '';
 
-  // Build and render card
-  const cardData = buildCardData(orderPos, axisPos, typePos, colorPos);
+  // Try to fetch the real card from the API
+  let cardData: CardData;
+  try {
+    const resp = await fetch(`/api/card/${numericZip}`);
+    if (resp.ok) {
+      cardData = await resp.json();
+      // The API returns cssVars from the server — use them directly
+      parseLabelEl.textContent += ' — real card';
+    } else {
+      // No .md file exists — use demo card
+      cardData = buildDemoCard(orderPos, axisPos, typePos, colorPos);
+      parseLabelEl.textContent += ' — demo';
+    }
+  } catch {
+    cardData = buildDemoCard(orderPos, axisPos, typePos, colorPos);
+    parseLabelEl.textContent += ' — demo';
+  }
+
   const html = renderWorkoutCard(cardData);
   cardContainer.innerHTML = html;
 }
