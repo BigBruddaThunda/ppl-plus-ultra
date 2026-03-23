@@ -65,7 +65,7 @@ A 🐂 Foundation workout might show ⛽🦋🏟 emojis next to individual exerc
 | Workout model | Static on spawn → living after first interaction. Toggles and logs trigger recomputation. |
 | Rebalance engine | Toggle off equipment/approaches → all 1,680 update. Log data persists across state changes. |
 | SCL constraints | Real but internal. Order ceilings, Color tiers, GOLD gates are engine rules. Users feel them, don't read them. |
-| Block system | All 22 blocks available to any zip code. Expressive icons, not structural rules. |
+| Block system | All 22 blocks available to any zip code. Character emerges from the Order, not from a validator. A 🏟 test has 3-4 blocks because that's what a test IS. |
 | Exercise data | Database from day one with structured fields. |
 | Repo strategy | Monorepo with packages. One home, organized layers. |
 | Vision layers | Archived in /vault as DLC. Nothing deleted. Everything organized. |
@@ -214,7 +214,8 @@ CREATE TABLE exercises (
 
   -- SCL mappings
   types TEXT NOT NULL,                 -- JSON array: ["🛒","🪡"]
-  equipment_tier INTEGER NOT NULL,     -- 0-5
+  equipment_tier_min INTEGER NOT NULL, -- Minimum tier needed (0-5)
+  equipment_tier_max INTEGER NOT NULL, -- Maximum tier it works in (0-5)
   equipment_tags TEXT,                 -- JSON array: ["barbell","rack","bench"]
   gold_gated BOOLEAN DEFAULT FALSE,
 
@@ -365,6 +366,39 @@ CREATE TABLE user_exercise_state (
 
 ---
 
+## Codex Bot Tension Log
+
+These are friction points identified by the Codex connector bot reviewing this direction document against the existing CLAUDE.md architecture. They're documented here because they reveal exactly where the old system and the new direction collide — and what the rebuild needs to handle.
+
+### Tension 1: Block Restrictions (P1 flag)
+
+**What the bot said:** Marking blocks as "all 22 available to any zip code" conflicts with hard SCL rules that pin each Order to a narrow block count (e.g., 🏟 = 3-4 blocks only).
+
+**Resolution:** The bot is defending validator rules that the reset dissolves. But the underlying wisdom is real — a Performance test SHOULD be 3-4 blocks. The difference is WHERE the constraint lives:
+- **Old system:** A validator rule rejects a 5-block 🏟 card. The constraint is a rung in the scan cycle.
+- **New system:** The resolver naturally produces 3-4 blocks for 🏟 because that's what a test session IS. The constraint is emergent from good workout design, not enforced by a linter.
+
+The Order still sets the character. The engine still knows that 🏟 = test/record/leave. But it knows this as design intelligence, not as a line-count validator. A workout can break the "rule" if it has a good reason — the old system couldn't allow that.
+
+### Tension 2: Equipment Tier Schema (P1 flag)
+
+**What the bot said:** The schema uses a single `equipment_tier INTEGER` but exercises span tier ranges. The current selector uses min/max.
+
+**Resolution:** The bot is correct. Fixed in this revision: `equipment_tier` → `equipment_tier_min` + `equipment_tier_max`. A barbell back squat needs tier 3 minimum but works in a tier 5 gym. The range is the right model.
+
+### Pattern: What These Tensions Reveal
+
+The Codex bot is defending the current CLAUDE.md as ground truth. Every tension point is a place where the new direction explicitly contradicts the old constraints. This is expected — the reset IS a contradiction of the old approach.
+
+The tensions are useful because they map exactly which old rules need to be:
+1. **Preserved as engine logic** (Order ceilings, Color tiers, GOLD gates, equipment ranges)
+2. **Dissolved into design intelligence** (block counts, block sequences, block-to-Order assignments)
+3. **Elevated to user-facing features** (zip code visibility, emoji vocabulary, the living library)
+
+As the Codex bot flags more tensions, they get logged here. Each one is a design decision, not a bug.
+
+---
+
 ## Key Principles
 
 1. **The zip code is the product.** Not hidden infrastructure. The user-facing identity.
@@ -374,3 +408,4 @@ CREATE TABLE user_exercise_state (
 5. **The seesaw never stops.** Every workout logged shifts the balance. The system breathes with the user.
 6. **Constraints are real but invisible.** Order ceilings, Color tiers, GOLD gates — engine rules that users feel, never read.
 7. **Vision content waits in the vault.** Ship the workout library. Layer everything else on top.
+8. **Tensions are design decisions.** When the old system and new direction collide, log the tension, make the call, move on.
