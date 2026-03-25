@@ -190,6 +190,7 @@ Creative exploration, discovery. Surprising AND useful.
 | DONE | — | Cosmogram contract prompt v1 | — | seeds/cosmogram-contract-prompt-v1.md — replaces domain-based research prompt for v2 format |
 | OPEN | — | Operis editorial voice prototype | — | Write one edition in full creative register |
 | OPEN | — | Deck campaign naming pass (Deck 09 titles) | — | Review operator + title quality across 40 cards |
+| OPEN | — | Pencil.dev integration architecture (seed + agent + directory) | Pencil install on PC | seeds/pencil-integration-architecture.md, .claude/agents/pencil-designer.md, pencil/ |
 | DONE | — | Abacus architecture seed | — | seeds/abacus-architecture.md — 35 training archetypes × 48 zips |
 | DONE | — | City Compiler architecture + implementation | — | Seed → built: web/src/lib/city-compiler.ts reads compiled JSON from middle-math/compiled/ (1,680 zips, 42 decks, 35 abaci) |
 | DONE | — | Home screen architecture seed | — | seeds/home-screen-architecture.md — 4 dials, 8 vials, central map, responsive breakpoints |
