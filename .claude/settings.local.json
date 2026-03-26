@@ -112,7 +112,11 @@
       "mcp__claude_ai_Vercel__get_deployment",
       "mcp__claude_ai_Vercel__get_deployment_build_logs",
       "mcp__claude_ai_Vercel__deploy_to_vercel",
-      "Bash(curl -sL \"https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip\" -o /tmp/inter.zip && unzip -o /tmp/inter.zip \"Inter-4.1/InterVariable.woff2\" -d /tmp/ && cp /tmp/Inter-4.1/InterVariable.woff2 web/src/app/fonts/inter-var.woff2 && echo \"Inter downloaded\" && ls -la web/src/app/fonts/inter-var.woff2)"
+      "Bash(curl -sL \"https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip\" -o /tmp/inter.zip && unzip -o /tmp/inter.zip \"Inter-4.1/InterVariable.woff2\" -d /tmp/ && cp /tmp/Inter-4.1/InterVariable.woff2 web/src/app/fonts/inter-var.woff2 && echo \"Inter downloaded\" && ls -la web/src/app/fonts/inter-var.woff2)",
+      "Bash(curl -sL \"https://github.com/JetBrains/JetBrainsMono/releases/download/v2.304/JetBrainsMono-2.304.zip\" -o /tmp/jbmono.zip && unzip -o /tmp/jbmono.zip \"fonts/variable/JetBrainsMono*\" -d /tmp/jbmono/ && cp /tmp/jbmono/fonts/variable/JetBrainsMono-Italic\\\\[wght\\\\].woff2 web/src/app/fonts/jetbrains-mono-var.woff2 2>/dev/null || cp /tmp/jbmono/fonts/variable/JetBrainsMono\\\\[wght\\\\].woff2 web/src/app/fonts/jetbrains-mono-var.woff2 2>/dev/null && echo \"JetBrains Mono downloaded\" && ls -la web/src/app/fonts/)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(ls C:/Users/iamja/Desktop/ppl-plus-ultra/ppl-plus-ultra/seeds/scl-glyph*)",
+      "Bash(ls /home/user/ppl-plus-ultra/seeds/scl-glyph*)"
     ]
   }
 }
